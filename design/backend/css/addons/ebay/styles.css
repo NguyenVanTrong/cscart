@@ -1,0 +1,18 @@
+.ebay_paypal_notice {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 550px;
+}
+
+.product-manage .shift-button {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.ebay-export-summary .text-error {
+	margin-left: 8px;
+}
+
+.ebay-export-summary .alert {
+	margin-bottom: 5px;
+}

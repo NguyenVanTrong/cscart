@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<email_templates scheme="1.0">
+    <templates>
+        <item>
+            <code><![CDATA[rma_slip_notification]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("rma_return") }} #{{ return_info.return_id }} {{ return_status.email_subj }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header") }}
+
+  {{ __("dear") }} {{ order_info.firstname }},<br /><br />
+
+{{ return_status.email_header }}<br /><br />
+
+<b>{{ __("packing_slip") }}:</b><br />
+
+{{ include_doc("rma_packing_slip.default", return_info.return_id) }}
+{{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+            <addon><![CDATA[rma]]></addon>
+        </item>
+        <item>
+            <code><![CDATA[rma_slip_notification]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("rma_return") }} #{{ return_info.return_id }} {{ return_status.email_subj }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header") }}
+
+
+{{ __("dear") }} {{ order_info.firstname }},<br /><br />
+
+{{ return_status.email_header }}<br /><br />
+
+<b>{{ __("packing_slip") }}:</b><br />
+
+{{ include_doc("rma_packing_slip.default", return_info.return_id) }}
+{{ snippet("footer") }}
+]]></default_template>
+            <params_schema/>
+            <params/>
+            <addon><![CDATA[rma]]></addon>
+        </item>
+    </templates>
+    <snippets/>
+</email_templates>

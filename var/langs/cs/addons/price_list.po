@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /addons/price_list.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:01-0500\n"
+
+msgctxt "Addons::name::price_list"
+msgid "Price list"
+msgstr "Ceník"
+
+msgctxt "Addons::description::price_list"
+msgid "Generates configurable price list in PDF or XLS"
+msgstr "Generuje konfigurovatelný ceník ve formátu PDF nebo XLS"
+
+msgctxt "Languages::price_list"
+msgid "Price list"
+msgstr "Ceník"
+
+msgctxt "Languages::selected_fields"
+msgid "Selected fields"
+msgstr "Vybrané pole"
+
+msgctxt "Languages::generating_pdf"
+msgid "Generating PDF. Please, be patient..."
+msgstr "Generuje se PDF. Počkejte, prosím..."
+
+msgctxt "Languages::generating_xls"
+msgid "Generating XLS. Please, be patient..."
+msgstr "Generuje se XLS. Počkejte, prosím..."
+
+msgctxt "Languages::price_list_ziparchive_not_installed"
+msgid "Impossible to create XML price list. Please add zip support in PHP on your server. Follow <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+msgstr "Nedokážu vytvořit ceník XML. Prosím, přidejte podporu zip do PHP vašeho serveru. Následujte instrukce <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+
+msgctxt "Languages::price_list.text_select_storefront"
+msgid "To generate a price list, please select storefront first."
+msgstr "Chcete-li vytvořit ceník, prosím, vyberte výkladní skříň jako první."
+
+msgctxt "Languages::price_list.text_regenerate"
+msgid "<p>If products, categories or selected fields were added or changed, please regenerate a price list:<br />[buttons]</p><p>Generated price lists are available by these links<br/>[links]</p>"
+msgstr "<p>Pokud výrobky byly přidána nebo změněna (kategorie nebo vybrané pole), prosím, obnovit ceník:<br />[buttons]</p><p>Vygenerované ceníky jsou k dispozici u tyto odkazech<br/>[links]</p>"
+
+msgctxt "SettingsSections::price_list::general"
+msgid "General"
+msgstr "Obecné"
+
+msgctxt "SettingsOptions::price_list::price_list_fields"
+msgid "Fields"
+msgstr "Pole"
+
+msgctxt "SettingsOptions::price_list::price_list_sorting"
+msgid "Sort by"
+msgstr "Seřadit podle"
+
+msgctxt "SettingsOptions::price_list::group_by_category"
+msgid "Group by category"
+msgstr "Seskupit podle kategorie"
+
+msgctxt "SettingsOptions::price_list::include_options"
+msgid "Include product options"
+msgstr "Zahrnout možnosti produktů"
+

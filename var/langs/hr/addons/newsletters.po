@@ -1,0 +1,430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Croatian\n"
+"Language: hr_HR\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: hr\n"
+"X-Crowdin-File: /addons/newsletters.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:01-0500\n"
+
+msgctxt "Addons::name::newsletters"
+msgid "Newsletters"
+msgstr "Newsletters"
+
+msgctxt "Addons::description::newsletters"
+msgid "Lets you configure newsletter sending"
+msgstr "Omogućuje vam konfiguriranje slanja newslettera"
+
+msgctxt "Languages::newsletters_menu_description"
+msgid "Create and send newsletters to your customer."
+msgstr "Stvaranje i slanje newslettera kupcu."
+
+msgctxt "Languages::news_plain"
+msgid "Plain"
+msgstr "Običan"
+
+msgctxt "Languages::text_signup_for_subscriptions"
+msgid "Sign up for our newsletters!"
+msgstr "Prijavite se za naš newsletter!"
+
+msgctxt "Languages::tmpl_subscription"
+msgid "Newsletters: subscription form"
+msgstr "Newsletter: obrazac za prijavu"
+
+msgctxt "Languages::unsubscribe_link"
+msgid "Unsubscribe link"
+msgstr "Odjaviti link"
+
+msgctxt "Languages::ne_add_subscribers_from_users"
+msgid "Add subscribers from the list of users"
+msgstr "Dodavanje pretplatnika iz popisa korisnika"
+
+msgctxt "Languages::ne_warning_subscr_email_exists"
+msgid "<b>[email]</b> is already in the subscribers list"
+msgstr "<b>[email]</b> je već na popisu pretplatnika"
+
+msgctxt "Languages::warning_subscribers_import"
+msgid "Some mailing lists from the input file could not be found in the database. Certain imported subscribers will be left unassigned."
+msgstr "Neke mailing liste iz ulazne datoteke nije moguće pronaći u bazi podataka. Određene uvezene pretplatnici će biti lijevo nedodijeljeni."
+
+msgctxt "Languages::subscribers_menu_item_text"
+msgid "Subscribers"
+msgstr "Pretplatnici"
+
+msgctxt "Languages::block_mailing_lists"
+msgid "Newsletter subscription"
+msgstr "Pretplata na newsletter"
+
+msgctxt "Languages::block_mailing_lists_description"
+msgid "Email field for newsletter subscription"
+msgstr "E-mail polje za predbilježbe na obavijesti"
+
+msgctxt "Languages::privileges.view_newsletters"
+msgid "View newsletters"
+msgstr "Prikaz newslettera"
+
+msgctxt "Languages::privileges.manage_newsletters"
+msgid "Manage newsletters"
+msgstr "Upravljanje newslettere"
+
+msgctxt "Languages::warning_newsletter_no_recipients"
+msgid "Newsletter hasn't been sent because no recipients were found matching the selected criteria."
+msgstr "Newsletter nije poslana jer nema primatelja pronađeno odgovaraju odabranim kriterijima."
+
+msgctxt "Languages::text_newsletter_sent"
+msgid "The newsletter(s) have been sent successfully."
+msgstr "Newsletter uspješno poslan."
+
+msgctxt "Languages::email_cannot_be_empty"
+msgid "E-mail cannot be empty"
+msgstr "E-pošta ne može biti prazana"
+
+msgctxt "Languages::sending_email_to"
+msgid "Sending email to [email]..."
+msgstr "Slanje e-pošte na [email]..."
+
+msgctxt "Languages::text_subscriber_added"
+msgid "Your e-mail has been successfully added to our free e-mail updates list"
+msgstr "Vaš e-mail je uspješno dodan u naš besplatni e-mail ažuriranja popisa"
+
+msgctxt "Languages::error_email_already_subscribed"
+msgid "Your e-mail is already subscribed."
+msgstr "Vaš e-mail je već upisan."
+
+msgctxt "Languages::text_subscriber_removed"
+msgid "Your e-mail has been successfully removed from our free e-mail updates list"
+msgstr "Adresa e-pošte uspješno je uklonjena iz našeg e-mail popisa"
+
+msgctxt "Languages::text_subscriber_activated"
+msgid "Your email has been successfully activated"
+msgstr "Vaš e-mail je uspješno aktiviran"
+
+msgctxt "Languages::link_message_for_test_letter"
+msgid "The link will be displayed in a live newsletter"
+msgstr "Link će se prikazati u newsletteru"
+
+msgctxt "Languages::newsletters"
+msgid "Newsletters"
+msgstr "Newsletter"
+
+msgctxt "Languages::autoresponders"
+msgid "Autoresponders"
+msgstr "Automatski odgovor"
+
+msgctxt "Languages::campaigns"
+msgid "Campaigns"
+msgstr "Kampanje"
+
+msgctxt "Languages::sent"
+msgid "Sent"
+msgstr "Poslao"
+
+msgctxt "Languages::subscribers_num"
+msgid "Number of subscribers"
+msgstr "Broj pretplatnika"
+
+msgctxt "Languages::editing_mailing_list"
+msgid "Editing mailing list"
+msgstr "Uređivanje popisa primatelja"
+
+msgctxt "Languages::from_name"
+msgid "From name"
+msgstr "Od naziva"
+
+msgctxt "Languages::from_email"
+msgid "From email"
+msgstr "Od email adrese"
+
+msgctxt "Languages::reply_to"
+msgid "Reply to"
+msgstr "Odgovor na"
+
+msgctxt "Languages::register_autoresponder"
+msgid "Confirmation email"
+msgstr "Potvrdni e-mail"
+
+msgctxt "Languages::no_autoresponder"
+msgid "No autoresponder"
+msgstr "Nema automatskog odgovara"
+
+msgctxt "Languages::show_on_checkout"
+msgid "Show at checkout"
+msgstr "Pokazati na odjavi"
+
+msgctxt "Languages::addons.newsletters.show_on_registration_and_profile"
+msgid "Show on the Registration and Profile Details pages"
+msgstr ""
+
+msgctxt "Languages::show_on_separate_page"
+msgid "Show on separate page"
+msgstr "Prikaži na zasebnoj stranici"
+
+msgctxt "Languages::campaign_stats"
+msgid "Campaign statistics"
+msgstr "Statistika kampanje"
+
+msgctxt "Languages::add_campaign"
+msgid "Add campaign"
+msgstr "Dodajte kampanju"
+
+msgctxt "Languages::new_campaign"
+msgid "New campaign"
+msgstr "Nova kampanja"
+
+msgctxt "Languages::newsletter_templates"
+msgid "Newsletter templates"
+msgstr "Newsletter predlošci"
+
+msgctxt "Languages::newsletter_autoresponders"
+msgid "Newsletter autoresponders"
+msgstr "Newsletter automatski odgovor"
+
+msgctxt "Languages::subject"
+msgid "Subject"
+msgstr "Predmet"
+
+msgctxt "Languages::add_newsletter"
+msgid "Add newsletter"
+msgstr "Dodavanje vijesti"
+
+msgctxt "Languages::add_template"
+msgid "Add template"
+msgstr "Dodavanje predloška"
+
+msgctxt "Languages::add_autoresponder"
+msgid "Add autoresponder"
+msgstr "Dodati automatski odgovarač"
+
+msgctxt "Languages::more_subjects"
+msgid "Random subjects (one per line)"
+msgstr "Slučajni predmeti (jedna po retku)"
+
+msgctxt "Languages::body_html"
+msgid "HTML body"
+msgstr "HTML-tijelo"
+
+msgctxt "Languages::no_template"
+msgid "No template"
+msgstr "Nijedan predložak"
+
+msgctxt "Languages::load"
+msgid "Load"
+msgstr ""
+
+msgctxt "Languages::campaign"
+msgid "Campaign"
+msgstr ""
+
+msgctxt "Languages::send_to"
+msgid "Send to"
+msgstr ""
+
+msgctxt "Languages::add_recipients_from_users"
+msgid "Add recipients from users"
+msgstr ""
+
+msgctxt "Languages::customers_with_abandoned"
+msgid "Customers with abandoned"
+msgstr ""
+
+msgctxt "Languages::cart_or_wishlist"
+msgid "Cart or Wishlist"
+msgstr ""
+
+msgctxt "Languages::which_is"
+msgid "which is"
+msgstr ""
+
+msgctxt "Languages::days_old"
+msgid "days old"
+msgstr ""
+
+msgctxt "Languages::send_to_test_email"
+msgid "Send to test email"
+msgstr ""
+
+msgctxt "Languages::save_and_send"
+msgid "Save and send"
+msgstr ""
+
+msgctxt "Languages::newsletter"
+msgid "Newsletter"
+msgstr ""
+
+msgctxt "Languages::newsletter_template"
+msgid "Newsletter template"
+msgstr ""
+
+msgctxt "Languages::newsletter_autoresponder"
+msgid "Newsletter autoresponder"
+msgstr ""
+
+msgctxt "Languages::mailing_list"
+msgid "Mailing list"
+msgstr ""
+
+msgctxt "Languages::confirmed"
+msgid "Confirmed"
+msgstr ""
+
+msgctxt "Languages::subscribed_to"
+msgid "Subscribed to [num] lists"
+msgstr ""
+
+msgctxt "Languages::subscribed"
+msgid "Subscribed"
+msgstr ""
+
+msgctxt "Languages::text_success_subscription"
+msgid "You have been successfully subscribed to our free e-mail updates and promotions!"
+msgstr ""
+
+msgctxt "Languages::text_unsubscribe_instructions"
+msgid "We respect your privacy and do not send unsolicited e-mail to users who have not requested correspondence. You have received this e-mail because you requested to receive our free updates and promotions.<br /><br /> If you wish to unsubscribe, please follow the link below:"
+msgstr ""
+
+msgctxt "Languages::updates_subscription"
+msgid "updates and promotions subscription"
+msgstr ""
+
+msgctxt "Languages::ult_shared_with"
+msgid "Shared with:"
+msgstr ""
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_from_email"
+msgid "Email of a sender."
+msgstr ""
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_from_name"
+msgid "Name of a sender (e.g. company name)."
+msgstr ""
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_reply_to"
+msgid "Email to send replies to."
+msgstr ""
+
+msgctxt "Languages::tt_addons_newsletters_views_newsletters_update_more_subjects"
+msgid "If several subjects are specified, email subject is randomly picked from this list."
+msgstr ""
+
+msgctxt "Languages::tt_addons_newsletters_views_newsletters_update_users"
+msgid "If the message text contains the unsubscribe link, it will be empty for these users."
+msgstr ""
+
+msgctxt "Languages::add_mailing_lists"
+msgid "Add mailing list"
+msgstr ""
+
+msgctxt "Languages::manage_subscribers"
+msgid "Manage subscribers"
+msgstr ""
+
+msgctxt "Languages::new_mailing_lists"
+msgid "New mailing list"
+msgstr ""
+
+msgctxt "Languages::newsletters.new_subscribers"
+msgid "New subscribers"
+msgstr ""
+
+msgctxt "SettingsSections::newsletters::general"
+msgid "General"
+msgstr ""
+
+msgctxt "SettingsOptions::newsletters::newsletters_per_pass"
+msgid "Newsletters sent per step"
+msgstr ""
+
+msgctxt "SettingsOptions::newsletters::elm_advanced_mailing_server_options"
+msgid "Advanced mailing server options"
+msgstr ""
+
+msgctxt "SettingsOptions::newsletters::mailer_send_method"
+msgid "Method of sending e-mails"
+msgstr ""
+
+msgctxt "SettingsOptions::newsletters::elm_smtp_server_settings"
+msgid "SMTP server settings"
+msgstr ""
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_host"
+msgid "SMTP host"
+msgstr ""
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_username"
+msgid "SMTP username"
+msgstr ""
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_password"
+msgid "SMTP password"
+msgstr ""
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_ecrypted_connection"
+msgid "Use Encrypted Connection"
+msgstr ""
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::none"
+msgid "None"
+msgstr ""
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::tls"
+msgid "TLS"
+msgstr ""
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::ssl"
+msgid "SSL"
+msgstr ""
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_auth"
+msgid "Use SMTP authentication"
+msgstr ""
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::smtp"
+msgid "via SMTP server"
+msgstr ""
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::mail"
+msgid "via php mail function"
+msgstr ""
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::default"
+msgid "use default settings"
+msgstr ""
+
+msgctxt "SettingsSections::newsletters::promotions"
+msgid "Promotions"
+msgstr ""
+
+msgctxt "SettingsOptions::newsletters::coupon"
+msgid "Choose a promotion whose promo code will be given at subscription"
+msgstr ""
+
+msgctxt "Languages::subscribers_promo_subject"
+msgid "Thank you for subscribing! Use the coupon code [coupon] in our special offer \"[promotion]\"."
+msgstr ""
+
+msgctxt "Languages::subscribers_no_promo"
+msgid "No promotion"
+msgstr ""
+
+msgctxt "Languages::promotion_cond_subscribed"
+msgid "Customer is subscribed"
+msgstr ""
+
+msgctxt "Languages::addons.newsletters.email_exists_in_list"
+msgid "<b>[email]</b> is already in the mailing list"
+msgstr ""
+
+msgctxt "Languages::email_template.newsletters_newsletter"
+msgid "Newsletter"
+msgstr ""
+
+msgctxt "Languages::email_template.newsletters_promotion"
+msgid "Newsletters: promotion"
+msgstr ""
+

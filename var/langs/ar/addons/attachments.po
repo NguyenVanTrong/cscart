@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /addons/attachments.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:00-0500\n"
+
+msgctxt "Addons::name::attachments"
+msgid "Attachments"
+msgstr "المرفقات"
+
+msgctxt "Addons::description::attachments"
+msgid "Makes it possible to attach files to products"
+msgstr "يجعل من الممكن إرفاق ملفات إلى المنتجات"
+
+msgctxt "Languages::attachments"
+msgid "Attachments"
+msgstr "المرفقات"
+
+msgctxt "Languages::new_attachment"
+msgid "New attachment"
+msgstr "مرفق جديد"
+
+msgctxt "Languages::add_attachment"
+msgid "Add attachment"
+msgstr "إضافة مرفق"
+
+msgctxt "Languages::editing_attachment"
+msgid "Editing attachment"
+msgstr "تحرير المرفقات"
+

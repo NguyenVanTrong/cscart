@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /addons/call_requests.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::call_requests"
+msgid "Call requests"
+msgstr "Çağrı istekleri"
+
+msgctxt "Addons::description::call_requests"
+msgid "Adds a call-requests system"
+msgstr "Çağrı istekleri sistemi ekle"
+
+msgctxt "SettingsSections::call_requests::general"
+msgid "General"
+msgstr "Genel"
+
+msgctxt "SettingsOptions::call_requests::general"
+msgid "General"
+msgstr "Genel"
+
+msgctxt "SettingsOptions::call_requests::phone"
+msgid "Rewrite phone"
+msgstr "Telefonu yeniden yazın"
+
+msgctxt "SettingsOptions::call_requests::phone_prefix_length"
+msgid "Highlight first chars"
+msgstr "İlk karakterleri vurgula"
+
+msgctxt "SettingsOptions::call_requests::buy_now_with_one_click"
+msgid "Enable the \"Buy now with one click\" option"
+msgstr "\"Tek tıklamayla hemen satın al\" seçeneğini etkinleştir"
+
+msgctxt "SettingsOptions::call_requests::order_status"
+msgid "Order status"
+msgstr "Sipariş durumu"
+
+msgctxt "SettingsOptions::call_requests::phone_mask"
+msgid "Phone mask"
+msgstr "Telefon maskesi"
+
+msgctxt "SettingsTooltips::call_requests::phone_mask"
+msgid "Leave empty to use automatic country-based phone pattern, or type in a custom pattern. You can use spaces, commas, +, -, and digits. Note that 9 represents any digit; if you need a 9, type \\\\9. Examples: +9 (999) 999 99 99, 99999999, 999 999 99 or +99-99-9999-9999."
+msgstr "Otomatik ülke tabanlı telefon modeli kullanmak için boş bırakın. Boşluk, virgül, +, - ve rakam kullanabilirsiniz: 9 rakamını kullanmak isterseniz \\\\9 yazın. Örnekler: +9 (999) 999 99 99, 99999999, 999 999 99 veya +99-99-9999-9999."
+
+msgctxt "SettingsTooltips::call_requests::phone_prefix_length"
+msgid "Including parenthesis, spaces, etc. Use to highlight country code, area code, and phone prefix."
+msgstr "Parantez, boşluk, vb. dahil. Ülke kodu, alan kodu ve telefon önekini vurgulamak için kullanın."
+
+msgctxt "Languages::privileges.manage_call_requests"
+msgid "Manage Call requests"
+msgstr "Çağrı isteklerini yönet"
+
+msgctxt "Languages::privileges.view_call_requests"
+msgid "View Call requests"
+msgstr "Çağrı isteklerini görüntüle"
+
+msgctxt "Languages::call_requests"
+msgid "Call requests"
+msgstr "Çağrı istekleri"
+
+msgctxt "Languages::call_requests_menu_description"
+msgid "Manage customer call requests"
+msgstr "Müşteri çağrı isteklerini Yönet"
+
+msgctxt "Languages::call_requests.request_call"
+msgid "Request call"
+msgstr "Çağrı isteği"
+
+msgctxt "Languages::call_requests.buy_now_with_one_click"
+msgid "Buy now with 1-click"
+msgstr "Tek tıklamayla hemen satın al"
+
+msgctxt "Languages::call_requests.error_validate_call_form"
+msgid "Please enter your email or phone number"
+msgstr "Lütfen e-posta veya telefon numaranızı girin"
+
+msgctxt "Languages::call_requests.request_recieved"
+msgid "We have received your request! Our manager will contact you soon."
+msgstr "Talebinizi aldık! Yöneticimiz en kısa zamanda sizinle irtibata geçecek."
+
+msgctxt "Languages::call_requests.order_placed"
+msgid "We have received your request! The order #[order_id] has been successfully created. Our manager will contact you soon."
+msgstr "Talebinizi aldık! Sipariş #[order_id] başarıyla oluşturuldu. Yöneticimiz en yakın zamanda sizinle irtibata geçecek."
+
+msgctxt "Languages::call_requests.phone_from_settings"
+msgid "Phone from settings"
+msgstr "Ayarlardan telefon"
+
+msgctxt "Languages::call_requests.enter_phone_or_email_text"
+msgid "Please enter your phone number or email (for our manager to contact you)"
+msgstr "Lütfen telefon numaranızı veya e-posta adresinizi girin (yöneticimizin size ulaşması için)"
+
+msgctxt "Languages::call_requests.status.new"
+msgid "New"
+msgstr "Yeni"
+
+msgctxt "Languages::call_requests.status.in_progress"
+msgid "In progress"
+msgstr "Devam etmekte"
+
+msgctxt "Languages::call_requests.status.completed"
+msgid "Completed"
+msgstr "Tamamlandı"
+
+msgctxt "Languages::call_requests.status.no_answer"
+msgid "No answer"
+msgstr "Cevap yok"
+
+msgctxt "Languages::call_requests.responsible"
+msgid "Responsible"
+msgstr "Sorumlu"
+
+msgctxt "Languages::call_requests.notes"
+msgid "Notes"
+msgstr "Notlar"
+
+msgctxt "Languages::call_requests.requested_product"
+msgid "Requested product"
+msgstr "Talep edilen ürün"
+
+msgctxt "Languages::call_requests.convenient_time"
+msgid "Convenient time"
+msgstr ""
+
+msgctxt "Languages::call_requests.awaiting_call"
+msgid "Awaiting call"
+msgstr "Bekleyen çağrı"
+
+msgctxt "Languages::call_requests.order_exists"
+msgid "Order exists"
+msgstr "Sipariş mevcut"
+
+msgctxt "Languages::call_requests.person_name_and_phone"
+msgid "Name and phone"
+msgstr "İsim ve telefon"
+
+msgctxt "Languages::call_requests.no_name_specified"
+msgid "No name specified"
+msgstr "İsim belirtilmedi"
+
+msgctxt "Languages::call_requests.use_for_call_requests"
+msgid "Call request and buy now with one click form"
+msgstr "Tek tıklamayla çağrı isteği ve şimdi al"
+
+msgctxt "Languages::block_call_request"
+msgid "Call request"
+msgstr "Çağrı istekleri"
+
+msgctxt "Languages::block_call_request_description"
+msgid "Store phone number and form for requesting a call"
+msgstr "Çağrı talebi için mağaza telefon numarası ve formu"
+
+msgctxt "Languages::tmpl_call_request"
+msgid "Call request form"
+msgstr "Çağrı istek formu"
+
+msgctxt "Languages::call_requests.text_call_request"
+msgid "Customer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number]."
+msgstr ""
+
+msgctxt "Languages::call_requests.text_call_request_call_time"
+msgid "The convenient call time is between [time_from] and [time_to]."
+msgstr "Uygun arama zamanı [time_from] ile [time_to] arasında."
+
+msgctxt "Languages::call_requests.text_buy_with_one_click_request"
+msgid "Сustomer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number], regarding the purchase of the product <a href=\"[product_href]\">[product_name]</a>."
+msgstr "Müşteri [customer] [phone_number] telefonunda <a href=\"[product_href]\">[product_name]</a> ürünü ile ilgili <a href=\"[href]\">sizden çağrı bekliyor</a>."
+
+msgctxt "Languages::call_requests.error_validator_phone"
+msgid "The phone number in the <b>[field]</b> field is invalid."
+msgstr "<b>[field]</b> alanındaki telefon numarası geçersiz."
+
+msgctxt "Languages::email_template.call_requests_buy_with_one_click"
+msgid "Call requests: buy with one click notification"
+msgstr "Çağrı istekleri: Bir tık ile satış al bildirimi"
+
+msgctxt "Languages::email_template.call_requests_call_request"
+msgid "Call requests: call request notification"
+msgstr "Çağrı istekleri: Çağrı isteği bildirimi"
+
+msgctxt "Languages::call_request.work_time"
+msgid "Mon-Fr 9a.m.-6p.m."
+msgstr ""
+

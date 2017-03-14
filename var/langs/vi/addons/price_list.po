@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/price_list.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::price_list"
+msgid "Price list"
+msgstr "Bảng giá"
+
+msgctxt "Addons::description::price_list"
+msgid "Generates configurable price list in PDF or XLS"
+msgstr "Tạo ra bảng giá cấu hình trong PDF hoặc XLS"
+
+msgctxt "Languages::price_list"
+msgid "Price list"
+msgstr "Bảng giá"
+
+msgctxt "Languages::selected_fields"
+msgid "Selected fields"
+msgstr "Mục đã chọn"
+
+msgctxt "Languages::generating_pdf"
+msgid "Generating PDF. Please, be patient..."
+msgstr "Đang tạo PDF. Xin vui lòng, hãy kiên nhẫn..."
+
+msgctxt "Languages::generating_xls"
+msgid "Generating XLS. Please, be patient..."
+msgstr "Đang tạo XLS. Xin vui lòng, hãy kiên nhẫn..."
+
+msgctxt "Languages::price_list_ziparchive_not_installed"
+msgid "Impossible to create XML price list. Please add zip support in PHP on your server. Follow <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+msgstr "Không thể tạo ra bảng giá XML. Xin vui lòng thêm zip hỗ trợ trong PHP trên máy chủ của bạn. Làm theo <a href=\"http://www.php.net/manual/en/zip.installation.php\"> http://www.php.net/manual/en/zip.installation.php</a>."
+
+msgctxt "Languages::price_list.text_select_storefront"
+msgid "To generate a price list, please select storefront first."
+msgstr "Để tạo một danh sách giá, trước tiên xin vui lòng chọn cửa hàng."
+
+msgctxt "Languages::price_list.text_regenerate"
+msgid "<p>If products, categories or selected fields were added or changed, please regenerate a price list:<br />[buttons]</p><p>Generated price lists are available by these links<br/>[links]</p>"
+msgstr "<p>Nếu sản phẩm, danh mục hoặc lĩnh vực được lựa chọn đã được thêm vào hoặc thay đổi, xin vui lòng tái tạo một danh sách giá: <br />[buttons]</p> <p>Tạo danh sách giá có sẵn ở liên kết này <br/>[links]</p>"
+
+msgctxt "SettingsSections::price_list::general"
+msgid "General"
+msgstr "Tổng quát"
+
+msgctxt "SettingsOptions::price_list::price_list_fields"
+msgid "Fields"
+msgstr "Lĩnh vực"
+
+msgctxt "SettingsOptions::price_list::price_list_sorting"
+msgid "Sort by"
+msgstr "Sắp xếp theo"
+
+msgctxt "SettingsOptions::price_list::group_by_category"
+msgid "Group by category"
+msgstr "Nhóm theo danh mục"
+
+msgctxt "SettingsOptions::price_list::include_options"
+msgid "Include product options"
+msgstr "Bao gồm tùy chọn sản phẩm"
+

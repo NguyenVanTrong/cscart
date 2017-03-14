@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /addons/anti_fraud.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::anti_fraud"
+msgid "Anti fraud"
+msgstr "Захист від шахрайства"
+
+msgctxt "Addons::description::anti_fraud"
+msgid "Adds configurable security order verification using the Maxmind service to prevent fraud"
+msgstr "Перевірку безпеки замовлення за допомогою сервісу Maxmind"
+
+msgctxt "Languages::af_big_order_total"
+msgid "Order total exceeds the allowed maximum"
+msgstr "Вартість замовлення перевищує максимальну"
+
+msgctxt "Languages::af_country_doesnt_match"
+msgid "The country does not match the IP address"
+msgstr "Країна не збігається з IP-адресою"
+
+msgctxt "Languages::af_has_failed_orders"
+msgid "Customer has FAILED orders"
+msgstr "У покупця є невдалі замовлення"
+
+msgctxt "Languages::af_has_successfull_orders"
+msgid "Customer has SUCCESSFUL orders"
+msgstr "У покупця є успішні замовлення"
+
+msgctxt "Languages::af_high_risk_country"
+msgid "High risk country"
+msgstr "Країни з високим ризиком"
+
+msgctxt "Languages::af_high_risk_factor"
+msgid "Risk factor exceeds the defined value"
+msgstr "Фактор ризику перевищує задане значення"
+
+msgctxt "Languages::af_ip_not_found"
+msgid "Failed to identify customer's IP address"
+msgstr "Неможливо визначити IP-адресу покупця"
+
+msgctxt "Languages::af_long_distance"
+msgid "Customer is outside the safe distance"
+msgstr "Покупець знаходиться за межами безпечної зони"
+
+msgctxt "Languages::af_low_risk_factor"
+msgid "Risk factor is admissible"
+msgstr "Фактор ризику є припустимий"
+
+msgctxt "Languages::antifraud_failed_order"
+msgid "Your order was placed in the store. It is undergoing an additional check now. We will contact you as soon as the administrator finishes it"
+msgstr "Ваше замовлення був розміщено в магазині і в даний момент проходить додаткову перевірку. Ми зв'яжемося з вами, як тільки вона буде завершена"
+
+msgctxt "Languages::risk_factor"
+msgid "Risk factor"
+msgstr "Фактор ризику"
+
+msgctxt "Languages::not_available"
+msgid "n/a"
+msgstr "n/a"
+
+msgctxt "Languages::decision"
+msgid "Decision"
+msgstr "Рішення"
+
+msgctxt "Languages::anti_fraud_order_not_approved"
+msgid "Order has not been approved because risk factor exceeds Maximum risk factor"
+msgstr "Замовлення не прийнято оскільки, перевищений максимальний фактор ризику"
+
+msgctxt "Languages::anti_fraud_order_approved"
+msgid "Order has been approved"
+msgstr "Замовлення прийнято"
+
+msgctxt "Languages::fraud_risk"
+msgid "Fraud risk"
+msgstr "Ризик шахрайства"
+
+msgctxt "Languages::fraud_checking"
+msgid "Fraud checking"
+msgstr "Перевірка шахрайства"
+
+msgctxt "SettingsSections::anti_fraud::general"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_key"
+msgid "Maxmind license key"
+msgstr "Ліцензійний ключ Maxmind"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_safe_distance"
+msgid "Safe distance (km)"
+msgstr "Безпечна дистанція (км)"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_max_order_total"
+msgid "Max order total"
+msgstr "Максимальна сума замовлення"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_risk_factor"
+msgid "Maximum risk factor (1..100)"
+msgstr "Максимальний фактор ризику (1..100)"
+
+msgctxt "SettingsOptions::anti_fraud::antifraud_order_status"
+msgid "Order status"
+msgstr "Статус замовлення"
+

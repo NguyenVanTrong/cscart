@@ -1,0 +1,646 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /editions/mve.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Languages::add_companies"
+msgid "Add vendors"
+msgstr "اضافه کردن فروشندگان"
+
+msgctxt "Languages::add_companies_and_close"
+msgid "Add vendors and close"
+msgstr "اضافه کردن فروشندگان و بستن"
+
+msgctxt "Languages::add_vendor"
+msgid "Add vendor"
+msgstr "اضافه کردن فروشندگان"
+
+msgctxt "Languages::add_vendor_administrator"
+msgid "Add vendor's administrator"
+msgstr "افزودن سرپرست فروشندگی"
+
+msgctxt "Languages::vendor_administrator"
+msgid "Vendor's administrator"
+msgstr "سرپرست فروشنده"
+
+msgctxt "Languages::vendor_administrators"
+msgid "Vendor's administrators"
+msgstr "سرپرست فروشنده ها"
+
+msgctxt "Languages::vendor_administrators_menu_description"
+msgid "List of vendor's administrators, registered users with a vendor account."
+msgstr "لیست مدیران فروش، کاربران ثبت نامی با حساب فروشنده."
+
+msgctxt "Languages::vendor_candidate_notification"
+msgid "Hello,<br/><br/>You have a new vendor candidate in your store. This vendor account is pending until you approve it. Follow <a href=\"[href]\">this URL</a> to view the account details</a>."
+msgstr ""
+
+msgctxt "Languages::demo_panel.go_vendor_panel"
+msgid "Go to Vendor panel"
+msgstr "رفتن به پنل فروشنده"
+
+msgctxt "Languages::vendor_account_balance_menu_description"
+msgid "Income and expenditure statistics (total, per vendor, per period)."
+msgstr "آمار درآمد و هزینه (کل، در هر فروشنده در هر دوره)."
+
+msgctxt "Languages::merge_vendor"
+msgid "Merge vendor"
+msgstr "ادغام فروشنده"
+
+msgctxt "Languages::select_new_owner_company"
+msgid "Select a new owner of this company's profile data:"
+msgstr "صاحب جدید نمایه‌ی اطلاعات این شرکت را انتخاب کنید:"
+
+msgctxt "Languages::warning_merging_companies"
+msgid "Merging two company accounts will remove [company_name] from the database, and all the profile data (products, orders, shipping methods, users, promotions, etc.) will be transferred to this company's account"
+msgstr "ادغام دو شرکت حساب [company_name] از پایگاه داده حذف خواهد شد و تمام مشخصات داده ها (محصولات، سفارشات، حمل و نقل روش، کاربران، تبلیغات، و غیره) را به حساب این شرکت منتقل خواهد شد"
+
+msgctxt "Languages::all_vendors"
+msgid "All vendors"
+msgstr "همه فروشندگان"
+
+msgctxt "Languages::apply_for_vendor_account"
+msgid "Apply for a vendor account"
+msgstr "تایید برای حساب فروشنده"
+
+msgctxt "Languages::available_for_vendor"
+msgid "Available for vendor"
+msgstr "قابل استفاده برای فروشنده"
+
+msgctxt "Languages::balance_carried_forward"
+msgid "Balance carried forward"
+msgstr "تراز پیش از موعد"
+
+msgctxt "Languages::block_vendors"
+msgid "Vendors"
+msgstr "فروشندگان"
+
+msgctxt "Languages::charge_to_vendor_account"
+msgid "Charge to vendor account"
+msgstr "شارژ به حساب فروشنده"
+
+msgctxt "Languages::companies"
+msgid "Vendors"
+msgstr "فروشندگان"
+
+msgctxt "Languages::create_administrator_account"
+msgid "Create administrator account"
+msgstr "ایجاد حساب سرپرست"
+
+msgctxt "Languages::displayed_vendors"
+msgid "Displayed vendors"
+msgstr "فروشندگان نمایش داده شده"
+
+msgctxt "Languages::editing_vendor"
+msgid "Editing vendor"
+msgstr "ویرایش فروشنده"
+
+msgctxt "Languages::error_admin_not_created_email_already_used"
+msgid "Administrator account was not created. The email address belongs to another user. You can add the administrator for this vendor manually."
+msgstr "حساب مدیر سیستم ایجاد نشد. آدرس ایمیل متعلق به یک کاربر دیگر است. شما می توانید برای این شرکت مدیر را دستی اضافه کنید."
+
+msgctxt "Languages::error_admin_not_created_name_already_used"
+msgid "Administrator account was not created. The user name belongs to another user. You should change the administrator account's name."
+msgstr "حساب مدیر سیستم ایجاد نشد. نام کاربری متعلق به یک کاربر دیگر. شما باید نام حساب مدیر سیستم را تغییر دهید."
+
+msgctxt "Languages::error_vendor_exists"
+msgid "The vendor with e-mail you have chosen already exists, please try another."
+msgstr "فروشنده با پست الکترونیکی انتخابی شما در حال حاضر وجود دارد، لطفا یکی دیگر را امتحان کنید."
+
+msgctxt "Languages::expenditure"
+msgid "Expenditure"
+msgstr "هزینه"
+
+msgctxt "Languages::income"
+msgid "Income"
+msgstr "درآمد"
+
+msgctxt "Languages::manage_vendors"
+msgid "Manage vendors"
+msgstr "مدیریت فروشندگان"
+
+msgctxt "Languages::new_administrator_account_created"
+msgid "New administrator account has been successfully created."
+msgstr "حساب سرپرست جدید با موفقیت ایجاد شده است."
+
+msgctxt "Languages::new_vendor"
+msgid "New vendor"
+msgstr "فروشنده جدید"
+
+msgctxt "Languages::notify_vendor"
+msgid "Notify vendor"
+msgstr "اطلاع به فروشنده"
+
+msgctxt "Languages::notify_vendors_by_email"
+msgid "Notify vendors by e-mail"
+msgstr "اطلاع به فروشندگان توسط ایمیل"
+
+msgctxt "Languages::privileges.manage_payouts"
+msgid "Manage payouts"
+msgstr "مدیریت پرداخت ها"
+
+msgctxt "Languages::privileges.manage_vendors"
+msgid "Manage vendors"
+msgstr "مدیریت فروشندگان"
+
+msgctxt "Languages::privileges.view_payouts"
+msgid "View payouts"
+msgstr "مشاهده پرداخت ها"
+
+msgctxt "Languages::privileges.view_vendors"
+msgid "View vendors"
+msgstr "مشاهده فروشندگان"
+
+msgctxt "Languages::privilege_sections.vendors"
+msgid "Vendors"
+msgstr "فروشندگان"
+
+msgctxt "Languages::sales_period"
+msgid "Sales period"
+msgstr "دوره های فروش"
+
+msgctxt "Languages::sales_period_total"
+msgid "Sales period total"
+msgstr "دوره فروش کل"
+
+msgctxt "Languages::search_by_vendor"
+msgid "Search by vendor"
+msgstr "جستجو توسط فروشنده"
+
+msgctxt "Languages::sort_by_company_asc"
+msgid "Sort by alphabetical: A to Z"
+msgstr "مرتب سازی بر اساس ترتیب حروف الفبا: A به Z"
+
+msgctxt "Languages::sort_by_company_desc"
+msgid "Sort by alphabetical: Z to A"
+msgstr "مرتب سازی بر اساس ترتیب حروف الفبا: Z به A"
+
+msgctxt "Languages::text_company_status_active_to_pending"
+msgid "Your vendor status has been changed from Active to Pending."
+msgstr "وضعیت فروشنده از فعال به در انتظار تغییر کرده است."
+
+msgctxt "Languages::text_company_status_disabled_to_pending"
+msgid "Your vendor status has been changed from Disabled to Pending."
+msgstr "وضعیت فروشنده از غیرفعال دربه انتظار تغییر کرده است."
+
+msgctxt "Languages::text_company_status_pending"
+msgid "The Pending status allows you to log in to you admin panel, change your company information, and fill your store with products."
+msgstr "وضعیت در انتظار به شما اجازه می دهد تا به پنل مدیریت وارد شوید، تغییر اطلاعات شرکت را انجام دهید و فروشگاه خود را با محصولات پر کنید."
+
+msgctxt "Languages::text_company_status_new_to_active"
+msgid "Your request for vendor [company] was approved."
+msgstr "درخواست شما برای فروشندگی [company] به تصویب رسید."
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_created"
+msgid "New administrator was created. You can access to the administrator area: <a href=\"[link]\">[link_text]</a> by using the following credentials:<br />Login: [login]<br />Password: [password]"
+msgstr ""
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_updated"
+msgid "Type of your account [login] changed to administrator. You may login into the administrator area: <a href=\"[link]\">[link_text]</a>"
+msgstr ""
+
+msgctxt "Languages::text_company_status_new_to_active_subj"
+msgid "Your request for vendor was approved."
+msgstr "درخواست شما برای فروشندگی تایید شد."
+
+msgctxt "Languages::text_company_status_new_to_disable"
+msgid "Your request for vendor [company] was rejected."
+msgstr "درخواست شما برای فروشندگی [company] رد شد."
+
+msgctxt "Languages::text_company_status_new_to_disable_subj"
+msgid "Your request for vendor was rejected."
+msgstr "درخواست شما برای فروشندگی رد شد."
+
+msgctxt "Languages::text_company_status_new_to_pending"
+msgid "Congratulations, your application for getting a vendor account has been approved. Once we review you accont information, we will publish it on our website."
+msgstr "خوش آمدید، درخواست خود را برای گرفتن حساب فروشنده تایید شده است. هنگامی که ما شما را به بررسی accont اطلاعات، ما آن را در وب سایت ما انتشار."
+
+msgctxt "Languages::text_company_status_pending_subj"
+msgid "Your company is waiting for approval."
+msgstr "شرکت شما در حال انتظار تایید می باشد."
+
+msgctxt "Languages::text_company_status_pending_to_active"
+msgid "Your profile changes for vendor [company] were approved."
+msgstr "تغییرات مشخصاتی شما برای فروشندگی [company] مورد تایید قرار گرفت."
+
+msgctxt "Languages::text_error_adding_request"
+msgid "Error while adding the request."
+msgstr "خطا هنگام افزودن درخواست."
+
+msgctxt "Languages::text_new_payment_was_created"
+msgid "New payment was created"
+msgstr "پرداخت های جدید ایجاد شده است"
+
+msgctxt "Languages::text_not_approved_vendors"
+msgid "You have vendors that require your approval. Please <a href=\"[link]\">follow this link</a> to review these vendors."
+msgstr "شما فروشندگانی دارید که نیازمند تایید شما هستند. لطفاً برای بازبینی این فروشندگان این <a href=\"[link]\"> لینک </a>را دنبال کنید."
+
+msgctxt "Languages::text_successful_request"
+msgid "Your request was successfully added. You will receive the email with the answer later."
+msgstr "درخواست شما با موفقیت اضافه شد. ایمیلی را با پاسخ دریافت خواهید کرد."
+
+msgctxt "Languages::total_amount_due"
+msgid "Total amount due"
+msgstr "کل دین"
+
+msgctxt "Languages::total_period_payout"
+msgid "Total sales period payout"
+msgstr "کل فروش دوره پرداخت"
+
+msgctxt "Languages::total_unpaid_balance"
+msgid "Total unpaid balance"
+msgstr "کل تراز پرداخت نشده"
+
+msgctxt "Languages::tt_views_payments_update_taxes"
+msgid "If payment surcharge is taken from vendors, taxes are not calculated"
+msgstr "اگر پرداخت از فروشندگان اضافه گرفته شده باشد، مالیات محاسبه نشده است"
+
+msgctxt "Languages::unable_delete_vendor_orders_exists"
+msgid "Unable to delete this vendor account because there are orders containing the products of this vendor in the store database. To delete the account, please delete all such orders first."
+msgstr "قادر به حذف این حساب فروشنده نیست زیرا سفارشاتی شامل محصولات این فروشنده در پایگاه داده فروشگاه وجود دارد. برای حذف حساب, لطفا ابتدا تمام آن سفارشات را حذف کنید."
+
+msgctxt "Languages::vendor"
+msgid "Vendor"
+msgstr "فروشنده"
+
+msgctxt "Languages::vendors"
+msgid "Vendors"
+msgstr "فروشندگان"
+
+msgctxt "Languages::vendors_menu_description"
+msgid "Sorted list of vendor accounts registered in the store."
+msgstr "فهرست ذخیره شده حسابهای فروشنده ثبت شده در فروشگاه."
+
+msgctxt "Languages::vendor_account_balance"
+msgid "Account balance"
+msgstr "مانده حساب"
+
+msgctxt "Languages::vendor_approval_pending"
+msgid "New vendor account application"
+msgstr "برنامه حساب فروشنده جدید"
+
+msgctxt "Languages::vendor_id"
+msgid "Vendor ID"
+msgstr "شناسه فروشنده"
+
+msgctxt "Languages::vendor_name"
+msgid "Vendor name"
+msgstr "نام فروشنده"
+
+msgctxt "Languages::vendor_pages"
+msgid "Vendor pages"
+msgstr "صفحات فروشنده"
+
+msgctxt "Languages::vendor_panel"
+msgid "Vendor panel"
+msgstr "پنل فروشنده"
+
+msgctxt "Languages::view_vendor_orders"
+msgid "View vendor orders"
+msgstr "مشاهده سفارشات فروشنده"
+
+msgctxt "Languages::view_vendor_products"
+msgid "View vendor products"
+msgstr "مشاهده محصولات فروشنده"
+
+msgctxt "Languages::view_vendor_users"
+msgid "View vendor users"
+msgstr "مشاهده کاربران فروشنده"
+
+msgctxt "Languages::you_can_edit_account_details"
+msgid "You can edit the account details now."
+msgstr "شما اکنون می توانید جزییات حساب را ویرایش کنید."
+
+msgctxt "SettingsSections::Vendors"
+msgid "Vendors"
+msgstr "فروشندگان"
+
+msgctxt "SettingsOptions::vendors_per_page"
+msgid "Vendors per page"
+msgstr "فروشندگان در هر صفحه"
+
+msgctxt "SettingsOptions::apply_for_vendor"
+msgid "Allow users to apply for vendor account"
+msgstr "اجازه به کاربران برای به کارگیری حساب فروشنده"
+
+msgctxt "SettingsOptions::create_vendor_administrator_account"
+msgid "Automatically create the administrator account for the new approved vendor. (If the \"Allow users to apply for vendor account\" setting is enabled)"
+msgstr "به طور خودکار حساب مدیر سیستم برای فروشنده مصوب جدید ایجاد کنید. (اگر \"کاربران مجاز به درخواست برای حساب فروشنده\" تنظیمات فعال است)"
+
+msgctxt "SettingsOptions::display_vendor"
+msgid "Display product vendor"
+msgstr "نمایش فروشنده محصول"
+
+msgctxt "SettingsOptions::need_agree_with_terms_n_conditions"
+msgid "Applying vendors must agree to the terms & conditions"
+msgstr "فروشندگان به کار گرفته شده باید با شرایط و مقررات توافق کنند"
+
+msgctxt "SettingsTooltips::need_agree_with_terms_n_conditions"
+msgid "The text of terms & conditions will be retrieved from the \"vendor_terms_n_conditions_content\" language variable."
+msgstr "متن شرایط & شرایط خواهد شد از متغیر زبان \"vendor_terms_n_conditions_content\" بازیابی."
+
+msgctxt "Languages::use_for_apply_for_vendor_account"
+msgid "Apply for a vendor account form"
+msgstr "بکارگیری فرم حساب فروشنده"
+
+msgctxt "Languages::block_vendor_categories"
+msgid "Vendor categories"
+msgstr "دسته بندی فروشندگان"
+
+msgctxt "Languages::block_vendor_categories_description"
+msgid "Product categories available to a particular vendor"
+msgstr "دسته بندی محصولات موجود به فروشنده خاص"
+
+msgctxt "Languages::block_vendor_information"
+msgid "Vendor information"
+msgstr "اطلاعات فروشنده"
+
+msgctxt "Languages::block_vendor_logo"
+msgid "Vendor logo"
+msgstr "نشان فروشنده"
+
+msgctxt "Languages::block_vendor_search"
+msgid "Search by vendor products"
+msgstr "جستجو توسط محصولات فروشنده"
+
+msgctxt "Languages::vendor_filters"
+msgid "Vendor Product filters"
+msgstr "فیلتر های محصول فروشنده"
+
+msgctxt "Languages::vendor_products"
+msgid "Vendor products"
+msgstr "فروشنده محصولات"
+
+msgctxt "Languages::apply_shipping_for_all_vendors"
+msgid "Allow shipping for all vendors"
+msgstr "اجازه حمل و نقل برای تمام فروشندگان"
+
+msgctxt "Languages::apply_shipping_for_all_vendors_confirm"
+msgid "The shipping method will be applied to all the vendors. Are you sure you want to proceed?"
+msgstr "روش حمل و نقل برای تمام فروشندگان اعمال خواهد شد. آیا می خواهید ادامه دهید؟"
+
+msgctxt "Languages::shipping_applied_to_vendors"
+msgid "The shipping method was applied to [vendors] vendors"
+msgstr "روش حمل و نقل برای فروشندگان [vendors] به کار برده شده است"
+
+msgctxt "Languages::block_vendor_filters"
+msgid "Vendor filters"
+msgstr "فیلترهای فروشنده"
+
+msgctxt "Languages::email_template.apply_for_vendor_notification"
+msgid "Apply for vendor"
+msgstr "درخواست برای فروشنده"
+
+msgctxt "Languages::email_template.company_status_notification"
+msgid "Company status change"
+msgstr "تغییر تیتر شرکت"
+
+msgctxt "Languages::email_template.company_payment_notification"
+msgid "Company payment"
+msgstr "پرداخت  شرکت"
+
+msgctxt "Languages::vendor_terms_n_conditions"
+msgid "I accept the [terms_href]"
+msgstr "[terms_href] را قبول دارم"
+
+msgctxt "Languages::vendor_terms_n_conditions_name"
+msgid "Terms and Conditions"
+msgstr "شرایط و ضوابط"
+
+msgctxt "Languages::vendor_terms_n_conditions_alert"
+msgid "In order to proceed, you need to accept our Terms and Conditions."
+msgstr "به منظور ادامه فرایند، شما نیازمند قبول شرایط و مقررات ما را دارید."
+
+msgctxt "Languages::vendor_terms_n_conditions_content"
+msgid "<p>Please read these Terms and Conditions (\"Terms\", \"Terms and Conditions\") carefully before using the <a href=\"http://www.mywebsite.com\">http://www.mywebsite.com</a> website and the My Mobile App mobile application (the \"Service\") operated by My Company (\"us\", \"we\", or \"our\").</p><p><strong>By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the Terms then you may not access the Service.</strong></p><p><strong>Purchases</strong></p><p>If you wish to purchase any product or service made available through the Service (\"Purchase\"), you may be asked to supply certain information relevant to your Purchase including, without limitation, your ...</p><p><strong>Content</strong></p><p>Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material (\"Content\"). You are responsible for the ...</p><p><strong>Changes</strong></p><p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p><p><strong>Contact Us</strong></p><p>If you have any questions about these Terms, please contact us.</p>"
+msgstr "<p> لطفا این شرایط و ضوابط ( \"شرایط\"، \"شرایط و ضوابط\") را به دقت بخوانید قبل از استفاده از <a href=\"http://www.mywebsite.com\"> http://www.mywebsite.com < / A> وب سایت و نرم افزار تلفن همراه من نرم افزار موبایل ( \"خدمات\") توسط شرکت من عمل ( \"ما\"، \"ما\"، و یا \"ما\") </ P> <P> <strong> توسط دسترسی و یا با استفاده از. شما توافق می کنید که خدمات به این شرایط محدود می شود. اگر شما با هر بخشی از شرایط مخالف سپس شما ممکن است خدمات دسترسی پیدا کنید. </ قوی> </ P> <P> و <strong> خرید است </ strong> </ P> <p> اگر شما مایل به خرید هر محصول و یا خدمات از طریق خدمات ( \"خرید\") در دسترس ساخته شده، شما ممکن است خواسته باشید برای تامین اطلاعات خاص مربوط به خرید خود را از جمله، بدون محدودیت، خود را ... </ P> <P> و <strong> محتوا </ strong> < / P> <P> خدمات ما اجازه می دهد تا شما را به ارسال، لینک، ذخیره، اشتراک و در غیر این صورت اطلاعات موجود خاص، متن، گرافیک، فیلم ها، و یا مواد دیگر ( \"محتوا\"). شما مسئول هستند ... </ P> <P> <strong> تغییرات است </ strong> </ P> <P> ما حق، با صلاحدید ما، به تغییر و یا جایگزینی این شرایط در هر زمان. اگر تجدید نظر مواد این است که ما سعی خواهد کرد به ارائه اطلاع حداقل 30 روز قبل از هر گونه شرایط جدید در نظر گرفتن اثر. آنچه به منزله یک تغییر مواد خواهد شد در صلاحدید ما تعیین می شود. </ P> <P> و <strong> تماس با ما </ قوی> </ P> <P> ا"
+
+msgctxt "Languages::product_state_description.mve.new"
+msgid "<p>Full unrestricted access to all features. Enter a valid license number to activate.</p><p>This mode can be activated at any time.</p><br />"
+msgstr ""
+
+msgctxt "Languages::product_state_description.mve.full"
+msgid "<p>Full unrestricted access to all features. Enter a valid license number to activate.</p><p>This mode can be activated at any time.</p><br />"
+msgstr ""
+
+msgctxt "Languages::text_store_mode_changed_to_mve.full"
+msgid "<strong>Full mode</strong> has been activated. In this mode, all the advanced eCommerce features are available."
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type"
+msgid "Type"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.other"
+msgid "Other"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.other.description"
+msgid "Other"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.order_placed"
+msgid "Order placed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.order_placed.description"
+msgid "Order <a href=\"[order_url]\">#[order_id]</a> placed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.order_changed"
+msgid "Order changed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.order_changed.description"
+msgid "Order <a href=\"[order_url]\">#[order_id]</a> changed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.order_refunded"
+msgid "Order refunded"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.order_refunded.description"
+msgid "Order <a href=\"[order_url]\">#[order_id]</a> refunded"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.withdrawal"
+msgid "Withdrawal"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.withdrawal.description"
+msgid "Withdrawal"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.payout"
+msgid "Payout"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.payout.description"
+msgid "Payout"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.transactions"
+msgid "Transactions"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.withdrawals"
+msgid "Balance withdrawals"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.transaction_value"
+msgid "Transaction value"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.income"
+msgid "Income"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.income_carried_forward"
+msgid "Income carried forward"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.balance"
+msgid "Balance"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.balance_carried_forward"
+msgid "Balance carried forward"
+msgstr ""
+
+msgctxt "Languages::add_withdrawal"
+msgid "Request withdrawal"
+msgstr ""
+
+msgctxt "Languages::new_withdrawal"
+msgid "New withdrawal"
+msgstr ""
+
+msgctxt "Languages::vendor_accounting"
+msgid "Accounting"
+msgstr ""
+
+msgctxt "Languages::vendor_accounting_menu_description"
+msgid "Income and expenditure statistics (total income, vendor balance, vendor withdrawals)."
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.current_balance"
+msgid "Current balance: [balance]"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.current_balance_text"
+msgid "Current balance"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.approval_status"
+msgid "Approval status"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.approval_status.P"
+msgid "Pending"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.approval_status.C"
+msgid "Completed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.approval_status.D"
+msgid "Declined"
+msgstr ""
+
+msgctxt "Languages::email_template.accounting_new_payout"
+msgid "Accounting: Payout has been issued"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.new_payout_issued"
+msgid "New payout has been issued"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.new_payout_issued_text"
+msgid "A new payout of [amount] has been issued by [issuer]"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.view_details"
+msgid "You can view the details here"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.payout_comments"
+msgid "Payout comments"
+msgstr ""
+
+msgctxt "Languages::email_template.accounting_new_withdrawal"
+msgid "Accounting: Withdrawal has been requested"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.new_withdrawal_requested"
+msgid "New withdrawal has been requested"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.new_withdrawal_requested_text"
+msgid "A new withdrawal of [amount] has been requested by [requester]"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.withdrawal_comments"
+msgid "Withdrawal comments"
+msgstr ""
+
+msgctxt "Languages::email_template.accounting_payout_approved"
+msgid "Accounting: Payout has been completed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.payout_approved"
+msgid "Payout has been completed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.payout_approved_text"
+msgid "The payout of [amount] issued on [date] has been marked as <b>Completed</b>"
+msgstr ""
+
+msgctxt "Languages::email_template.accounting_payout_declined"
+msgid "Accounting: Payout hasn't been completed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.payout_declined"
+msgid "Payout hasn't been completed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.payout_declined_text"
+msgid "The payout of [amount] issued on [date] has been marked as <b>Not completed</b>"
+msgstr ""
+
+msgctxt "Languages::email_template.accounting_withdrawal_approved"
+msgid "Accounting: Withdrawal has been completed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.withdrawal_approved"
+msgid "Withdrawal has been completed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.withdrawal_approved_text"
+msgid "The withdrawal of [amount] requested on [date] has been marked as <b>Completed</b>"
+msgstr ""
+
+msgctxt "Languages::email_template.accounting_withdrawal_declined"
+msgid "Accounting: Withdrawal has been declined"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.withdrawal_declined"
+msgid "Withdrawal has been declined"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.withdrawal_declined_text"
+msgid "The withdrawal of [amount] requested on [date] has been marked as <b>Declined</b>"
+msgstr ""
+
+msgctxt "Languages::top_sellers"
+msgid "Top sellers"
+msgstr ""
+

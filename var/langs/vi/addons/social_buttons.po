@@ -1,0 +1,902 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/social_buttons.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::social_buttons"
+msgid "Social buttons"
+msgstr "Nút bấm mạng xã hội"
+
+msgctxt "Addons::description::social_buttons"
+msgid "Social media and e-mail share buttons (Twitter, Facebook, etc.)"
+msgstr "Nút chia sẻ qua phương tiện truyền thông mạng xã hội và email (Twitter, Facebook, v.v..)"
+
+msgctxt "Languages::use_for_email_share"
+msgid "Send to friend form"
+msgstr "Mẫu gửi cho bạn bè"
+
+msgctxt "Languages::facebook"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "Languages::facebook_obj_type"
+msgid "Facebook object type"
+msgstr "Loại đối tượng Facebook"
+
+msgctxt "Languages::fb_activities"
+msgid "Activities"
+msgstr "Hoạt động"
+
+msgctxt "Languages::fb_businesses"
+msgid "Businesses"
+msgstr "Doanh nghiệp"
+
+msgctxt "Languages::fb_groups"
+msgid "Groups"
+msgstr "Nhóm"
+
+msgctxt "Languages::fb_organizations"
+msgid "Organizations"
+msgstr "Tổ chức"
+
+msgctxt "Languages::fb_people"
+msgid "People"
+msgstr "Người"
+
+msgctxt "Languages::fb_places"
+msgid "Places"
+msgstr "Địa điểm"
+
+msgctxt "Languages::fb_products_entertainment"
+msgid "Products and Entertainment"
+msgstr "Sản phẩm và Giải trí"
+
+msgctxt "Languages::fb_websites"
+msgid "Websites"
+msgstr "Trang web"
+
+msgctxt "Languages::error_no_recipient_address"
+msgid "Please enter your friends e-mail address to proceed"
+msgstr "Vui lòng nhập địa chỉ email bạn bè của bạn để tiến hành"
+
+msgctxt "Languages::recommendation_from"
+msgid "Recommendation from"
+msgstr "Mẫu giới thiệu"
+
+msgctxt "Languages::text_recommendation_notes"
+msgid "Your friend has recommended this page to you. Please follow the link:"
+msgstr "Một người bạn của bạn đã giới thiệu trang này cho bạn. Xin vui lòng làm theo các liên kết:"
+
+msgctxt "Languages::your_email"
+msgid "Your e-mail"
+msgstr "Email của bạn"
+
+msgctxt "Languages::name_of_friend"
+msgid "Name of your friend"
+msgstr "Tên của người nhận"
+
+msgctxt "Languages::email_of_friend"
+msgid "E-mail of your friend"
+msgstr "Email người nhận"
+
+msgctxt "Languages::share_via_email"
+msgid "Share via E-Mail"
+msgstr "Chia sẻ qua email"
+
+msgctxt "Languages::sb_share"
+msgid "Share"
+msgstr "Chia sẻ"
+
+msgctxt "SettingsSections::social_buttons::yandex"
+msgid "Yandex"
+msgstr "Yandex"
+
+msgctxt "SettingsSections::social_buttons::twitter"
+msgid "Twitter"
+msgstr "Twitter"
+
+msgctxt "SettingsSections::social_buttons::facebook"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "SettingsSections::social_buttons::vkontakte"
+msgid "Vkontakte"
+msgstr "VKontakte"
+
+msgctxt "SettingsSections::social_buttons::email"
+msgid "E-mail"
+msgstr "Email"
+
+msgctxt "SettingsOptions::social_buttons::yandex_header"
+msgid "Yandex settings"
+msgstr "Cài đặt Yandex"
+
+msgctxt "SettingsOptions::social_buttons::twitter_header"
+msgid "Twitter settings"
+msgstr "Thiết lập Twitter"
+
+msgctxt "SettingsOptions::social_buttons::yandex_enable"
+msgid "Show Yandex.Share block"
+msgstr "Hiển thị Yandex.Share khối"
+
+msgctxt "SettingsOptions::social_buttons::yandex_share_code"
+msgid "Yandex.Share code"
+msgstr "Mã Yandex.Share"
+
+msgctxt "SettingsOptions::social_buttons::yandex_display_on"
+msgid "Display on"
+msgstr "Hiển thị ngày"
+
+msgctxt "SettingsVariants::social_buttons::yandex_display_on::products"
+msgid "Product details pages"
+msgstr "Trang chi tiết sản phẩm"
+
+msgctxt "SettingsVariants::social_buttons::yandex_display_on::pages"
+msgid "Pages"
+msgstr "Trang"
+
+msgctxt "SettingsTooltips::social_buttons::yandex_share_code"
+msgid "You can configure the block and get the code at <a href=\"http://api.yandex.ru/share/\" target=\"_blank\">http://api.yandex.ru/share/</a>"
+msgstr "Bạn có thể đặt cấu hình các khối và nhận được mã số <a href=\"http://api.yandex.ru/share/\" target=\"_blank\"> http://api.yandex.ru/share/</a>"
+
+msgctxt "SettingsOptions::social_buttons::twitter_enable"
+msgid "Show Twitter button"
+msgstr "Hiển thị nút Twitter"
+
+msgctxt "SettingsOptions::social_buttons::twitter_via"
+msgid "Via"
+msgstr "Qua"
+
+msgctxt "SettingsOptions::social_buttons::twitter_size"
+msgid "Button size"
+msgstr "Kích thước nút"
+
+msgctxt "SettingsOptions::social_buttons::twitter_display_count"
+msgid "Display count"
+msgstr "Hiển thị số lượng"
+
+msgctxt "SettingsOptions::social_buttons::twitter_display_on"
+msgid "Display on"
+msgstr "Hiển thị ngày"
+
+msgctxt "SettingsOptions::social_buttons::facebook_header"
+msgid "Facebook settings"
+msgstr "Thiết lập Facebook"
+
+msgctxt "SettingsOptions::social_buttons::facebook_enable"
+msgid "Show Facebook button"
+msgstr "Hiển thị nút Facebook"
+
+msgctxt "SettingsOptions::social_buttons::facebook_app_id"
+msgid "Facebook app ID"
+msgstr "ID ứng dụng Facebook"
+
+msgctxt "SettingsOptions::social_buttons::facebook_href"
+msgid "The URL of the page to like"
+msgstr "URL của trang thích"
+
+msgctxt "SettingsOptions::social_buttons::facebook_send"
+msgid "Include a Send button with the Like button"
+msgstr "Bao gồm một nút Gửi với nút Thích"
+
+msgctxt "SettingsOptions::social_buttons::facebook_width"
+msgid "Width of the Like button (px)"
+msgstr "Chiều rộng của nút Thích (px)"
+
+msgctxt "SettingsOptions::social_buttons::facebook_layout"
+msgid "Button layout"
+msgstr "Bố trí nút"
+
+msgctxt "SettingsOptions::social_buttons::facebook_show_faces"
+msgid "Display profile photos"
+msgstr "Hiển thị ảnh tiểu sử"
+
+msgctxt "SettingsOptions::social_buttons::facebook_action"
+msgid "Button verb"
+msgstr "Nút động"
+
+msgctxt "SettingsOptions::social_buttons::facebook_lang"
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+msgctxt "SettingsOptions::social_buttons::facebook_action_font"
+msgid "Button font"
+msgstr "Phông chữ nút bấm"
+
+msgctxt "SettingsOptions::social_buttons::facebook_colorscheme"
+msgid "Color scheme"
+msgstr "Màu săc kết hợp"
+
+msgctxt "SettingsOptions::social_buttons::facebook_display_on"
+msgid "Display on"
+msgstr "Hiển thị ngày"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_header"
+msgid "Vkontakte settings"
+msgstr "Thiết lập VKontakte"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_enable"
+msgid "Show Vkontakte button"
+msgstr "Hiển thị nút Vkontakte"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_appid"
+msgid "Vkontakte app ID"
+msgstr "ID ứng dụng VKontakte"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_button_style"
+msgid "Button layout"
+msgstr "Bố trí nút"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_height"
+msgid "Button height (px)"
+msgstr "Chiều cao nút bấm (px)"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_width"
+msgid "Button width (px)"
+msgstr "Chiều rộng nút bấm (px)"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_buttons_name"
+msgid "Button name"
+msgstr "Tên nút"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_display_on"
+msgid "Display on"
+msgstr "Hiển thị ngày"
+
+msgctxt "SettingsOptions::social_buttons::email_header"
+msgid "E-mail settings"
+msgstr "Cài đặt email"
+
+msgctxt "SettingsOptions::social_buttons::email_enable"
+msgid "Show E-mail button"
+msgstr "Hiển thị nút email"
+
+msgctxt "SettingsOptions::social_buttons::email_display_on"
+msgid "Display on"
+msgstr "Hiển thị ngày"
+
+msgctxt "SettingsTooltips::social_buttons::twitter_via"
+msgid "User name to attribute the Tweet to (i.e. 'via @username')"
+msgstr "Tên người dùng để cho các Tweet (tức là 'qua @username')"
+
+msgctxt "SettingsTooltips::social_buttons::facebook_app_id"
+msgid "Specify any Facebook app ID, otherwise the button will not be shown"
+msgstr "Chỉ định bất kỳ ID ứng dụng Facebook, nếu không các nút sẽ không được hiển thị"
+
+msgctxt "SettingsTooltips::social_buttons::facebook_href"
+msgid "Leave empty to use an actual page URL"
+msgstr "Để trống để sử dụng một URL trang thực tế"
+
+msgctxt "SettingsTooltips::social_buttons::facebook_show_faces"
+msgid "Enable to display profile photos below the button (standard layout only)"
+msgstr "Cho phép hiển thị hồ sơ hình ảnh bên dưới nút (chỉ bố trí tiêu chuẩn)"
+
+msgctxt "SettingsTooltips::social_buttons::vkontakte_width"
+msgid "Only for the button with text counter"
+msgstr "Chỉ cho nút với văn bản số lượt truy cập"
+
+msgctxt "SettingsVariants::social_buttons::twitter_size::medium"
+msgid "Medium"
+msgstr "Trung bình"
+
+msgctxt "SettingsVariants::social_buttons::twitter_size::large"
+msgid "Large"
+msgstr "Lớn"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_count::none"
+msgid "None"
+msgstr "Không có"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_count::horizontal"
+msgid "Horizontal"
+msgstr "Ngang"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_count::vertical"
+msgid "vertical"
+msgstr "thẳng đứng"
+
+msgctxt "SettingsVariants::social_buttons::email_display_on::products"
+msgid "Product details pages"
+msgstr "Trang chi tiết sản phẩm"
+
+msgctxt "SettingsVariants::social_buttons::email_display_on::pages"
+msgid "Pages"
+msgstr "Trang"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_on::products"
+msgid "Product details pages"
+msgstr "Trang chi tiết sản phẩm"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_on::pages"
+msgid "Pages"
+msgstr "Trang"
+
+msgctxt "SettingsVariants::social_buttons::facebook_display_on::products"
+msgid "Product details pages"
+msgstr "Trang chi tiết sản phẩm"
+
+msgctxt "SettingsVariants::social_buttons::facebook_display_on::pages"
+msgid "Pages"
+msgstr "Trang"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_display_on::products"
+msgid "Product details pages"
+msgstr "Trang chi tiết sản phẩm"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_display_on::pages"
+msgid "Pages"
+msgstr "Trang"
+
+msgctxt "SettingsVariants::social_buttons::facebook_layout::standard"
+msgid "Standard"
+msgstr "Tiêu chuẩn"
+
+msgctxt "SettingsVariants::social_buttons::facebook_layout::button_count"
+msgid "With count"
+msgstr "Với số"
+
+msgctxt "SettingsVariants::social_buttons::facebook_layout::box_count"
+msgid "With large count"
+msgstr "Với số lượng lớn"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_buttons_name::like"
+msgid "Like"
+msgstr "Thích"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action::like"
+msgid "Like"
+msgstr "Thích"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action::recommend"
+msgid "Recommend"
+msgstr "Khuyến nghị"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::af_ZA"
+msgid "Afrikaans"
+msgstr "Tiếng Afrikaans"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ar_AR"
+msgid "Arabic"
+msgstr "Tiếng Ả Rập"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::az_AZ"
+msgid "Azerbaijani"
+msgstr "Tiếng Azerbaijan"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::be_BY"
+msgid "Belarusian"
+msgstr "Tiếng Belarus"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::bg_BG"
+msgid "Bulgarian"
+msgstr "Tiếng Bulgaria"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::bn_IN"
+msgid "Bengali"
+msgstr "Tiếng Bengali"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::bs_BA"
+msgid "Bosnian"
+msgstr "Tiếng Bosnia"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ca_ES"
+msgid "Catalan"
+msgstr "Tiếng Catalan"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::cs_CZ"
+msgid "Czech"
+msgstr "Tiếng Séc"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::cy_GB"
+msgid "Welsh"
+msgstr "Tiếng Wales"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::da_DK"
+msgid "Danish"
+msgstr "Tiếng Đan Mạch"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::de_DE"
+msgid "German"
+msgstr "Tiếng Đức"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::el_GR"
+msgid "Greek"
+msgstr "Tiếng Hy Lạp"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_GB"
+msgid "English (UK)"
+msgstr "Tiếng Anh (Anh)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_PI"
+msgid "English (Pirate)"
+msgstr "Tiếng Anh (caribe)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_UD"
+msgid "English (Upside Down)"
+msgstr "Tiếng Anh (lộn ngược)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_US"
+msgid "English (US)"
+msgstr "Tiếng Anh (Mỹ)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::eo_EO"
+msgid "Esperanto"
+msgstr "Tiếng Esperanto"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::es_ES"
+msgid "Spanish (Spain)"
+msgstr "Tiếng Tây Ban Nha (Tây Ban Nha)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::es_LA"
+msgid "Spanish"
+msgstr "Tiếng Tây Ban Nha"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::et_EE"
+msgid "Estonian"
+msgstr "Tiếng Estonia"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::eu_ES"
+msgid "Basque"
+msgstr "Tiếng Basque"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fa_IR"
+msgid "Persian"
+msgstr "Tiếng Ba tư"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fb_LT"
+msgid "Leet Speak"
+msgstr "Leet Speak"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fi_FI"
+msgid "Finnish"
+msgstr "Tiếng Phần Lan"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fo_FO"
+msgid "Faroese"
+msgstr "Tiếng Faroe"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fr_CA"
+msgid "French (Canada)"
+msgstr "Tiếng Pháp (Canada)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fr_FR"
+msgid "French (France)"
+msgstr "Tiếng Pháp (Pháp)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fy_NL"
+msgid "Frisian"
+msgstr "Tiếng Frisia"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ga_IE"
+msgid "Irish"
+msgstr "Tiếng Ai-Len"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::gl_ES"
+msgid "Galician"
+msgstr "Tiếng Galician"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::he_IL"
+msgid "Hebrew"
+msgstr "Tiếng Do Thái"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hi_IN"
+msgid "Hindi"
+msgstr "Tiếng Hin-di"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hr_HR"
+msgid "Croatian"
+msgstr "Tiếng Croatia"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hu_HU"
+msgid "Hungarian"
+msgstr "Tiếng Hungary"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hy_AM"
+msgid "Armenian"
+msgstr "Tiếng Armenia"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::id_ID"
+msgid "Indonesian"
+msgstr "Tiếng Indonesia"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::is_IS"
+msgid "Icelandic"
+msgstr "Tiếng Icelandic"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::it_IT"
+msgid "Italian"
+msgstr "Tiếng Ý"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ja_JP"
+msgid "Japanese"
+msgstr "Tiếng Nhật"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ka_GE"
+msgid "Georgian"
+msgstr "Tiếng Gruzia"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::km_KH"
+msgid "Khmer"
+msgstr "Tiếng Khmer"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ko_KR"
+msgid "Korean"
+msgstr "Tiếng Hàn Quốc"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ku_TR"
+msgid "Kurdish"
+msgstr "Tiếng Người Kurd"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::la_VA"
+msgid "Latin"
+msgstr "Tiếng Latinh"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::lt_LT"
+msgid "Lithuanian"
+msgstr "Tiếng Lithuanian"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::lv_LV"
+msgid "Latvian"
+msgstr "Tiếng Latvia"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::mk_MK"
+msgid "Macedonian"
+msgstr "Tiếng Macedonia"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ml_IN"
+msgid "Malayalam"
+msgstr "Tiếng Malayalam"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ms_MY"
+msgid "Malay"
+msgstr "Tiếng Mã lai"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::nb_NO"
+msgid "Norwegian (bokmal)"
+msgstr "Tiếng Na Uy (bokmal)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ne_NP"
+msgid "Nepali"
+msgstr "Tiếng Nê-pan"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::nl_NL"
+msgid "Dutch"
+msgstr "Tiếng Hà Lan"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::nn_NO"
+msgid "Norwegian (nynorsk)"
+msgstr "Tiếng Na Uy (nynorsk)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pa_IN"
+msgid "Punjabi"
+msgstr "Tiếng Punjabi"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pl_PL"
+msgid "Polish"
+msgstr "Tiếng Ba Lan"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ps_AF"
+msgid "Pashto"
+msgstr "Tiếng Pashto"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pt_BR"
+msgid "Portuguese (Brazil)"
+msgstr "Tiếng Bồ Đào Nha (Brazil)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pt_PT"
+msgid "Portuguese (Portugal)"
+msgstr "Tiếng Bồ Đào Nha (Bồ Đào Nha)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ro_RO"
+msgid "Romanian"
+msgstr "Tiếng Rumani"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ru_RU"
+msgid "Russian"
+msgstr "Tiếng Nga"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sk_SK"
+msgid "Slovak"
+msgstr "Tiếng Slovak"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sl_SI"
+msgid "Slovenian"
+msgstr "Tiếng Slovenia"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sq_AL"
+msgid "Albanian"
+msgstr "Tiếng Albania"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sr_RS"
+msgid "Serbian"
+msgstr "Tiếng Serbia"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sv_SE"
+msgid "Swedish"
+msgstr "Tiếng Thụy Điển"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sw_KE"
+msgid "Swahili"
+msgstr "Tiếng Swahili"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ta_IN"
+msgid "Tamil"
+msgstr "Tiếng Tamil"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::te_IN"
+msgid "Telugu"
+msgstr "Tiếng Telugu"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::th_TH"
+msgid "Thai"
+msgstr "Tiếng Thái Lan"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::tl_PH"
+msgid "Filipino"
+msgstr "Tiếng Philippines"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::tr_TR"
+msgid "Turkish"
+msgstr "Tiếng Thổ Nhĩ Kỳ"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::uk_UA"
+msgid "Ukrainian"
+msgstr "Tiếng Ukraina"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::vi_VN"
+msgid "Vietnamese"
+msgstr "Tiếng Việt"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::zh_CN"
+msgid "Simplified Chinese (China)"
+msgstr "Tiếng Trung (Trung Quốc)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::zh_HK"
+msgid "Traditional Chinese (Hong Kong)"
+msgstr "Tiếng Trung (Hong Kong)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::zh_TW"
+msgid "Traditional Chinese (Taiwan)"
+msgstr "Tiếng Trung (Đài Loan)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::arial"
+msgid "Arial"
+msgstr "Arial"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::lucida grande"
+msgid "Lucida grande"
+msgstr "Lucida grande"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::segoe ui"
+msgid "Segoe ui"
+msgstr "Segoe ui"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::tahoma"
+msgid "Tahoma"
+msgstr "Tahoma"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::trebuchet ms"
+msgid "Trebuchet ms"
+msgstr "Trebuchet ms"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::verdana"
+msgid "Verdana"
+msgstr "Verdana"
+
+msgctxt "SettingsVariants::social_buttons::facebook_colorscheme::light"
+msgid "Light"
+msgstr "Sáng"
+
+msgctxt "SettingsVariants::social_buttons::facebook_colorscheme::dark"
+msgid "Dark"
+msgstr "Tối"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::full"
+msgid "Button with a text counter"
+msgstr "Nút với văn bản đếm"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::button"
+msgid "Button with a little counter"
+msgstr "Nút với đếm ít"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::mini"
+msgid "Mini button"
+msgstr "Nút nhỏ"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::Vertical"
+msgid "Mini button, counter on top"
+msgstr "Nút nhỏ, đếm lượt truy cập trên đầu trang"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_buttons_name::interesting"
+msgid "It's interesting"
+msgstr "Nó là thú vị"
+
+msgctxt "SettingsSections::social_buttons::gplus"
+msgid "Google plus"
+msgstr "Google plus"
+
+msgctxt "SettingsOptions::social_buttons::gplus_header"
+msgid "Google plus settings"
+msgstr "Cài đặt Google plus"
+
+msgctxt "SettingsOptions::social_buttons::gplus_enable"
+msgid "Show Google plus button"
+msgstr "Hiển thị nút Google plus"
+
+msgctxt "SettingsOptions::social_buttons::gplus_href"
+msgid "Google plus href"
+msgstr "Google plus href"
+
+msgctxt "SettingsOptions::social_buttons::gplus_size"
+msgid "Size"
+msgstr "Kích thước"
+
+msgctxt "SettingsOptions::social_buttons::gplus_annotation"
+msgid "Annotation"
+msgstr "Chú thích"
+
+msgctxt "SettingsOptions::social_buttons::gplus_width"
+msgid "Width"
+msgstr "Chiều rộng"
+
+msgctxt "SettingsOptions::social_buttons::gplus_align"
+msgid "Align"
+msgstr "Sắp xếp"
+
+msgctxt "SettingsOptions::social_buttons::gplus_expandto"
+msgid "Expand To"
+msgstr "Mở rộng để"
+
+msgctxt "SettingsOptions::social_buttons::gplus_recommendations"
+msgid "Recomendations"
+msgstr "Khuyến nghị"
+
+msgctxt "SettingsOptions::social_buttons::gplus_display_on"
+msgid "Display on"
+msgstr "Hiển thị ngày"
+
+msgctxt "SettingsVariants::social_buttons::gplus_display_on::products"
+msgid "Product details pages"
+msgstr "Trang chi tiết sản phẩm"
+
+msgctxt "SettingsVariants::social_buttons::gplus_display_on::pages"
+msgid "Pages"
+msgstr "Trang"
+
+msgctxt "SettingsVariants::social_buttons::gplus_size::small"
+msgid "Small"
+msgstr "Nhỏ"
+
+msgctxt "SettingsVariants::social_buttons::gplus_size::medium"
+msgid "Medium"
+msgstr "Trung bình"
+
+msgctxt "SettingsVariants::social_buttons::gplus_size::standard"
+msgid "Standard"
+msgstr "Tiêu chuẩn"
+
+msgctxt "SettingsVariants::social_buttons::gplus_size::tall"
+msgid "Tall"
+msgstr "Cao"
+
+msgctxt "SettingsVariants::social_buttons::gplus_annotation::none"
+msgid "None"
+msgstr "Không có"
+
+msgctxt "SettingsVariants::social_buttons::gplus_annotation::bubble"
+msgid "Bubble"
+msgstr "Bong bóng"
+
+msgctxt "SettingsVariants::social_buttons::gplus_annotation::inline"
+msgid "Inline"
+msgstr "Inline"
+
+msgctxt "SettingsVariants::social_buttons::gplus_align::left"
+msgid "Left"
+msgstr "Trái"
+
+msgctxt "SettingsVariants::social_buttons::gplus_align::right"
+msgid "Right"
+msgstr "Phải"
+
+msgctxt "SettingsVariants::social_buttons::gplus_expandto::top"
+msgid "Top"
+msgstr "Trên đầu"
+
+msgctxt "SettingsVariants::social_buttons::gplus_expandto::right"
+msgid "Right"
+msgstr "Phải"
+
+msgctxt "SettingsVariants::social_buttons::gplus_expandto::bottom"
+msgid "Bottom"
+msgstr "Dưới cùng"
+
+msgctxt "SettingsVariants::social_buttons::gplus_expandto::left"
+msgid "Left"
+msgstr "Trái"
+
+msgctxt "SettingsVariants::social_buttons::gplus_recommendations::yes"
+msgid "Yes"
+msgstr "Có"
+
+msgctxt "SettingsVariants::social_buttons::gplus_recommendations::no"
+msgid "No"
+msgstr "Không"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_display_on"
+msgid "Display on"
+msgstr "Hiển thị ngày"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_display_on::products"
+msgid "Product details pages"
+msgstr "Trang chi tiết sản phẩm"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_display_on::pages"
+msgid "Pages"
+msgstr "Trang"
+
+msgctxt "SettingsSections::social_buttons::pinterest"
+msgid "Pinterest"
+msgstr "Pinterest"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_header"
+msgid "Pinterest settings"
+msgstr "Cài đặt Pinterest"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_enable"
+msgid "Show Pinterest button"
+msgstr "Hiển thị nút Pinterest"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_size"
+msgid "Button size"
+msgstr "Kích thước nút"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_size::20"
+msgid "Small"
+msgstr "Nhỏ"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_size::28"
+msgid "Large"
+msgstr "Lớn"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_shape"
+msgid "Shape"
+msgstr "Hình dạng"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_shape::rect"
+msgid "Rectangular"
+msgstr "Hình chữ nhật"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_shape::round"
+msgid "Circular"
+msgstr "Hình tròn"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_color"
+msgid "Color"
+msgstr "Màu sắc"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_color::gray"
+msgid "Gray"
+msgstr "Màu xám"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_color::red"
+msgid "Red"
+msgstr "Màu đỏ"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_color::white"
+msgid "White"
+msgstr "Màu trắng"
+
+msgctxt "Languages::email_template.social_buttons_mail"
+msgid "Email share"
+msgstr "Email chia sẻ"
+

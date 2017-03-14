@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /addons/call_requests.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:47-0500\n"
+
+msgctxt "Addons::name::call_requests"
+msgid "Call requests"
+msgstr "Αιτήσεις κλήσεων"
+
+msgctxt "Addons::description::call_requests"
+msgid "Adds a call-requests system"
+msgstr "Προσθέτει ένα σύστημα ατήσεων κλήσης"
+
+msgctxt "SettingsSections::call_requests::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::call_requests::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::call_requests::phone"
+msgid "Rewrite phone"
+msgstr "Επανεγγραφή τηλεφώνου"
+
+msgctxt "SettingsOptions::call_requests::phone_prefix_length"
+msgid "Highlight first chars"
+msgstr "Μαρκάρετε τους πρώτους χαρακτήρες"
+
+msgctxt "SettingsOptions::call_requests::buy_now_with_one_click"
+msgid "Enable the \"Buy now with one click\" option"
+msgstr "Ενεργοποιήσετε την επιλογή \"Αγορά τώρα με ένα κλικ\""
+
+msgctxt "SettingsOptions::call_requests::order_status"
+msgid "Order status"
+msgstr "Εξέλιξη Παραγγελίας"
+
+msgctxt "SettingsOptions::call_requests::phone_mask"
+msgid "Phone mask"
+msgstr "Mάσκα Τηλεφώνου"
+
+msgctxt "SettingsTooltips::call_requests::phone_mask"
+msgid "Leave empty to use automatic country-based phone pattern, or type in a custom pattern. You can use spaces, commas, +, -, and digits. Note that 9 represents any digit; if you need a 9, type \\\\9. Examples: +9 (999) 999 99 99, 99999999, 999 999 99 or +99-99-9999-9999."
+msgstr "Αφήστε το άδειο για να χρησιμοποιηθει η αυτοματη δημιουργία τηλεφωνικου προτύπου βασισμένη στη χώρα, ή πληκτρολογήστε ενα δικο σας πρότυπο. Μπορείτε να χρησιμοποιήσετε κενο, κόμμα, +, -, και ψηφία. Σημειώστε πως το 9 αντιπροσωπεύει οποιδηποτε ψηφίο; Αν χρειασείτε ενα 9, πληκτρολογήστε \\\\9. Παραδείγματα: +9 (999) 999 99 99, 99999999, 999 999 99 ή +99-99-9999-9999."
+
+msgctxt "SettingsTooltips::call_requests::phone_prefix_length"
+msgid "Including parenthesis, spaces, etc. Use to highlight country code, area code, and phone prefix."
+msgstr "Συμπεριλαμβανομένων παρένθεση, κενών, κλπ. Χρησιμοποιήται για να επισημάνετε κωδικό χώρας, κώδικας περιοχής και πρόθεμα τηλεφωνου."
+
+msgctxt "Languages::privileges.manage_call_requests"
+msgid "Manage Call requests"
+msgstr "Διαχείριση αιτήσεων κλήση"
+
+msgctxt "Languages::privileges.view_call_requests"
+msgid "View Call requests"
+msgstr "Προβολη αιτήσεων κλήσεων"
+
+msgctxt "Languages::call_requests"
+msgid "Call requests"
+msgstr "Αιτήσεις κλήσεων"
+
+msgctxt "Languages::call_requests_menu_description"
+msgid "Manage customer call requests"
+msgstr "Διαχειριστείτε τα αιτήματα κλήσεων των πελατών"
+
+msgctxt "Languages::call_requests.request_call"
+msgid "Request call"
+msgstr "Τηλεφωνικές Παραγγελίες"
+
+msgctxt "Languages::call_requests.buy_now_with_one_click"
+msgid "Buy now with 1-click"
+msgstr "Αγοράστε με 1-κλικ"
+
+msgctxt "Languages::call_requests.error_validate_call_form"
+msgid "Please enter your email or phone number"
+msgstr "Παρακαλώ εισάγετε το e-mail σας ή το τηλεφωνό σας"
+
+msgctxt "Languages::call_requests.request_recieved"
+msgid "We have received your request! Our manager will contact you soon."
+msgstr "Έχουμε λάβει το αίτημά σας! Η Διευθυνσή μας θα επικοινωνήσει μαζί σας σύντομα."
+
+msgctxt "Languages::call_requests.order_placed"
+msgid "We have received your request! The order #[order_id] has been successfully created. Our manager will contact you soon."
+msgstr "Έχουμε λάβει το αίτημά σας! Η παραγγελία #[order_id] έχει δημιουργηθεί με επιτυχία. Η Διευθυνσή μας θα επικοινωνήσει μαζί σας σύντομα."
+
+msgctxt "Languages::call_requests.phone_from_settings"
+msgid "Phone from settings"
+msgstr "Τηλέφωνο, από ρυθμίσεις"
+
+msgctxt "Languages::call_requests.enter_phone_or_email_text"
+msgid "Please enter your phone number or email (for our manager to contact you)"
+msgstr "Παρακαλούμε εισάγετε το αριθμό τηλεφώνου ή το e-mail (ώστε η διευθυνσή μας να επικοινωνήσουμε μαζί σας)"
+
+msgctxt "Languages::call_requests.status.new"
+msgid "New"
+msgstr "Νέα"
+
+msgctxt "Languages::call_requests.status.in_progress"
+msgid "In progress"
+msgstr "Σε εξέλιξη"
+
+msgctxt "Languages::call_requests.status.completed"
+msgid "Completed"
+msgstr "Ολοκληρωθηκε"
+
+msgctxt "Languages::call_requests.status.no_answer"
+msgid "No answer"
+msgstr "Καμία Απάντηση"
+
+msgctxt "Languages::call_requests.responsible"
+msgid "Responsible"
+msgstr "Υπεύθυνος"
+
+msgctxt "Languages::call_requests.notes"
+msgid "Notes"
+msgstr "Σημειώσεις"
+
+msgctxt "Languages::call_requests.requested_product"
+msgid "Requested product"
+msgstr "Ζητούμενο Προϊόν"
+
+msgctxt "Languages::call_requests.convenient_time"
+msgid "Convenient time"
+msgstr "Βολική ώρα"
+
+msgctxt "Languages::call_requests.awaiting_call"
+msgid "Awaiting call"
+msgstr "Αναμονη Κλησης"
+
+msgctxt "Languages::call_requests.order_exists"
+msgid "Order exists"
+msgstr "Παραγγελία υπάρχει"
+
+msgctxt "Languages::call_requests.person_name_and_phone"
+msgid "Name and phone"
+msgstr "Όνομα και τηλέφωνο"
+
+msgctxt "Languages::call_requests.no_name_specified"
+msgid "No name specified"
+msgstr "Δεν έχει καθοριστεί όνομα"
+
+msgctxt "Languages::call_requests.use_for_call_requests"
+msgid "Call request and buy now with one click form"
+msgstr "Φόρμα Αίτησης Κλήσης και Αγορά τώρα με ένα κλικ"
+
+msgctxt "Languages::block_call_request"
+msgid "Call request"
+msgstr "Τηλεφωνική Παραγγγελία"
+
+msgctxt "Languages::block_call_request_description"
+msgid "Store phone number and form for requesting a call"
+msgstr "Αποθήκευση τηλεφώνου και φόρμας αίτησης κλήσης"
+
+msgctxt "Languages::tmpl_call_request"
+msgid "Call request form"
+msgstr "Φόρμα αίτησης κλήσης"
+
+msgctxt "Languages::call_requests.text_call_request"
+msgid "Customer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number]."
+msgstr "Ο Πελάτης [customer] είναι <a href=\"[href]\"> σε αναμονή κλήση σας</a> στο [phone_number]."
+
+msgctxt "Languages::call_requests.text_call_request_call_time"
+msgid "The convenient call time is between [time_from] and [time_to]."
+msgstr "H βολική ώρα επικοινωνίας είναι μεταξύ [time_from] και [time_to]."
+
+msgctxt "Languages::call_requests.text_buy_with_one_click_request"
+msgid "Сustomer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number], regarding the purchase of the product <a href=\"[product_href]\">[product_name]</a>."
+msgstr "Ο πελάτης [customer] είναι <a href=\"[href]\"> εν αναμονή κλήση σας</a> στο [phone_number], σχετικά με την αγορά του προϊόντος <a href=\"[product_href]\">[product_name]</a>."
+
+msgctxt "Languages::call_requests.error_validator_phone"
+msgid "The phone number in the <b>[field]</b> field is invalid."
+msgstr "Ο αριθμός τηλεφώνου στο πεδίο <b>[field]</b> δεν είναι έγκυρος."
+
+msgctxt "Languages::email_template.call_requests_buy_with_one_click"
+msgid "Call requests: buy with one click notification"
+msgstr "Αιτήσεις Κλήσεων: Ειδοποίησεις αγοράμε ένα κλικ"
+
+msgctxt "Languages::email_template.call_requests_call_request"
+msgid "Call requests: call request notification"
+msgstr "Αιτήσεις Κλήσεων: Ειδοποίησεις Αιτήσεων Κλήσης"
+
+msgctxt "Languages::call_request.work_time"
+msgid "Mon-Fr 9a.m.-6p.m."
+msgstr "Δε-Π α 9 π.μ.-6 μ.μ."
+

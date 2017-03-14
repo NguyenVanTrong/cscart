@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /addons/image_zoom.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:00-0500\n"
+
+msgctxt "Addons::name::image_zoom"
+msgid "Image zoom"
+msgstr "تكبير الصورة"
+
+msgctxt "Addons::description::image_zoom"
+msgid "Shows zoomed image on product image hover"
+msgstr "تظهر تكبير صورة المنتج اثناء تحويم الصورة"
+
+msgctxt "SettingsSections::image_zoom::general"
+msgid "General"
+msgstr "عام"
+
+msgctxt "SettingsOptions::image_zoom::cz_opacity"
+msgid "Opacity"
+msgstr "العتامة"
+
+msgctxt "SettingsOptions::image_zoom::cz_animation_time"
+msgid "Animation time"
+msgstr "وقت الرسوم المتحركة"
+
+msgctxt "SettingsOptions::image_zoom::cz_tint_color_picker"
+msgid "Color"
+msgstr "اللون"
+
+msgctxt "SettingsOptions::image_zoom::cz_zoom_position"
+msgid "Zoom position"
+msgstr "مكان التكبير"
+
+msgctxt "SettingsOptions::image_zoom::cz_zoom_size_mode"
+msgid "Zoom size mode"
+msgstr "وضع حجم التكبير"
+
+msgctxt "SettingsOptions::image_zoom::cz_caption_position"
+msgid "Caption position"
+msgstr "موضع التسمية التوضيحية"
+
+msgctxt "SettingsOptions::image_zoom::cz_ease_time"
+msgid "Ease time"
+msgstr "تسهيل الوقت"
+
+msgctxt "SettingsOptions::image_zoom::cz_zoom_fly_out"
+msgid "Zoom fly out"
+msgstr "التكبير يطير"
+
+msgctxt "SettingsTooltips::image_zoom::cz_opacity"
+msgid "Opacity of tint 0-1. If zero, no tint will be visible."
+msgstr "عتامة الصبغة من 0 -1. إذا كانت صفراً , الصبغة ستكون غير مرئية."
+
+msgctxt "SettingsTooltips::image_zoom::cz_animation_time"
+msgid "Duration of the animation effects in milliseconds."
+msgstr "مدة تأثير الرسوم المتحركة مللي في الثانية."
+
+msgctxt "SettingsTooltips::image_zoom::cz_tint_color_picker"
+msgid "Color to use for the tint effect. Example: #ffffff."
+msgstr "اللون المستخدم على تأثير الصبغة. مثال: #ffffff."
+
+msgctxt "SettingsTooltips::image_zoom::cz_zoom_position"
+msgid "Specifies position of zoom window. If numeric (0-15), position is relative to page image as shown by the following key (blue squares represent zoom window). If a string is supplied, value will be used as a selector to pinpoint the exact position and size of an element in the page. If the value \"inside\" is specified, the zoom image will appear inside the page image.<br /><br /><img src=\"design/backend/media/images/addons/image_zoom/zoom-positions.png\" />"
+msgstr ""
+
+msgctxt "SettingsTooltips::image_zoom::cz_zoom_size_mode"
+msgid "Defines the rule for sizing the zoom window and lens."
+msgstr "يوضح قاعدة تحجيم إطار التكبير/التصغير والعدسات."
+
+msgctxt "SettingsTooltips::image_zoom::cz_caption_position"
+msgid "Position of caption, \"top\" or \"bottom\"."
+msgstr "وضع التسمية التوضيحية \"أعلى\" أو \"أسفل\"."
+
+msgctxt "SettingsTooltips::image_zoom::cz_ease_time"
+msgid "Number of milliseconds of mouse easing movement of zoom image. The bigger the number, the more easing. Zero means no easing."
+msgstr ""
+
+msgctxt "SettingsTooltips::image_zoom::cz_zoom_fly_out"
+msgid "Turns 'flying' zoom animation on or off."
+msgstr ""
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::0"
+msgid "Zoom position №0"
+msgstr "موضع التكبير/التصغير رقم صفر"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::1"
+msgid "Zoom position №1"
+msgstr "وضع التكبير/التصغير رقم 1"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::2"
+msgid "Zoom position №2"
+msgstr "وضع التكبير/التصغير رقم2"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::3"
+msgid "Zoom position №3"
+msgstr "وضع التكبير/التصغير رقم 3"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::4"
+msgid "Zoom position №4"
+msgstr "وضع التكبير/التصغير رقم4"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::5"
+msgid "Zoom position №5"
+msgstr "وضع التكبير/التصغير رقم5"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::6"
+msgid "Zoom position №6"
+msgstr "وضع التكبير/التصغير رقم6"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::7"
+msgid "Zoom position №7"
+msgstr "وضع التكبير/التصغير رقم7"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::8"
+msgid "Zoom position №8"
+msgstr "وضع التكبير/التصغير رقم8"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::9"
+msgid "Zoom position №9"
+msgstr "وضع التكبير/التصغير رقم9"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::10"
+msgid "Zoom position №10"
+msgstr "وضع التكبير/التصغير رقم10"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::11"
+msgid "Zoom position №11"
+msgstr "وضع التكبير/التصغير رقم11"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::12"
+msgid "Zoom position №12"
+msgstr "وضع التكبير/التصغير رقم12"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::13"
+msgid "Zoom position №13"
+msgstr "وضع التكبير/التصغير رقم13"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::14"
+msgid "Zoom position №14"
+msgstr "وضع التكبير/التصغير رقم14"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::15"
+msgid "Zoom position №15"
+msgstr "وضع التكبير/التصغير رقم15"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::inside"
+msgid "Inside position"
+msgstr "داخل الموضع"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_size_mode::image"
+msgid "Image"
+msgstr "الصورة"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_size_mode::lens"
+msgid "Lens"
+msgstr "عدسات"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_size_mode::zoom"
+msgid "Zoom"
+msgstr "التكبير/التصغير"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_size_mode::full"
+msgid "Full"
+msgstr "مكتمل"
+
+msgctxt "SettingsVariants::image_zoom::cz_caption_position::top"
+msgid "Top"
+msgstr "أعلى"
+
+msgctxt "SettingsVariants::image_zoom::cz_caption_position::bottom"
+msgid "Bottom"
+msgstr "أسفل"
+

@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: da\n"
+"X-Crowdin-File: /addons/hidpi.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:02-0500\n"
+
+msgctxt "Addons::name::hidpi"
+msgid "HiDPI displays support"
+msgstr "HiDPI viser hjælp"
+
+msgctxt "Addons::description::hidpi"
+msgid "Support for Retina displays"
+msgstr "Støtte for Retina skærme"
+
+msgctxt "Languages::text_hidpi_support_enabled"
+msgid "HiDPI support is enabled"
+msgstr "HiDPI support er aktiveret"
+
+msgctxt "Languages::text_hidpi_support_tooltip"
+msgid "What does HiDPI stand for?HiDPI stands for High resolution Dots Per Inch when referring to displays. For example, the Retina displays found on the iPhone, iPad, and MacBook Pro are HiDPI."
+msgstr "Hvad står HiDPI for? HiDPI står for høj opløsning punkter per tomme, når der henvises til skærm. For eksempel, Retina skærm som findes på iPhone, iPad og MacBook Pro HiDPI."
+
+msgctxt "Languages::text_hidpi_install"
+msgid "All newly uploaded images will be automatically shrinked to improve loading time on non-HiDPI devices. Existing images are not changed. It is recommended to upload high-definition images."
+msgstr "Alle nyligt uploadede billeder bliver automatisk gjort mindre for at forbedre indlæsningstiden på ikke-HiDPI enheder. Eksisterende billeder ændres ikke. Det anbefales at overføre HD-billeder."
+
+msgctxt "Languages::text_hidpi_uninstall"
+msgid "Some images may be shrinked to improve loading time on non-HiDPI devices. You may want to re-upload the images with better resolution."
+msgstr "Nogle billeder kan blive gjort mindre for at forbedre overførselstid på ikke-HiDPI enheder. Du vil måske gen-overføre billeder med bedre opløsning."
+
+msgctxt "Languages::addons.hidpi.thumbnail_format_changed"
+msgid "<a href=\"[settings_url]\">Thumbnail format</a> is set to PNG for better image quality."
+msgstr "<a href=\"[settings_url]\"> miniature format</a> er indstillet til PNG for bedre billedkvalitet."
+

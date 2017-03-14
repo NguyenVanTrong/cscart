@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /addons/blog.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::blog"
+msgid "Blog"
+msgstr "Blog"
+
+msgctxt "Addons::description::blog"
+msgid "Lets you start your blog easily"
+msgstr "Permite publicar um blog facilmente"
+
+msgctxt "Languages::blog_menu_description"
+msgid "Manage your blog posts."
+msgstr "Gerencie suas postagens de blog."
+
+msgctxt "Languages::blog.new_post"
+msgid "New blog post"
+msgstr "Nova postagem de blog"
+
+msgctxt "Languages::blog.editing_post"
+msgid "Editing blog post"
+msgstr "Editar postagem de blog"
+
+msgctxt "Languages::blog"
+msgid "Blog"
+msgstr "Blog"
+
+msgctxt "Languages::blog.add_post"
+msgid "Add blog post"
+msgstr "Adicionar postagem de blog"
+
+msgctxt "Languages::blog.recent_posts"
+msgid "Blog: recent posts"
+msgstr "Blog: postagens recentes"
+
+msgctxt "Languages::blog.recent_posts_scroller"
+msgid "Blog: recent posts scroller"
+msgstr "Blog: slider de postagens recentes"
+
+msgctxt "Languages::blog.view_post"
+msgid "View post"
+msgstr "Ver postagem"
+
+msgctxt "Languages::recent_blog_posts"
+msgid "Recent blog posts"
+msgstr "Postagens recentes"
+
+msgctxt "Languages::blog.posts"
+msgid "Posts"
+msgstr "Postagens"
+
+msgctxt "Languages::blog.post"
+msgid "Post"
+msgstr "Postagem"
+
+msgctxt "Languages::block_blog"
+msgid "Recent posts"
+msgstr "Postagens recentes"
+
+msgctxt "Languages::blog.text_links"
+msgid "Blog: text links"
+msgstr "Blog: links de texto"
+
+msgctxt "Languages::blog.read_more"
+msgid "Read more"
+msgstr "Continuar lendo"
+
+msgctxt "Languages::post_description"
+msgid "Post description"
+msgstr "Descrição da postagem"
+
+msgctxt "Languages::ttc_post_description"
+msgid "Use the &lt;!--CUT--&gt; tag (switch to source code to insert it) to hide part of the post. Only the part above the tag is shown in the list of all posts.<br /><br />Make sure to <strong>close all HTML tags</strong> above the &lt;!--CUT--&gt; tag!"
+msgstr "Use a tag &lt;!--CUT--&gt; (alterne para a visualização de código fonte para inseri-la) para esconder parte da postagem. Somente a parte acima da tag será exibida nas listagens.<br /><br />Certifique-se de <strong>fechar todas as tags HTML</strong> acima da tag &lt;!--CUT--&gt;!"
+
+msgctxt "Languages::blog_functionality_notes"
+msgid "<p>Use this page to manage your blog. This is how you should organize your blog posts:</p><ul><li>Blog is a usual post that has the <b>Root level page</b> as the Parent page.</li><li>Choose <b>Blog</b> as the Parent page for your blog posts.</li></ul>"
+msgstr "<p>Use esta página para gerenciar seu blog. Você deve organizar suas postagens da seguinte forma:</p><ul><li>O blog é uma postagem comum que possui a <b>Página de nível raiz</b> como a página pai.</li><li>Escolha o <b>Blog</b> como a página pai de suas postagens.</li></ul>"
+

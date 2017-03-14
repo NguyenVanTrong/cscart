@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Serbian (Cyrillic)\n"
+"Language: sr_SP\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: /addons/form_builder.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Kreator formulara"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us)"
+msgstr "Omogućava vam da kreirate prilagođene forme (npr. kontaktirajte nas)"
+
+msgctxt "Languages::use_for_form_builder"
+msgid "Custom forms"
+msgstr "Prilagošene forme"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Novi formular"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Izmena formulara"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Kreator formulara"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Tekst za formular"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "E-mail na"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Formular je obezbeđen (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Dodaj formular"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Osnova"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Višestruki checkbox"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Višestruki selectbox"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Zaglavlje"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Separator"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Specijalno"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Lista država"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Lista država"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "Uputio"
+
+msgctxt "Languages::email_template.form_builder_form"
+msgid "Contact form"
+msgstr ""
+
+msgctxt "Languages::addons.form_builder.form_fields"
+msgid "Form fields"
+msgstr ""
+
+msgctxt "Languages::addons.form_builder.form_name"
+msgid "Form name"
+msgstr ""
+
+msgctxt "Languages::addons.form_builder.other_subject"
+msgid "Other subject (specify below)"
+msgstr ""
+
+msgctxt "Languages::addons.form_builder.email_subject_field"
+msgid "E-mail subject field"
+msgstr ""
+
+msgctxt "Languages::ttc_addons.form_builder.email_subject_field"
+msgid "Fields of type \"Select box\" or \"Input field\" can be used"
+msgstr ""
+

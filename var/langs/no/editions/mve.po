@@ -1,0 +1,646 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: no\n"
+"X-Crowdin-File: /editions/mve.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Languages::add_companies"
+msgid "Add vendors"
+msgstr "Legg til forhandlere"
+
+msgctxt "Languages::add_companies_and_close"
+msgid "Add vendors and close"
+msgstr "Legg til forhandlere og lukk"
+
+msgctxt "Languages::add_vendor"
+msgid "Add vendor"
+msgstr "Legg til forhandler"
+
+msgctxt "Languages::add_vendor_administrator"
+msgid "Add vendor's administrator"
+msgstr "Legg til forhandlers administrator"
+
+msgctxt "Languages::vendor_administrator"
+msgid "Vendor's administrator"
+msgstr "Forhandlers administrator"
+
+msgctxt "Languages::vendor_administrators"
+msgid "Vendor's administrators"
+msgstr "Forhandlers administratorer"
+
+msgctxt "Languages::vendor_administrators_menu_description"
+msgid "List of vendor's administrators, registered users with a vendor account."
+msgstr "Liste over forhandleres administratorer, registrerte brukere med en forhandlerkonto."
+
+msgctxt "Languages::vendor_candidate_notification"
+msgid "Hello,<br/><br/>You have a new vendor candidate in your store. This vendor account is pending until you approve it. Follow <a href=\"[href]\">this URL</a> to view the account details</a>."
+msgstr "Hei,<br/><br/>Du har en ny forhandler kandidat i nettbutikken din. Deres forhandlerkonto venter på at du godkjenner den. Følg <a href=\"[href]\">this URL</a> for å vise kontodetaljene</a>."
+
+msgctxt "Languages::demo_panel.go_vendor_panel"
+msgid "Go to Vendor panel"
+msgstr "Gå til Forhandler panelet"
+
+msgctxt "Languages::vendor_account_balance_menu_description"
+msgid "Income and expenditure statistics (total, per vendor, per period)."
+msgstr "Inntekter og utgifter statistikk (totalt, per forhandler, per periode)."
+
+msgctxt "Languages::merge_vendor"
+msgid "Merge vendor"
+msgstr "Flett forhandler"
+
+msgctxt "Languages::select_new_owner_company"
+msgid "Select a new owner of this company's profile data:"
+msgstr "Velg en ny eier av dette firmaets profildata:"
+
+msgctxt "Languages::warning_merging_companies"
+msgid "Merging two company accounts will remove [company_name] from the database, and all the profile data (products, orders, shipping methods, users, promotions, etc.) will be transferred to this company's account"
+msgstr "Fletting av to firmakontoer vil fjerne [company_name] fra databasen, og alle profildata (produkter, ordere, fraktmetoder, brukere, kampanjer, m.m.) vil bli overført til dette firmaets konto"
+
+msgctxt "Languages::all_vendors"
+msgid "All vendors"
+msgstr "Alle forhandlere"
+
+msgctxt "Languages::apply_for_vendor_account"
+msgid "Apply for a vendor account"
+msgstr "Søk om en forhandlerkonto"
+
+msgctxt "Languages::available_for_vendor"
+msgid "Available for vendor"
+msgstr "Tilgjengelig for forhandler"
+
+msgctxt "Languages::balance_carried_forward"
+msgid "Balance carried forward"
+msgstr "Balanse videreført"
+
+msgctxt "Languages::block_vendors"
+msgid "Vendors"
+msgstr "Forhandlere"
+
+msgctxt "Languages::charge_to_vendor_account"
+msgid "Charge to vendor account"
+msgstr "Belast forhandlers konto"
+
+msgctxt "Languages::companies"
+msgid "Vendors"
+msgstr "Forhandlere"
+
+msgctxt "Languages::create_administrator_account"
+msgid "Create administrator account"
+msgstr "Opprett administrator konto"
+
+msgctxt "Languages::displayed_vendors"
+msgid "Displayed vendors"
+msgstr "Viste forhandlere"
+
+msgctxt "Languages::editing_vendor"
+msgid "Editing vendor"
+msgstr "Rediger forhandler"
+
+msgctxt "Languages::error_admin_not_created_email_already_used"
+msgid "Administrator account was not created. The email address belongs to another user. You can add the administrator for this vendor manually."
+msgstr "Administrator-kontoen ble ikke opprettet. Epost-adressen tilhører en annen bruker. Du kan legge til administratoren for denne forhandleren manuelt."
+
+msgctxt "Languages::error_admin_not_created_name_already_used"
+msgid "Administrator account was not created. The user name belongs to another user. You should change the administrator account's name."
+msgstr "Administrator kontoen ble ikke opprettet. Brukernavnet tilhører en annen bruker. Du bør endre administratorens kontonavn."
+
+msgctxt "Languages::error_vendor_exists"
+msgid "The vendor with e-mail you have chosen already exists, please try another."
+msgstr "Forhandleren med e-posten du har valgt eksisterer allerede, vennligst prøv en annen."
+
+msgctxt "Languages::expenditure"
+msgid "Expenditure"
+msgstr "Utgifter"
+
+msgctxt "Languages::income"
+msgid "Income"
+msgstr "Inntekter"
+
+msgctxt "Languages::manage_vendors"
+msgid "Manage vendors"
+msgstr "Administrer forhandlere"
+
+msgctxt "Languages::new_administrator_account_created"
+msgid "New administrator account has been successfully created."
+msgstr "Ny administrator konto har blitt opprettet."
+
+msgctxt "Languages::new_vendor"
+msgid "New vendor"
+msgstr "Ny forhandler"
+
+msgctxt "Languages::notify_vendor"
+msgid "Notify vendor"
+msgstr "Varsle forhandler"
+
+msgctxt "Languages::notify_vendors_by_email"
+msgid "Notify vendors by e-mail"
+msgstr "Varsle forhandlere via e-post"
+
+msgctxt "Languages::privileges.manage_payouts"
+msgid "Manage payouts"
+msgstr "Administrer utbetalinger"
+
+msgctxt "Languages::privileges.manage_vendors"
+msgid "Manage vendors"
+msgstr "Administrer forhandlere"
+
+msgctxt "Languages::privileges.view_payouts"
+msgid "View payouts"
+msgstr "Vis utbetalinger"
+
+msgctxt "Languages::privileges.view_vendors"
+msgid "View vendors"
+msgstr "Vis forhandlere"
+
+msgctxt "Languages::privilege_sections.vendors"
+msgid "Vendors"
+msgstr "Forhandlere"
+
+msgctxt "Languages::sales_period"
+msgid "Sales period"
+msgstr "Salgsperiode"
+
+msgctxt "Languages::sales_period_total"
+msgid "Sales period total"
+msgstr "Salgsperiode totalt"
+
+msgctxt "Languages::search_by_vendor"
+msgid "Search by vendor"
+msgstr "Søk etter forhandler"
+
+msgctxt "Languages::sort_by_company_asc"
+msgid "Sort by alphabetical: A to Z"
+msgstr "Sorter alfabetisk: A til Z"
+
+msgctxt "Languages::sort_by_company_desc"
+msgid "Sort by alphabetical: Z to A"
+msgstr "Sorter alfabetisk: Z til A"
+
+msgctxt "Languages::text_company_status_active_to_pending"
+msgid "Your vendor status has been changed from Active to Pending."
+msgstr "Din forhandler status er endret fra Aktiv til Behandles."
+
+msgctxt "Languages::text_company_status_disabled_to_pending"
+msgid "Your vendor status has been changed from Disabled to Pending."
+msgstr "Forhandler status er endret fra Deaktivert til Behandles."
+
+msgctxt "Languages::text_company_status_pending"
+msgid "The Pending status allows you to log in to you admin panel, change your company information, and fill your store with products."
+msgstr "Statusen Behandles gjør at du kan logge deg inn i adminpanelet, redigere firmainformasjon og fylle din butikk med produkter."
+
+msgctxt "Languages::text_company_status_new_to_active"
+msgid "Your request for vendor [company] was approved."
+msgstr "Din forespørsel om forhandler [company] ble godkjent."
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_created"
+msgid "New administrator was created. You can access to the administrator area: <a href=\"[link]\">[link_text]</a> by using the following credentials:<br />Login: [login]<br />Password: [password]"
+msgstr "En ny administrator ble opprettet. Du kan få tilgang til adminområdet: <a href=\"[link]\">[link_text]</a> ved å bruke følgende innlogging:<br />Brukernavn: [login]<br />Passord: [password]"
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_updated"
+msgid "Type of your account [login] changed to administrator. You may login into the administrator area: <a href=\"[link]\">[link_text]</a>"
+msgstr "Din konto [login] er endret til administrator. Du kan logge inn på adminområdet her: <a href=\"[link]\">[link_text]</a>"
+
+msgctxt "Languages::text_company_status_new_to_active_subj"
+msgid "Your request for vendor was approved."
+msgstr "Forespørselen om forhandler ble godkjent."
+
+msgctxt "Languages::text_company_status_new_to_disable"
+msgid "Your request for vendor [company] was rejected."
+msgstr "Forespørselen om forhandler [company] ble avvist."
+
+msgctxt "Languages::text_company_status_new_to_disable_subj"
+msgid "Your request for vendor was rejected."
+msgstr "Forespørselen om forhandler ble avvist."
+
+msgctxt "Languages::text_company_status_new_to_pending"
+msgid "Congratulations, your application for getting a vendor account has been approved. Once we review you accont information, we will publish it on our website."
+msgstr "Gratulerer, din søknad om å få en forhandlerkonto har blitt godkjent. Når vi har vurdert din kontonformasjon, vil vi publisere det på vår nettside."
+
+msgctxt "Languages::text_company_status_pending_subj"
+msgid "Your company is waiting for approval."
+msgstr "Ditt firma venter på godkjennelse."
+
+msgctxt "Languages::text_company_status_pending_to_active"
+msgid "Your profile changes for vendor [company] were approved."
+msgstr "Dine profilendringer for forhandleren [company] ble godkjent."
+
+msgctxt "Languages::text_error_adding_request"
+msgid "Error while adding the request."
+msgstr "Feil ved å legge til forespørselen."
+
+msgctxt "Languages::text_new_payment_was_created"
+msgid "New payment was created"
+msgstr "Ny betaling ble opprettet"
+
+msgctxt "Languages::text_not_approved_vendors"
+msgid "You have vendors that require your approval. Please <a href=\"[link]\">follow this link</a> to review these vendors."
+msgstr "Du har forhandlere som krever godkjenning. vennligst <a href=\"[link]\">følg denne linken</a> for å vurdere disse forhandlerne."
+
+msgctxt "Languages::text_successful_request"
+msgid "Your request was successfully added. You will receive the email with the answer later."
+msgstr "Forespørselen ble lagt til. Du vil motta en e-post med svar senere."
+
+msgctxt "Languages::total_amount_due"
+msgid "Total amount due"
+msgstr "Totalt beløp skyldig"
+
+msgctxt "Languages::total_period_payout"
+msgid "Total sales period payout"
+msgstr "Salgsperiode utbetalingsbeløp totalt"
+
+msgctxt "Languages::total_unpaid_balance"
+msgid "Total unpaid balance"
+msgstr "Totalt ubetalt saldo"
+
+msgctxt "Languages::tt_views_payments_update_taxes"
+msgid "If payment surcharge is taken from vendors, taxes are not calculated"
+msgstr "Hvis betalingsgebyr er tatt fra forhandlerne, er ikke skatt beregnet"
+
+msgctxt "Languages::unable_delete_vendor_orders_exists"
+msgid "Unable to delete this vendor account because there are orders containing the products of this vendor in the store database. To delete the account, please delete all such orders first."
+msgstr "Kan ikke slette denne butikken fordi det er ordrer som inneholder produkter fra dette firmaet i forhandlerens database. For å slette kontoen, må du slette alle slike ordrer først."
+
+msgctxt "Languages::vendor"
+msgid "Vendor"
+msgstr "Forhandler"
+
+msgctxt "Languages::vendors"
+msgid "Vendors"
+msgstr "Forhandlere"
+
+msgctxt "Languages::vendors_menu_description"
+msgid "Sorted list of vendor accounts registered in the store."
+msgstr "Sortert liste over forhandler kontoer registrert i butikken."
+
+msgctxt "Languages::vendor_account_balance"
+msgid "Account balance"
+msgstr "Kontobalanse"
+
+msgctxt "Languages::vendor_approval_pending"
+msgid "New vendor account application"
+msgstr "Ny forhandler konto søknad"
+
+msgctxt "Languages::vendor_id"
+msgid "Vendor ID"
+msgstr "Forhandler ID"
+
+msgctxt "Languages::vendor_name"
+msgid "Vendor name"
+msgstr "Forhandler navn"
+
+msgctxt "Languages::vendor_pages"
+msgid "Vendor pages"
+msgstr "Forhandler sider"
+
+msgctxt "Languages::vendor_panel"
+msgid "Vendor panel"
+msgstr "Forhandler panel"
+
+msgctxt "Languages::view_vendor_orders"
+msgid "View vendor orders"
+msgstr "Vis forhandlers ordre"
+
+msgctxt "Languages::view_vendor_products"
+msgid "View vendor products"
+msgstr "Vis forhandlers produkter"
+
+msgctxt "Languages::view_vendor_users"
+msgid "View vendor users"
+msgstr "Vis forhandlers brukere"
+
+msgctxt "Languages::you_can_edit_account_details"
+msgid "You can edit the account details now."
+msgstr "Du kan redigere kontodetaljene nå."
+
+msgctxt "SettingsSections::Vendors"
+msgid "Vendors"
+msgstr "Forhandlere"
+
+msgctxt "SettingsOptions::vendors_per_page"
+msgid "Vendors per page"
+msgstr "Forhandlere per side"
+
+msgctxt "SettingsOptions::apply_for_vendor"
+msgid "Allow users to apply for vendor account"
+msgstr "Tillat brukere å søke om forhandlerkonto"
+
+msgctxt "SettingsOptions::create_vendor_administrator_account"
+msgid "Automatically create the administrator account for the new approved vendor. (If the \"Allow users to apply for vendor account\" setting is enabled)"
+msgstr "Automatisk opprett administratorkontoen for nye godkjente forhandlere. (Hvis \"Tillat brukere å søke for forhandlerkonto\" er aktivert)"
+
+msgctxt "SettingsOptions::display_vendor"
+msgid "Display product vendor"
+msgstr "Vis produkt forhandler"
+
+msgctxt "SettingsOptions::need_agree_with_terms_n_conditions"
+msgid "Applying vendors must agree to the terms & conditions"
+msgstr "Søkende forhandlere må godta vilkår og betingelser"
+
+msgctxt "SettingsTooltips::need_agree_with_terms_n_conditions"
+msgid "The text of terms & conditions will be retrieved from the \"vendor_terms_n_conditions_content\" language variable."
+msgstr "Teksten i vilkår og betingelser kan endres i språkvariabelen \"vendor_terms_n_conditions_content\"."
+
+msgctxt "Languages::use_for_apply_for_vendor_account"
+msgid "Apply for a vendor account form"
+msgstr "Skjema for å søke om en forhandlerkonto"
+
+msgctxt "Languages::block_vendor_categories"
+msgid "Vendor categories"
+msgstr "Forhandler-kategorier"
+
+msgctxt "Languages::block_vendor_categories_description"
+msgid "Product categories available to a particular vendor"
+msgstr "Produktkategoriene tilgjengelig for en bestemt forhandler"
+
+msgctxt "Languages::block_vendor_information"
+msgid "Vendor information"
+msgstr "Forhandler informasjon"
+
+msgctxt "Languages::block_vendor_logo"
+msgid "Vendor logo"
+msgstr "Forhandler logo"
+
+msgctxt "Languages::block_vendor_search"
+msgid "Search by vendor products"
+msgstr "Søk etter forhandlerens produkter"
+
+msgctxt "Languages::vendor_filters"
+msgid "Vendor Product filters"
+msgstr "Leverandørens produkt filtre"
+
+msgctxt "Languages::vendor_products"
+msgid "Vendor products"
+msgstr "Leverandørens produkter"
+
+msgctxt "Languages::apply_shipping_for_all_vendors"
+msgid "Allow shipping for all vendors"
+msgstr "Tillat frakt for alle leverandører"
+
+msgctxt "Languages::apply_shipping_for_all_vendors_confirm"
+msgid "The shipping method will be applied to all the vendors. Are you sure you want to proceed?"
+msgstr "Leveringsmåten vil bli brukt for alle leverandører. Er du sikker på at du vil fortsette?"
+
+msgctxt "Languages::shipping_applied_to_vendors"
+msgid "The shipping method was applied to [vendors] vendors"
+msgstr "Leveringsmåten ble lagt til for [vendors] forhandlere"
+
+msgctxt "Languages::block_vendor_filters"
+msgid "Vendor filters"
+msgstr "Leverandør filtre"
+
+msgctxt "Languages::email_template.apply_for_vendor_notification"
+msgid "Apply for vendor"
+msgstr "Søk om å bli forhandler"
+
+msgctxt "Languages::email_template.company_status_notification"
+msgid "Company status change"
+msgstr "Firma statusendring"
+
+msgctxt "Languages::email_template.company_payment_notification"
+msgid "Company payment"
+msgstr "Firma betaling"
+
+msgctxt "Languages::vendor_terms_n_conditions"
+msgid "I accept the [terms_href]"
+msgstr "Jeg aksepterer [terms_href]"
+
+msgctxt "Languages::vendor_terms_n_conditions_name"
+msgid "Terms and Conditions"
+msgstr "Vilkår og betingelser"
+
+msgctxt "Languages::vendor_terms_n_conditions_alert"
+msgid "In order to proceed, you need to accept our Terms and Conditions."
+msgstr "For å fortsette må du godta våre vilkår og betingelser."
+
+msgctxt "Languages::vendor_terms_n_conditions_content"
+msgid "<p>Please read these Terms and Conditions (\"Terms\", \"Terms and Conditions\") carefully before using the <a href=\"http://www.mywebsite.com\">http://www.mywebsite.com</a> website and the My Mobile App mobile application (the \"Service\") operated by My Company (\"us\", \"we\", or \"our\").</p><p><strong>By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the Terms then you may not access the Service.</strong></p><p><strong>Purchases</strong></p><p>If you wish to purchase any product or service made available through the Service (\"Purchase\"), you may be asked to supply certain information relevant to your Purchase including, without limitation, your ...</p><p><strong>Content</strong></p><p>Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material (\"Content\"). You are responsible for the ...</p><p><strong>Changes</strong></p><p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p><p><strong>Contact Us</strong></p><p>If you have any questions about these Terms, please contact us.</p>"
+msgstr "<p>Vennligst les gjennom våre vilkår og betingelser før du kjøper produkter fra denne leverandøren via nettstedet http://www.mywebsite.com eller vår mobilapplikasjon.</p><p><strong>Ved å sende ordren godtar du disse vilkåre og betingelser. Hvis du er uenig med vilkårene skal du ikke benytte deg av tjenesten.</strong></p><p><strong>Kjøp</strong></p><p>Hvis du ønsker å kjøpe et produkt eller en tjeneste som gjøres tilgjengelig gjennom oss, kan du bli bedt om å oppgi informasjon som er relevant til kjøpet inkludert...</p><p><strong>Innhold</strong></p><p>Vår tjeneste lar deg legge inn, linke, lagre, dele og ellers gjøre tilgjengelig visse opplysninger, tekst, grafikk, videoer eller annet materiale. Du er ansvarlig for...</p><p><strong>Endringer</strong></p><p>Vi forbeholder oss retten til, etter eget skjønn, å endre eller erstatte disse vilkårene når som helst. Hvis en endring er viktig vil vi forsøke å gi minst 30 dagers varsel før eventuelle nye vilkår trer i kraft. Hva som er en vesentlig endring vil bli fastsatt etter eget skjønn.</p><p><strong>Kontakt oss</strong></p><p>Hvis du har spørsmål om disse vilkårene, kan du ta kontakt med oss.</p>"
+
+msgctxt "Languages::product_state_description.mve.new"
+msgid "<p>Full unrestricted access to all features. Enter a valid license number to activate.</p><p>This mode can be activated at any time.</p><br />"
+msgstr "<p>Full ubegrenset tilgang til alle funksjoner. Skriv inn et gyldig lisensnummer for å aktivere.</p><p>Denne modusen kan aktiveres når som helst.</p><br />"
+
+msgctxt "Languages::product_state_description.mve.full"
+msgid "<p>Full unrestricted access to all features. Enter a valid license number to activate.</p><p>This mode can be activated at any time.</p><br />"
+msgstr "<p>Full ubegrenset tilgang til alle funksjoner. Skriv inn et gyldig lisensnummer for å aktivere.</p><p>Denne modusen kan aktiveres når som helst.</p><br />"
+
+msgctxt "Languages::text_store_mode_changed_to_mve.full"
+msgid "<strong>Full mode</strong> has been activated. In this mode, all the advanced eCommerce features are available."
+msgstr "<strong>Full modus</strong> har blitt aktivert. I denne modusen, er alle de avanserte nettbutikk-funksjonene tilgjengelige."
+
+msgctxt "Languages::vendor_payouts.type"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "Languages::vendor_payouts.type.other"
+msgid "Other"
+msgstr "Andre"
+
+msgctxt "Languages::vendor_payouts.type.other.description"
+msgid "Other"
+msgstr "Andre"
+
+msgctxt "Languages::vendor_payouts.type.order_placed"
+msgid "Order placed"
+msgstr "Ordre plassert"
+
+msgctxt "Languages::vendor_payouts.type.order_placed.description"
+msgid "Order <a href=\"[order_url]\">#[order_id]</a> placed"
+msgstr "Ordre <a href=\"[order_url]\">#[order_id]</a> er plassert"
+
+msgctxt "Languages::vendor_payouts.type.order_changed"
+msgid "Order changed"
+msgstr "Ordre endret"
+
+msgctxt "Languages::vendor_payouts.type.order_changed.description"
+msgid "Order <a href=\"[order_url]\">#[order_id]</a> changed"
+msgstr "Ordre <a href=\"[order_url]\">#[order_id]</a> er endret"
+
+msgctxt "Languages::vendor_payouts.type.order_refunded"
+msgid "Order refunded"
+msgstr "Ordre refundert"
+
+msgctxt "Languages::vendor_payouts.type.order_refunded.description"
+msgid "Order <a href=\"[order_url]\">#[order_id]</a> refunded"
+msgstr "Ordre <a href=\"[order_url]\">#[order_id]</a> refundert"
+
+msgctxt "Languages::vendor_payouts.type.withdrawal"
+msgid "Withdrawal"
+msgstr "Uttak"
+
+msgctxt "Languages::vendor_payouts.type.withdrawal.description"
+msgid "Withdrawal"
+msgstr "Uttak"
+
+msgctxt "Languages::vendor_payouts.type.payout"
+msgid "Payout"
+msgstr "Utbetaling"
+
+msgctxt "Languages::vendor_payouts.type.payout.description"
+msgid "Payout"
+msgstr "Utbetaling"
+
+msgctxt "Languages::vendor_payouts.transactions"
+msgid "Transactions"
+msgstr "Transaksjoner"
+
+msgctxt "Languages::vendor_payouts.withdrawals"
+msgid "Balance withdrawals"
+msgstr "Balanse uttak"
+
+msgctxt "Languages::vendor_payouts.transaction_value"
+msgid "Transaction value"
+msgstr "Transaksjonsverdi"
+
+msgctxt "Languages::vendor_payouts.income"
+msgid "Income"
+msgstr "Inntekter"
+
+msgctxt "Languages::vendor_payouts.income_carried_forward"
+msgid "Income carried forward"
+msgstr "Inntekt videreført"
+
+msgctxt "Languages::vendor_payouts.balance"
+msgid "Balance"
+msgstr "Balanse"
+
+msgctxt "Languages::vendor_payouts.balance_carried_forward"
+msgid "Balance carried forward"
+msgstr "Balanse videreført"
+
+msgctxt "Languages::add_withdrawal"
+msgid "Request withdrawal"
+msgstr "Be om uttak"
+
+msgctxt "Languages::new_withdrawal"
+msgid "New withdrawal"
+msgstr "Nytt uttak"
+
+msgctxt "Languages::vendor_accounting"
+msgid "Accounting"
+msgstr "Regnskap"
+
+msgctxt "Languages::vendor_accounting_menu_description"
+msgid "Income and expenditure statistics (total income, vendor balance, vendor withdrawals)."
+msgstr "Statistikk for inntekter og utgifter (samlet inntekt, forhandlersaldo, forhandleruttak)."
+
+msgctxt "Languages::vendor_payouts.current_balance"
+msgid "Current balance: [balance]"
+msgstr "Gjeldende saldo: [balance]"
+
+msgctxt "Languages::vendor_payouts.current_balance_text"
+msgid "Current balance"
+msgstr "Gjeldende saldo"
+
+msgctxt "Languages::vendor_payouts.approval_status"
+msgid "Approval status"
+msgstr "Godkjenningsstatus"
+
+msgctxt "Languages::vendor_payouts.approval_status.P"
+msgid "Pending"
+msgstr "Venter"
+
+msgctxt "Languages::vendor_payouts.approval_status.C"
+msgid "Completed"
+msgstr "Fullført"
+
+msgctxt "Languages::vendor_payouts.approval_status.D"
+msgid "Declined"
+msgstr "Avslått"
+
+msgctxt "Languages::email_template.accounting_new_payout"
+msgid "Accounting: Payout has been issued"
+msgstr "Regnskap: Utbetalingen er utstedt"
+
+msgctxt "Languages::vendor_payouts.new_payout_issued"
+msgid "New payout has been issued"
+msgstr "Ny utbetaling er utstedt"
+
+msgctxt "Languages::vendor_payouts.new_payout_issued_text"
+msgid "A new payout of [amount] has been issued by [issuer]"
+msgstr "En ny utbetaling av [amount] har blitt utstedt av [issuer]"
+
+msgctxt "Languages::vendor_payouts.view_details"
+msgid "You can view the details here"
+msgstr "Du kan se detaljene her"
+
+msgctxt "Languages::vendor_payouts.payout_comments"
+msgid "Payout comments"
+msgstr "Kommentarer til utbetalinger"
+
+msgctxt "Languages::email_template.accounting_new_withdrawal"
+msgid "Accounting: Withdrawal has been requested"
+msgstr "Regnskap: Uttak er forespurt"
+
+msgctxt "Languages::vendor_payouts.new_withdrawal_requested"
+msgid "New withdrawal has been requested"
+msgstr "Nye uttak er forespurt"
+
+msgctxt "Languages::vendor_payouts.new_withdrawal_requested_text"
+msgid "A new withdrawal of [amount] has been requested by [requester]"
+msgstr "Et nytt uttak av [amount] har blitt forespurt av [requester]"
+
+msgctxt "Languages::vendor_payouts.withdrawal_comments"
+msgid "Withdrawal comments"
+msgstr "Uttak kommentarer"
+
+msgctxt "Languages::email_template.accounting_payout_approved"
+msgid "Accounting: Payout has been completed"
+msgstr "Regnskap: Utbetalingen er utstedt"
+
+msgctxt "Languages::vendor_payouts.payout_approved"
+msgid "Payout has been completed"
+msgstr "Utbetalingen er fullført"
+
+msgctxt "Languages::vendor_payouts.payout_approved_text"
+msgid "The payout of [amount] issued on [date] has been marked as <b>Completed</b>"
+msgstr "Utbetalingen av [amount] utstedt den [date] har blitt merket som <b>Fullført</b>"
+
+msgctxt "Languages::email_template.accounting_payout_declined"
+msgid "Accounting: Payout hasn't been completed"
+msgstr "Regnskap: Utbetaling ikke fullført"
+
+msgctxt "Languages::vendor_payouts.payout_declined"
+msgid "Payout hasn't been completed"
+msgstr "Utbetaling ikke fullført"
+
+msgctxt "Languages::vendor_payouts.payout_declined_text"
+msgid "The payout of [amount] issued on [date] has been marked as <b>Not completed</b>"
+msgstr "Utbetalingen av [amount] utstedt den [date] har blitt merket som <b>Ikke fullført</b>"
+
+msgctxt "Languages::email_template.accounting_withdrawal_approved"
+msgid "Accounting: Withdrawal has been completed"
+msgstr "Regnskap: Utbetalingen er utstedt"
+
+msgctxt "Languages::vendor_payouts.withdrawal_approved"
+msgid "Withdrawal has been completed"
+msgstr "Utbetalingen har blitt utstedt"
+
+msgctxt "Languages::vendor_payouts.withdrawal_approved_text"
+msgid "The withdrawal of [amount] requested on [date] has been marked as <b>Completed</b>"
+msgstr "Uttak av [amount] forespurt den [date] har blitt merket som <b>Fullført</b>"
+
+msgctxt "Languages::email_template.accounting_withdrawal_declined"
+msgid "Accounting: Withdrawal has been declined"
+msgstr "Regnskap: Uttak er avvist"
+
+msgctxt "Languages::vendor_payouts.withdrawal_declined"
+msgid "Withdrawal has been declined"
+msgstr "Uttak har blitt avvist"
+
+msgctxt "Languages::vendor_payouts.withdrawal_declined_text"
+msgid "The withdrawal of [amount] requested on [date] has been marked as <b>Declined</b>"
+msgstr "Uttak av [amount] forespurt den [date] har blitt merket som <b>Avslått</b>"
+
+msgctxt "Languages::top_sellers"
+msgid "Top sellers"
+msgstr "Bestselgere"
+

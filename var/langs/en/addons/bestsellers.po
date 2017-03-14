@@ -1,0 +1,101 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & On-Sale Products"
+msgstr "Bestsellers & On-Sale Products"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "Collects best selling & on sale product data and adds block fillings to show such products"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "Sort by Bestselling: Low to High"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "Sort by Bestselling"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "Sort by discount: Low to High"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "Sort by discount: High to Low"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "Sales amount"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "Bestselling"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "On sale"
+
+msgctxt "Languages::similar"
+msgid "Similar"
+msgstr "Similar"
+
+msgctxt "Languages::percent_range"
+msgid "Price range (in % of the main product's price)"
+msgstr "Price range (in % of the main product's price)"
+
+msgctxt "Languages::similar_category"
+msgid "Of the same category"
+msgstr "Of the same category"
+
+msgctxt "Languages::similar_subcats"
+msgid "Consider subcategories"
+msgstr "Consider subcategories"
+
+msgctxt "Languages::similar_in_stock"
+msgid "Only \"in stock\" products"
+msgstr "Only “in stock” products"
+
+msgctxt "Languages::final_sale"
+msgid "Final sale"
+msgstr "Final sale"
+
+msgctxt "SettingsSections::bestsellers::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsSections::bestsellers::newest"
+msgid "Newest"
+msgstr "Newest"
+
+msgctxt "SettingsOptions::bestsellers::final_sale_from"
+msgid "Minimum final sale discount (%)"
+msgstr "Minimum final sale discount (%)"
+
+msgctxt "SettingsOptions::bestsellers::sales_amount_from"
+msgid "Minimum sales amount to define bestsellers"
+msgstr "Minimum sales amount to define bestsellers"
+
+msgctxt "SettingsOptions::bestsellers::period"
+msgid "Period"
+msgstr "Period"
+
+msgctxt "SettingsOptions::bestsellers::last_days"
+msgid "Last days"
+msgstr "Last days"
+
+msgctxt "SettingsVariants::bestsellers::period::all"
+msgid "All days"
+msgstr "All days"
+
+msgctxt "SettingsVariants::bestsellers::period::today"
+msgid "Today"
+msgstr "Today"
+
+msgctxt "SettingsVariants::bestsellers::period::last_days"
+msgid "Last days"
+msgstr "Last days"

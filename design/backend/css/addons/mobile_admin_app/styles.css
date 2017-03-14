@@ -1,0 +1,139 @@
+div[id^="content_mobile_admin_app"] .control-group > label{
+    display: inline-block;
+    float: left;
+}
+
+div[id^="content_mobile_admin_app"] label{
+    display: inline;
+}
+
+div[id^="content_mobile_admin_app"] .facebook-btn {
+    width: 161px;
+    height: 28px;
+    margin: 0 20px 0 0;
+    display: block;
+}
+
+div[id^="content_mobile_admin_app"] .twitter-btn {
+    width: 161px;
+    height: 28px;
+    display: block;
+}
+
+div[id^="content_mobile_admin_app"] #social_links > a{
+    float: left;
+}
+
+div[id^="content_mobile_admin_app"] .cm-failed-label {
+    color: #b94a48 !important;
+}
+
+div[id^="content_mobile_admin_app"] input[type=checkbox].cm-failed-field {
+    outline: 1px dashed #cc0;
+    background-color: #fdd;
+}
+
+div[id^="content_mobile_admin_app"] .control-group .help-inline {
+    display: block;
+}
+
+div[id^="content_mobile_admin_app"] .float-left{
+    float: left;
+}
+
+div[id^="content_mobile_admin_app"] .fileuploader {
+    margin-right: 20px;
+    border: 1px solid #ebebeb;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+div[id^="content_mobile_admin_app"] .radio,
+div[id^="content_mobile_admin_app"] .checkbox{
+    min-height: 0;
+}
+
+#id_accept_terms{
+    margin-top: 0;
+}
+
+#id_accept_terms_error_message{
+    position: absolute;
+    color: #b94a48 !important;
+}
+
+div[id^="content_mobile_admin_app"] .float-right{
+    float: right;
+}
+
+div[id^="content_mobile_admin_app"] .controls input[type="text"],
+div[id^="content_mobile_admin_app"] .controls select,
+div[id^="content_mobile_admin_app"] .controls input[type="password"]{
+    margin-right: 5px;
+}
+
+div[id^="content_mobile_admin_app"] .checkbox-wrapper{
+    padding-top: 2px;
+    display: inline-block;
+}
+
+.twg-stores .checkbox{
+    margin: 0;
+}
+
+.twg-connected {
+    color: green;
+}
+
+.twg-disconnected {
+    color: red;
+}
+
+.twg-app-store-btn {
+    width: 212px;
+    height: 64px;
+    margin: 0 20px 0 0px;
+    display: block;
+}
+
+.twg-google-play-btn {
+    width: 184px;
+    height: 64px;
+    margin: 0 20px 0 0;
+    display: block;
+}
+
+.twg-app-label {
+    clear: both;
+    padding-top: 10px;
+}
+
+.twg-push-counter {
+    clear: both;
+    padding-top: 3px;
+    color: #5F5F5F;
+    font-size: 13px;
+}
+
+#elm_tw_push_text {
+    width: 400px;
+}
+
+.twg-mobile-app-link {
+    float: right;
+    display: none;
+}
+.twg-mobile-app-link a {
+    margin: 9px 12px;
+    display: block;
+}
+#addon_mobile_admin_appinstalled .bg-icon,
+#addon_mobile_admin_app .bg-icon {
+    background-image: url('../../../media/images/addons/mobile_admin_app/images/addon_icon.png');
+    background-size: contain;
+    border: 0px;
+}
+#addon_mobile_admin_appinstalled .bg-icon i,
+#addon_mobile_admin_app .bg-icon i {
+    display: none;
+}

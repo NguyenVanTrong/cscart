@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Serbian (Cyrillic)\n"
+"Language: sr_SP\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: /addons/attachments.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::attachments"
+msgid "Attachments"
+msgstr "Dodaci"
+
+msgctxt "Addons::description::attachments"
+msgid "Makes it possible to attach files to products"
+msgstr "Omogućuje dodavanje datoteka proizvodima"
+
+msgctxt "Languages::attachments"
+msgid "Attachments"
+msgstr "Dodaci"
+
+msgctxt "Languages::new_attachment"
+msgid "New attachment"
+msgstr "Novi dodatak"
+
+msgctxt "Languages::add_attachment"
+msgid "Add attachment"
+msgstr "Prikači dodatak"
+
+msgctxt "Languages::editing_attachment"
+msgid "Editing attachment"
+msgstr "Izmena dodataka"
+

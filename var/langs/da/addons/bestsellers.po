@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: da\n"
+"X-Crowdin-File: /addons/bestsellers.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:02-0500\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & On-Sale Products"
+msgstr "Bestsellere & Udsalgsprodukter"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "Indsaml bedst sælgende & udsalgs produktdata og tilføj blokfyldninger for at vise sådanne produkter"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "Sorter efter bedst sælgende: lav til høj"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "Sorter efter bedst sælgende"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "Sorter efter rabat: lav til høj"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "Sorter efter rabat: høj til lav"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "Salgsbeløb"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "Mest solgte"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "På udsalg"
+
+msgctxt "Languages::similar"
+msgid "Similar"
+msgstr "Lignende"
+
+msgctxt "Languages::percent_range"
+msgid "Price range (in % of the main product's price)"
+msgstr "Prisklasse (i % af hovedproduktets pris)"
+
+msgctxt "Languages::similar_category"
+msgid "Of the same category"
+msgstr "I samme kategori"
+
+msgctxt "Languages::similar_subcats"
+msgid "Consider subcategories"
+msgstr "Overveje underkategorier"
+
+msgctxt "Languages::similar_in_stock"
+msgid "Only \"in stock\" products"
+msgstr "Kun \"på lager\" produkter"
+
+msgctxt "Languages::final_sale"
+msgid "Final sale"
+msgstr "Endelige salg"
+
+msgctxt "SettingsSections::bestsellers::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsSections::bestsellers::newest"
+msgid "Newest"
+msgstr "Nyeste"
+
+msgctxt "SettingsOptions::bestsellers::final_sale_from"
+msgid "Minimum final sale discount (%)"
+msgstr "Minimum slutsalg rabat (%)"
+
+msgctxt "SettingsOptions::bestsellers::sales_amount_from"
+msgid "Minimum sales amount to define bestsellers"
+msgstr "Minimum salg beløb for at definere bestsellere"
+
+msgctxt "SettingsOptions::bestsellers::period"
+msgid "Period"
+msgstr "Periode"
+
+msgctxt "SettingsOptions::bestsellers::last_days"
+msgid "Last days"
+msgstr "Sidste dage"
+
+msgctxt "SettingsVariants::bestsellers::period::all"
+msgid "All days"
+msgstr "Alle dage"
+
+msgctxt "SettingsVariants::bestsellers::period::today"
+msgid "Today"
+msgstr "I dag"
+
+msgctxt "SettingsVariants::bestsellers::period::last_days"
+msgid "Last days"
+msgstr "Sidste dage"
+

@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/wishlist.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::wishlist"
+msgid "Wish List"
+msgstr "Danh sách yêu thích"
+
+msgctxt "Addons::description::wishlist"
+msgid "Lets customers store items in personal wish lists"
+msgstr "Cho phép khách hàng lưu trữ các mục trong danh sách yêu thích"
+
+msgctxt "Languages::add_to_wishlist"
+msgid "Add to wish list"
+msgstr "Thêm vào danh sách yêu thích"
+
+msgctxt "Languages::clear_wishlist"
+msgid "Clear wish list"
+msgstr "Xóa khỏi danh sách yêu thích"
+
+msgctxt "Languages::view_wishlist"
+msgid "View wish list"
+msgstr "Xem danh sách yêu thích"
+
+msgctxt "Languages::wishlist_content"
+msgid "Wish list content"
+msgstr "Nội dung danh sách yêu thích"
+
+msgctxt "Languages::wishlist"
+msgid "Wish list"
+msgstr "Danh sách yêu thích"
+
+msgctxt "Languages::wishlist_note"
+msgid "Go to your wishlist"
+msgstr "Đi đến mục yêu thích của bạn"
+
+msgctxt "Languages::text_failed_gift_certificate_addition"
+msgid "Failed to add the certificate. Make sure the summary amount is not zero."
+msgstr "Không thể thêm xác thực. Đảm bảo rằng số lượng tóm tắt không phải là 0."
+
+msgctxt "Languages::text_gift_cert_added_to_wishlist"
+msgid "The gift certificate has been added to the wish list"
+msgstr "Thẻ quà tặng đã được thêm vào danh sách yêu thích"
+
+msgctxt "Languages::product_added_to_wl"
+msgid "The product was added to your Wish list"
+msgstr "Sản phẩm đã được thêm vào danh sách yêu thích của bạn"
+
+msgctxt "Languages::product_in_wishlist"
+msgid "This product is already in the wish list"
+msgstr "Sản phẩm này đã có trong danh sách yêu thích của bạn"
+
+msgctxt "Languages::wishlist_products"
+msgid "Wish list products"
+msgstr "Sản phẩm trong mục yêu thích"
+

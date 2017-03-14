@@ -1,0 +1,176 @@
+/* ==========================================================================
+Discussion
+========================================================================== */
+
+/* Discussion post */
+/* Template: templates/addons/discussion/views/discussion/view.tpl */
+.homepage-reviews .mainbox-title span {
+    color: #404040;
+    font-size: 150%;
+}
+.ty-scroller-discussion-list {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.ty-discussion-post__content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ty-discussion-post__content a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+.ty-scroller-discussion-list__item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ty-discussion-post {
+    position: relative;
+    margin: 10px 0 15px 0;
+    padding: 15px;
+}
+.ty-discussion-post__author {
+    font-weight: bold;
+}
+.ty-discussion-post__date {
+    float: right;
+    right: 0;
+    margin-top: 1px;
+    color: #adadad;
+    font-size: 12px;
+}
+.ty-discussion-post__rating {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.ty-discussion-post__message {
+    line-height: 1.75;
+}
+.ty-caret-bottom {
+    bottom: -16px;
+    float: left;
+    height: 16px;
+    left: 14px;
+    overflow: hidden;
+    position: absolute;
+    width: 16px;
+}
+.ty-caret-bottom .ty-caret-outer {
+    border-bottom: 16px solid transparent;
+    display: inline-block;
+    height: 0;
+    left: 0;
+    margin-left: -1px;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.ty-caret-bottom .ty-caret-inner {
+    border-bottom: 14px solid transparent;
+    border-left: 14px solid #fff;
+    display: inline-block;
+    height: 0;
+    left: 2px;
+    margin-left: -1px;
+    position: absolute;
+    top: -1px;
+    width: 0;
+}
+
+.ty-company-detail__top-links .ty-stars__icon {
+    font-size: 21px;
+}
+.ty-discussion__rating-wrapper {
+    margin-bottom: 10px;
+}
+.ty-discussion__rating-wrapper .ty-stars .ty-stars__icon {
+    font-size: 20px;
+    margin-right: 4px;
+}
+.ty-stars,
+.ty-discussion__review-a,
+.ty-discussion__review-write {
+    display: inline-block;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.ty-stars__icon {
+    vertical-align: middle;
+    margin-left: 2px;
+    font-size: 14px;
+}
+.ty-stars a:hover {
+    text-decoration: none;
+}
+
+.ty-product-list__rating {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+}
+.ty-product-list__rating .ty-stars {
+    margin-right: 0;
+}
+
+/* Company rating */
+.ty-companies .ty-stars {
+    display: block;
+    margin: 5px 0 0;
+}
+
+/* Rate stars */
+.rating {
+    float:left;
+}
+.rating label {
+    display: inline-block;
+}
+.rating:not(:checked) > input {
+    position: absolute;
+    left: -9999px;
+    clip: rect(0,0,0,0);
+}
+.rating:not(:checked) > label {
+    float: right;
+    width: 17px;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 100%;
+    line-height: 1.2;
+    margin-right: 2px;
+}
+.rating:not(:checked) > label:before {
+    font-family: 'glyphs';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 21px;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    content: "\e004";
+}
+.rating:not(:checked) > label:hover:before,
+.rating:not(:checked) > label:hover ~ label:before {
+    content: "\e041";
+}
+.rating > input:checked ~ label:before,
+.rating > input:checked + label:hover:before,
+.rating > input:checked + label:hover ~ label:before,
+.rating > input:checked ~ label:hover:before,
+.rating > input:checked ~ label:hover ~ label:before,
+.rating > label:hover ~ input:checked ~ label:before {
+    content: "\e041";
+}
+.product-title-wrap .stars {
+    margin-top: 4px;
+    height: 15px;
+}
+/* /Rate stars */
+
+/* /Discussion */

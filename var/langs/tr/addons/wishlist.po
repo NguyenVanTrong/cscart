@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /addons/wishlist.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::wishlist"
+msgid "Wish List"
+msgstr "İstek listesi"
+
+msgctxt "Addons::description::wishlist"
+msgid "Lets customers store items in personal wish lists"
+msgstr "Müşterilerin kişisel istek listeleri içinde mağaza öğelerini saklamalarına olanak sağlar"
+
+msgctxt "Languages::add_to_wishlist"
+msgid "Add to wish list"
+msgstr "İstek listesine ekle"
+
+msgctxt "Languages::clear_wishlist"
+msgid "Clear wish list"
+msgstr "İstek listesini temizle"
+
+msgctxt "Languages::view_wishlist"
+msgid "View wish list"
+msgstr "İstek listesine gözat"
+
+msgctxt "Languages::wishlist_content"
+msgid "Wish list content"
+msgstr "İstek listesi içeriği"
+
+msgctxt "Languages::wishlist"
+msgid "Wish list"
+msgstr "İstek listesi"
+
+msgctxt "Languages::wishlist_note"
+msgid "Go to your wishlist"
+msgstr "İstek listene git"
+
+msgctxt "Languages::text_failed_gift_certificate_addition"
+msgid "Failed to add the certificate. Make sure the summary amount is not zero."
+msgstr "Hediye çeki eklenemedi. Özet miktarın sıfır olmadığından emin olun."
+
+msgctxt "Languages::text_gift_cert_added_to_wishlist"
+msgid "The gift certificate has been added to the wish list"
+msgstr "Hediye çeki istek listesine eklendi"
+
+msgctxt "Languages::product_added_to_wl"
+msgid "The product was added to your Wish list"
+msgstr "Ürün istek listenize eklendi"
+
+msgctxt "Languages::product_in_wishlist"
+msgid "This product is already in the wish list"
+msgstr "Bu ürün zaten istek listenizde yer almaktadır"
+
+msgctxt "Languages::wishlist_products"
+msgid "Wish list products"
+msgstr "İstek listesi ürünleri"
+

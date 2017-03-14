@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /addons/bestsellers.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:02-0500\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & On-Sale Products"
+msgstr "Best verkocht & Uitverkoop producten"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "Verzameld dest verkopende & aanbiedingen en voegt deze toe aan een blok om de producten te tonen"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "Sorteren op Bestselling: laag naar hoog"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "Sorteren op bestseller"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "Sorteren op korting: laag naar hoog"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "Sorteren op korting: hoog naar laag"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "Korting"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "Bestseller"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "Aanbiedingen"
+
+msgctxt "Languages::similar"
+msgid "Similar"
+msgstr "Gelijk"
+
+msgctxt "Languages::percent_range"
+msgid "Price range (in % of the main product's price)"
+msgstr "Prijsklasse (in % van de prijs van het hoofdproduct)"
+
+msgctxt "Languages::similar_category"
+msgid "Of the same category"
+msgstr "Van dezelfde categorie"
+
+msgctxt "Languages::similar_subcats"
+msgid "Consider subcategories"
+msgstr "Overweeg subcategorieën"
+
+msgctxt "Languages::similar_in_stock"
+msgid "Only \"in stock\" products"
+msgstr "Alleen producten \"in voorraad\""
+
+msgctxt "Languages::final_sale"
+msgid "Final sale"
+msgstr "Definitieve verkoop"
+
+msgctxt "SettingsSections::bestsellers::general"
+msgid "General"
+msgstr "Algemeen"
+
+msgctxt "SettingsSections::bestsellers::newest"
+msgid "Newest"
+msgstr "Nieuwste"
+
+msgctxt "SettingsOptions::bestsellers::final_sale_from"
+msgid "Minimum final sale discount (%)"
+msgstr "Minimale definitieve verkoopkorting (%)"
+
+msgctxt "SettingsOptions::bestsellers::sales_amount_from"
+msgid "Minimum sales amount to define bestsellers"
+msgstr "Minimum verkoopbedrag om als bestverkocht te definiëren"
+
+msgctxt "SettingsOptions::bestsellers::period"
+msgid "Period"
+msgstr "Periode"
+
+msgctxt "SettingsOptions::bestsellers::last_days"
+msgid "Last days"
+msgstr "Laatste dagen"
+
+msgctxt "SettingsVariants::bestsellers::period::all"
+msgid "All days"
+msgstr "Alle dagen"
+
+msgctxt "SettingsVariants::bestsellers::period::today"
+msgid "Today"
+msgstr "Vandaag"
+
+msgctxt "SettingsVariants::bestsellers::period::last_days"
+msgid "Last days"
+msgstr "Laatste dagen"
+

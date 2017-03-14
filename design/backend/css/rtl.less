@@ -1,0 +1,83 @@
+html[dir="rtl"] {
+	label.cm-required {
+		padding-right: 10px;
+		padding-left: 0;
+	}
+
+	.tooltip-arrow {
+	    top: -10px;
+	    left: 3px;
+    	right: auto;
+	    border-width: 0 10px 10px 0;
+	    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0,0,0,0.8) rgba(0, 0, 0, 0);
+	}
+
+	.tooltip.arrow-top .tooltip-arrow {
+		left: 3px;
+    	right: auto;
+    	border-width: 10px 10px 0 0;
+    	border-color: rgba(0,0,0,0.8) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+	}
+
+	.arrow-down.top .tooltip-arrow {
+	    right: auto;
+	    left: 10px;
+	    border-width: 10px 10px 0 0;
+	    border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+	}
+
+	.select2-container--open .select2-dropdown {
+		left: auto;
+    	right: 0;
+	}
+
+	.colorpicker .sp-container {
+		left: 0 !important;
+    	right: auto !important;
+	}
+
+	.flag {
+		margin-right: 5px;
+	}
+
+	a>.flag {
+		padding: 0;
+		margin-right: 5px;
+	}
+
+	.icon-chevron-right {
+		background-position: -432px -72px;
+	}
+
+	.icon-chevron-left {
+		background-position: -456px -72px;
+	}
+
+	.ui-dialog {
+		left: auto !important;
+	}
+
+	.te-content #template_text {
+		direction: rtl;
+	}
+
+	.nested-tree ul li a {
+		padding: 3px 0px 3px 5px;
+	}
+
+	.daterangepicker {
+		min-width: 625px;
+	}
+
+	.daterangepicker.opensleft:before,
+	.daterangepicker.opensleft:after {
+		left: 130px;
+		right: auto;
+	}
+
+}
+
+html[dir="rtl"] svg + [aria-label] {
+    left: -10000px !important;
+    right: auto !important;
+}

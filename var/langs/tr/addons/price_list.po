@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /addons/price_list.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::price_list"
+msgid "Price list"
+msgstr "Fiyat listesi"
+
+msgctxt "Addons::description::price_list"
+msgid "Generates configurable price list in PDF or XLS"
+msgstr "PDF veya XLS formatında düzenlenebilir fiyat listesi oluşturur"
+
+msgctxt "Languages::price_list"
+msgid "Price list"
+msgstr "Fiyat listesi"
+
+msgctxt "Languages::selected_fields"
+msgid "Selected fields"
+msgstr "Seçili alanları"
+
+msgctxt "Languages::generating_pdf"
+msgid "Generating PDF. Please, be patient..."
+msgstr "PDF oluşturuluyor. Lütfen bekleyin..."
+
+msgctxt "Languages::generating_xls"
+msgid "Generating XLS. Please, be patient..."
+msgstr "XLS oluşturuluyor. Lütfen bekleyin..."
+
+msgctxt "Languages::price_list_ziparchive_not_installed"
+msgid "Impossible to create XML price list. Please add zip support in PHP on your server. Follow <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+msgstr "XML fiyat listesi üretilemez. Lütfen sunucunuz üzerindeki PHP içine zip desteği ekleyin. <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a> takip edin."
+
+msgctxt "Languages::price_list.text_select_storefront"
+msgid "To generate a price list, please select storefront first."
+msgstr "Lütfen fiyat listesi oluşturmak için önce mağaza seçin."
+
+msgctxt "Languages::price_list.text_regenerate"
+msgid "<p>If products, categories or selected fields were added or changed, please regenerate a price list:<br />[buttons]</p><p>Generated price lists are available by these links<br/>[links]</p>"
+msgstr "<p>Ürünleri, kategoriler veya seçili alanlar eklendi veya değiştirildiyse lütfen yeniden fiyat listesi oluşturun: < br / >[buttons]</p> <p>Oluşturulan fiyat listeleri mevcuttur bu linklerde <br/>[links]</p> bulunabilir"
+
+msgctxt "SettingsSections::price_list::general"
+msgid "General"
+msgstr "Genel"
+
+msgctxt "SettingsOptions::price_list::price_list_fields"
+msgid "Fields"
+msgstr "Alanlar"
+
+msgctxt "SettingsOptions::price_list::price_list_sorting"
+msgid "Sort by"
+msgstr "Sıralama ölçütü"
+
+msgctxt "SettingsOptions::price_list::group_by_category"
+msgid "Group by category"
+msgstr "Kategoriye göre gruplandırın"
+
+msgctxt "SettingsOptions::price_list::include_options"
+msgid "Include product options"
+msgstr "Ürün seçenekleri içerir"
+

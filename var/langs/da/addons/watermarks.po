@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: da\n"
+"X-Crowdin-File: /addons/watermarks.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:02-0500\n"
+
+msgctxt "Addons::name::watermarks"
+msgid "Watermarks"
+msgstr "Vandmærker"
+
+msgctxt "Addons::description::watermarks"
+msgid "Allows you to add watermarks to product and category images"
+msgstr "Tillader dig at tilføje vandmærker til produkt og kategori billeder"
+
+msgctxt "Languages::wt_watermarks"
+msgid "Watermarks"
+msgstr "Vandmærker"
+
+msgctxt "Languages::wt_graphic_watermark"
+msgid "Graphic watermark"
+msgstr "Grafisk vandmærke"
+
+msgctxt "Languages::wt_text_watermark"
+msgid "Text watermark"
+msgstr "Tekstvandmærke"
+
+msgctxt "Languages::wt_watermark_vertical_position"
+msgid "Watermark vertical position"
+msgstr "Vandmærke lodret position"
+
+msgctxt "Languages::wt_watermark_horizontal_position"
+msgid "Watermark horizontal position"
+msgstr "Vandmærke vandret position"
+
+msgctxt "Languages::wt_watermark_position"
+msgid "Watermark position"
+msgstr "Vandmærke position"
+
+msgctxt "Languages::wt_watermark_image"
+msgid "Watermark image"
+msgstr "Vandmærke foto"
+
+msgctxt "Languages::wt_watermark_text"
+msgid "Watermark text"
+msgstr "Vandmærketekst"
+
+msgctxt "Languages::wt_font"
+msgid "Font"
+msgstr "Skrifttype"
+
+msgctxt "Languages::wt_font_color"
+msgid "Font color"
+msgstr "Skriftfarve"
+
+msgctxt "Languages::wt_font_size_icon"
+msgid "Font size (thumbnail)"
+msgstr "Skriftstørrelse (miniature)"
+
+msgctxt "Languages::wt_font_size_detailed"
+msgid "Font size (larger image)"
+msgstr "Skriftstørrelse (større billede)"
+
+msgctxt "Languages::wt_watermark_icon"
+msgid "Thumbnail watermark"
+msgstr "Miniature vandmærke"
+
+msgctxt "Languages::wt_watermark_detailed"
+msgid "Popup larger image watermark"
+msgstr "Popup større Billedvandmærke"
+
+msgctxt "Languages::wt_fail_apply_graphic_watermark"
+msgid "Failed to apply the watermark to [image_type]. The watermark image is not added."
+msgstr "Mislykket at anvende vandmærket på [image_type]. Vandmærkebilledet er ikke tilføjet."
+
+msgctxt "Languages::wt_icons"
+msgid "thumbnails"
+msgstr "Miniaturer"
+
+msgctxt "Languages::wt_detailed"
+msgid "popup larger images"
+msgstr "popup større billeder"
+
+msgctxt "Languages::wt_images_access_description"
+msgid "To deny access to your original images, please add the following instructions to the '.htaccess' file in the 'images' directory of your installation. It will protect your original images. Even if an original image is opened, the corresponding watermarked image will be show instead."
+msgstr "For at nægte adgang til din oprindelige billeder, kan du tilføje følgende instruktioner til filen \".htaccess\" i mappen 'images' af din installation. Det vil beskytte dine originale billeder. Selv om et originalt billed er åbnet, vil tilsvarende vandmærkebilled blive vist i stedet."
+
+msgctxt "Languages::wt_watermarks_access_description"
+msgid "To generate watermarked images automatically even if they are requested not from your store pages, please add the '.htaccess' file with the following instructions to the 'images/watermarked' directory of your installation."
+msgstr "For at generere vandmærke billeder automatisk, selvom de ikke er anmodet fra din butikssider, bedes du tilføje '.htaccess' fil med følgende instruktioner i din installation 'images/watermarked' mappe."
+
+msgctxt "Languages::wt_access_note"
+msgid "Please note, if you disable or uninstall the 'Watermarks' add-on, you should remove these instructions from '.htaccess' files manually. Otherwise category and product images will be unavailable."
+msgstr "Bemærk venligst, at hvis du deaktiverer eller fjerner add-on programmet 'Vandmærke', skal du fjerne disse instruktioner fra '.htaccess' filer manuelt. Ellers vil kategori og produkt billeder være utilgængelige."
+
+msgctxt "Languages::wt_access_warning"
+msgid "Watermark creating is disabled. If there are any \"Rewrite watermarks rules\" instructions in the \"images/.htaccess\" file, you should remove them manually. Otherwise category and product images will be unavailable."
+msgstr "Vandmærkeoprettelse er deaktiveret. Hvis der er nogen \"Omskrivning vandmærker regler\" instruktioner i \"billeder/.htaccess\" fil, skal du fjerne dem manuelt. Ellers vil kategori og produkt billeder være utilgængelige."
+
+msgctxt "Languages::wt_images_access_info"
+msgid "Images access"
+msgstr "Billed adgang"
+
+msgctxt "SettingsSections::watermarks::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsOptions::watermarks::watermark"
+msgid "Watermark"
+msgstr "Vandmærke"
+
+msgctxt "SettingsOptions::watermarks::apply_to_product"
+msgid "Product watermarks"
+msgstr "Produkt vandmærker"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_icons"
+msgid "Resized images"
+msgstr "Ændrede billeder"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_detailed"
+msgid "Original size images"
+msgstr "Oprindelige størrelse billeder"
+
+msgctxt "SettingsOptions::watermarks::apply_to_categories"
+msgid "Category watermarks"
+msgstr "Kategori vandmærker"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_icons"
+msgid "Resized images"
+msgstr "Ændrede billeder"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_detailed"
+msgid "Original size images"
+msgstr "Oprindelige størrelse billeder"
+
+msgctxt "SettingsOptions::watermarks::images_access_info"
+msgid "Images access"
+msgstr "Billed adgang"
+

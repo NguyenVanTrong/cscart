@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /addons/tags.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2016-11-28 04:04-0500\n"
+
+msgctxt "Addons::name::tags"
+msgid "Tags"
+msgstr "Schlagwörter"
+
+msgctxt "Addons::description::tags"
+msgid "Enables product tags"
+msgstr "Ermöglicht Artikel-Schlagwörter"
+
+msgctxt "Languages::tags_menu_description"
+msgid "Manage product and content page tags."
+msgstr "Schlagwörter von Artikel und Inhaltseiten verwalten."
+
+msgctxt "Languages::sign_in_to_enter_tags"
+msgid "Sign in to enter tags"
+msgstr "Anmelden, um Schlagwörter zu erfassen"
+
+msgctxt "Languages::tag_cloud"
+msgid "Tag cloud"
+msgstr "Schlagwortwolke"
+
+msgctxt "Languages::tags"
+msgid "Tags"
+msgstr "Schlagwörter"
+
+msgctxt "Languages::block_tags"
+msgid "Tags"
+msgstr "Schlagwörter"
+
+msgctxt "Languages::block_tags_description"
+msgid "Product tags"
+msgstr "Artikel-Schlagwörter"
+
+msgctxt "Languages::addons.tags.add_a_tag"
+msgid "add a tag"
+msgstr "Schlagwort hinzufügen"
+
+msgctxt "Languages::items_marked_by_tag"
+msgid "Items marked by the \"[tag]\" tag:"
+msgstr "Elemente, die durch das Schlagwort \"[tag]\" gekennzeichnet sind:"
+
+msgctxt "Languages::tag"
+msgid "Tag"
+msgstr "Schlagwort"
+
+msgctxt "Languages::add_tag"
+msgid "Add tag"
+msgstr "Schlagwort hinzufügen"
+
+msgctxt "SettingsSections::tags::general"
+msgid "General"
+msgstr "Allgemein"
+
+msgctxt "SettingsOptions::tags::tags_for_products"
+msgid "Tags for products"
+msgstr "Schlagwörter für Artikel"
+
+msgctxt "SettingsOptions::tags::tags_for_pages"
+msgid "Tags for pages"
+msgstr "Schlagwörter für Seiten"
+

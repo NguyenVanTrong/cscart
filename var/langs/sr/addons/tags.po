@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Serbian (Cyrillic)\n"
+"Language: sr_SP\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: /addons/tags.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::tags"
+msgid "Tags"
+msgstr "Tagovi"
+
+msgctxt "Addons::description::tags"
+msgid "Enables product tags"
+msgstr "Omogućuje tagove proizvoda"
+
+msgctxt "Languages::tags_menu_description"
+msgid "Manage product and content page tags."
+msgstr "Upravljanje tagovima proizvoda i sadržaja stranica."
+
+msgctxt "Languages::sign_in_to_enter_tags"
+msgid "Sign in to enter tags"
+msgstr "Prijavi se za unos tagova"
+
+msgctxt "Languages::tag_cloud"
+msgid "Tag cloud"
+msgstr "Kolekcija tagova"
+
+msgctxt "Languages::tags"
+msgid "Tags"
+msgstr "Tagovi"
+
+msgctxt "Languages::block_tags"
+msgid "Tags"
+msgstr "Tagovi"
+
+msgctxt "Languages::block_tags_description"
+msgid "Product tags"
+msgstr "Tagovi proizvoda"
+
+msgctxt "Languages::addons.tags.add_a_tag"
+msgid "add a tag"
+msgstr "dodaj tag"
+
+msgctxt "Languages::items_marked_by_tag"
+msgid "Items marked by the \"[tag]\" tag:"
+msgstr "Stavke označene u oznaci \"[tag]\":"
+
+msgctxt "Languages::tag"
+msgid "Tag"
+msgstr "Tag"
+
+msgctxt "Languages::add_tag"
+msgid "Add tag"
+msgstr "Dodaj tag"
+
+msgctxt "SettingsSections::tags::general"
+msgid "General"
+msgstr "Opšte"
+
+msgctxt "SettingsOptions::tags::tags_for_products"
+msgid "Tags for products"
+msgstr "Tagovi za proizvode"
+
+msgctxt "SettingsOptions::tags::tags_for_pages"
+msgid "Tags for pages"
+msgstr "Tagovi za stranice"
+

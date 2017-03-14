@@ -1,0 +1,902 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Slovak\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sk\n"
+"X-Crowdin-File: /addons/social_buttons.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::social_buttons"
+msgid "Social buttons"
+msgstr "Tlačidlá sociálnych sietí"
+
+msgctxt "Addons::description::social_buttons"
+msgid "Social media and e-mail share buttons (Twitter, Facebook, etc.)"
+msgstr "Tlačidlá zdieľania e-mailom a sociálnymi médiami (Twitter, Facebook, a pod.)"
+
+msgctxt "Languages::use_for_email_share"
+msgid "Send to friend form"
+msgstr "Formulár \"Odoslať priateľovi\""
+
+msgctxt "Languages::facebook"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "Languages::facebook_obj_type"
+msgid "Facebook object type"
+msgstr "Typ objektu \"Facebook\""
+
+msgctxt "Languages::fb_activities"
+msgid "Activities"
+msgstr "Aktivity"
+
+msgctxt "Languages::fb_businesses"
+msgid "Businesses"
+msgstr "Firmy"
+
+msgctxt "Languages::fb_groups"
+msgid "Groups"
+msgstr "Skupiny"
+
+msgctxt "Languages::fb_organizations"
+msgid "Organizations"
+msgstr "Organizácie"
+
+msgctxt "Languages::fb_people"
+msgid "People"
+msgstr "Ľudia"
+
+msgctxt "Languages::fb_places"
+msgid "Places"
+msgstr "Miesta"
+
+msgctxt "Languages::fb_products_entertainment"
+msgid "Products and Entertainment"
+msgstr "Výrobky a zábava"
+
+msgctxt "Languages::fb_websites"
+msgid "Websites"
+msgstr "Webové stránky"
+
+msgctxt "Languages::error_no_recipient_address"
+msgid "Please enter your friends e-mail address to proceed"
+msgstr "Pre pokračovanie prosím zadajte e-mailovú adresu priateľa"
+
+msgctxt "Languages::recommendation_from"
+msgid "Recommendation from"
+msgstr "Odporúčanie od"
+
+msgctxt "Languages::text_recommendation_notes"
+msgid "Your friend has recommended this page to you. Please follow the link:"
+msgstr "Váš priateľ vám odporučil túto stránku. Kliknite prosím na odkaz:"
+
+msgctxt "Languages::your_email"
+msgid "Your e-mail"
+msgstr "Váš e-mail"
+
+msgctxt "Languages::name_of_friend"
+msgid "Name of your friend"
+msgstr "Meno vášho priateľa"
+
+msgctxt "Languages::email_of_friend"
+msgid "E-mail of your friend"
+msgstr "E-mail vášho priateľa"
+
+msgctxt "Languages::share_via_email"
+msgid "Share via E-Mail"
+msgstr "Zdieľať cez E-Mail"
+
+msgctxt "Languages::sb_share"
+msgid "Share"
+msgstr "Zdieľať"
+
+msgctxt "SettingsSections::social_buttons::yandex"
+msgid "Yandex"
+msgstr ""
+
+msgctxt "SettingsSections::social_buttons::twitter"
+msgid "Twitter"
+msgstr "Twitter"
+
+msgctxt "SettingsSections::social_buttons::facebook"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "SettingsSections::social_buttons::vkontakte"
+msgid "Vkontakte"
+msgstr "VKontakte"
+
+msgctxt "SettingsSections::social_buttons::email"
+msgid "E-mail"
+msgstr "E-mail"
+
+msgctxt "SettingsOptions::social_buttons::yandex_header"
+msgid "Yandex settings"
+msgstr ""
+
+msgctxt "SettingsOptions::social_buttons::twitter_header"
+msgid "Twitter settings"
+msgstr "Nastavenia Twitter"
+
+msgctxt "SettingsOptions::social_buttons::yandex_enable"
+msgid "Show Yandex.Share block"
+msgstr ""
+
+msgctxt "SettingsOptions::social_buttons::yandex_share_code"
+msgid "Yandex.Share code"
+msgstr ""
+
+msgctxt "SettingsOptions::social_buttons::yandex_display_on"
+msgid "Display on"
+msgstr ""
+
+msgctxt "SettingsVariants::social_buttons::yandex_display_on::products"
+msgid "Product details pages"
+msgstr ""
+
+msgctxt "SettingsVariants::social_buttons::yandex_display_on::pages"
+msgid "Pages"
+msgstr ""
+
+msgctxt "SettingsTooltips::social_buttons::yandex_share_code"
+msgid "You can configure the block and get the code at <a href=\"http://api.yandex.ru/share/\" target=\"_blank\">http://api.yandex.ru/share/</a>"
+msgstr ""
+
+msgctxt "SettingsOptions::social_buttons::twitter_enable"
+msgid "Show Twitter button"
+msgstr "Zobraziť tlačidlo Twitter"
+
+msgctxt "SettingsOptions::social_buttons::twitter_via"
+msgid "Via"
+msgstr "Cez"
+
+msgctxt "SettingsOptions::social_buttons::twitter_size"
+msgid "Button size"
+msgstr "Veľkosť tlačidla"
+
+msgctxt "SettingsOptions::social_buttons::twitter_display_count"
+msgid "Display count"
+msgstr "Zobraziť počet"
+
+msgctxt "SettingsOptions::social_buttons::twitter_display_on"
+msgid "Display on"
+msgstr "Zobraziť na"
+
+msgctxt "SettingsOptions::social_buttons::facebook_header"
+msgid "Facebook settings"
+msgstr "Nastavenia Facebook"
+
+msgctxt "SettingsOptions::social_buttons::facebook_enable"
+msgid "Show Facebook button"
+msgstr "Zobraziť tlačidlo Facebook"
+
+msgctxt "SettingsOptions::social_buttons::facebook_app_id"
+msgid "Facebook app ID"
+msgstr "Facebook app ID"
+
+msgctxt "SettingsOptions::social_buttons::facebook_href"
+msgid "The URL of the page to like"
+msgstr "URL stránky pre \"páči sa mi\""
+
+msgctxt "SettingsOptions::social_buttons::facebook_send"
+msgid "Include a Send button with the Like button"
+msgstr "Zahrnúť tlačidlo Odoslať v tlačidle Páči sa mi"
+
+msgctxt "SettingsOptions::social_buttons::facebook_width"
+msgid "Width of the Like button (px)"
+msgstr "Šírka tlačidla Páči sa mi (px)"
+
+msgctxt "SettingsOptions::social_buttons::facebook_layout"
+msgid "Button layout"
+msgstr "Rozloženie tlačidiel"
+
+msgctxt "SettingsOptions::social_buttons::facebook_show_faces"
+msgid "Display profile photos"
+msgstr "Zobraziť profilové fotografie"
+
+msgctxt "SettingsOptions::social_buttons::facebook_action"
+msgid "Button verb"
+msgstr "Sloveso tlačidla"
+
+msgctxt "SettingsOptions::social_buttons::facebook_lang"
+msgid "Language"
+msgstr "Jazyk"
+
+msgctxt "SettingsOptions::social_buttons::facebook_action_font"
+msgid "Button font"
+msgstr "Font tlačidla"
+
+msgctxt "SettingsOptions::social_buttons::facebook_colorscheme"
+msgid "Color scheme"
+msgstr "Farebná schéma"
+
+msgctxt "SettingsOptions::social_buttons::facebook_display_on"
+msgid "Display on"
+msgstr "Zobraziť na"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_header"
+msgid "Vkontakte settings"
+msgstr "Nastavenia VKontakte"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_enable"
+msgid "Show Vkontakte button"
+msgstr "Zobraziť tlačidlo VKontakte"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_appid"
+msgid "Vkontakte app ID"
+msgstr "VKontakte app ID"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_button_style"
+msgid "Button layout"
+msgstr "Rozloženie tlačidiel"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_height"
+msgid "Button height (px)"
+msgstr "Výška tlačidla (px)"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_width"
+msgid "Button width (px)"
+msgstr "Šírka tlačidla (px)"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_buttons_name"
+msgid "Button name"
+msgstr "Názov tlačidla"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_display_on"
+msgid "Display on"
+msgstr "Zobraziť na"
+
+msgctxt "SettingsOptions::social_buttons::email_header"
+msgid "E-mail settings"
+msgstr "Nastavenie e-mailu"
+
+msgctxt "SettingsOptions::social_buttons::email_enable"
+msgid "Show E-mail button"
+msgstr "Zobraziť tlačidlo E-mail"
+
+msgctxt "SettingsOptions::social_buttons::email_display_on"
+msgid "Display on"
+msgstr "Zobraziť na"
+
+msgctxt "SettingsTooltips::social_buttons::twitter_via"
+msgid "User name to attribute the Tweet to (i.e. 'via @username')"
+msgstr "Meno tweetujúceho užívateľa (t. j. 'via @username')"
+
+msgctxt "SettingsTooltips::social_buttons::facebook_app_id"
+msgid "Specify any Facebook app ID, otherwise the button will not be shown"
+msgstr "Zadajte Facebook app ID, inak sa tlačidlo nebude zobrazovať"
+
+msgctxt "SettingsTooltips::social_buttons::facebook_href"
+msgid "Leave empty to use an actual page URL"
+msgstr "Ponechajte prázdne pre použitie skutočnej URL adresy stránky"
+
+msgctxt "SettingsTooltips::social_buttons::facebook_show_faces"
+msgid "Enable to display profile photos below the button (standard layout only)"
+msgstr "Povoľte pre zobrazenie profilových fotografií pod tlačidlom (iba pri štandardnom rozložení)"
+
+msgctxt "SettingsTooltips::social_buttons::vkontakte_width"
+msgid "Only for the button with text counter"
+msgstr "Iba pre tlačidlo s počítadlom textu"
+
+msgctxt "SettingsVariants::social_buttons::twitter_size::medium"
+msgid "Medium"
+msgstr "Stredné"
+
+msgctxt "SettingsVariants::social_buttons::twitter_size::large"
+msgid "Large"
+msgstr "Veľké"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_count::none"
+msgid "None"
+msgstr "Žiadne"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_count::horizontal"
+msgid "Horizontal"
+msgstr "Horizontálne"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_count::vertical"
+msgid "vertical"
+msgstr "vertikálne"
+
+msgctxt "SettingsVariants::social_buttons::email_display_on::products"
+msgid "Product details pages"
+msgstr "Stránky s podrobnosťami produktu"
+
+msgctxt "SettingsVariants::social_buttons::email_display_on::pages"
+msgid "Pages"
+msgstr "Stránky"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_on::products"
+msgid "Product details pages"
+msgstr "Stránky s podrobnosťami produktu"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_on::pages"
+msgid "Pages"
+msgstr "Stránky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_display_on::products"
+msgid "Product details pages"
+msgstr "Stránky s podrobnosťami produktu"
+
+msgctxt "SettingsVariants::social_buttons::facebook_display_on::pages"
+msgid "Pages"
+msgstr "Stránky"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_display_on::products"
+msgid "Product details pages"
+msgstr "Stránky s podrobnosťami produktu"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_display_on::pages"
+msgid "Pages"
+msgstr "Stránky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_layout::standard"
+msgid "Standard"
+msgstr "Štandardné"
+
+msgctxt "SettingsVariants::social_buttons::facebook_layout::button_count"
+msgid "With count"
+msgstr "S počítadlom"
+
+msgctxt "SettingsVariants::social_buttons::facebook_layout::box_count"
+msgid "With large count"
+msgstr "S veľkým počítadlom"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_buttons_name::like"
+msgid "Like"
+msgstr "Páči sa mi"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action::like"
+msgid "Like"
+msgstr "Páči sa mi"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action::recommend"
+msgid "Recommend"
+msgstr "Odporučiť"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::af_ZA"
+msgid "Afrikaans"
+msgstr "Afrikánsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ar_AR"
+msgid "Arabic"
+msgstr "Arabský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::az_AZ"
+msgid "Azerbaijani"
+msgstr "Azerbajdžanský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::be_BY"
+msgid "Belarusian"
+msgstr "Bieloruský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::bg_BG"
+msgid "Bulgarian"
+msgstr "Bulharský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::bn_IN"
+msgid "Bengali"
+msgstr "Bengálsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::bs_BA"
+msgid "Bosnian"
+msgstr "Bosnianský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ca_ES"
+msgid "Catalan"
+msgstr "Katalánsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::cs_CZ"
+msgid "Czech"
+msgstr "Český"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::cy_GB"
+msgid "Welsh"
+msgstr "Waleský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::da_DK"
+msgid "Danish"
+msgstr "Dánsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::de_DE"
+msgid "German"
+msgstr "Nemecký"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::el_GR"
+msgid "Greek"
+msgstr "Grécky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_GB"
+msgid "English (UK)"
+msgstr "Anglický (UK)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_PI"
+msgid "English (Pirate)"
+msgstr "Anglický (pirátsky)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_UD"
+msgid "English (Upside Down)"
+msgstr "Anglický (hore nohami)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_US"
+msgid "English (US)"
+msgstr "Anglický (USA)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::eo_EO"
+msgid "Esperanto"
+msgstr "Esperanto"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::es_ES"
+msgid "Spanish (Spain)"
+msgstr "Španielsky (Španielsko)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::es_LA"
+msgid "Spanish"
+msgstr "Španielsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::et_EE"
+msgid "Estonian"
+msgstr "Estónsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::eu_ES"
+msgid "Basque"
+msgstr "Baskický"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fa_IR"
+msgid "Persian"
+msgstr "Perzský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fb_LT"
+msgid "Leet Speak"
+msgstr "Leet Speak"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fi_FI"
+msgid "Finnish"
+msgstr "Fínsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fo_FO"
+msgid "Faroese"
+msgstr "Faerský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fr_CA"
+msgid "French (Canada)"
+msgstr "Francúzsky (Kanada)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fr_FR"
+msgid "French (France)"
+msgstr "Francúzsky (Francúzsko)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fy_NL"
+msgid "Frisian"
+msgstr "Frízsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ga_IE"
+msgid "Irish"
+msgstr "Írsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::gl_ES"
+msgid "Galician"
+msgstr "Galicijský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::he_IL"
+msgid "Hebrew"
+msgstr "Hebrejský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hi_IN"
+msgid "Hindi"
+msgstr "Hinský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hr_HR"
+msgid "Croatian"
+msgstr "Chorvátsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hu_HU"
+msgid "Hungarian"
+msgstr "Maďarský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hy_AM"
+msgid "Armenian"
+msgstr "Arménsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::id_ID"
+msgid "Indonesian"
+msgstr "Indonézsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::is_IS"
+msgid "Icelandic"
+msgstr "Isladnský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::it_IT"
+msgid "Italian"
+msgstr "Talianský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ja_JP"
+msgid "Japanese"
+msgstr "Japonský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ka_GE"
+msgid "Georgian"
+msgstr "Gruzínsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::km_KH"
+msgid "Khmer"
+msgstr "Khmer"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ko_KR"
+msgid "Korean"
+msgstr "Kórejský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ku_TR"
+msgid "Kurdish"
+msgstr "Kurdský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::la_VA"
+msgid "Latin"
+msgstr "Latinský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::lt_LT"
+msgid "Lithuanian"
+msgstr "Litovský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::lv_LV"
+msgid "Latvian"
+msgstr "Lotyšský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::mk_MK"
+msgid "Macedonian"
+msgstr "Macedónsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ml_IN"
+msgid "Malayalam"
+msgstr "Malajámsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ms_MY"
+msgid "Malay"
+msgstr "Malajský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::nb_NO"
+msgid "Norwegian (bokmal)"
+msgstr "Nórsky (bokmal)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ne_NP"
+msgid "Nepali"
+msgstr "Nepálsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::nl_NL"
+msgid "Dutch"
+msgstr "Holandský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::nn_NO"
+msgid "Norwegian (nynorsk)"
+msgstr "Nórsky (nynorsk)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pa_IN"
+msgid "Punjabi"
+msgstr "Pandžábsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pl_PL"
+msgid "Polish"
+msgstr "Poľský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ps_AF"
+msgid "Pashto"
+msgstr "Pashto"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pt_BR"
+msgid "Portuguese (Brazil)"
+msgstr "Portugalský (Brazília)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pt_PT"
+msgid "Portuguese (Portugal)"
+msgstr "Portugalský (Portugalsko)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ro_RO"
+msgid "Romanian"
+msgstr "Rumunský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ru_RU"
+msgid "Russian"
+msgstr "Ruský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sk_SK"
+msgid "Slovak"
+msgstr "Slovenský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sl_SI"
+msgid "Slovenian"
+msgstr "Slovinský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sq_AL"
+msgid "Albanian"
+msgstr "Albánsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sr_RS"
+msgid "Serbian"
+msgstr "Srbský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sv_SE"
+msgid "Swedish"
+msgstr "Švédsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sw_KE"
+msgid "Swahili"
+msgstr "Swahilský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ta_IN"
+msgid "Tamil"
+msgstr "Tamilský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::te_IN"
+msgid "Telugu"
+msgstr "Telugský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::th_TH"
+msgid "Thai"
+msgstr "Thajský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::tl_PH"
+msgid "Filipino"
+msgstr "Filpínsky"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::tr_TR"
+msgid "Turkish"
+msgstr "Turecký"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::uk_UA"
+msgid "Ukrainian"
+msgstr "Ukajinský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::vi_VN"
+msgid "Vietnamese"
+msgstr "Vietnamský"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::zh_CN"
+msgid "Simplified Chinese (China)"
+msgstr "Čínsky (ČĽR)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::zh_HK"
+msgid "Traditional Chinese (Hong Kong)"
+msgstr "Tradičný čínsky (Hong Kong)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::zh_TW"
+msgid "Traditional Chinese (Taiwan)"
+msgstr "Tradičný Čínsky (Taiwan)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::arial"
+msgid "Arial"
+msgstr "Arial"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::lucida grande"
+msgid "Lucida grande"
+msgstr "Lucida grande"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::segoe ui"
+msgid "Segoe ui"
+msgstr "Segoe ui"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::tahoma"
+msgid "Tahoma"
+msgstr "Tahoma"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::trebuchet ms"
+msgid "Trebuchet ms"
+msgstr "Trebuchet ms"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::verdana"
+msgid "Verdana"
+msgstr "Verdana"
+
+msgctxt "SettingsVariants::social_buttons::facebook_colorscheme::light"
+msgid "Light"
+msgstr "Svetlé"
+
+msgctxt "SettingsVariants::social_buttons::facebook_colorscheme::dark"
+msgid "Dark"
+msgstr "Tmavé"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::full"
+msgid "Button with a text counter"
+msgstr "Tlačidlo s počítadlom textu"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::button"
+msgid "Button with a little counter"
+msgstr "Tlačidlo s malým počítadlom"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::mini"
+msgid "Mini button"
+msgstr "Mini tlačidlo"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::Vertical"
+msgid "Mini button, counter on top"
+msgstr "Mini tlačidlo s počítadlom na vrchu"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_buttons_name::interesting"
+msgid "It's interesting"
+msgstr "Je to zaujímavé"
+
+msgctxt "SettingsSections::social_buttons::gplus"
+msgid "Google plus"
+msgstr "Google plus"
+
+msgctxt "SettingsOptions::social_buttons::gplus_header"
+msgid "Google plus settings"
+msgstr "Nastavenia Google plus"
+
+msgctxt "SettingsOptions::social_buttons::gplus_enable"
+msgid "Show Google plus button"
+msgstr "Zobraziť Google plus tlačidlo"
+
+msgctxt "SettingsOptions::social_buttons::gplus_href"
+msgid "Google plus href"
+msgstr "Google plus href"
+
+msgctxt "SettingsOptions::social_buttons::gplus_size"
+msgid "Size"
+msgstr "Veľkosť"
+
+msgctxt "SettingsOptions::social_buttons::gplus_annotation"
+msgid "Annotation"
+msgstr "Anotácia"
+
+msgctxt "SettingsOptions::social_buttons::gplus_width"
+msgid "Width"
+msgstr "Šírka"
+
+msgctxt "SettingsOptions::social_buttons::gplus_align"
+msgid "Align"
+msgstr "Zarovnať"
+
+msgctxt "SettingsOptions::social_buttons::gplus_expandto"
+msgid "Expand To"
+msgstr "Rozšíriť na"
+
+msgctxt "SettingsOptions::social_buttons::gplus_recommendations"
+msgid "Recomendations"
+msgstr "Odporúčania"
+
+msgctxt "SettingsOptions::social_buttons::gplus_display_on"
+msgid "Display on"
+msgstr "Zobraziť na"
+
+msgctxt "SettingsVariants::social_buttons::gplus_display_on::products"
+msgid "Product details pages"
+msgstr "Stránky s podrobnosťami produktu"
+
+msgctxt "SettingsVariants::social_buttons::gplus_display_on::pages"
+msgid "Pages"
+msgstr "Stránky"
+
+msgctxt "SettingsVariants::social_buttons::gplus_size::small"
+msgid "Small"
+msgstr "Malé"
+
+msgctxt "SettingsVariants::social_buttons::gplus_size::medium"
+msgid "Medium"
+msgstr "Stredné"
+
+msgctxt "SettingsVariants::social_buttons::gplus_size::standard"
+msgid "Standard"
+msgstr "Štandardné"
+
+msgctxt "SettingsVariants::social_buttons::gplus_size::tall"
+msgid "Tall"
+msgstr "Vysoké"
+
+msgctxt "SettingsVariants::social_buttons::gplus_annotation::none"
+msgid "None"
+msgstr "Žiadne"
+
+msgctxt "SettingsVariants::social_buttons::gplus_annotation::bubble"
+msgid "Bubble"
+msgstr "Bublina"
+
+msgctxt "SettingsVariants::social_buttons::gplus_annotation::inline"
+msgid "Inline"
+msgstr "Vnútorná strana"
+
+msgctxt "SettingsVariants::social_buttons::gplus_align::left"
+msgid "Left"
+msgstr "Vľavo"
+
+msgctxt "SettingsVariants::social_buttons::gplus_align::right"
+msgid "Right"
+msgstr "Vpravo"
+
+msgctxt "SettingsVariants::social_buttons::gplus_expandto::top"
+msgid "Top"
+msgstr "Hore"
+
+msgctxt "SettingsVariants::social_buttons::gplus_expandto::right"
+msgid "Right"
+msgstr "Vpravo"
+
+msgctxt "SettingsVariants::social_buttons::gplus_expandto::bottom"
+msgid "Bottom"
+msgstr "Spodok"
+
+msgctxt "SettingsVariants::social_buttons::gplus_expandto::left"
+msgid "Left"
+msgstr "Vľavo"
+
+msgctxt "SettingsVariants::social_buttons::gplus_recommendations::yes"
+msgid "Yes"
+msgstr "Áno"
+
+msgctxt "SettingsVariants::social_buttons::gplus_recommendations::no"
+msgid "No"
+msgstr "Nie"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_display_on"
+msgid "Display on"
+msgstr "Zobraziť na"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_display_on::products"
+msgid "Product details pages"
+msgstr "Stránky s podrobnosťami produktu"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_display_on::pages"
+msgid "Pages"
+msgstr "Stránky"
+
+msgctxt "SettingsSections::social_buttons::pinterest"
+msgid "Pinterest"
+msgstr "Pinterest"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_header"
+msgid "Pinterest settings"
+msgstr "Nastavenia Pinterest"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_enable"
+msgid "Show Pinterest button"
+msgstr "Zobraziť tlačidlo Pinterest"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_size"
+msgid "Button size"
+msgstr "Veľkosť tlačidla"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_size::20"
+msgid "Small"
+msgstr "Malé"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_size::28"
+msgid "Large"
+msgstr "Veľké"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_shape"
+msgid "Shape"
+msgstr "Tvar"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_shape::rect"
+msgid "Rectangular"
+msgstr "Obdĺžnikový"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_shape::round"
+msgid "Circular"
+msgstr "Kruhový"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_color"
+msgid "Color"
+msgstr "Farba"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_color::gray"
+msgid "Gray"
+msgstr "Sivá"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_color::red"
+msgid "Red"
+msgstr "Červená"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_color::white"
+msgid "White"
+msgstr "Biela"
+
+msgctxt "Languages::email_template.social_buttons_mail"
+msgid "Email share"
+msgstr ""
+

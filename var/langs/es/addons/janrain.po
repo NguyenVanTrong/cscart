@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /addons/janrain.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::janrain"
+msgid "Janrain"
+msgstr "Janrain"
+
+msgctxt "Addons::description::janrain"
+msgid "Adds the Social Login feature; allows customers use Facebook, Twitter, etc. to log in on the store"
+msgstr "Agrega la función de conexión Social. permite a los clientes utilizar Facebook, Twitter, etc. para iniciar sesión en la tienda"
+
+msgctxt "Languages::janrain_general_info"
+msgid "<p>Get these values and configure social login at <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+msgstr "<p>Obtener estos valores y configurar social entrar en <a href=\"http://janrain.com\" target=\"_blank\"> janrain.com</a></p>"
+
+msgctxt "Languages::janrain_social_login"
+msgid "Social login"
+msgstr "Social entrar"
+
+msgctxt "Languages::janrain_need_update_profile"
+msgid "The \"Password\" field and some other mandatory fields are empty at the moment. Please update your profile."
+msgstr "El campo \"Contraseña\" y algunos otros campos obligatorios están vacíos por el momento. Por favor, actualice su perfil."
+
+msgctxt "Languages::janrain_cant_create_profile"
+msgid "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+msgstr "Por desgracia, no hemos podido crear un cliente e ingrese a la tienda debido a una de las siguientes razones:. <br/> - Usted ha iniciado sesión en nuestra tienda anterior utilizando algún otro proveedor de OpenID en el que se usa el mismo correo electrónico <br /> - Usted ya se ha registrado en nuestra tienda de la utilización de su de correo electrónico <br/> por favor, póngase en contacto con el dueño de la tienda de resolver los problemas."
+
+msgctxt "SettingsSections::janrain::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::janrain::general_info"
+msgid "General info"
+msgstr "Información general"
+
+msgctxt "SettingsOptions::janrain::apikey"
+msgid "API Key"
+msgstr "Clave API"
+
+msgctxt "SettingsOptions::janrain::appdomain"
+msgid "Application Domain"
+msgstr "Dominio de aplicación"
+

@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /addons/price_list.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:47-0500\n"
+
+msgctxt "Addons::name::price_list"
+msgid "Price list"
+msgstr "価格表"
+
+msgctxt "Addons::description::price_list"
+msgid "Generates configurable price list in PDF or XLS"
+msgstr "PDFもしくはXLS形式での価格表を出力します"
+
+msgctxt "Languages::price_list"
+msgid "Price list"
+msgstr "価格表"
+
+msgctxt "Languages::selected_fields"
+msgid "Selected fields"
+msgstr "選択済みフィールド"
+
+msgctxt "Languages::generating_pdf"
+msgid "Generating PDF. Please, be patient..."
+msgstr "PDFを生成しています。 お待ちください..."
+
+msgctxt "Languages::generating_xls"
+msgid "Generating XLS. Please, be patient..."
+msgstr "XLSファイルを生成しています。 お待ちください..."
+
+msgctxt "Languages::price_list_ziparchive_not_installed"
+msgid "Impossible to create XML price list. Please add zip support in PHP on your server. Follow <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+msgstr "価格表を生成できません。お使いのサーバーに設定されているPHPのzipサポートを有効化してください。 参考URL:<a href=\"http://www.php.net/manual/ja/zip.installation.php\">http://www.php.net/manual/ja/zip.installation.php</a>"
+
+msgctxt "Languages::price_list.text_select_storefront"
+msgid "To generate a price list, please select storefront first."
+msgstr "価格表を生成するために対象となるショップを指定してください。"
+
+msgctxt "Languages::price_list.text_regenerate"
+msgid "<p>If products, categories or selected fields were added or changed, please regenerate a price list:<br />[buttons]</p><p>Generated price lists are available by these links<br/>[links]</p>"
+msgstr "<p>商品やカテゴリー、指定フィールドを追加・変更した場合には価格表を再生成してください :<br />[buttons]</p><p>生成した価格表はこちらから参照できます。<br/>[links]</p>"
+
+msgctxt "SettingsSections::price_list::general"
+msgid "General"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::price_list::price_list_fields"
+msgid "Fields"
+msgstr "フィールド"
+
+msgctxt "SettingsOptions::price_list::price_list_sorting"
+msgid "Sort by"
+msgstr "ソート順"
+
+msgctxt "SettingsOptions::price_list::group_by_category"
+msgid "Group by category"
+msgstr "カテゴリー単位でグルーピング"
+
+msgctxt "SettingsOptions::price_list::include_options"
+msgid "Include product options"
+msgstr "商品オプションを含む"
+

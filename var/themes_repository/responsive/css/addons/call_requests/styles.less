@@ -1,0 +1,127 @@
+.ty-cr-product-info-container {
+    max-width: 430px;
+    .clearfix();
+}
+.ty-cr-product-info-image {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 20px 10px 0;
+}
+.ty-cr-product-info-header {
+    padding: 10px;
+    display: inline-block;
+    max-width: 260px;
+}
+.cr-popup-error-box {
+    max-width: 430px;
+    padding-bottom: 10px;
+}
+.ty-cr-phone-number-link {
+    margin: 4px 0px 0px;
+    text-align: center;
+    
+    .ty-cr-phone {
+        color: darken(@base, 40%);
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 1em;
+        span {
+            white-space: nowrap;
+        }
+    }
+    
+    .ty-cr-link {
+        margin: 3px 0px 0px;
+        a {
+           margin: 0;
+        }
+    }
+
+    .ty-cr-phone-prefix {
+        color: darken(@base, 15%);
+        font-weight: 400;
+    }
+
+    .ty-cr-work {
+        display: inline-block;
+        margin-left: 5px;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .ty-cr-work-hours {
+        padding-top: 4px;
+        font-size: 11px;
+        color: lighten(@font, 30%);
+    }
+}
+
+.ty-cr-or {
+    margin-bottom: -4px;
+    margin-top: -3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ty-cr-widget-content-grid .ty-cr-phone-number-link {
+    margin: 0;
+    padding-left: 0%;
+}
+
+@media (max-width : 1100px) {
+    .ty-cr-phone-number-link {
+        padding-left: 0%;
+    }
+    .ty-cr-phone-number-link .ty-cr-phone,.ty-cr-phone-number-link .ty-cr-phone a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .ty-cr-content-grid .ty-cr-phone-number-link {
+        margin: 10px 0px 0px;
+        float: left;
+    }
+    .ty-cr-phone-prefix {
+        display: inline;
+    }
+    
+    .ty-cr-widget-content-grid .ty-cr-phone-number-link {
+        clear: both;
+        padding: 12px;
+    }
+
+    .header-widget-grid .cart-content-grid {
+        width: 100%;
+    }
+    .ty-cr-product-info-container,
+    .cr-popup-error-box {
+        max-width: 100%;
+    }
+    .ty-cr-product-info-header {
+        padding: 0;
+        display: block;
+        max-width: 100%;
+    }
+    .ty-cr-product-info-image {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 820px) {
+
+  .ty-cr-content-grid {
+    margin-top: 0px;
+  }
+
+  .ty-cr-phone-number-link span.ty-cr-work {
+    display: block;
+  }
+
+  .ty-cr-phone-number-link .ty-cr-link {
+    margin-top: -2px;
+  }
+
+}

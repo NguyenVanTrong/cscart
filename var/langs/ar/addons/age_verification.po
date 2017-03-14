@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /addons/age_verification.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:00-0500\n"
+
+msgctxt "Addons::name::age_verification"
+msgid "Age verification"
+msgstr "التحقق من العمر"
+
+msgctxt "Addons::description::age_verification"
+msgid "Toggles age restriction rules for products and categories"
+msgstr "التبديل بين سن قواعد القيد للمنتجات والفئات"
+
+msgctxt "Languages::age_verification"
+msgid "Age verification"
+msgstr "التحقق من العمر"
+
+msgctxt "Languages::product_need_age_verification"
+msgid "You should verify your age to view this product."
+msgstr "ينبغي عليك التحقق من عمرك لعرض هذا المنتج."
+
+msgctxt "Languages::your_age"
+msgid "Your age"
+msgstr "عمرك"
+
+msgctxt "Languages::verify"
+msgid "Verify"
+msgstr "تحقق"
+
+msgctxt "Languages::birthday"
+msgid "Birthday"
+msgstr "تاريخ ميلاد"
+
+msgctxt "Languages::age_limit"
+msgid "Age limit"
+msgstr "الحد الأدنى للعمر"
+
+msgctxt "Languages::years"
+msgid "years"
+msgstr "السنوات"
+
+msgctxt "Languages::age_warning_message"
+msgid "Warning message"
+msgstr "رسالة تحذير"
+
+msgctxt "Languages::promotion_cond_birthday"
+msgid "Birthday"
+msgstr "تاريخ ميلاد"
+

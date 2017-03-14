@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Swedish\n"
+"Language: sv_SE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sv-SE\n"
+"X-Crowdin-File: /addons/watermarks.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2016-11-28 04:09-0500\n"
+
+msgctxt "Addons::name::watermarks"
+msgid "Watermarks"
+msgstr "Vattenstämplar"
+
+msgctxt "Addons::description::watermarks"
+msgid "Allows you to add watermarks to product and category images"
+msgstr "Kan du lägga till vattenstämplar till produkt och kategori bilder"
+
+msgctxt "Languages::wt_watermarks"
+msgid "Watermarks"
+msgstr "Vattenstämplar"
+
+msgctxt "Languages::wt_graphic_watermark"
+msgid "Graphic watermark"
+msgstr "Grafisk watermark"
+
+msgctxt "Languages::wt_text_watermark"
+msgid "Text watermark"
+msgstr "Text som vattenstämpel"
+
+msgctxt "Languages::wt_watermark_vertical_position"
+msgid "Watermark vertical position"
+msgstr "Vattenstämpel vertikalt läge"
+
+msgctxt "Languages::wt_watermark_horizontal_position"
+msgid "Watermark horizontal position"
+msgstr "Vattenstämpel horisontellt läge"
+
+msgctxt "Languages::wt_watermark_position"
+msgid "Watermark position"
+msgstr "Vattenstämpeln position"
+
+msgctxt "Languages::wt_watermark_image"
+msgid "Watermark image"
+msgstr "Vattenstämpel bild"
+
+msgctxt "Languages::wt_watermark_text"
+msgid "Watermark text"
+msgstr "Vattenmärken text"
+
+msgctxt "Languages::wt_font"
+msgid "Font"
+msgstr "Font"
+
+msgctxt "Languages::wt_font_color"
+msgid "Font color"
+msgstr "Teckenfärg"
+
+msgctxt "Languages::wt_font_size_icon"
+msgid "Font size (thumbnail)"
+msgstr "Teckenstorlek (miniatyrbild)"
+
+msgctxt "Languages::wt_font_size_detailed"
+msgid "Font size (larger image)"
+msgstr "Storlek (större bild)"
+
+msgctxt "Languages::wt_watermark_icon"
+msgid "Thumbnail watermark"
+msgstr "Miniatyr vattenstämpel"
+
+msgctxt "Languages::wt_watermark_detailed"
+msgid "Popup larger image watermark"
+msgstr "Popup-större bild vattenstämpel"
+
+msgctxt "Languages::wt_fail_apply_graphic_watermark"
+msgid "Failed to apply the watermark to [image_type]. The watermark image is not added."
+msgstr "Det gick inte att tillämpa vattenstämpeln på [image_type]. Vattenstämpeln bilden läggs inte."
+
+msgctxt "Languages::wt_icons"
+msgid "thumbnails"
+msgstr "miniatyrer"
+
+msgctxt "Languages::wt_detailed"
+msgid "popup larger images"
+msgstr "popup-större bilder"
+
+msgctxt "Languages::wt_images_access_description"
+msgid "To deny access to your original images, please add the following instructions to the '.htaccess' file in the 'images' directory of your installation. It will protect your original images. Even if an original image is opened, the corresponding watermarked image will be show instead."
+msgstr "För att neka åtkomst till dina ursprungliga bilder, Lägg till följande instruktioner till \".htaccess\" fil i katalogen \"bilder\" på din installation. Det kommer att skydda din ursprungliga bilder. Även om en original bild öppnas, kommer den motsvarande vattenstämplat bilden att Visa istället."
+
+msgctxt "Languages::wt_watermarks_access_description"
+msgid "To generate watermarked images automatically even if they are requested not from your store pages, please add the '.htaccess' file with the following instructions to the 'images/watermarked' directory of your installation."
+msgstr "För att generera vattenstämpel bilder automatiskt även om de efterfrågas inte från din butik sidor, Lägg till \".htaccess\" fil med följande instruktioner till \"bilder/vattenstämpel\" katalogen i din installation."
+
+msgctxt "Languages::wt_access_note"
+msgid "Please note, if you disable or uninstall the 'Watermarks' add-on, you should remove these instructions from '.htaccess' files manually. Otherwise category and product images will be unavailable."
+msgstr "Observera att om du inaktivera eller avinstallera tillägget \"Vattenmärken\", du bör ta bort dessa instruktioner från \".htaccess\" filer manuellt. Annars blir kategori och produkt bilder otillgänglig."
+
+msgctxt "Languages::wt_access_warning"
+msgid "Watermark creating is disabled. If there are any \"Rewrite watermarks rules\" instructions in the \"images/.htaccess\" file, you should remove them manually. Otherwise category and product images will be unavailable."
+msgstr "Vattenstämpel att skapa är inaktiverad. Om det finns någon \"Rewrite vattenstämplar regler\" instruktionerna i \"bilder/.htaccess\" fil, bör du ta bort dem manuellt. Annars blir kategori och produkt bilder otillgänglig."
+
+msgctxt "Languages::wt_images_access_info"
+msgid "Images access"
+msgstr "Få tillgång till bilder"
+
+msgctxt "SettingsSections::watermarks::general"
+msgid "General"
+msgstr "De allmänna"
+
+msgctxt "SettingsOptions::watermarks::watermark"
+msgid "Watermark"
+msgstr "Vattenstämpel"
+
+msgctxt "SettingsOptions::watermarks::apply_to_product"
+msgid "Product watermarks"
+msgstr "Produkt vattenstämplar"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_icons"
+msgid "Resized images"
+msgstr "Storleksändrade bilder"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_detailed"
+msgid "Original size images"
+msgstr "Ursprungliga storlek bilder"
+
+msgctxt "SettingsOptions::watermarks::apply_to_categories"
+msgid "Category watermarks"
+msgstr "Kategori vattenstämplar"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_icons"
+msgid "Resized images"
+msgstr "Storleksändrade bilder"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_detailed"
+msgid "Original size images"
+msgstr "Ursprungliga storlek bilder"
+
+msgctxt "SettingsOptions::watermarks::images_access_info"
+msgid "Images access"
+msgstr "Få tillgång till bilder"
+

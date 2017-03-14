@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Slovak\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sk\n"
+"X-Crowdin-File: /addons/attachments.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::attachments"
+msgid "Attachments"
+msgstr "Prílohy"
+
+msgctxt "Addons::description::attachments"
+msgid "Makes it possible to attach files to products"
+msgstr "Umožňuje priloženie súborov k produktom"
+
+msgctxt "Languages::attachments"
+msgid "Attachments"
+msgstr "Prílohy"
+
+msgctxt "Languages::new_attachment"
+msgid "New attachment"
+msgstr "Nová príloha"
+
+msgctxt "Languages::add_attachment"
+msgid "Add attachment"
+msgstr "Pridať prílohu"
+
+msgctxt "Languages::editing_attachment"
+msgid "Editing attachment"
+msgstr "Upraviť prílohu"
+

@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /addons/store_locator.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:00-0500\n"
+
+msgctxt "Addons::name::store_locator"
+msgid "Store locator"
+msgstr "عنوان المتجر"
+
+msgctxt "Addons::description::store_locator"
+msgid "Lets you place local stores on map and inform customers about their nearest stores"
+msgstr "يتيح لك وضع المتاجر المحلية على الخريطة، وإبلاغ العملاء بمتاجرهم أقرب"
+
+msgctxt "Languages::view_on_map"
+msgid "View on map"
+msgstr "عرض على الخريطة"
+
+msgctxt "Languages::get_api_key"
+msgid "Obtaining an API Key"
+msgstr "الحصول على مفتاح API"
+
+msgctxt "Languages::block_store_locator"
+msgid "Store locator"
+msgstr "عنوان المتجر"
+
+msgctxt "Languages::block_store_locator_description"
+msgid "Store locator block"
+msgstr "كتلة محدد موقع المتجر"
+
+msgctxt "Languages::text_address_not_found"
+msgid "Address not found"
+msgstr "لم يتم العثور على عنوان"
+
+msgctxt "Languages::select_coordinates"
+msgid "Select coordinates"
+msgstr "تحديد الإحداثيات"
+
+msgctxt "Languages::set"
+msgid "Set"
+msgstr "تعيين"
+
+msgctxt "Languages::editing_store_location"
+msgid "Editing store location"
+msgstr "تحرير موقع مخزن"
+
+msgctxt "Languages::new_store_location"
+msgid "New store location"
+msgstr "موقع تخزين جديد"
+
+msgctxt "Languages::add_store_location"
+msgid "Add store location"
+msgstr "إضافة موقع مخزن"
+
+msgctxt "Languages::coordinates"
+msgid "Coordinates"
+msgstr "إحداثيات"
+
+msgctxt "Languages::latitude_short"
+msgid "lat"
+msgstr "اللات"
+
+msgctxt "Languages::longitude_short"
+msgid "long"
+msgstr "طويلة"
+
+msgctxt "Languages::all_stores"
+msgid "All stores"
+msgstr "كل المتاجر"
+
+msgctxt "Languages::zoom"
+msgid "Map zoom"
+msgstr "تكبير الخريطة"
+
+msgctxt "Languages::map_type_control"
+msgid "MapType control"
+msgstr "التحكم بالخريطة"
+
+msgctxt "Languages::zoom_control"
+msgid "Zoom control"
+msgstr "تحكم التكبير/التصغير"
+
+msgctxt "Languages::scale_control"
+msgid "Scale control"
+msgstr "حجم عنصر التحكم"
+
+msgctxt "SettingsSections::store_locator::general"
+msgid "General"
+msgstr "عام"
+
+msgctxt "SettingsOptions::store_locator::provider"
+msgid "Map provider"
+msgstr "موفر خريطة"
+
+msgctxt "SettingsOptions::store_locator::map_provider"
+msgid "Map"
+msgstr "خريطة"
+
+msgctxt "SettingsOptions::store_locator::settings"
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgctxt "SettingsVariants::store_locator::map_provider::google"
+msgid "Google"
+msgstr "جووجل"
+
+msgctxt "SettingsVariants::store_locator::map_provider::yandex"
+msgid "Yandex"
+msgstr ""
+
+msgctxt "Languages::privileges.manage_store_locator"
+msgid "Manage store locator"
+msgstr "إدارة مخزن محدد"
+
+msgctxt "Languages::privileges.view_store_locator"
+msgid "View store locator"
+msgstr "عرض مخزن محدد"
+

@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/attachments.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::attachments"
+msgid "Attachments"
+msgstr "Tập tin đính kèm"
+
+msgctxt "Addons::description::attachments"
+msgid "Makes it possible to attach files to products"
+msgstr "Sử dụng nó để có thể đính kèm tập tin vào sản phẩm"
+
+msgctxt "Languages::attachments"
+msgid "Attachments"
+msgstr "Đính kèm tập tin"
+
+msgctxt "Languages::new_attachment"
+msgid "New attachment"
+msgstr "Đính kèm tập tin mới"
+
+msgctxt "Languages::add_attachment"
+msgid "Add attachment"
+msgstr "Thêm tập tin đính kèm"
+
+msgctxt "Languages::editing_attachment"
+msgid "Editing attachment"
+msgstr "Chỉnh sửa tập tin đính kèm"
+

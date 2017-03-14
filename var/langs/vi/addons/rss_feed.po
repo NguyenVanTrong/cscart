@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/rss_feed.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::rss_feed"
+msgid "RSS feed"
+msgstr "RSS nguồn cấp dữ liệu"
+
+msgctxt "Addons::description::rss_feed"
+msgid "Generates RSS feeds for products and blog posts"
+msgstr "Tạo ra nguồn cấp dữ liệu RSS cho các sản phẩm, blog và các trang"
+
+msgctxt "Languages::rss_feed"
+msgid "RSS feed"
+msgstr "RSS nguồn cấp dữ liệu"
+
+msgctxt "Languages::feed_title"
+msgid "Feed title"
+msgstr "Tiêu đề nguồn cấp dữ liệu"
+
+msgctxt "Languages::feed_description"
+msgid "Feed description"
+msgstr "Mô tả nguồn cấp dữ liệu"
+
+msgctxt "Languages::rss_sort_by"
+msgid "Sort items by"
+msgstr "Sắp xếp mục theo"
+
+msgctxt "Languages::rss_display_sku"
+msgid "Display SKU"
+msgstr "Hiển thị mã sản phẩm"
+
+msgctxt "Languages::rss_display_image"
+msgid "Display image"
+msgstr "Hiển thị hình ảnh"
+
+msgctxt "Languages::rss_display_price"
+msgid "Display gross price"
+msgstr "Hiển thị tổng giá"
+
+msgctxt "Languages::rss_display_original_price"
+msgid "Display net price"
+msgstr "Hiển thị giá net"
+
+msgctxt "Languages::rss_display_add_to_cart"
+msgid "Display add to cart button"
+msgstr "Hiển thị nút thêm vào giỏ hàng"
+
+msgctxt "Languages::rss_created"
+msgid "Created"
+msgstr "Tạo"
+
+msgctxt "Languages::rss_updated"
+msgid "Updated"
+msgstr "Cập Nhật"
+
+msgctxt "Languages::block_rss_feed"
+msgid "RSS feed"
+msgstr "RSS nguồn cấp dữ liệu"
+
+msgctxt "Languages::block_rss_feed_description"
+msgid "RSS feed subscription icon"
+msgstr "Biểu tượng đăng ký RSS nguồn cấp dữ liệu"
+
+msgctxt "SettingsSections::rss_feed::general"
+msgid "General"
+msgstr "Tổng quát"
+
+msgctxt "SettingsOptions::rss_feed::managing_editor"
+msgid "Content editor"
+msgstr "Nội dung biên tập"
+
+msgctxt "SettingsOptions::rss_feed::display_rss_feed_in_category"
+msgid "Show RSS feed for each category"
+msgstr "Hiển thị nguồn cấp dữ liệu RSS cho mỗi danh mục"
+
+msgctxt "SettingsOptions::rss_feed::category_max_products_items"
+msgid "Max product number per category"
+msgstr "Số sản phẩm tối đa cho mỗi danh mục"
+
+msgctxt "SettingsTooltips::rss_feed::managing_editor"
+msgid "Enter the content editor's email and real name, e.g. john@example.com (John Doe)"
+msgstr "Nhập biên tập nội dung email và tên thật, ví dụ như john@example.com (John Doe)"
+
+msgctxt "SettingsTooltips::rss_feed::display_rss_feed_in_category"
+msgid "RSS icon near category title."
+msgstr "Biểu tượng RSS gần tiêu đề danh mục."
+
+msgctxt "Languages::addons.rss_feed.icon"
+msgid "RSS feed subscription icon"
+msgstr "Biểu tượng đăng ký RSS nguồn cấp dữ liệu"
+

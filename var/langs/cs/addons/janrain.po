@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /addons/janrain.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:01-0500\n"
+
+msgctxt "Addons::name::janrain"
+msgid "Janrain"
+msgstr "Janrain"
+
+msgctxt "Addons::description::janrain"
+msgid "Adds the Social Login feature; allows customers use Facebook, Twitter, etc. to log in on the store"
+msgstr "Přihlášení zákazníků pomocí sociálních sítí Facebook, Twitter a podobně"
+
+msgctxt "Languages::janrain_general_info"
+msgid "<p>Get these values and configure social login at <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+msgstr "<p>Získejte tyto hodnoty a nakonfigurujte sociální přihlášení na <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+
+msgctxt "Languages::janrain_social_login"
+msgid "Social login"
+msgstr "Sociální přihlášení"
+
+msgctxt "Languages::janrain_need_update_profile"
+msgid "The \"Password\" field and some other mandatory fields are empty at the moment. Please update your profile."
+msgstr "Není vyplněno pole \"Heslo\" a několik dalších povinných polí. Prosím, aktualizujte svůj profil."
+
+msgctxt "Languages::janrain_cant_create_profile"
+msgid "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+msgstr "Z jednoho z následujících důvodů se nám bohužel nepodařilo vytvořit zákaznický účet a přihlásit se do obchodu:<br />- Přihlásili jste se do našeho obchodu již dříve pomocí jiného poskytovatele OpenID, kde byla použita stejná e-mailová adresa.<br />- Už jste se v našem obchodě zaregistrovali pomocí vaší e-mailové adresy.<br />Prosím, kontaktujte majitele obchodu k řešení problémů."
+
+msgctxt "SettingsSections::janrain::general"
+msgid "General"
+msgstr "Obecné"
+
+msgctxt "SettingsOptions::janrain::general_info"
+msgid "General info"
+msgstr "Obecné informace"
+
+msgctxt "SettingsOptions::janrain::apikey"
+msgid "API Key"
+msgstr "API klíč"
+
+msgctxt "SettingsOptions::janrain::appdomain"
+msgid "Application Domain"
+msgstr "Aplikační domény"
+

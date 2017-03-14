@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /addons/call_requests.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:01-0500\n"
+
+msgctxt "Addons::name::call_requests"
+msgid "Call requests"
+msgstr "Nákup na 1 kliknutí"
+
+msgctxt "Addons::description::call_requests"
+msgid "Adds a call-requests system"
+msgstr "Přidá tlačítko pro rychlý nákup produktu"
+
+msgctxt "SettingsSections::call_requests::general"
+msgid "General"
+msgstr "Obecné"
+
+msgctxt "SettingsOptions::call_requests::general"
+msgid "General"
+msgstr "Obecné"
+
+msgctxt "SettingsOptions::call_requests::phone"
+msgid "Rewrite phone"
+msgstr "Přepsat telefon"
+
+msgctxt "SettingsOptions::call_requests::phone_prefix_length"
+msgid "Highlight first chars"
+msgstr "Zvýraznit první znaky"
+
+msgctxt "SettingsOptions::call_requests::buy_now_with_one_click"
+msgid "Enable the \"Buy now with one click\" option"
+msgstr "Povolit možnost \"Koupit nyní 1 kliknutím\""
+
+msgctxt "SettingsOptions::call_requests::order_status"
+msgid "Order status"
+msgstr "Stav objednávky"
+
+msgctxt "SettingsOptions::call_requests::phone_mask"
+msgid "Phone mask"
+msgstr "Maska telefonu"
+
+msgctxt "SettingsTooltips::call_requests::phone_mask"
+msgid "Leave empty to use automatic country-based phone pattern, or type in a custom pattern. You can use spaces, commas, +, -, and digits. Note that 9 represents any digit; if you need a 9, type \\\\9. Examples: +9 (999) 999 99 99, 99999999, 999 999 99 or +99-99-9999-9999."
+msgstr "Ponechte prázdné pro použití automatického tvaru tel. čísla pro danou zemi, nebo vložte vlastní tvar. Můžete použít mezery, čárky, znaky +, -, a číslice. Číslice 9 zastupuje jakoukoliv číslici; pokud potřebujete číslici 9, zadejte \\\\9. Příklady: +9 (999) 999 99 99, 99999999, 999 999 99 nebo +99-99-9999-9999."
+
+msgctxt "SettingsTooltips::call_requests::phone_prefix_length"
+msgid "Including parenthesis, spaces, etc. Use to highlight country code, area code, and phone prefix."
+msgstr "Včetně závorek, mezer, atd. Slouží k zvýraznění kódu země, kódu oblasti a telefonního předčíslí."
+
+msgctxt "Languages::privileges.manage_call_requests"
+msgid "Manage Call requests"
+msgstr "Spravovat žádosti o zavolání"
+
+msgctxt "Languages::privileges.view_call_requests"
+msgid "View Call requests"
+msgstr "Zobrazit žádosti o zavolání"
+
+msgctxt "Languages::call_requests"
+msgid "Call requests"
+msgstr "Žádosti o zavolání"
+
+msgctxt "Languages::call_requests_menu_description"
+msgid "Manage customer call requests"
+msgstr "Spravovat žádosti o zavolání zákazníkovi"
+
+msgctxt "Languages::call_requests.request_call"
+msgid "Request call"
+msgstr "Žádost o zavolání"
+
+msgctxt "Languages::call_requests.buy_now_with_one_click"
+msgid "Buy now with 1-click"
+msgstr "Koupit nyní 1 kliknutím"
+
+msgctxt "Languages::call_requests.error_validate_call_form"
+msgid "Please enter your email or phone number"
+msgstr "Zadejte prosím váš e-mail nebo telefonní číslo"
+
+msgctxt "Languages::call_requests.request_recieved"
+msgid "We have received your request! Our manager will contact you soon."
+msgstr "Obdrželi jsme vaši žádost! Náš manažer vás zkontaktuje co nejdříve."
+
+msgctxt "Languages::call_requests.order_placed"
+msgid "We have received your request! The order #[order_id] has been successfully created. Our manager will contact you soon."
+msgstr "Obdrželi jsme vaši žádost! Objednávka #[order_id] byla úspěšně vytvořena. Náš manažer vás zkontaktuje co nejdříve."
+
+msgctxt "Languages::call_requests.phone_from_settings"
+msgid "Phone from settings"
+msgstr "Nastavení telefonního čísla"
+
+msgctxt "Languages::call_requests.enter_phone_or_email_text"
+msgid "Please enter your phone number or email (for our manager to contact you)"
+msgstr "Zadejte prosím vaše telefonní číslo nebo e-mail (aby vás mohl kontaktovat náš manažer)"
+
+msgctxt "Languages::call_requests.status.new"
+msgid "New"
+msgstr "Nový"
+
+msgctxt "Languages::call_requests.status.in_progress"
+msgid "In progress"
+msgstr "Probíhá"
+
+msgctxt "Languages::call_requests.status.completed"
+msgid "Completed"
+msgstr "Dokončený"
+
+msgctxt "Languages::call_requests.status.no_answer"
+msgid "No answer"
+msgstr "Žádná odpověď"
+
+msgctxt "Languages::call_requests.responsible"
+msgid "Responsible"
+msgstr "Kontaktní"
+
+msgctxt "Languages::call_requests.notes"
+msgid "Notes"
+msgstr "Poznámky"
+
+msgctxt "Languages::call_requests.requested_product"
+msgid "Requested product"
+msgstr "Požadované zboží"
+
+msgctxt "Languages::call_requests.convenient_time"
+msgid "Convenient time"
+msgstr ""
+
+msgctxt "Languages::call_requests.awaiting_call"
+msgid "Awaiting call"
+msgstr "Čeká na volání"
+
+msgctxt "Languages::call_requests.order_exists"
+msgid "Order exists"
+msgstr "Stávající objednávka"
+
+msgctxt "Languages::call_requests.person_name_and_phone"
+msgid "Name and phone"
+msgstr "Jméno a telefonní číslo"
+
+msgctxt "Languages::call_requests.no_name_specified"
+msgid "No name specified"
+msgstr "Jméno nezadáno"
+
+msgctxt "Languages::call_requests.use_for_call_requests"
+msgid "Call request and buy now with one click form"
+msgstr "Žádost o zavolání s formulářem na koupi 1 kliknutím"
+
+msgctxt "Languages::block_call_request"
+msgid "Call request"
+msgstr "Žádost o zavolání"
+
+msgctxt "Languages::block_call_request_description"
+msgid "Store phone number and form for requesting a call"
+msgstr "Telefonní číslo obchodu a formulář pro žádost o zavolání"
+
+msgctxt "Languages::tmpl_call_request"
+msgid "Call request form"
+msgstr "Formulář žádosti o zavolání"
+
+msgctxt "Languages::call_requests.text_call_request"
+msgid "Customer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number]."
+msgstr ""
+
+msgctxt "Languages::call_requests.text_call_request_call_time"
+msgid "The convenient call time is between [time_from] and [time_to]."
+msgstr "Vhodný čas pro zavolání je mezi [time_from] a [time_to]."
+
+msgctxt "Languages::call_requests.text_buy_with_one_click_request"
+msgid "Сustomer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number], regarding the purchase of the product <a href=\"[product_href]\">[product_name]</a>."
+msgstr "Zákazník [customer] <a href=\"[href]\">čeká na vaše zavolání</a> [phone_number], týkající se nákupu <a href=\"[product_href]\">[product_name]</a>."
+
+msgctxt "Languages::call_requests.error_validator_phone"
+msgid "The phone number in the <b>[field]</b> field is invalid."
+msgstr "Telefonní číslo v poli <b>[field]</b> není platné."
+
+msgctxt "Languages::email_template.call_requests_buy_with_one_click"
+msgid "Call requests: buy with one click notification"
+msgstr ""
+
+msgctxt "Languages::email_template.call_requests_call_request"
+msgid "Call requests: call request notification"
+msgstr ""
+
+msgctxt "Languages::call_request.work_time"
+msgid "Mon-Fr 9a.m.-6p.m."
+msgstr ""
+

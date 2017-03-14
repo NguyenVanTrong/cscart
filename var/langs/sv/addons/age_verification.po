@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Swedish\n"
+"Language: sv_SE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sv-SE\n"
+"X-Crowdin-File: /addons/age_verification.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2016-11-28 04:09-0500\n"
+
+msgctxt "Addons::name::age_verification"
+msgid "Age verification"
+msgstr "Ålderskontroll"
+
+msgctxt "Addons::description::age_verification"
+msgid "Toggles age restriction rules for products and categories"
+msgstr "Växlar ålder begränsning regler för produkter och kategorier"
+
+msgctxt "Languages::age_verification"
+msgid "Age verification"
+msgstr "Åldersverifiering"
+
+msgctxt "Languages::product_need_age_verification"
+msgid "You should verify your age to view this product."
+msgstr "du Måste verifiera din ålder att kunna visa denna produkt."
+
+msgctxt "Languages::your_age"
+msgid "Your age"
+msgstr "Din ålder"
+
+msgctxt "Languages::verify"
+msgid "Verify"
+msgstr "Verifiera "
+
+msgctxt "Languages::birthday"
+msgid "Birthday"
+msgstr "Födelsedag"
+
+msgctxt "Languages::age_limit"
+msgid "Age limit"
+msgstr "Åldersgräns"
+
+msgctxt "Languages::years"
+msgid "years"
+msgstr "år"
+
+msgctxt "Languages::age_warning_message"
+msgid "Warning message"
+msgstr "Varningsmeddelande"
+
+msgctxt "Languages::promotion_cond_birthday"
+msgid "Birthday"
+msgstr "Födelsedag"
+

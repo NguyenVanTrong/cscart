@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/age_verification.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::age_verification"
+msgid "Age verification"
+msgstr "تایید وبررسی  سن"
+
+msgctxt "Addons::description::age_verification"
+msgid "Toggles age restriction rules for products and categories"
+msgstr "\n"
+"قوانین محدودیت سنی ، برای پست محصولات و دسته بندی ها"
+
+msgctxt "Languages::age_verification"
+msgid "Age verification"
+msgstr "تایید وبررسی  سن"
+
+msgctxt "Languages::product_need_age_verification"
+msgid "You should verify your age to view this product."
+msgstr "سن شما باید با این محصول  تطابق داشته باشد ، لطفا مشاهده کنید."
+
+msgctxt "Languages::your_age"
+msgid "Your age"
+msgstr "سن شما"
+
+msgctxt "Languages::verify"
+msgid "Verify"
+msgstr "بررسی کنید"
+
+msgctxt "Languages::birthday"
+msgid "Birthday"
+msgstr "تولد"
+
+msgctxt "Languages::age_limit"
+msgid "Age limit"
+msgstr "محدودیت سنی"
+
+msgctxt "Languages::years"
+msgid "years"
+msgstr "سال"
+
+msgctxt "Languages::age_warning_message"
+msgid "Warning message"
+msgstr "پیام هشدار"
+
+msgctxt "Languages::promotion_cond_birthday"
+msgid "Birthday"
+msgstr "تولد"
+

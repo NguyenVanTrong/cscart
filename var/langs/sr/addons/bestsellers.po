@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Serbian (Cyrillic)\n"
+"Language: sr_SP\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: /addons/bestsellers.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & On-Sale Products"
+msgstr "Najprodavaniji & proizvodi na akciji"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "Sakuplja podatke o najprodavanijim i proizvodima na popustu i dodaje ih u blok za prikaz"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "Sortiranje po najprodavanijim: najlošije ka najboljem"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "Sortiranje po najprodavanijim"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "Sortiranje po popustu: najmanji ka najvećem"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "Sortiranje po popustu: najveći ka najmanjem"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "Iznos prodaje"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "Najprodavanije"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "Sniženja"
+
+msgctxt "Languages::similar"
+msgid "Similar"
+msgstr "Slično"
+
+msgctxt "Languages::percent_range"
+msgid "Price range (in % of the main product's price)"
+msgstr "Cenovni rang (u % cene glavnog proizvoda)"
+
+msgctxt "Languages::similar_category"
+msgid "Of the same category"
+msgstr "U istoj kategoriji"
+
+msgctxt "Languages::similar_subcats"
+msgid "Consider subcategories"
+msgstr "Razmotrite potkategorije"
+
+msgctxt "Languages::similar_in_stock"
+msgid "Only \"in stock\" products"
+msgstr "Samo \"na lageru\" proizvodi"
+
+msgctxt "Languages::final_sale"
+msgid "Final sale"
+msgstr "Konačna prodaja"
+
+msgctxt "SettingsSections::bestsellers::general"
+msgid "General"
+msgstr "Opšte"
+
+msgctxt "SettingsSections::bestsellers::newest"
+msgid "Newest"
+msgstr "Najnoviji"
+
+msgctxt "SettingsOptions::bestsellers::final_sale_from"
+msgid "Minimum final sale discount (%)"
+msgstr "Minimalni konačni prodajni popust (%)"
+
+msgctxt "SettingsOptions::bestsellers::sales_amount_from"
+msgid "Minimum sales amount to define bestsellers"
+msgstr "Minimalni iznos prodaje za definisanje najprodavanijih proizvoda"
+
+msgctxt "SettingsOptions::bestsellers::period"
+msgid "Period"
+msgstr "Period"
+
+msgctxt "SettingsOptions::bestsellers::last_days"
+msgid "Last days"
+msgstr "Zadnjih dana"
+
+msgctxt "SettingsVariants::bestsellers::period::all"
+msgid "All days"
+msgstr "Svi dani"
+
+msgctxt "SettingsVariants::bestsellers::period::today"
+msgid "Today"
+msgstr "Danas"
+
+msgctxt "SettingsVariants::bestsellers::period::last_days"
+msgid "Last days"
+msgstr "Zadnjih dana"
+

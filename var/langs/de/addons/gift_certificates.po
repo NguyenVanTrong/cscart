@@ -1,0 +1,278 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /addons/gift_certificates.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2016-11-28 04:04-0500\n"
+
+msgctxt "Addons::name::gift_certificates"
+msgid "Gift certificates"
+msgstr "Geschenkgutscheine"
+
+msgctxt "Addons::description::gift_certificates"
+msgid "Adds a built-in gift certificate system"
+msgstr "Fügt eine integriertes Geschenkgutscheinsystem hinzu"
+
+msgctxt "Languages::gift_certificate"
+msgid "Gift certificate"
+msgstr "Geschenkgutschein"
+
+msgctxt "Languages::gift_certificates"
+msgid "Gift certificates"
+msgstr "Geschenkgutscheine"
+
+msgctxt "Languages::gift_certificates_menu_description"
+msgid "View and manage the gift certificates that customers have purchased."
+msgstr "Von Kunden gekaufte Geschenkgutscheine anzeigen und verwalten."
+
+msgctxt "Languages::gift_certificate_info"
+msgid "Gift certificate info"
+msgstr "Geschenkgutschein-Info"
+
+msgctxt "Languages::gift_certificate_verification"
+msgid "Gift certificate verification"
+msgstr "Geschenkgutschein-Überprüfung"
+
+msgctxt "Languages::gift_cert_code"
+msgid "Gift certificate code"
+msgstr "Geschenkgutschein-Code"
+
+msgctxt "Languages::gift_cert_debit"
+msgid "Debit balance"
+msgstr "Sollsaldo"
+
+msgctxt "Languages::gift_cert_from"
+msgid "From"
+msgstr "Von"
+
+msgctxt "Languages::gift_cert_to"
+msgid "To"
+msgstr "An"
+
+msgctxt "Languages::promotion_bonus_gift_certificate"
+msgid "Gift certificate"
+msgstr "Geschenkgutschein"
+
+msgctxt "Languages::purchase_gift_certificate"
+msgid "Purchase Gift Certificate"
+msgstr "Geschenkgutschein kaufen"
+
+msgctxt "Languages::text_gift_certificate_logo"
+msgid "Logo for <b>gift certificates</b>"
+msgstr "Logo für <b>Geschenkgutscheine</b>"
+
+msgctxt "Languages::text_gift_cert_amount_alert"
+msgid "Amount should be between [min] and [max]"
+msgstr "Betrag sollte zwischen [min] und [max] liegen"
+
+msgctxt "Languages::text_gift_cert_has_been_deleted"
+msgid "Gift certificate has been deleted successfully."
+msgstr "Geschenkgutschein wurde erfolgreich entfernt."
+
+msgctxt "Languages::error_gift_cert_code"
+msgid "The gift certificate code you entered is invalid. Please try again."
+msgstr "Der eingegebene Gutschein-Code ist ungültig. Bitte versuchen Sie es erneut."
+
+msgctxt "Languages::gift_add_products"
+msgid "Add products for a gift"
+msgstr "Produkte für ein Geschenk hinzufügen"
+
+msgctxt "Languages::gift_comment"
+msgid "Message"
+msgstr "Nachricht"
+
+msgctxt "Languages::certificate_verification"
+msgid "Validate/Redeem gift certificate"
+msgstr "Geschenkgutschein überprüfen/einlösen"
+
+msgctxt "Languages::detailed_info"
+msgid "Detailed information"
+msgstr "detaillierte Informationen"
+
+msgctxt "Languages::history"
+msgid "History"
+msgstr "Gutscheinverlauf"
+
+msgctxt "Languages::gift_certificate_statuses"
+msgid "Gift certificate statuses"
+msgstr "Geschenkgutschein-Status"
+
+msgctxt "Languages::text_gift_cert_applied"
+msgid "Gift certificate has been applied"
+msgstr "Geschenkgutschein wurde eingelöst"
+
+msgctxt "Languages::certificate_already_used"
+msgid "This gift certificate is already in use"
+msgstr "Dieser Gutschein"
+
+msgctxt "Languages::certificate_code_not_available"
+msgid "Gift certificate cannot be applied. Please contact the store administration."
+msgstr "Gutschein kann nicht eingelöst werden. Bitte kontaktieren Sie die Shop-Administration."
+
+msgctxt "Languages::certificate_code_not_valid"
+msgid "Gift certificate code is not valid"
+msgstr "Ungültiger Gutscheincode"
+
+msgctxt "Languages::warning_gift_cert_deny"
+msgid "The following gift certificates have been deleted or cancelled by administrator and have been removed from your cart: [codes]. Please contact the store administrator or try another one."
+msgstr "Die folgenden Geschenkgutscheine wurden vom Administrator gelöscht oder abgebrochen und aus Ihrem Warenkorb entfernt."
+
+msgctxt "Languages::text_gift_cert_cannot_delete"
+msgid "Gift certificate [code] cannot be deleted because it is used in order(s) [ids]."
+msgstr "Gutschein [code] kann nicht gelöscht werden, weil er in Bestellung [ids] verwendet wird."
+
+msgctxt "Languages::gift_cert_amount_changed"
+msgid "Gift certificate amount has been changed."
+msgstr "Gutscheinbetrag wurde geändert."
+
+msgctxt "Languages::purchased"
+msgid "Purchased"
+msgstr "Gekauft"
+
+msgctxt "Languages::used"
+msgid "Used"
+msgstr "Benutzt"
+
+msgctxt "Languages::create_gift_certificate_for_customer"
+msgid "Create Gift Certificate for this customer"
+msgstr "Geschenkgutschein für diesen Kunden erstellen"
+
+msgctxt "Languages::gift_certificate_created"
+msgid "Gift Certificate has been created"
+msgstr ""
+
+msgctxt "Languages::related_gift_cert"
+msgid "Related gift certificates"
+msgstr "Ähnliche Gutscheine"
+
+msgctxt "Languages::add_gift_certificate"
+msgid "Add gift certificate"
+msgstr "Gutschein hinzufügen"
+
+msgctxt "Languages::gift_certificate_status"
+msgid "Gift certificate status"
+msgstr "Gutscheinstatus"
+
+msgctxt "Languages::current_amount"
+msgid "Current amount"
+msgstr "Aktueller Betrag"
+
+msgctxt "Languages::mail"
+msgid "Mail"
+msgstr "E-Mail"
+
+msgctxt "Languages::statuses"
+msgid "statuses"
+msgstr "Stati"
+
+msgctxt "Languages::new_certificate"
+msgid "New certificate"
+msgstr "Neuer Gutschein"
+
+msgctxt "Languages::editing_certificate"
+msgid "Editing certificate"
+msgstr "Gutschein bearbeiten"
+
+msgctxt "Languages::shop_now"
+msgid "Shop now"
+msgstr "Jetzt einkaufen"
+
+msgctxt "Languages::theme_editor.gift_cert"
+msgid "Gift Certificate"
+msgstr "Geschenkgutschein"
+
+msgctxt "Languages::promo_code_or_certificate"
+msgid "Gift certificate or promo code"
+msgstr "Geschenkgutscheins oder Promo-Code"
+
+msgctxt "Languages::gift_certificate_added_to_cart"
+msgid "Gift certificate was added to your cart"
+msgstr "Gutschein wurde Ihrem Warenkorb hinzugefügt"
+
+msgctxt "Languages::gift_certificates_verify"
+msgid "Gift certificate verification"
+msgstr "Geschenkgutschein-Überprüfung"
+
+msgctxt "Languages::block_gift_certificates_verify"
+msgid "Gift certificate verification"
+msgstr "Geschenkgutschein-Überprüfung"
+
+msgctxt "Languages::block_gift_certificates_verify_description"
+msgid "Gift certificate input and validation"
+msgstr "Gutscheineingabe und Überprüfung"
+
+msgctxt "Languages::recipients_name"
+msgid "To"
+msgstr "An"
+
+msgctxt "Languages::purchasers_name"
+msgid "From"
+msgstr "Von"
+
+msgctxt "Languages::gift_cert_error_amount"
+msgid "Amount should not be higher than [max] and less than [min]"
+msgstr "Betrag sollte nicht höher als [Max] und weniger als [min] sein"
+
+msgctxt "Languages::privileges.manage_gift_certificates"
+msgid "Manage gift certificate system"
+msgstr "Gutscheinsystem verwalten"
+
+msgctxt "Languages::change_gift_certificate_status"
+msgid "Change gift certificate status to"
+msgstr "Gutscheinstatus verändern zu"
+
+msgctxt "Languages::gift_cert_with_products"
+msgid "Purchasing products and gift certificates together is impossible. Please, place the current order and repeat your attempt."
+msgstr "Artikel und Gutscheine zusammenzukaufen ist unmöglich. Bitte erteilen Sie den aktuellen Auftrag und wiederholen Sie Ihren Versuch."
+
+msgctxt "SettingsSections::gift_certificates::general"
+msgid "General"
+msgstr "Allgemein"
+
+msgctxt "SettingsOptions::gift_certificates::min_amount"
+msgid "Minimal amount"
+msgstr "Mindestbetrag"
+
+msgctxt "SettingsOptions::gift_certificates::max_amount"
+msgid "Maximal amount"
+msgstr "Maximalbetrag"
+
+msgctxt "SettingsOptions::gift_certificates::code_prefix"
+msgid "GC Code prefix"
+msgstr "Gutscheincode-Präfix"
+
+msgctxt "SettingsOptions::gift_certificates::cert_per_page"
+msgid "Gift certificates per page"
+msgstr "Gutscheine pro Seite"
+
+msgctxt "SettingsOptions::gift_certificates::free_products_allow"
+msgid "Allow to use free products"
+msgstr "Kostenlose Artikel erlauben"
+
+msgctxt "SettingsOptions::gift_certificates::redeem_shipping_cost"
+msgid "Allow to redeem shipping cost with gift certificate"
+msgstr "Erlauben, Versandkosten mit Gutschein zu begleichen"
+
+msgctxt "Languages::gc_redeem_and_add_free_products"
+msgid "Redeem & add free products to cart"
+msgstr "Einlösen & kostenlose Artikel zum Warenkorb hinzufügen"
+
+msgctxt "Languages::email_template.gift_certificates_notification"
+msgid "Gift certificate"
+msgstr ""
+
+msgctxt "Languages::template_document_gift_certificate_default"
+msgid "Gift certificates: default"
+msgstr ""
+
+msgctxt "Languages::document_preview_gift_certificate_not_found"
+msgid "Couldn't find a gift certificate. Preview only works with existing data. Please create a gift certificate and use Preview again."
+msgstr ""
+

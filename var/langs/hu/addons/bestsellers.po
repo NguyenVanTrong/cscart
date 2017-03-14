@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: /addons/bestsellers.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:47-0500\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & On-Sale Products"
+msgstr "Legkeresettebb és akciós termékek"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "Legkeresetebb és akciós termékek összegyűjtése blokok kitöltéséhez"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "Legkeresettebbek hátra"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "Legkeresettebbek szerint"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "Akciósok termékek szerint: Legkisebb előre"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "Akciós termékek szerint: legnagyobb előre"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "Eladott összeg"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "Legkeresettebb"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "Akciós"
+
+msgctxt "Languages::similar"
+msgid "Similar"
+msgstr "Hasonló"
+
+msgctxt "Languages::percent_range"
+msgid "Price range (in % of the main product's price)"
+msgstr "Árkategória (a fő termék árának %-ában)"
+
+msgctxt "Languages::similar_category"
+msgid "Of the same category"
+msgstr "Azonos kategóriába tartozó"
+
+msgctxt "Languages::similar_subcats"
+msgid "Consider subcategories"
+msgstr "Alkategóriák figyelembevétele"
+
+msgctxt "Languages::similar_in_stock"
+msgid "Only \"in stock\" products"
+msgstr "Csak \"raktáron van\" termékek"
+
+msgctxt "Languages::final_sale"
+msgid "Final sale"
+msgstr "Végső kedvezmény"
+
+msgctxt "SettingsSections::bestsellers::general"
+msgid "General"
+msgstr "Általános"
+
+msgctxt "SettingsSections::bestsellers::newest"
+msgid "Newest"
+msgstr "Legújabb"
+
+msgctxt "SettingsOptions::bestsellers::final_sale_from"
+msgid "Minimum final sale discount (%)"
+msgstr "Minimális végső akció kedvezmény (%)"
+
+msgctxt "SettingsOptions::bestsellers::sales_amount_from"
+msgid "Minimum sales amount to define bestsellers"
+msgstr "Minimális értékesített darab, hogy a legkeresettebbek között legyen"
+
+msgctxt "SettingsOptions::bestsellers::period"
+msgid "Period"
+msgstr "Időszak"
+
+msgctxt "SettingsOptions::bestsellers::last_days"
+msgid "Last days"
+msgstr "Utolsó x nap"
+
+msgctxt "SettingsVariants::bestsellers::period::all"
+msgid "All days"
+msgstr "Minden nap"
+
+msgctxt "SettingsVariants::bestsellers::period::today"
+msgid "Today"
+msgstr "Ma"
+
+msgctxt "SettingsVariants::bestsellers::period::last_days"
+msgid "Last days"
+msgstr "Utolsó x nap"
+

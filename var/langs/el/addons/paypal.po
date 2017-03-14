@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /addons/paypal.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:47-0500\n"
+
+msgctxt "Addons::name::paypal"
+msgid "PayPal payments"
+msgstr "Πληρωμές με PayPal"
+
+msgctxt "Addons::description::paypal"
+msgid "Lets you accept payments via PayPal Express Checkout, PayPal Pro, PayPal Standard, PayPal Advanced, and PayPal Payflow Pro."
+msgstr "Σας επιτρέπει να δέχεστε πληρωμές μέσω PayPal Express Checkout, PayPal Pro, Standard PayPal, PayPal Advanced, και PayPal Payflow Pro."
+
+msgctxt "SettingsOptions::paypal::override_customer_info"
+msgid "Override customer info"
+msgstr "Παράκαμψη πληροφοριών πελάτη"
+
+msgctxt "SettingsOptions::paypal::test_mode"
+msgid "Test mode"
+msgstr "Δοκιμαστική Λειτουργία"
+
+msgctxt "SettingsSections::paypal::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "Languages::protection_eligibility"
+msgid "Protection eligibility"
+msgstr "Καταλληλότητα Προστασίας"
+
+msgctxt "SettingsOptions::paypal::paypal_ipn_settings"
+msgid "Instant payment notification settings"
+msgstr "Ρυθμίσεις Ειδοποίησης Άμεσης πληρωμής"
+
+msgctxt "SettingsOptions::paypal::paypal_status_map"
+msgid "PayPal order status conversion map"
+msgstr "Χάρτης μετατροπής Καταστασης Παραγγελίας του PayPal"
+
+msgctxt "SettingsOptions::paypal::paypal_logo_uploader"
+msgid "PayPal logo settings"
+msgstr "Ρυθμίσεις λογότυπου PayPal"
+
+msgctxt "Languages::text_paypal_surcharge"
+msgid "<b>Note:</b> According to the PayPal <a href='https://www.paypal.com/webapps/mpp/ua/useragreement-full#4' target='_blank'>policy</a> (4.6), surcharges are not supported."
+msgstr "<b>Σημείωση:</b> Σύμφωνα με την <a href='https://www.paypal.com/webapps/mpp/ua/useragreement-full#4' target='_blank'> πολιτική PayPal </a> (4.6), δεν υποστηρίζονται οι προσαυξήσεις."
+
+msgctxt "Languages::txn_id"
+msgid "Transaction ID"
+msgstr "ID Συναλλαγής"
+
+msgctxt "Languages::paypal_logo"
+msgid "PayPal logo"
+msgstr "Λογότυπο PayPal"
+
+msgctxt "Languages::ttc_paypal_logo"
+msgid "Use a valid graphics format, such as .gif, .jpg, or .png. Limit the image to 190 pixels wide by 60 pixels high. PayPal crops images that are larger. PayPal places your logo image at the top of the cart review area."
+msgstr "Χρησιμοποιήστε μια έγκυρη  μορφή γραφικών, όπως .gif, .jpg ή .png. Περιορίστε την εικόνα σε 190 pixels πλάτος και 60 pixels ύψος. Το PayPal περικόπτει εικόνες που είναι μεγαλύτερες. Το PayPal τοποθετεί το λογότυπό σας στην κορυφή της περιοχής περίληψης του καλαθιού."
+
+msgctxt "Languages::ipn_errors"
+msgid "IPN errors"
+msgstr "IPN σφάλματα"
+
+msgctxt "Languages::pp_product_count_is_incorrect"
+msgid "Number of paid items is different than the number of items in the order"
+msgstr "Ο Αριθμός των ειδών για πληρωμή είναι διαφορετικός από τον αριθμό των ειδών στην παραγγελία"
+
+msgctxt "Languages::pp_currency_is_incorrect"
+msgid "Currency used for the payment is different than the order currency."
+msgstr "Το Νόμισμα που χρησιμοποιήθηκε για την πληρωμή είναι διαφορετικό από το νόμισμα της παραγγελίας."
+
+msgctxt "Languages::pp_total_is_incorrect"
+msgid "Payment total is different than the order total."
+msgstr "Το Τελικό ποσό είναι διαφορετικό από ό, τι το σύνολο της παραγγελίας."
+
+msgctxt "Languages::pp_mode"
+msgid "Paypal mode"
+msgstr "Λειτουργία PayPal"
+
+msgctxt "Languages::paypal_vendor"
+msgid "Vendor"
+msgstr "Πωλητής"
+
+msgctxt "Languages::paypal_use_in_context_checkout"
+msgid "Use In-Context Checkout"
+msgstr "Checkout σε πλαίσιο"
+
+msgctxt "Languages::ttc_paypal_use_in_context_checkout"
+msgid "In-Context Checkout will not be used when the store is running in Widget mode"
+msgstr "Το Checkout σε πλαίσιο δεν θα χρησιμοποιηθει όταν το κατάστημα εκτελείται σε λειτουργία Widget"
+
+msgctxt "Languages::paypal_express_notice"
+msgid "A merchant ID is required for using <a href='https://developer.paypal.com/docs/classic/express-checkout/in-context' target='_blank'>In-Context Checkout feature</a> within this integration. You can look up your merchant ID by logging into <a href='https://www.paypal.com/' target='_blank'>https://www.paypal.com/</a>. Click the profile icon on the top right side of the page and then select <b>Profile and settings</b> in the <b>Business Profile</b> menu. (If you do not see the profile icon at the top of the page, click <b>Profile</b>, which appears in the top menu when the <b>My Account tab</b> is selected.) Click <b>My business info</b> on the left, and the <b>Merchant account ID</b> is displayed in the list of profile items on the right."
+msgstr "Ένας  ID Εμπορου (merchant ID) είναι απαραίτητος για τη χρήση <a href='https://developer.paypal.com/docs/classic/express-checkout/in-context' target='_blank'>το χαρακτηρηστικο Checkout σε Πλαίσιο</a> σ αυτή την υλοποίηση. Μπορείτε να αναζητήσετε το δικο σας merchant ID αν συνδεθείτε στο <a href='https://www.paypal.com/' target='_blank'> https://www.paypal.com/</a>. Κάντε κλικ στο εικονίδιο  προφίλ , στην πάνω δεξιά πλευρά της σελίδας και στη συνέχεια επιλέξτε <b>το προφίλ και τις ρυθμίσεις</b> στο μενού <b>ΠΡΟΦΙΛ</b>. (Εάν δεν βλέπετε το εικονίδιο προφίλ στο επάνω μέρος της σελίδας, κάντε κλικ στο κουμπί <b>προφίλ</b>, το οποίο εμφανίζεται στην κορυφή του μενού όταν επιλέγεται η <b>καρτέλα \"ο λογαριασμός μου\"</b>.) Κλικ <b>μου επιχειρηματικές πληροφορίες</b> στα αριστερά, και το <b>αναγνωριστικό λογαριασμού εμπόρου (merchant ID)</b> εμφανίζεται στη λίστα των στοιχείων ακτινοβολίας στα δεξιά."
+
+msgctxt "Languages::paypal_ipn_note"
+msgid "Instant Payment Notification (IPN) is a service that automatically notifies merchants of events related to PayPal transactions.<br>When a customer places an order and chooses PayPal as the payment method, the order gets the <b>Open</b> status.<br>PayPal then sends Instant Payment Notification messages that include the transaction status. This status changes the order status in your store according to the status conversion map."
+msgstr "Το Instant Payment Notification (IPN) είναι μια υπηρεσία που ειδοποιεί αυτόματα τους εμπόρους για συμβάντα που σχετίζονται με συναλλαγές στο PayPal. <br>, Όταν ένας πελάτης δίνει εντολή και επιλέγει το PayPal ως μέθοδο πληρωμής,  η παραγγελία παίρνει την κατασταση <b>ανοικτη</b>. <br>Στη συνέχεια το PayPal στέλνει  Instant Payment Notification  (μήνυμα αμεσης κοινοποίησης πληρωμής) που περιλαμβάνει την κατασταση της συναλλαγης.  Αυτή η κατάσταση αλλάζει την κατάσταση της παραγγελίας στο κατάστημά σας, σύμφωνα με τον χάρτη μετατροπής της κατάστασης."
+
+msgctxt "Languages::paypal_ipn_transaction_status"
+msgid "Transaction status"
+msgstr "Κατάσταση Συναλλαγης"
+
+msgctxt "Languages::addons.paypal.surcharge_policy_notice"
+msgid "Surcharge has been set for the payment method that uses PayPal Services. Please make sure this complies with the <a href=\"https://www.paypal.com/webapps/mpp/ua/legalhub-full\" target=\"_blank\">User Agreement for PayPal Services</a> for your region."
+msgstr "Εχει οριστεί επιπλέον χρέωση για τη μέθοδο πληρωμής που χρησιμοποιεί τις υπηρεσίες PayPal. Παρακαλώ βεβαιωθείτε ότι αυτό είναι σύμφωνο με τη <a href=\"https://www.paypal.com/webapps/mpp/ua/legalhub-full\" target=\"_blank\"> Σύμβαση χρήστη για τις υπηρεσίες PayPal</a> για την περιοχή σας."
+
+msgctxt "Languages::addons.paypal.rma.perform_refund"
+msgid "Give a refund via PayPal"
+msgstr "Να γινει επιστροφη χρηματων (refund) μέσω PayPal"
+
+msgctxt "Languages::ttc_addons.paypal.rma.perform_refund"
+msgid "A refund will be made once an administrator changes the return request status"
+msgstr "Θα γίνει επιστροφή χρημάτων εφοσον ο διαχειριστής αλλάξει την κατάσταση αιτηματος επιστροφής"
+
+msgctxt "Languages::addons.paypal.rma.refund_performed"
+msgid "The refund has been made via PayPal"
+msgstr "Η επιστροφή (refund) έχει γίνει μέσω PayPal"
+
+msgctxt "Languages::addons.paypal.refund_message"
+msgid "[amount] [currency] have been refunded in [date] at [time]."
+msgstr "[amount] [currency] επεστράφησαν στις [date] και ωρα [time]."
+
+msgctxt "SettingsOptions::paypal::paypal_partial_refund_action"
+msgid "Order status on partial refund"
+msgstr "Κατάσταση παραγγελίας σε μερική επιστροφή χρημάτων"
+
+msgctxt "Languages::addons.paypal.do_not_change"
+msgid "Do not change"
+msgstr "Μην αλλάξετε"
+
+msgctxt "Languages::tt_addons_paypal_settings_partial_refund_action_order_status"
+msgid "Determines whether or not to change the order status automatically after a partial refund via PayPal."
+msgstr "Καθορίζει αν θα αλλάξει η κατάσταση της εντολής αυτόματα μετά από μια μερική επιστροφή μέσω PayPal ή όχι."
+
+msgctxt "Languages::addons.paypal.set_status_to"
+msgid "Set to:"
+msgstr "Ορισμός:"
+
+msgctxt "Languages::addons.paypal.ipn_receiving_time"
+msgid "IPN receiving time"
+msgstr "Χρόνος παραλαβής IPN"
+
+msgctxt "Languages::addons.paypal.status_for_new_orders"
+msgid "Initial order status"
+msgstr "Κατάσταση της αρχικής παραγγελίας"
+
+msgctxt "Languages::ttc_addons.paypal.status_for_new_orders"
+msgid "All orders with a PayPal payment method get this status until the response from PayPal (an IPN message) arrives or a customer returns to the store via a link on the PayPal site."
+msgstr "Όλες τις παραγγελίες με μια μέθοδο πληρωμής PayPal λαμβάνουν αυτήν την κατάσταση μέχρι να ληφθεί απάντηση από το PayPal (μήνυμα IPN) ή να επσιτρέψει ο πελάτης στο κατάστημα μέσω ενός συνδέσμου στην ιστοσελίδα PayPal."
+
+msgctxt "Languages::addons.paypal.status_for_new_orders.open"
+msgid "By default, the <i>Open</i> status decreases the inventory, so two customers won't be able to buy the same product while the payment is being processed by PayPal. But if a customer leaves the PayPal website without paying or returning to the store via a link on the PayPal site, you'll have an abandoned <i>Open</i> order with reserved products."
+msgstr "Από προεπιλογή, η <i>ανοιχτή</i> κατάσταση μειώνει το απόθεμα, έτσι δύο πελάτες δε θα είναι σε θέση να αγοράσουν το ίδιο προϊόν, ενώ η πληρωμή γίνεται μέσω PayPal. Αλλά εάν ο ένας πελάτης αφήσει ρον ιστότοπο του PayPal χωρίς πληρωμή ή επιστρέψει στο κατάστημα μέσω ενός συνδέσμου στην ιστοσελίδα PayPal, θα έχετε μία εγκαταλειμμένη <i>Άνοιχτή</i> παραγγελία με δεσμευμένα προϊόντα."
+
+msgctxt "Languages::addons.paypal.status_for_new_orders.incomplete"
+msgid "This ensures that you won't have abandoned unpaid orders with the <i>Open</i> status and reserved products. But until the response from PayPal (an IPN message) arrives or the customer returns to the store via a link on the PayPal site, the order will be listed as <i>Incomplete</i>, and products won't be reserved."
+msgstr "Αυτό εξασφαλίζει ότι δεν θα έχετε εγκαταλελημενες απληρωτες παραγγελίες με την κατασταση <i>Άνοιχτή</i> και δεσμευμένο προϊόντα. Αλλά έως ότου φθάσει η απάντηση από το PayPal (μήνυμα IPN) ή ο πελάτης επιστρέψει στο κατάστημα μέσω ενός συνδέσμου στην ιστοσελίδα PayPal, η παραγγελία θα αναγράφεται ως <i>ημιτελής</i>, και τα προϊόντα δεν θα κρατηθούν."
+
+msgctxt "Languages::addons.paypal.display_name"
+msgid "Display name"
+msgstr "Εμφανιζόμενο όνομα"
+
+msgctxt "Languages::addons.paypal.display_description"
+msgid "Display description"
+msgstr "Προβολή Περιγραφής"
+
+msgctxt "Languages::addons.paypal.technical_details"
+msgid "Technical details"
+msgstr "Τεχνικές λεπτομέρειες"
+
+msgctxt "Languages::addons.paypal.connect_to_paypal"
+msgid "Connect to PayPal"
+msgstr "Σύνδεση με PayPal"
+

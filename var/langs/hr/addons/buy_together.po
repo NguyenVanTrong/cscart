@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Croatian\n"
+"Language: hr_HR\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: hr\n"
+"X-Crowdin-File: /addons/buy_together.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:01-0500\n"
+
+msgctxt "Addons::name::buy_together"
+msgid "Buy together"
+msgstr "Kupiti zajedno"
+
+msgctxt "Addons::description::buy_together"
+msgid "Allows you to set up share discounts on certain product combinations"
+msgstr "Omogućuje postavljanje dijeljenja popusta na određene kombinacije proizvoda"
+
+msgctxt "Languages::buy_together"
+msgid "Buy together"
+msgstr "Kupiti zajedno"
+
+msgctxt "Languages::specify_options"
+msgid "Specify options"
+msgstr "Određivanje mogućnosti"
+
+msgctxt "Languages::total_list_price"
+msgid "Total list price"
+msgstr "Ukupna cijena"
+
+msgctxt "Languages::price_for_all"
+msgid "Price for all"
+msgstr "Cijena za sve"
+
+msgctxt "Languages::add_all_to_cart"
+msgid "Add all to cart"
+msgstr "Dodaj sve u košaricu"
+
+msgctxt "Languages::editing_combination"
+msgid "Editing combination"
+msgstr "Uređivanje kombinacija"
+
+msgctxt "Languages::buy_together_calculation_information"
+msgid "Total price: [total_price], Discount: [discount], Combination price: [combination_price]"
+msgstr "Ukupna cijena: [total_price], popust: [popust], kombinacija cijena: [combination_price]"
+
+msgctxt "Languages::display_in_promotions"
+msgid "Display in promotions"
+msgstr "Prikaz u promocije"
+
+msgctxt "Languages::combination_products"
+msgid "Combination products"
+msgstr "Kombinacija proizvoda"
+
+msgctxt "Languages::share_discount"
+msgid "Share discount"
+msgstr "Podijeli popust"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_configurator"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Product configurator add-on"
+msgstr "[product_name] ne može biti dodan u kombinaciji. Zajednička kupovina nije kompatibilna sa addon konfiguratorom proizvoda"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_recurring_billing"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Recurring billing add-on"
+msgstr "[product_name] ne može biti dodan kombinaciju. Zajednička kupovina nije kompatibilna sa addon Ponovljeno plaćanje"
+
+msgctxt "Languages::buy_together_combination_cannot_be_added"
+msgid "Combination cannot be added to cart"
+msgstr "Kombinacija se ne može dodati u košaricu"
+
+msgctxt "Languages::buy_together_product_was_removed"
+msgid "[product] did not have enough amount ([amount]) and was removed from the cart"
+msgstr "[product] nema dovoljno velik iznos ([amount]) i uklonjen je iz košarice"
+
+msgctxt "Languages::buy_together_fill_the_mandatory_fields"
+msgid "Please specify product options before adding this product combination to the cart."
+msgstr "Navedite opcije proizvoda prije dodavanja ove kombinacije proizvoda u košaricu."
+

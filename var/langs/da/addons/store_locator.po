@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: da\n"
+"X-Crowdin-File: /addons/store_locator.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:02-0500\n"
+
+msgctxt "Addons::name::store_locator"
+msgid "Store locator"
+msgstr "Butikslokalisering"
+
+msgctxt "Addons::description::store_locator"
+msgid "Lets you place local stores on map and inform customers about their nearest stores"
+msgstr "Lader dig placere lokale butikker på kort og informere kunderne om deres nærmeste butikker"
+
+msgctxt "Languages::view_on_map"
+msgid "View on map"
+msgstr "Vis på kort"
+
+msgctxt "Languages::get_api_key"
+msgid "Obtaining an API Key"
+msgstr "Opnå en API-nøgle"
+
+msgctxt "Languages::block_store_locator"
+msgid "Store locator"
+msgstr "Butikslokalisering"
+
+msgctxt "Languages::block_store_locator_description"
+msgid "Store locator block"
+msgstr "Butikslokalisering blok"
+
+msgctxt "Languages::text_address_not_found"
+msgid "Address not found"
+msgstr "Adresse ikke fundet"
+
+msgctxt "Languages::select_coordinates"
+msgid "Select coordinates"
+msgstr "Vælg koordinater"
+
+msgctxt "Languages::set"
+msgid "Set"
+msgstr "Angiv"
+
+msgctxt "Languages::editing_store_location"
+msgid "Editing store location"
+msgstr "redigere butikslokation"
+
+msgctxt "Languages::new_store_location"
+msgid "New store location"
+msgstr "Ny butik location"
+
+msgctxt "Languages::add_store_location"
+msgid "Add store location"
+msgstr "tilføj butikslokation"
+
+msgctxt "Languages::coordinates"
+msgid "Coordinates"
+msgstr "Koordinater"
+
+msgctxt "Languages::latitude_short"
+msgid "lat"
+msgstr "lat"
+
+msgctxt "Languages::longitude_short"
+msgid "long"
+msgstr "lang"
+
+msgctxt "Languages::all_stores"
+msgid "All stores"
+msgstr "Alle butikker"
+
+msgctxt "Languages::zoom"
+msgid "Map zoom"
+msgstr "Kort zoom"
+
+msgctxt "Languages::map_type_control"
+msgid "MapType control"
+msgstr "MapType kontrol"
+
+msgctxt "Languages::zoom_control"
+msgid "Zoom control"
+msgstr "Zoom-kontrol"
+
+msgctxt "Languages::scale_control"
+msgid "Scale control"
+msgstr "Skala kontrol"
+
+msgctxt "SettingsSections::store_locator::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsOptions::store_locator::provider"
+msgid "Map provider"
+msgstr "Kort udbyder"
+
+msgctxt "SettingsOptions::store_locator::map_provider"
+msgid "Map"
+msgstr "Kort"
+
+msgctxt "SettingsOptions::store_locator::settings"
+msgid "Settings"
+msgstr "Indstillinger"
+
+msgctxt "SettingsVariants::store_locator::map_provider::google"
+msgid "Google"
+msgstr "Google"
+
+msgctxt "SettingsVariants::store_locator::map_provider::yandex"
+msgid "Yandex"
+msgstr "Yandex"
+
+msgctxt "Languages::privileges.manage_store_locator"
+msgid "Manage store locator"
+msgstr "Administrere butik locator"
+
+msgctxt "Languages::privileges.view_store_locator"
+msgid "View store locator"
+msgstr "Se butik locator"
+

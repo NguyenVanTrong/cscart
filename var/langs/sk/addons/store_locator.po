@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Slovak\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sk\n"
+"X-Crowdin-File: /addons/store_locator.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::store_locator"
+msgid "Store locator"
+msgstr "Lokátor obchodov"
+
+msgctxt "Addons::description::store_locator"
+msgid "Lets you place local stores on map and inform customers about their nearest stores"
+msgstr "Umožňuje pridať miestne obchody na mapu a informovať zákazníkov o obchodoch najbližšie k nim"
+
+msgctxt "Languages::view_on_map"
+msgid "View on map"
+msgstr "Zobraziť na mape"
+
+msgctxt "Languages::get_api_key"
+msgid "Obtaining an API Key"
+msgstr "Získanie API kľúča"
+
+msgctxt "Languages::block_store_locator"
+msgid "Store locator"
+msgstr "Lokátor obchodov"
+
+msgctxt "Languages::block_store_locator_description"
+msgid "Store locator block"
+msgstr "Blok lokátora obchodov"
+
+msgctxt "Languages::text_address_not_found"
+msgid "Address not found"
+msgstr "Adresa nebola nájdená"
+
+msgctxt "Languages::select_coordinates"
+msgid "Select coordinates"
+msgstr "Vyberte súradnice"
+
+msgctxt "Languages::set"
+msgid "Set"
+msgstr "Nastaviť"
+
+msgctxt "Languages::editing_store_location"
+msgid "Editing store location"
+msgstr "Upraviť polohu obchodu"
+
+msgctxt "Languages::new_store_location"
+msgid "New store location"
+msgstr "Nová poloha obchodu"
+
+msgctxt "Languages::add_store_location"
+msgid "Add store location"
+msgstr "Pridať polohu obchodu"
+
+msgctxt "Languages::coordinates"
+msgid "Coordinates"
+msgstr "Súradnice"
+
+msgctxt "Languages::latitude_short"
+msgid "lat"
+msgstr "Šírka"
+
+msgctxt "Languages::longitude_short"
+msgid "long"
+msgstr "Dĺžka"
+
+msgctxt "Languages::all_stores"
+msgid "All stores"
+msgstr "Všetky obchody"
+
+msgctxt "Languages::zoom"
+msgid "Map zoom"
+msgstr "Priblíženie mapy"
+
+msgctxt "Languages::map_type_control"
+msgid "MapType control"
+msgstr "MapType ovládanie"
+
+msgctxt "Languages::zoom_control"
+msgid "Zoom control"
+msgstr "Ovládanie priblíženia"
+
+msgctxt "Languages::scale_control"
+msgid "Scale control"
+msgstr "Ovládanie mierky"
+
+msgctxt "SettingsSections::store_locator::general"
+msgid "General"
+msgstr "Všeobecné"
+
+msgctxt "SettingsOptions::store_locator::provider"
+msgid "Map provider"
+msgstr "Poskytovateľ máp"
+
+msgctxt "SettingsOptions::store_locator::map_provider"
+msgid "Map"
+msgstr "Mapa"
+
+msgctxt "SettingsOptions::store_locator::settings"
+msgid "Settings"
+msgstr "Nastavenia"
+
+msgctxt "SettingsVariants::store_locator::map_provider::google"
+msgid "Google"
+msgstr "Google"
+
+msgctxt "SettingsVariants::store_locator::map_provider::yandex"
+msgid "Yandex"
+msgstr ""
+
+msgctxt "Languages::privileges.manage_store_locator"
+msgid "Manage store locator"
+msgstr ""
+
+msgctxt "Languages::privileges.view_store_locator"
+msgid "View store locator"
+msgstr ""
+

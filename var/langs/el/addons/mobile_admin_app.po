@@ -1,0 +1,786 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /addons/mobile_admin_app.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:47-0500\n"
+
+msgctxt "Addons::name::mobile_admin_app"
+msgid "Mobile Admin App (ex Twigmo)"
+msgstr "Admin για κινητά (πρώην Twigmo)"
+
+msgctxt "Addons::description::mobile_admin_app"
+msgid "Connect your store to the <a href=\"http://www.twigmo.com/\" target=\"_blank\">Twigmo service</a> to get mobile admin application. Some features are only available in paid plans."
+msgstr "Συνδέστε το κατάστημά σας με την <a href=\"http://www.twigmo.com/\" target=\"_blank\"> υπηρεσία Twigmo</a> για να πάρετε την εφαρμογη Mobile admin. Ορισμένες δυνατότητες διατίθενται μόνο επί πληρωμή."
+
+msgctxt "SettingsSections::mobile_admin_app::service"
+msgid "Account"
+msgstr "Λογαριασμός"
+
+msgctxt "SettingsSections::mobile_admin_app::admin_app"
+msgid "Admin app"
+msgstr "Εφαρμογή διαχείρισης"
+
+msgctxt "SettingsSections::mobile_admin_app::addon"
+msgid "Upgrade"
+msgstr "Αναβάθμιση"
+
+msgctxt "Languages::twgadmin_access_id"
+msgid "Access ID"
+msgstr "ID πρόσβασης"
+
+msgctxt "Languages::twgadmin_more_than_year"
+msgid "More than a year"
+msgstr "Περισσότερο από ένα χρόνο"
+
+msgctxt "Languages::twgadmin_error_cannot_connect_store"
+msgid "Cannot connect to Twigmo service at this time. Please try again later. If the problem is still there, please visit <a href=\"http://support.twigmo.com\" target=\"_blank\">Twigmo Support Portal</a> for assistance."
+msgstr "Αδυνατη η συνδεση στην υπηρεσία Twigmo αυτή τη στιγμή. Παρακαλώ προσπαθήστε ξανά αργότερα. Αν το πρόβλημα συνεχιζει, παρακαλώ επισκεφθείτε <a href=\"http://support.twigmo.com\" target=\"_blank\"> την πύλη υποστήριξης Twigmo </a> για βοήθεια."
+
+msgctxt "Languages::twgadmin_text_store_connected"
+msgid "Your store was connected to Twigmo service successfully!"
+msgstr "Σας κατάστημα συνδέθηκε με την υπηρεσία Twigmo με επιτυχία!"
+
+msgctxt "Languages::twgadmin_connect"
+msgid "Connect"
+msgstr "Συνδεθείτε"
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_settings_twgadmin_home_page_content"
+msgid "If 'Desktop home page blocks' is selected, there are all the supported types of the desktop home page blocks displayed on the Mobile Storefront home page. If 'Twigmo home page blocks' is selected, Twigmo home page blocks are displayed (configured in 'Design'->'Blocks'->'Twigmo home page'). If a category is selected, only its products are displayed on the Mobile Storefront home page."
+msgstr "Αν εχει επιλεχθει το «Desktop home page μπλοκ», εμφανιζονται όλες οι υποστηριζόμενες μορφές των μπλοκ desktop αρχική σελίδα στην αρχική σελίδα των Mobile Storefront. Εάν εχει επιλεχθει «Twigmo home page μπλοκ», τοτε εμφανιζονται τα Twigmo home page μπλοκ (έχει ρυθμιστεί στο 'Σχεδιασμό'-> 'μπλοκ'->'Twigmo Αρχική σελίδα'). Εάν έχει επιλεχθεί μια κατηγορία, εμφανίζονται μόνο τα προϊόντα της στην αρχική σελίδα για κινητό."
+
+msgctxt "Languages::twgadmin_manage_storefront_settings"
+msgid "Mobile Storefront settings"
+msgstr "Ρυθμισεις Mobile Storefront"
+
+msgctxt "Languages::twgadmin_wrong_api_object_data"
+msgid "Wrong [object] data"
+msgstr "Λάθος [object] δεδομένων"
+
+msgctxt "Languages::twgadmin_wrong_api_data"
+msgid "Wrong API data"
+msgstr "Λάθος δεδομένα API"
+
+msgctxt "Languages::twgadmin_wrong_shipping_info"
+msgid "Failed to place order: wrong shipping data"
+msgstr "Απέτυχε να τοποθετηθει η παραγγελία: λάθος δεδομένα αποστολής"
+
+msgctxt "Languages::twgadmin_wrong_payment_info"
+msgid "Failed to place order: wrong payment data"
+msgstr "Απέτυχε να τοποθετηθει η παραγγελία: λάθος στοιχεία πληρωμων"
+
+msgctxt "Languages::twgadmin_object_was_not_found"
+msgid "The [object] data were not found"
+msgstr "Δεν βρέθηκαν τα δεδομένα [object]"
+
+msgctxt "Languages::twgadmin_fail_create_user"
+msgid "Failed to create user"
+msgstr "Απέτυχε η δημιουργία χρήστη"
+
+msgctxt "Languages::twgadmin_fail_post_order"
+msgid "Failed to place order"
+msgstr "Απέτυχε να μπει παραγγελία"
+
+msgctxt "Languages::twg_post_request_fail"
+msgid "Failed to post request"
+msgstr "Απέτυχε να υποβληθει η αίτηση"
+
+msgctxt "Languages::twgadmin_error_validator_required"
+msgid "The '[field]' field is mandatory"
+msgstr "Το πεδίο '[field]' είναι υποχρεωτικό"
+
+msgctxt "Languages::twgadmin_mobile_version"
+msgid "Mobile version"
+msgstr "Εκδοση Κινητου"
+
+msgctxt "Languages::twgadmin_home_page_content"
+msgid "Home page content"
+msgstr "Περιεχόμενο Αρχικής σελίδας"
+
+msgctxt "Languages::twgadmin_use_mobile_frontend_for"
+msgid "Show mobile version for"
+msgstr "Εμφάνιση έκδοσης κινητού για"
+
+msgctxt "Languages::twgadmin_phones"
+msgid "Phones"
+msgstr "Τηλέφωνα"
+
+msgctxt "Languages::twgadmin_tablets"
+msgid "Tablets"
+msgstr "Tablets"
+
+msgctxt "Languages::twgadmin_home_page_blocks"
+msgid "Desktop home page blocks"
+msgstr "Μπλοκς αρχικής σελίδας για Desktop"
+
+msgctxt "Languages::twgadmin_tw_home_page_blocks"
+msgid "Twigmo home page blocks"
+msgstr "Μπλοκς αρχικής σελίδας Twigmo"
+
+msgctxt "Languages::twgadmin_homepage"
+msgid "Twigmo home page"
+msgstr "Twigmo Αρχική σελίδα"
+
+msgctxt "Languages::twgadmin_edit_these_blocks"
+msgid "Edit these blocks"
+msgstr "Επεξεργαστείτε αυτά τα Μπλοκς"
+
+msgctxt "Languages::twgadmin_select_skin"
+msgid "Skin"
+msgstr "Θεμα"
+
+msgctxt "Languages::twgadmin_hide_header"
+msgid "Hide header"
+msgstr "Απόκρυψη της κεφαλίδας"
+
+msgctxt "Languages::twg_btn_load_more_items"
+msgid "Load More"
+msgstr "Φορτωση περισσότερων"
+
+msgctxt "Languages::twg_btn_log_in_to_checkout"
+msgid "Sign in to checkout"
+msgstr "Συνδεθείτε στο Ταμείο"
+
+msgctxt "Languages::twg_lbl_copy_from_billing"
+msgid "Ship to the same address"
+msgstr "Αποστολή στην ίδια διεύθυνση"
+
+msgctxt "Languages::twg_msg_date_invalid"
+msgid "Please enter a valid date."
+msgstr "Παρακαλώ εισάγετε μια έγκυρη ημερομηνία."
+
+msgctxt "Languages::twg_msg_dateiso_invalid"
+msgid "Please enter a valid date (YYYY-MM-DD)."
+msgstr "Παρακαλώ εισάγετε μια έγκυρη ημερομηνία (ΕΕΕΕ-ΜΜ-ΗΗ)."
+
+msgctxt "Languages::twg_msg_digits_required"
+msgid "Please enter only digits."
+msgstr "Παρακαλούμε, εισάγετε μόνο ψηφία."
+
+msgctxt "Languages::twg_msg_email_invalid"
+msgid "Please enter a valid email address."
+msgstr "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου."
+
+msgctxt "Languages::twg_msg_extension_invalid"
+msgid "Please enter a value with a valid extension."
+msgstr "Εισαγάγετε μια τιμή με μια έγκυρη επέκταση."
+
+msgctxt "Languages::twg_msg_field_required"
+msgid "This field is required."
+msgstr "Αυτό το πεδίο είναι υποχρεωτικό."
+
+msgctxt "Languages::twg_msg_fill_required_fields"
+msgid "Please fill in all the required fields."
+msgstr "Παρακαλούμε συμπληρώστε όλα τα απαιτούμενα πεδία."
+
+msgctxt "Languages::twg_msg_field_invalid"
+msgid "Please fix this field."
+msgstr "Διορθώστε αυτό το πεδίο."
+
+msgctxt "Languages::twg_msg_max_length"
+msgid "Please enter no more than {0} characters."
+msgstr "Παρακαλούμε μην εισάγετε περισσότερους από {0} χαρακτήρες."
+
+msgctxt "Languages::twg_msg_max_value"
+msgid "Please enter a value less than or equal to {0}."
+msgstr "Παρακαλούμε εισάγετε μια τιμή μικρότερη ή ίση με {0}."
+
+msgctxt "Languages::twg_msg_min_length"
+msgid "Please enter at least {0} characters."
+msgstr "Παρακαλώ εισάγετε τουλάχιστον {0} χαρακτήρες."
+
+msgctxt "Languages::twg_msg_min_value"
+msgid "Please enter a value greater than or equal to {0}."
+msgstr "Παρακαλούμε εισαγάγετε μια τιμή μεγαλύτερη από ή ίση με {0}."
+
+msgctxt "Languages::twg_msg_number_invalid"
+msgid "Please enter a valid number."
+msgstr "Πληκτρολογήστε ένα έγκυρο αριθμό."
+
+msgctxt "Languages::twg_msg_order_was_placed"
+msgid "Your order has been placed!<br />The order ID is "
+msgstr "Παραγγελία σας έχει τοποθετηθεί! <br/> Το ID της είναι "
+
+msgctxt "Languages::twg_msg_orders_were_placed"
+msgid "Your orders have been placed!<br />The order IDs are "
+msgstr "Οι Παραγγελίες σας έχουν τοποθετηθεί! <br/> Τα ID τους είναι "
+
+msgctxt "Languages::twg_msg_cc_invalid"
+msgid "Please enter a valid credit card number."
+msgstr "Πληκτρολογήστε ένα έγκυρο αριθμό πιστωτικής κάρτας."
+
+msgctxt "Languages::twg_msg_range_length"
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr "Παρακαλούμε εισάγετε μια τιμή μεταξύ {0} και {1} χαρακτήρες μακρύ."
+
+msgctxt "Languages::twg_msg_range_value"
+msgid "Please enter a value between {0} and {1}."
+msgstr "Παρακαλούμε εισάγετε μια τιμή μεταξύ {0} και {1} χαρακτήρες μακρύ."
+
+msgctxt "Languages::twg_msg_same_value_required"
+msgid "Please enter the same value again."
+msgstr "Πληκτρολογήστε πάλι την ίδια αξία."
+
+msgctxt "Languages::twg_msg_url_invalid"
+msgid "Please enter a valid URL."
+msgstr "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση URL."
+
+msgctxt "Languages::twg_cart_info"
+msgid "[amount] ([total])"
+msgstr "[amount] ([total])"
+
+msgctxt "Languages::twg_share"
+msgid "Share"
+msgstr "Μοιραστείτε"
+
+msgctxt "Languages::twg_facebook"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "Languages::twg_twitter"
+msgid "Twitter"
+msgstr "Twitter"
+
+msgctxt "Languages::twg_desktop_site"
+msgid "Desktop site"
+msgstr "Desktop site"
+
+msgctxt "Languages::twgadmin_connect_to_first_ult"
+msgid "Your store is not connected to the Twigmo service yet. Please ask the root store administrator to do it."
+msgstr "Το κατάστημά σας δεν είναι συνδεδεμένο με την υπηρεσία Twigmo ακόμα. Ρωτήστε το Κύριο διαχειριστή του κατάστηματος για να προχωρησετε."
+
+msgctxt "Languages::twgadmin_mobile_logo"
+msgid "Mobile Storefront logo"
+msgstr "Λογοτυπο Mobile εκδοσης"
+
+msgctxt "Languages::twgadmin_mobile_favicon"
+msgid "iOS device home screen icon"
+msgstr "εικονίδιο αρχικής οθόνης για iOS συσκευή"
+
+msgctxt "Languages::twgadmin_url_for_facebook"
+msgid "URL of your Facebook page"
+msgstr "URL της σελίδας σας Facebook"
+
+msgctxt "Languages::twgadmin_url_for_twitter"
+msgid "URL of your Twitter page"
+msgstr "URL της σελίδας σας Twitter"
+
+msgctxt "Languages::twgadmin_only_req_profile_fields"
+msgid "Show only user profile fields marked as required"
+msgstr "Εμφανιση μόνο πεδιων του προφίλ χρήστη που εχουν επισημανθεί ως απαιτούμενα"
+
+msgctxt "Languages::twgadmin_reinstall"
+msgid "The version of Twigmo add-on files does not match the one in the database, so the mobile version of your store has been disabled. Please re-install Twigmo add-on (click Uninstall, then Install on the add-ons list) to enable it."
+msgstr "Η έκδοση των αρχείων πρόσθετο Twigmo δεν ταιριάζει με αυτη στη βάση δεδομένων, έτσι η κινητή έκδοση του καταστήματός σας έχει απενεργοποιηθεί. Επαναλάβετε την εγκατάσταση του πρόσθετου Twigmo (κάντε κλικ στο κουμπί απεγκατάσταση, και μετα προχωρηστε σε εγκατασταση απο τον κατάλογο με τα πρόσθετα) για να το ενεργοποιήσετε."
+
+msgctxt "Languages::twg_view_cart_checkout"
+msgid "View cart & checkout"
+msgstr "Δες το καλάθι  & το ταμείο"
+
+msgctxt "Languages::twg_sign_in_to_checkout"
+msgid "Sign in to checkout"
+msgstr "Συνδεθείτε για Ολοκληρωση Παραγγελίας"
+
+msgctxt "Languages::twg_only_via_desktop"
+msgid "This product can be added to cart only via the [linkOpen]desktop website[linkClose]."
+msgstr "Αυτό το προϊόν μπορει να προστεθεί στο καλάθι μόνο μέσω του [linkOpen]desktop website[linkClose]."
+
+msgctxt "Languages::twg_share_on_social"
+msgid "Share on social networks"
+msgstr "Μοιράσου σε κοινωνικά δίκτυα"
+
+msgctxt "Languages::twgadmin_order_via_twigmo"
+msgid "[This order was placed via Twigmo Mobile Storefront]"
+msgstr "[Αυτη η παραγγελία έγινε μέσω Twigmo Mobile Storefront]"
+
+msgctxt "Languages::twg_contact_twigmo_support"
+msgid "Contact Twigmo support"
+msgstr "Επικοινωνήστε με την υποστήριξη του Twigmo"
+
+msgctxt "Languages::twgadmin_enable_geolocation"
+msgid "Enable geolocation"
+msgstr "Ενεργοποίηση geolocation"
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_settings_twgadmin_enable_geolocation"
+msgid "If enabled, shipping and billing address fields will be populated with the address determined by a geolocation service on the registration and checkout pages."
+msgstr "Εάν ενεργοποιηθεί, τα πεδία διεύθυνσης αποστολής και χρέωσης θα συμπληρωθουν με τη διεύθυνση που καθορίζεται από μια υπηρεσία geolocation στις σελίδες εγγραφής και στο ταμειο."
+
+msgctxt "Languages::twg_billing_is_the_same"
+msgid "Billing address is the same"
+msgstr "Διευθυνση χρέωσης είναι η ιδια"
+
+msgctxt "Languages::twgadmin_upgrade_addon"
+msgid "Twigmo add-on upgrade has started."
+msgstr "Η αναβάθμιση του πρόσθετου Twigmo έχει ξεκινήσει."
+
+msgctxt "Languages::twgadmin_download_twigmo"
+msgid "Downloading Twigmo upgrade package. Please wait..."
+msgstr "Λήψη πακέτου αναβάθμισης του Twigmo. Παρακαλώ περίμενε..."
+
+msgctxt "Languages::twgadmin_checking_permissions"
+msgid "Done.</br>Checking file permissions..."
+msgstr "Ετοιμο.</br>Έλεγχος δικαιωμάτων αρχείων..."
+
+msgctxt "Languages::twgadmin_no_files_permissions"
+msgid "Error: Cannot overwrite the existing Twigmo add-on files. Please check and correct the file permissions manually or [link]provide your FTP access details[/link] (if they are provided, please make sure this FTP user has enough permissions to modify files on the server)."
+msgstr "Σφάλμα: Δεν γινεται να αντικατασταθουν τα υπάρχοντα αρχεία πρόσθετου Twigmo. Παρακαλώ να ελέγξετε και να διορθώσετε τα δικαιώματα αρχείου χειροκινητα ή [link]δωστε τις πληροφοριες προσβασης FTP[/link] (εφόσον διατίθενται, παρακαλώ βεβαιωθείτε ότι ο χρήστης FTP έχει αρκετά δικαιώματα ώστε να τροποποιήσει τα αρχεία στο διακομιστή)."
+
+msgctxt "Languages::twgadmin_backup_files"
+msgid "Backing up Twigmo files..."
+msgstr "Δημιουργία αντιγράφων ασφαλείας των αρχείων Twigmo..."
+
+msgctxt "Languages::twgadmin_backup_settings"
+msgid "Backing up Twigmo add-on settings..."
+msgstr "Δημιουργία αντιγράφου ασφαλειας των ρυθμισεων του προσθετου Twigmo..."
+
+msgctxt "Languages::twgadmin_uninstall_addon"
+msgid "Uninstalling Twigmo add-on..."
+msgstr "Απεγκατάσταση του πρόσθετου Twigmo..."
+
+msgctxt "Languages::twgadmin_restore_settings"
+msgid "Restoring Twigmo add-on settings..."
+msgstr "Επαναφορά των ρυθμίσεων του πρόσθετου Twigmo..."
+
+msgctxt "Languages::twg_min_product_quantity"
+msgid "Minimum order quantity"
+msgstr "Ελάχιστη ποσότητα παραγγελίας"
+
+msgctxt "Languages::twg_checkout_terms_n_conditions"
+msgid "I accept Terms and Conditions"
+msgstr "Αποδέχομαι τους όρους και προϋποθέσεις"
+
+msgctxt "Languages::twgadmin_cant_create_file"
+msgid "Cannot create a file [file]. Please create it manually in [path] (only in case you need to customize the selected Twigmo mobile skin)."
+msgstr "Δεν είναι δυνατό να δημιουργηθελι το αρχείο [file]. Δημιουργήστε το με μη αυτόματο τρόπο στο [path] (μόνο σε περίπτωση που χρειαστεί να προσαρμόσετε το επιλεγμένο Twigmo θεμα για κινητό )."
+
+msgctxt "Languages::twg_visit_our_mobile_store"
+msgid "Visit our mobile site"
+msgstr "Επισκεφθείτε το site για κινητα"
+
+msgctxt "Languages::twg_app_for_android"
+msgid "App for Android"
+msgstr "App για Android"
+
+msgctxt "Languages::twg_app_for_ipad"
+msgid "App for iPad"
+msgstr "App για iPad"
+
+msgctxt "Languages::twgadmin_url_on_appstore"
+msgid "URL of your app on iTunes App Store"
+msgstr "URL της εφαρμογής σας στο κατάστημα iTunes App "
+
+msgctxt "Languages::twgadmin_url_on_googleplay"
+msgid "URL of your app on Google Play"
+msgstr "URL της εφαρμογής σας στο Google Play"
+
+msgctxt "Languages::twg_product_added_to_cart"
+msgid "Product Added to Cart"
+msgstr "Προϊόν, πρόστεθηκε στο καλάθι"
+
+msgctxt "Languages::twg_configurable_via_desktop"
+msgid "This is a configurable product. It can be configured only via [linkOpen]the desktop website[linkClose]."
+msgstr "Αυτό είναι ενα διαμορφώσιμο προϊόν. Μπορεί να ρυθμιστεί μόνο μέσω του [linkClose]desktop website[linkOpen]."
+
+msgctxt "Languages::twg_requrring_via_desktop"
+msgid "This is a subscription product. Its subscription plan can be selected only via [linkOpen]the desktop website[linkClose]."
+msgstr "Αυτό είναι ένα προϊόν με συνδρομή. Το πακετο συνδρομής μπορεί να επιλεγεί μόνο μέσω του [linkClose]desktop website[linkOpen]."
+
+msgctxt "Languages::twgadmin_basic_skin"
+msgid "Basic skin"
+msgstr "Βασικο θεμα"
+
+msgctxt "Languages::twgadmin_connect_notification"
+msgid "The <a href=\"[addon_link]\">Twigmo add-on</a> is not connected to the <a href=\"http://www.twigmo.com\" target=\"_blank\">Twigmo service</a>. Set it up to enable a mobile version of your store for iOS and Android."
+msgstr "Το <a href=\"[addon_link]\"> πρόσθετο Twigmo</a> δεν ειναι συνδεμενο με την <a href=\"http://www.twigmo.com\" target=\"_blank\"> υπηρεσία Twigmo</a>. Ρυθμίστε το ώστε να ενεργοποιηθει μια κινητή έκδοση του καταστήματός σας για iOS και Android."
+
+msgctxt "Languages::twgadmin_phpmod_required"
+msgid "PHP extension module [php_module_name] is required for proper operation of the Twigmo add-on. Please install it."
+msgstr "Το PHP extension module [php_module_name] ειναι απαραιτητο για τη σωστη λειτουργια του προσθετου Twigmo. Παρακαλουμε να το εγκαταστησετε."
+
+msgctxt "Languages::twgadmin_select_store"
+msgid "Please select a store first"
+msgstr "Επιλέξτε πρώτα ένα κατάστημα"
+
+msgctxt "Languages::twg_is_logged_in"
+msgid "logged in."
+msgstr "συνδεδεμένος."
+
+msgctxt "Languages::twg_review_and_place_order"
+msgid "Review and place order"
+msgstr "Αναθεώρηση και αποστολη παραγγελίας"
+
+msgctxt "Languages::twg_login_to_add_to_cart"
+msgid "This product cannot be added to the cart because you are not logged in."
+msgstr "Το προϊόν αυτό δεν είναι δυνατό να προστεθεί στο καλάθι γιατί δεν έχετε συνδεθει."
+
+msgctxt "Languages::twgadmin_disconnected"
+msgid "Disconnected"
+msgstr "Αποσυνδεθηκε"
+
+msgctxt "Languages::twgadmin_connected"
+msgid "Connected"
+msgstr "Συνδέθηκε"
+
+msgctxt "Languages::twgadmin_terms"
+msgid "Terms and conditions"
+msgstr "Όροι και προϋποθέσεις"
+
+msgctxt "Languages::twgadmin_accept_terms_n_conditions"
+msgid "I accept the <a href=\"//www.twigmo.com/terms/\" target=\"_blank\">Terms and Conditions</a>."
+msgstr "Αποδεχομαι τους <a href=\"//www.twigmo.com/terms/\" target=\"_blank\"> όρους και προϋποθέσεις</a>."
+
+msgctxt "Languages::twgadmin_stores"
+msgid "Stores"
+msgstr "Καταστήματα"
+
+msgctxt "Languages::twgadmin_open_te"
+msgid "Visual Editor"
+msgstr "Οπτοκός Επεξεργαστής"
+
+msgctxt "Languages::twgadmin_open_cp"
+msgid "Twigmo Control Panel"
+msgstr "Κεντρο Ελεγχου Twigmo"
+
+msgctxt "Languages::twgadmin_no_token_recieved"
+msgid "Twigmo failed to retrieve authentication token. [linkOpen]Go back[linkClose]"
+msgstr "Το Twigmo απέτυχε στην ανάκτηση του authentication token. [linkOpen]Γυρίστε Πίσω[linkClose]"
+
+msgctxt "Languages::twg_buy_only_via_desktop"
+msgid "This product can be purchased via [linkOpen]the desktop website[linkClose]."
+msgstr "Αυτό το προϊόν μπορεί να αγοραστεί μέσω [linkClose]Desktop website[linkOpen]."
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_connect_email"
+msgid "Enter your Twigmo account email address. If you have no Twigmo account, it will be created for you automatically (your email address will be verified)."
+msgstr "Εισάγετε το Email του λογαριασμού σας στο Twigmo. Εάν δεν έχετε λογαριασμό Twigmo, θα δημιουργηθεί για σας αυτόματα (το email σας θα επαληθευθεί)."
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_connect_password"
+msgid "Enter your Twigmo account password. If you have no Twigmo account, please enter a secure password and we will create a new Twigmo account for you."
+msgstr "Εισάγετε τον κωδικό πρόσβασης του λογαριασμού Twigmo. Εάν δεν έχετε λογαριασμό Twigmo, παρακαλούμε να εισάγετε έναν ασφαλή κωδικό πρόσβασης και να δημιουργήσετε ένα νέο λογαριασμό Twigmo για σας."
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_connect_twgadmin_stores"
+msgid "Select stores that are to be connected to the Twigmo service."
+msgstr "Επιλέξτε τα καταστήματα που θα συνδεθουν με την υπηρεσία Twigmo."
+
+msgctxt "Languages::twg_cannot_redirect_to_desktop"
+msgid "The desktop site cannot be displayed in this mode, but the link will work fine on a real mobile device."
+msgstr "Το Desktop Site δεν μπορei να εμφανιστει σε αυτή τη λειτουργία, αλλά η σύνδεση θα δουλεύει μια χαρά σε μια πραγματικη κινητή συσκευή."
+
+msgctxt "Languages::twgadmin_disconnect"
+msgid "Disconnect"
+msgstr "Αποσύνδεση"
+
+msgctxt "Languages::twgadmin_disconnect_whole"
+msgid "Disconnect whole addon"
+msgstr "Αποσυνδέστε όλο το addon"
+
+msgctxt "Languages::plan"
+msgid "Plan"
+msgstr "Σχέδια"
+
+msgctxt "Languages::twgadmin_failed_to_decompress_files"
+msgid "Failed to extract files from the archive"
+msgstr "Απέτυχε η εξαγωγή αρχείων από το αρχείο"
+
+msgctxt "Languages::twgadmin_upgrade_completed"
+msgid "Upgrade completed"
+msgstr "Αναβάθμιση ολοκληρώθηκε"
+
+msgctxt "Languages::twapp_stats"
+msgid "Statistics"
+msgstr "Στατιστικά"
+
+msgctxt "Languages::twapp_timeline"
+msgid "Timeline"
+msgstr "Χρονολόγιο"
+
+msgctxt "Languages::twapp_manage_accounts"
+msgid "Manage accounts"
+msgstr "Διαχείριση λογαριασμών"
+
+msgctxt "Languages::twapp_low_stock"
+msgid "Low stock"
+msgstr "Χαμηλο Απόθεμα"
+
+msgctxt "Languages::twapp_low_stock_products"
+msgid "Low stock products"
+msgstr "Όλα τα προϊόντα με χαμηλο αποθεμα"
+
+msgctxt "Languages::twapp_all_low_stock_products"
+msgid "All low stock products"
+msgstr "Όλα τα προϊόντα με χαμηλο αποθεμα"
+
+msgctxt "Languages::twapp_delete_account"
+msgid "Delete account"
+msgstr "Διαγραφή λογαριασμού"
+
+msgctxt "Languages::twapp_app_account_info"
+msgid "Fill in the fields below to sign in."
+msgstr "Συμπληρώστε τα παρακάτω πεδία για να εισέλθετε."
+
+msgctxt "Languages::twapp_login_or_email"
+msgid "Login/Email"
+msgstr "Σύνδεση/email"
+
+msgctxt "Languages::twapp_latest_orders"
+msgid "Latest orders"
+msgstr "Τελευταίες παραγγελίες"
+
+msgctxt "Languages::twapp_back"
+msgid "Back"
+msgstr "Πίσω"
+
+msgctxt "Languages::twapp_users_statistics"
+msgid "Users statistics"
+msgstr "Στατιστικά χρηστών"
+
+msgctxt "Languages::twapp_configurable"
+msgid "Configurable"
+msgstr "Διαμορφώσιμες"
+
+msgctxt "Languages::twg_lbl_out_of_stock"
+msgid "Out of stock"
+msgstr "Μη Διαθέσιμο"
+
+msgctxt "Languages::twapp_signing_in"
+msgid "Signing in..."
+msgstr "Συνδεεται..."
+
+msgctxt "Languages::twapp_two_days_sales"
+msgid "Sales for the last 2 days"
+msgstr "Πωλήσεις για τις τελευταίες 2 ημέρες"
+
+msgctxt "Languages::twapp_two_weeks_sales"
+msgid "Sales for the last 2 weeks"
+msgstr "Πωλήσεις για τις τελευταίες 2 εβδομάδες"
+
+msgctxt "Languages::twapp_two_month_sales"
+msgid "Sales for the last 2 months"
+msgstr "Πωλήσεις για τους τελευταίους 2 μήνες"
+
+msgctxt "Languages::twapp_stat_day_1"
+msgid "12am"
+msgstr "12 π.μ."
+
+msgctxt "Languages::twapp_stat_day_2"
+msgid "4am"
+msgstr "4 π.μ."
+
+msgctxt "Languages::twapp_stat_day_3"
+msgid "8am"
+msgstr "8 π.μ."
+
+msgctxt "Languages::twapp_stat_day_4"
+msgid "12pm"
+msgstr "12 μ.μ."
+
+msgctxt "Languages::twapp_stat_day_5"
+msgid "4pm"
+msgstr "4 μ.μ."
+
+msgctxt "Languages::twapp_stat_day_6"
+msgid "8pm"
+msgstr "8 μ.μ."
+
+msgctxt "Languages::twapp_stat_week_1"
+msgid "Mo"
+msgstr "Δε"
+
+msgctxt "Languages::twapp_stat_week_2"
+msgid "Tu"
+msgstr "Τρ"
+
+msgctxt "Languages::twapp_stat_week_3"
+msgid "We"
+msgstr "Τε"
+
+msgctxt "Languages::twapp_stat_week_4"
+msgid "Th"
+msgstr "Πε"
+
+msgctxt "Languages::twapp_stat_week_5"
+msgid "Fr"
+msgstr "Πα"
+
+msgctxt "Languages::twapp_stat_week_6"
+msgid "Sa"
+msgstr "Σαβ"
+
+msgctxt "Languages::twapp_stat_week_7"
+msgid "Su"
+msgstr "Κυ"
+
+msgctxt "Languages::twapp_stat_month_1"
+msgid "w1"
+msgstr "ΕΒ1"
+
+msgctxt "Languages::twapp_stat_month_2"
+msgid "w2"
+msgstr "ΕΒ2"
+
+msgctxt "Languages::twapp_stat_month_3"
+msgid "w3"
+msgstr "ΕΒ3"
+
+msgctxt "Languages::twapp_stat_month_4"
+msgid "w4"
+msgstr "ΕΒ4"
+
+msgctxt "Languages::twapp_stat_month_5"
+msgid "w5"
+msgstr "ΕΒ5"
+
+msgctxt "Languages::twapp_net_error_title"
+msgid "No network connection"
+msgstr "Καμία σύνδεση δικτύου"
+
+msgctxt "Languages::twapp_net_error_message"
+msgid "Cannot load data. Please check your network connection."
+msgstr "Δεν μπορεί να φορτώσει τα δεδομένα. Παρακαλώ ελέγξτε τη σύνδεση δικτύου."
+
+msgctxt "Languages::twapp_in_stock_lowercase"
+msgid "in stock"
+msgstr "σε απόθεμα"
+
+msgctxt "Languages::twapp_receive_push"
+msgid "Push notifications"
+msgstr "Ειδοποιήσεις push"
+
+msgctxt "Languages::twapp_will_affect_all_stores"
+msgid "Updating this field will affect all stores"
+msgstr "Ενημέρωση αυτου του πεδίου θα επηρεάσει όλα τα καταστήματα"
+
+msgctxt "Languages::twapp_data_lang"
+msgid "Data lang."
+msgstr "Δεδομένα lang."
+
+msgctxt "Languages::twg_placed"
+msgid "Placed"
+msgstr "Τοποθετήθηκε"
+
+msgctxt "Languages::twgadmin_mobile_admin_application"
+msgid "Twigmo Mobile Admin application"
+msgstr "Twigmo Mobile Admin application"
+
+msgctxt "Languages::twgadmin_download_app"
+msgid "Download the app"
+msgstr "Πραγματοποιήστε λήψη της εφαρμογής"
+
+msgctxt "Languages::twgadmin_download_app_hint"
+msgid "This app is available on the <a href=\"http://www.twigmo.com/pricing/\" target=\"_blank\">selected Twigmo plans</a> only."
+msgstr "Αυτό η εφαρμογη είναι διαθέσιμη για <a href=\"http://www.twigmo.com/pricing/\" target=\"_blank\"> επιλεγμένα Twigmo πακετα</a> μόνο."
+
+msgctxt "Languages::twgadmin_saved"
+msgid "Saved"
+msgstr "Αποθηκευτηκε"
+
+msgctxt "Languages::twapp_admin_url"
+msgid "Admin URL"
+msgstr "URL διαχειριστη"
+
+msgctxt "Languages::twgadmin_auth_fail_access_id"
+msgid "You have no permissions to log in to the store with this Access ID."
+msgstr "Δεν εχετε δικαιώματα για να συνδεθείτε στο κατάστημα με αυτό το αναγνωριστικό πρόσβασης."
+
+msgctxt "Languages::twgadmin_mobile_app"
+msgid "Mobile app"
+msgstr "Εφαρμογή για κινητά"
+
+msgctxt "Languages::twgadmin_qr_for_admin"
+msgid "QR code for the app<br>login page"
+msgstr "QR κώδικας για σελίδα σύνδεσης <br>του  app"
+
+msgctxt "Languages::twgadmin_qr_for_admin_comment"
+msgid "Please install the Twigmo admin application first. Then use it to scan the QR code. This code contains the Twigmo Access ID [access_id], this admin panel URL and your admin panel login (email or username). You will only need to enter your admin panel password manually."
+msgstr "Παρακαλώ εγκαταστήστε την εφαρμογή admin Twigmo πρώτα. Χρησιμοποιήστε τη για να σαρώσετε τον κωδικό QR. Αυτός ο κωδικός περιέχει το ID πρόσβασης του Twigmo [access_id], αυτό το admin panel URL και το admin login panel login (e-mail ή username). Το μόνο που θα πρέπει να εισάγετε με μη αυτόματο τρόπο, είναι ο κωδικός πρόσβασης του admin panel."
+
+msgctxt "Languages::twapp_wrong_api_login_data"
+msgid "No data is received from this admin URL. Please, check it. Also, make sure that the Twigmo add-on is enabled and connected to the service in your store"
+msgstr "∆εν λαμβάνονται δεδομένα από αυτήν τη διεύθυνση URL διαχείρισης. Παρακαλώ, ελέγξτε. Επίσης, βεβαιωθείτε ότι το πρόσθετο Twigmo είναι ενεργοποιημένηο και συνδεδεμένο με την υπηρεσία στο κατάστημά σας"
+
+msgctxt "Languages::twapp_scan_qr"
+msgid "Scan the QR code in your store admin panel"
+msgstr "Σαρώστε τον κωδικό QR στο admin panel του καταστηματος σας"
+
+msgctxt "Languages::twapp_tap_to_scan"
+msgid "Tap to scan"
+msgstr "Πατήστε για να σαρώσετε"
+
+msgctxt "Languages::twapp_fill_manually"
+msgid "Fill in the fields manually"
+msgstr "Συμπληρώστε τα πεδία χειροκινητα"
+
+msgctxt "Languages::twapp_fill_to_sign_in"
+msgid "Fill in the fields below to sign in."
+msgstr "Συμπληρώστε τα παρακάτω πεδία για να εισέλθετε."
+
+msgctxt "Languages::twgadmin_show_product_code"
+msgid "Show product code on product details page"
+msgstr "Εμφάνιση Κωδικου προϊόντος στη σελίδα Λεπτομερειων προϊόντος"
+
+msgctxt "Languages::twapp_add_account"
+msgid "Add account"
+msgstr "Προσθέστε λογαριασμό"
+
+msgctxt "Languages::twapp_pull_to_refresh"
+msgid "Pull to refresh"
+msgstr "Τραβηξτε για να ενημερωθει"
+
+msgctxt "Languages::twapp_release_to_refresh"
+msgid "Release to refresh"
+msgstr "Απελευθέρωση για ανανεωση"
+
+msgctxt "Languages::twapp_could_not_connect"
+msgid "Could not connect to the Twigmo add-on at [URL]."
+msgstr "Δεν είναι δυνατή η σύνδεση με το πρόσθετο Twigmo στο [URL]."
+
+msgctxt "Languages::twgadmin_push_notifications"
+msgid "Push notifications"
+msgstr "Ειδοποιήσεις push"
+
+msgctxt "Languages::twgadmin_send_push_notifications"
+msgid "Send push notifications to your mobile store app users"
+msgstr "Στείλτε push notifications  στους χρήστες mobile store"
+
+msgctxt "Languages::twgadmin_select_store_short"
+msgid "Select a store"
+msgstr "Επιλέξτε ένα κατάστημα"
+
+msgctxt "Languages::twgadmin_push_notification_text"
+msgid "Push notification text"
+msgstr "Κείμενο Ειδοποιήσης push"
+
+msgctxt "Languages::twgadmin_push_notification_comment"
+msgid "Please refer to the policies of <a href=\"https://developer.apple.com/app-store/review/guidelines/#push-notifications\" target=\"_blank\">Apple</a> and <a href=\"https://play.google.com/intl/en/about/developer-content-policy.html\" target=\"_blank\">Google</a> regarding sending ads in push notifications. Your mobile app can be banned for violating these policies."
+msgstr "Παρακαλείστε να ανατρέξετε στις πολιτικές των <a href=\"https://developer.apple.com/app-store/review/guidelines/#push-notifications\" target=\"_blank\"> Apple</a> και <a href=\"https://play.google.com/intl/en/about/developer-content-policy.html\" target=\"_blank\"> Google</a> σχετικά με την αποστολή διαφημίσεων σε  push notifications. H Εφαρμογή σας για κινητά μπορεί να αποκλειστεί για παραβίαση αυτών των πολιτικών."
+
+msgctxt "Languages::twgadmin_push_will_send_to"
+msgid "This message will be sent to <b>[ios_amount]</b> iOS and <b>[android_amount]</b> Android users of your store app."
+msgstr "Αυτό το μήνυμα θα σταλεί σε <b>[ios_amount]</b> iOS και <b>[android_amount]</b> Android χρηστες του mobile app του κατάστηματος σας."
+
+msgctxt "Languages::twgadmin_push_has_uploaded"
+msgid "Your message has been uploaded to the server and it has started sending the message to your mobile app users (it may take up to an hour depending on the number of users)."
+msgstr "Το μήνυμά σας έχει ανεβει στο διακομιστή και έχει αρχίσει η αποστολή του στους mobile app  χρήστες σας με (αυτό μπορεί να πάρει εως και  μια ώρα, ανάλογα με τον αριθμό των χρηστών)."
+
+msgctxt "Languages::twgadmin_send_push"
+msgid "Send push notifications about order status update to the mobile store app users"
+msgstr "Στείλτε push notifications για την ενημέρωση της κατάστασης παραγγελίας στους χρήστες mobile store app  του καταστηματος σας "
+
+msgctxt "Languages::twgadmin_send_push_error"
+msgid "Oops, something went wrong. We cannot confirm your message was sent. Please <a href=\"http://support.twigmo.com\" target=\"_blank\">contact Twigmo support team</a> to resolve this issue."
+msgstr "Ωχ, κάτι πήγε στραβά. Δεν μπορούμε να επιβεβαιώσουμε οτι το μήνυμά σας έχει σταλεί. Παρακαλώ <a href=\"http://support.twigmo.com\" target=\"_blank\"> επικοινωνήστε με την ομάδα υποστήριξης του Twigmo</a> για να επιλύσετε αυτό το ζήτημα."
+
+msgctxt "Languages::twgadmin_order_via_twigmo_app_android"
+msgid "[This order was placed via Twigmo Mobile Application for Android]"
+msgstr "[Αυτη η παραγγελία έγινε μέσω Twigmo Mobile Application για Android]"
+
+msgctxt "Languages::twgadmin_order_via_twigmo_app_ios"
+msgid "[This order was placed via Twigmo Mobile Application for iOS]"
+msgstr "[Αυτη η παραγγελία έγινε μέσω Twigmo Mobile Application για iOS]"
+

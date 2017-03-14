@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/price_list.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::price_list"
+msgid "Price list"
+msgstr "لیست قیمت"
+
+msgctxt "Addons::description::price_list"
+msgid "Generates configurable price list in PDF or XLS"
+msgstr "تولید لیست قیمت قابل تنظیم در پی دی اف یا XLS"
+
+msgctxt "Languages::price_list"
+msgid "Price list"
+msgstr "لیست قیمت"
+
+msgctxt "Languages::selected_fields"
+msgid "Selected fields"
+msgstr "زمینه های انتخاب شده"
+
+msgctxt "Languages::generating_pdf"
+msgid "Generating PDF. Please, be patient..."
+msgstr "در حال ساخت PDF. لطفا صبور باشید..."
+
+msgctxt "Languages::generating_xls"
+msgid "Generating XLS. Please, be patient..."
+msgstr "تولید XLS. لطفا صبور باشید..."
+
+msgctxt "Languages::price_list_ziparchive_not_installed"
+msgid "Impossible to create XML price list. Please add zip support in PHP on your server. Follow <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+msgstr "ایجاد لیست قیمت XMLغیر ممکن می باشد. لطفا پشتیبانی از فایل های فشرده در PHP بر روی سرور خود را اضافه کنید.<a href=\"http://www.php.net/manual/en/zip.installation.php\"> <a href=\"http://www.php.net/manual/en/zip.installation.php\"> http://www.php.net/manual/en/zip.installation.php</a> را دنبال کنید."
+
+msgctxt "Languages::price_list.text_select_storefront"
+msgid "To generate a price list, please select storefront first."
+msgstr "برای تولید یک لیست قیمت لطفا نمای فروشگاهی را انتخاب کنید."
+
+msgctxt "Languages::price_list.text_regenerate"
+msgid "<p>If products, categories or selected fields were added or changed, please regenerate a price list:<br />[buttons]</p><p>Generated price lists are available by these links<br/>[links]</p>"
+msgstr "<p>اگر محصولات و دسته ها یا زمینه های انتخابی اضافه یا تغییر کرده باشند، لطفا لیست قیمت را مجددا یجادکنید:<br />[buttons]</p>\n"
+"<p>لیست قیمت تولید شده توسط این لینک ها در دسترس هستند<br/>[links]</p>"
+
+msgctxt "SettingsSections::price_list::general"
+msgid "General"
+msgstr "عمومی"
+
+msgctxt "SettingsOptions::price_list::price_list_fields"
+msgid "Fields"
+msgstr "زمینه ها"
+
+msgctxt "SettingsOptions::price_list::price_list_sorting"
+msgid "Sort by"
+msgstr "مرتب سازی بر اساس"
+
+msgctxt "SettingsOptions::price_list::group_by_category"
+msgid "Group by category"
+msgstr "گروه بندی بر اساس دسته بندی"
+
+msgctxt "SettingsOptions::price_list::include_options"
+msgid "Include product options"
+msgstr "شامل گزینه های محصول"
+

@@ -1,0 +1,13 @@
+Options -Indexes
+
+<IfModule php5_module>
+	php_flag engine off
+</IfModule>
+
+<IfModule php7_module>
+	php_flag engine off
+</IfModule>
+
+<Files ~ "\.([pP][hH][pP].?)$">
+  deny from all
+</Files>

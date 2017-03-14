@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/rss_feed.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::rss_feed"
+msgid "RSS feed"
+msgstr "خبرخوان"
+
+msgctxt "Addons::description::rss_feed"
+msgid "Generates RSS feeds for products and blog posts"
+msgstr "تولید خورد RSS برای محصولات و پست های وبلاگ"
+
+msgctxt "Languages::rss_feed"
+msgid "RSS feed"
+msgstr "خبرخوان"
+
+msgctxt "Languages::feed_title"
+msgid "Feed title"
+msgstr "عنوان خوراک"
+
+msgctxt "Languages::feed_description"
+msgid "Feed description"
+msgstr "شرح خروجی"
+
+msgctxt "Languages::rss_sort_by"
+msgid "Sort items by"
+msgstr "مرتب سازی موارد با"
+
+msgctxt "Languages::rss_display_sku"
+msgid "Display SKU"
+msgstr "نمایش SKU"
+
+msgctxt "Languages::rss_display_image"
+msgid "Display image"
+msgstr "نمایش تصویر"
+
+msgctxt "Languages::rss_display_price"
+msgid "Display gross price"
+msgstr "نمایش قیمت ناخالص"
+
+msgctxt "Languages::rss_display_original_price"
+msgid "Display net price"
+msgstr "نمایش قیمت خالص"
+
+msgctxt "Languages::rss_display_add_to_cart"
+msgid "Display add to cart button"
+msgstr "نمایش دکمه اضافه به سبد خرید"
+
+msgctxt "Languages::rss_created"
+msgid "Created"
+msgstr "ایجاد شد"
+
+msgctxt "Languages::rss_updated"
+msgid "Updated"
+msgstr "به روز شده"
+
+msgctxt "Languages::block_rss_feed"
+msgid "RSS feed"
+msgstr "خبرخوان"
+
+msgctxt "Languages::block_rss_feed_description"
+msgid "RSS feed subscription icon"
+msgstr "نماد اشتراک اشتراک آر اس اس"
+
+msgctxt "SettingsSections::rss_feed::general"
+msgid "General"
+msgstr "عمومی"
+
+msgctxt "SettingsOptions::rss_feed::managing_editor"
+msgid "Content editor"
+msgstr "ویرایشگر محتوا"
+
+msgctxt "SettingsOptions::rss_feed::display_rss_feed_in_category"
+msgid "Show RSS feed for each category"
+msgstr "نمایش فید هر دسته"
+
+msgctxt "SettingsOptions::rss_feed::category_max_products_items"
+msgid "Max product number per category"
+msgstr "حداکثر تعداد محصول در هر دسته بندی"
+
+msgctxt "SettingsTooltips::rss_feed::managing_editor"
+msgid "Enter the content editor's email and real name, e.g. john@example.com (John Doe)"
+msgstr "ویرایشگر مطلب نام ایمیل و واقعی مانند john@example.com (John Doe) را وارد کنید"
+
+msgctxt "SettingsTooltips::rss_feed::display_rss_feed_in_category"
+msgid "RSS icon near category title."
+msgstr "آیکون آر اس اس نزدیک عنوان دسته."
+
+msgctxt "Languages::addons.rss_feed.icon"
+msgid "RSS feed subscription icon"
+msgstr ""
+

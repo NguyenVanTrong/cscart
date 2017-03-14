@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /addons/rss_feed.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::rss_feed"
+msgid "RSS feed"
+msgstr "RSS-стрічка"
+
+msgctxt "Addons::description::rss_feed"
+msgid "Generates RSS feeds for products and blog posts"
+msgstr ""
+
+msgctxt "Languages::rss_feed"
+msgid "RSS feed"
+msgstr "RSS-стрічка"
+
+msgctxt "Languages::feed_title"
+msgid "Feed title"
+msgstr "Тема стрічки"
+
+msgctxt "Languages::feed_description"
+msgid "Feed description"
+msgstr "Опис стрічки"
+
+msgctxt "Languages::rss_sort_by"
+msgid "Sort items by"
+msgstr "Сортування елементів за"
+
+msgctxt "Languages::rss_display_sku"
+msgid "Display SKU"
+msgstr "Показувати код товару"
+
+msgctxt "Languages::rss_display_image"
+msgid "Display image"
+msgstr "Показувати зображення"
+
+msgctxt "Languages::rss_display_price"
+msgid "Display gross price"
+msgstr "Показувати ціну брутто (без надбавок і знижок)"
+
+msgctxt "Languages::rss_display_original_price"
+msgid "Display net price"
+msgstr "Показувати ціну нетто (з усіма надбавками і відрахуваннями)"
+
+msgctxt "Languages::rss_display_add_to_cart"
+msgid "Display add to cart button"
+msgstr "Показувати кнопку «В кошик»"
+
+msgctxt "Languages::rss_created"
+msgid "Created"
+msgstr "Створена"
+
+msgctxt "Languages::rss_updated"
+msgid "Updated"
+msgstr "Оновлена"
+
+msgctxt "Languages::block_rss_feed"
+msgid "RSS feed"
+msgstr "RSS-стрічка"
+
+msgctxt "Languages::block_rss_feed_description"
+msgid "RSS feed subscription icon"
+msgstr "Іконка підписки на RSS-стрічку"
+
+msgctxt "SettingsSections::rss_feed::general"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "SettingsOptions::rss_feed::managing_editor"
+msgid "Content editor"
+msgstr "Контент-редактор"
+
+msgctxt "SettingsOptions::rss_feed::display_rss_feed_in_category"
+msgid "Show RSS feed for each category"
+msgstr "Показувати RSS-стрічку для кожної категорії"
+
+msgctxt "SettingsOptions::rss_feed::category_max_products_items"
+msgid "Max product number per category"
+msgstr "Максимальна кількість товарів в категорії"
+
+msgctxt "SettingsTooltips::rss_feed::managing_editor"
+msgid "Enter the content editor's email and real name, e.g. john@example.com (John Doe)"
+msgstr "Введіть ел. пошту і повне ім'я контент-менеджера, наприклад, john@example.com (John Doe)"
+
+msgctxt "SettingsTooltips::rss_feed::display_rss_feed_in_category"
+msgid "RSS icon near category title."
+msgstr "Іконка RSS навпроти назви категорії."
+
+msgctxt "Languages::addons.rss_feed.icon"
+msgid "RSS feed subscription icon"
+msgstr ""
+

@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /addons/buy_together.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:00-0500\n"
+
+msgctxt "Addons::name::buy_together"
+msgid "Buy together"
+msgstr "شراء معاً"
+
+msgctxt "Addons::description::buy_together"
+msgid "Allows you to set up share discounts on certain product combinations"
+msgstr "يسمح لك بإعداد حصة الخصومات على بعض مجموعات المنتجات"
+
+msgctxt "Languages::buy_together"
+msgid "Buy together"
+msgstr "شراء معاً"
+
+msgctxt "Languages::specify_options"
+msgid "Specify options"
+msgstr "تحديد الخيارات"
+
+msgctxt "Languages::total_list_price"
+msgid "Total list price"
+msgstr "المبلغ الإجمالي للقائمة"
+
+msgctxt "Languages::price_for_all"
+msgid "Price for all"
+msgstr "السعر الكلي"
+
+msgctxt "Languages::add_all_to_cart"
+msgid "Add all to cart"
+msgstr "إضافة الكل إلى عربة التسوق"
+
+msgctxt "Languages::editing_combination"
+msgid "Editing combination"
+msgstr "تحرير المجموعة"
+
+msgctxt "Languages::buy_together_calculation_information"
+msgid "Total price: [total_price], Discount: [discount], Combination price: [combination_price]"
+msgstr "المبلغ الإجمالي:[total_price], التخفيض:[discount], السعر بعد الدمج:[combination_price]"
+
+msgctxt "Languages::display_in_promotions"
+msgid "Display in promotions"
+msgstr "عرض في الترويج"
+
+msgctxt "Languages::combination_products"
+msgid "Combination products"
+msgstr "المنتجات المدمجة"
+
+msgctxt "Languages::share_discount"
+msgid "Share discount"
+msgstr "مشاركة التخفيضات"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_configurator"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Product configurator add-on"
+msgstr "لا يمكن إضافة [product_name] إلى تركيبة. شراء معا غير متوافق مع إضافة مكون على المنتج"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_recurring_billing"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Recurring billing add-on"
+msgstr "لا يمكن إضافة [product_name] إلى تركيبة. شراء معا ليست متوافقة مع الوظيفة الإضافية الفواتير المتكررة"
+
+msgctxt "Languages::buy_together_combination_cannot_be_added"
+msgid "Combination cannot be added to cart"
+msgstr "لا يمكن إضافة المجموعة إلى عربة التسوق"
+
+msgctxt "Languages::buy_together_product_was_removed"
+msgid "[product] did not have enough amount ([amount]) and was removed from the cart"
+msgstr "[product] لم يكن يكفي مبلغ ([amount]) وتمت إزالته من العربة"
+
+msgctxt "Languages::buy_together_fill_the_mandatory_fields"
+msgid "Please specify product options before adding this product combination to the cart."
+msgstr "الرجاء تحديد خيارات المنتج قبل إضافة هذا المزيج المنتج إلى السلة."
+

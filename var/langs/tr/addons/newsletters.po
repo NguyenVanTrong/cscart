@@ -1,0 +1,430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /addons/newsletters.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::newsletters"
+msgid "Newsletters"
+msgstr "Haber bültenleri"
+
+msgctxt "Addons::description::newsletters"
+msgid "Lets you configure newsletter sending"
+msgstr "Bülten gönderimini yapılandırmanızı sağlar"
+
+msgctxt "Languages::newsletters_menu_description"
+msgid "Create and send newsletters to your customer."
+msgstr "Müşterileriniz için haber bültenleri oluşturun ve gönderin."
+
+msgctxt "Languages::news_plain"
+msgid "Plain"
+msgstr "Düz"
+
+msgctxt "Languages::text_signup_for_subscriptions"
+msgid "Sign up for our newsletters!"
+msgstr "Bültenimize kaydolun!"
+
+msgctxt "Languages::tmpl_subscription"
+msgid "Newsletters: subscription form"
+msgstr "Haber bültenleri: Abonelik Formu"
+
+msgctxt "Languages::unsubscribe_link"
+msgid "Unsubscribe link"
+msgstr "Abonelik sonlandırma linki"
+
+msgctxt "Languages::ne_add_subscribers_from_users"
+msgid "Add subscribers from the list of users"
+msgstr "Kullanıcılar listesinden aboneleri ekle"
+
+msgctxt "Languages::ne_warning_subscr_email_exists"
+msgid "<b>[email]</b> is already in the subscribers list"
+msgstr "<b>[email]</b> zaten haber listesinde"
+
+msgctxt "Languages::warning_subscribers_import"
+msgid "Some mailing lists from the input file could not be found in the database. Certain imported subscribers will be left unassigned."
+msgstr "Giriş dosyasından bazı e-posta listeleri veri tabanında bulunamadı. Aktarılan belirli aboneler atanmamış olarak bırakılacaktır."
+
+msgctxt "Languages::subscribers_menu_item_text"
+msgid "Subscribers"
+msgstr "Aboneler"
+
+msgctxt "Languages::block_mailing_lists"
+msgid "Newsletter subscription"
+msgstr "Bülten aboneliği"
+
+msgctxt "Languages::block_mailing_lists_description"
+msgid "Email field for newsletter subscription"
+msgstr "Haber bülteni aboneliği için e-posta alanı"
+
+msgctxt "Languages::privileges.view_newsletters"
+msgid "View newsletters"
+msgstr "Bültenleri görüntüle"
+
+msgctxt "Languages::privileges.manage_newsletters"
+msgid "Manage newsletters"
+msgstr "Bültenleri yönet"
+
+msgctxt "Languages::warning_newsletter_no_recipients"
+msgid "Newsletter hasn't been sent because no recipients were found matching the selected criteria."
+msgstr "Bülten gönderilmedi. Seçilen ölçütleri eşleşen hiçbir alıcı bulunamadı."
+
+msgctxt "Languages::text_newsletter_sent"
+msgid "The newsletter(s) have been sent successfully."
+msgstr "Bülten(ler) başarıyla gönderildi."
+
+msgctxt "Languages::email_cannot_be_empty"
+msgid "E-mail cannot be empty"
+msgstr "E-posta boş olamaz"
+
+msgctxt "Languages::sending_email_to"
+msgid "Sending email to [email]..."
+msgstr "[email] için e-posta gönderiliyor..."
+
+msgctxt "Languages::text_subscriber_added"
+msgid "Your e-mail has been successfully added to our free e-mail updates list"
+msgstr "E-posta adresiniz ücretsiz e-posta listemize başarıyla eklendi"
+
+msgctxt "Languages::error_email_already_subscribed"
+msgid "Your e-mail is already subscribed."
+msgstr "Zaten abonesiniz."
+
+msgctxt "Languages::text_subscriber_removed"
+msgid "Your e-mail has been successfully removed from our free e-mail updates list"
+msgstr "E-posta aboneliğiniz başarı ile sonlandırıldı"
+
+msgctxt "Languages::text_subscriber_activated"
+msgid "Your email has been successfully activated"
+msgstr "E-posta başarıyla etkinleştirildi"
+
+msgctxt "Languages::link_message_for_test_letter"
+msgid "The link will be displayed in a live newsletter"
+msgstr "Link canlı bir bültende görüntülenecek"
+
+msgctxt "Languages::newsletters"
+msgid "Newsletters"
+msgstr "Haber bültenleri"
+
+msgctxt "Languages::autoresponders"
+msgid "Autoresponders"
+msgstr "Otomatik cevaplayıcılar"
+
+msgctxt "Languages::campaigns"
+msgid "Campaigns"
+msgstr "Kampanyalar"
+
+msgctxt "Languages::sent"
+msgid "Sent"
+msgstr "Gönderilen"
+
+msgctxt "Languages::subscribers_num"
+msgid "Number of subscribers"
+msgstr "Abone sayısı"
+
+msgctxt "Languages::editing_mailing_list"
+msgid "Editing mailing list"
+msgstr "E-posta listesi düzenleme"
+
+msgctxt "Languages::from_name"
+msgid "From name"
+msgstr "Gönderen adı"
+
+msgctxt "Languages::from_email"
+msgid "From email"
+msgstr "Gönderen E-mail"
+
+msgctxt "Languages::reply_to"
+msgid "Reply to"
+msgstr "Cevap verilen"
+
+msgctxt "Languages::register_autoresponder"
+msgid "Confirmation email"
+msgstr "Onay e-postası"
+
+msgctxt "Languages::no_autoresponder"
+msgid "No autoresponder"
+msgstr "Hiçbir otomatik cevaplayıcı yok"
+
+msgctxt "Languages::show_on_checkout"
+msgid "Show at checkout"
+msgstr "Çıkışta göster"
+
+msgctxt "Languages::addons.newsletters.show_on_registration_and_profile"
+msgid "Show on the Registration and Profile Details pages"
+msgstr "Kayıt ve profil ayrıntıları sayfaları göster"
+
+msgctxt "Languages::show_on_separate_page"
+msgid "Show on separate page"
+msgstr "Ayrı sayfada göster"
+
+msgctxt "Languages::campaign_stats"
+msgid "Campaign statistics"
+msgstr "Kampanya istatistikleri"
+
+msgctxt "Languages::add_campaign"
+msgid "Add campaign"
+msgstr "Kampanya Ekle"
+
+msgctxt "Languages::new_campaign"
+msgid "New campaign"
+msgstr "Yeni kampanya"
+
+msgctxt "Languages::newsletter_templates"
+msgid "Newsletter templates"
+msgstr "Bülten Şablonları"
+
+msgctxt "Languages::newsletter_autoresponders"
+msgid "Newsletter autoresponders"
+msgstr "Bülten otomatik cevaplayıcıları"
+
+msgctxt "Languages::subject"
+msgid "Subject"
+msgstr "Konu"
+
+msgctxt "Languages::add_newsletter"
+msgid "Add newsletter"
+msgstr "Bülten Ekle"
+
+msgctxt "Languages::add_template"
+msgid "Add template"
+msgstr "Şablon Ekle"
+
+msgctxt "Languages::add_autoresponder"
+msgid "Add autoresponder"
+msgstr "Otomatik cevaplayıcı Ekle"
+
+msgctxt "Languages::more_subjects"
+msgid "Random subjects (one per line)"
+msgstr "Rastgele konular (her satırda bir tane)"
+
+msgctxt "Languages::body_html"
+msgid "HTML body"
+msgstr "HTML Gövdesi"
+
+msgctxt "Languages::no_template"
+msgid "No template"
+msgstr "Şablon yok"
+
+msgctxt "Languages::load"
+msgid "Load"
+msgstr "Yükle"
+
+msgctxt "Languages::campaign"
+msgid "Campaign"
+msgstr "Kampanya"
+
+msgctxt "Languages::send_to"
+msgid "Send to"
+msgstr "Gönder"
+
+msgctxt "Languages::add_recipients_from_users"
+msgid "Add recipients from users"
+msgstr "Kullanıcılardan alıcı ekle"
+
+msgctxt "Languages::customers_with_abandoned"
+msgid "Customers with abandoned"
+msgstr "Tamamlanmamış bilgilere sahip müşteriler"
+
+msgctxt "Languages::cart_or_wishlist"
+msgid "Cart or Wishlist"
+msgstr "Sepet veya istek listesi"
+
+msgctxt "Languages::which_is"
+msgid "which is"
+msgstr "olan"
+
+msgctxt "Languages::days_old"
+msgid "days old"
+msgstr "günlük"
+
+msgctxt "Languages::send_to_test_email"
+msgid "Send to test email"
+msgstr "Sınama e-posta gönder"
+
+msgctxt "Languages::save_and_send"
+msgid "Save and send"
+msgstr "Kaydet ve Gönder"
+
+msgctxt "Languages::newsletter"
+msgid "Newsletter"
+msgstr "Haber bülteni"
+
+msgctxt "Languages::newsletter_template"
+msgid "Newsletter template"
+msgstr "Bülten Şablonları"
+
+msgctxt "Languages::newsletter_autoresponder"
+msgid "Newsletter autoresponder"
+msgstr "Bülten otomatik cevaplayıcıları"
+
+msgctxt "Languages::mailing_list"
+msgid "Mailing list"
+msgstr "Mail listeleri"
+
+msgctxt "Languages::confirmed"
+msgid "Confirmed"
+msgstr "Onaylandı"
+
+msgctxt "Languages::subscribed_to"
+msgid "Subscribed to [num] lists"
+msgstr "[num] listeye abone"
+
+msgctxt "Languages::subscribed"
+msgid "Subscribed"
+msgstr "Abone"
+
+msgctxt "Languages::text_success_subscription"
+msgid "You have been successfully subscribed to our free e-mail updates and promotions!"
+msgstr "Ücretsiz email listemize başarı ile üye oldunuz!"
+
+msgctxt "Languages::text_unsubscribe_instructions"
+msgid "We respect your privacy and do not send unsolicited e-mail to users who have not requested correspondence. You have received this e-mail because you requested to receive our free updates and promotions.<br /><br /> If you wish to unsubscribe, please follow the link below:"
+msgstr "Gizliliğinize önem veriyoruz. Bu email mesajını ücretsiz mail listemize üye olduğunuz için aldınız. Aboneliği sonlandırmak için lütfen aşağıdaki bağlantıyı izleyin:"
+
+msgctxt "Languages::updates_subscription"
+msgid "updates and promotions subscription"
+msgstr "güncellemeler ve promosyon bildirimleri"
+
+msgctxt "Languages::ult_shared_with"
+msgid "Shared with:"
+msgstr "Paylaşılan:"
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_from_email"
+msgid "Email of a sender."
+msgstr "Gönderenin e-posta adresi."
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_from_name"
+msgid "Name of a sender (e.g. company name)."
+msgstr "Gönderenin (örneğin şirketin adı) adı."
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_reply_to"
+msgid "Email to send replies to."
+msgstr "Yanıtların gönderileceği e-posta."
+
+msgctxt "Languages::tt_addons_newsletters_views_newsletters_update_more_subjects"
+msgid "If several subjects are specified, email subject is randomly picked from this list."
+msgstr "Çeşitli konularda belirtilmemişse, e-posta konusu bu listeden rastgele seçilir."
+
+msgctxt "Languages::tt_addons_newsletters_views_newsletters_update_users"
+msgid "If the message text contains the unsubscribe link, it will be empty for these users."
+msgstr "İleti metni aboneliği sonlandırma linki  içeriyorsa, bu bölüm kullanıcılar için boş bırakılacaktır."
+
+msgctxt "Languages::add_mailing_lists"
+msgid "Add mailing list"
+msgstr "E-posta listesi ekle"
+
+msgctxt "Languages::manage_subscribers"
+msgid "Manage subscribers"
+msgstr "Aboneleri yönet"
+
+msgctxt "Languages::new_mailing_lists"
+msgid "New mailing list"
+msgstr "Yeni Mail Listesi"
+
+msgctxt "Languages::newsletters.new_subscribers"
+msgid "New subscribers"
+msgstr "Yeni aboneler"
+
+msgctxt "SettingsSections::newsletters::general"
+msgid "General"
+msgstr "Genel"
+
+msgctxt "SettingsOptions::newsletters::newsletters_per_pass"
+msgid "Newsletters sent per step"
+msgstr "Her adımda gönderilen bülten"
+
+msgctxt "SettingsOptions::newsletters::elm_advanced_mailing_server_options"
+msgid "Advanced mailing server options"
+msgstr "Gelişmiş posta sunucusu seçenekleri"
+
+msgctxt "SettingsOptions::newsletters::mailer_send_method"
+msgid "Method of sending e-mails"
+msgstr "E-posta gönderme yöntemi"
+
+msgctxt "SettingsOptions::newsletters::elm_smtp_server_settings"
+msgid "SMTP server settings"
+msgstr "SMTP sunucusu ayarları"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_host"
+msgid "SMTP host"
+msgstr "SMTP host"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_username"
+msgid "SMTP username"
+msgstr "SMTP kullanıcı adı"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_password"
+msgid "SMTP password"
+msgstr "SMTP şifresi"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_ecrypted_connection"
+msgid "Use Encrypted Connection"
+msgstr "Şifreli bağlantı kullan"
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::none"
+msgid "None"
+msgstr "Hiçbiri"
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::tls"
+msgid "TLS"
+msgstr "TLS"
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::ssl"
+msgid "SSL"
+msgstr "SSL"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_auth"
+msgid "Use SMTP authentication"
+msgstr "SMTP kimlik doğrulaması kullan"
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::smtp"
+msgid "via SMTP server"
+msgstr "SMTP sunucusu ile"
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::mail"
+msgid "via php mail function"
+msgstr "PHP mail fonksiyonu ile"
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::default"
+msgid "use default settings"
+msgstr "Varsayılan ayarları kullan"
+
+msgctxt "SettingsSections::newsletters::promotions"
+msgid "Promotions"
+msgstr "Promosyonlar"
+
+msgctxt "SettingsOptions::newsletters::coupon"
+msgid "Choose a promotion whose promo code will be given at subscription"
+msgstr "Abonelik sırasında kampanya kodu verilecek bir promosyon seçin"
+
+msgctxt "Languages::subscribers_promo_subject"
+msgid "Thank you for subscribing! Use the coupon code [coupon] in our special offer \"[promotion]\"."
+msgstr "Abone olduğunuz için teşekkür ederiz! Kupon kodunu [coupon]  \"[promotion]\" kampanyamızda kullanın."
+
+msgctxt "Languages::subscribers_no_promo"
+msgid "No promotion"
+msgstr "Hiç bir promosyon yok"
+
+msgctxt "Languages::promotion_cond_subscribed"
+msgid "Customer is subscribed"
+msgstr "Müşteri abone oldu"
+
+msgctxt "Languages::addons.newsletters.email_exists_in_list"
+msgid "<b>[email]</b> is already in the mailing list"
+msgstr "<b>[email]</b> e-posta listesinde zaten"
+
+msgctxt "Languages::email_template.newsletters_newsletter"
+msgid "Newsletter"
+msgstr ""
+
+msgctxt "Languages::email_template.newsletters_promotion"
+msgid "Newsletters: promotion"
+msgstr ""
+

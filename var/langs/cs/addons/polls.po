@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /addons/polls.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:01-0500\n"
+
+msgctxt "Addons::name::polls"
+msgid "Polls"
+msgstr "Ankety"
+
+msgctxt "Addons::description::polls"
+msgid "Adds a possibility to add customized polls to the site"
+msgstr "Přidává možnost vytvářet na stránce vlastní ankety"
+
+msgctxt "Languages::use_for_polls"
+msgid "Polls"
+msgstr "Ankety"
+
+msgctxt "Languages::tmpl_polls_central"
+msgid "Central"
+msgstr "Centrální"
+
+msgctxt "Languages::tmpl_polls_side"
+msgid "Side box"
+msgstr "Boční box"
+
+msgctxt "Languages::polls_answers_with_comments"
+msgid "Answers with comments"
+msgstr "Odpovědi s komentáři"
+
+msgctxt "Languages::polls_have_completed"
+msgid "You have already completed this poll."
+msgstr "Tuto anketu jste již vyplnili."
+
+msgctxt "Languages::polls_total_votes"
+msgid "Total votes"
+msgstr "Celkový počet hlasů"
+
+msgctxt "Languages::polls"
+msgid "Polls"
+msgstr "Ankety"
+
+msgctxt "Languages::new_poll"
+msgid "New poll"
+msgstr "Nová anketa"
+
+msgctxt "Languages::editing_poll"
+msgid "Editing poll"
+msgstr "Upravit anketu"
+
+msgctxt "Languages::use_for_polls"
+msgid "Polls"
+msgstr "Ankety"
+
+msgctxt "Languages::text_you_have_already_filled_this_poll"
+msgid "You have already completed this poll"
+msgstr "Tuto anketu jste již vyplnili"
+
+msgctxt "Languages::block_polls"
+msgid "Polls"
+msgstr "Ankety"
+
+msgctxt "Languages::poll"
+msgid "Poll"
+msgstr "Anketa"
+
+msgctxt "Languages::questions"
+msgid "Questions"
+msgstr "Otázky"
+
+msgctxt "Languages::poll_statistics"
+msgid "Poll statistics"
+msgstr "Statistika ankety"
+
+msgctxt "Languages::add_polls_and_close"
+msgid "Add polls and close"
+msgstr "Přidat ankety a zavřít"
+
+msgctxt "Languages::add_polls"
+msgid "Add polls"
+msgstr "Přidat ankety"
+
+msgctxt "Languages::required_not_answered"
+msgid "You should answer all the mandatory questions"
+msgstr "Měli byste odpovědět na všechny povinné otázky"
+
+msgctxt "Languages::thanks_for_voting"
+msgid "Thank you for taking time to complete this poll."
+msgstr "Děkujeme vám za váš čas a vyplnění této ankety."
+
+msgctxt "Languages::poll_show_results"
+msgid "Poll results visible to"
+msgstr "Zobrazit výsledky ankety"
+
+msgctxt "Languages::poll_results_nobody"
+msgid "nobody"
+msgstr "nikdo"
+
+msgctxt "Languages::poll_results_voted"
+msgid "voted users"
+msgstr "hlasovali uživatelé"
+
+msgctxt "Languages::poll_results_everybody"
+msgid "everybody (in a pop-up)"
+msgstr "všichni (v pop-up)"
+
+msgctxt "Languages::poll_header"
+msgid "Poll header"
+msgstr "Hlavička ankety"
+
+msgctxt "Languages::poll_footer"
+msgid "Poll footer"
+msgstr "Pata ankety"
+
+msgctxt "Languages::poll_results"
+msgid "Poll message"
+msgstr "Zpráva ankety"
+
+msgctxt "Languages::new_question"
+msgid "New question"
+msgstr "Nová otázka"
+
+msgctxt "Languages::add_question"
+msgid "Add question"
+msgstr "Přidat otázku"
+
+msgctxt "Languages::editing_question"
+msgid "Editing question"
+msgstr "Upravit otázku"
+
+msgctxt "Languages::add_poll"
+msgid "Add poll"
+msgstr "Přidat anketu"
+
+msgctxt "Languages::polls_total_submited"
+msgid "Total number of submitted poll forms"
+msgstr "Celkový počet odeslaných anketních formulářů"
+
+msgctxt "Languages::polls_total_completed"
+msgid "Number of poll forms completed in full"
+msgstr "Počet anketních formulářů vyplněných v plném rozsahu"
+
+msgctxt "Languages::polls_first_submited"
+msgid "First poll form submitted"
+msgstr "První odeslaný anketní formulár"
+
+msgctxt "Languages::polls_last_submited"
+msgid "Last poll form submitted"
+msgstr "Poslední odeslaný anketní formulár"
+
+msgctxt "Languages::statistics_by_questions"
+msgid "Statistics by questions"
+msgstr "Statistiky po otázkách"
+
+msgctxt "Languages::view_answers"
+msgid "View answers"
+msgstr "Zobrazit odpovědi"
+
+msgctxt "Languages::polls_votes"
+msgid "Votes"
+msgstr "Hlasy"
+
+msgctxt "Languages::answers"
+msgid "Answers"
+msgstr "Odpovědi"
+
+msgctxt "Languages::question_text"
+msgid "Question text"
+msgstr "Otázka textu"
+
+msgctxt "Languages::select_single_type"
+msgid "Select single option"
+msgstr "Vyberte jednu možnost"
+
+msgctxt "Languages::select_one_or_more_type"
+msgid "Select one or more options"
+msgstr "Vyberte jednu nebo více možností"
+
+msgctxt "Languages::text_answer_type"
+msgid "Provide a textual answer"
+msgstr "Napište odpověď"
+
+msgctxt "Languages::answer_text"
+msgid "Answer text"
+msgstr "Text odpovědi"
+
+msgctxt "Languages::text_box"
+msgid "Text box"
+msgstr "Textová pole"
+
+msgctxt "Languages::tt_addons_polls_hooks_pages_tabs_content_post_poll_results"
+msgid "Message that is displayed in the storefront after the poll is completed."
+msgstr "Zpráva, která je zobrazena v průčelí po dokončení ankety."
+
+msgctxt "SettingsSections::polls::general"
+msgid "General"
+msgstr "Obecné"
+
+msgctxt "SettingsOptions::polls::polls_votes_on_page"
+msgid "Votes on page"
+msgstr "Hlasů na stránce"
+
+msgctxt "SettingsOptions::polls::polls_comments_on_page"
+msgid "Answers on page"
+msgstr "Odpovědí na stránce"
+

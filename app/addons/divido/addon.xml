@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>divido</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <position>1</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <compatibility>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+        <php_extensions>
+            <mbstring>
+                <supported>Y</supported>
+            </mbstring>
+        </php_extensions>
+    </compatibility>
+    <functions>
+        <item for="install">fn_divido_install</item>
+        <item for="uninstall">fn_divido_uninstall</item>
+    </functions>
+</addon>

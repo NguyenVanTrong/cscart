@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/price_list.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-27 03:41-0500\n"
+
+msgctxt "Addons::name::price_list"
+msgid "Price list"
+msgstr "Прайс-лист"
+
+msgctxt "Addons::description::price_list"
+msgid "Generates configurable price list in PDF or XLS"
+msgstr "Прайс-листы в форматах PDF и XLS (Microsoft Excel)"
+
+msgctxt "Languages::price_list"
+msgid "Price list"
+msgstr "Прайс-лист"
+
+msgctxt "Languages::selected_fields"
+msgid "Selected fields"
+msgstr "Выбранные поля"
+
+msgctxt "Languages::generating_pdf"
+msgid "Generating PDF. Please, be patient..."
+msgstr "Генерация PDF. Пожалуйста, подождите..."
+
+msgctxt "Languages::generating_xls"
+msgid "Generating XLS. Please, be patient..."
+msgstr "Генерация XLS. Пожалуйста, подождите..."
+
+msgctxt "Languages::price_list_ziparchive_not_installed"
+msgid "Impossible to create XML price list. Please add zip support in PHP on your server. Follow <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+msgstr "Невозможно создать прайс-лист в формате XML. Пожалуйста, добавьте поддержку ZIP-архивов в PHP на своем сервере. Узнайте больше на сайте PHP: <a href=\"http://www.php.net/manual/ru/zip.installation.php\">http://www.php.net/manual/ru/zip.installation.php</a>."
+
+msgctxt "Languages::price_list.text_select_storefront"
+msgid "To generate a price list, please select storefront first."
+msgstr "Для получения прайс-листа, пожалуйста, выберите сначала в витрину."
+
+msgctxt "Languages::price_list.text_regenerate"
+msgid "<p>If products, categories or selected fields were added or changed, please regenerate a price list:<br />[buttons]</p><p>Generated price lists are available by these links<br/>[links]</p>"
+msgstr "<p>Если товары, категории или настройки модуля были изменены, пожалуйста создайте прайс-лист заново: <br/>[buttons]</p> <p>Созданные прайс-листы доступны по ссылкам <br/>[links]</p>"
+
+msgctxt "SettingsSections::price_list::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::price_list::price_list_fields"
+msgid "Fields"
+msgstr "Поля"
+
+msgctxt "SettingsOptions::price_list::price_list_sorting"
+msgid "Sort by"
+msgstr "Сортировка"
+
+msgctxt "SettingsOptions::price_list::group_by_category"
+msgid "Group by category"
+msgstr "Группировать по категориям"
+
+msgctxt "SettingsOptions::price_list::include_options"
+msgid "Include product options"
+msgstr "Включать опции товаров"
+

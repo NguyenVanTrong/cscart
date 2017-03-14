@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /addons/watermarks.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2016-11-28 04:04-0500\n"
+
+msgctxt "Addons::name::watermarks"
+msgid "Watermarks"
+msgstr "Wasserzeichen"
+
+msgctxt "Addons::description::watermarks"
+msgid "Allows you to add watermarks to product and category images"
+msgstr "Ermöglicht es, Wasserzeichen in Artikel- und Kategorie Bilder einzufügen"
+
+msgctxt "Languages::wt_watermarks"
+msgid "Watermarks"
+msgstr "Wasserzeichen"
+
+msgctxt "Languages::wt_graphic_watermark"
+msgid "Graphic watermark"
+msgstr "Grafische Wasserzeichen"
+
+msgctxt "Languages::wt_text_watermark"
+msgid "Text watermark"
+msgstr "Text Wasserzeichen"
+
+msgctxt "Languages::wt_watermark_vertical_position"
+msgid "Watermark vertical position"
+msgstr "Wasserzeichen vertikale Position"
+
+msgctxt "Languages::wt_watermark_horizontal_position"
+msgid "Watermark horizontal position"
+msgstr "Wasserzeichen horizontale Position"
+
+msgctxt "Languages::wt_watermark_position"
+msgid "Watermark position"
+msgstr "Wasserzeichen Position"
+
+msgctxt "Languages::wt_watermark_image"
+msgid "Watermark image"
+msgstr "Wasserzeichen Bild"
+
+msgctxt "Languages::wt_watermark_text"
+msgid "Watermark text"
+msgstr "Wasserzeichen Text"
+
+msgctxt "Languages::wt_font"
+msgid "Font"
+msgstr "Schrift"
+
+msgctxt "Languages::wt_font_color"
+msgid "Font color"
+msgstr "Schriftfarbe"
+
+msgctxt "Languages::wt_font_size_icon"
+msgid "Font size (thumbnail)"
+msgstr "Schriftgröße (Miniaturansicht)"
+
+msgctxt "Languages::wt_font_size_detailed"
+msgid "Font size (larger image)"
+msgstr "Schriftgröße (größeres Bild)"
+
+msgctxt "Languages::wt_watermark_icon"
+msgid "Thumbnail watermark"
+msgstr "Miniaturwasserzeichen"
+
+msgctxt "Languages::wt_watermark_detailed"
+msgid "Popup larger image watermark"
+msgstr "Wasserzeichen für größere Bilder (Popup)"
+
+msgctxt "Languages::wt_fail_apply_graphic_watermark"
+msgid "Failed to apply the watermark to [image_type]. The watermark image is not added."
+msgstr "Fehler beim hinzufügen des Wasserzeichens in [image_type]. Das Wasserzeichen wurde nicht hinzugefügt."
+
+msgctxt "Languages::wt_icons"
+msgid "thumbnails"
+msgstr "Miniaturbilder (Thumbnails)"
+
+msgctxt "Languages::wt_detailed"
+msgid "popup larger images"
+msgstr "Größere Bilder im separaten Fenster öffnen (Popup)"
+
+msgctxt "Languages::wt_images_access_description"
+msgid "To deny access to your original images, please add the following instructions to the '.htaccess' file in the 'images' directory of your installation. It will protect your original images. Even if an original image is opened, the corresponding watermarked image will be show instead."
+msgstr "Um den Zugriff auf Original-Bilder zu verweigern, fügen Sie bitte die folgenden Anweisungen in die \".htaccess\" Datei im Bilder-Verzeichnis des Shops ein. Dies wird die Originalbilder schützen. Selbst wenn ein Originalbild geöffnet wird, wird das entsprechende mit Wasserzeichen versehene Bild angezeigt."
+
+msgctxt "Languages::wt_watermarks_access_description"
+msgid "To generate watermarked images automatically even if they are requested not from your store pages, please add the '.htaccess' file with the following instructions to the 'images/watermarked' directory of your installation."
+msgstr ""
+
+msgctxt "Languages::wt_access_note"
+msgid "Please note, if you disable or uninstall the 'Watermarks' add-on, you should remove these instructions from '.htaccess' files manually. Otherwise category and product images will be unavailable."
+msgstr ""
+
+msgctxt "Languages::wt_access_warning"
+msgid "Watermark creating is disabled. If there are any \"Rewrite watermarks rules\" instructions in the \"images/.htaccess\" file, you should remove them manually. Otherwise category and product images will be unavailable."
+msgstr ""
+
+msgctxt "Languages::wt_images_access_info"
+msgid "Images access"
+msgstr "Bilderzugriff"
+
+msgctxt "SettingsSections::watermarks::general"
+msgid "General"
+msgstr "Allgemein"
+
+msgctxt "SettingsOptions::watermarks::watermark"
+msgid "Watermark"
+msgstr "Wasserzeichen"
+
+msgctxt "SettingsOptions::watermarks::apply_to_product"
+msgid "Product watermarks"
+msgstr "Artikel-Wasserzeichen"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_icons"
+msgid "Resized images"
+msgstr "In der Größe veränderte Bilder"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_detailed"
+msgid "Original size images"
+msgstr "Originalgröße der Bilder"
+
+msgctxt "SettingsOptions::watermarks::apply_to_categories"
+msgid "Category watermarks"
+msgstr "Kategorie-Wasserzeichen"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_icons"
+msgid "Resized images"
+msgstr "In der Größe veränderte Bilder"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_detailed"
+msgid "Original size images"
+msgstr "Originalgröße der Bilder"
+
+msgctxt "SettingsOptions::watermarks::images_access_info"
+msgid "Images access"
+msgstr "Bilderzugriff"
+

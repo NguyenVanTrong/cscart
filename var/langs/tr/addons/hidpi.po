@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /addons/hidpi.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::hidpi"
+msgid "HiDPI displays support"
+msgstr "HiDPI görüntü desteği"
+
+msgctxt "Addons::description::hidpi"
+msgid "Support for Retina displays"
+msgstr "Retina ekranlar için destek"
+
+msgctxt "Languages::text_hidpi_support_enabled"
+msgid "HiDPI support is enabled"
+msgstr "HiDPI desteği etkin"
+
+msgctxt "Languages::text_hidpi_support_tooltip"
+msgid "What does HiDPI stand for?HiDPI stands for High resolution Dots Per Inch when referring to displays. For example, the Retina displays found on the iPhone, iPad, and MacBook Pro are HiDPI."
+msgstr "HiDPI'ın anlamı nedir? Ekranlardan bahsedilirken HidDPI'ın anlamı Yüksek Çözünürlüklü İnç Başına Nokta Sayısıdır. Örneğin, iPhone, iPad ve MacBook Pro gibi cihazlarda bulunan Retina Ekranlar HiDPI'dır."
+
+msgctxt "Languages::text_hidpi_install"
+msgid "All newly uploaded images will be automatically shrinked to improve loading time on non-HiDPI devices. Existing images are not changed. It is recommended to upload high-definition images."
+msgstr "Tüm yeni yüklenen görüntüler, HiDPI olmayan aygıtlardaki yükleme süresinin geliştirilebilmesi için otomatik olarak küçültüleceklerdir. Var olan görüntüler değiştirilmez. Yüksek çözünürlüklü görüntülerin yüklenmesi tavsiye edilir."
+
+msgctxt "Languages::text_hidpi_uninstall"
+msgid "Some images may be shrinked to improve loading time on non-HiDPI devices. You may want to re-upload the images with better resolution."
+msgstr "Bazı görüntüler HiDPI olmayan aygıtlardaki yükleme sürelerinin geliştirilebilmesi için küçültülmüş olabilir. Görüntüleri daha iyi çözünürlükle tekrar yüklemek isteyebilirsiniz."
+
+msgctxt "Languages::addons.hidpi.thumbnail_format_changed"
+msgid "<a href=\"[settings_url]\">Thumbnail format</a> is set to PNG for better image quality."
+msgstr "<a href=\"[settings_url]\"> küçük resim biçimi</a> PNG için daha iyi görüntü kalitesi için ayarlanır."
+

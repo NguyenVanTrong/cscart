@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: no\n"
+"X-Crowdin-File: /addons/form_builder.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Skjemabygger"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us)"
+msgstr "Lar deg opprette egendefinerte skjemaer (f.eks kontakt oss)"
+
+msgctxt "Languages::use_for_form_builder"
+msgid "Custom forms"
+msgstr "Egendefinerte skjemaer"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Nytt skjema"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Redigerer skjema"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Skjemabygger"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Skjematekst for innsending"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "E-post til"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Skjema er sikkert (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Legg til skjema"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Basis"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Flere avkrysningsruter"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Flere valgbokser"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Topptekst"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Skilletegn"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Spesiell"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Liste over land"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Liste over stater"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "Henviser"
+
+msgctxt "Languages::email_template.form_builder_form"
+msgid "Contact form"
+msgstr "Kontaktskjema"
+
+msgctxt "Languages::addons.form_builder.form_fields"
+msgid "Form fields"
+msgstr "Skjemafelt"
+
+msgctxt "Languages::addons.form_builder.form_name"
+msgid "Form name"
+msgstr "Skjemanavn"
+
+msgctxt "Languages::addons.form_builder.other_subject"
+msgid "Other subject (specify below)"
+msgstr "Andre emner (angi nedenfor)"
+
+msgctxt "Languages::addons.form_builder.email_subject_field"
+msgid "E-mail subject field"
+msgstr "E-post emnefelt"
+
+msgctxt "Languages::ttc_addons.form_builder.email_subject_field"
+msgid "Fields of type \"Select box\" or \"Input field\" can be used"
+msgstr "Felt av typen \"Velg boks\" eller \"Input felt\" kan brukes"
+

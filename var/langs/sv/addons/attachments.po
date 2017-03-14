@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Swedish\n"
+"Language: sv_SE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sv-SE\n"
+"X-Crowdin-File: /addons/attachments.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2016-11-28 04:09-0500\n"
+
+msgctxt "Addons::name::attachments"
+msgid "Attachments"
+msgstr "Fäste"
+
+msgctxt "Addons::description::attachments"
+msgid "Makes it possible to attach files to products"
+msgstr "Gör det möjligt att bifoga filer till produkter"
+
+msgctxt "Languages::attachments"
+msgid "Attachments"
+msgstr "Fäste"
+
+msgctxt "Languages::new_attachment"
+msgid "New attachment"
+msgstr "Nya fästen"
+
+msgctxt "Languages::add_attachment"
+msgid "Add attachment"
+msgstr "Bifoga fil"
+
+msgctxt "Languages::editing_attachment"
+msgid "Editing attachment"
+msgstr "Redigerar fäste"
+

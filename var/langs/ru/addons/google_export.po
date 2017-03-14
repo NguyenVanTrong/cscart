@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/google_export.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-27 03:41-0500\n"
+
+msgctxt "Addons::name::google_export"
+msgid "Google export"
+msgstr "Прайс-лист для Google Base"
+
+msgctxt "Addons::description::google_export"
+msgid "Expands the Data Feeds add-on to work with Google Base and creates an example of such data feed"
+msgstr "Расширение модуля «Конструктор прайс-листов» для работы с сервисом Google Base"
+
+msgctxt "Languages::google_export_general_info"
+msgid "<p>Note: toggle this setting if you need multi-language Google categories installed. Supports French, German, Italian, Spanish, and British English. Pay attention that this operation can take a significant amount of time.</p>"
+msgstr "<p>Замечание: включите эту настройку, если вам необходимо, чтобы были установлены мультиязычные категории Google. Поддерживаются французский, немецкий, итальянский, испанский и британский английский языки. Обратите внимание, что данная операция может занять значительное время.</p>"
+
+msgctxt "Languages::google_export_start_import"
+msgid "Start importing"
+msgstr "Начать импорт"
+
+msgctxt "SettingsSections::google_export::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::google_export::general_info"
+msgid "General info"
+msgstr "Общая информация"
+
+msgctxt "SettingsOptions::google_export::additional_langs"
+msgid "Install additional languages for Google categories"
+msgstr "Установить дополнительные языки для категорий Google"
+
+msgctxt "Languages::addons.google_export.skip_zero_prices"
+msgid "Don't export items with a price value of 0.00"
+msgstr "Не экспортировать товары с нулевой ценой"
+
+msgctxt "Languages::addons.google_export.skip_zero_prices_description"
+msgid "You must not include a price value of 0.00 for your Google Products Feed items. Items with zero prices may not appear in the search results."
+msgstr "Вы не должны включать товары с нулевой ценой в выгрузку, так как они могут не отображаться в результатах поиска."
+
+msgctxt "Languages::addons.google_export.notice"
+msgid "Before you export products to Google Product Feed, make sure that the Code of your store's <a href=\"[currency_url]\">primary currency</a> conforms to <a href=\"http://www.currency-iso.org/en/home/tables/table-a1.html\">ISO 4217</a> and used <a href=\"[settings_url]\">Weight symbol</a> is one of the following: lb, oz, g, kg"
+msgstr "Прежде чем экспортировать товары, убедитесь, что код <a href=\"[currency_url]\">основной валюты</a> вашего магазина  соответствует <a href=\"http://www.currency-iso.org/en/home/tables/table-a1.html\">ISO 4217</a> и используется одна из следующих  <a href=\"[settings_url]\">единиц веса</a>: lb, oz, g, kg."
+
+msgctxt "Languages::addons.google_export.google_export"
+msgid "Google export"
+msgstr "Прайс-лист для Google Base"
+
+msgctxt "Languages::google_name_option"
+msgid "Equivalent in Google:"
+msgstr "Эквивалент в Google:"
+
+msgctxt "Languages::addons.google_export.tax_notice"
+msgid "For the US, don't include tax in the price. For Canada and India, do not include any value added tax in the price. For all other countries, value added tax (VAT) has to be included in the price."
+msgstr "Для США не следует добавлять налог к стоимости товара. Для Канады и Индии не следует добавлять налог на добавленную стоимость (НДС) к стоимости. В остальных случаях НДС необходимо добавлять к стоимости товара."
+
+msgctxt "Languages::addons.google_export.info_google_features"
+msgid "<p>Before you export a data feed file for Google Merchant, make sure to edit your products and specify the values of product features that belong to the Google Export group. You can do this via product import and export, or mass editing.</p><p> GTIN is a key identifier of a product. If you didn't specify GTIN as a feature, product's SKU from the CODE field will be used. GTINs for option combinations are always taken from the CODE fields of combinations.</p>"
+msgstr "<p>Прежде чем вы экспортируете прайс-лист в Google Merchant, не забудьте отредактировать ваши товары и указать значения товарных характеристик, относящихся к группе Google Export. Вы моежете сделать это с помощью импорта и экспорта, или используя массовое редактирование.</p><p> GTIN является ключевым идентификатором товара. Если в характеристиках вы не указали GTIN, вместо него будет использован SKU товара из поля CODE. GTIN для комбинаций опций всегда берётся из поля CODE данной комбинации.</p>"
+
+msgctxt "Languages::tt_addons_google_export_hooks_product_options_properties_post_google_name_option"
+msgid "When you export a data feed file, this option will provide data for the selected Google field type."
+msgstr "Данная опция предоставляет данные для выбранного типа поля Google при экспорте файла прайс-листа."
+
+msgctxt "Languages::addons.google_export.text_info_setting_options"
+msgid "Please make sure that you selected this option as \"Equivalent in Google\" for one of the options in your store. Otherwise the data feed file may not be exported properly."
+msgstr "Пожалуйста, убедитесь, что выбрали данную опцию в качестве \"Эквивалента в Google\" для одной из опций в вашем магазине. В противном случае файл прайс-листа может экспортироваться с ошибками."
+

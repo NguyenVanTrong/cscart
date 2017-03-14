@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: da\n"
+"X-Crowdin-File: /addons/form_builder.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:02-0500\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Form builder"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us)"
+msgstr "Lader dig oprette brugerdefinerede formularer (f.eks. Kontakt os)"
+
+msgctxt "Languages::use_for_form_builder"
+msgid "Custom forms"
+msgstr "Brugerdefinerede formularer"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Nyt form"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "redigere form"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Form bygger"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Form indsende tekst"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "E-mail til"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Form er sikker (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Tilføj form"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "basis"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Flere afkrydsningsfelt"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Flere selectbox"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Header"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "separator"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Speciel"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "lande liste"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Stat liste"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "Referer"
+
+msgctxt "Languages::email_template.form_builder_form"
+msgid "Contact form"
+msgstr "Kontaktformular"
+
+msgctxt "Languages::addons.form_builder.form_fields"
+msgid "Form fields"
+msgstr "Formularfelter"
+
+msgctxt "Languages::addons.form_builder.form_name"
+msgid "Form name"
+msgstr "Formularnavnet"
+
+msgctxt "Languages::addons.form_builder.other_subject"
+msgid "Other subject (specify below)"
+msgstr "Andre emne (præciseres nedenfor)"
+
+msgctxt "Languages::addons.form_builder.email_subject_field"
+msgid "E-mail subject field"
+msgstr "E-mailens emnefelt"
+
+msgctxt "Languages::ttc_addons.form_builder.email_subject_field"
+msgid "Fields of type \"Select box\" or \"Input field\" can be used"
+msgstr "Felter af typen \"skal du vælge afkrydsningsfeltet\" eller \"Input felt\" kan bruges"
+

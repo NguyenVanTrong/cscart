@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /addons/call_requests.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::call_requests"
+msgid "Call requests"
+msgstr "Запити на дзвінки"
+
+msgctxt "Addons::description::call_requests"
+msgid "Adds a call-requests system"
+msgstr "Покупка в один клік і зворотний дзвінок"
+
+msgctxt "SettingsSections::call_requests::general"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "SettingsOptions::call_requests::general"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "SettingsOptions::call_requests::phone"
+msgid "Rewrite phone"
+msgstr "Переписати телефон"
+
+msgctxt "SettingsOptions::call_requests::phone_prefix_length"
+msgid "Highlight first chars"
+msgstr "Виділити перший символ"
+
+msgctxt "SettingsOptions::call_requests::buy_now_with_one_click"
+msgid "Enable the \"Buy now with one click\" option"
+msgstr "Увімкніть параметр \"Купити зараз з одним натисненням кнопки\""
+
+msgctxt "SettingsOptions::call_requests::order_status"
+msgid "Order status"
+msgstr "Статус замовлення"
+
+msgctxt "SettingsOptions::call_requests::phone_mask"
+msgid "Phone mask"
+msgstr "Телефонна маска"
+
+msgctxt "SettingsTooltips::call_requests::phone_mask"
+msgid "Leave empty to use automatic country-based phone pattern, or type in a custom pattern. You can use spaces, commas, +, -, and digits. Note that 9 represents any digit; if you need a 9, type \\\\9. Examples: +9 (999) 999 99 99, 99999999, 999 999 99 or +99-99-9999-9999."
+msgstr "Залиште порожнім для автоматичного вибору шаблону по країні. У власному шаблоні можна використовувати пробіли, коми, +, - і цифри. 9 означає будь-яку цифру. Використовуйте \\\\9 для дев'ятки. Приклади: +9 (999) 999 99 99, 99999999, 999 999 99 or + 99-99-9999-9999."
+
+msgctxt "SettingsTooltips::call_requests::phone_prefix_length"
+msgid "Including parenthesis, spaces, etc. Use to highlight country code, area code, and phone prefix."
+msgstr "Включаючи дужки, пробіли та інші символи. Використовуйте для підсвічування коду країни та міста чи коду оператора в мобільному номері."
+
+msgctxt "Languages::privileges.manage_call_requests"
+msgid "Manage Call requests"
+msgstr "Управління зворотними дзвінками"
+
+msgctxt "Languages::privileges.view_call_requests"
+msgid "View Call requests"
+msgstr "Перегляд зворотних дзвінків"
+
+msgctxt "Languages::call_requests"
+msgid "Call requests"
+msgstr "Запити викликів"
+
+msgctxt "Languages::call_requests_menu_description"
+msgid "Manage customer call requests"
+msgstr "Управління зверненнями клієнтів"
+
+msgctxt "Languages::call_requests.request_call"
+msgid "Request call"
+msgstr "Запит виклику"
+
+msgctxt "Languages::call_requests.buy_now_with_one_click"
+msgid "Buy now with 1-click"
+msgstr "Купити зараз з 1-клік"
+
+msgctxt "Languages::call_requests.error_validate_call_form"
+msgid "Please enter your email or phone number"
+msgstr "Будь ласка, введіть ваш номер телефону чи електронної пошти"
+
+msgctxt "Languages::call_requests.request_recieved"
+msgid "We have received your request! Our manager will contact you soon."
+msgstr "Ми отримали ваш запит! Наш менеджер зв'яжеться з вами найближчим часом."
+
+msgctxt "Languages::call_requests.order_placed"
+msgid "We have received your request! The order #[order_id] has been successfully created. Our manager will contact you soon."
+msgstr "Ми отримали ваш запит! Створено замовлення #[order_id]. Наш менеджер зв'яжеться з вами найближчим часом."
+
+msgctxt "Languages::call_requests.phone_from_settings"
+msgid "Phone from settings"
+msgstr "Телефон з налаштувань"
+
+msgctxt "Languages::call_requests.enter_phone_or_email_text"
+msgid "Please enter your phone number or email (for our manager to contact you)"
+msgstr "Будь ласка, введіть ваш номер телефону або електроннї пошти (для зв'язку з вами)"
+
+msgctxt "Languages::call_requests.status.new"
+msgid "New"
+msgstr "Нові"
+
+msgctxt "Languages::call_requests.status.in_progress"
+msgid "In progress"
+msgstr "Триває"
+
+msgctxt "Languages::call_requests.status.completed"
+msgid "Completed"
+msgstr "Завершено"
+
+msgctxt "Languages::call_requests.status.no_answer"
+msgid "No answer"
+msgstr "Немає відповіді"
+
+msgctxt "Languages::call_requests.responsible"
+msgid "Responsible"
+msgstr "Відповідальний"
+
+msgctxt "Languages::call_requests.notes"
+msgid "Notes"
+msgstr "Коментарі"
+
+msgctxt "Languages::call_requests.requested_product"
+msgid "Requested product"
+msgstr "Запитаний товар"
+
+msgctxt "Languages::call_requests.convenient_time"
+msgid "Convenient time"
+msgstr ""
+
+msgctxt "Languages::call_requests.awaiting_call"
+msgid "Awaiting call"
+msgstr "Очікує на дзвінок"
+
+msgctxt "Languages::call_requests.order_exists"
+msgid "Order exists"
+msgstr "Замовлення існує"
+
+msgctxt "Languages::call_requests.person_name_and_phone"
+msgid "Name and phone"
+msgstr "Ім'я та телефон"
+
+msgctxt "Languages::call_requests.no_name_specified"
+msgid "No name specified"
+msgstr "Ім'я не вказано"
+
+msgctxt "Languages::call_requests.use_for_call_requests"
+msgid "Call request and buy now with one click form"
+msgstr "Форм зворотного дзвінка і покупки в 1 клік"
+
+msgctxt "Languages::block_call_request"
+msgid "Call request"
+msgstr "Запити викликів"
+
+msgctxt "Languages::block_call_request_description"
+msgid "Store phone number and form for requesting a call"
+msgstr "Телефон магазину і форма для замовлення дзвінка"
+
+msgctxt "Languages::tmpl_call_request"
+msgid "Call request form"
+msgstr "Зворотній дзвінок"
+
+msgctxt "Languages::call_requests.text_call_request"
+msgid "Customer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number]."
+msgstr ""
+
+msgctxt "Languages::call_requests.text_call_request_call_time"
+msgid "The convenient call time is between [time_from] and [time_to]."
+msgstr "Зручний час для звінка від [time_from] до [time_to]."
+
+msgctxt "Languages::call_requests.text_buy_with_one_click_request"
+msgid "Сustomer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number], regarding the purchase of the product <a href=\"[product_href]\">[product_name]</a>."
+msgstr "Клієнт [customer] - <a href=\"[href]\">чекає вашого дзвінка</a> на номер [phone_number], щодо купівлі товару <a href=\"[product_href]\">[product_name]</a>."
+
+msgctxt "Languages::call_requests.error_validator_phone"
+msgid "The phone number in the <b>[field]</b> field is invalid."
+msgstr ""
+
+msgctxt "Languages::email_template.call_requests_buy_with_one_click"
+msgid "Call requests: buy with one click notification"
+msgstr ""
+
+msgctxt "Languages::email_template.call_requests_call_request"
+msgid "Call requests: call request notification"
+msgstr ""
+
+msgctxt "Languages::call_request.work_time"
+msgid "Mon-Fr 9a.m.-6p.m."
+msgstr ""
+

@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /addons/tags.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:00-0500\n"
+
+msgctxt "Addons::name::tags"
+msgid "Tags"
+msgstr "العلامات"
+
+msgctxt "Addons::description::tags"
+msgid "Enables product tags"
+msgstr "تمكين علامات المنتج"
+
+msgctxt "Languages::tags_menu_description"
+msgid "Manage product and content page tags."
+msgstr ""
+
+msgctxt "Languages::sign_in_to_enter_tags"
+msgid "Sign in to enter tags"
+msgstr "قم بتسجيل الدخول لإدخال العلامات"
+
+msgctxt "Languages::tag_cloud"
+msgid "Tag cloud"
+msgstr ""
+
+msgctxt "Languages::tags"
+msgid "Tags"
+msgstr ""
+
+msgctxt "Languages::block_tags"
+msgid "Tags"
+msgstr ""
+
+msgctxt "Languages::block_tags_description"
+msgid "Product tags"
+msgstr ""
+
+msgctxt "Languages::addons.tags.add_a_tag"
+msgid "add a tag"
+msgstr ""
+
+msgctxt "Languages::items_marked_by_tag"
+msgid "Items marked by the \"[tag]\" tag:"
+msgstr ""
+
+msgctxt "Languages::tag"
+msgid "Tag"
+msgstr ""
+
+msgctxt "Languages::add_tag"
+msgid "Add tag"
+msgstr ""
+
+msgctxt "SettingsSections::tags::general"
+msgid "General"
+msgstr ""
+
+msgctxt "SettingsOptions::tags::tags_for_products"
+msgid "Tags for products"
+msgstr ""
+
+msgctxt "SettingsOptions::tags::tags_for_pages"
+msgid "Tags for pages"
+msgstr ""
+

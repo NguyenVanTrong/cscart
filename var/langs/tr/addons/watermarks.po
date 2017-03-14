@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /addons/watermarks.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::watermarks"
+msgid "Watermarks"
+msgstr "Filigranlar"
+
+msgctxt "Addons::description::watermarks"
+msgid "Allows you to add watermarks to product and category images"
+msgstr "Ürün ve kategori resimlere filigran eklemenizi sağlar"
+
+msgctxt "Languages::wt_watermarks"
+msgid "Watermarks"
+msgstr "Filigranlar"
+
+msgctxt "Languages::wt_graphic_watermark"
+msgid "Graphic watermark"
+msgstr "Grafik filigran"
+
+msgctxt "Languages::wt_text_watermark"
+msgid "Text watermark"
+msgstr "Metin filigranı"
+
+msgctxt "Languages::wt_watermark_vertical_position"
+msgid "Watermark vertical position"
+msgstr "Filigran Dikey konumu"
+
+msgctxt "Languages::wt_watermark_horizontal_position"
+msgid "Watermark horizontal position"
+msgstr "Filigran yatay konumu"
+
+msgctxt "Languages::wt_watermark_position"
+msgid "Watermark position"
+msgstr "Filigran konumu"
+
+msgctxt "Languages::wt_watermark_image"
+msgid "Watermark image"
+msgstr "Filigran resmi"
+
+msgctxt "Languages::wt_watermark_text"
+msgid "Watermark text"
+msgstr "Filigran metni"
+
+msgctxt "Languages::wt_font"
+msgid "Font"
+msgstr "Yazı tipi"
+
+msgctxt "Languages::wt_font_color"
+msgid "Font color"
+msgstr "Yazı tipi rengi"
+
+msgctxt "Languages::wt_font_size_icon"
+msgid "Font size (thumbnail)"
+msgstr "Yazı tipi boyutu (küçük resim)"
+
+msgctxt "Languages::wt_font_size_detailed"
+msgid "Font size (larger image)"
+msgstr "Yazı tipi boyutu (büyük resim)"
+
+msgctxt "Languages::wt_watermark_icon"
+msgid "Thumbnail watermark"
+msgstr "Küçük resim filigran"
+
+msgctxt "Languages::wt_watermark_detailed"
+msgid "Popup larger image watermark"
+msgstr "Daha büyük görüntü filigran (açılır)"
+
+msgctxt "Languages::wt_fail_apply_graphic_watermark"
+msgid "Failed to apply the watermark to [image_type]. The watermark image is not added."
+msgstr "[image_type] için filigran uygulanamadı. Filigran resim eklenemedi."
+
+msgctxt "Languages::wt_icons"
+msgid "thumbnails"
+msgstr "Küçük resimler"
+
+msgctxt "Languages::wt_detailed"
+msgid "popup larger images"
+msgstr "Daha büyük görüntü (açılır)"
+
+msgctxt "Languages::wt_images_access_description"
+msgid "To deny access to your original images, please add the following instructions to the '.htaccess' file in the 'images' directory of your installation. It will protect your original images. Even if an original image is opened, the corresponding watermarked image will be show instead."
+msgstr "Orjinal resim dosyalarınızın bulunduğu dizine direkt erişimi engellemek için, lütfen CS-Cartınızın images klasöründeki '.htaccess' dosyasına aşağıdaki kodu ekleyiniz. Böylece orijinal resim korunacaktır. Orijinal bir resim açıldığında dahi, buna karşılık gelen filigranlı resim görüntülenecektir."
+
+msgctxt "Languages::wt_watermarks_access_description"
+msgid "To generate watermarked images automatically even if they are requested not from your store pages, please add the '.htaccess' file with the following instructions to the 'images/watermarked' directory of your installation."
+msgstr "Sizin mağaza sayfanızdan istenmemiş olsa bile filigranlı resimleri oluşturmak için, lütfen '.htaccess' dosyasını aşağıdaki yönergelerle birlikte yüklemenizin 'images/watermarks' dizinine ekleyin."
+
+msgctxt "Languages::wt_access_note"
+msgid "Please note, if you disable or uninstall the 'Watermarks' add-on, you should remove these instructions from '.htaccess' files manually. Otherwise category and product images will be unavailable."
+msgstr "\"Watermarks\" eklentisini iptal eder veya kaldırırsanız, bu yönergeleri '.htaccess' dosyasından elle kaldırmanız gerekeceğini göz önünde bulundurun. Aksi takdirde kategori ve ürün resimlerine ulaşılamayacaktır."
+
+msgctxt "Languages::wt_access_warning"
+msgid "Watermark creating is disabled. If there are any \"Rewrite watermarks rules\" instructions in the \"images/.htaccess\" file, you should remove them manually. Otherwise category and product images will be unavailable."
+msgstr "Filigran oluşturma devre dışı bırakıldı. \"images/.htaccess\" dosyasında herhangi bir \"Filigran yeniden yazma kuralları\" yönergesi bulunması durumunda, bunları elle kaldırmanız gerekecektir. Aksi takdirde kategori ve ürün resimlerine ulaşılamayacaktır."
+
+msgctxt "Languages::wt_images_access_info"
+msgid "Images access"
+msgstr "Görsellere erişim"
+
+msgctxt "SettingsSections::watermarks::general"
+msgid "General"
+msgstr "Genel"
+
+msgctxt "SettingsOptions::watermarks::watermark"
+msgid "Watermark"
+msgstr "Filigran"
+
+msgctxt "SettingsOptions::watermarks::apply_to_product"
+msgid "Product watermarks"
+msgstr "Ürün filigranları"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_icons"
+msgid "Resized images"
+msgstr "Yeniden boyutlandırılan resimler"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_detailed"
+msgid "Original size images"
+msgstr "Orijinal boyutlu görüntü"
+
+msgctxt "SettingsOptions::watermarks::apply_to_categories"
+msgid "Category watermarks"
+msgstr "Kategori filigranları"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_icons"
+msgid "Resized images"
+msgstr "Yeniden boyutlandırılan resimler"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_detailed"
+msgid "Original size images"
+msgstr "Orijinal boyutlu görüntü"
+
+msgctxt "SettingsOptions::watermarks::images_access_info"
+msgid "Images access"
+msgstr "Görsellere erişim"
+

@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/form_builder.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Tạo mẫu nhập văn bản"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us)"
+msgstr "Cho phép bạn tạo tùy chỉnh mẫu nhập (ví dụ như Liên hệ)"
+
+msgctxt "Languages::use_for_form_builder"
+msgid "Custom forms"
+msgstr "Mẫu nhập tùy chỉnh"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Mẫu nhập mới"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Chỉnh sửa mẫu nhập"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Tạo mẫu nhập văn bản"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Mẫu gửi văn bản"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "Email nhận"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Mẫu nhập bảo mật (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Thêm mẫu nhập"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Cơ sở"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Nhiều hộp kiểm"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Nhiều lựa chọn"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Tiêu đề"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Phân loại"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Đặc biệt"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Danh sách quốc gia"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Danh sách Tỉnh/TP"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "Tham khảo"
+
+msgctxt "Languages::email_template.form_builder_form"
+msgid "Contact form"
+msgstr "Mẫu liên hệ"
+
+msgctxt "Languages::addons.form_builder.form_fields"
+msgid "Form fields"
+msgstr "Biểu mẫu"
+
+msgctxt "Languages::addons.form_builder.form_name"
+msgid "Form name"
+msgstr "Tên biểu mẫu"
+
+msgctxt "Languages::addons.form_builder.other_subject"
+msgid "Other subject (specify below)"
+msgstr "Chủ đề khác (hãy chỉ ra dưới đây)"
+
+msgctxt "Languages::addons.form_builder.email_subject_field"
+msgid "E-mail subject field"
+msgstr "Mục chủ đề email"
+
+msgctxt "Languages::ttc_addons.form_builder.email_subject_field"
+msgid "Fields of type \"Select box\" or \"Input field\" can be used"
+msgstr "Các mục của loại \"Hộp chọn\" hoặc \"Mục nhập\" có thể được sử dụng"
+

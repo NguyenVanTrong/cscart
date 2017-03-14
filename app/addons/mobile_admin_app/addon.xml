@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>mobile_admin_app</id>
+    <version>3.10</version>
+    <name>Mobile Admin App (ex Twigmo)</name>
+    <description>Adds the mobile admin support</description>
+    <priority>100500</priority>
+    <position>0</position>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <compatibility>
+        <core_version>
+            <min>4.4.1</min>
+        </core_version>
+        <conflicts>twigmo</conflicts>
+    </compatibility>
+    <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="service" edition_type="ROOT">
+                <items>
+                    <item id="connect">
+                        <type>template</type>
+                        <default_value>connect.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="admin_app" edition_type="ROOT,ULT:VENDOR">
+                <items>
+                    <item id="admin_app">
+                        <type>template</type>
+                        <default_value>admin_app.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:mobile_admin_app_ua_stat` (
+                `section` varchar(50) CHARACTER SET utf8 NOT NULL,
+                `value` varchar(255) CHARACTER SET utf8 NOT NULL,
+                `count` int(10) unsigned NOT NULL DEFAULT '0',
+                `month` date,
+                PRIMARY KEY (`section`,`value`,`month`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:mobile_admin_app_stores` (
+                `company_id` int(10) unsigned NOT NULL DEFAULT '0',
+                `type` char(1) CHARACTER SET utf8 NOT NULL DEFAULT 'C' COMMENT 'May be ''A'' for admin or ''C'' for customer',
+                `access_id` char(6) CHARACTER SET utf8 NOT NULL,
+                `url` varchar(255) CHARACTER SET utf8 NOT NULL,
+                `home_page_content` VARCHAR(255) CHARACTER SET utf8 NOT NULL DEFAULT  'home_page_blocks',
+                `url_for_twitter` varchar(255) CHARACTER SET utf8 NOT NULL,
+                `url_for_facebook` varchar(255) CHARACTER SET utf8 NOT NULL,
+                `logo_url` varchar(255) CHARACTER SET utf8 NOT NULL,
+                `favicon_url` varchar(255) CHARACTER SET utf8 NOT NULL,
+                `url_on_appstore` varchar(255) CHARACTER SET utf8 NOT NULL,
+                `url_on_googleplay` varchar(255) CHARACTER SET utf8 NOT NULL,
+                `geolocation` CHAR(1) CHARACTER SET utf8 NOT NULL DEFAULT 'N',
+                `only_req_profile_fields` CHAR(1) CHARACTER SET utf8 NOT NULL DEFAULT 'N',
+                `show_product_code` CHAR(1) CHARACTER SET utf8 NOT NULL DEFAULT 'N',
+                `use_for_phones` char(1) CHARACTER SET utf8 NOT NULL DEFAULT 'Y',
+                `use_for_tablets` char(1) CHARACTER SET utf8 NOT NULL DEFAULT 'Y',
+                `send_order_status_push` CHAR( 1 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT  'Y',
+                `push_subscribers_android` INT UNSIGNED NOT NULL DEFAULT  '0',
+                `push_subscribers_ios` INT UNSIGNED NOT NULL DEFAULT  '0',
+                `plan_display_name` VARCHAR(255) CHARACTER SET utf8 NOT NULL,
+                `repo_revision` int(11) unsigned NOT NULL,
+                PRIMARY KEY (`company_id`, `type`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">
+            DROP TABLE IF EXISTS ?:mobile_admin_app_stores
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:mobile_admin_app_settings` (
+                `name` varchar(255) NOT NULL,
+                `value` text NOT NULL,
+                PRIMARY KEY (`name`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="uninstall">
+            DROP TABLE IF EXISTS ?:mobile_admin_app_settings
+        </item>
+    </queries>
+
+</addon>

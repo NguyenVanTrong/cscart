@@ -1,0 +1,30 @@
+{
+    "title": "Responsive theme",
+    "description": "Responsive theme lets your store shine on all screen sizes, from phones to tablets to PCs, by adapting page layout on the fly. The theme has minimalistic look & feel sweetened with great typography and driven by the latest web design trends.",
+    "logo": "media/images/cart.png",
+    "mail": "media/images/invoice_logo.png",
+    "developer": "Simtech",
+    "favicon": "media/images/icons/favicon.ico",
+    "parent_theme": "responsive",
+    "EXAMPLE_settings_overrides": {
+        "General": {
+            "enable_compare_products": false
+        },
+        "Appearance": {
+            "default_products_view": "products_without_options",
+            "default_product_details_view": "bigpicture_template",
+            "thumbnails_gallery": true,
+            "enable_quick_view": false,
+            "available_product_list_sortings": [
+                "product-asc",
+                "product-desc",
+                "price-asc",
+                "price-desc"
+            ]
+        },
+        "Thumbnails": {
+            "product_lists_thumbnail_width": 300,
+            "product_lists_thumbnail_height": 300
+        }
+    }
+}

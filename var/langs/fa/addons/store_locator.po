@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/store_locator.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::store_locator"
+msgid "Store locator"
+msgstr "موقعیت یاب فروشگاه"
+
+msgctxt "Addons::description::store_locator"
+msgid "Lets you place local stores on map and inform customers about their nearest stores"
+msgstr "اجازه می دهد تا شما فروشگاه های محلی در نقشه را مشخص نمایید و مشتریان را در مورد نزدیک ترین فروشگاه هایشان مطلع نماید"
+
+msgctxt "Languages::view_on_map"
+msgid "View on map"
+msgstr "نمایش در نقشه"
+
+msgctxt "Languages::get_api_key"
+msgid "Obtaining an API Key"
+msgstr "به دست آوردن کلید API"
+
+msgctxt "Languages::block_store_locator"
+msgid "Store locator"
+msgstr "موقعیت یاب فروشگاه"
+
+msgctxt "Languages::block_store_locator_description"
+msgid "Store locator block"
+msgstr "بلوک فروشگاه یاب"
+
+msgctxt "Languages::text_address_not_found"
+msgid "Address not found"
+msgstr "نشانی یافت نشد"
+
+msgctxt "Languages::select_coordinates"
+msgid "Select coordinates"
+msgstr "مختصات را انتخاب کنید"
+
+msgctxt "Languages::set"
+msgid "Set"
+msgstr "مجموعه"
+
+msgctxt "Languages::editing_store_location"
+msgid "Editing store location"
+msgstr "ویرایش مکان فروشگاه"
+
+msgctxt "Languages::new_store_location"
+msgid "New store location"
+msgstr "مکان فروشگاه جدید"
+
+msgctxt "Languages::add_store_location"
+msgid "Add store location"
+msgstr "اضافه کردن محل فروشگاه"
+
+msgctxt "Languages::coordinates"
+msgid "Coordinates"
+msgstr "مختصات"
+
+msgctxt "Languages::latitude_short"
+msgid "lat"
+msgstr "عرض جغرافیایی"
+
+msgctxt "Languages::longitude_short"
+msgid "long"
+msgstr "طول جغرافیایی"
+
+msgctxt "Languages::all_stores"
+msgid "All stores"
+msgstr "همه فروشگاه ها"
+
+msgctxt "Languages::zoom"
+msgid "Map zoom"
+msgstr "زوم کردن نقشه"
+
+msgctxt "Languages::map_type_control"
+msgid "MapType control"
+msgstr "کنترل نوع نقشه"
+
+msgctxt "Languages::zoom_control"
+msgid "Zoom control"
+msgstr "کنترل زوم"
+
+msgctxt "Languages::scale_control"
+msgid "Scale control"
+msgstr "کنترل مقیاس"
+
+msgctxt "SettingsSections::store_locator::general"
+msgid "General"
+msgstr "عمومی"
+
+msgctxt "SettingsOptions::store_locator::provider"
+msgid "Map provider"
+msgstr "ارائه دهنده نقشه"
+
+msgctxt "SettingsOptions::store_locator::map_provider"
+msgid "Map"
+msgstr "نقشه"
+
+msgctxt "SettingsOptions::store_locator::settings"
+msgid "Settings"
+msgstr "تنظیمات"
+
+msgctxt "SettingsVariants::store_locator::map_provider::google"
+msgid "Google"
+msgstr "گوگل"
+
+msgctxt "SettingsVariants::store_locator::map_provider::yandex"
+msgid "Yandex"
+msgstr ""
+
+msgctxt "Languages::privileges.manage_store_locator"
+msgid "Manage store locator"
+msgstr "مدیریت موقعیت یاب فروشگاه"
+
+msgctxt "Languages::privileges.view_store_locator"
+msgid "View store locator"
+msgstr "مشاهده موقعیت یاب فروشگاه"
+

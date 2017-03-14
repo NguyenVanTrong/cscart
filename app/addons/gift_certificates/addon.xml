@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>gift_certificates</id>
+    <version>1.0</version>
+    <priority>1100</priority>
+    <position>180</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="min_amount">
+                        <type>input</type>
+                        <default_value>50</default_value>
+                    </item>
+                    <item id="max_amount">
+                        <type>input</type>
+                        <default_value>1500</default_value>
+                    </item>
+                    <item id="code_prefix">
+                        <type>input</type>
+                        <default_value>GC</default_value>
+                    </item>
+                    <item id="cert_per_page">
+                        <type>input</type>
+                        <default_value>10</default_value>
+                    </item>
+                    <item id="free_products_allow">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="redeem_shipping_cost">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:gift_certificates;</item>
+        <item>DROP TABLE IF EXISTS ?:gift_certificates_log;</item>
+        <item>
+            CREATE TABLE `?:gift_certificates` (
+                `gift_cert_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `company_id` int(11) unsigned NOT NULL default '0',
+                `gift_cert_code` varchar(255) NOT NULL default '',
+                `sender` varchar(64) NOT NULL default '',
+                `recipient` varchar(64) NOT NULL default '',
+                `send_via` char(1) NOT NULL default 'E',
+                `amount` decimal(12,2) NOT NULL default '0.00',
+                `email` varchar(64) NOT NULL default '',
+                `address` varchar(255) NOT NULL default '',
+                `address_2` varchar(255) NOT NULL default '',
+                `city` varchar(255) NOT NULL default '',
+                `state` varchar(32) NOT NULL default '',
+                `country` char(2) NOT NULL default '',
+                `zipcode` varchar(10) NOT NULL default '',
+                `status` char(1) NOT NULL default 'P',
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `phone` varchar(32) NOT NULL default '',
+                `order_ids` varchar(255) NOT NULL default '',
+                `template` varchar(128) NOT NULL default '',
+                `message` mediumtext,
+                `products` text,
+                PRIMARY KEY  (`gift_cert_id`),  KEY `status` (`status`),
+                KEY `timestamp` (`timestamp`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:gift_certificates_log` (
+                `log_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `gift_cert_id` mediumint(8) unsigned NOT NULL default '0',
+                `area` char(1) NOT NULL default 'C',
+                `user_id` mediumint(8) unsigned NOT NULL default '0',
+                `order_id` mediumint(8) unsigned NOT NULL default '0',
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `amount` decimal(12,2) NOT NULL default '0.00',
+                `debit` decimal(12,2) NOT NULL default '0.00',
+                `products` text,
+                `debit_products` text,
+                PRIMARY KEY  (`log_id`),
+                KEY `area` (`area`),
+                KEY `user_id` (`user_id`),
+                KEY `order_id` (`order_id`),
+                KEY `timestamp` (`timestamp`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO  ?:privileges (privilege, is_default, section_id) VALUES ('manage_gift_certificates', 'Y', 'addons');</item>
+
+        <item type="file">database/data.sql</item>
+        <item type="file" for="demo">database/demo.sql</item>
+        <item type="file" lang="bg" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">database/lang_bg.sql</item>
+        <item type="file" lang="da" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">database/lang_da.sql</item>
+        <item type="file" lang="el" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">database/lang_el.sql</item>
+        <item type="file" lang="en" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">database/lang_en.sql</item>
+        <item type="file" lang="es" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">database/lang_es.sql</item>
+        <item type="file" lang="ro" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">database/lang_ro.sql</item>
+        <item type="file" lang="ru" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">database/lang_ru.sql</item>
+        <item type="file" lang="sl" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">database/lang_sl.sql</item>
+        <item type="file" lang="zh" table="status_descriptions" editions="MULTIVENDOR,ULTIMATE">database/lang_zh.sql</item>
+
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege LIKE 'manage_gift_certificates'</item>
+
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:status_descriptions WHERE status_id IN (SELECT status_id FROM ?:statuses WHERE type = 'G')</item>
+        <item for="uninstall">DELETE FROM ?:status_data WHERE status_id IN (SELECT status_id FROM ?:statuses WHERE type = 'G')</item>
+        <item for="uninstall">DELETE FROM ?:statuses WHERE type = 'G'</item>
+
+        <item for="uninstall">DROP TABLE IF EXISTS ?:gift_certificates;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:gift_certificates_log;</item>
+    </queries>
+    <email_templates type="file">resources/email_templates.xml</email_templates>
+    <document_templates type="file">resources/document_templates.xml</document_templates>
+    <functions>
+        <item for="install">fn_gift_certificates_install</item>
+        <item for="uninstall">fn_gift_certificates_install</item>
+    </functions>
+</addon>

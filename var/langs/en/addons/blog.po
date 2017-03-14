@@ -1,0 +1,81 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::blog"
+msgid "Blog"
+msgstr "Blog"
+
+msgctxt "Addons::description::blog"
+msgid "Lets you start your blog easily"
+msgstr "Lets you start your blog easily"
+
+msgctxt "Languages::blog_menu_description"
+msgid "Manage your blog posts."
+msgstr "Manage your blog posts."
+
+msgctxt "Languages::blog.new_post"
+msgid "New blog post"
+msgstr "New blog post"
+
+msgctxt "Languages::blog.editing_post"
+msgid "Editing blog post"
+msgstr "Editing blog post"
+
+msgctxt "Languages::blog"
+msgid "Blog"
+msgstr "Blog"
+
+msgctxt "Languages::blog.add_post"
+msgid "Add blog post"
+msgstr "Add blog post"
+
+msgctxt "Languages::blog.recent_posts"
+msgid "Blog: recent posts"
+msgstr "Blog: recent posts"
+
+msgctxt "Languages::blog.recent_posts_scroller"
+msgid "Blog: recent posts scroller"
+msgstr "Blog: recent posts scroller"
+
+msgctxt "Languages::blog.view_post"
+msgid "View post"
+msgstr "View post"
+
+msgctxt "Languages::recent_blog_posts"
+msgid "Recent blog posts"
+msgstr "Recent blog posts"
+
+msgctxt "Languages::blog.posts"
+msgid "Posts"
+msgstr "Posts"
+
+msgctxt "Languages::blog.post"
+msgid "Post"
+msgstr "Post"
+
+msgctxt "Languages::block_blog"
+msgid "Recent posts"
+msgstr "Recent posts"
+
+msgctxt "Languages::blog.text_links"
+msgid "Blog: text links"
+msgstr "Blog: text links"
+
+msgctxt "Languages::blog.read_more"
+msgid "Read more"
+msgstr "Read more"
+
+msgctxt "Languages::post_description"
+msgid "Post description"
+msgstr "Post description"
+
+msgctxt "Languages::ttc_post_description"
+msgid "Use the &lt;!--CUT--&gt; tag (switch to source code to insert it) to hide part of the post. Only the part above the tag is shown in the list of all posts.<br /><br />Make sure to <strong>close all HTML tags</strong> above the &lt;!--CUT--&gt; tag!"
+msgstr "Use the &lt;!--CUT--&gt; tag (switch to source code to insert it) to hide part of the post. Only the part above the tag is shown in the list of all posts.<br /><br />Make sure to <strong>close all HTML tags</strong> above the &lt;!--CUT--&gt; tag!"
+
+msgctxt "Languages::blog_functionality_notes"
+msgid "<p>Use this page to manage your blog. This is how you should organize your blog posts:</p><ul><li>Blog is a usual post that has the <b>Root level page</b> as the Parent page.</li><li>Choose <b>Blog</b> as the Parent page for your blog posts.</li></ul>"
+msgstr "<p>Use this page to manage your blog. This is how you should organize your blog posts:</p><ul><li>Blog is a usual post that has the <b>Root level page</b> as the Parent page.</li><li>Choose <b>Blog</b> as the Parent page for your blog posts.</li></ul>"

@@ -1,0 +1,34 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/required_products.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::required_products"
+msgid "Required products"
+msgstr "Sản phẩm bán kèm"
+
+msgctxt "Addons::description::required_products"
+msgid "Makes it possible to specify products required for purchase"
+msgstr "Làm cho nó có thể để xác định sản phẩm bán kèm để mua hàng"
+
+msgctxt "Languages::required_products"
+msgid "Required products"
+msgstr "Sản phẩm bán kèm"
+
+msgctxt "Languages::required_products_added"
+msgid "The following required product(s) were added to your cart"
+msgstr "Các sản phẩm từ yêu cầu sau đây đã được thêm vào giỏ hàng của bạn"
+
+msgctxt "Languages::required_products_out_of_stock"
+msgid "This product cannot be added to your cart, because following required product(s) are out of stock:"
+msgstr "Sản phẩm này không thể được thêm vào giỏ hàng của bạn, bởi vì sản phẩm kèm theo đã hết hàng:"
+

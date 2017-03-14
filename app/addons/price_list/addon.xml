@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>price_list</id>
+    <version>1.0</version>
+    <priority>4100</priority>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="price_list_info">
+                        <type>info</type>
+                        <handler>fn_price_list_info</handler>
+                    </item>
+                    <item id="price_list_fields">
+                        <type>selectable_box</type>
+                        <default_value><![CDATA[#M#product_code=Y&product=Y&amount=Y&price=Y]]></default_value>
+                    </item>
+                    <item id="price_list_sorting">
+                        <type>selectbox</type>
+                        <default_value>product_code</default_value>
+                    </item>
+                    <item id="group_by_category">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="include_options">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Georgian\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ka\n"
+"X-Crowdin-File: /addons/buy_together.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:46-0500\n"
+
+msgctxt "Addons::name::buy_together"
+msgid "Buy together"
+msgstr "ერთად შეძენა"
+
+msgctxt "Addons::description::buy_together"
+msgid "Allows you to set up share discounts on certain product combinations"
+msgstr "ფასდაკლების გავრცელება გარკვეული პროდუქტების კომბინაციაზე"
+
+msgctxt "Languages::buy_together"
+msgid "Buy together"
+msgstr "ერთად შეძენა"
+
+msgctxt "Languages::specify_options"
+msgid "Specify options"
+msgstr "პარამეტრების მითითება"
+
+msgctxt "Languages::total_list_price"
+msgid "Total list price"
+msgstr "სრული საწყისი ღირებულება"
+
+msgctxt "Languages::price_for_all"
+msgid "Price for all"
+msgstr "ფასი ყველასათვის"
+
+msgctxt "Languages::add_all_to_cart"
+msgid "Add all to cart"
+msgstr "დაამატე ყველაფრი კალათაში"
+
+msgctxt "Languages::editing_combination"
+msgid "Editing combination"
+msgstr "კომბინაციის რედაქტირება"
+
+msgctxt "Languages::buy_together_calculation_information"
+msgid "Total price: [total_price], Discount: [discount], Combination price: [combination_price]"
+msgstr "სრული ღირებულება[total_price]ფასდაკლება[discount]კომბინაციის ღირებულება[combination_price]"
+
+msgctxt "Languages::display_in_promotions"
+msgid "Display in promotions"
+msgstr "გამოაჩინე პრომო-აქციებში"
+
+msgctxt "Languages::combination_products"
+msgid "Combination products"
+msgstr "პროდუქტების კომბინაციები"
+
+msgctxt "Languages::share_discount"
+msgid "Share discount"
+msgstr "ფასდაკლების გაზიარება"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_configurator"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Product configurator add-on"
+msgstr "[product_name] დამატება შეუძლებელია კომბინაციაში. \"ერთად შეძენის\" აქცია არ არის თავსებადი პროდუქტის კონფიგურატორის \"ედონთან\""
+
+msgctxt "Languages::buy_together_is_not_compatible_with_recurring_billing"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Recurring billing add-on"
+msgstr "[product_name] დამატება შეუძლებელია კომბინაციაში. \"ერთად შეძენის\" აქცია არ არის თავსებადი განმეორებითი ბილინგის \"ედონთან\""
+
+msgctxt "Languages::buy_together_combination_cannot_be_added"
+msgid "Combination cannot be added to cart"
+msgstr "კომბინაციის კალათაში დამატება შეუძლებელია"
+
+msgctxt "Languages::buy_together_product_was_removed"
+msgid "[product] did not have enough amount ([amount]) and was removed from the cart"
+msgstr "[product] არ არის მარაგში ([amount]) და ამოიშალა კალათიდან"
+
+msgctxt "Languages::buy_together_fill_the_mandatory_fields"
+msgid "Please specify product options before adding this product combination to the cart."
+msgstr "გთხოვთ, განსაზღვრეთ პარამეტრი პროდუქტზე, სანამ დაამატებთ პროდუქტის კომბინაციას კალათაში."
+

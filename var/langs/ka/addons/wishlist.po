@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Georgian\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ka\n"
+"X-Crowdin-File: /addons/wishlist.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:46-0500\n"
+
+msgctxt "Addons::name::wishlist"
+msgid "Wish List"
+msgstr "სურველების სია"
+
+msgctxt "Addons::description::wishlist"
+msgid "Lets customers store items in personal wish lists"
+msgstr "მომხმარებელს საშუალებას აძლევს შეინახოს ნივთები პირად სურვილების სიაში"
+
+msgctxt "Languages::add_to_wishlist"
+msgid "Add to wish list"
+msgstr "დაამატე სურვილების სიას"
+
+msgctxt "Languages::clear_wishlist"
+msgid "Clear wish list"
+msgstr "სურვილების სიის გასუფთავება"
+
+msgctxt "Languages::view_wishlist"
+msgid "View wish list"
+msgstr "სურვილების სიის ნახვა"
+
+msgctxt "Languages::wishlist_content"
+msgid "Wish list content"
+msgstr "სურვილების სიის შიგთავსი"
+
+msgctxt "Languages::wishlist"
+msgid "Wish list"
+msgstr "სურვილების სია"
+
+msgctxt "Languages::wishlist_note"
+msgid "Go to your wishlist"
+msgstr "სურვილების სიაში გადასვლა"
+
+msgctxt "Languages::text_failed_gift_certificate_addition"
+msgid "Failed to add the certificate. Make sure the summary amount is not zero."
+msgstr "სერთიფიკატი არ დაემატა. გადაამოწმე, რომ ჯამური რაოდენობა არ იყოს ნული."
+
+msgctxt "Languages::text_gift_cert_added_to_wishlist"
+msgid "The gift certificate has been added to the wish list"
+msgstr "სასაჩუქრე ბარათი დაემატა სურვილების სიაში"
+
+msgctxt "Languages::product_added_to_wl"
+msgid "The product was added to your Wish list"
+msgstr "პროდუქტი დაემატა სურვილების სიას"
+
+msgctxt "Languages::product_in_wishlist"
+msgid "This product is already in the wish list"
+msgstr "ეს პროდუქტი უკვე არის დამატებული სურვილების სიაში"
+
+msgctxt "Languages::wishlist_products"
+msgid "Wish list products"
+msgstr "სურვილების სიის პროდუქტები"
+

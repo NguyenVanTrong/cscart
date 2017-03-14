@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /addons/rma.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:01-0500\n"
+
+msgctxt "Addons::name::rma"
+msgid "RMA"
+msgstr "Reklamace"
+
+msgctxt "Addons::description::rma"
+msgid "Adds a return management system"
+msgstr "Přidá správu reklamací v obchodě"
+
+msgctxt "Languages::returned_products"
+msgid "Returned products"
+msgstr "Vrácené zboží"
+
+msgctxt "Languages::rma_return"
+msgid "Return"
+msgstr "Vrácení zboží"
+
+msgctxt "Languages::no_return_requests_found"
+msgid "No return requests found"
+msgstr "Žádné žádosti o vrácení zboží nebyly nalezeny"
+
+msgctxt "Languages::returned_product"
+msgid "Returned product"
+msgstr "Vrácené zboží"
+
+msgctxt "Languages::returns"
+msgid "Returns"
+msgstr "Vrácené zboží"
+
+msgctxt "Languages::returns_info"
+msgid "Returns info"
+msgstr "Informace o vráceném zboží"
+
+msgctxt "Languages::return_info"
+msgid "Return information"
+msgstr "Informace o vrácení zboží"
+
+msgctxt "Languages::order_returns"
+msgid "Order returns"
+msgstr "Vrácení objednávky"
+
+msgctxt "Languages::return_registration"
+msgid "Request a replacement or a refund"
+msgstr "Požadovat náhradu nebo vrácení peněz"
+
+msgctxt "Languages::return_requests"
+msgid "Return requests"
+msgstr "Žádosti o vrácení zboží"
+
+msgctxt "Languages::return_requests_menu_description"
+msgid "View and process return requests from orders placed on your web site."
+msgstr "Zkontrolujte a zpracujte požadavky na vrácení zboží z objednávek na vaší stránce."
+
+msgctxt "Languages::return_status"
+msgid "Return status"
+msgstr "Stav vrácení zboží"
+
+msgctxt "Languages::return_period"
+msgid "Return period"
+msgstr "Lhůta vrácení zboží"
+
+msgctxt "Languages::what_you_would_like_to_do"
+msgid "What would you like to do"
+msgstr "Co byste chtěli udělat"
+
+msgctxt "Languages::rma_notify_supplier"
+msgid "Notify supplier"
+msgstr "Informujte dodavatele"
+
+msgctxt "Languages::add_reason"
+msgid "Add reason"
+msgstr "Přidat důvod"
+
+msgctxt "Languages::new_reason"
+msgid "New reason"
+msgstr "Nový důvod"
+
+msgctxt "Languages::type_comment"
+msgid "Type comments here"
+msgstr "Zadejte komentáře zde"
+
+msgctxt "Languages::return_requests_note"
+msgid "Go to the list of your return requests"
+msgstr "Přejděte k seznamu žádostí o vrácení zboží"
+
+msgctxt "Languages::privileges.manage_rma"
+msgid "Manage RMA system"
+msgstr "Řízení systému RMA"
+
+msgctxt "Languages::text_return_change_warning"
+msgid "The status of return #[return_id] will be changed"
+msgstr "Vrácení zboží # [return_id] se změní"
+
+msgctxt "Languages::returnable"
+msgid "Returnable"
+msgstr "Vratné"
+
+msgctxt "Languages::returnable_product"
+msgid "Returnable product"
+msgstr "Vratné zboží"
+
+msgctxt "Languages::rma_request_statuses"
+msgid "RMA request statuses"
+msgstr "Vyžádat stav RMA"
+
+msgctxt "Languages::return_products_information"
+msgid "Return products information"
+msgstr "Informace o vráceném zboží"
+
+msgctxt "Languages::declined_products_information"
+msgid "Declined products information"
+msgstr "Informace odmítnutého zboží"
+
+msgctxt "Languages::rma_reasons"
+msgid "RMA reasons"
+msgstr "Důvody RMA"
+
+msgctxt "Languages::rma_actions"
+msgid "RMA actions"
+msgstr "Akce RMA"
+
+msgctxt "Languages::rma"
+msgid "RMA"
+msgstr "RMA"
+
+msgctxt "Languages::return_period_days"
+msgid "Return period (days)"
+msgstr "Vratná doba (ve dnech)"
+
+msgctxt "Languages::all_actions"
+msgid "All actions"
+msgstr "Všechny akce"
+
+msgctxt "Languages::order_total_will_changed"
+msgid "The order total will be changed by"
+msgstr "Částka objednávky se změní o"
+
+msgctxt "Languages::shipping_costs_will_changed"
+msgid "Shipping costs will be changed by"
+msgstr "Poštovné se změní o"
+
+msgctxt "Languages::decline_products"
+msgid "Decline products"
+msgstr "Odmítnuté zboží"
+
+msgctxt "Languages::create_gift_certificate"
+msgid "Create gift certificate"
+msgstr "Vytvořit dárkovou kartu"
+
+msgctxt "Languages::accept_products"
+msgid "Accept products"
+msgstr "Přijmout zboží"
+
+msgctxt "Languages::recalculate_order"
+msgid "Recalculate order"
+msgstr "Přepočítat objednávku"
+
+msgctxt "Languages::manually_recalculate_order"
+msgid "Recalculate the order manually"
+msgstr "Ručně přepočítat objednávku"
+
+msgctxt "Languages::dont_recalculate_order"
+msgid "Do not recalculate order"
+msgstr "Nepřepočítávat objednávku"
+
+msgctxt "Languages::delete_this_return"
+msgid "Delete this return"
+msgstr "Smazat vrácení zboží"
+
+msgctxt "Languages::update_totals_and_inventory"
+msgid "Update totals and inventory"
+msgstr "Aktualizovat součet a inventář"
+
+msgctxt "Languages::request_statuses"
+msgid "request statuses"
+msgstr "vyžádat stavy"
+
+msgctxt "SettingsSections::rma::general"
+msgid "General"
+msgstr "Obecné"
+
+msgctxt "SettingsOptions::rma::display_product_return_period"
+msgid "Display product return period"
+msgstr "Zobrazit lhůtu pro vrácení zboží"
+
+msgctxt "SettingsOptions::rma::dont_take_weekends_into_account"
+msgid "Do not take weekends into account when calculating product return period"
+msgstr "Při počítání lhůty pro vrácení zboží nebrat v úvahu víkendy"
+
+msgctxt "Languages::email_template.rma_slip_notification"
+msgid "RMA slip"
+msgstr ""
+
+msgctxt "Languages::template_document_rma_packing_slip_default"
+msgid "Return request: packing slip"
+msgstr ""
+
+msgctxt "Languages::document_preview_return_request_not_found"
+msgid "Couldn't find a return request. Preview only works with existing data. Please create a return request and use Preview again."
+msgstr ""
+

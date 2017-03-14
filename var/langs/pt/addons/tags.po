@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /addons/tags.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::tags"
+msgid "Tags"
+msgstr "Tags"
+
+msgctxt "Addons::description::tags"
+msgid "Enables product tags"
+msgstr "Ativar tags dos produtos"
+
+msgctxt "Languages::tags_menu_description"
+msgid "Manage product and content page tags."
+msgstr "Gerencia as tags de produtos e páginas."
+
+msgctxt "Languages::sign_in_to_enter_tags"
+msgid "Sign in to enter tags"
+msgstr "Faça login para adicionar tags"
+
+msgctxt "Languages::tag_cloud"
+msgid "Tag cloud"
+msgstr "Nuvem de tags"
+
+msgctxt "Languages::tags"
+msgid "Tags"
+msgstr "Tags"
+
+msgctxt "Languages::block_tags"
+msgid "Tags"
+msgstr "Tags"
+
+msgctxt "Languages::block_tags_description"
+msgid "Product tags"
+msgstr "Tags de produto"
+
+msgctxt "Languages::addons.tags.add_a_tag"
+msgid "add a tag"
+msgstr "adicionar uma tag"
+
+msgctxt "Languages::items_marked_by_tag"
+msgid "Items marked by the \"[tag]\" tag:"
+msgstr "Itens marcados com a tag \"[tag]\":"
+
+msgctxt "Languages::tag"
+msgid "Tag"
+msgstr "Tag"
+
+msgctxt "Languages::add_tag"
+msgid "Add tag"
+msgstr "Adicionar tag"
+
+msgctxt "SettingsSections::tags::general"
+msgid "General"
+msgstr "Geral"
+
+msgctxt "SettingsOptions::tags::tags_for_products"
+msgid "Tags for products"
+msgstr "Tags de produtos"
+
+msgctxt "SettingsOptions::tags::tags_for_pages"
+msgid "Tags for pages"
+msgstr "Tags de páginas"
+

@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Serbian (Cyrillic)\n"
+"Language: sr_SP\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: /addons/janrain.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::janrain"
+msgid "Janrain"
+msgstr "Janrain"
+
+msgctxt "Addons::description::janrain"
+msgid "Adds the Social Login feature; allows customers use Facebook, Twitter, etc. to log in on the store"
+msgstr "Dodaje koriščenje naloga socijalnih mreža za prijavu; omogućuje korišćenje naloga sa Facebook, Twitter, itd. za prijavu u elektronsku prodavnicu"
+
+msgctxt "Languages::janrain_general_info"
+msgid "<p>Get these values and configure social login at <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+msgstr "<p>Preuzmite potrebne akreditive i podesite prijavu nalozima socijalnih mrežana <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+
+msgctxt "Languages::janrain_social_login"
+msgid "Social login"
+msgstr "Prijava nalozima socijalnih mreža"
+
+msgctxt "Languages::janrain_need_update_profile"
+msgid "The \"Password\" field and some other mandatory fields are empty at the moment. Please update your profile."
+msgstr "Polje \"Lozinka\" i neka neophodna polja su trenutno prazna. Molimo, dopunite svoj korisnički profil."
+
+msgctxt "Languages::janrain_cant_create_profile"
+msgid "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+msgstr "Nažalost, nismo uspeli da registrujemo korisnika i prijavimo ga u elektronsku prodavnicu zbog jednog od sledećih razloga:<br />- Prijavljivali ste se ranije u elektronsku prodavnicu koristeći neki drugi OpenID provajder za koji je korišćena ista e-mail adresa.<br />- Već ste se registrovali na elektronsku prodavnicu korišćenjem iste e-mail adrese.<br />Kontaktirajte administratora elektronske prodavnice za rešavanje problema."
+
+msgctxt "SettingsSections::janrain::general"
+msgid "General"
+msgstr "Opšte"
+
+msgctxt "SettingsOptions::janrain::general_info"
+msgid "General info"
+msgstr "Opšte informacije"
+
+msgctxt "SettingsOptions::janrain::apikey"
+msgid "API Key"
+msgstr "API ključ"
+
+msgctxt "SettingsOptions::janrain::appdomain"
+msgid "Application Domain"
+msgstr "Domen aplikacije"
+

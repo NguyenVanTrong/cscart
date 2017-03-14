@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<documents scheme="1.0">
+    <document>
+        <code><![CDATA[default]]></code>
+        <type><![CDATA[gift_certificate]]></type>
+        <template/>
+        <default_template><![CDATA[<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+    <td style="width: 100%; height: 100%;vertical-align: top;" align="center">
+        <table border="0" cellpadding="0" cellspacing="0" width="600px">
+        <tbody style="font-family: arial;">
+        <tr>
+            <td style="padding: 17px 25px 40px; background: #F57171;" align="center" valign="top" width="600px">
+                <h1 style="color: #fff; text-transform: uppercase; font-size: 40px; font-weight: bold;margin: 10px 0 0;">
+                {{ __("gift_certificate") }}
+                </h1>
+                <h2 style="font-size: 50px; font-weight: 300; color: #fff; margin: 0px; line-height: 1.2em;">
+                {{ gift_certificate.amount }}
+                </h2>
+                <p style="color: #fff; margin: 0 0 12px; font-size: 12px">
+                    {{ __("gift_cert_code") }}
+                </p>
+                <span style="background: #fff; padding: 5px 20px; font-size: 19px; font-weight: lighter; border-radius: 2px;">
+                {{ gift_certificate.gift_cert_code }}</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 30px 0px 80px;" valign="middle" width="600px">
+                <div style="padding: 10px;">{{ snippet("info") }}
+                </div>
+                <div>{{ snippet("products_table") }}
+                </div>
+                <div style="padding: 30px 20px 0px 20px; text-align: right;">
+                    {{__("shop_now")}} : <a href="{{c.storefront_url}}" target="_blank">{{c.storefront_url}}</a>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+        </table>
+    </td>
+</tr>
+</tbody>
+</table>]]></default_template>
+        <addon><![CDATA[gift_certificates]]></addon>
+        <snippets>
+            <item>
+                <code><![CDATA[info]]></code>
+                <template/>
+                <default_template><![CDATA[{% if gift_certificate.send_via == 'P' %}
+<p>
+    {{ __("gift_cert_from") }}: {{ gift_certificate.sender }}
+</p>
+<p>
+    {{ __("gift_cert_to") }}: {{ gift_certificate.recipient }}
+</p>
+<p>
+    {{ gift_certificate.address }}<br />
+    {% if gift_certificate.address_2 %}
+        {{ gift_certificate.address_2 }}<br />
+    {% endif %}
+    {% if gift_certificate.phone %}
+        {{ gift_certificate.phone }}<br />
+    {% endif %}
+    {{ gift_certificate.city }},&nbsp;{{ gift_certificate.descr_country }},&nbsp;{{ gift_certificate.descr_state }}<br />
+    {{ gift_certificate.zipcode }}
+</p>
+{% endif %}
+
+{% if gift_certificate.message %}
+<div>{{ gift_certificate.message }}</div>
+{% endif %}]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Info]]></en>
+                    <ru><![CDATA[Информация]]></ru>
+                </name>
+                <params/>
+                <addon><![CDATA[gift_certificates]]></addon>
+                <handler/>
+                <extra/>
+            </item>
+            <item>
+                <code><![CDATA[products_table]]></code>
+                <template/>
+                <default_template><![CDATA[
+{% if products_table.rows %}
+<table width="100%" cellpadding="0" cellspacing="1" style="background-color: #dddddd; -webkit-print-color-adjust: exact;">
+<thead>
+    <tr>
+
+        {% for  header in products_table.headers %}
+            <th style="background-color: #eeeeee; padding: 6px 10px; white-space: nowrap; font-size: 12px; font-family: Arial;">{{ header }}</th>
+        {% endfor %}
+    </tr>
+</thead>
+<tbody>
+    {% for  row in products_table.rows %}
+        <tr style="padding: 10px; background-color: #ffffff; font-size: 12px; font-family: Arial; border: 1px solid #eeeeee; text-align: center;">
+            {% for  column in row %}
+                <td style="border: 1px solid #eeeeee; padding:5px; text-align:left;">
+                {{ column }}
+                </td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+</tbody>
+</table>{% endif %}]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Products table]]></en>
+                    <ru><![CDATA[Таблица товаров]]></ru>
+                </name>
+                <params>
+                    <used_table>1</used_table>
+                    <variable_schema><![CDATA[gift_certificate_products_table]]></variable_schema>
+                </params>
+                <addon><![CDATA[gift_certificates]]></addon>
+                <handler><![CDATA[fn_gift_certificates_init_product_table_variable]]></handler>
+                <extra>
+                    <table_columns>
+                        <item>
+                            <code><![CDATA[name]]></code>
+                            <position>10</position>
+                            <template/>
+                            <addon><![CDATA[gift_certificates]]></addon>
+                            <default_template><![CDATA[<p><a href="{{ p.url }}">{{ p.name }}</a> {% if p.options %}<br>{{ p.options }}<br>{% endif %}</p>]]></default_template>
+                            <status><![CDATA[A]]></status>
+                            <name>
+                                <en><![CDATA[Free Products]]></en>
+                                <ru><![CDATA[Бесплатные товары]]></ru>
+                            </name>
+                        </item>
+                        <item>
+                            <code><![CDATA[amount]]></code>
+                            <position>20</position>
+                            <template/>
+                            <addon><![CDATA[gift_certificates]]></addon>
+                            <default_template><![CDATA[<p style="text-align: center;">{{ p.amount }}</p>]]></default_template>
+                            <status><![CDATA[A]]></status>
+                            <name>
+                                <en><![CDATA[Quantity]]></en>
+                                <ru><![CDATA[Кол-во]]></ru>
+                            </name>
+                        </item>
+                    </table_columns>
+                </extra>
+            </item>
+        </snippets>
+    </document>
+</documents>

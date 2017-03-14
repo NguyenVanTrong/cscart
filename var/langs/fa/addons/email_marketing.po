@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/email_marketing.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::email_marketing"
+msgid "E-mail marketing"
+msgstr "بازاریابی ایمیلی"
+
+msgctxt "Addons::description::email_marketing"
+msgid "Synchronizes your newsletter subscriber lists with MailChimp and Mad Mimi"
+msgstr "همگام سازی فهرست های مشترک خبرنامه شما با MailChimp و Mad Mimi"
+
+msgctxt "Languages::subscribers_menu_description"
+msgid "Manage newsletter subscribers and settings."
+msgstr "مدیریت مشترکین خبرنامه و تنظیمات."
+
+msgctxt "Languages::email_marketing.subscription_confirmed"
+msgid "Thank you for subscribing to our newsletter"
+msgstr "از شما به خاطر اشتراک در خبرنامه متشکریم "
+
+msgctxt "Languages::email_marketing.text_subscription_confirmed"
+msgid "Your subscription has been confirmed. No extra actions is required."
+msgstr "عضویت شما تایید شده است. هیچ عملیات اضافی مورد نیاز نیست "
+
+msgctxt "Languages::email_marketing.subscription_pending"
+msgid "Email confirmation is required!"
+msgstr "تایید ایمیل لازم است!"
+
+msgctxt "Languages::email_marketing.text_subscription_pending"
+msgid "Thank you for subscribing to our newsletter.<p>A confirmation email has been sent to you. Please use the link in the email to confirm your subscription</p>"
+msgstr "از شما به خاطر اشتراک در خبرنامه متشکریم. <p>یک ایمیل تایید برای شما ارسال شده است. لطفا با استفاده از لینک موجود در ایمیل عضویت‌تان را تایید نمایید</p>"
+
+msgctxt "Languages::email_marketing.confirm_subscription"
+msgid "Please confirm subscription"
+msgstr "لطفا عضویت‌تان را تایید کنید"
+
+msgctxt "Languages::email_marketing.text_confirm_subscription"
+msgid "We received a subscription request from you. Please confirm it:<p><a href=\"[href]\">Click here to confirm your subscription to our newsletter</a></p>If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link above."
+msgstr "ما درخواست اشتراکی را از شما دریافت کرده ایم ، لطفاً آن را تایید کنید: <p><a href=\"[href]\"> برای تایید عضویت شما در خبرنامه ما اینجا را کلیک کنید </a></p> اگر شما این ایمیل را به اشتباه دریافت کرده اید به سادگی آن را حذف کنید. چنانچه لینک تایید بالا را کلیک ننمایید ، مشترک نخواهید شد."
+
+msgctxt "Languages::email_marketing.subscription_confirmed_2"
+msgid "Subscription confirmed"
+msgstr "اشتراک تایید شد"
+
+msgctxt "Languages::email_marketing.text_subscription_confirmed_2"
+msgid "Your subscription to our newsletter has been confirmed. Thank you for subscribing!"
+msgstr "عضویت شما در خبرنامه ما تایید شده است. از شما به خاطر اشتراک متشکریم "
+
+msgctxt "Languages::email_marketing.email_subscribed"
+msgid "You were subscribed to our newsletter"
+msgstr "شما عضوخبرنامه ما  شدید "
+
+msgctxt "Languages::email_marketing.text_email_subscribed"
+msgid "Thank you for subscribing to our newsletter. <p>If at any time you wish to stop receiving our emails, <a href=\"[href]\">click on this link to unsubscribe</a>.</p>"
+msgstr "از شما به خاطر اشتراک در خبرنامه متشکریم. <p>چنانچه در هر زمان نمی خواهید ایمیل های ما به شما ارسال گردد برای جلوگیری از دریافت ایمیل های ما <a href=\"[href]\"> روی این لینک را کلیک و ارسال پیام را لغو کنید</a>.</p>"
+
+msgctxt "Languages::email_marketing.email_subscribed_2optin"
+msgid "Subscription confirmed"
+msgstr "اشتراک تایید شد"
+
+msgctxt "Languages::email_marketing.text_email_subscribed_2optin"
+msgid "Your subscription to our newsletter has been confirmed.<p>If at any time you wish to stop receiving our emails, <a href=\"[href]\">click on this link to unsubscribe</a>.</p>"
+msgstr "عضویت شما در خبرنامه ما تایید شده است.<p>چنانچه در هر زمان نمی خواهید ایمیل های ما به شما ارسال گردد برای جلوگیری از دریافت ایمیل های ما <a href=\"[href]\">روی این لینک را کلیک و ارسال پیام را لغو کنید</a>.</p>"
+
+msgctxt "Languages::email_marketing.unsubscribe_successful"
+msgid "Unsubscribe successful"
+msgstr "لغو عضویت موفقیت آمیز"
+
+msgctxt "Languages::email_marketing.text_unsubscribe_successful"
+msgid "Your email has been removed from our list."
+msgstr "ایمیل شما  از لیست ما حذف شده است."
+
+msgctxt "Languages::email_marketing.export_all"
+msgid "Export all"
+msgstr "صدور همه"
+
+msgctxt "Languages::email_marketing.enter_api_key_and_save"
+msgid "Enter API key and save first"
+msgstr "کلید API را وارد کنید و در ابتدا ذخیره کنید"
+
+msgctxt "Languages::email_marketing.warning_email_exists"
+msgid "[email] is already subscribed"
+msgstr "در حال حاضر [email] مشترک می باشد"
+
+msgctxt "Languages::email_marketing.new_subscriber"
+msgid "New subscriber"
+msgstr "مشترک جدید "
+
+msgctxt "Languages::email_marketing.sync"
+msgid "Sync"
+msgstr "همگام سازی"
+
+msgctxt "Languages::email_marketing.text_subscribe"
+msgid "Subscribe to our newsletter"
+msgstr "مشترک خبرنامه ما شوید"
+
+msgctxt "Languages::email_marketing.tmpl_subscription"
+msgid "Email marketing: Newsletter subscription form"
+msgstr "بازاریابی ایمیلی: فرم اشتراک خبرنامه"
+
+msgctxt "Languages::privileges.manage_email_marketing"
+msgid "Manage email marketing add-on"
+msgstr "مدیریت افزونه بازاریابی ایمیلی"
+
+msgctxt "Languages::privileges.view_email_marketing"
+msgid "View email marketing add-on"
+msgstr "مشاهده افزونه بازاریابی ایمیلی"
+
+msgctxt "Languages::email_marketing.error_no_list"
+msgid "Please select mailing list in add-on settings to start import"
+msgstr "لطفا لیست پستی در تنظیمات افزونه را برای شروع وارد کردن انتخاب کنید"
+
+msgctxt "SettingsSections::email_marketing::general"
+msgid "General"
+msgstr "عمومی"
+
+msgctxt "SettingsSections::email_marketing::mailchimp"
+msgid "MailChimp"
+msgstr "MailChimp"
+
+msgctxt "SettingsSections::email_marketing::madmimi"
+msgid "MadMimi"
+msgstr "MadMimi"
+
+msgctxt "SettingsOptions::email_marketing::em_show_on_checkout"
+msgid "Newsletter checkbox on checkout"
+msgstr "گزینه خبرنامه در تسویه حساب"
+
+msgctxt "SettingsOptions::email_marketing::em_checkout_enabled"
+msgid "Tick off by default"
+msgstr "بدون تیک به صورت پیش فرض"
+
+msgctxt "SettingsOptions::email_marketing::em_double_opt_in"
+msgid "Double opt-in"
+msgstr "دو انتخاب در"
+
+msgctxt "SettingsOptions::email_marketing::em_welcome_letter"
+msgid "Send a welcome letter with the unsubscribe link"
+msgstr "ارسال نامه خوشامدگویی با لینک لغو اشتراک"
+
+msgctxt "SettingsOptions::email_marketing::em_service"
+msgid "Email integration provider"
+msgstr "ارائه دهنده یکپارچه ایمیل"
+
+msgctxt "SettingsOptions::email_marketing::em_mailchimp_api_key"
+msgid "API key"
+msgstr "کلید API"
+
+msgctxt "SettingsOptions::email_marketing::em_mailchimp_list"
+msgid "List"
+msgstr "فهرست"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_username"
+msgid "E-mail"
+msgstr "پست الکترونیک"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_api_key"
+msgid "API key"
+msgstr "کلید API"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_list"
+msgid "List"
+msgstr "فهرست"
+
+msgctxt "SettingsVariants::email_marketing::em_service::dummy"
+msgid "--"
+msgstr "--"
+
+msgctxt "SettingsVariants::email_marketing::em_service::mailchimp"
+msgid "MailChimp"
+msgstr "MailChimp"
+
+msgctxt "SettingsVariants::email_marketing::em_service::madmimi"
+msgid "MadMimi"
+msgstr "MadMimi"
+
+msgctxt "Languages::email_template.email_marketing_confirmation"
+msgid "Email marketing: subscription confirmation"
+msgstr "بازاریابی پست الکترونیک: تایید اشتراک"
+
+msgctxt "Languages::email_template.email_marketing_welcome"
+msgid "Email marketing: welcome letter"
+msgstr "بازاریابی پست الکترونیک: نامه"
+
+msgctxt "Languages::email_template.email_marketing_welcome_2optin"
+msgid "Email marketing: welcome letter (2optin)"
+msgstr "بازاریابی پست الکترونیک: نامه (2optin)"
+

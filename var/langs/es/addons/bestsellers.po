@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /addons/bestsellers.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & On-Sale Products"
+msgstr "Más vendidos y productos en oferta"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "Registra datos de los productos más vendidos y de oferta y añade una procedencia para mostrar estos productos en bloques"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "Ordenar por más vendidos: de menos a más"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "Ordenar por más vendidos"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "Ordenar por descuento: de menos a más"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "Ordenar por descuento: de más a menos"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "Cantidad de ventas"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "Más vendidos"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "En oferta"
+
+msgctxt "Languages::similar"
+msgid "Similar"
+msgstr "Similar"
+
+msgctxt "Languages::percent_range"
+msgid "Price range (in % of the main product's price)"
+msgstr "Rango de precios (en % del precio del producto principal)"
+
+msgctxt "Languages::similar_category"
+msgid "Of the same category"
+msgstr "De la misma categoría"
+
+msgctxt "Languages::similar_subcats"
+msgid "Consider subcategories"
+msgstr "Considerar subcategorías"
+
+msgctxt "Languages::similar_in_stock"
+msgid "Only \"in stock\" products"
+msgstr "Sólo productos \"en existencia\""
+
+msgctxt "Languages::final_sale"
+msgid "Final sale"
+msgstr "Oferta final"
+
+msgctxt "SettingsSections::bestsellers::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsSections::bestsellers::newest"
+msgid "Newest"
+msgstr "Más reciente"
+
+msgctxt "SettingsOptions::bestsellers::final_sale_from"
+msgid "Minimum final sale discount (%)"
+msgstr "Descuento mínimo de oferta final (%)"
+
+msgctxt "SettingsOptions::bestsellers::sales_amount_from"
+msgid "Minimum sales amount to define bestsellers"
+msgstr "Cantidad mínima de ventas para definir Más vendido"
+
+msgctxt "SettingsOptions::bestsellers::period"
+msgid "Period"
+msgstr "Periodo"
+
+msgctxt "SettingsOptions::bestsellers::last_days"
+msgid "Last days"
+msgstr "Últimos días"
+
+msgctxt "SettingsVariants::bestsellers::period::all"
+msgid "All days"
+msgstr "Todos los días"
+
+msgctxt "SettingsVariants::bestsellers::period::today"
+msgid "Today"
+msgstr "Hoy"
+
+msgctxt "SettingsVariants::bestsellers::period::last_days"
+msgid "Last days"
+msgstr "Últimos días"
+

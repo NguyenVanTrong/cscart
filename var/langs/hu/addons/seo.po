@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: /addons/seo.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:47-0500\n"
+
+msgctxt "Addons::name::seo"
+msgid "SEO"
+msgstr "SEO"
+
+msgctxt "Addons::description::seo"
+msgid "Adds Search engine-friendly URLs support"
+msgstr "Keresőbarát URL-ek és SEO beállítások kezelése"
+
+msgctxt "Languages::seo_rules_menu_description"
+msgid "Use this section to define global rules for the URLs rewritten in your store."
+msgstr "Ezt a szekciót használva globális linkátírási szabályok hozhatóak létre."
+
+msgctxt "Languages::seo.redirects_manager_menu_description"
+msgid "Manages redirect rules from old URLs"
+msgstr "Régi linkek átirányításának kezelése"
+
+msgctxt "Languages::controller_description"
+msgid "If you want to specify a SEO-name for the URL, e.g. http://example.com/index.php?dispatch=<b>categories.catalog</b>, you need to enter the \"<b>categories.catalog</b>\" value into the \"<b>The value of the \"dispatch\" parameter from the URL</b>\" field and specify the SEO name in the \"<b>SEO name</b>\" field."
+msgstr "Amennyiben keresőbarát linket határoz meg egy oldalhoz, pl. http://pelda.hu/index.php?dispatch=<b>categories.catalog</b>, \"<b>categories.catalog</b>\" értéket kell megadni a \"<b>A \"dispatch\" paraméter értéke a linkből</b>\" mezőbe, majd ezt követően a kívánt keresőbarát nevet a \"<b>Keresőbarát név</b>\" mezőbe."
+
+msgctxt "Languages::seo_name"
+msgid "SEO name"
+msgstr "Keresőbarát név"
+
+msgctxt "Languages::warning_seo_urls_disabled"
+msgid "SEO-friendly URLs are disabled. Check your web server and URL manipulation engine settings."
+msgstr "Keresőbarát linkek le vannak tiltva. Webszerver beállításainak ellenőrzésével feloldható ez a probléma."
+
+msgctxt "Languages::dispatch_value"
+msgid "Dispatch value"
+msgstr "Útvonal értéke"
+
+msgctxt "Languages::url_dispatch_part"
+msgid "The value of the \"dispatch\" parameter from the URL"
+msgstr "A \"dispatch\" paraméter értéke a linkből"
+
+msgctxt "Languages::new_rule"
+msgid "New rule"
+msgstr "Új szabály"
+
+msgctxt "Languages::seo_rules"
+msgid "SEO rules"
+msgstr "Keresőbarát szabályok"
+
+msgctxt "Languages::seo_page_title"
+msgid "page [n]"
+msgstr "[n] oldal"
+
+msgctxt "Languages::privileges.manage_seo_rules"
+msgid "Manage SEO rules and 301 redirects"
+msgstr "Keresőbarát szabályok, és 301 átirányítások kezelése"
+
+msgctxt "Languages::privileges.view_seo_rules"
+msgid "View SEO rules and 301 redirects"
+msgstr "Keresőbarát szabályok és 301 átirányítások megtekintése"
+
+msgctxt "Languages::seo.redirects_manager"
+msgid "301 redirects"
+msgstr "301 átirányítások"
+
+msgctxt "Languages::seo.old_url"
+msgid "Old URL"
+msgstr "Régi link"
+
+msgctxt "Languages::seo.new_url"
+msgid "New URL"
+msgstr "Új link"
+
+msgctxt "Languages::seo.new_redirect"
+msgid "New Redirect"
+msgstr "Új átirányítás"
+
+msgctxt "Languages::seo.error_old_url_exists"
+msgid "The URL you're redirecting from is already exist"
+msgstr "A link, melyről az átirányítás történik, használatban van"
+
+msgctxt "Languages::seo.rich_snippets"
+msgid "Google rich snippets preview"
+msgstr "Google strukturált adatok előnézete"
+
+msgctxt "Languages::seo.rich_snippets_rating"
+msgid "Rating"
+msgstr "Értékelés"
+
+msgctxt "Languages::seo.rich_snippets_reviews"
+msgid "[n] review|[n] reviews"
+msgstr "[n] értékelés|[n] értékelés"
+
+msgctxt "Languages::seo.create_redirect"
+msgid "Create redirect from old URL"
+msgstr "Átirányítás készítése régi linkről"
+
+msgctxt "Languages::seo.error_incorrect_url"
+msgid "Incorrect format for <b>[url]</b> URL. For example, if your URL is <b>http://example.com/path/to/object</b>, you need to enter <b>/path/to/object</b>"
+msgstr "Helytelen formátum a <b>[url]</b> linkhez. Ha például a fő link <b>http://pelda.hu/link/az/objektumhoz</b>, az alábbi értéket kell megadni: <b>/link/az/objektumhoz</b>"
+
+msgctxt "Languages::tt_addons_seo_views_seo_redirects_manage_seo.old_url"
+msgid "For example, if your URL is <b>http://example.com/path/to/object</b>, you need to enter <b>/path/to/object</b>"
+msgstr "Ha például a fő link <b>http://pelda.hu/link/az/objektumhoz</b>, az alábbi értéket kell megadni: <b>/link/az/objektumhoz</b>"
+
+msgctxt "SettingsSections::seo::general"
+msgid "General"
+msgstr "Általános"
+
+msgctxt "SettingsOptions::seo::seo_product_type"
+msgid "Product SEO URL format"
+msgstr "Termékek keresőbarát link formátuma"
+
+msgctxt "SettingsOptions::seo::seo_category_type"
+msgid "Category SEO URL format"
+msgstr "Kategóriák keresőbarát link formátuma"
+
+msgctxt "SettingsOptions::seo::seo_page_type"
+msgid "Page SEO URL format"
+msgstr "Oldalak keresőbarát link formátuma"
+
+msgctxt "SettingsOptions::seo::seo_other_type"
+msgid "Other SEO URL format"
+msgstr "Egyéb elemek keresőbarát link formátuma"
+
+msgctxt "SettingsOptions::seo::seo_language"
+msgid "Show language in the URL"
+msgstr "Nyelv megjelenítése a linkekben"
+
+msgctxt "SettingsOptions::seo::single_url"
+msgid "Use single URL for all languages"
+msgstr "Egyetlen link használata minden nyelvre"
+
+msgctxt "SettingsOptions::seo::non_latin_symbols"
+msgid "Allow non-latin symbols in URL"
+msgstr "Nem-latin karakterek engedélyezése a linkekben"
+
+msgctxt "SettingsVariants::seo::seo_product_type::product_file_nohtml"
+msgid "/product-name/"
+msgstr "/termek-neve/"
+
+msgctxt "SettingsVariants::seo::seo_product_type::product_file"
+msgid "/product-name.html"
+msgstr "/termek-neve.html"
+
+msgctxt "SettingsVariants::seo::seo_product_type::product_category_nohtml"
+msgid "/category-name/[subcategory-name/]product-name/"
+msgstr "/kategoria-neve/[alkategoria-neve]/termek-neve/"
+
+msgctxt "SettingsVariants::seo::seo_product_type::product_category"
+msgid "/category-name/[subcategory-name/]product-name.html"
+msgstr "/kategoria-neve/[alkategoria-neve]/termek-neve.html"
+
+msgctxt "SettingsVariants::seo::seo_category_type::category_nohtml"
+msgid "/parent-category/category/[page-2/]"
+msgstr "/szulo-kategoria/kategoria/[oldal-2/]"
+
+msgctxt "SettingsVariants::seo::seo_category_type::category"
+msgid "/parent-category/category-[page-2].html"
+msgstr "/szulo-kategoria/kategoria-[page-2].html"
+
+msgctxt "SettingsVariants::seo::seo_category_type::root_category"
+msgid "/category/[page-2/]"
+msgstr "/kategoria/[page-2]"
+
+msgctxt "SettingsVariants::seo::seo_page_type::page"
+msgid "/parent-page/page.html"
+msgstr "/szulo-oldal/oldal.html"
+
+msgctxt "SettingsVariants::seo::seo_page_type::page_nohtml"
+msgid "/parent-page/page/"
+msgstr "/szulo-oldal/oldal/"
+
+msgctxt "SettingsVariants::seo::seo_page_type::root_page"
+msgid "/page/"
+msgstr "/oldal/"
+
+msgctxt "SettingsVariants::seo::seo_other_type::directory"
+msgid "/item/"
+msgstr "/elem/"
+
+msgctxt "SettingsVariants::seo::seo_category_type::file"
+msgid "/category[-page-2].html"
+msgstr "/kategoria[-page-2].html"
+
+msgctxt "SettingsVariants::seo::seo_page_type::file"
+msgid "/page.html"
+msgstr "/oldal.html"
+
+msgctxt "SettingsVariants::seo::seo_other_type::file"
+msgid "/item.html"
+msgstr "/elem.html"
+
+msgctxt "Languages::seo.important_language_text"
+msgid "<b>Warning!</b> The <b>SEO</b> add-on is currently configured to use a single URL for all languages. If you hide, disable, or delete a default language of one of the storefronts, the SEO URLs will be changed."
+msgstr ""
+

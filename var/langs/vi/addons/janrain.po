@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/janrain.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::janrain"
+msgid "Janrain"
+msgstr "Janrain"
+
+msgctxt "Addons::description::janrain"
+msgid "Adds the Social Login feature; allows customers use Facebook, Twitter, etc. to log in on the store"
+msgstr "Cho biết thêm các tính năng đăng nhập sử dụng tài khoản mạng xã hội; cho phép khách hàng sử dụng Facebook, Twitter, vv để đăng nhập vào cửa hàng"
+
+msgctxt "Languages::janrain_general_info"
+msgid "<p>Get these values and configure social login at <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+msgstr "<p>Nhận những giá trị và cấu hình đăng nhập bằng mạng xã hội tại <a href=\"http://janrain.com\" target=\"_blank\"> janrain.com</a></p>"
+
+msgctxt "Languages::janrain_social_login"
+msgid "Social login"
+msgstr "Đăng nhập bằng mạng xã hội"
+
+msgctxt "Languages::janrain_need_update_profile"
+msgid "The \"Password\" field and some other mandatory fields are empty at the moment. Please update your profile."
+msgstr "Mục \"Mật khẩu\" và một số các mục bắt buộc là không được để trống. Xin vui lòng cập nhật hồ sơ của bạn."
+
+msgctxt "Languages::janrain_cant_create_profile"
+msgid "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+msgstr "Thật không may, chúng tôi không tạo được một khách hàng và đăng nhập vào cửa hàng do một trong những lý do sau: < br / >-Bạn đăng nhập vào cửa hàng của chúng tôi trước đó bằng cách sử dụng một số OpenID nhà cung cấp khác trong đó cùng một thư điện tử được sử dụng. < br / >-Email bạn nhập đã đăng ký trong cửa hàng của chúng tôi. < br / > Xin vui lòng liên hệ với quản trị viên để giải quyết các vấn đề."
+
+msgctxt "SettingsSections::janrain::general"
+msgid "General"
+msgstr "Tổng quát"
+
+msgctxt "SettingsOptions::janrain::general_info"
+msgid "General info"
+msgstr "Thông tin chung"
+
+msgctxt "SettingsOptions::janrain::apikey"
+msgid "API Key"
+msgstr "API key"
+
+msgctxt "SettingsOptions::janrain::appdomain"
+msgid "Application Domain"
+msgstr "Ứng dụng tên miền"
+

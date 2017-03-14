@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/email_marketing.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::email_marketing"
+msgid "E-mail marketing"
+msgstr "Email tiếp thị"
+
+msgctxt "Addons::description::email_marketing"
+msgid "Synchronizes your newsletter subscriber lists with MailChimp and Mad Mimi"
+msgstr "Đồng bộ hóa danh sách đăng ký nhận bản tin của bạn với MailChimp và Mad Mimi"
+
+msgctxt "Languages::subscribers_menu_description"
+msgid "Manage newsletter subscribers and settings."
+msgstr "Quản lý đăng ký nhận tin và cài đặt."
+
+msgctxt "Languages::email_marketing.subscription_confirmed"
+msgid "Thank you for subscribing to our newsletter"
+msgstr "Cảm ơn bạn đã đăng ký nhận bản tin của chúng tôi"
+
+msgctxt "Languages::email_marketing.text_subscription_confirmed"
+msgid "Your subscription has been confirmed. No extra actions is required."
+msgstr "Đăng ký của bạn đã được xác nhận. Không có hành động phụ được yêu cầu."
+
+msgctxt "Languages::email_marketing.subscription_pending"
+msgid "Email confirmation is required!"
+msgstr "Email xác nhận là bắt buộc!"
+
+msgctxt "Languages::email_marketing.text_subscription_pending"
+msgid "Thank you for subscribing to our newsletter.<p>A confirmation email has been sent to you. Please use the link in the email to confirm your subscription</p>"
+msgstr "Cảm ơn bạn đã đăng ký nhận bản tin của chúng tôi. <p>Một email xác nhận đã được gửi đến bạn. Xin vui lòng sử dụng liên kết trong email để xác nhận đăng ký của bạn</p>"
+
+msgctxt "Languages::email_marketing.confirm_subscription"
+msgid "Please confirm subscription"
+msgstr "Xin vui lòng xác nhận đăng ký"
+
+msgctxt "Languages::email_marketing.text_confirm_subscription"
+msgid "We received a subscription request from you. Please confirm it:<p><a href=\"[href]\">Click here to confirm your subscription to our newsletter</a></p>If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link above."
+msgstr "Chúng tôi nhận được một yêu cầu đăng ký nhận tin từ bạn. Xin vui lòng xác nhận nó: <p><a href=\"[href]\"> Bấm vào đây để xác nhận đăng ký nhận bản tin của chúng tôi</a></p> Nếu bạn nhận được email này do nhầm lẫn, chỉ cần xóa nó. Bạn sẽ không được đăng ký nếu bạn không bấm vào liên kết xác nhận ở trên."
+
+msgctxt "Languages::email_marketing.subscription_confirmed_2"
+msgid "Subscription confirmed"
+msgstr "Xác nhận đăng ký"
+
+msgctxt "Languages::email_marketing.text_subscription_confirmed_2"
+msgid "Your subscription to our newsletter has been confirmed. Thank you for subscribing!"
+msgstr "Đăng ký nhận bản tin của chúng tôi đã được xác nhận. Cảm ơn bạn đã đăng ký!"
+
+msgctxt "Languages::email_marketing.email_subscribed"
+msgid "You were subscribed to our newsletter"
+msgstr "Bạn đã đăng ký để nhận bản tin của chúng tôi"
+
+msgctxt "Languages::email_marketing.text_email_subscribed"
+msgid "Thank you for subscribing to our newsletter. <p>If at any time you wish to stop receiving our emails, <a href=\"[href]\">click on this link to unsubscribe</a>.</p>"
+msgstr "Cảm ơn bạn đã đăng ký nhận bản tin của chúng tôi. <p>Nếu bất cứ lúc nào bạn muốn ngừng nhận email của chúng tôi, <a href=\"[href]\"> nhấp vào liên kết này để bỏ đăng ký</a>.</p>"
+
+msgctxt "Languages::email_marketing.email_subscribed_2optin"
+msgid "Subscription confirmed"
+msgstr "Xác nhận đăng ký"
+
+msgctxt "Languages::email_marketing.text_email_subscribed_2optin"
+msgid "Your subscription to our newsletter has been confirmed.<p>If at any time you wish to stop receiving our emails, <a href=\"[href]\">click on this link to unsubscribe</a>.</p>"
+msgstr "Đăng ký nhận bản tin của bạn đã được xác nhận. <p>Nếu bất cứ lúc nào bạn muốn ngừng nhận email của chúng tôi, <a href=\"[href]\"> nhấp vào liên kết này để hủy bỏ đăng ký</a>.</p>"
+
+msgctxt "Languages::email_marketing.unsubscribe_successful"
+msgid "Unsubscribe successful"
+msgstr "Bỏ đăng ký thành công"
+
+msgctxt "Languages::email_marketing.text_unsubscribe_successful"
+msgid "Your email has been removed from our list."
+msgstr "Email của bạn đã được xóa khỏi danh sách của chúng tôi."
+
+msgctxt "Languages::email_marketing.export_all"
+msgid "Export all"
+msgstr "Xuất tất cả"
+
+msgctxt "Languages::email_marketing.enter_api_key_and_save"
+msgid "Enter API key and save first"
+msgstr "Nhập API key và lưu đầu tiên"
+
+msgctxt "Languages::email_marketing.warning_email_exists"
+msgid "[email] is already subscribed"
+msgstr "[email] đã được đăng ký"
+
+msgctxt "Languages::email_marketing.new_subscriber"
+msgid "New subscriber"
+msgstr "Đăng ký nhận tin mới"
+
+msgctxt "Languages::email_marketing.sync"
+msgid "Sync"
+msgstr "Đồng bộ"
+
+msgctxt "Languages::email_marketing.text_subscribe"
+msgid "Subscribe to our newsletter"
+msgstr "Đăng ký nhận bản tin của chúng tôi"
+
+msgctxt "Languages::email_marketing.tmpl_subscription"
+msgid "Email marketing: Newsletter subscription form"
+msgstr "Email tiếp thị: mẫu đăng ký nhận bản tin"
+
+msgctxt "Languages::privileges.manage_email_marketing"
+msgid "Manage email marketing add-on"
+msgstr "Quản lý add-on email tiếp thị"
+
+msgctxt "Languages::privileges.view_email_marketing"
+msgid "View email marketing add-on"
+msgstr "Xem add-on email tiếp thị"
+
+msgctxt "Languages::email_marketing.error_no_list"
+msgid "Please select mailing list in add-on settings to start import"
+msgstr "Hãy chọn danh sách gửi thư trong cài đặt add-on để bắt đầu nhập dữ liệu"
+
+msgctxt "SettingsSections::email_marketing::general"
+msgid "General"
+msgstr "Tổng quát"
+
+msgctxt "SettingsSections::email_marketing::mailchimp"
+msgid "MailChimp"
+msgstr "MailChimp"
+
+msgctxt "SettingsSections::email_marketing::madmimi"
+msgid "MadMimi"
+msgstr "MadMimi"
+
+msgctxt "SettingsOptions::email_marketing::em_show_on_checkout"
+msgid "Newsletter checkbox on checkout"
+msgstr "Tích chọn nhận bản tin trong trang thanh toán"
+
+msgctxt "SettingsOptions::email_marketing::em_checkout_enabled"
+msgid "Tick off by default"
+msgstr "Chọn theo mặc định"
+
+msgctxt "SettingsOptions::email_marketing::em_double_opt_in"
+msgid "Double opt-in"
+msgstr "Double opt-in"
+
+msgctxt "SettingsOptions::email_marketing::em_welcome_letter"
+msgid "Send a welcome letter with the unsubscribe link"
+msgstr "Gửi thư chào mừng đến với các liên kết hủy bỏ đăng ký"
+
+msgctxt "SettingsOptions::email_marketing::em_service"
+msgid "Email integration provider"
+msgstr "Tích hợp email nhà cung cấp"
+
+msgctxt "SettingsOptions::email_marketing::em_mailchimp_api_key"
+msgid "API key"
+msgstr "API key"
+
+msgctxt "SettingsOptions::email_marketing::em_mailchimp_list"
+msgid "List"
+msgstr "Danh sách"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_username"
+msgid "E-mail"
+msgstr "Email"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_api_key"
+msgid "API key"
+msgstr "API key"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_list"
+msgid "List"
+msgstr "Danh sách"
+
+msgctxt "SettingsVariants::email_marketing::em_service::dummy"
+msgid "--"
+msgstr "--"
+
+msgctxt "SettingsVariants::email_marketing::em_service::mailchimp"
+msgid "MailChimp"
+msgstr "MailChimp"
+
+msgctxt "SettingsVariants::email_marketing::em_service::madmimi"
+msgid "MadMimi"
+msgstr "MadMimi"
+
+msgctxt "Languages::email_template.email_marketing_confirmation"
+msgid "Email marketing: subscription confirmation"
+msgstr "Email tiếp thị: xác nhận đăng ký"
+
+msgctxt "Languages::email_template.email_marketing_welcome"
+msgid "Email marketing: welcome letter"
+msgstr "Email tiếp thị: thư chào mừng"
+
+msgctxt "Languages::email_template.email_marketing_welcome_2optin"
+msgid "Email marketing: welcome letter (2optin)"
+msgstr "Email tiếp thị: thư chào mừng"
+

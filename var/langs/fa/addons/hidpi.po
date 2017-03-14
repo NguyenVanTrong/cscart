@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/hidpi.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::hidpi"
+msgid "HiDPI displays support"
+msgstr "HiDPI پشتیبانی را نمایش می دهد."
+
+msgctxt "Addons::description::hidpi"
+msgid "Support for Retina displays"
+msgstr "پشتیبانی از نمایش شبکیه چشم(Retina)"
+
+msgctxt "Languages::text_hidpi_support_enabled"
+msgid "HiDPI support is enabled"
+msgstr "پشتیبانی HiDPI فعال است"
+
+msgctxt "Languages::text_hidpi_support_tooltip"
+msgid "What does HiDPI stand for?HiDPI stands for High resolution Dots Per Inch when referring to displays. For example, the Retina displays found on the iPhone, iPad, and MacBook Pro are HiDPI."
+msgstr "چه HiDPI برای ایستادن؟ غرفه HiDPI برای نقاط در هر اینچ با وضوح بالا با اشاره به نمایش می دهد. به عنوان مثال، نمایش شبکیه بر روی آی فون اپل و مکبوک پرو HiDPI است."
+
+msgctxt "Languages::text_hidpi_install"
+msgid "All newly uploaded images will be automatically shrinked to improve loading time on non-HiDPI devices. Existing images are not changed. It is recommended to upload high-definition images."
+msgstr "همه عکس های تازه آپلود شده به صورت خودکار برای بهبود زمان بارگذاری بر روی دستگاه های غیر HiDPI گرمای خواهد بود. تصاویر متغییر هستند. توصیه می شود برای آپلود از تصاویر با کیفیت بالا استفاذه شود."
+
+msgctxt "Languages::text_hidpi_uninstall"
+msgid "Some images may be shrinked to improve loading time on non-HiDPI devices. You may want to re-upload the images with better resolution."
+msgstr "برخی از تصاویر ممکن است برای بهبود زمان بارگذاری بر روی دستگاه های غیر HiDPI گرگون شوند. شما ممکن است بخواهید تصاویر با وضوح بالاتری را دوباره آپلود نمایید."
+
+msgctxt "Languages::addons.hidpi.thumbnail_format_changed"
+msgid "<a href=\"[settings_url]\">Thumbnail format</a> is set to PNG for better image quality."
+msgstr "<a href=\"[settings_url]\"> فرمت تصویر بند انگشتی</a> برای کیفیت بهتر تصویر فعلی به PNG تنظیم شده است."
+

@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/access_restrictions.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::access_restrictions"
+msgid "Access restrictions"
+msgstr "محدودیت های دسترسی"
+
+msgctxt "Addons::description::access_restrictions"
+msgid "Lets you limit storefront and administrator area access to certain IP-addresses with different options"
+msgstr "امکان محدود کردن دسترسی به مدیریت و صفحه ی اصلی سایت را به IP های مشخص با گزینه های مختلف به شما می دهد"
+
+msgctxt "Languages::access_restrictions"
+msgid "Access restrictions"
+msgstr "محدودیت های دسترسی"
+
+msgctxt "Languages::add_ips"
+msgid "Add IPs"
+msgstr "افزودن IPها"
+
+msgctxt "Languages::new_ips"
+msgid "New IPs"
+msgstr "IPهای جدید"
+
+msgctxt "Languages::add_domains"
+msgid "Add domains"
+msgstr "افزودن دامنه"
+
+msgctxt "Languages::new_domains"
+msgid "New domains"
+msgstr "دامنه های جدید"
+
+msgctxt "Languages::add_emails"
+msgid "Add e-mail addresses"
+msgstr "افزودن آدرس های ایمیل"
+
+msgctxt "Languages::new_emails"
+msgid "New e-mail addresses"
+msgstr "آدرس ایمیل های جدید"
+
+msgctxt "Languages::new_credit_card"
+msgid "New credit card"
+msgstr "کارت اعتباری جدید"
+
+msgctxt "Languages::add_credit_card"
+msgid "Add credit card"
+msgstr "اضافه کردن کارت اعتباری"
+
+msgctxt "Languages::privileges.manage_access_restrictions"
+msgid "Manage access restrictions"
+msgstr "مدیریت محدودیت های دسترسی"
+
+msgctxt "Languages::domain"
+msgid "Domain"
+msgstr "دامنه"
+
+msgctxt "Languages::warning_of_ip_adding"
+msgid "The entered IP address <b>[entered_ip]</b> forbids access to the administration panel from your computer (your IP is <b>[your_ip]</b>)."
+msgstr "آی پی ادرس را وارد کنید ، دسترسی به بخش مدیریت بدون ای پی ادرس صورت نمیگیرد"
+
+msgctxt "Languages::text_cc_number_is_blocked"
+msgid "The credit card number <b>[cc_number]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "شماره کارت اعتباری  توسط مدیر مسدود شده است. لطفا با مدیر فروشگاه تماس بگیرید و یا یک بار دیگر را امتحان کنید."
+
+msgctxt "Languages::text_not_valid_ip"
+msgid "<b>[ip]</b> is not a valid ip address."
+msgstr "ای پی ادرس معتبر نمی باشد\n"
+"\n"
+""
+
+msgctxt "Languages::text_not_valid_domain"
+msgid "<b>[domain]</b> is not a valid domain name."
+msgstr "نام دامنه معتبر نیست."
+
+msgctxt "Languages::text_not_valid_cc_number"
+msgid "<b>[cc_number]</b> is not a valid credit card number."
+msgstr " شماره کارت اعتباری معتبر نیست."
+
+msgctxt "Languages::text_email_is_blocked"
+msgid "The e-mail address <b>[email]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "آدرس پست الکترونیکی( ایمیل ) توسط مدیر مسدود شده است. لطفا با مدیر فروشگاه تماس بگیرید و یا یکبار دیگر امتحان کنید."
+
+msgctxt "Languages::text_ips_denied"
+msgid "You are not allowed to access this area"
+msgstr "شما مجازنیستید به این قسمت دسترسی پیدا کنید."
+
+msgctxt "Languages::text_ip_blocked_failed_login"
+msgid "The IP was blocked after [number] unsuccessful logins"
+msgstr "آی پی پس از چند تلاش ناموفق مسدود شده بود."
+
+msgctxt "Languages::text_ip_is_blocked"
+msgid "Your IP address is blocked."
+msgstr "IP شما مسدود شده است."
+
+msgctxt "Languages::store_admin"
+msgid "Store administrator"
+msgstr "مدیر فروشگاه"
+
+msgctxt "Languages::your_ip_added"
+msgid "Your IP address <b>[ip]</b> has been added to the access restrictions table."
+msgstr "آی پی  آدرس به محدودیت دسترسی به جدول محدودیت ها  اضافه شده است."
+
+msgctxt "Languages::your_ip_enabled"
+msgid "Your IP address <b>[ip]</b> has been enabled in the access restrictions table."
+msgstr "ای پی  ادرس شما در جدول محدودیت دسترسی فعال شده است."
+
+msgctxt "Languages::your_ip_removed"
+msgid "Your IP address <b>[ip]</b> has been removed from the access restrictions table."
+msgstr "ای پی ادرس شما  از جدول محدودیت های دسترسی حذف شده است."
+
+msgctxt "Languages::ip_from"
+msgid "IP from"
+msgstr "فرم IP"
+
+msgctxt "Languages::ip_to"
+msgid "IP to"
+msgstr "IP به"
+
+msgctxt "Languages::text_access_notice"
+msgid "You can use the wildcards for the \"Domain\", \"E-mail\" and \"Credit Card\" tabs: <br /><b>*</b> - can represent any number of characters, including zero<br /><b>?</b> - can represent any single character."
+msgstr "شما می توانید از نویسه عام برای زبانه های \"دامنه\" و \"پست الکترونیکی\" و \"کارت اعتباری\" استفاده: br / > <b>*</b> - می تواند نشان دهنده هر تعدادی از کاراکترها از جمله صفر-br / > <b>؟</b> - نمایندگی می توانید هر نویسه تکی."
+
+msgctxt "Languages::ips"
+msgid "IPs"
+msgstr "IPs"
+
+msgctxt "Languages::make_permanent"
+msgid "Make permanent"
+msgstr "پرداخت کنید"
+
+msgctxt "Languages::credit_card_number"
+msgid "Credit card number"
+msgstr "شماره کارت اعتباری"
+
+msgctxt "SettingsSections::access_restrictions::general"
+msgid "General"
+msgstr "عمومی"
+
+msgctxt "SettingsOptions::access_restrictions::elm_administrator_area_settings"
+msgid "Administrator area settings"
+msgstr "تنظیمات محیط مدیریت"
+
+msgctxt "SettingsOptions::access_restrictions::admin_reverse_ip_access"
+msgid "Allow login to the admin area from specified IPs only"
+msgstr "اجازه ورود به بخش مدیریت تنها از طرق ای پی های مشخص شده امکان دارد."
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "ای پی شما به علت چند تلاش ناموفق بلوکه شده است."
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts"
+msgid "Number of unsuccessful attempts"
+msgstr "چند تلاش ناموفق"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr " تلاش های ناموفق  درزمان بین ورود به سیستم (ثانیه)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "زمانی که IP باید مسدود شده (ساعت)"
+
+msgctxt "SettingsOptions::access_restrictions::elm_customer_and_affiliate_area_settings"
+msgid "Customer area settings"
+msgstr "تنظیمات محیط مشتری"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login_customer"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "ای پی شما به علت چند تلاش ناموفق بلوکه شده است"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts_customer"
+msgid "Number of unsuccessful attempts"
+msgstr "چند تلاش ناموفق"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals_customer"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "تلاش های ناموفق  درزمان بین ورود به سیستم (ثانیه)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block_customer"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "زمانی که IP باید مسدود باشد (ساعت)"
+

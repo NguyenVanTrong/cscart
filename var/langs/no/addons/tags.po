@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: no\n"
+"X-Crowdin-File: /addons/tags.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::tags"
+msgid "Tags"
+msgstr "Tagger"
+
+msgctxt "Addons::description::tags"
+msgid "Enables product tags"
+msgstr "Aktiverer produkt tagger"
+
+msgctxt "Languages::tags_menu_description"
+msgid "Manage product and content page tags."
+msgstr "Administrer tagger for produkt og innholdssider."
+
+msgctxt "Languages::sign_in_to_enter_tags"
+msgid "Sign in to enter tags"
+msgstr "Logg inn for å skrive inn tagger"
+
+msgctxt "Languages::tag_cloud"
+msgid "Tag cloud"
+msgstr "Tagg Sky"
+
+msgctxt "Languages::tags"
+msgid "Tags"
+msgstr "Tagger"
+
+msgctxt "Languages::block_tags"
+msgid "Tags"
+msgstr "Tagger"
+
+msgctxt "Languages::block_tags_description"
+msgid "Product tags"
+msgstr "Produkt tagger"
+
+msgctxt "Languages::addons.tags.add_a_tag"
+msgid "add a tag"
+msgstr "Legg til en tagg"
+
+msgctxt "Languages::items_marked_by_tag"
+msgid "Items marked by the \"[tag]\" tag:"
+msgstr "Elementer merket med \"[tag]\" taggen:"
+
+msgctxt "Languages::tag"
+msgid "Tag"
+msgstr "Tagg"
+
+msgctxt "Languages::add_tag"
+msgid "Add tag"
+msgstr "Legg til tagg"
+
+msgctxt "SettingsSections::tags::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsOptions::tags::tags_for_products"
+msgid "Tags for products"
+msgstr "Tagger for produkter"
+
+msgctxt "SettingsOptions::tags::tags_for_pages"
+msgid "Tags for pages"
+msgstr "Tagger for sider"
+

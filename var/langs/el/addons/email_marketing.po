@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /addons/email_marketing.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:47-0500\n"
+
+msgctxt "Addons::name::email_marketing"
+msgid "E-mail marketing"
+msgstr "E-mail marketing"
+
+msgctxt "Addons::description::email_marketing"
+msgid "Synchronizes your newsletter subscriber lists with MailChimp and Mad Mimi"
+msgstr "Συγχρονίζει τη λίστα συνδρομητών Newsletter με την υπηρεσία MailChimp και Mad Mimi"
+
+msgctxt "Languages::subscribers_menu_description"
+msgid "Manage newsletter subscribers and settings."
+msgstr "Διαχείριση συνδρομητών Newsletter και ρυθμίσεις."
+
+msgctxt "Languages::email_marketing.subscription_confirmed"
+msgid "Thank you for subscribing to our newsletter"
+msgstr "Ευχαριστούμε για την εγγραφή στο newsletter μας"
+
+msgctxt "Languages::email_marketing.text_subscription_confirmed"
+msgid "Your subscription has been confirmed. No extra actions is required."
+msgstr "Συνδρομή σας έχει επιβεβαιωθεί. Δεν απαιτείται καμία επιπλέον ενέργεια."
+
+msgctxt "Languages::email_marketing.subscription_pending"
+msgid "Email confirmation is required!"
+msgstr "Απαιτείται η επιβεβαίωση του Email!"
+
+msgctxt "Languages::email_marketing.text_subscription_pending"
+msgid "Thank you for subscribing to our newsletter.<p>A confirmation email has been sent to you. Please use the link in the email to confirm your subscription</p>"
+msgstr "Σας ευχαριστούμε για την εγγραφή σας στο newsletter μας.<p>Ένα email επιβεβαίωσης σας έχει ήδη αποσταλεί. Παρακαλούμε χρησιμοποιήστε το σύνδεσμο στο Email αυτό για να επιβεβαιώσετε την εγγραφή σας</p>"
+
+msgctxt "Languages::email_marketing.confirm_subscription"
+msgid "Please confirm subscription"
+msgstr "Παρακαλολυμε επιβεβαιώστε τη συνδρομής σας"
+
+msgctxt "Languages::email_marketing.text_confirm_subscription"
+msgid "We received a subscription request from you. Please confirm it:<p><a href=\"[href]\">Click here to confirm your subscription to our newsletter</a></p>If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link above."
+msgstr "Λάβαμε μια αίτηση εγγραφής από εσάς. Παρακαλείσθε να επιβεβαιώσετε αυτό: <p><a href=\"[href]\"> κάντε κλικ εδώ, για να επιβεβαιώσετε την εγγραφή σας στο newsletter μας</a></p> εάν λάβατε αυτό το μήνυμα κατά λάθος, απλώς διαγράψτε το. Δεν θα εγγραφείτε αν δεν κάνετε κλικ στον παραπάνω σύνδεσμο επιβεβαίωσης."
+
+msgctxt "Languages::email_marketing.subscription_confirmed_2"
+msgid "Subscription confirmed"
+msgstr "Συνδρομή επιβεβαιώθηκε"
+
+msgctxt "Languages::email_marketing.text_subscription_confirmed_2"
+msgid "Your subscription to our newsletter has been confirmed. Thank you for subscribing!"
+msgstr "Η εγγραφή σας στο newsletter μας έχει επιβεβαιωθει. Σας ευχαριστώ για την εγγραφή!"
+
+msgctxt "Languages::email_marketing.email_subscribed"
+msgid "You were subscribed to our newsletter"
+msgstr "Ήσασταν εγγεγραμμένος στο newsletter μας"
+
+msgctxt "Languages::email_marketing.text_email_subscribed"
+msgid "Thank you for subscribing to our newsletter. <p>If at any time you wish to stop receiving our emails, <a href=\"[href]\">click on this link to unsubscribe</a>.</p>"
+msgstr "Ευχαριστούμε για την εγγραφή σας στο newsletter μας. <p>Αν οποιαδήποτε στιγμή επιθυμείτε να σταματήσετε να λαμβάνετε τα email μας, <a href=\"[href]\"> κάντε κλικ σ αυτό το σύνδεσμο για να διαγραφείτε</a>.</p>"
+
+msgctxt "Languages::email_marketing.email_subscribed_2optin"
+msgid "Subscription confirmed"
+msgstr "Συνδρομή επιβεβαιώθηκε"
+
+msgctxt "Languages::email_marketing.text_email_subscribed_2optin"
+msgid "Your subscription to our newsletter has been confirmed.<p>If at any time you wish to stop receiving our emails, <a href=\"[href]\">click on this link to unsubscribe</a>.</p>"
+msgstr "H εγγραφή σας στο newsletter μας ;έχει επιβεβαιωθεί.<p>Αν οποιαδήποτε στιγμή επιθυμείτε να σταματήσετε να λαμβάνετε τα email μας, <a href=\"[href]\"> κάντε κλικ σ΄αυτό το σύνδεσμο για να διαγραφείτε</a>.</p>"
+
+msgctxt "Languages::email_marketing.unsubscribe_successful"
+msgid "Unsubscribe successful"
+msgstr "Διαγραφή επιτυχής"
+
+msgctxt "Languages::email_marketing.text_unsubscribe_successful"
+msgid "Your email has been removed from our list."
+msgstr "Το email σας έχει αφαιρεθεί από τη λίστα μας."
+
+msgctxt "Languages::email_marketing.export_all"
+msgid "Export all"
+msgstr "Εξαγωγή όλων"
+
+msgctxt "Languages::email_marketing.enter_api_key_and_save"
+msgid "Enter API key and save first"
+msgstr "Εισάγετε το κλειδί API και αποθηκεύσετε πρώτα"
+
+msgctxt "Languages::email_marketing.warning_email_exists"
+msgid "[email] is already subscribed"
+msgstr "Το [email] είναι ήδη συνδρομητής"
+
+msgctxt "Languages::email_marketing.new_subscriber"
+msgid "New subscriber"
+msgstr "Νέος Συνδρομητής"
+
+msgctxt "Languages::email_marketing.sync"
+msgid "Sync"
+msgstr "Συγχρονισμος"
+
+msgctxt "Languages::email_marketing.text_subscribe"
+msgid "Subscribe to our newsletter"
+msgstr "Γραφτείτε στο Ενημερωτικό μας email"
+
+msgctxt "Languages::email_marketing.tmpl_subscription"
+msgid "Email marketing: Newsletter subscription form"
+msgstr "Email marketing: Φόρμα Εγγραφής Newsletter"
+
+msgctxt "Languages::privileges.manage_email_marketing"
+msgid "Manage email marketing add-on"
+msgstr "Διαχειριστείτε το πρόσθετοr email Marketing"
+
+msgctxt "Languages::privileges.view_email_marketing"
+msgid "View email marketing add-on"
+msgstr "Προβολή πρόσθετου  email marketing"
+
+msgctxt "Languages::email_marketing.error_no_list"
+msgid "Please select mailing list in add-on settings to start import"
+msgstr "Παρακαολούμε επιλέξτε λίστα email στις ρυθμίσεις του πρόσθετου για να ξεκινήσετε την εισαγωγή"
+
+msgctxt "SettingsSections::email_marketing::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsSections::email_marketing::mailchimp"
+msgid "MailChimp"
+msgstr "MailChimp"
+
+msgctxt "SettingsSections::email_marketing::madmimi"
+msgid "MadMimi"
+msgstr "MadMimi"
+
+msgctxt "SettingsOptions::email_marketing::em_show_on_checkout"
+msgid "Newsletter checkbox on checkout"
+msgstr "Κουτάκι επιλογής Newsletter στο Ταμείο"
+
+msgctxt "SettingsOptions::email_marketing::em_checkout_enabled"
+msgid "Tick off by default"
+msgstr "Επιλεγμένο από προεπιλογή"
+
+msgctxt "SettingsOptions::email_marketing::em_double_opt_in"
+msgid "Double opt-in"
+msgstr "Επιβεβαίωση Εγγραφής"
+
+msgctxt "SettingsOptions::email_marketing::em_welcome_letter"
+msgid "Send a welcome letter with the unsubscribe link"
+msgstr "Στείλτε μια επιστολή καλωσορισματος με το σύνδεσμο Κατάργησης Εγγραφής"
+
+msgctxt "SettingsOptions::email_marketing::em_service"
+msgid "Email integration provider"
+msgstr "πάροχος ενσωμάτωσης e-mail"
+
+msgctxt "SettingsOptions::email_marketing::em_mailchimp_api_key"
+msgid "API key"
+msgstr "API key"
+
+msgctxt "SettingsOptions::email_marketing::em_mailchimp_list"
+msgid "List"
+msgstr "Λίστα"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_username"
+msgid "E-mail"
+msgstr "E-mail"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_api_key"
+msgid "API key"
+msgstr "API key"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_list"
+msgid "List"
+msgstr "Λίστα"
+
+msgctxt "SettingsVariants::email_marketing::em_service::dummy"
+msgid "--"
+msgstr "--"
+
+msgctxt "SettingsVariants::email_marketing::em_service::mailchimp"
+msgid "MailChimp"
+msgstr "MailChimp"
+
+msgctxt "SettingsVariants::email_marketing::em_service::madmimi"
+msgid "MadMimi"
+msgstr "MadMimi"
+
+msgctxt "Languages::email_template.email_marketing_confirmation"
+msgid "Email marketing: subscription confirmation"
+msgstr "Email marketing: επιβεβαίωση εγγραφής συνδρομητή"
+
+msgctxt "Languages::email_template.email_marketing_welcome"
+msgid "Email marketing: welcome letter"
+msgstr "Email marketing: επιστολή καλωσορίσματος"
+
+msgctxt "Languages::email_template.email_marketing_welcome_2optin"
+msgid "Email marketing: welcome letter (2optin)"
+msgstr "Email marketing: επιστολή καλωσορίσματος (2optin)"
+

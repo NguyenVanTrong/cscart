@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /addons/bestsellers.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & On-Sale Products"
+msgstr "Satıştaki & En çok satan ürünler"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "En çok satan & satış Ürün verilerini toplar ve bu tür ürünleri göstermek için blok dolguları ekler"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "En çok satan ürüne göre sırala: Düşükten Yükseğe"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "En çok satan ürüne göre sırala"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "İndirime göre sırala: Düşükten Yükseğe"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "İndirime göre sırala: Yüksekten Düşüğe"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "Satış miktarı"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "En çok satan ürün"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "Satılık"
+
+msgctxt "Languages::similar"
+msgid "Similar"
+msgstr "Benzer"
+
+msgctxt "Languages::percent_range"
+msgid "Price range (in % of the main product's price)"
+msgstr "Fiyat aralığı (ana ürünün fiyatının % si olarak)"
+
+msgctxt "Languages::similar_category"
+msgid "Of the same category"
+msgstr "Aynı kategoriden"
+
+msgctxt "Languages::similar_subcats"
+msgid "Consider subcategories"
+msgstr "Alt kategorileri deneyin"
+
+msgctxt "Languages::similar_in_stock"
+msgid "Only \"in stock\" products"
+msgstr "Yalnız \"stoktaki\" ürünler"
+
+msgctxt "Languages::final_sale"
+msgid "Final sale"
+msgstr "Kesin satış"
+
+msgctxt "SettingsSections::bestsellers::general"
+msgid "General"
+msgstr "Genel"
+
+msgctxt "SettingsSections::bestsellers::newest"
+msgid "Newest"
+msgstr "En yeniler"
+
+msgctxt "SettingsOptions::bestsellers::final_sale_from"
+msgid "Minimum final sale discount (%)"
+msgstr "Asgari nihai satış indirimi (%)"
+
+msgctxt "SettingsOptions::bestsellers::sales_amount_from"
+msgid "Minimum sales amount to define bestsellers"
+msgstr "En çok satanları belirlemek için asgari satış tutarı"
+
+msgctxt "SettingsOptions::bestsellers::period"
+msgid "Period"
+msgstr "Dönem"
+
+msgctxt "SettingsOptions::bestsellers::last_days"
+msgid "Last days"
+msgstr "Son günler"
+
+msgctxt "SettingsVariants::bestsellers::period::all"
+msgid "All days"
+msgstr "Tüm günler"
+
+msgctxt "SettingsVariants::bestsellers::period::today"
+msgid "Today"
+msgstr "Bugün"
+
+msgctxt "SettingsVariants::bestsellers::period::last_days"
+msgid "Last days"
+msgstr "Son günler"
+

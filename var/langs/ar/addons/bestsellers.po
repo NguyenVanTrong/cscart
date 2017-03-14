@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /addons/bestsellers.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:00-0500\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & On-Sale Products"
+msgstr "الأكثر مبيعاً و المنتجات المخفضة"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "يجمع مبيعا وعلى البيانات بيع المنتجات ويضيف حشوات كتلة لإظهار مثل هذه المنتجات"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "فرز حسب الأكثر مبيعاً: الأدنى إلى الأعلى"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "فرز حسب الأكثر مبيعاً"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "فرز حسب التخفيض: الأدنى إلى الأعلى"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "فرز حسب الخصم: عالية إلى منخفضة"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "كمية المبيعات"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "الأكثر مبيعاً"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "تخفيض"
+
+msgctxt "Languages::similar"
+msgid "Similar"
+msgstr "مشابه"
+
+msgctxt "Languages::percent_range"
+msgid "Price range (in % of the main product's price)"
+msgstr "النطاق السعري (بالنسبة المئوية % من السعر الأصلي للمنتج)"
+
+msgctxt "Languages::similar_category"
+msgid "Of the same category"
+msgstr "من نفس الفئة"
+
+msgctxt "Languages::similar_subcats"
+msgid "Consider subcategories"
+msgstr "تضمين الأقسام الفرعية"
+
+msgctxt "Languages::similar_in_stock"
+msgid "Only \"in stock\" products"
+msgstr "فقط المنتجات \"في المخزون\""
+
+msgctxt "Languages::final_sale"
+msgid "Final sale"
+msgstr "التخفيضات النهائية"
+
+msgctxt "SettingsSections::bestsellers::general"
+msgid "General"
+msgstr "عام"
+
+msgctxt "SettingsSections::bestsellers::newest"
+msgid "Newest"
+msgstr "الأحدث"
+
+msgctxt "SettingsOptions::bestsellers::final_sale_from"
+msgid "Minimum final sale discount (%)"
+msgstr "الحد الأدنى للتخفيضات النهائية (%)"
+
+msgctxt "SettingsOptions::bestsellers::sales_amount_from"
+msgid "Minimum sales amount to define bestsellers"
+msgstr "الحد الأدنى من كمية المبيعات لتحديد الأكثر مبيعا"
+
+msgctxt "SettingsOptions::bestsellers::period"
+msgid "Period"
+msgstr "الفترة"
+
+msgctxt "SettingsOptions::bestsellers::last_days"
+msgid "Last days"
+msgstr "الأيام الأخيرة"
+
+msgctxt "SettingsVariants::bestsellers::period::all"
+msgid "All days"
+msgstr "كل الأيام"
+
+msgctxt "SettingsVariants::bestsellers::period::today"
+msgid "Today"
+msgstr "اليوم"
+
+msgctxt "SettingsVariants::bestsellers::period::last_days"
+msgid "Last days"
+msgstr "الأيام السابقة"
+

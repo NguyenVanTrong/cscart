@@ -1,0 +1,266 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Slovak\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sk\n"
+"X-Crowdin-File: /addons/reward_points.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::reward_points"
+msgid "Reward points"
+msgstr "Zákaznícke body"
+
+msgctxt "Addons::description::reward_points"
+msgid "Lets customers earn and spend points for purchases"
+msgstr "Umožňuje zákazníkom získavať a míňať body za nákupy"
+
+msgctxt "Languages::reward_points"
+msgid "Reward points"
+msgstr "Zákaznícke body"
+
+msgctxt "Languages::reward_points_log"
+msgid "Reward points log"
+msgstr "Záznam zákazníckych bodov"
+
+msgctxt "Languages::reward_points_menu_description"
+msgid "Assign global reward points in your store."
+msgstr "Globálne priradiť zákaznícke body vo vašom obchode."
+
+msgctxt "Languages::promotion_cond_reward_points"
+msgid "Points on user account"
+msgstr "Body na používateľskom účte"
+
+msgctxt "Languages::points"
+msgid "Points"
+msgstr "Body"
+
+msgctxt "Languages::points_in_use"
+msgid "Points in use"
+msgstr "Používané body"
+
+msgctxt "Languages::points_in_use_lower"
+msgid "points in use"
+msgstr "používané body"
+
+msgctxt "Languages::points_lower"
+msgid "points"
+msgstr "bodov"
+
+msgctxt "Languages::points_in_use_lowercase"
+msgid "[n] point in use|[n] points in use"
+msgstr ""
+
+msgctxt "Languages::points_lowercase"
+msgid "[n] point|[n] points"
+msgstr ""
+
+msgctxt "Languages::points_to_use"
+msgid "Points to use"
+msgstr "Body na použitie"
+
+msgctxt "Languages::point_payment"
+msgid "Point payment"
+msgstr "Platba bodmi"
+
+msgctxt "Languages::point_price"
+msgid "Price in points"
+msgstr "Cena v bodoch"
+
+msgctxt "Languages::text_increase_points_in_use"
+msgid "The points used in the order were added to user account."
+msgstr "Body použité v objednávke boli pridané na používateľský účet."
+
+msgctxt "Languages::text_points_used_in_order"
+msgid "Points were used in order"
+msgstr "V objednávke boli použité body"
+
+msgctxt "Languages::text_point_in_account"
+msgid "You have"
+msgstr "Máte"
+
+msgctxt "Languages::pay_by_points"
+msgid "Allow payment by points"
+msgstr "Povoliť platbu bodmi"
+
+msgctxt "Languages::override_per"
+msgid "Override global PER"
+msgstr "Potlačiť globálnu hodnotu KB"
+
+msgctxt "Languages::override_gc_points_brief"
+msgid "Override global/category points"
+msgstr "Potlačiť globálne body/body v kategórii"
+
+msgctxt "Languages::text_points_exceed_points_on_account"
+msgid "The number of the points entered by you exceeds the number of points at your account."
+msgstr "Počet zadaných bodov je vyšší ako počet bodov na vašom účte."
+
+msgctxt "Languages::text_points_exceed_points_that_can_be_applied"
+msgid "The number of points entered by you exceeds the number of points that can be applied to this order."
+msgstr "Počet zadaných bodov je vyšší ako počet bodov, ktoré je možné použiť v tejto objednávke."
+
+msgctxt "Languages::text_points_cannot_applied_because_subtotal_redeemed"
+msgid "Points cannot be applied because the subtotal is completely redeemed."
+msgstr "Nemôžete použiť body, pretože medzisúčet je vyrovnaný."
+
+msgctxt "Languages::text_cannot_apply_points_to_this_order_because_total"
+msgid "Unfortunately, you cannot apply points to this order, because the total cost is zero."
+msgstr "Bohužiaľ v tejto objednávke nemôžete použiť body, pretože jej suma sa rovná nule."
+
+msgctxt "Languages::text_cannot_apply_points_to_this_order_because_user"
+msgid "Unfortunately, you cannot apply points to this order, because you do not have enough points at the account."
+msgstr "Bohužiaľ v tejto objednávke nemôžete použiť body, pretože ich na účte nemáte dostatok."
+
+msgctxt "Languages::text_order_status_has_not_been_changed"
+msgid "The order status has not been changed, because the user did not have enough points."
+msgstr "Stav objednávky nebol zmenený, pretože používateľ nemal dostatok bodov."
+
+msgctxt "Languages::price_in_points_increased"
+msgid "Price in points has been increased by"
+msgstr "Cena v bodoch bola zvýšená o"
+
+msgctxt "Languages::price_in_points_decreased"
+msgid "Price in points has been decreased by"
+msgstr "Cena v bodoch bola znížená o"
+
+msgctxt "Languages::earned_points"
+msgid "Points earned per product"
+msgstr "Body získané za produkt"
+
+msgctxt "Languages::override_g_points"
+msgid "Override global point value for all products in this category"
+msgstr "Potlačiť globálnu bodovú hodnotu pre všetky produkty v tejto kategórii"
+
+msgctxt "Languages::amount_type"
+msgid "Amount type"
+msgstr "Typ čiastky"
+
+msgctxt "Languages::maximum"
+msgid "Maximum"
+msgstr "Maximálne"
+
+msgctxt "Languages::earned_point_modifier"
+msgid "Earned point modifier"
+msgstr "Modifikátor získaných bodov"
+
+msgctxt "Languages::override_gc_points"
+msgid "Override global/category point value for this product"
+msgstr "Potlačiť globálnu/kategorickú bodovú hodnotu pre tento produkt"
+
+msgctxt "Languages::view_user_points"
+msgid "View user points"
+msgstr "Zobraziť body používateľa"
+
+msgctxt "Languages::log"
+msgid "Log"
+msgstr "Záznam"
+
+msgctxt "Languages::subtract"
+msgid "Subtract"
+msgstr "Odčítať"
+
+msgctxt "Languages::change_points"
+msgid "Change points"
+msgstr "Zmeniť body"
+
+msgctxt "Languages::add_subtract_points"
+msgid "Add & subtract points"
+msgstr "Pripočítať alebo odčítať body"
+
+msgctxt "Languages::cleanup_log"
+msgid "Cleanup log"
+msgstr "Vyčistenie záznamu"
+
+msgctxt "Languages::we_would_like_to_inform"
+msgid "We would like to inform you that"
+msgstr "Radi by sme vás informovali, že"
+
+msgctxt "Languages::reward_points_subj_added_to"
+msgid "[n] point have been added to your account.|[n] points have been added to your account."
+msgstr ""
+
+msgctxt "Languages::reward_points_subj_subtracted_from"
+msgid "[n] point have been subtracted from your account.|[n] points have been subtracted from your account."
+msgstr ""
+
+msgctxt "Languages::privileges.manage_reward_points"
+msgid "Manage reward points system"
+msgstr "Spravovať systém zákazníckych bodov"
+
+msgctxt "SettingsSections::reward_points::general"
+msgid "General"
+msgstr "Všeobecné"
+
+msgctxt "SettingsOptions::reward_points::point_rate"
+msgid "Points Exchange Rate (PER - the number of points equal to 1 conventional unit)"
+msgstr "Výmenný kurz bodov (KB - počet bodov rovnajúcich sa jednej konvenčnej jednotke)"
+
+msgctxt "SettingsOptions::reward_points::auto_price_in_points"
+msgid "\"Price in points\" is calculated automatically on PER basis"
+msgstr "\"Cena v bodoch\" bude automaticky vypočítaná na základe KB"
+
+msgctxt "SettingsOptions::reward_points::price_in_points_with_discounts"
+msgid "\"Price in points\" is recalculated taking into account discounts"
+msgstr "\"Cena v bodoch\" bude prepočítaná, berúc do úvahy zľavy"
+
+msgctxt "SettingsOptions::reward_points::points_with_discounts"
+msgid "\"Points\" is recalculated taking into account discounts"
+msgstr "\"Body\" budú prepočítané, berúc do úvahy zľavy"
+
+msgctxt "SettingsOptions::reward_points::price_in_points_order_discount"
+msgid "\"Price in points\" is recalculated taking into account order discounts"
+msgstr "\"Cena v bodoch\" bude prepočítaná, berúc do úvahy zľavy na objednávku"
+
+msgctxt "SettingsOptions::reward_points::reward_points_order_discount"
+msgid "\"Points\" is recalculated taking into account order discounts"
+msgstr "\"Body\" budú prepočítané, berúc do úvahy zľavy na objednávku"
+
+msgctxt "SettingsOptions::reward_points::higher_level_extract"
+msgid "If the product and the product category do not have defined reward points but the higher level category has such reward points, extract data from it"
+msgstr "Ak produkt, alebo kategória produktov, nemajú definované hodnoty zákazníckych bodov, ale nadradená kategória ich má, extrahujte údaje z nej"
+
+msgctxt "SettingsOptions::reward_points::several_points_action"
+msgid "If several reward points can be applied, set"
+msgstr "Ak môže byť použitých viacero zákazníckych bodov, nastavte"
+
+msgctxt "SettingsOptions::reward_points::consider_zero_values"
+msgid "Apply zero reward point values"
+msgstr "Použiť nulové hodnoty zákazníckych bodov"
+
+msgctxt "SettingsOptions::reward_points::log_per_page"
+msgid "Log lines per page"
+msgstr "Riadkov záznamu na stranu"
+
+msgctxt "SettingsTooltips::reward_points::consider_zero_values"
+msgid "The reward points rules with the zero values should be considered"
+msgstr "Zákaznícke body s nulovou hodnotou by mali byť považované za"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::minimal_absolute"
+msgid "Absolute minimal value"
+msgstr "Minimálna absolútna hodnota"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::minimal_percentage"
+msgid "Minimal percentage value"
+msgstr "Minimálna percentuálna hodnota"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::maximal_absolute"
+msgid "Absolute maximal value"
+msgstr "Maximálna absolútna hodnota"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::maximal_percentage"
+msgid "Maximal percentage value"
+msgstr "Maximálna percentuálna hodnota"
+
+msgctxt "Languages::email_template.reward_points_notification"
+msgid "Reward points"
+msgstr ""
+
+msgctxt "Languages::grant_point"
+msgid "Grant reward points"
+msgstr ""
+

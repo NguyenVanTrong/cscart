@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /addons/access_restrictions.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:00-0500\n"
+
+msgctxt "Addons::name::access_restrictions"
+msgid "Access restrictions"
+msgstr "غير مصرح بالدخول"
+
+msgctxt "Addons::description::access_restrictions"
+msgid "Lets you limit storefront and administrator area access to certain IP-addresses with different options"
+msgstr "يسمح لك بتحديد الدخول إلى واجهة المتجر و والإدارة من خلال عنوان IP معين، وبخيارات مختلفة"
+
+msgctxt "Languages::access_restrictions"
+msgid "Access restrictions"
+msgstr "هناك قيود على الدخول"
+
+msgctxt "Languages::add_ips"
+msgid "Add IPs"
+msgstr "أضف عناوين IP"
+
+msgctxt "Languages::new_ips"
+msgid "New IPs"
+msgstr "عنوان IP جديد"
+
+msgctxt "Languages::add_domains"
+msgid "Add domains"
+msgstr "أضف نطاقات"
+
+msgctxt "Languages::new_domains"
+msgid "New domains"
+msgstr "نطاقات جديدة"
+
+msgctxt "Languages::add_emails"
+msgid "Add e-mail addresses"
+msgstr "أضف عنوان بريد إلكتروني"
+
+msgctxt "Languages::new_emails"
+msgid "New e-mail addresses"
+msgstr "عنوان بريد إلكتروني جديد"
+
+msgctxt "Languages::new_credit_card"
+msgid "New credit card"
+msgstr "بطاقة إئتمان جديدة"
+
+msgctxt "Languages::add_credit_card"
+msgid "Add credit card"
+msgstr "أضف بطاقة إئتمان"
+
+msgctxt "Languages::privileges.manage_access_restrictions"
+msgid "Manage access restrictions"
+msgstr "إدارة القيود على الوصول"
+
+msgctxt "Languages::domain"
+msgid "Domain"
+msgstr "نطاق"
+
+msgctxt "Languages::warning_of_ip_adding"
+msgid "The entered IP address <b>[entered_ip]</b> forbids access to the administration panel from your computer (your IP is <b>[your_ip]</b>)."
+msgstr "عنوان IP تم إدخاله <b>[entered_ip]</b> يمنع الوصول إلى لوحة الإدارة من جهاز الكمبيوتر الخاص بك (IP الخاص بك <b>[your_ip]</b>)."
+
+msgctxt "Languages::text_cc_number_is_blocked"
+msgid "The credit card number <b>[cc_number]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "رقم بطاقة الائتمان <b>[cc_number]</b> محظور بواسطة المسؤول. الرجاء الاتصال بالمسؤول عن المتجر او حاول استخدام بطاقة أخرى."
+
+msgctxt "Languages::text_not_valid_ip"
+msgid "<b>[ip]</b> is not a valid ip address."
+msgstr "<b>[ip]</b> ليس عنوان ip صالح."
+
+msgctxt "Languages::text_not_valid_domain"
+msgid "<b>[domain]</b> is not a valid domain name."
+msgstr "<b>[domain]</b> ليس اسم مجال صالح."
+
+msgctxt "Languages::text_not_valid_cc_number"
+msgid "<b>[cc_number]</b> is not a valid credit card number."
+msgstr "<b>[cc_number]</b> رقم بطاقة ائتمان غير صالحة."
+
+msgctxt "Languages::text_email_is_blocked"
+msgid "The e-mail address <b>[email]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "عنوان البريد الإلكتروني <b>[email]</b> محظور بواسطة المسؤول. الرجاء الاتصال بالمسؤول عن المتجر أو حاول استخدام عنوان آخر."
+
+msgctxt "Languages::text_ips_denied"
+msgid "You are not allowed to access this area"
+msgstr "غير مسموح لك الوصول إلى هذه المنطقة"
+
+msgctxt "Languages::text_ip_blocked_failed_login"
+msgid "The IP was blocked after [number] unsuccessful logins"
+msgstr "تم حظر IP الخاص بك [number] بعد تسجيلات دخول غير ناجحة"
+
+msgctxt "Languages::text_ip_is_blocked"
+msgid "Your IP address is blocked."
+msgstr "تم حظر عنوان IP الخاص بك."
+
+msgctxt "Languages::store_admin"
+msgid "Store administrator"
+msgstr "مسؤول المتجر"
+
+msgctxt "Languages::your_ip_added"
+msgid "Your IP address <b>[ip]</b> has been added to the access restrictions table."
+msgstr "عنوان IP الخاص بك <b>[ip]</b> أضيفت إلى الجدول قيود الوصول."
+
+msgctxt "Languages::your_ip_enabled"
+msgid "Your IP address <b>[ip]</b> has been enabled in the access restrictions table."
+msgstr "تم تمكين عنوان IP الخاص بك <b>[ip]</b> في الجدول قيود الوصول."
+
+msgctxt "Languages::your_ip_removed"
+msgid "Your IP address <b>[ip]</b> has been removed from the access restrictions table."
+msgstr "عنوان IP الخاص بك <b>[ip]</b> قد أزيلت من الجدول قيود الوصول."
+
+msgctxt "Languages::ip_from"
+msgid "IP from"
+msgstr "IP من"
+
+msgctxt "Languages::ip_to"
+msgid "IP to"
+msgstr "الى IP"
+
+msgctxt "Languages::text_access_notice"
+msgid "You can use the wildcards for the \"Domain\", \"E-mail\" and \"Credit Card\" tabs: <br /><b>*</b> - can represent any number of characters, including zero<br /><b>?</b> - can represent any single character."
+msgstr "يمكنك استخدام أحرف البدل لعلامات التبويب \"المجال\"، \"البريد الإلكتروني\" و \"بطاقة الائتمان\": <br/> <b>*</b>--يمكن أن تمثل أي عدد من الأحرف، بما في ذلك الصفر <br/> <b>؟</b> -- يمكن لتمثيل أي حرف مفرد."
+
+msgctxt "Languages::ips"
+msgid "IPs"
+msgstr "IPs"
+
+msgctxt "Languages::make_permanent"
+msgid "Make permanent"
+msgstr "اجعله دائم"
+
+msgctxt "Languages::credit_card_number"
+msgid "Credit card number"
+msgstr "رقم بطاقة الائتمان"
+
+msgctxt "SettingsSections::access_restrictions::general"
+msgid "General"
+msgstr "عام"
+
+msgctxt "SettingsOptions::access_restrictions::elm_administrator_area_settings"
+msgid "Administrator area settings"
+msgstr "إعدادات منطقة المسؤول"
+
+msgctxt "SettingsOptions::access_restrictions::admin_reverse_ip_access"
+msgid "Allow login to the admin area from specified IPs only"
+msgstr "السماح بتسجيل الدخول إلى مجال الإدارة من IPs المحدد فقط"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "حظر الآي بي بعد عدد معين من المحاولات الغير ناجحة"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts"
+msgid "Number of unsuccessful attempts"
+msgstr "عدد المحاولات الفاشلة"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "الوقت بين محاولات تسجيل الدخول الفاشلة (ثانية)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "الوقت الذي يجب أن يتم حظر IP (ساعات)"
+
+msgctxt "SettingsOptions::access_restrictions::elm_customer_and_affiliate_area_settings"
+msgid "Customer area settings"
+msgstr "إعدادات منطقة العميل"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login_customer"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "حظر الآي بي بعد عدد معين من المحاولات الغير ناجحة"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts_customer"
+msgid "Number of unsuccessful attempts"
+msgstr "عدد المحاولات الفاشلة"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals_customer"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "الوقت بين محاولات تسجيل الدخول الفاشلة (ثانية)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block_customer"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "الوقت الذي يجب أن يتم حظر IP (ساعات)"
+

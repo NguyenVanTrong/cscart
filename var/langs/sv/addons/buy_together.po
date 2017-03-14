@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Swedish\n"
+"Language: sv_SE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sv-SE\n"
+"X-Crowdin-File: /addons/buy_together.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2016-11-28 04:09-0500\n"
+
+msgctxt "Addons::name::buy_together"
+msgid "Buy together"
+msgstr "Köpa tillsammans"
+
+msgctxt "Addons::description::buy_together"
+msgid "Allows you to set up share discounts on certain product combinations"
+msgstr "Du får ställa in andel rabatter på vissa kombinationer av produkt"
+
+msgctxt "Languages::buy_together"
+msgid "Buy together"
+msgstr "Köpa tillsammans"
+
+msgctxt "Languages::specify_options"
+msgid "Specify options"
+msgstr "Ange alternativ"
+
+msgctxt "Languages::total_list_price"
+msgid "Total list price"
+msgstr "Totalt prislista"
+
+msgctxt "Languages::price_for_all"
+msgid "Price for all"
+msgstr "Pris för alla"
+
+msgctxt "Languages::add_all_to_cart"
+msgid "Add all to cart"
+msgstr "Lägg till alla i kundvagnen"
+
+msgctxt "Languages::editing_combination"
+msgid "Editing combination"
+msgstr "Redigera kombination"
+
+msgctxt "Languages::buy_together_calculation_information"
+msgid "Total price: [total_price], Discount: [discount], Combination price: [combination_price]"
+msgstr "Totalpris: [total_price], rabatt: [discount], kombinationen pris: [combination_price]"
+
+msgctxt "Languages::display_in_promotions"
+msgid "Display in promotions"
+msgstr "Visa i kampanjer"
+
+msgctxt "Languages::combination_products"
+msgid "Combination products"
+msgstr "Kombinationsprodukter"
+
+msgctxt "Languages::share_discount"
+msgid "Share discount"
+msgstr "Dela rabatt"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_configurator"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Product configurator add-on"
+msgstr "[product_name] kan inte läggas till kombination. Köp är tillsammans inte kompatibel med tillägget produkt konfigurationer add-on"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_recurring_billing"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Recurring billing add-on"
+msgstr "[product_name] kan inte läggas till kombination. Köpa är tillsammans inte kompatibel med återkommande fakturering add-on"
+
+msgctxt "Languages::buy_together_combination_cannot_be_added"
+msgid "Combination cannot be added to cart"
+msgstr "Kombinationen kan inte läggas i kundvagnen"
+
+msgctxt "Languages::buy_together_product_was_removed"
+msgid "[product] did not have enough amount ([amount]) and was removed from the cart"
+msgstr "[product] hade inte tillräckligt belopp ([amount]) och togs bort från vagnen"
+
+msgctxt "Languages::buy_together_fill_the_mandatory_fields"
+msgid "Please specify product options before adding this product combination to the cart."
+msgstr "Vänligen ange produktalternativ innan denna produkt kombination till vagnen."
+

@@ -1,0 +1,186 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /addons/searchanise.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:47-0500\n"
+
+msgctxt "Addons::name::searchanise"
+msgid "Searchanise"
+msgstr ""
+
+msgctxt "Addons::description::searchanise"
+msgid "Turns on the <a target=\"_blank\" href=\"http://searchanise.com/\">Searchanise</a> fast search service"
+msgstr "<a target=\"_blank\" href=\"http://searchanise.com/\">Searchanise</a> はCS-Cartの検索機能を拡張するサービスです"
+
+msgctxt "Languages::searchanise"
+msgid "Searchanise"
+msgstr ""
+
+msgctxt "Languages::text_se_import_status_queued"
+msgid "The product catalog is queued for syncing with Searchanise."
+msgstr "商品リストをSearchaniseと同期しています"
+
+msgctxt "Languages::text_se_re_indexation_required"
+msgid "Searchanise: Re-indexation required (click the <strong>Force re-indexation</strong> button in the <a href=\"[link]\">Searchanise admin panel</a>)."
+msgstr "Searchanise : 再インデックス処理が必要です (<a href=\"[link]\">Searchanise管理画面</a>の <strong>Force re-indexation</strong> ボタンをクリックしてください。"
+
+msgctxt "Languages::text_se_new_engine_store"
+msgid "Searchanise: New search engine for [store] created. Catalog import started."
+msgstr "Searchanise: [store]向け検索エンジンが作成され、商品データのインポートを開始しました。"
+
+msgctxt "Languages::text_se_seo_settings_notice"
+msgid "If you have modified any SEO add-on settings, please <a href=\"[link]\">Re-indexation</a> product catalog with Searchanise to update product URLs."
+msgstr "SEOアドオンの設定を変更した場合は、商品リストの <a href=\"[link]\">再インデックス処理</a> を実行して商品URLの更新をSearchaniseに反映してください。"
+
+msgctxt "Languages::text_se_connect_error"
+msgid "An error occurred during Searchanise registration. Please try later."
+msgstr "Searchaniseの登録処理中にエラーが発生しました。再度お試しください。"
+
+msgctxt "Languages::text_se_import_status_processing"
+msgid "The product catalog syncing is in progress."
+msgstr "商品リストの同期中です。"
+
+msgctxt "Languages::text_se_import_status_done"
+msgid "The product catalog was synced successfully with Searchanise."
+msgstr "Searchaniseに商品リストが同期されました。"
+
+msgctxt "Languages::text_se_import_status_none"
+msgid "The product catalog is not synced with Searchanise yet. Please press \"Sync\" button to start."
+msgstr "Searchaniseに商品リストが同期されていません。 \"同期\" ボタンをクリックしてください。"
+
+msgctxt "Languages::text_se_data_update"
+msgid "Please note that the data on Searchanise server is updated with a 2-3 minute delay after you make changes in your store."
+msgstr "CS-Cartにおける商品データの更新内容は、実施から2-3分後にSearchaniseサーバーに反映されます。"
+
+msgctxt "Languages::text_se_signup"
+msgid "Click the button below to connect to Searchanise."
+msgstr "ボタンをクリックしてSearchaniseに接続してください。"
+
+msgctxt "Languages::text_se_just_connected"
+msgid "Congratulations, you've just connected to Searchanise."
+msgstr "Searchaniseに正常に接続しました。"
+
+msgctxt "Languages::text_se_connected"
+msgid "You've connected to Searchanise."
+msgstr "Searchaniseに接続しました。"
+
+msgctxt "Languages::text_se_database_restore_notice"
+msgid "You've just restored your data from the database dump file. If this dump contains product data, please <a href=\"[link]\">Re-indexation</a> it with Searchanise."
+msgstr "データベースのダンプファイルからデータをリストアしました。ダンプファイルに商品データが含まれている場合には、Searchaniseの <a href=\"[link]\">再インデックス処理</a> が必要です。"
+
+msgctxt "Languages::text_se_only_root_can_register"
+msgid "Only the root admin has the permission to connect to Searchanise"
+msgstr "Searchaniseにはルート管理者のみ接続できます。"
+
+msgctxt "Languages::se_did_you_mean"
+msgid "Did you mean"
+msgstr "もしかして:"
+
+msgctxt "Languages::se_product_id"
+msgid "Product Id"
+msgstr "商品ID"
+
+msgctxt "Languages::se_title"
+msgid "Title"
+msgstr "タイトル"
+
+msgctxt "Languages::se_summary"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "Languages::se_link"
+msgid "Product Url"
+msgstr "製品URL"
+
+msgctxt "Languages::se_price"
+msgid "Price"
+msgstr "価格"
+
+msgctxt "Languages::se_list_price"
+msgid "List Price"
+msgstr "通常価格"
+
+msgctxt "Languages::se_quantity"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "Languages::se_product_code"
+msgid "Product Code"
+msgstr "商品型番"
+
+msgctxt "Languages::se_image_link"
+msgid "Image Url"
+msgstr "画像URL"
+
+msgctxt "Languages::se_category_Id"
+msgid "Category Id"
+msgstr "カテゴリID"
+
+msgctxt "Languages::se_category_usergroup_ids"
+msgid "Category Usergroup Ids"
+msgstr "カテゴリーのユーザーグループID"
+
+msgctxt "Languages::se_usergroup_ids"
+msgid "Usergroup Ids"
+msgstr "ユーザーグループID"
+
+msgctxt "Languages::se_company_id"
+msgid "Company Id"
+msgstr "会社ID"
+
+msgctxt "Languages::se_empty_categories"
+msgid "Without Categories"
+msgstr "カテゴリーなし"
+
+msgctxt "Languages::se_active_companies"
+msgid "Company is active"
+msgstr "有効な運営者です"
+
+msgctxt "Languages::se_price_for_usergroup_id"
+msgid "Price for usergroup Id ([id])"
+msgstr "ユーザーグループID ([id])向け価格"
+
+msgctxt "Languages::se_for_feature_id"
+msgid "Feature \"[id]\" Id"
+msgstr "追加情報 \"[id]\" ID"
+
+msgctxt "Languages::se_relevance"
+msgid "Relevance"
+msgstr "関連性"
+
+msgctxt "Languages::se_products"
+msgid "Products"
+msgstr "商品"
+
+msgctxt "Languages::se_popular_suggestions"
+msgid "Popular suggestions"
+msgstr "人気のサジェスチョン"
+
+msgctxt "Languages::sort_by_relevance_asc"
+msgid "Sort by Relevance"
+msgstr "関連性でソート"
+
+msgctxt "Languages::se_api_key"
+msgid "API key"
+msgstr "APIキー"
+
+msgctxt "Languages::se_private_key"
+msgid "Private key"
+msgstr "プライベートキー"
+
+msgctxt "Languages::se_options_combinations_codes"
+msgid "Options combinations codes"
+msgstr "オプションのコンビネーションのコード"
+
+msgctxt "SettingsSections::searchanise::configuration"
+msgid "Configuration"
+msgstr "設定"
+

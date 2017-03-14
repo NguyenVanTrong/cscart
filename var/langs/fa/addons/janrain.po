@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/janrain.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::janrain"
+msgid "Janrain"
+msgstr "Janrain"
+
+msgctxt "Addons::description::janrain"
+msgid "Adds the Social Login feature; allows customers use Facebook, Twitter, etc. to log in on the store"
+msgstr "افزودن خصیصه‌ی ورود اجتماعی؛ اجازه می دهد تا مشتریان با استفاده از فیس بوک، توییتر، و غیره به فروشگاه وارد شوند"
+
+msgctxt "Languages::janrain_general_info"
+msgid "<p>Get these values and configure social login at <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+msgstr "<p>دریافت این مقادیر و پیکربندی ورود اجتماعی در <a href=\"http://janrain.com\" target=\"_blank\"> janrain.com</a></p>"
+
+msgctxt "Languages::janrain_social_login"
+msgid "Social login"
+msgstr "ورود به سیستم اجتماعی"
+
+msgctxt "Languages::janrain_need_update_profile"
+msgid "The \"Password\" field and some other mandatory fields are empty at the moment. Please update your profile."
+msgstr "فیلد \"رمز عبور\" و برخی دیگر از فیلدهای اجباری در حال حاضر خالی است. لطفا نمایه مشخصات خود را به روز رسانی نمایید."
+
+msgctxt "Languages::janrain_cant_create_profile"
+msgid "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+msgstr "متاسفانه، ما موفق به ایجاد یک حساب مشتری و ورود به فروشگاه به دلیل یکی از دلایل زیرنمی باشیم: است. <br /> - در فروشگاه ما زودتر با استفاده از برخی نام های مشابه استفاده شده است ایجاد حساب کاربری دیگر که در آن ایمیل خود را اریاِه میدهید استفاده کنید <برزیلی / > - شما در حال حاضر در فروشگاه ما هستید لطفا با استفاده از ایمیل اظلاعات خود را ثبت کنید <br />تا بتوانید با صاحب فروشگاه برای حل و فصل مشکلات تماس بگیرید."
+
+msgctxt "SettingsSections::janrain::general"
+msgid "General"
+msgstr "عمومی"
+
+msgctxt "SettingsOptions::janrain::general_info"
+msgid "General info"
+msgstr "اطلاعات عمومی"
+
+msgctxt "SettingsOptions::janrain::apikey"
+msgid "API Key"
+msgstr "کلید API"
+
+msgctxt "SettingsOptions::janrain::appdomain"
+msgid "Application Domain"
+msgstr "دامنه برنامه کاربردی"
+

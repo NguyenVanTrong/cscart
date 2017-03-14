@@ -1,0 +1,266 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /addons/reward_points.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::reward_points"
+msgid "Reward points"
+msgstr "Ödül puanları"
+
+msgctxt "Addons::description::reward_points"
+msgid "Lets customers earn and spend points for purchases"
+msgstr "Müşterilerin satın alma için kullanacakları puanları kazanmalarına ve harcamalarına izin verir"
+
+msgctxt "Languages::reward_points"
+msgid "Reward points"
+msgstr "Ödül puanları"
+
+msgctxt "Languages::reward_points_log"
+msgid "Reward points log"
+msgstr "Ödül puanları günlüğü"
+
+msgctxt "Languages::reward_points_menu_description"
+msgid "Assign global reward points in your store."
+msgstr "Mağazanıza global ödül puanları atayın."
+
+msgctxt "Languages::promotion_cond_reward_points"
+msgid "Points on user account"
+msgstr "Kullanıcı hesabındaki puanlar"
+
+msgctxt "Languages::points"
+msgid "Points"
+msgstr "Puanlar"
+
+msgctxt "Languages::points_in_use"
+msgid "Points in use"
+msgstr "Kullanımdaki puanlar"
+
+msgctxt "Languages::points_in_use_lower"
+msgid "points in use"
+msgstr "Kullanımdaki puanlar"
+
+msgctxt "Languages::points_lower"
+msgid "points"
+msgstr "puanlar"
+
+msgctxt "Languages::points_in_use_lowercase"
+msgid "[n] point in use|[n] points in use"
+msgstr "[n] Puan kullanımda"
+
+msgctxt "Languages::points_lowercase"
+msgid "[n] point|[n] points"
+msgstr "[n] puan"
+
+msgctxt "Languages::points_to_use"
+msgid "Points to use"
+msgstr "Kullanılacak puanlar"
+
+msgctxt "Languages::point_payment"
+msgid "Point payment"
+msgstr "Puan ödemesi"
+
+msgctxt "Languages::point_price"
+msgid "Price in points"
+msgstr "Puan cinsinden fiyat"
+
+msgctxt "Languages::text_increase_points_in_use"
+msgid "The points used in the order were added to user account."
+msgstr "Siparişte kullanılan puanlar kullanıcı hesabına eklendi."
+
+msgctxt "Languages::text_points_used_in_order"
+msgid "Points were used in order"
+msgstr "Puanlar siparişte kullanıldı"
+
+msgctxt "Languages::text_point_in_account"
+msgid "You have"
+msgstr "Sahip olduğunuz"
+
+msgctxt "Languages::pay_by_points"
+msgid "Allow payment by points"
+msgstr "Puanlarla ödeme yapılmasına izin ver"
+
+msgctxt "Languages::override_per"
+msgid "Override global PER"
+msgstr "Global PER'i geçersiz kıl"
+
+msgctxt "Languages::override_gc_points_brief"
+msgid "Override global/category points"
+msgstr "Global/kategori puanlarını geçersiz kıl"
+
+msgctxt "Languages::text_points_exceed_points_on_account"
+msgid "The number of the points entered by you exceeds the number of points at your account."
+msgstr "Sizin tarafınızdan eklenen puanların sayısı hesabınızda bulunan puanların sayısını aşıyor."
+
+msgctxt "Languages::text_points_exceed_points_that_can_be_applied"
+msgid "The number of points entered by you exceeds the number of points that can be applied to this order."
+msgstr "Sizin tarafınızdan eklenen puanlar bu siparişe eklenebilecek olan puan sayısını aşıyor."
+
+msgctxt "Languages::text_points_cannot_applied_because_subtotal_redeemed"
+msgid "Points cannot be applied because the subtotal is completely redeemed."
+msgstr "Puanlar uygulanamıyor çünkü alt toplam tamamen karşılanıyor."
+
+msgctxt "Languages::text_cannot_apply_points_to_this_order_because_total"
+msgid "Unfortunately, you cannot apply points to this order, because the total cost is zero."
+msgstr "Ne yazık ki bu siparişe puan uygulanamaz çünkü toplam maliyet sıfır."
+
+msgctxt "Languages::text_cannot_apply_points_to_this_order_because_user"
+msgid "Unfortunately, you cannot apply points to this order, because you do not have enough points at the account."
+msgstr "Ne yazık ki bu siparişe puan uygulanamaz çünkü hesapta yeterli puan bulunmuyor."
+
+msgctxt "Languages::text_order_status_has_not_been_changed"
+msgid "The order status has not been changed, because the user did not have enough points."
+msgstr "Sipariş durumu değişmedi çünkü kullanıcının yeterli puanı bulunmuyor."
+
+msgctxt "Languages::price_in_points_increased"
+msgid "Price in points has been increased by"
+msgstr "Puan cinsinden fiyatı arttıran"
+
+msgctxt "Languages::price_in_points_decreased"
+msgid "Price in points has been decreased by"
+msgstr "Paun cinsinden fiyatı azaltan"
+
+msgctxt "Languages::earned_points"
+msgid "Points earned per product"
+msgstr "Ürün başına kazanılan puanlar"
+
+msgctxt "Languages::override_g_points"
+msgid "Override global point value for all products in this category"
+msgstr "Bu kategorideki tüm ürünler için global puan değerini geçersiz kıl"
+
+msgctxt "Languages::amount_type"
+msgid "Amount type"
+msgstr "Miktar türü"
+
+msgctxt "Languages::maximum"
+msgid "Maximum"
+msgstr "Maksimum"
+
+msgctxt "Languages::earned_point_modifier"
+msgid "Earned point modifier"
+msgstr "Kazanılan puan değiştiricisi"
+
+msgctxt "Languages::override_gc_points"
+msgid "Override global/category point value for this product"
+msgstr "Bu ürün için global/kategori puanı değerini geçersiz kıl"
+
+msgctxt "Languages::view_user_points"
+msgid "View user points"
+msgstr "Kullanıcı puanlarını görüntüle"
+
+msgctxt "Languages::log"
+msgid "Log"
+msgstr "Günlük"
+
+msgctxt "Languages::subtract"
+msgid "Subtract"
+msgstr "Çıkar"
+
+msgctxt "Languages::change_points"
+msgid "Change points"
+msgstr "Puanları değiştir"
+
+msgctxt "Languages::add_subtract_points"
+msgid "Add & subtract points"
+msgstr "Puanları ekle ve çıkar"
+
+msgctxt "Languages::cleanup_log"
+msgid "Cleanup log"
+msgstr "Günlüğü temizle"
+
+msgctxt "Languages::we_would_like_to_inform"
+msgid "We would like to inform you that"
+msgstr "Size bildirmek isteriz ki"
+
+msgctxt "Languages::reward_points_subj_added_to"
+msgid "[n] point have been added to your account.|[n] points have been added to your account."
+msgstr ""
+
+msgctxt "Languages::reward_points_subj_subtracted_from"
+msgid "[n] point have been subtracted from your account.|[n] points have been subtracted from your account."
+msgstr ""
+
+msgctxt "Languages::privileges.manage_reward_points"
+msgid "Manage reward points system"
+msgstr "Ödül puanları sistemini yönet"
+
+msgctxt "SettingsSections::reward_points::general"
+msgid "General"
+msgstr "Genel"
+
+msgctxt "SettingsOptions::reward_points::point_rate"
+msgid "Points Exchange Rate (PER - the number of points equal to 1 conventional unit)"
+msgstr "Puan Dönüştürme Kuru (PER - 1 dönüştürülebilir birime eşit olan puan sayısı)"
+
+msgctxt "SettingsOptions::reward_points::auto_price_in_points"
+msgid "\"Price in points\" is calculated automatically on PER basis"
+msgstr "\"Puan cinsinden fiyat\" PER temelinde otomatik olarak hesaplanmıştır"
+
+msgctxt "SettingsOptions::reward_points::price_in_points_with_discounts"
+msgid "\"Price in points\" is recalculated taking into account discounts"
+msgstr "\"Puan cinsinden fiyat\" indirimler hesaba katılarak tekrar hesaplanmıştır"
+
+msgctxt "SettingsOptions::reward_points::points_with_discounts"
+msgid "\"Points\" is recalculated taking into account discounts"
+msgstr "\"Puanlar\" indirimler hesaba katılarak tekrar hesaplanmıştır"
+
+msgctxt "SettingsOptions::reward_points::price_in_points_order_discount"
+msgid "\"Price in points\" is recalculated taking into account order discounts"
+msgstr "\"Puan cinsinden fiyat\" indirimler hesaba katılarak tekrar hesaplanmıştır"
+
+msgctxt "SettingsOptions::reward_points::reward_points_order_discount"
+msgid "\"Points\" is recalculated taking into account order discounts"
+msgstr "\"Puanlar\" indirimler hesaba katılarak tekrar hesaplanmıştır"
+
+msgctxt "SettingsOptions::reward_points::higher_level_extract"
+msgid "If the product and the product category do not have defined reward points but the higher level category has such reward points, extract data from it"
+msgstr "Ürün ve ürün kategorileri belirlenmiş ödül puanlarına sahip değilse ancak daha yüksek seviye kategorilerde ödül puanları varsa, verileri bu kategoriden ayıkla"
+
+msgctxt "SettingsOptions::reward_points::several_points_action"
+msgid "If several reward points can be applied, set"
+msgstr "Eğer çok sayıda ödül puanı uygulanabiliyorsa ayarla"
+
+msgctxt "SettingsOptions::reward_points::consider_zero_values"
+msgid "Apply zero reward point values"
+msgstr "Sıfır ödül puanı değeri uygula"
+
+msgctxt "SettingsOptions::reward_points::log_per_page"
+msgid "Log lines per page"
+msgstr "Sayfa başına günlük satırı"
+
+msgctxt "SettingsTooltips::reward_points::consider_zero_values"
+msgid "The reward points rules with the zero values should be considered"
+msgstr "Sıfır değerli ödül puanı kuralları dikkate alınmalıdır"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::minimal_absolute"
+msgid "Absolute minimal value"
+msgstr "Mutlak minimum değer"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::minimal_percentage"
+msgid "Minimal percentage value"
+msgstr "Minimum yüzde değeri"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::maximal_absolute"
+msgid "Absolute maximal value"
+msgstr "Mutlak maksimum değer"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::maximal_percentage"
+msgid "Maximal percentage value"
+msgstr "Maksimum yüzde değeri"
+
+msgctxt "Languages::email_template.reward_points_notification"
+msgid "Reward points"
+msgstr ""
+
+msgctxt "Languages::grant_point"
+msgid "Grant reward points"
+msgstr ""
+

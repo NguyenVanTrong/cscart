@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/paypal.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::paypal"
+msgid "PayPal payments"
+msgstr "Thanh toán PayPal"
+
+msgctxt "Addons::description::paypal"
+msgid "Lets you accept payments via PayPal Express Checkout, PayPal Pro, PayPal Standard, PayPal Advanced, and PayPal Payflow Pro."
+msgstr "Cho phép bạn chấp nhận thanh toán qua PayPal Express Checkout, PayPal Pro, PayPal Standard, PayPal Advanced và PayPal Payflow Pro."
+
+msgctxt "SettingsOptions::paypal::override_customer_info"
+msgid "Override customer info"
+msgstr "Ghi đè lên thông tin khách hàng"
+
+msgctxt "SettingsOptions::paypal::test_mode"
+msgid "Test mode"
+msgstr "Chế độ kiểm tra"
+
+msgctxt "SettingsSections::paypal::general"
+msgid "General"
+msgstr "Tổng quát"
+
+msgctxt "Languages::protection_eligibility"
+msgid "Protection eligibility"
+msgstr "Hội đủ điều kiện bảo vệ"
+
+msgctxt "SettingsOptions::paypal::paypal_ipn_settings"
+msgid "Instant payment notification settings"
+msgstr "Cài đặt thông báo thanh toán ngay lập tức"
+
+msgctxt "SettingsOptions::paypal::paypal_status_map"
+msgid "PayPal order status conversion map"
+msgstr "Trạng thái đơn hàng PayPal chuyển đổi bản đồ"
+
+msgctxt "SettingsOptions::paypal::paypal_logo_uploader"
+msgid "PayPal logo settings"
+msgstr "Thiết lập logo PayPal"
+
+msgctxt "Languages::text_paypal_surcharge"
+msgid "<b>Note:</b> According to the PayPal <a href='https://www.paypal.com/webapps/mpp/ua/useragreement-full#4' target='_blank'>policy</a> (4.6), surcharges are not supported."
+msgstr "<b>Lưu ý:</b> Theo chính PayPal <a href='https://www.paypal.com/webapps/mpp/ua/useragreement-full#4' target='_blank'> chính sách</a> (4.6), phụ phí không được hỗ trợ."
+
+msgctxt "Languages::txn_id"
+msgid "Transaction ID"
+msgstr "ID giao dịch"
+
+msgctxt "Languages::paypal_logo"
+msgid "PayPal logo"
+msgstr "Logo PayPal"
+
+msgctxt "Languages::ttc_paypal_logo"
+msgid "Use a valid graphics format, such as .gif, .jpg, or .png. Limit the image to 190 pixels wide by 60 pixels high. PayPal crops images that are larger. PayPal places your logo image at the top of the cart review area."
+msgstr "Sử dụng một định dạng hợp lệ, chẳng hạn như .gif, .jpg hoặc .png. Giới hạn các hình ảnh để rộng 190 pixel x cao 60 pixel. PayPal cắt hình ảnh lớn hơn. PayPal địa điểm hình ảnh biểu tượng của bạn ở trên cùng của khu vực xem xét giỏ hàng."
+
+msgctxt "Languages::ipn_errors"
+msgid "IPN errors"
+msgstr "IPN lỗi"
+
+msgctxt "Languages::pp_product_count_is_incorrect"
+msgid "Number of paid items is different than the number of items in the order"
+msgstr "Số lượng mặt hàng được thanh toán là khác hơn so với số lượng các mục theo đơn hàng"
+
+msgctxt "Languages::pp_currency_is_incorrect"
+msgid "Currency used for the payment is different than the order currency."
+msgstr "Tiền tệ được sử dụng cho các khoản thanh toán là khác so với các loại tiền tệ trong đơn hàng."
+
+msgctxt "Languages::pp_total_is_incorrect"
+msgid "Payment total is different than the order total."
+msgstr "Tổng phải thanh toán là khác so với tổng tiền đơn hàng."
+
+msgctxt "Languages::pp_mode"
+msgid "Paypal mode"
+msgstr "Chế độ Paypal"
+
+msgctxt "Languages::paypal_vendor"
+msgid "Vendor"
+msgstr "Nhà cung cấp"
+
+msgctxt "Languages::paypal_use_in_context_checkout"
+msgid "Use In-Context Checkout"
+msgstr "Sử dụng thanh toán trong bối cảnh"
+
+msgctxt "Languages::ttc_paypal_use_in_context_checkout"
+msgid "In-Context Checkout will not be used when the store is running in Widget mode"
+msgstr "Thanh toán trong bối cảnh này sẽ không được sử dụng khi các cửa hàng đang chạy trong chế độ widget"
+
+msgctxt "Languages::paypal_express_notice"
+msgid "A merchant ID is required for using <a href='https://developer.paypal.com/docs/classic/express-checkout/in-context' target='_blank'>In-Context Checkout feature</a> within this integration. You can look up your merchant ID by logging into <a href='https://www.paypal.com/' target='_blank'>https://www.paypal.com/</a>. Click the profile icon on the top right side of the page and then select <b>Profile and settings</b> in the <b>Business Profile</b> menu. (If you do not see the profile icon at the top of the page, click <b>Profile</b>, which appears in the top menu when the <b>My Account tab</b> is selected.) Click <b>My business info</b> on the left, and the <b>Merchant account ID</b> is displayed in the list of profile items on the right."
+msgstr "Một ID thương gia là cần thiết để sử dụng <a href='https://developer.paypal.com/docs/classic/express-checkout/in-context' target='_blank'> tính năng thanh toán trong bối cảnh</a> trong hội nhập này. Bạn có thể tìm kiếm thương gia của bạn ID bằng cách đăng nhập vào <a href='https://www.paypal.com/' target='_blank'> https://www.paypal.com/</a>. Nhấp vào biểu tượng cấu hình trên bên phải trên cùng của trang và sau đó chọn <b>tiểu sử và các cài đặt</b> trong trình đơn <b>Cấu hình doanh nghiệp</b>. (Nếu bạn không thấy biểu tượng tiểu sử ở đầu trang, bấm vào <b>hồ sơ</b>, xuất hiện trong trình đơn hàng đầu khi chọn <b>tab Tài khoản của tôi</b>.) Nhấp vào <b>thông tin doanh nghiệp của tôi</b> ở bên trái, và các <b>thương gia tài khoản ID</b> sẽ được hiển thị trong danh sách các mục cấu hình trên bên phải."
+
+msgctxt "Languages::paypal_ipn_note"
+msgid "Instant Payment Notification (IPN) is a service that automatically notifies merchants of events related to PayPal transactions.<br>When a customer places an order and chooses PayPal as the payment method, the order gets the <b>Open</b> status.<br>PayPal then sends Instant Payment Notification messages that include the transaction status. This status changes the order status in your store according to the status conversion map."
+msgstr "Thông báo thanh toán ngay lập tức (IPN) là một dịch vụ tự động thông báo cho các thương gia của các sự kiện liên quan đến giao dịch PayPal. <br>Khi một khách hàng những nơi một đơn đặt hàng và chọn PayPal như là phương thức thanh toán, các đơn đặt hàng được trạng thái <b>mở</b>. <br>PayPal rồi gửi tin nhắn tức thì thanh toán thông báo bao gồm trạng thái giao dịch. Tình trạng này sẽ thay đổi tình trạng đơn hàng trong cửa hàng của bạn theo bản đồ chuyển đổi trạng thái."
+
+msgctxt "Languages::paypal_ipn_transaction_status"
+msgid "Transaction status"
+msgstr "Tình trạng giao dịch"
+
+msgctxt "Languages::addons.paypal.surcharge_policy_notice"
+msgid "Surcharge has been set for the payment method that uses PayPal Services. Please make sure this complies with the <a href=\"https://www.paypal.com/webapps/mpp/ua/legalhub-full\" target=\"_blank\">User Agreement for PayPal Services</a> for your region."
+msgstr "Surcharge đã được thiết lập cho phương thức thanh toán sử dụng dịch vụ PayPal. Hãy chắc chắn rằng điều này phù hợp với <a href=\"https://www.paypal.com/webapps/mpp/ua/legalhub-full\" target=\"_blank\"> Thỏa thuận người dùng cho các dịch vụ PayPal</a> cho khu vực của bạn."
+
+msgctxt "Languages::addons.paypal.rma.perform_refund"
+msgid "Give a refund via PayPal"
+msgstr "Cung cấp cho hoàn lại tiền qua PayPal"
+
+msgctxt "Languages::ttc_addons.paypal.rma.perform_refund"
+msgid "A refund will be made once an administrator changes the return request status"
+msgstr "Hoàn lại tiền sẽ được thực hiện sau khi người quản trị thay đổi trạng thái về yêu cầu"
+
+msgctxt "Languages::addons.paypal.rma.refund_performed"
+msgid "The refund has been made via PayPal"
+msgstr "Khoản tiền hoàn lại đã được thực hiện thông qua PayPal"
+
+msgctxt "Languages::addons.paypal.refund_message"
+msgid "[amount] [currency] have been refunded in [date] at [time]."
+msgstr "[amount] [currency] đã được hoàn lại ngày [date] lúc [time]."
+
+msgctxt "SettingsOptions::paypal::paypal_partial_refund_action"
+msgid "Order status on partial refund"
+msgstr "Tình trạng đơn hàng trên một phần khoản hoàn lại"
+
+msgctxt "Languages::addons.paypal.do_not_change"
+msgid "Do not change"
+msgstr "Không thay đổi"
+
+msgctxt "Languages::tt_addons_paypal_settings_partial_refund_action_order_status"
+msgid "Determines whether or not to change the order status automatically after a partial refund via PayPal."
+msgstr "Xác định có hay không để trạng thái đơn hàng sẽ tự động thay đổi sau khi khoản hoàn lại một phần thông qua PayPal."
+
+msgctxt "Languages::addons.paypal.set_status_to"
+msgid "Set to:"
+msgstr "Thiết lập tới:"
+
+msgctxt "Languages::addons.paypal.ipn_receiving_time"
+msgid "IPN receiving time"
+msgstr "Thời gian nhận IPN"
+
+msgctxt "Languages::addons.paypal.status_for_new_orders"
+msgid "Initial order status"
+msgstr "Tình trạng đặt hàng ban đầu"
+
+msgctxt "Languages::ttc_addons.paypal.status_for_new_orders"
+msgid "All orders with a PayPal payment method get this status until the response from PayPal (an IPN message) arrives or a customer returns to the store via a link on the PayPal site."
+msgstr "Tất cả các đơn đặt hàng với một phương thức thanh toán PayPal có được trạng thái này cho đến khi các phản ứng từ PayPal (IPN qua thư) đến hoặc một khách hàng trả lại để lưu trữ thông qua một liên kết trên trang web PayPal."
+
+msgctxt "Languages::addons.paypal.status_for_new_orders.open"
+msgid "By default, the <i>Open</i> status decreases the inventory, so two customers won't be able to buy the same product while the payment is being processed by PayPal. But if a customer leaves the PayPal website without paying or returning to the store via a link on the PayPal site, you'll have an abandoned <i>Open</i> order with reserved products."
+msgstr "Theo mặc định, tình trạng <i>mở</i> giảm hàng tồn kho, do đó, hai khách sẽ không thể mua cùng một sản phẩm trong khi các khoản thanh toán đang được xử lý bằng PayPal. Nhưng nếu một khách hàng rời khỏi trang web PayPal mà không trả tiền hoặc trở lại đến cửa hàng qua liên kết trên trang web PayPal, bạn sẽ có một đơn hàng bị bỏ rơi <i>mở</i> đơn đặt hàng với các sản phẩm dành riêng."
+
+msgctxt "Languages::addons.paypal.status_for_new_orders.incomplete"
+msgid "This ensures that you won't have abandoned unpaid orders with the <i>Open</i> status and reserved products. But until the response from PayPal (an IPN message) arrives or the customer returns to the store via a link on the PayPal site, the order will be listed as <i>Incomplete</i>, and products won't be reserved."
+msgstr "Điều này đảm bảo rằng bạn sẽ không hủy bỏ đơn đặt hàng chưa thanh toán với trạng thái <i>mở</i> và dành riêng các sản phẩm. Nhưng cho đến khi các phản ứng từ PayPal (IPN qua thư) đến hoặc khách hàng trả lại để lưu trữ thông qua một liên kết trên trang web PayPal, đơn hàng sẽ được liệt kê như là <i>Incomplete</i>, sản phẩm sẽ không được bảo lưu."
+
+msgctxt "Languages::addons.paypal.display_name"
+msgid "Display name"
+msgstr "Tên hiển thị"
+
+msgctxt "Languages::addons.paypal.display_description"
+msgid "Display description"
+msgstr "Hiển thị mô tả"
+
+msgctxt "Languages::addons.paypal.technical_details"
+msgid "Technical details"
+msgstr "Chi tiết kỹ thuật"
+
+msgctxt "Languages::addons.paypal.connect_to_paypal"
+msgid "Connect to PayPal"
+msgstr "Kết nối với PayPal"
+

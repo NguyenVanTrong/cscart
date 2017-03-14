@@ -1,0 +1,462 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /addons/discussion.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::discussion"
+msgid "Comments and reviews"
+msgstr "Yorumlar ve değerlendirmeler"
+
+msgctxt "Addons::description::discussion"
+msgid "Lets customers leave comments to products, categories, orders, etc., review products and write testimonials"
+msgstr "Müşterilerinizin ürünleriniz, kategorileriniz, siparişleri vb. konularda yorum yapmasına izin verin"
+
+msgctxt "Languages::use_for_discussion"
+msgid "Comments and reviews forms"
+msgstr "Yorum ve değerlendirme formları"
+
+msgctxt "Languages::comments_and_reviews_menu_description"
+msgid "Customer comments and reviews on products, categories, orders, etc."
+msgstr "Ürünler, kategoriler ve siparişler hakkında müşteri yorumları ve değerlendirmeleri"
+
+msgctxt "Languages::discussion_title_category"
+msgid "Reviews"
+msgstr "Değerlendirmeler"
+
+msgctxt "Languages::discussion_title_giftreg"
+msgid "Guestbook"
+msgstr "Ziyaretçi defteri"
+
+msgctxt "Languages::discussion_title_home_page_menu_description"
+msgid "Manage the testimonials from your store visitors."
+msgstr "Mağaza ziyaretçilerinden gelen görüşleri yönetin"
+
+msgctxt "Languages::discussion_title_order"
+msgid "Communication"
+msgstr "İletişim"
+
+msgctxt "Languages::discussion_title_page"
+msgid "Comments"
+msgstr "Yorumlar"
+
+msgctxt "Languages::discussion_title_product"
+msgid "Reviews"
+msgstr "Değerlelendirmeler"
+
+msgctxt "Languages::discussion_title_return"
+msgid "Communication"
+msgstr "İletişim"
+
+msgctxt "Languages::no_posts_found"
+msgid "No posts found"
+msgstr "Hiç mesaj bulunmadı"
+
+msgctxt "Languages::your_rating"
+msgid "Your rating"
+msgstr "Puanınız"
+
+msgctxt "Languages::comments_and_reviews"
+msgid "Comments and reviews"
+msgstr "Yorumlar ve değerlendirmeler"
+
+msgctxt "Languages::discussion_title_home_page"
+msgid "Testimonials"
+msgstr "Görüşler"
+
+msgctxt "Languages::text_enabled_testimonials_notice"
+msgid "Testimonials are disabled. To enable, please go to <a href=\"[link]\">Comments and reviews: options</a> and select the \"Communication\", \"Rating\" or \"Communication and Rating\" value in \"Testimonials\" field."
+msgstr "Görüşler devre dışı bırakılır. Etkinleştirmek için lütfen gidin <a href=\"[link]\"> yorum ve değerlendirme: seçenekleri</a> ve \"İletişim\", \"Puan\" veya \"İletişim ve değerlendirme\" değer \"Görüşler\" alanında seçin."
+
+msgctxt "Languages::discussion_title_company"
+msgid "Reviews"
+msgstr "Değerlendirmeler"
+
+msgctxt "Languages::communication"
+msgid "Communication"
+msgstr "İletişim"
+
+msgctxt "Languages::rating"
+msgid "Rating"
+msgstr "Derecelendirme"
+
+msgctxt "Languages::cant_find_thread"
+msgid "Thread can not be found."
+msgstr "Konu bulunamadı."
+
+msgctxt "Languages::error_already_posted"
+msgid "You have posted in this discussion already"
+msgstr "Bu tartışmada zaten post gönderdiniz"
+
+msgctxt "Languages::text_thank_you_for_post"
+msgid "Thank you for your post"
+msgstr "Yazınız için teşekkür ederiz"
+
+msgctxt "Languages::text_post_pended"
+msgid "Your post will be checked before it gets published."
+msgstr "Gönderiniz yayınlanmadan önce kontrol edilecektir."
+
+msgctxt "Languages::discussion"
+msgid "Comments and reviews"
+msgstr "Yorumlar ve değerlendirmeler"
+
+msgctxt "Languages::text_new_post_notification"
+msgid "This is a notification of a new post to"
+msgstr "Bu yeni mesaja bir bildirimdir"
+
+msgctxt "Languages::text_approval_notice"
+msgid "This post needs approving"
+msgstr "Bu yazının onaylanması gerekiyor"
+
+msgctxt "Languages::latest_reviews"
+msgid "Latest comments & reviews"
+msgstr "En son yorumlar & değerlendirmeler"
+
+msgctxt "Languages::comment_by"
+msgid "Comment by"
+msgstr "Yorum yapan"
+
+msgctxt "Languages::and"
+msgid "and"
+msgstr "ve"
+
+msgctxt "Languages::add_post"
+msgid "Add post"
+msgstr "Post Ekle"
+
+msgctxt "Languages::not_approved"
+msgid "Not approved"
+msgstr "Onaylanmamış"
+
+msgctxt "Languages::discussion_manager"
+msgid "Comments and reviews"
+msgstr "Yorumlar ve değerlendirmeler"
+
+msgctxt "Languages::testimonials"
+msgid "Testimonials"
+msgstr "Görüşler"
+
+msgctxt "Languages::privileges.view_discussions"
+msgid "View comments and reviews"
+msgstr "Yorum ve değerlendirmeleri göster"
+
+msgctxt "Languages::privileges.manage_discussions"
+msgid "Manage comments and reviews"
+msgstr "Yorum ve değerlendirmeleri yönet"
+
+msgctxt "Languages::block_testimonials"
+msgid "Testimonials"
+msgstr "Görüşler"
+
+msgctxt "Languages::block_testimonials_description"
+msgid "User testimonials"
+msgstr "Kullanıcı yorumları"
+
+msgctxt "Languages::sort_by_rating_asc"
+msgid "Sort by rating: Low to High"
+msgstr "Derecelendirmeye göre sıralama: Düşükten Yükseğe"
+
+msgctxt "Languages::sort_by_rating_desc"
+msgid "Sort by rating"
+msgstr "Derecelendirmeye göre sıralama"
+
+msgctxt "Languages::reviews"
+msgid "review|reviews"
+msgstr "değerlendirme | değerlendirmeler"
+
+msgctxt "Languages::write_review"
+msgid "Write a review"
+msgstr "Görüşünü yaz"
+
+msgctxt "SettingsSections::discussion::products"
+msgid "Products"
+msgstr "Ürünler"
+
+msgctxt "SettingsSections::discussion::categories"
+msgid "Categories"
+msgstr "Kategoriler"
+
+msgctxt "SettingsSections::discussion::orders"
+msgid "Orders"
+msgstr "Siparişler"
+
+msgctxt "SettingsSections::discussion::gift_registry"
+msgid "Gift registry"
+msgstr "Hediye kaydı"
+
+msgctxt "SettingsSections::discussion::pages"
+msgid "Pages"
+msgstr "Sayfalar"
+
+msgctxt "SettingsSections::discussion::testimonials"
+msgid "Testimonials"
+msgstr "Görüşler"
+
+msgctxt "SettingsSections::discussion::companies"
+msgid "Vendors"
+msgstr "Satıcılar"
+
+msgctxt "SettingsOptions::discussion::product_posts_per_page"
+msgid "Posts per page"
+msgstr "Sayfa başına mesaj"
+
+msgctxt "SettingsOptions::discussion::product_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Yorumların yönetici tarafınca onaylanması gerekir"
+
+msgctxt "SettingsOptions::discussion::product_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Bir IP adresinden yalnız bir post yapılmasına izin verilir"
+
+msgctxt "SettingsOptions::discussion::product_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Uyarıları bu e-mail adresine gönder"
+
+msgctxt "SettingsOptions::discussion::product_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Bildirimleri satıcıya gönder"
+
+msgctxt "SettingsOptions::discussion::product_share_discussion"
+msgid "Share discussion with product"
+msgstr "Yorumları ürünle paylaş"
+
+msgctxt "SettingsOptions::discussion::category_posts_per_page"
+msgid "Posts per page"
+msgstr "Sayfa başına mesaj"
+
+msgctxt "SettingsOptions::discussion::category_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Yorumların yönetici tarafından onaylanması gerekir"
+
+msgctxt "SettingsOptions::discussion::category_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Bir IP adresinden yalnız bir post yapılmasına izin verilir"
+
+msgctxt "SettingsOptions::discussion::category_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Uyarıları bu e-mail adresine gönder"
+
+msgctxt "SettingsOptions::discussion::order_posts_per_page"
+msgid "Posts per page"
+msgstr "Sayfa başına mesaj"
+
+msgctxt "SettingsOptions::discussion::order_initiate"
+msgid "Allow customer to initiate discussion"
+msgstr "Müşterilerin tartışma başlatmasına izin ver"
+
+msgctxt "SettingsOptions::discussion::order_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Bildirimleri satıcıya gönder"
+
+msgctxt "SettingsOptions::discussion::giftreg_posts_per_page"
+msgid "Posts per page"
+msgstr "Sayfa başına post"
+
+msgctxt "SettingsOptions::discussion::giftreg_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Bir IP adresinden yalnız bir post yapılmasına izin verilir"
+
+msgctxt "SettingsOptions::discussion::page_posts_per_page"
+msgid "Posts per page"
+msgstr "Sayfa başına mesaj"
+
+msgctxt "SettingsOptions::discussion::page_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Yorumların yönetici tarafından onaylanması gerekir"
+
+msgctxt "SettingsOptions::discussion::page_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Bir IP adresinden yalnız bir post yapılmasına izin verilir"
+
+msgctxt "SettingsOptions::discussion::page_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Bildirimleri bu e-mail adresine gönder"
+
+msgctxt "SettingsOptions::discussion::page_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Bildirimleri satıcıya gönder"
+
+msgctxt "SettingsOptions::discussion::page_share_discussion"
+msgid "Share discussion with page"
+msgstr "Tartışmaları sayfayla paylaş"
+
+msgctxt "SettingsOptions::discussion::home_page_posts_per_page"
+msgid "Posts per page"
+msgstr "Sayfa başına mesaj"
+
+msgctxt "SettingsOptions::discussion::home_page_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Yöneticinin onaylaması gereken postları gönderen"
+
+msgctxt "SettingsOptions::discussion::home_page_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Her IP'den yalnız bir post yapılmasına izin verilmektedir"
+
+msgctxt "SettingsOptions::discussion::home_page_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Bildirimleri bu e-posta adresine gönder"
+
+msgctxt "SettingsOptions::discussion::home_page_testimonials"
+msgid "Testimonials"
+msgstr "Müşteri yorumları"
+
+msgctxt "SettingsOptions::discussion::testimonials_from_all_stores"
+msgid "Show testimonials from all stores"
+msgstr "Tüm mağazalardan müşteri yorumlarını göster"
+
+msgctxt "SettingsOptions::discussion::company_discussion_type"
+msgid "Reviews"
+msgstr "Değerlendirmeler"
+
+msgctxt "SettingsOptions::discussion::company_only_buyers"
+msgid "Allow to post only for the customers who has bought somethins from the vendor"
+msgstr "Yalnız satıcıdan ürün satın almış olan müşteriler için postlara izin ver"
+
+msgctxt "SettingsOptions::discussion::company_posts_per_page"
+msgid "Posts per page"
+msgstr "Sayfa başına mesaj"
+
+msgctxt "SettingsOptions::discussion::company_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Yöneticinin onaylaması gereken mesajları gönderen"
+
+msgctxt "SettingsOptions::discussion::company_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Her IP'den yalnız bir mesaj gönderilmesine izin verilmektedir"
+
+msgctxt "SettingsOptions::discussion::company_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Bildirimleri bu e-posta adresine gönder"
+
+msgctxt "SettingsOptions::discussion::company_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Bildirimleri satıcıya gönder"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::any"
+msgid "Any customer"
+msgstr "Herhangi bir müşteri"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Yalnız bilinmeyen müşteriler"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Onaya gerek yok"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::B"
+msgid "Communication and Rating"
+msgstr "İletişim ve Derecelendirme"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::C"
+msgid "Communication"
+msgstr "İletişim"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::R"
+msgid "Rating"
+msgstr "Derecelendirme"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::D"
+msgid "Disabled"
+msgstr "Devredışı"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::any"
+msgid "Any customer"
+msgstr "Herhangi bir müşteri"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Yalnız bilinmeyen müşteriler"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Onaya gerek yok"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::any"
+msgid "Any customer"
+msgstr "Herhangi bir müşteri"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Yalnız bilinmeyen müşteriler"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Onaya gerek yok"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::any"
+msgid "Any customer"
+msgstr "Herhangi bir müşteri"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Yalnız bilinmeyen müşteriler"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Onaya gerek yok"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::any"
+msgid "Any customer"
+msgstr "Herhangi bir müşteri"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Yalnız bilinmeyen müşteriler"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Onaya gerek yok"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::B"
+msgid "Communication and Rating"
+msgstr "İletişim ve Derecelendirme"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::C"
+msgid "Communication"
+msgstr "İletişim"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::R"
+msgid "Rating"
+msgstr "Derecelendirme"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::D"
+msgid "Disabled"
+msgstr "Devredışı"
+
+msgctxt "Languages::discussion_tab_products"
+msgid "Product Reviews"
+msgstr "Ürün Değerlendirmeleri"
+
+msgctxt "Languages::discussion_tab_categories"
+msgid "Category Reviews"
+msgstr "Kategori Değerlendirmeleri"
+
+msgctxt "Languages::discussion_tab_pages"
+msgid "Page Comments"
+msgstr "Sayfa Yorumları"
+
+msgctxt "Languages::discussion_tab_orders"
+msgid "Order Communication"
+msgstr "Sipariş iletişimi"
+
+msgctxt "Languages::discussion_tab_home_page"
+msgid "Testimonials"
+msgstr "Görüşler"
+
+msgctxt "Languages::discussion_tab_companies"
+msgid "Company Reviews"
+msgstr "Şirket Değerlendirmeleri"
+
+msgctxt "Languages::email_template.discussion_notification"
+msgid "Comments and reviews notification"
+msgstr ""
+

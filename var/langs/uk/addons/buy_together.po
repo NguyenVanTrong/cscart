@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /addons/buy_together.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::buy_together"
+msgid "Buy together"
+msgstr "Купити разом"
+
+msgctxt "Addons::description::buy_together"
+msgid "Allows you to set up share discounts on certain product combinations"
+msgstr "Дає змогу настроїти загальні знижки на певних комбінацій продукту"
+
+msgctxt "Languages::buy_together"
+msgid "Buy together"
+msgstr "Купити разом"
+
+msgctxt "Languages::specify_options"
+msgid "Specify options"
+msgstr "Вкажіть параметри"
+
+msgctxt "Languages::total_list_price"
+msgid "Total list price"
+msgstr "Загальний прайс-лист"
+
+msgctxt "Languages::price_for_all"
+msgid "Price for all"
+msgstr "Ціна для всіх"
+
+msgctxt "Languages::add_all_to_cart"
+msgid "Add all to cart"
+msgstr "Додати всі в кошик"
+
+msgctxt "Languages::editing_combination"
+msgid "Editing combination"
+msgstr "Комбінація редагування"
+
+msgctxt "Languages::buy_together_calculation_information"
+msgid "Total price: [total_price], Discount: [discount], Combination price: [combination_price]"
+msgstr "Загальна вартість: [total_price], знижка: [discount], кінцева ціна: [combination_price]"
+
+msgctxt "Languages::display_in_promotions"
+msgid "Display in promotions"
+msgstr "Відображати в акціях"
+
+msgctxt "Languages::combination_products"
+msgid "Combination products"
+msgstr "Комбінації продуктів"
+
+msgctxt "Languages::share_discount"
+msgid "Share discount"
+msgstr "Загальна знижка"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_configurator"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Product configurator add-on"
+msgstr "[product_name] не можна додати в комбінацію. Модуль «Комбінації товарів» несумісний з модулем «Конфігуратор товарів»"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_recurring_billing"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Recurring billing add-on"
+msgstr "[product_name] не можна додати в комбінацію. Модуль «Комбінації товарів» несумісний з модулем «Періодичні платежі»"
+
+msgctxt "Languages::buy_together_combination_cannot_be_added"
+msgid "Combination cannot be added to cart"
+msgstr "Комбінацію не можна додати в кошик"
+
+msgctxt "Languages::buy_together_product_was_removed"
+msgid "[product] did not have enough amount ([amount]) and was removed from the cart"
+msgstr "Товару [product] не було в достатній кількості в наявності ([amount]), і він був видалений з кошика"
+
+msgctxt "Languages::buy_together_fill_the_mandatory_fields"
+msgid "Please specify product options before adding this product combination to the cart."
+msgstr "Перед додаванням цього продукту до кошика, будь ласка, вкажіть параметри продукту."
+

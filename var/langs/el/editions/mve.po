@@ -1,0 +1,646 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /editions/mve.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:47-0500\n"
+
+msgctxt "Languages::add_companies"
+msgid "Add vendors"
+msgstr "Προσθήκη πωλητών"
+
+msgctxt "Languages::add_companies_and_close"
+msgid "Add vendors and close"
+msgstr "Προσθήκη προμηθευτών και κλείσιμο"
+
+msgctxt "Languages::add_vendor"
+msgid "Add vendor"
+msgstr "Προσθήκη καταστήματος"
+
+msgctxt "Languages::add_vendor_administrator"
+msgid "Add vendor's administrator"
+msgstr "Προσθηκη Διαχειριστη Πωλητη"
+
+msgctxt "Languages::vendor_administrator"
+msgid "Vendor's administrator"
+msgstr "Διαχειριστης Πωλητη"
+
+msgctxt "Languages::vendor_administrators"
+msgid "Vendor's administrators"
+msgstr "Διαχειριστης Πωλητη"
+
+msgctxt "Languages::vendor_administrators_menu_description"
+msgid "List of vendor's administrators, registered users with a vendor account."
+msgstr "Λίστα των διαχειριστών πωλητών, συνδεδεμένων χρηστων με ένα λογαριασμό πωλητή"
+
+msgctxt "Languages::vendor_candidate_notification"
+msgid "Hello,<br/><br/>You have a new vendor candidate in your store. This vendor account is pending until you approve it. Follow <a href=\"[href]\">this URL</a> to view the account details</a>."
+msgstr "Γεια σας, <br/> <br/> έχετε ένα νέο υποψήφιο πωλητή στο κατάστημά σας. Ο λογαριασμός του πωλητή είναι σε εκκρεμότητα μέχρι να τον εγκρίνετε. Ακολουθήστε αυτήν τη <a href=\"[href]\">διεύθυνση URL</a> για να δείτε τα στοιχεία του λογαριασμού."
+
+msgctxt "Languages::demo_panel.go_vendor_panel"
+msgid "Go to Vendor panel"
+msgstr "Πηγαίνε στον πίνακα πωλητή"
+
+msgctxt "Languages::vendor_account_balance_menu_description"
+msgid "Income and expenditure statistics (total, per vendor, per period)."
+msgstr "Στατιστικές εσόδων και εξόδων (συνολικά, ανά πωλητή, ανά περίοδο)."
+
+msgctxt "Languages::merge_vendor"
+msgid "Merge vendor"
+msgstr "Συγχώνευση πωλητή"
+
+msgctxt "Languages::select_new_owner_company"
+msgid "Select a new owner of this company's profile data:"
+msgstr "Επιλέξτε ένα νέο ιδιοκτήτη σ αυτο το προφιλ στοιχειων εταιρείας :"
+
+msgctxt "Languages::warning_merging_companies"
+msgid "Merging two company accounts will remove [company_name] from the database, and all the profile data (products, orders, shipping methods, users, promotions, etc.) will be transferred to this company's account"
+msgstr "Η συγχώνευση δύο εταιρικων λογαριασμών θα αφαιρέσει το [company_name] από τη βάση δεδομένων, και όλα τα δεδομένα του προφίλ (προϊόντα, παραγγελίες, τροποι αποστολής, χρήστες, προσφορές, κλπ.) θα μεταφερθούν στο λογαριασμό αυτή της εταιρείας"
+
+msgctxt "Languages::all_vendors"
+msgid "All vendors"
+msgstr "Όλων των πωλητών"
+
+msgctxt "Languages::apply_for_vendor_account"
+msgid "Apply for a vendor account"
+msgstr "Υποβολή αίτησης για λογαριασμό πωλητή"
+
+msgctxt "Languages::available_for_vendor"
+msgid "Available for vendor"
+msgstr "Διαθέσιμο για το κατάστημα"
+
+msgctxt "Languages::balance_carried_forward"
+msgid "Balance carried forward"
+msgstr "Μεταφερθέν υπόλοιπο"
+
+msgctxt "Languages::block_vendors"
+msgid "Vendors"
+msgstr "Πωλητές"
+
+msgctxt "Languages::charge_to_vendor_account"
+msgid "Charge to vendor account"
+msgstr "Χρέωση στο λογαριασμό του πωλητή"
+
+msgctxt "Languages::companies"
+msgid "Vendors"
+msgstr "Πωλητές"
+
+msgctxt "Languages::create_administrator_account"
+msgid "Create administrator account"
+msgstr "Δημιουργία λογαριασμού διαχειριστή"
+
+msgctxt "Languages::displayed_vendors"
+msgid "Displayed vendors"
+msgstr "καταστήματα που εμφανίζονται"
+
+msgctxt "Languages::editing_vendor"
+msgid "Editing vendor"
+msgstr "Επεξεργασία Καταστήματος"
+
+msgctxt "Languages::error_admin_not_created_email_already_used"
+msgid "Administrator account was not created. The email address belongs to another user. You can add the administrator for this vendor manually."
+msgstr "Administrator account was not created. The email address belongs to another user. You can add the administrator for this company manually."
+
+msgctxt "Languages::error_admin_not_created_name_already_used"
+msgid "Administrator account was not created. The user name belongs to another user. You should change the administrator account's name."
+msgstr "Δεν δημιουργήθηκε ο λογαριασμός διαχειριστή. Το όνομα χρήστη ανήκει σε έναν άλλο χρήστη. Θα πρέπει να αλλάξετε το όνομα του λογαριασμού διαχειριστή."
+
+msgctxt "Languages::error_vendor_exists"
+msgid "The vendor with e-mail you have chosen already exists, please try another."
+msgstr "The company with e-mail you have chosen already exists, please try another."
+
+msgctxt "Languages::expenditure"
+msgid "Expenditure"
+msgstr "Δαπάνες"
+
+msgctxt "Languages::income"
+msgid "Income"
+msgstr "Εισοδημα"
+
+msgctxt "Languages::manage_vendors"
+msgid "Manage vendors"
+msgstr "Διαχείριση πωλητών"
+
+msgctxt "Languages::new_administrator_account_created"
+msgid "New administrator account has been successfully created."
+msgstr "Ο νέος  λογαριασμός διαχειριστή έχει δημιουργηθεί με επιτυχία."
+
+msgctxt "Languages::new_vendor"
+msgid "New vendor"
+msgstr "Νέο Καταστημα"
+
+msgctxt "Languages::notify_vendor"
+msgid "Notify vendor"
+msgstr "Ειδοποίηση πωλητή"
+
+msgctxt "Languages::notify_vendors_by_email"
+msgid "Notify vendors by e-mail"
+msgstr "Ειδοποιηση πωλητών με email"
+
+msgctxt "Languages::privileges.manage_payouts"
+msgid "Manage payouts"
+msgstr "Διαχειριση πληρωμών"
+
+msgctxt "Languages::privileges.manage_vendors"
+msgid "Manage vendors"
+msgstr "Διαχείριση πωλητών"
+
+msgctxt "Languages::privileges.view_payouts"
+msgid "View payouts"
+msgstr "Προβολή πληρωμών"
+
+msgctxt "Languages::privileges.view_vendors"
+msgid "View vendors"
+msgstr "Προβολή πωλητών"
+
+msgctxt "Languages::privilege_sections.vendors"
+msgid "Vendors"
+msgstr "Πωλητής"
+
+msgctxt "Languages::sales_period"
+msgid "Sales period"
+msgstr "Περίοδος Πωλήσεων"
+
+msgctxt "Languages::sales_period_total"
+msgid "Sales period total"
+msgstr "Οι Συνολικές πωλήσεις  περιόδου"
+
+msgctxt "Languages::search_by_vendor"
+msgid "Search by vendor"
+msgstr "Search by store"
+
+msgctxt "Languages::sort_by_company_asc"
+msgid "Sort by alphabetical: A to Z"
+msgstr "Ταξινόμηση αλφαβητικά: Α έως το Ω"
+
+msgctxt "Languages::sort_by_company_desc"
+msgid "Sort by alphabetical: Z to A"
+msgstr "Ταξινόμηση αλφαβητικά: Α έως το Ω"
+
+msgctxt "Languages::text_company_status_active_to_pending"
+msgid "Your vendor status has been changed from Active to Pending."
+msgstr "Κατάσταση του προμηθευτή σας έχει αλλάξει από τους ενεργή σε εν αναμονή."
+
+msgctxt "Languages::text_company_status_disabled_to_pending"
+msgid "Your vendor status has been changed from Disabled to Pending."
+msgstr "Κατάσταση του προμηθευτή σας έχει αλλάξει από ανενεργη σε κατάσταση εκκρεμότητας."
+
+msgctxt "Languages::text_company_status_pending"
+msgid "The Pending status allows you to log in to you admin panel, change your company information, and fill your store with products."
+msgstr "Η κατάσταση εκκρεμότητας σάς δίνει τη δυνατότητα να συνδεθείτε στο admin panel σας, να αλλάξετε τα στοιχεία της εταιρείας, και να συμπληρώσετε το κατάστημα σας με προϊόντα."
+
+msgctxt "Languages::text_company_status_new_to_active"
+msgid "Your request for vendor [company] was approved."
+msgstr "Το αίτημά σας  για πωλητή [company] εγκρίθηκε"
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_created"
+msgid "New administrator was created. You can access to the administrator area: <a href=\"[link]\">[link_text]</a> by using the following credentials:<br />Login: [login]<br />Password: [password]"
+msgstr "Δημιουργήθηκε νέος διαχειριστής. Μπορείτε να έχετε πρόσβαση στην περιοχή διαχειρισης: k]\">[link_text]</a> χρησιμοποιώντας τα ακόλουθα στοιχεία: <br /> Σύνδεση: [login] <br /> Κωδικός πρόσβασης: [password]"
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_updated"
+msgid "Type of your account [login] changed to administrator. You may login into the administrator area: <a href=\"[link]\">[link_text]</a>"
+msgstr "Ο τύπος του λογαριασμού σας [login] άλλαξε σε διαχειριστή. Μπορείτε να συνδεθείτε στην περιοχή διαχειρισης: <a href=\"[link]\">[link_text]</a>"
+
+msgctxt "Languages::text_company_status_new_to_active_subj"
+msgid "Your request for vendor was approved."
+msgstr "Εγκρίθηκε το αίτημά σας για πωλητή"
+
+msgctxt "Languages::text_company_status_new_to_disable"
+msgid "Your request for vendor [company] was rejected."
+msgstr "Απορρίφθηκε το αίτημά σας για πωλητης της  [company]"
+
+msgctxt "Languages::text_company_status_new_to_disable_subj"
+msgid "Your request for vendor was rejected."
+msgstr "Απορρίφθηκε το αίτημά σας για πωλητής"
+
+msgctxt "Languages::text_company_status_new_to_pending"
+msgid "Congratulations, your application for getting a vendor account has been approved. Once we review you accont information, we will publish it on our website."
+msgstr "Συγχαρητήρια, η αίτησή σας για ένα λογαριασμό πωλητή έχει εγκριθεί. Μολις εξετάσουμε τις πληροφορίες του λογαριασμολυ σας, θα τον εκδώσουμε στην ιστοσελίδα μας."
+
+msgctxt "Languages::text_company_status_pending_subj"
+msgid "Your company is waiting for approval."
+msgstr "Εταιρεία σας είναι σε αναμονή για έγκριση."
+
+msgctxt "Languages::text_company_status_pending_to_active"
+msgid "Your profile changes for vendor [company] were approved."
+msgstr "Εγκρίθηκαν οι αλλαγές σας στο προφίλ πωλητη της [company]."
+
+msgctxt "Languages::text_error_adding_request"
+msgid "Error while adding the request."
+msgstr "Παρουσιάστηκε σφάλμα κατά την προσθήκη της αίτησης."
+
+msgctxt "Languages::text_new_payment_was_created"
+msgid "New payment was created"
+msgstr "Δημιουργήθηκε νέα πληρωμή"
+
+msgctxt "Languages::text_not_approved_vendors"
+msgid "You have vendors that require your approval. Please <a href=\"[link]\">follow this link</a> to review these vendors."
+msgstr "Έχετε πωλητές που απαιτούν την έγκρισή σας. Παρακαλώ <a href=\"[link]\"> ακολουθήστε αυτό το σύνδεσμο</a> για να αναθεωρήσετε αυτούς τους πωλητές"
+
+msgctxt "Languages::text_successful_request"
+msgid "Your request was successfully added. You will receive the email with the answer later."
+msgstr "Το αίτημα σας προστέθηκε με επιτυχία. Θα λάβετε το email με την απάντηση αργότερα."
+
+msgctxt "Languages::total_amount_due"
+msgid "Total amount due"
+msgstr "Συνολικό οφειλόμενο ποσό"
+
+msgctxt "Languages::total_period_payout"
+msgid "Total sales period payout"
+msgstr "Πληρωμή Συνολικων Πωλησεων περιοδου"
+
+msgctxt "Languages::total_unpaid_balance"
+msgid "Total unpaid balance"
+msgstr "Σύνολο ανεξόφλητου υπολοιπου"
+
+msgctxt "Languages::tt_views_payments_update_taxes"
+msgid "If payment surcharge is taken from vendors, taxes are not calculated"
+msgstr "Αν η επιβαρυνση του τροπου πληρωμής έχει υπολογιστει από πωλητές, τότε δεν υπολογίζονται οι φόροι"
+
+msgctxt "Languages::unable_delete_vendor_orders_exists"
+msgid "Unable to delete this vendor account because there are orders containing the products of this vendor in the store database. To delete the account, please delete all such orders first."
+msgstr "Unable to delete this store because there are orders containing the products of this company in the store database. To delete the account, please delete all such orders first."
+
+msgctxt "Languages::vendor"
+msgid "Vendor"
+msgstr "Πωλητής"
+
+msgctxt "Languages::vendors"
+msgid "Vendors"
+msgstr "Καταστήματα"
+
+msgctxt "Languages::vendors_menu_description"
+msgid "Sorted list of vendor accounts registered in the store."
+msgstr "Ταξινόμηση λίστας των λογαριασμών προμηθευτών που έχουν εγγραφεί στο κατάστημα."
+
+msgctxt "Languages::vendor_account_balance"
+msgid "Account balance"
+msgstr "Υπόλοιπο Λογαριασμού"
+
+msgctxt "Languages::vendor_approval_pending"
+msgid "New vendor account application"
+msgstr "Νέα αίτηση για λογαριασμό πωλητή"
+
+msgctxt "Languages::vendor_id"
+msgid "Vendor ID"
+msgstr "Ταυτότητα πωλητή"
+
+msgctxt "Languages::vendor_name"
+msgid "Vendor name"
+msgstr "Όνομα πωλητή"
+
+msgctxt "Languages::vendor_pages"
+msgid "Vendor pages"
+msgstr "Σελίδες Καταστήματος"
+
+msgctxt "Languages::vendor_panel"
+msgid "Vendor panel"
+msgstr "Πίνακας πωλητων"
+
+msgctxt "Languages::view_vendor_orders"
+msgid "View vendor orders"
+msgstr "Προβολή Παραγγελιών Καταστήματος"
+
+msgctxt "Languages::view_vendor_products"
+msgid "View vendor products"
+msgstr "Προβολή Προϊόντων Καταστήματος"
+
+msgctxt "Languages::view_vendor_users"
+msgid "View vendor users"
+msgstr "Προβολή Χρηστών Καταστήματος"
+
+msgctxt "Languages::you_can_edit_account_details"
+msgid "You can edit the account details now."
+msgstr "Τώρα, μπορείτε να επεξεργαστείτε τα στοιχεία του λογαριασμού."
+
+msgctxt "SettingsSections::Vendors"
+msgid "Vendors"
+msgstr "Πωλητές"
+
+msgctxt "SettingsOptions::vendors_per_page"
+msgid "Vendors per page"
+msgstr "Πωλητές ανά σελίδα"
+
+msgctxt "SettingsOptions::apply_for_vendor"
+msgid "Allow users to apply for vendor account"
+msgstr "Επιτρέψτε στους χρήστες να υποβάλουν αίτηση για λογαριασμό πωλητή"
+
+msgctxt "SettingsOptions::create_vendor_administrator_account"
+msgid "Automatically create the administrator account for the new approved vendor. (If the \"Allow users to apply for vendor account\" setting is enabled)"
+msgstr "Αυτοματη δημιουργία του λογαριασμου διαχειριστή για τον νέο εγκεκριμένο πωλητή. (Εφοσον η ρυθμιση \"επιτρέπεται στους χρήστες να υποβάλουν αίτηση για λογαριασμό πωλητή\"  είναι ενεργοποιημένη)"
+
+msgctxt "SettingsOptions::display_vendor"
+msgid "Display product vendor"
+msgstr "Προβολή Πωλητή Προϊόντος"
+
+msgctxt "SettingsOptions::need_agree_with_terms_n_conditions"
+msgid "Applying vendors must agree to the terms & conditions"
+msgstr "Οι Αιτουντες πωλητές πρέπει να συμφωνήσουν με τους όρους & Προϋποθέσεις"
+
+msgctxt "SettingsTooltips::need_agree_with_terms_n_conditions"
+msgid "The text of terms & conditions will be retrieved from the \"vendor_terms_n_conditions_content\" language variable."
+msgstr "Το κείμενο των όρων & προϋποθέσεων θα ανακτηθεί από τη μεταβλητή γλώσσας «vendor_terms_n_conditions_content»."
+
+msgctxt "Languages::use_for_apply_for_vendor_account"
+msgid "Apply for a vendor account form"
+msgstr "Φόρμα Υποβολής αίτησης για λογαριασμο πωλητή"
+
+msgctxt "Languages::block_vendor_categories"
+msgid "Vendor categories"
+msgstr "Κατηγορίες πωλητή"
+
+msgctxt "Languages::block_vendor_categories_description"
+msgid "Product categories available to a particular vendor"
+msgstr "Κατηγορίες προϊόντων που είναι διαθέσιμες σε έναν συγκεκριμένο πωλητη"
+
+msgctxt "Languages::block_vendor_information"
+msgid "Vendor information"
+msgstr "Πληροφορίες πωλητή"
+
+msgctxt "Languages::block_vendor_logo"
+msgid "Vendor logo"
+msgstr "Λογότυπο πωλητή"
+
+msgctxt "Languages::block_vendor_search"
+msgid "Search by vendor products"
+msgstr "Αναζήτηση με προϊόντα του πωλητή"
+
+msgctxt "Languages::vendor_filters"
+msgid "Vendor Product filters"
+msgstr "Φίλτρα Προϊοντων Πωλητή"
+
+msgctxt "Languages::vendor_products"
+msgid "Vendor products"
+msgstr "Προϊόντα Πωλητή"
+
+msgctxt "Languages::apply_shipping_for_all_vendors"
+msgid "Allow shipping for all vendors"
+msgstr "Επιτρεπεται αποστολή για όλους τους πωλητές"
+
+msgctxt "Languages::apply_shipping_for_all_vendors_confirm"
+msgid "The shipping method will be applied to all the vendors. Are you sure you want to proceed?"
+msgstr "Η μέθοδο αποστολής θα εφαρμοστεί σε όλους τους πωλητες. Είστε βέβαιοι ότι θέλετε να συνεχίσετε;"
+
+msgctxt "Languages::shipping_applied_to_vendors"
+msgid "The shipping method was applied to [vendors] vendors"
+msgstr "Η μέθοδος αποστολής εφαρμόστηκε σε [vendors] πωλητές"
+
+msgctxt "Languages::block_vendor_filters"
+msgid "Vendor filters"
+msgstr "Φίλτρα πωλητή"
+
+msgctxt "Languages::email_template.apply_for_vendor_notification"
+msgid "Apply for vendor"
+msgstr "Αιτηση για Πωλητής"
+
+msgctxt "Languages::email_template.company_status_notification"
+msgid "Company status change"
+msgstr "Αλλαγή κατάστασης της εταιρείας"
+
+msgctxt "Languages::email_template.company_payment_notification"
+msgid "Company payment"
+msgstr "Πληρωμή της εταιρείας"
+
+msgctxt "Languages::vendor_terms_n_conditions"
+msgid "I accept the [terms_href]"
+msgstr "Αποδέχομαι τους [terms_href]"
+
+msgctxt "Languages::vendor_terms_n_conditions_name"
+msgid "Terms and Conditions"
+msgstr "Όρους και προϋποθέσεις"
+
+msgctxt "Languages::vendor_terms_n_conditions_alert"
+msgid "In order to proceed, you need to accept our Terms and Conditions."
+msgstr "Για να προχωρήσετε, πρέπει να αποδεχτείτε τους όρους και τις προϋποθέσεις μας."
+
+msgctxt "Languages::vendor_terms_n_conditions_content"
+msgid "<p>Please read these Terms and Conditions (\"Terms\", \"Terms and Conditions\") carefully before using the <a href=\"http://www.mywebsite.com\">http://www.mywebsite.com</a> website and the My Mobile App mobile application (the \"Service\") operated by My Company (\"us\", \"we\", or \"our\").</p><p><strong>By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the Terms then you may not access the Service.</strong></p><p><strong>Purchases</strong></p><p>If you wish to purchase any product or service made available through the Service (\"Purchase\"), you may be asked to supply certain information relevant to your Purchase including, without limitation, your ...</p><p><strong>Content</strong></p><p>Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material (\"Content\"). You are responsible for the ...</p><p><strong>Changes</strong></p><p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p><p><strong>Contact Us</strong></p><p>If you have any questions about these Terms, please contact us.</p>"
+msgstr "<p>Παρακαλούμε διαβάστε αυτούς τους όρους και προϋποθέσεις (\"Όροι\", \"Όροι και προϋποθέσεις\") προσεκτικά πριν τη χρηση της ιστοεσελιδας και του  My Mobile App mobile application (η \"Υπηρεσια\")   <a href=\"http://www.mywebsite.com\"> http://www.mywebsite.com</a>  από την εταιρεία μου (\"εμείς\", \"εμείς\", ή \"μας\").</p> <p><strong>Με την πρόσβαση ή τη χρήση της υπηρεσίας συμφωνείτε ότι δεσμεύεστε από τους παρόντες όρους. Αν διαφωνείτε με οποιοδήποτε μέρος των όρων, τότε δεν μπορείτε να έχετε πρόσβαση στην υπηρεσία.</strong></p> <p><strong>Αγορές</strong></p> <p>Αν θέλετε να αγοράσετε οποιοδήποτε προϊόν ή υπηρεσία που διατίθεται μέσω της υπηρεσίας (\"αγορά\"), μπορεί να σας ζητηθεί να παράσχετε ορισμένες πληροφορίες σχετικές με την αγορά σας, συμπεριλαμβανομενης, χωρίς κανενα περιορισμό, ...</p> <p><strong>Περιεχομενο</strong></p> <p>Η υπρεσια μας, σάς δίνει τη δυνατότητα να δημοσιεύετε, σύνδεσετε, αποθήκευσετε, την κοινή χρήση και διάθεση με άλλον τρόπο ορισμένες πληροφορίες, κείμενο, γραφικά, βίντεο, ή άλλο υλικό («περιεχόμενο»). Είστε υπεύθυνοι για τη...</p> <p><strong>Αλλαγές</strong></p> <p>Διατηρεί το δικαίωμα, κατά την κρίση μας, να τις τροποποιηθουν ή να αντικατασταθουν αυτοι οι όροι οποιαδήποτε στιγμή. Αν μια αναθεώρηση είναι υλικη θα προσπαθησουμε να παρέχουμε προειδοποίηση τουλάχιστον 30 ημερών πριν από οποιαδήποτε ενεργοποίηση νέως όρων. Τι συνιστά μια υλική αλλαγή θα καθορίζεται κατά τη διακριτική μας ευχέρεια.</p> <p><strong>Επικοινωνήστε μαζί μας</strong></p> <p>Εάν έχετε οποιεσδήποτε ερωτήσεις σχετικά με αυτούς τους όρους, παρακαλώ επικοινωνήστε μαζί μας.</p>"
+
+msgctxt "Languages::product_state_description.mve.new"
+msgid "<p>Full unrestricted access to all features. Enter a valid license number to activate.</p><p>This mode can be activated at any time.</p><br />"
+msgstr "Πλήρη απεριόριστη πρόσβαση σε όλες τις δυνατότητες. Εισάγετε έναν έγκυρο αριθμό άδειας για ενεργοποίηση. <br /> <br /> Αυτός η λειτουργία μπορεί να ενεργοποιηθεί οποιοδήποτε στιγμή. <br /> <br />"
+
+msgctxt "Languages::product_state_description.mve.full"
+msgid "<p>Full unrestricted access to all features. Enter a valid license number to activate.</p><p>This mode can be activated at any time.</p><br />"
+msgstr "Πλήρη απεριόριστη πρόσβαση σε όλες τις δυνατότητες. Εισάγετε έναν έγκυρο αριθμό άδειας για ενεργοποίηση. <br /> <br /> Αυτός η λειτουργία μπορεί να ενεργοποιηθεί οποιοδήποτε στιγμή. <br /> <br />"
+
+msgctxt "Languages::text_store_mode_changed_to_mve.full"
+msgid "<strong>Full mode</strong> has been activated. In this mode, all the advanced eCommerce features are available."
+msgstr "<strong>Πλήρης Λειτουργία</strong> ενεργοποιημένη. Σε αυτή τη λειτουργία, όλα τα προηγμένα χαρακτηριστικά για το ηλεκτρονικό εμπόριο είναι διαθέσιμα."
+
+msgctxt "Languages::vendor_payouts.type"
+msgid "Type"
+msgstr "Τύπος"
+
+msgctxt "Languages::vendor_payouts.type.other"
+msgid "Other"
+msgstr "Άλλα"
+
+msgctxt "Languages::vendor_payouts.type.other.description"
+msgid "Other"
+msgstr "Άλλα"
+
+msgctxt "Languages::vendor_payouts.type.order_placed"
+msgid "Order placed"
+msgstr "Η Παραγγελία πραγματοποιήθηκε"
+
+msgctxt "Languages::vendor_payouts.type.order_placed.description"
+msgid "Order <a href=\"[order_url]\">#[order_id]</a> placed"
+msgstr "Η Παραγγελία <a href=\"[order_url]\"> #[order_id]</a> παραπληφθηκε"
+
+msgctxt "Languages::vendor_payouts.type.order_changed"
+msgid "Order changed"
+msgstr "Η Παραγγελία Άλλαξε"
+
+msgctxt "Languages::vendor_payouts.type.order_changed.description"
+msgid "Order <a href=\"[order_url]\">#[order_id]</a> changed"
+msgstr "Η Παραγγελία <a href=\"[order_url]\"> #[order_id]</a> άλλαξε"
+
+msgctxt "Languages::vendor_payouts.type.order_refunded"
+msgid "Order refunded"
+msgstr "Επιστροφή παραγγελίας"
+
+msgctxt "Languages::vendor_payouts.type.order_refunded.description"
+msgid "Order <a href=\"[order_url]\">#[order_id]</a> refunded"
+msgstr "Η Παραγγελία <a href=\"[order_url]\"> #[order_id]</a> επιστράφει"
+
+msgctxt "Languages::vendor_payouts.type.withdrawal"
+msgid "Withdrawal"
+msgstr "Αναληψη"
+
+msgctxt "Languages::vendor_payouts.type.withdrawal.description"
+msgid "Withdrawal"
+msgstr "Αναληψη"
+
+msgctxt "Languages::vendor_payouts.type.payout"
+msgid "Payout"
+msgstr "Πληρωμή"
+
+msgctxt "Languages::vendor_payouts.type.payout.description"
+msgid "Payout"
+msgstr "Πληρωμή"
+
+msgctxt "Languages::vendor_payouts.transactions"
+msgid "Transactions"
+msgstr "Συναλλαγές"
+
+msgctxt "Languages::vendor_payouts.withdrawals"
+msgid "Balance withdrawals"
+msgstr "Ισοζυγιο αναληψεων"
+
+msgctxt "Languages::vendor_payouts.transaction_value"
+msgid "Transaction value"
+msgstr "Αξία συναλλαγής"
+
+msgctxt "Languages::vendor_payouts.income"
+msgid "Income"
+msgstr "Εισοδημα"
+
+msgctxt "Languages::vendor_payouts.income_carried_forward"
+msgid "Income carried forward"
+msgstr "Μεταφερθέν Εισόδημα"
+
+msgctxt "Languages::vendor_payouts.balance"
+msgid "Balance"
+msgstr "Υπόλοιπο"
+
+msgctxt "Languages::vendor_payouts.balance_carried_forward"
+msgid "Balance carried forward"
+msgstr "Μεταφερθέν υπόλοιπο"
+
+msgctxt "Languages::add_withdrawal"
+msgid "Request withdrawal"
+msgstr "Αίτηση ανάληψης"
+
+msgctxt "Languages::new_withdrawal"
+msgid "New withdrawal"
+msgstr "Νέα αναληψη"
+
+msgctxt "Languages::vendor_accounting"
+msgid "Accounting"
+msgstr "Λογιστική"
+
+msgctxt "Languages::vendor_accounting_menu_description"
+msgid "Income and expenditure statistics (total income, vendor balance, vendor withdrawals)."
+msgstr "Στατιστικές εσόδων και δαπανών (συνολικό εισόδημα, υπόλοιπο προμηθευτή, αναλήψεις πωλητή)."
+
+msgctxt "Languages::vendor_payouts.current_balance"
+msgid "Current balance: [balance]"
+msgstr "Τρέχον υπόλοιπο: [balance]"
+
+msgctxt "Languages::vendor_payouts.current_balance_text"
+msgid "Current balance"
+msgstr "Τρέχον υπόλοιπο"
+
+msgctxt "Languages::vendor_payouts.approval_status"
+msgid "Approval status"
+msgstr "Κατάσταση έγκρισης"
+
+msgctxt "Languages::vendor_payouts.approval_status.P"
+msgid "Pending"
+msgstr "Σε εκκρεμότητα"
+
+msgctxt "Languages::vendor_payouts.approval_status.C"
+msgid "Completed"
+msgstr "Ολοκληρωθηκε"
+
+msgctxt "Languages::vendor_payouts.approval_status.D"
+msgid "Declined"
+msgstr "Απορρίφθηκε"
+
+msgctxt "Languages::email_template.accounting_new_payout"
+msgid "Accounting: Payout has been issued"
+msgstr "Λογιστική: έχει εκδοθεί Πληρωμή "
+
+msgctxt "Languages::vendor_payouts.new_payout_issued"
+msgid "New payout has been issued"
+msgstr "Έχει εκδοθεί Νέα πληρωμή "
+
+msgctxt "Languages::vendor_payouts.new_payout_issued_text"
+msgid "A new payout of [amount] has been issued by [issuer]"
+msgstr "Έχει εκδοθεί μια νέα πληρωμή αξιας [amount] από [issuer]"
+
+msgctxt "Languages::vendor_payouts.view_details"
+msgid "You can view the details here"
+msgstr "Μπορείτε να δείτε τις λεπτομέρειες εδώ"
+
+msgctxt "Languages::vendor_payouts.payout_comments"
+msgid "Payout comments"
+msgstr "Σχολια Πληρωμών"
+
+msgctxt "Languages::email_template.accounting_new_withdrawal"
+msgid "Accounting: Withdrawal has been requested"
+msgstr "Λογιστική: Εχει ζητηθει Αναληψη"
+
+msgctxt "Languages::vendor_payouts.new_withdrawal_requested"
+msgid "New withdrawal has been requested"
+msgstr "Λογιστική: Εχει ζητηθει Νεα Αναληψη"
+
+msgctxt "Languages::vendor_payouts.new_withdrawal_requested_text"
+msgid "A new withdrawal of [amount] has been requested by [requester]"
+msgstr "Μια νέα ανάληψη αξιας [amount] έχει ζητηθεί από [requester]"
+
+msgctxt "Languages::vendor_payouts.withdrawal_comments"
+msgid "Withdrawal comments"
+msgstr "Σχολια Αναληψης"
+
+msgctxt "Languages::email_template.accounting_payout_approved"
+msgid "Accounting: Payout has been completed"
+msgstr "Λογιστική: Πληρωμή έχει ολοκληρωθεί"
+
+msgctxt "Languages::vendor_payouts.payout_approved"
+msgid "Payout has been completed"
+msgstr "Έχει ολοκληρωθεί η πληρωμή"
+
+msgctxt "Languages::vendor_payouts.payout_approved_text"
+msgid "The payout of [amount] issued on [date] has been marked as <b>Completed</b>"
+msgstr "Η πληρωμή αξιας [amount] που εκδόθηκε την [date] έχει σημανθεί ως <b>ολοκληρωμένη</b>"
+
+msgctxt "Languages::email_template.accounting_payout_declined"
+msgid "Accounting: Payout hasn't been completed"
+msgstr "Λογιστική: Δεν έχει ολοκληρωθεί η πληρωμή"
+
+msgctxt "Languages::vendor_payouts.payout_declined"
+msgid "Payout hasn't been completed"
+msgstr "Δεν έχει ολοκληρωθεί η πληρωμή"
+
+msgctxt "Languages::vendor_payouts.payout_declined_text"
+msgid "The payout of [amount] issued on [date] has been marked as <b>Not completed</b>"
+msgstr "Η πληρωμή αξιας [amount] που εκδόθηκε την [date] έχει επισημανθεί ως <b>μη ολοκληρωμένη</b>"
+
+msgctxt "Languages::email_template.accounting_withdrawal_approved"
+msgid "Accounting: Withdrawal has been completed"
+msgstr "Λογιστική: Η Αναληψη έχει ολοκληρωθεί"
+
+msgctxt "Languages::vendor_payouts.withdrawal_approved"
+msgid "Withdrawal has been completed"
+msgstr "Ολοκληρώθηκε η Αναληψη"
+
+msgctxt "Languages::vendor_payouts.withdrawal_approved_text"
+msgid "The withdrawal of [amount] requested on [date] has been marked as <b>Completed</b>"
+msgstr "Η Αναληψη αξιας [amount] που ζητηθηκε την [date] έχει σημανθεί ως <b>ολοκληρωμένη</b>"
+
+msgctxt "Languages::email_template.accounting_withdrawal_declined"
+msgid "Accounting: Withdrawal has been declined"
+msgstr "Λογιστική: Η αναληψη απορρίφθηκε"
+
+msgctxt "Languages::vendor_payouts.withdrawal_declined"
+msgid "Withdrawal has been declined"
+msgstr "Η αναληψη έχει απορριφθεί"
+
+msgctxt "Languages::vendor_payouts.withdrawal_declined_text"
+msgid "The withdrawal of [amount] requested on [date] has been marked as <b>Declined</b>"
+msgstr "Την Αναληψη αξιας [amount]  που ζητηθηκε την [date] έχει επισημανθεί ως <b>σε απόρριψη</b>"
+
+msgctxt "Languages::top_sellers"
+msgid "Top sellers"
+msgstr "Κορυφαία σε πωλήσεις"
+

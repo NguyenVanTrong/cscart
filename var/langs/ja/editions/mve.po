@@ -1,0 +1,646 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /editions/mve.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:47-0500\n"
+
+msgctxt "Languages::add_companies"
+msgid "Add vendors"
+msgstr "出品者の追加"
+
+msgctxt "Languages::add_companies_and_close"
+msgid "Add vendors and close"
+msgstr "出品者を追加して閉じる"
+
+msgctxt "Languages::add_vendor"
+msgid "Add vendor"
+msgstr "出品者の追加"
+
+msgctxt "Languages::add_vendor_administrator"
+msgid "Add vendor's administrator"
+msgstr "出品者データ管理者の追加"
+
+msgctxt "Languages::vendor_administrator"
+msgid "Vendor's administrator"
+msgstr "出品者データ管理者"
+
+msgctxt "Languages::vendor_administrators"
+msgid "Vendor's administrators"
+msgstr "出品者データ管理者"
+
+msgctxt "Languages::vendor_administrators_menu_description"
+msgid "List of vendor's administrators, registered users with a vendor account."
+msgstr "出品者データ管理者の一覧です。"
+
+msgctxt "Languages::vendor_candidate_notification"
+msgid "Hello,<br/><br/>You have a new vendor candidate in your store. This vendor account is pending until you approve it. Follow <a href=\"[href]\">this URL</a> to view the account details</a>."
+msgstr ""
+
+msgctxt "Languages::demo_panel.go_vendor_panel"
+msgid "Go to Vendor panel"
+msgstr "出品者用パネルに移動"
+
+msgctxt "Languages::vendor_account_balance_menu_description"
+msgid "Income and expenditure statistics (total, per vendor, per period)."
+msgstr "各出品者の残高情報です。"
+
+msgctxt "Languages::merge_vendor"
+msgid "Merge vendor"
+msgstr "出品者の統合"
+
+msgctxt "Languages::select_new_owner_company"
+msgid "Select a new owner of this company's profile data:"
+msgstr "この出品者の新しいオーナーを選択してください:"
+
+msgctxt "Languages::warning_merging_companies"
+msgid "Merging two company accounts will remove [company_name] from the database, and all the profile data (products, orders, shipping methods, users, promotions, etc.) will be transferred to this company's account"
+msgstr "アカウントを統合すると [company_name] がDBから削除され、すべての関連データ (商品、注文、配送方法、顧客、キャンペーン etc.) はこの会社のアカウントに移動します。"
+
+msgctxt "Languages::all_vendors"
+msgid "All vendors"
+msgstr "すべての出品者"
+
+msgctxt "Languages::apply_for_vendor_account"
+msgid "Apply for a vendor account"
+msgstr "このサイトに出品する"
+
+msgctxt "Languages::available_for_vendor"
+msgid "Available for vendor"
+msgstr "出品者の利用"
+
+msgctxt "Languages::balance_carried_forward"
+msgid "Balance carried forward"
+msgstr "持ち越し残高"
+
+msgctxt "Languages::block_vendors"
+msgid "Vendors"
+msgstr "出品者"
+
+msgctxt "Languages::charge_to_vendor_account"
+msgid "Charge to vendor account"
+msgstr "出品者の残高情報に反映"
+
+msgctxt "Languages::companies"
+msgid "Vendors"
+msgstr "出品者"
+
+msgctxt "Languages::create_administrator_account"
+msgid "Create administrator account"
+msgstr "管理者アカウントの作成"
+
+msgctxt "Languages::displayed_vendors"
+msgid "Displayed vendors"
+msgstr "表示する出品者数"
+
+msgctxt "Languages::editing_vendor"
+msgid "Editing vendor"
+msgstr "出品者の編集"
+
+msgctxt "Languages::error_admin_not_created_email_already_used"
+msgid "Administrator account was not created. The email address belongs to another user. You can add the administrator for this vendor manually."
+msgstr "指定したEメールアドレスが他のユーザーにより既に使用されているため、管理者アカウントは作成されませんでした。この出品者の管理者アカウントは手動で作成してください。"
+
+msgctxt "Languages::error_admin_not_created_name_already_used"
+msgid "Administrator account was not created. The user name belongs to another user. You should change the administrator account's name."
+msgstr "指定したユーザー名が他のユーザーにより既に使用されているため、管理者アカウントは作成されませんでした。この出品者の管理者アカウントは手動で作成してください。"
+
+msgctxt "Languages::error_vendor_exists"
+msgid "The vendor with e-mail you have chosen already exists, please try another."
+msgstr "指定したEメールは他の出品者が使用しています。他のEメールを指定して再度お試しください。"
+
+msgctxt "Languages::expenditure"
+msgid "Expenditure"
+msgstr "支出"
+
+msgctxt "Languages::income"
+msgid "Income"
+msgstr "収入"
+
+msgctxt "Languages::manage_vendors"
+msgid "Manage vendors"
+msgstr "出品者の管理"
+
+msgctxt "Languages::new_administrator_account_created"
+msgid "New administrator account has been successfully created."
+msgstr "出品者データ管理者アカウントが作成されました。"
+
+msgctxt "Languages::new_vendor"
+msgid "New vendor"
+msgstr "出品者の追加"
+
+msgctxt "Languages::notify_vendor"
+msgid "Notify vendor"
+msgstr "出品者に通知する"
+
+msgctxt "Languages::notify_vendors_by_email"
+msgid "Notify vendors by e-mail"
+msgstr "出品者にEメールで通知"
+
+msgctxt "Languages::privileges.manage_payouts"
+msgid "Manage payouts"
+msgstr "出品者への支払いの管理"
+
+msgctxt "Languages::privileges.manage_vendors"
+msgid "Manage vendors"
+msgstr "出品者の管理"
+
+msgctxt "Languages::privileges.view_payouts"
+msgid "View payouts"
+msgstr "出品者への支払いの閲覧"
+
+msgctxt "Languages::privileges.view_vendors"
+msgid "View vendors"
+msgstr "出品者の閲覧"
+
+msgctxt "Languages::privilege_sections.vendors"
+msgid "Vendors"
+msgstr "出品者"
+
+msgctxt "Languages::sales_period"
+msgid "Sales period"
+msgstr "対象販売期間"
+
+msgctxt "Languages::sales_period_total"
+msgid "Sales period total"
+msgstr "指定期間内の総計"
+
+msgctxt "Languages::search_by_vendor"
+msgid "Search by vendor"
+msgstr "出品者で検索"
+
+msgctxt "Languages::sort_by_company_asc"
+msgid "Sort by alphabetical: A to Z"
+msgstr "アルファベット順: A から Z"
+
+msgctxt "Languages::sort_by_company_desc"
+msgid "Sort by alphabetical: Z to A"
+msgstr "アルファベット順: Z から A"
+
+msgctxt "Languages::text_company_status_active_to_pending"
+msgid "Your vendor status has been changed from Active to Pending."
+msgstr "あなたの出品者ステータスが「有効」から「保留」に変更されました。"
+
+msgctxt "Languages::text_company_status_disabled_to_pending"
+msgid "Your vendor status has been changed from Disabled to Pending."
+msgstr "あなたの出品者ステータスが「無効」から「保留」に変更されました。"
+
+msgctxt "Languages::text_company_status_pending"
+msgid "The Pending status allows you to log in to you admin panel, change your company information, and fill your store with products."
+msgstr "ステータスが「保留」でも出品者管理画面にログインし、出品者情報や商品を登録することができます。"
+
+msgctxt "Languages::text_company_status_new_to_active"
+msgid "Your request for vendor [company] was approved."
+msgstr "[company]様のデータを管理するアカウントが以下の通り作成されました。"
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_created"
+msgid "New administrator was created. You can access to the administrator area: <a href=\"[link]\">[link_text]</a> by using the following credentials:<br />Login: [login]<br />Password: [password]"
+msgstr ""
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_updated"
+msgid "Type of your account [login] changed to administrator. You may login into the administrator area: <a href=\"[link]\">[link_text]</a>"
+msgstr ""
+
+msgctxt "Languages::text_company_status_new_to_active_subj"
+msgid "Your request for vendor was approved."
+msgstr "出品者データに対するアクションが承認されました。"
+
+msgctxt "Languages::text_company_status_new_to_disable"
+msgid "Your request for vendor [company] was rejected."
+msgstr "出品者データに対するアクションが却下されました。"
+
+msgctxt "Languages::text_company_status_new_to_disable_subj"
+msgid "Your request for vendor was rejected."
+msgstr "マーケットプレイスへの参加申請が却下されました。"
+
+msgctxt "Languages::text_company_status_new_to_pending"
+msgid "Congratulations, your application for getting a vendor account has been approved. Once we review you accont information, we will publish it on our website."
+msgstr "マーケットプレイスへの参加申請が承認されました。申請いただいた内容を後ほど弊社にてマーケットプレイスに登録いたします。"
+
+msgctxt "Languages::text_company_status_pending_subj"
+msgid "Your company is waiting for approval."
+msgstr "出品者情報の更新は承認待ちの状態です。"
+
+msgctxt "Languages::text_company_status_pending_to_active"
+msgid "Your profile changes for vendor [company] were approved."
+msgstr "[company]様の登録データ更新が承認されました。"
+
+msgctxt "Languages::text_error_adding_request"
+msgid "Error while adding the request."
+msgstr "処理中にエラーが発生しました。"
+
+msgctxt "Languages::text_new_payment_was_created"
+msgid "New payment was created"
+msgstr "御社売上金額のお支払いについて"
+
+msgctxt "Languages::text_not_approved_vendors"
+msgid "You have vendors that require your approval. Please <a href=\"[link]\">follow this link</a> to review these vendors."
+msgstr "確認が必要なマーケットプレイスへの参加申請または登録内容の更新があります。以下のURLにアクセスのうえ申請を処理してください。:<a href=\"[link]\">処理ページへ移動</a>"
+
+msgctxt "Languages::text_successful_request"
+msgid "Your request was successfully added. You will receive the email with the answer later."
+msgstr "マーケットプレイスへの参加申請を受け付けました。後ほど担当者よりEメールにてご連絡さしあげます。"
+
+msgctxt "Languages::total_amount_due"
+msgid "Total amount due"
+msgstr "指定期間内の要支払金額"
+
+msgctxt "Languages::total_period_payout"
+msgid "Total sales period payout"
+msgstr "指定期間内の支払済金額"
+
+msgctxt "Languages::total_unpaid_balance"
+msgid "Total unpaid balance"
+msgstr "出品者への要支払額合計"
+
+msgctxt "Languages::tt_views_payments_update_taxes"
+msgid "If payment surcharge is taken from vendors, taxes are not calculated"
+msgstr "支払手数料を出品者から徴収する場合、税金の計算は行われません"
+
+msgctxt "Languages::unable_delete_vendor_orders_exists"
+msgid "Unable to delete this vendor account because there are orders containing the products of this vendor in the store database. To delete the account, please delete all such orders first."
+msgstr "この出品者の商品を含む注文が存在するため、出品者情報を削除できません。この出品者の商品を含む注文をすべて削除したうえで再度処理を実行してください。"
+
+msgctxt "Languages::vendor"
+msgid "Vendor"
+msgstr "出品者"
+
+msgctxt "Languages::vendors"
+msgid "Vendors"
+msgstr "出品者"
+
+msgctxt "Languages::vendors_menu_description"
+msgid "Sorted list of vendor accounts registered in the store."
+msgstr "出品者の一覧です。"
+
+msgctxt "Languages::vendor_account_balance"
+msgid "Account balance"
+msgstr "出品者の残高情報"
+
+msgctxt "Languages::vendor_approval_pending"
+msgid "New vendor account application"
+msgstr "マーケットプレイスへの参加申請がありました"
+
+msgctxt "Languages::vendor_id"
+msgid "Vendor ID"
+msgstr "出品者ID"
+
+msgctxt "Languages::vendor_name"
+msgid "Vendor name"
+msgstr "出品者名"
+
+msgctxt "Languages::vendor_pages"
+msgid "Vendor pages"
+msgstr "出品者ページ"
+
+msgctxt "Languages::vendor_panel"
+msgid "Vendor panel"
+msgstr "出品者用管理画面"
+
+msgctxt "Languages::view_vendor_orders"
+msgid "View vendor orders"
+msgstr "出品者の注文の表示"
+
+msgctxt "Languages::view_vendor_products"
+msgid "View vendor products"
+msgstr "出品者の商品の表示"
+
+msgctxt "Languages::view_vendor_users"
+msgid "View vendor users"
+msgstr "出品者の顧客の表示"
+
+msgctxt "Languages::you_can_edit_account_details"
+msgid "You can edit the account details now."
+msgstr "アカウントを確認"
+
+msgctxt "SettingsSections::Vendors"
+msgid "Vendors"
+msgstr "出品者"
+
+msgctxt "SettingsOptions::vendors_per_page"
+msgid "Vendors per page"
+msgstr "1ページに表示する出品者数"
+
+msgctxt "SettingsOptions::apply_for_vendor"
+msgid "Allow users to apply for vendor account"
+msgstr "ユーザーの出品者登録申請を許可"
+
+msgctxt "SettingsOptions::create_vendor_administrator_account"
+msgid "Automatically create the administrator account for the new approved vendor. (If the \"Allow users to apply for vendor account\" setting is enabled)"
+msgstr "登録を承認された出品者の管理者アカウントを自動で作成 (「ユーザーの出品者登録申請を許可」がチェックされている場合)"
+
+msgctxt "SettingsOptions::display_vendor"
+msgid "Display product vendor"
+msgstr "出品者の表示"
+
+msgctxt "SettingsOptions::need_agree_with_terms_n_conditions"
+msgid "Applying vendors must agree to the terms & conditions"
+msgstr "出品者の登録申請時に利用規約への同意を必須化する"
+
+msgctxt "SettingsTooltips::need_agree_with_terms_n_conditions"
+msgid "The text of terms & conditions will be retrieved from the \"vendor_terms_n_conditions_content\" language variable."
+msgstr "出品者向け利用規約には、言語変数 \"vendor_terms_n_conditions_content\" に設定した値が使用されます。"
+
+msgctxt "Languages::use_for_apply_for_vendor_account"
+msgid "Apply for a vendor account form"
+msgstr "出品者登録申請フォーム"
+
+msgctxt "Languages::block_vendor_categories"
+msgid "Vendor categories"
+msgstr "特定出品者向けカテゴリー"
+
+msgctxt "Languages::block_vendor_categories_description"
+msgid "Product categories available to a particular vendor"
+msgstr "特定の出品者にのみ利用可能な商品カテゴリーです"
+
+msgctxt "Languages::block_vendor_information"
+msgid "Vendor information"
+msgstr "出品者情報"
+
+msgctxt "Languages::block_vendor_logo"
+msgid "Vendor logo"
+msgstr "出品者ロゴ"
+
+msgctxt "Languages::block_vendor_search"
+msgid "Search by vendor products"
+msgstr "出品者の商品検索"
+
+msgctxt "Languages::vendor_filters"
+msgid "Vendor Product filters"
+msgstr "出品者の商品フィルタ"
+
+msgctxt "Languages::vendor_products"
+msgid "Vendor products"
+msgstr "出品者の商品"
+
+msgctxt "Languages::apply_shipping_for_all_vendors"
+msgid "Allow shipping for all vendors"
+msgstr "すべての出品者向けに配送を許可"
+
+msgctxt "Languages::apply_shipping_for_all_vendors_confirm"
+msgid "The shipping method will be applied to all the vendors. Are you sure you want to proceed?"
+msgstr "すべての出品者向けにこの配送方法を適用します。処理を継続してよろしいですか？"
+
+msgctxt "Languages::shipping_applied_to_vendors"
+msgid "The shipping method was applied to [vendors] vendors"
+msgstr "配送方法が [vendors] 件の出品者に適用されました"
+
+msgctxt "Languages::block_vendor_filters"
+msgid "Vendor filters"
+msgstr "出品者フィルタ"
+
+msgctxt "Languages::email_template.apply_for_vendor_notification"
+msgid "Apply for vendor"
+msgstr "出品者登録申請"
+
+msgctxt "Languages::email_template.company_status_notification"
+msgid "Company status change"
+msgstr "出品者ステータスの変更"
+
+msgctxt "Languages::email_template.company_payment_notification"
+msgid "Company payment"
+msgstr "出品者への支払い"
+
+msgctxt "Languages::vendor_terms_n_conditions"
+msgid "I accept the [terms_href]"
+msgstr "[terms_href] に同意する"
+
+msgctxt "Languages::vendor_terms_n_conditions_name"
+msgid "Terms and Conditions"
+msgstr "利用規約"
+
+msgctxt "Languages::vendor_terms_n_conditions_alert"
+msgid "In order to proceed, you need to accept our Terms and Conditions."
+msgstr "出品者登録を申請するには、利用規約に同意いただく必要があります。"
+
+msgctxt "Languages::vendor_terms_n_conditions_content"
+msgid "<p>Please read these Terms and Conditions (\"Terms\", \"Terms and Conditions\") carefully before using the <a href=\"http://www.mywebsite.com\">http://www.mywebsite.com</a> website and the My Mobile App mobile application (the \"Service\") operated by My Company (\"us\", \"we\", or \"our\").</p><p><strong>By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the Terms then you may not access the Service.</strong></p><p><strong>Purchases</strong></p><p>If you wish to purchase any product or service made available through the Service (\"Purchase\"), you may be asked to supply certain information relevant to your Purchase including, without limitation, your ...</p><p><strong>Content</strong></p><p>Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material (\"Content\"). You are responsible for the ...</p><p><strong>Changes</strong></p><p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p><p><strong>Contact Us</strong></p><p>If you have any questions about these Terms, please contact us.</p>"
+msgstr "<p>当ウェブサイトのご利用には、以下の利用規約に同意いただく必要があります。</p><p><strong>利用規約に同意いただけない場合は、当ウェブサイトをご利用いただけませんのでご注意ください。</strong></p><p><strong>第1条 XXXXX</strong></p><p>第1条の本文をここに入力</p><p><strong>第2条</strong></p><p>第2条の本文をここに入力</p><p><strong>第3条</strong></p><p>第3条の本文をここに入力</p><p><strong>お問い合わせ</strong></p><p>ご不明な点がございましたら、お手数ですが弊社までお問い合わせ願います。</p>"
+
+msgctxt "Languages::product_state_description.mve.new"
+msgid "<p>Full unrestricted access to all features. Enter a valid license number to activate.</p><p>This mode can be activated at any time.</p><br />"
+msgstr ""
+
+msgctxt "Languages::product_state_description.mve.full"
+msgid "<p>Full unrestricted access to all features. Enter a valid license number to activate.</p><p>This mode can be activated at any time.</p><br />"
+msgstr ""
+
+msgctxt "Languages::text_store_mode_changed_to_mve.full"
+msgid "<strong>Full mode</strong> has been activated. In this mode, all the advanced eCommerce features are available."
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type"
+msgid "Type"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.other"
+msgid "Other"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.other.description"
+msgid "Other"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.order_placed"
+msgid "Order placed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.order_placed.description"
+msgid "Order <a href=\"[order_url]\">#[order_id]</a> placed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.order_changed"
+msgid "Order changed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.order_changed.description"
+msgid "Order <a href=\"[order_url]\">#[order_id]</a> changed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.order_refunded"
+msgid "Order refunded"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.order_refunded.description"
+msgid "Order <a href=\"[order_url]\">#[order_id]</a> refunded"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.withdrawal"
+msgid "Withdrawal"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.withdrawal.description"
+msgid "Withdrawal"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.payout"
+msgid "Payout"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.type.payout.description"
+msgid "Payout"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.transactions"
+msgid "Transactions"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.withdrawals"
+msgid "Balance withdrawals"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.transaction_value"
+msgid "Transaction value"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.income"
+msgid "Income"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.income_carried_forward"
+msgid "Income carried forward"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.balance"
+msgid "Balance"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.balance_carried_forward"
+msgid "Balance carried forward"
+msgstr ""
+
+msgctxt "Languages::add_withdrawal"
+msgid "Request withdrawal"
+msgstr ""
+
+msgctxt "Languages::new_withdrawal"
+msgid "New withdrawal"
+msgstr ""
+
+msgctxt "Languages::vendor_accounting"
+msgid "Accounting"
+msgstr ""
+
+msgctxt "Languages::vendor_accounting_menu_description"
+msgid "Income and expenditure statistics (total income, vendor balance, vendor withdrawals)."
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.current_balance"
+msgid "Current balance: [balance]"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.current_balance_text"
+msgid "Current balance"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.approval_status"
+msgid "Approval status"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.approval_status.P"
+msgid "Pending"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.approval_status.C"
+msgid "Completed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.approval_status.D"
+msgid "Declined"
+msgstr ""
+
+msgctxt "Languages::email_template.accounting_new_payout"
+msgid "Accounting: Payout has been issued"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.new_payout_issued"
+msgid "New payout has been issued"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.new_payout_issued_text"
+msgid "A new payout of [amount] has been issued by [issuer]"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.view_details"
+msgid "You can view the details here"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.payout_comments"
+msgid "Payout comments"
+msgstr ""
+
+msgctxt "Languages::email_template.accounting_new_withdrawal"
+msgid "Accounting: Withdrawal has been requested"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.new_withdrawal_requested"
+msgid "New withdrawal has been requested"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.new_withdrawal_requested_text"
+msgid "A new withdrawal of [amount] has been requested by [requester]"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.withdrawal_comments"
+msgid "Withdrawal comments"
+msgstr ""
+
+msgctxt "Languages::email_template.accounting_payout_approved"
+msgid "Accounting: Payout has been completed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.payout_approved"
+msgid "Payout has been completed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.payout_approved_text"
+msgid "The payout of [amount] issued on [date] has been marked as <b>Completed</b>"
+msgstr ""
+
+msgctxt "Languages::email_template.accounting_payout_declined"
+msgid "Accounting: Payout hasn't been completed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.payout_declined"
+msgid "Payout hasn't been completed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.payout_declined_text"
+msgid "The payout of [amount] issued on [date] has been marked as <b>Not completed</b>"
+msgstr ""
+
+msgctxt "Languages::email_template.accounting_withdrawal_approved"
+msgid "Accounting: Withdrawal has been completed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.withdrawal_approved"
+msgid "Withdrawal has been completed"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.withdrawal_approved_text"
+msgid "The withdrawal of [amount] requested on [date] has been marked as <b>Completed</b>"
+msgstr ""
+
+msgctxt "Languages::email_template.accounting_withdrawal_declined"
+msgid "Accounting: Withdrawal has been declined"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.withdrawal_declined"
+msgid "Withdrawal has been declined"
+msgstr ""
+
+msgctxt "Languages::vendor_payouts.withdrawal_declined_text"
+msgid "The withdrawal of [amount] requested on [date] has been marked as <b>Declined</b>"
+msgstr ""
+
+msgctxt "Languages::top_sellers"
+msgid "Top sellers"
+msgstr ""
+

@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: no\n"
+"X-Crowdin-File: /addons/paypal.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::paypal"
+msgid "PayPal payments"
+msgstr "PayPal-betalinger"
+
+msgctxt "Addons::description::paypal"
+msgid "Lets you accept payments via PayPal Express Checkout, PayPal Pro, PayPal Standard, PayPal Advanced, and PayPal Payflow Pro."
+msgstr "Lar deg motta betalinger via PayPal Express Checkout, PayPal Pro, PayPal Standard, PayPal Advanced, og PayPal Payflow Pro."
+
+msgctxt "SettingsOptions::paypal::override_customer_info"
+msgid "Override customer info"
+msgstr "Overstyre Kundeinformasjon"
+
+msgctxt "SettingsOptions::paypal::test_mode"
+msgid "Test mode"
+msgstr "Testmodus"
+
+msgctxt "SettingsSections::paypal::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "Languages::protection_eligibility"
+msgid "Protection eligibility"
+msgstr "Beskyttelse kvalifikasjon"
+
+msgctxt "SettingsOptions::paypal::paypal_ipn_settings"
+msgid "Instant payment notification settings"
+msgstr "Instillinger for varsling om umiddelbare betalinger"
+
+msgctxt "SettingsOptions::paypal::paypal_status_map"
+msgid "PayPal order status conversion map"
+msgstr "PayPal ordrestatus konverteringskart"
+
+msgctxt "SettingsOptions::paypal::paypal_logo_uploader"
+msgid "PayPal logo settings"
+msgstr "Innstillinger for PayPal-logo"
+
+msgctxt "Languages::text_paypal_surcharge"
+msgid "<b>Note:</b> According to the PayPal <a href='https://www.paypal.com/webapps/mpp/ua/useragreement-full#4' target='_blank'>policy</a> (4.6), surcharges are not supported."
+msgstr "<b>Note:</b> According to the PayPal <a href='https://www.paypal.com/webapps/mpp/ua/useragreement-full#4' target='_blank'>policy</a> (4.6), surcharges are not supported."
+
+msgctxt "Languages::txn_id"
+msgid "Transaction ID"
+msgstr "Transaksjons-ID"
+
+msgctxt "Languages::paypal_logo"
+msgid "PayPal logo"
+msgstr "PayPal-logo"
+
+msgctxt "Languages::ttc_paypal_logo"
+msgid "Use a valid graphics format, such as .gif, .jpg, or .png. Limit the image to 190 pixels wide by 60 pixels high. PayPal crops images that are larger. PayPal places your logo image at the top of the cart review area."
+msgstr "Burke et gyldig filformat, som f.eks. .gif, .jpg, eller .png. Begrens bidet til 190 pixels i bredden og 60 pixels i høyden. PayPal forminsker bilder som er større. PayPal plasserer logo-filen på toppen av handlevogn-området."
+
+msgctxt "Languages::ipn_errors"
+msgid "IPN errors"
+msgstr "IPN feil"
+
+msgctxt "Languages::pp_product_count_is_incorrect"
+msgid "Number of paid items is different than the number of items in the order"
+msgstr "Antall betalte produkter samsvarer ikke med antall produkter i bestillingen"
+
+msgctxt "Languages::pp_currency_is_incorrect"
+msgid "Currency used for the payment is different than the order currency."
+msgstr "Valutaen som brukes for betalingen er annerledes enn valutaen i bestillingen."
+
+msgctxt "Languages::pp_total_is_incorrect"
+msgid "Payment total is different than the order total."
+msgstr "Innbetalingsbeløpet er annerledes enn totalsummen for ordren."
+
+msgctxt "Languages::pp_mode"
+msgid "Paypal mode"
+msgstr "PayPal-modus"
+
+msgctxt "Languages::paypal_vendor"
+msgid "Vendor"
+msgstr "Leverandør"
+
+msgctxt "Languages::paypal_use_in_context_checkout"
+msgid "Use In-Context Checkout"
+msgstr "Bruk In-Context utsjekking"
+
+msgctxt "Languages::ttc_paypal_use_in_context_checkout"
+msgid "In-Context Checkout will not be used when the store is running in Widget mode"
+msgstr "In-Context utsjekking kan ikke brukes når butikken kjører i Widget-modus"
+
+msgctxt "Languages::paypal_express_notice"
+msgid "A merchant ID is required for using <a href='https://developer.paypal.com/docs/classic/express-checkout/in-context' target='_blank'>In-Context Checkout feature</a> within this integration. You can look up your merchant ID by logging into <a href='https://www.paypal.com/' target='_blank'>https://www.paypal.com/</a>. Click the profile icon on the top right side of the page and then select <b>Profile and settings</b> in the <b>Business Profile</b> menu. (If you do not see the profile icon at the top of the page, click <b>Profile</b>, which appears in the top menu when the <b>My Account tab</b> is selected.) Click <b>My business info</b> on the left, and the <b>Merchant account ID</b> is displayed in the list of profile items on the right."
+msgstr "En merchant ID er påkrevd for å bruke <a href='https://developer.paypal.com/docs/classic/express-checkout/in-context' target='_blank'>In-Context utsjekking funksjonen</a> innen denne integreringen. Du finner din merchant ID ved å logge deg inn på <a href='https://www.paypal.com/' target='_blank'>https://www.paypal.com/</a>. Klikk på profilikonet øverst på siden, og velg deretter <b>Profile and settings</b> i <b>Business Profile</b> menyen. (Hvis du ikke ser profilikonet øverst på siden, klikker du <b>Profile</b>, som vises i den øverste menyen når <b>My Account </b> er valgt.) Klikk <b>My business info</b> til venstre, og din <b>Merchant account ID</b> vises i listen over profilelementer til høyre."
+
+msgctxt "Languages::paypal_ipn_note"
+msgid "Instant Payment Notification (IPN) is a service that automatically notifies merchants of events related to PayPal transactions.<br>When a customer places an order and chooses PayPal as the payment method, the order gets the <b>Open</b> status.<br>PayPal then sends Instant Payment Notification messages that include the transaction status. This status changes the order status in your store according to the status conversion map."
+msgstr "Instant Payment Notification (IPN) er en tjeneste som varsler leverandører automatisk ved alle hendelser knyttet til PayPal-transaksjonen. <br>Når en kunde legger inn en bestilling og velger PayPal som betalingsmåte, får ordren statusen <b>Åpen</b>. <br>PayPal sender deretter øyeblikkelig betalingsvarsling meldinger omkring transaksjonsstatusen. Denne statusen endrer ordrestatusen i nettbutikken etter status konverteringskartet."
+
+msgctxt "Languages::paypal_ipn_transaction_status"
+msgid "Transaction status"
+msgstr "Transaksjonsstatus"
+
+msgctxt "Languages::addons.paypal.surcharge_policy_notice"
+msgid "Surcharge has been set for the payment method that uses PayPal Services. Please make sure this complies with the <a href=\"https://www.paypal.com/webapps/mpp/ua/legalhub-full\" target=\"_blank\">User Agreement for PayPal Services</a> for your region."
+msgstr "Tilleggsavgift er satt for betalingsmåten som bruker PayPal. Sørg for at dette er i samsvar med <a href=\"https://www.paypal.com/webapps/mpp/ua/legalhub-full\" target=\"_blank\">brukeravtalen for PayPals tjenester</a> i din region."
+
+msgctxt "Languages::addons.paypal.rma.perform_refund"
+msgid "Give a refund via PayPal"
+msgstr "Gi en refusjon via PayPal"
+
+msgctxt "Languages::ttc_addons.paypal.rma.perform_refund"
+msgid "A refund will be made once an administrator changes the return request status"
+msgstr "En refusjon vil bli gjort når en administrator endrer returforespørselens status"
+
+msgctxt "Languages::addons.paypal.rma.refund_performed"
+msgid "The refund has been made via PayPal"
+msgstr "Refusjonen er gjort via PayPal"
+
+msgctxt "Languages::addons.paypal.refund_message"
+msgid "[amount] [currency] have been refunded in [date] at [time]."
+msgstr "[amount] [currency] har blitt refundert den [date] klokken [time]."
+
+msgctxt "SettingsOptions::paypal::paypal_partial_refund_action"
+msgid "Order status on partial refund"
+msgstr "Ordrestatus på delvis refusjon"
+
+msgctxt "Languages::addons.paypal.do_not_change"
+msgid "Do not change"
+msgstr "Ikke endre"
+
+msgctxt "Languages::tt_addons_paypal_settings_partial_refund_action_order_status"
+msgid "Determines whether or not to change the order status automatically after a partial refund via PayPal."
+msgstr "Avgjør om du vil endre ordrestatusen automatisk etter en delvis tilbakebetaling via PayPal."
+
+msgctxt "Languages::addons.paypal.set_status_to"
+msgid "Set to:"
+msgstr "Satt til:"
+
+msgctxt "Languages::addons.paypal.ipn_receiving_time"
+msgid "IPN receiving time"
+msgstr "IPN mottakstid"
+
+msgctxt "Languages::addons.paypal.status_for_new_orders"
+msgid "Initial order status"
+msgstr "Startnummer på ordre-ID"
+
+msgctxt "Languages::ttc_addons.paypal.status_for_new_orders"
+msgid "All orders with a PayPal payment method get this status until the response from PayPal (an IPN message) arrives or a customer returns to the store via a link on the PayPal site."
+msgstr "Alle bestillinger med en PayPal betalingsmetode får denne statusen inntil responsen fra PayPal (en IPN melding) kommer gjennom eller en kunde returnerer til butikken via en link på PayPal-området."
+
+msgctxt "Languages::addons.paypal.status_for_new_orders.open"
+msgid "By default, the <i>Open</i> status decreases the inventory, so two customers won't be able to buy the same product while the payment is being processed by PayPal. But if a customer leaves the PayPal website without paying or returning to the store via a link on the PayPal site, you'll have an abandoned <i>Open</i> order with reserved products."
+msgstr "Som standard reduserer <i>Open</i> statusen inventar, slik at to kunder ikke vil være i stand til å kjøpe det samme produktet, mens betalingen blir behandlet av PayPal. Men hvis en kunde forlater PayPal nettstedet uten å betale eller går tilbake til butikken via en link på PayPal-området, vil du ha en forlatt <i>Open</i> ordre med reserverte produkter."
+
+msgctxt "Languages::addons.paypal.status_for_new_orders.incomplete"
+msgid "This ensures that you won't have abandoned unpaid orders with the <i>Open</i> status and reserved products. But until the response from PayPal (an IPN message) arrives or the customer returns to the store via a link on the PayPal site, the order will be listed as <i>Incomplete</i>, and products won't be reserved."
+msgstr "Dette sikrer at du ikke vil ha forlatte ubetalte ordre med <i>Open</i> statusen og reserverte produkter. Men inntil responsen fra PayPal (en IPN melding) kommer gjennom eller kunden returnerer til butikken via en link på PayPal-området, vil ordren bli oppført som <i>Incomplete</i>, og produktene vil ikke bli reservert."
+
+msgctxt "Languages::addons.paypal.display_name"
+msgid "Display name"
+msgstr "Visningsnavn"
+
+msgctxt "Languages::addons.paypal.display_description"
+msgid "Display description"
+msgstr "Vis beskrivelse"
+
+msgctxt "Languages::addons.paypal.technical_details"
+msgid "Technical details"
+msgstr "Tekniske detaljer"
+
+msgctxt "Languages::addons.paypal.connect_to_paypal"
+msgid "Connect to PayPal"
+msgstr "Koble til PayPal"
+

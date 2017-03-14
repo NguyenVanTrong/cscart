@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/form_builder.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "فرم ساز"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us)"
+msgstr "امکان ایجاد فرم سفارشی (مانند تماس با ما) را می دهد"
+
+msgctxt "Languages::use_for_form_builder"
+msgid "Custom forms"
+msgstr "فرم های سفارشی"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "فرم جدید"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "ویرایش فرم"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "فرم ساز"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "متن ارسال فرم"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "ایمیل به"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "فرم ایمن است(SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "افزودن فرم"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "پایه"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "چند جعبه تیک دار"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "چند جعبه انتخاب"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "سربرگ"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "جدا کننده"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "ویژه"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "لیست کشورها"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "لیست ایالات"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "ارجاع دهنده"
+
+msgctxt "Languages::email_template.form_builder_form"
+msgid "Contact form"
+msgstr "فرم تماس با ما"
+
+msgctxt "Languages::addons.form_builder.form_fields"
+msgid "Form fields"
+msgstr "فیلد های فرم"
+
+msgctxt "Languages::addons.form_builder.form_name"
+msgid "Form name"
+msgstr "نام فرم"
+
+msgctxt "Languages::addons.form_builder.other_subject"
+msgid "Other subject (specify below)"
+msgstr "موضوع دیگر (در زیر مشخص کنید)"
+
+msgctxt "Languages::addons.form_builder.email_subject_field"
+msgid "E-mail subject field"
+msgstr "قسمت موضوع ایمیل"
+
+msgctxt "Languages::ttc_addons.form_builder.email_subject_field"
+msgid "Fields of type \"Select box\" or \"Input field\" can be used"
+msgstr "نوع فیلدها \"جعبه‌ی نتخاب\" یا \"فیلد ورودی\" می تواند مورد استفاده قرار گیرد"
+

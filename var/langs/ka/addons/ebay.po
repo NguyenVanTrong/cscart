@@ -1,0 +1,794 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Georgian\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ka\n"
+"X-Crowdin-File: /addons/ebay.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:46-0500\n"
+
+msgctxt "Addons::name::ebay"
+msgid "eBay synchronization"
+msgstr "სინქრონიზაცია eBay-სთან"
+
+msgctxt "Addons::description::ebay"
+msgid "Synchronizes products and orders with an eBay account."
+msgstr "საქონლების და შეკვეთების სინქრონიზაცია eBay-ს აკაუნტთან."
+
+msgctxt "Languages::paypal_required_and_selected"
+msgid "For the selected eBay category PayPal payment method is required. It is selected automatically."
+msgstr "eBay-ის შერჩეული კატეგორიისათვის PayPal-ის გადახდის მეთოდი სჭირდება. იგი იყო არჩეული ავტომატურად."
+
+msgctxt "Languages::wait_for_shippings_cached"
+msgid "Wait for shippings cached. Mean time to 3 minutes"
+msgstr "ქეშირების მიწოდების მეთოდების ლოდინი. საშუალო დრო - 3 წუთი"
+
+msgctxt "Languages::ebay_duration"
+msgid "Listing duration"
+msgstr "განთავსების ხანგრძლივობა"
+
+msgctxt "Languages::list_products_on"
+msgid "List products on"
+msgstr "პროდუქციის ჩვენება"
+
+msgctxt "Languages::private_listing"
+msgid "Private listing"
+msgstr "პირადი სია"
+
+msgctxt "Languages::use_as_default"
+msgid "Use as default"
+msgstr "ნაგულისხმევად გამოყენება"
+
+msgctxt "Languages::ebay_root_category"
+msgid "eBay Root category"
+msgstr "eBay-ს ძირეული კატეგორია"
+
+msgctxt "Languages::ebay_root_sec_category"
+msgid "eBay Secondary root category"
+msgstr "eBay-ს დამატებითი ძირეული კატეგორია"
+
+msgctxt "Languages::ebay_sec_category"
+msgid "eBay Secondary category"
+msgstr "eBay-ს დამატებითი კატეგორია"
+
+msgctxt "Languages::quantity_to_sell"
+msgid "Quantity to sell"
+msgstr "გასაყიდი რაოდენობა"
+
+msgctxt "Languages::just_one"
+msgid "Just one"
+msgstr "მხოლოდ ერთი"
+
+msgctxt "Languages::more_than_one"
+msgid "More than one"
+msgstr "ერთზე მეტი"
+
+msgctxt "Languages::use_main_image"
+msgid "Export product images"
+msgstr "პროდუქტების სურათების ექსპორტი"
+
+msgctxt "Languages::selling_method"
+msgid "Selling method"
+msgstr "გაყიდვის მეთოდი"
+
+msgctxt "Languages::online_auction"
+msgid "Online auction"
+msgstr "ონლაინ აუქციონი"
+
+msgctxt "Languages::buy_it_now"
+msgid "Buy it now"
+msgstr "ყიდვა ახლავე"
+
+msgctxt "Languages::ebay_requests"
+msgid "eBay requests"
+msgstr "eBay-ის შეკვეთები"
+
+msgctxt "Languages::log_type_ebay_requests"
+msgid "eBay requests"
+msgstr "eBay-ის შეკვეთები"
+
+msgctxt "Languages::errors"
+msgid "Errors"
+msgstr "შეცდომები"
+
+msgctxt "Languages::log_action_all"
+msgid "All"
+msgstr "ყველა"
+
+msgctxt "Languages::error_code"
+msgid "Error code"
+msgstr "შეცდომის კოდი"
+
+msgctxt "Languages::editing_ebay_template"
+msgid "Editing eBay template"
+msgstr "Ebay-ის შაბლონის რედაქტირება"
+
+msgctxt "Languages::new_ebay_template"
+msgid "New eBay template"
+msgstr "ახალი eBay-ის შაბლონი"
+
+msgctxt "Languages::ebay_templates"
+msgid "eBay templates"
+msgstr "eBay-ს შაბლონები"
+
+msgctxt "Languages::ebay_registration_notice"
+msgid "In order to get this information you need first to register your Developer account <a href=\"https://developer.ebay.com/join/\">here</a>.<br /><br />After you registered, you will receive the \"DevID\", \"AppID\" and \"CertID\" keys. So you have to generate the special \"Token\" in order to use this API. In order to generate the \"Token\", please click the \"Get a User Token\" link at the bottom of \"My account\" page (tools box) or follow <a href=\"https://developer.ebay.com/DevZone/account/tokens/default.aspx\">this link</a>.<br /><br />Please complete this form with the given credentials."
+msgstr "იმისათვის, რომ მიიღოთ ამ ინფორმაციისადმი ხელმისაწვდომობა, დაარეგისტრირეთ შემქმნელის აკაუნტი <a href=\"https://developer.ebay.com/join/\">აქ</a>.<br /><br />რეგისტრაციის შემდეგ თქვენ მიიღებთ გასაღებს DevID, AppID და CertID. იმისათვის, რომ გამოიყენოთ ეს API თქვენ უნდა დააგენერიროთ სპეციალური ნიშანი (Token). რომ გააკეთოდ ეს, დააჭირეთ ლინკს «Get a User Token» გვერდზე «My account» (eBay-ს გვერდზე) ან გადადით <a href=\"https://developer.ebay.com/DevZone/account/tokens/default.aspx\">ამ ლინკზე</a>.<br /><br />შემდეგ შეიყვანოთ მიღებული მონაცემები ამ ფორმაში."
+
+msgctxt "Languages::add_ebay_template"
+msgid "Add eBay template"
+msgstr "eBay-ს შაბლონის დამატება"
+
+msgctxt "Languages::shipping_type"
+msgid "Shipping type"
+msgstr "მიწოდების ტიპი"
+
+msgctxt "Languages::flat"
+msgid "Flat"
+msgstr "ფიქსირებული"
+
+msgctxt "Languages::calculated"
+msgid "Calculated"
+msgstr "დათვლილი"
+
+msgctxt "Languages::domestic_shipping_service"
+msgid "Domestic shipping service"
+msgstr "შინაგანი მიწოდების სამსახური"
+
+msgctxt "Languages::international_shipping_service"
+msgid "International shipping service"
+msgstr "საერთაშორისო მიწოდების სამსახური"
+
+msgctxt "Languages::dispatch_days"
+msgid "Dispatch days"
+msgstr "გაგზავნის დღეები"
+
+msgctxt "Languages::ebay_payment_methods"
+msgid "eBay payment methods"
+msgstr "eBay -ის გადახდის მეთოდები"
+
+msgctxt "Languages::paypal_email"
+msgid "PayPal email"
+msgstr "PayPal-ის ელ-ფოსტა"
+
+msgctxt "Languages::ebay_category_condition"
+msgid "eBay category condition"
+msgstr "eBay-ის კატეგორიების მდგომარეობა"
+
+msgctxt "Languages::ebay_associated_category"
+msgid "Associated eBay category"
+msgstr "შესაბამისი eBay-ის კატეგორია"
+
+msgctxt "Languages::ebay_category_preferences"
+msgid "eBay Category <br> Preferences"
+msgstr "კატეგორია eBay-ზე <br> პარამეტრები"
+
+msgctxt "Languages::ebay_category_preferences_tooltip"
+msgid "Use the eBay category of the template, or assign a different eBay category to the products that fall under this category of your store"
+msgstr "eBay-ის შაბლონის კატეგორიის გამოყენება, ან მივანიჭოთ სხვა eBay-ის კატეგორია პროდუქციისათვის, რომელიც იმყოფება მაღაზიის ამ კატეგორიაში"
+
+msgctxt "Languages::ebay_template"
+msgid "eBay template"
+msgstr "eBay-ს შაბლონი"
+
+msgctxt "Languages::ebay_orders"
+msgid "eBay orders"
+msgstr "eBay-ს შეკვეთები"
+
+msgctxt "Languages::get_ebay_orders"
+msgid "Get eBay orders"
+msgstr "eBay-ის შეკვეთების მიღება"
+
+msgctxt "Languages::ebay"
+msgid "eBay"
+msgstr "eBay"
+
+msgctxt "Languages::wait_for_categories_cached"
+msgid "Please wait for the categories to cache, it will take about 3 minutes. Before that, the Shippings, Payments, and Return Policy tabs will remain empty."
+msgstr "გთხოვთ, დაელოდოთ სანამ იქმნება ქეში კატეგორიებიათვის - ამას დასჭირდება დაახლოებით 3 წუთი. ამ მომენტამდე ჩანართებში მიწოდება, გადახდა და დაბრუნების პოლიტიკა არაფერი იქნება ნაჩვენები."
+
+msgctxt "Languages::Some_parameters_is_missing"
+msgid "Some parameters is missing. Please check ebay add-on settings"
+msgstr "არ არის საკმარისი პარამეტრები. შეამოწმეთ \"eBay-სთან სინქრონიზაციის» მოდულის პარამეტრები"
+
+msgctxt "Languages::ebay_success_products_notice"
+msgid "Products have been successfully exported."
+msgstr "პროდუქტები წარმატებით იყვნენ დაექსპორტებული."
+
+msgctxt "Languages::ebay_success_orders_notice"
+msgid "Orders have been successfully imported."
+msgstr "შეკვეთები წარმატებით იყვნენ დაექსპორტებული."
+
+msgctxt "Languages::ebay_failed_orders_notice"
+msgid "An error occurred during order import."
+msgstr "შეკვეთების იმპორტის დროს შეიქმნა შეცდომა."
+
+msgctxt "Languages::exporting_products_to_ebay"
+msgid "Exporting products to eBay."
+msgstr "პროდუქციის ექპსორტი eBay-ში."
+
+msgctxt "Languages::ebay_default_template_not_found"
+msgid "Default template for the [company_name] was not found."
+msgstr "ნაგულისხმები შაბლონი [company_name]-თვის ვერ მოიძებნა."
+
+msgctxt "Languages::delete_this_template"
+msgid "Delete this template"
+msgstr "ამ შაბლონის წაშლა"
+
+msgctxt "Languages::test_version"
+msgid "You're using a test version of this module, the validity of which ended on December 7th, 2013. After the end of the test period, the functions of the module will not be available. You can purchase the full version via a <a href=\"http://www.cs-cart.com/ebay-synchronization.html\">HelpDesk</a>"
+msgstr "თქვენ იყენებთ მოდულის სატესტო ვერსიას, მისი მოქმედების ვადა ამოიწურა 2013 წლის 7 დეკემბერს. ფუნქციის სატესტო პერიოდის შემდეგ მოდულები არ არიან ხელმისაწვდომი. სრული ვერსიის შეძენა შეგიძლიათ ამ პორტალის მეშვეობით <a href=\"http://www.cs-cart.com/ebay-synchronization.html\">HelpDesk</a>"
+
+msgctxt "Languages::ttc_list_products_on"
+msgid "Choose the region of the eBay auction for which your site will work"
+msgstr "აირჩიეთ eBay-ის აუქციონის რეგიონი, რომლისათვის იმუშავებს თქვენი საიტი"
+
+msgctxt "Languages::ttc_use_as_default"
+msgid "Use this template for products with no template defined"
+msgstr "გამოიყენეთ ეს შაბლონი პროდუქციებისთვის, რომლებსაც არ აქვთ დანიშნული შაბლონი"
+
+msgctxt "Languages::ttc_ebay_root_category"
+msgid "The product root category at eBay"
+msgstr "პროდუქტების ძირეული კატეგორია eBay-ის მხარეს"
+
+msgctxt "Languages::ttc_ebay_root_sec_category"
+msgid "The additional product root category at eBay"
+msgstr "პროდუქტების დამატებითი კატეგორია eBay-ის მხარეს"
+
+msgctxt "Languages::ebay_second_category_tooltip"
+msgid "The additional product subcategory at eBay"
+msgstr "პროდუქტების დამატებითი ქვეკატეგორია eBay-ის მხარეს"
+
+msgctxt "Languages::ttc_shipping_type"
+msgid "Choose whether to use calculated or flat shipping type. Calculated - shipping will be calculated according to the customers ZIP address, the weight of the package, and the type of shipping services you offer; Flat - shipping rate will be fixed"
+msgstr "მიწოდების ფიქსირებული ღირებულების გამოყენება ან მისი ავტომატურად გამოთვლა. მიწიდების ღირებულების გაანგარიშება ხდება ZIP კოდის, ამანათის წონის და შერჩეული საფოსტო მომსახურების საფუძველზე."
+
+msgctxt "Languages::ttc_domestic_shipping_service"
+msgid "Choose the shipping service that will be used for delivering products in the domestic region"
+msgstr "აირჩიეთ მიწოდების სამსახური საქონლის შიდა რეგიონში მიწოდებისათვის"
+
+msgctxt "Languages::ttc_international_shipping_service"
+msgid "Choose the shipping service that will be used for delivering products worldwide"
+msgstr "აირჩიეთ მიწოდების სამსახური საქონლის საერთაშორისო მიწოდებისათვის"
+
+msgctxt "Languages::ttc_dispatch_days"
+msgid "The period of product delivery to a customer  (in days)"
+msgstr "დრო, რომლის განმავლობაში პროდუქტი იქნება მიწოდებული მყიდველს (დღეებში)"
+
+msgctxt "Languages::ttc_ebay_payment_methods"
+msgid "Payment method(s), available for a template"
+msgstr "გადახდის მეთოდი(ები), ხელმისაწვდომი შაბლონებისათვის"
+
+msgctxt "Languages::ttc_paypal_email"
+msgid "Define login of the PayPal account"
+msgstr "PayPal-ის აკაუნტის ლოგინი"
+
+msgctxt "Languages::eBay_category_condition_tooltip"
+msgid "Define login of the PayPal account"
+msgstr "ელ- ფოსტის მისამართი, PayPal-ის აკაუნტში შესასვლელად"
+
+msgctxt "Languages::ttc_free_shipping"
+msgid "Choose, if you want free shipping to be applied to products in a template"
+msgstr "აირჩიეთ შაბლონში პროდუქტის უფასოდ მიწოდებისთვის "
+
+msgctxt "Languages::ttc_shipping_cost"
+msgid "Fixed shipping fee for one item if the shipping type is Flat (the Shipping and handling setting on eBay)."
+msgstr "თითო ერთეული პროდუქტის ფიქსირებული მიწოდების ღირებულება, თუ თქვენ აირჩიეთ Flat მიწოდების მეთოდი (Shipping and handling-ის პარამეტრები eBay-ზე)"
+
+msgctxt "Languages::ttc_shipping_cost_additional"
+msgid "Shipping fee for each additional item in the order (the Each additional item setting on eBay)"
+msgstr "მიწოდების ღირებულება შეკვეთაში თითოეული დამატებითი პროდუქტის ერთეულისთვის (Each additional item-ის პარამეტრები eBay-ზე)"
+
+msgctxt "Languages::shipping_cost_additional"
+msgid "Additional shipping fee"
+msgstr "მიწოდების დამატებითი ღირებულება"
+
+msgctxt "Languages::text_ult_ebay_template_store_field_tooltip"
+msgid "The storefront, for which a template will be created"
+msgstr "მაღაზია, რომლისათვის შეიქმნება შაბლონი"
+
+msgctxt "Languages::shipping_cost_cannot_be_null"
+msgid "Shipping cost must be non-zero"
+msgstr "მიწოდების ღირებულება უნდა იყოს ნულზე მეტი"
+
+msgctxt "Languages::ebay_title"
+msgid "eBay product title"
+msgstr "პროდუქციის დასახელება eBay-ში"
+
+msgctxt "Languages::ebay_title_tooltip"
+msgid "eBay title the title of the product to be used at eBay"
+msgstr "პროდუქტის დასახელება, რომელიც იქნება გამოყენებული eBay-ზე"
+
+msgctxt "Languages::ebay_description"
+msgid "eBay product description"
+msgstr "eBay-ის პროდუქციის აღწერა"
+
+msgctxt "Languages::ebay_description_tooltip"
+msgid "eBay description the description of the product to be used at eBay"
+msgstr "eBay-ის პროდუქციის აღწერა"
+
+msgctxt "Languages::override"
+msgid "Redefinition of the product name and description on eBay"
+msgstr "ხელახალი პროდუქტის სახელი და აღწერა eBay-ზე"
+
+msgctxt "Languages::override_tooltip"
+msgid "Choose, if you want the original product name and description to be replaced with that, specified in the eBay product title and the eBay product description fields"
+msgstr "საქონლის ორიგინალური სახელის და აღწერის შეცვლა დასახელებაზე და აღწერილობაზე პროდუქტის დასახელება eBay-ზე და პროდუქტის აღწერა eBay-ზე"
+
+msgctxt "Languages::return_policy"
+msgid "Return Policy"
+msgstr "დაბრუნების წესები"
+
+msgctxt "Languages::ttc_return_policy"
+msgid "Choose whether returns are allowed or not for products grouped under this template"
+msgstr "შეარჩიეთ, დაუშვად თუ აკრძალოთ პროდუქციის დაბრუნება, დაჯგუფებულს ამ შაბლონში"
+
+msgctxt "Languages::returns_accepted"
+msgid "Returns Accepted"
+msgstr "უკან დაბრუნება ნებადართულია"
+
+msgctxt "Languages::no_returns_accepted"
+msgid "No returns accepted"
+msgstr "უკან დაბრუნება აკრძალულია"
+
+msgctxt "Languages::contact_time"
+msgid "After receiving the item, your buyer should contact you within"
+msgstr "პროდუქციის მიღების შემდეგ, მყიდველმა უნდა დაგიკავშირდეთ თქვენთან"
+
+msgctxt "Languages::ttc_contact_time"
+msgid "Choose the period within which a buyer must contact you to confirm that he/she received the product"
+msgstr "აირჩიეთ პერიოდი, რომლის განმავლობაში, მყიდველმა უნდა დაგიკავშირდეს თქვენთან, რომ დაადასტუროს პროდუქციის მიღება"
+
+msgctxt "Languages::refund_method"
+msgid "Refund will be given as"
+msgstr "კომპენსაციის ტიპი"
+
+msgctxt "Languages::ttc_refund_method"
+msgid "Choose the action that will replace the return, if it is not allowed"
+msgstr "აირჩიეთ ქმედება, რომელიც ჩაანაცვლებს პროდუქციის დაბრუნებას, თუ იგი არ არის დაშვებული"
+
+msgctxt "Languages::money_back"
+msgid "Money Back"
+msgstr "თანხის დაბრუნება"
+
+msgctxt "Languages::money_back_or_replace"
+msgid "Money back or replacement (buyer's choice)"
+msgstr "თანხის დაბრუნება ან შეცვლა (მყიდველის შერჩევით)"
+
+msgctxt "Languages::money_back_or_exchange"
+msgid "Money back or exchange (buyer's choice)"
+msgstr "თანხის დაბრუნება ან გაცვლა (მყიდველის შერჩევით)"
+
+msgctxt "Languages::cost_paid_by"
+msgid "Return shipping will be paid by"
+msgstr "ვინ იხდის გადაზიდვის თანხას, დაბრუნების შემთხვევაში"
+
+msgctxt "Languages::ttc_cost_paid_by"
+msgid "Choose, who will pay for the shipping of the return purchase — the seller or the buyer"
+msgstr "აირჩიეთ ვინ იხდის დაბრუნებული პროდუქციის გადაზიდვის თანხას - გამყიდველი თუ მყიდველი"
+
+msgctxt "Languages::seller"
+msgid "Seller"
+msgstr "გამყიდველი"
+
+msgctxt "Languages::buyer"
+msgid "Buyer"
+msgstr "მყიდველი"
+
+msgctxt "Languages::return_policy_descr"
+msgid "Policy description"
+msgstr "წესების აღწერა"
+
+msgctxt "Languages::ttc_return_policy_descr"
+msgid "Write the detailed description of your return policy here"
+msgstr "აქ დაამატოთ საქონლის დაბრუნების პირობების დეტალური აღწერილობა"
+
+msgctxt "Languages::large_envelope"
+msgid "Large envelope"
+msgstr "დიდი კონვერტი"
+
+msgctxt "Languages::large_package"
+msgid "Large package"
+msgstr "დიდი ამანათი"
+
+msgctxt "Languages::package_type_tooltip"
+msgid "If you don't know your package type, select the \"Large package\" option. To ensure the most accurate cost, you will be asked to enter exact package dimensions."
+msgstr "თუ თქვენ არ იცით, შეფუთვის რომელი ტიპი აირჩიოთ, აირჩიეთ \"დიდი ამანათი\". იმისათვის, რომ მოხდეს ღირებულების ყველაზე ზუსტი გაანგარიშება, თქვენ უნდა მიუთითოთ ამანათის ზუსტი ზომა."
+
+msgctxt "Languages::product_out_of_weight"
+msgid "Products with the [ids] id were not exported because their weight equals zero."
+msgstr "პროდუქცია id [ids]-ით არ იქნენ ექსპორტირებული, რადგან მათი წონა არის ნულის ტოლი."
+
+msgctxt "Languages::exported_to_ebay"
+msgid "Exported to eBay"
+msgstr "დაექსპორტებულია eBay-ში"
+
+msgctxt "Languages::revised_after_the_latest_export"
+msgid "Revised after the latest export"
+msgstr "შეიცვალა ბოლო ექსპორტის შემდეგ"
+
+msgctxt "Languages::exporting_images_to_ebay"
+msgid "Exporting product \"[product]\" images to eBay"
+msgstr "\"[product]\" სურათების ექსპორტი eBay-ზე"
+
+msgctxt "Languages::ebay_package"
+msgid "Package/thick envelope"
+msgstr "ამანათი/სქელი კონვერტი"
+
+msgctxt "Languages::ebay_cant_remove_template"
+msgid "You don't have permissions to remove some of the templates as they belong to another owner."
+msgstr "თქვენ არ გაქვთ საკმარისი უფლებამოსილება, რომ ამოიღოთ შაბლონები, რომელიც ეკუთვნის სხვა მფლობელს."
+
+msgctxt "Languages::ebay_commercial_using_title"
+msgid "Activate add-on"
+msgstr "მოდულის გააქტიურება"
+
+msgctxt "Languages::ebay_templates_not_found"
+msgid "eBay templates not found"
+msgstr "eBay-ის შაბლონები ვერ მოიძებნა"
+
+msgctxt "SettingsSections::ebay::general"
+msgid "General"
+msgstr "ზოგადი"
+
+msgctxt "SettingsOptions::ebay::notice"
+msgid "Notice"
+msgstr "შენიშვნა"
+
+msgctxt "SettingsOptions::ebay::dev_id"
+msgid "eBay DevID"
+msgstr "eBay DevID"
+
+msgctxt "SettingsOptions::ebay::app_id"
+msgid "eBay AppID"
+msgstr "eBay AppID"
+
+msgctxt "SettingsOptions::ebay::cert_id"
+msgid "eBay CertID"
+msgstr "eBay CertID"
+
+msgctxt "SettingsOptions::ebay::token"
+msgid "eBay User Token"
+msgstr "eBay User Token"
+
+msgctxt "SettingsOptions::ebay::listing_mode"
+msgid "Sandbox / Production"
+msgstr "სატესტო / ნამდვილი საიტი"
+
+msgctxt "SettingsOptions::ebay::site_id"
+msgid "Default site"
+msgstr "ნაგულისხმევი ვებ გვერდი"
+
+msgctxt "SettingsOptions::ebay::ebay_timestamp"
+msgid "eBay timestamp"
+msgstr "eBay-ის დროებითი მარკირება"
+
+msgctxt "SettingsVariants::ebay::listing_mode::S"
+msgid "Sandbox"
+msgstr "სატესტო"
+
+msgctxt "SettingsVariants::ebay::listing_mode::P"
+msgid "Production"
+msgstr "ნამდვილი საიტი"
+
+msgctxt "Languages::wait_for_shippings_cached"
+msgid "Please wait, shipping information is loaded."
+msgstr "გთხოვთ დაელოდოთ, იტვირთება ინფორმაცია მიწოდებაზე."
+
+msgctxt "Languages::privileges.view_ebay_templates"
+msgid "View eBay templates"
+msgstr "eBay-ის შაბლონების მიმოხილვა"
+
+msgctxt "Languages::privileges.manage_ebay_templates"
+msgid "Manage eBay templates"
+msgstr "eBay-ის შაბლონების მართვა"
+
+msgctxt "Languages::ebay_price"
+msgid "eBay product price"
+msgstr "პროდუქციის ფასი eBay-ზე"
+
+msgctxt "Languages::override_price"
+msgid "Redefine price on eBay"
+msgstr "eBay-ზე ფასის განისაზღვრა"
+
+msgctxt "Languages::ebay_product_status"
+msgid "eBay product status"
+msgstr "პროდუქციის სტატუსი eBay-ზე"
+
+msgctxt "Languages::ebay_product_status_not_exported"
+msgid "Not exported"
+msgstr "არ არის ექსპორტირებული"
+
+msgctxt "Languages::ebay_product_status_active"
+msgid "Active"
+msgstr "აქტიური"
+
+msgctxt "Languages::ebay_product_status_closed"
+msgid "Ended"
+msgstr "გაყიდვები შეჩერებულია"
+
+msgctxt "Languages::ebay_success_exported_product_notice"
+msgid "Product was successfully exported to eBay"
+msgstr "პროდუქტი წარმატებით დაექსპორტდა eBay-ზე"
+
+msgctxt "Languages::ebay_success_close_product_notice"
+msgid "Product successfully ended on eBay"
+msgstr "პროდუქციის გაყიდვა eBay-ზე წარმატებით შეჩერებულია"
+
+msgctxt "Languages::ebay_export_failed"
+msgid "Product export failed"
+msgstr "პროდუქტი ვერ დაექსპორტდა"
+
+msgctxt "Languages::ebay_export_success"
+msgid "Product export successful"
+msgstr "პროდუქტი წარმატებით დაექსპორტდა"
+
+msgctxt "Languages::ebay_export_failed_msg"
+msgid "Some of the products have not been exported to eBay.<br> Check the logs to see what products weren't exported and the reason why it happened."
+msgstr "ზოგიერთი პროდუქტი ვერ დაექსპორტდა eBay-ზე.<br> ეს პროდუქტები, აგრეთვე მიზეზები, რომლის გამო ექსპორტი ვერ შედგა, ჩამოთვლილია მოვლენების ჟურნალში."
+
+msgctxt "Languages::ebay_export_success_msg"
+msgid "All the selected products have been exported to eBay without errors."
+msgstr "ყველა არჩეული პროდუქტი წარმატებით დაექსპორტდა eBay-ზე შეცდომების გარეშე."
+
+msgctxt "Languages::ebay_end_summary_title"
+msgid "Product ending summary"
+msgstr "გაყიდვების დასრულების ანგარიში"
+
+msgctxt "Languages::ebay_export_product"
+msgid "Exporting product \"[product]\" to eBay"
+msgstr "პროდუქტის ექსპორტირება \"[product]\" eBay-ზე"
+
+msgctxt "Languages::ebay_export_products"
+msgid "Exporting products \"[product]\" to eBay"
+msgstr "პროდუქტების ექსპორტირება \"[product]\" eBay-ზე"
+
+msgctxt "Languages::ebay_override"
+msgid "Redefinition of the product name and description on eBay"
+msgstr "eBay-ზე პროდუქციის სახელის და აღწერის განსაზღვრა"
+
+msgctxt "Languages::ebay_end_products"
+msgid "Ending products \"[product]\" on eBay"
+msgstr "პროდუქტის დასრულება \"[product]\" eBay-ზე"
+
+msgctxt "Languages::ebay_count_product_successfully_exported"
+msgid "Products successfully exported:"
+msgstr "პროდუქტი წარმატებით დაექსპორტდა:"
+
+msgctxt "Languages::ebay_count_product_fail_exported"
+msgid "Products export failed:"
+msgstr "პროდუქტები ვერ დაექსპორტდა:"
+
+msgctxt "Languages::ebay_count_product_successfully_ended"
+msgid "Successfully ended products:"
+msgstr "პროდუქციის გაყიდვა წარმატებით შეჩერებულია:"
+
+msgctxt "Languages::ebay_count_product_fail_ended"
+msgid "Products ending failed:"
+msgstr "პროდუქციის გაყიდვა ვერ შეჩერედა:"
+
+msgctxt "Languages::ebay_end_products_on_ebay"
+msgid "End eBay sales"
+msgstr "Ebay-ის გაყიდვების დასრულება"
+
+msgctxt "Languages::products_assigned"
+msgid "Products assigned"
+msgstr "პროდუქცია დაინიშნა"
+
+msgctxt "Languages::ttc_products_assigned"
+msgid "You can also apply an eBay template to multiple products at once. Go to Products → Products, tick the checkboxes of the products you want to apply a template to, then press the gear button and choose Edit selected. In the pop-up window leave only the eBay Templates checkbox ticked and click Modify selected."
+msgstr "თქვენ ასევე შეგიძლიათ გამოიყენოთ eBay-ის შაბლონი რამდენიმე პროდუქციას ერთად. გადადით პროდუქტებში → პროდუქტები,აღნიშნეთ მარკერებით პროდუქტები, რომლისადმი გსურთ შაბლონის გამოყენება, და შემდეგ დააჭირეთ მექანიზმის ღილაკსდა აირჩიეთ არჩეულების რედაქტირება. პოპ-აპ ფანჯარაში შენიშნეთ მხოლოდ eBay-ის შაბლონები და შემდეგ დააჭირეთ არჩეულის რედაქტირება."
+
+msgctxt "Languages::ebay_template_category_product"
+msgid "Use eBay template's category"
+msgstr "eBay-ის შაბლონის კატეგორიის გამოყენება"
+
+msgctxt "Languages::ebay_set_manualy"
+msgid "Assign a different eBay category"
+msgstr "eBay-ის სხვა კატეგორიის დანიშვნება"
+
+msgctxt "Languages::ebay_end_template_on_ebay"
+msgid "End eBay sales"
+msgstr "Ebay-ის გაყიდვების დასრულება"
+
+msgctxt "Languages::ebay_action_export_product"
+msgid "Export product"
+msgstr "პროდუქციის ექსპორტირება"
+
+msgctxt "Languages::ebay_action_update_product"
+msgid "Update product"
+msgstr "პროდუქციის განახლება"
+
+msgctxt "Languages::ebay_action_upload_image_product"
+msgid "Upload the product image"
+msgstr "პროდუქციის სურათის ატვირთვა"
+
+msgctxt "Languages::ebay_action_get_status_product"
+msgid "Get product status"
+msgstr "პროდუქციის სტატუსის მიღება"
+
+msgctxt "Languages::ebay_action_end_product"
+msgid "Ending sale on eBay"
+msgstr "Ebay-ზე გაყიდვების დასრულება"
+
+msgctxt "Languages::ebay_show_logs"
+msgid "Show logs"
+msgstr "მოვლენების ჟურნალის ჩვენება"
+
+msgctxt "Languages::ebay_international_shipping_cost"
+msgid "International shipping fee"
+msgstr "საერთაშორისო მიწოდების ღირებულება"
+
+msgctxt "Languages::ebay_international_shipping_cost_tooltip"
+msgid "Fixed shipping fee for one item if the shipping type is Flat (the Shipping and handling setting on eBay)."
+msgstr "თითო ერთეული პროდუქტის ფიქსირებული მიწოდების ღირებულება, თუ თქვენ აირჩიეთ Flat მიწოდების მეთოდი (Shipping and handling-ის პარამეტრები eBay-ზე)."
+
+msgctxt "Languages::ebay_international_shipping_cost_additional_tooltip"
+msgid "International shipping fee for each additional item in the order (the Each additional item setting on eBay)"
+msgstr "საერთაშორისო მიწოდების ღირებულება პროდუქციის ყოველი დამატებითი ერთეულისათვის შეკვეთაში (პარამეტრები Each additional item eBay-ზე)"
+
+msgctxt "Languages::ebay_international_shipping_cost_additional"
+msgid "Additional international shipping fee"
+msgstr "საერთაშორისო მიწოდების დამატებითი ღირებულება"
+
+msgctxt "Languages::ebay_logs"
+msgid "eBay logs"
+msgstr "eBay-ის მოვლენების ჟურნალი"
+
+msgctxt "Languages::ebay_products"
+msgid "eBay products"
+msgstr "პროდუქცია eBay-ზე"
+
+msgctxt "Languages::ebay_sync_products_status"
+msgid "Get product status from eBay"
+msgstr "eBay-დან პროდუქციის სტატუსის მიღება"
+
+msgctxt "Languages::ebay_get_product_status"
+msgid "Getting product \"[product]\" status from eBay"
+msgstr "eBay-დან პროდუქციის \"[product]\" სტატუსის მიღება"
+
+msgctxt "Languages::ebay_update_status_summary_title"
+msgid "Summary: Product status retrieval from eBay"
+msgstr "ანგარიში: eBay-დან პროდუქციის სტატუსის მიღებაზე"
+
+msgctxt "Languages::ebay_count_product_successfully_status_updated"
+msgid "Products with updated statuses:"
+msgstr "პროდუქტები განახლებული სტატუსებით:"
+
+msgctxt "Languages::ebay_count_product_fail_status_updated"
+msgid "Products with status update errors:"
+msgstr "პროდუქტების სტატუსები ვერ განახლდა:"
+
+msgctxt "Languages::ebay_count_product_skip"
+msgid "Products skipped:"
+msgstr "გამოტოვებული პროდუქტები:"
+
+msgctxt "Languages::ebay_product_not_exported"
+msgid "Product \"[product]\" was not exported on eBay"
+msgstr "პროდუქცია \"[product]\" ვერ დაექსპორტდა eBay-ზე"
+
+msgctxt "Languages::ebay_product_already_sales_closed"
+msgid "Sales of product \"[product]\" were already completed on eBay"
+msgstr "პროდუქციის \"[product]\" გაყიდვები უკვე დასრულებულია eBay-ზე"
+
+msgctxt "Languages::ebay_failed_request"
+msgid "Failed request to [url]. Http status code: [code]"
+msgstr "[url]-ი ვერ მოითხოვნა. კოდის სტატუსი HTTP: [code]"
+
+msgctxt "Languages::ebay_package_type"
+msgid "eBay package type"
+msgstr "eBay-ის ამანათის ტიპი"
+
+msgctxt "Languages::ebay_category"
+msgid "eBay Category"
+msgstr "eBay-ის კატეგორია"
+
+msgctxt "Languages::ebay_region"
+msgid "eBay region"
+msgstr "eBay-ის რეგიონი"
+
+msgctxt "Languages::ebay_synchronization_title"
+msgid "Synchronizing eBay data"
+msgstr "მონაცემების სინქრონიზება eBay-სთან"
+
+msgctxt "Languages::ebay_synchronization_regions"
+msgid "Synchronizing eBay regions"
+msgstr "eBay-ის რეგიონების სინქრონიზაცია"
+
+msgctxt "Languages::ebay_synchronization_categories"
+msgid "Synchronizing eBay categories (it may take around 3 minutes)"
+msgstr "eBay-ის კატეგორიების სინქრონიზაცია (დასჭირდება 3 წუთამდე)"
+
+msgctxt "Languages::ebay_synchronization_shipping_services"
+msgid "Synchronizing eBay shipping services"
+msgstr "eBay-ის მიწოდების სამსახურების სინქრონიზაცია"
+
+msgctxt "Languages::ebay_synchronization_category_features"
+msgid "Synchronizing eBay category features"
+msgstr "eBay-ის პარამეტრების კატეგორიების სინქრონიზაცია"
+
+msgctxt "Languages::ebay_changed_region_message"
+msgid "After you change eBay region, please check other settings.<br>If your template's Shipping type is set to Calculated, change your primary currency (Administration → Currencies), company address (Settings → Company) and weight measurement units (Settings → General) accordingly.<br>If your template's Shipping type is set to Flat, change your primary currency (Administration → Currencies)."
+msgstr "eBay-ზე რეგიონის შეცვლის შემდეგ, საჭიროა ყველა პარამეტრების შემოწმება.<br>თუ შაბლონისათვის არჩეულია მიწოდების ტიპი \"ანგარიშდება\", შეცვალეთ საბაზო ვალუტა (ადმინისტრირება→ ვალუტები), კომპანიის მისამართი (პარამეტრები → კომპანია) წონის გაზომვის ერთეულები (პარამეტრები → ზოგადი).<br>თუ შერჩეულია მიწოდების ტიპი \"ფიქსირებული\", შეცვალეთ საბაზო ვალუტა (ადმინისტრირება→ ვალუტები)."
+
+msgctxt "Languages::ebay_upgrade_notification_need_sync_title"
+msgid "eBay Synchronization add-on has been updated"
+msgstr "მოდული \"სინქრონიზაცია eBay-სთან\" განახლებულია"
+
+msgctxt "Languages::ebay_upgrade_notification_need_sync_text_for_active"
+msgid "Retrieve the statuses of your products from eBay before you continue to use the eBay Synchronization add-on.<br>Go to Marketing → eBay → eBay templates, hover over a template, click the gear button, and select Get product status from eBay.<br>Do this for all your eBay templates."
+msgstr "სანამ გააგრძელებთ \"სინქრონიზაცია eBay-სთან\" მოდულის გამოყენებას, მიიღეთ eBay-დან თქვენი პროდუქციის სტატუსების ინფორმაცია.<br>გადადით მარკეტინგში → eBay → eBay-ის შაბლონები, მიუახლოვეთ მაუსის კურსორი შაბლონზე და დააჭირეთ პარამეტრების ღილაკს. მერე აირჩიეთ eBay-დან პროდუქციის სტატუსის მიღება <br>გაიმეორეთ მოქმედება eBay-ის ყველა შაბლონისათვის."
+
+msgctxt "Languages::ebay_upgrade_notification_need_sync_text_for_disable"
+msgid "You used and disabled eBay Synchronization add-on. If you decide to use the add-on again, complete the following steps:<br><ul><li>Go to Add-ons → Manage add-ons</li><li>Find eBay synchronization add-on and set its status to active</li><li>Go to Marketing → eBay → eBay templates, hover over a template, click the gear button, and select Get product status from eBay</li><li>Repeat the previous step for all your eBay templates</li></ul>"
+msgstr "თქვენ იყენებდით მოდულს \"სინქრონიზაცია eBay-სთან\" და გამორთეთ ის. თუ თქვენ ისევ დაგჭირდებათ ეს მოდული, გააკეთედ შემდეგი მოქმედება: <br><ul><li>გადმოდიდ მოდულში → მოდულების მართვა</li><li>იპოვეთ მოდული \"სინქრონიზაცია eBay-სთან\" და შეცვალეთ მისი სტატუსი \"ჩართ.\"-ზე</li><li>გადმოდიდ მარკეტინგში → eBay → eBay-ის შაბლონები, მიუახლოვეთ მაუსის კურსორი შაბლონზე და დააჭირეთ პარამეტრების ღილაკს. მერე აირჩიეთ eBay-დან პროდუქციის სტატუსის მიღება</li><li>გაიმეორეთ მოქმედება eBay-ის ყველა შაბლონისათვის</li></ul>"
+
+msgctxt "Languages::export_products_to_ebay"
+msgid "Export/Revise products on eBay"
+msgstr "eBay-ზე პროდუქციის ექსპორტირება/განახლება"
+
+msgctxt "Languages::ebay_product_identifier_upc"
+msgid "UPC"
+msgstr "UPC"
+
+msgctxt "Languages::ebay_product_identifier_ean"
+msgid "EAN"
+msgstr "EAN"
+
+msgctxt "Languages::ebay_product_identifier_isbn"
+msgid "ISBN"
+msgstr "ISBN"
+
+msgctxt "Languages::ebay_product_identifier_mpn"
+msgid "MPN"
+msgstr "MPN"
+
+msgctxt "Languages::ebay_product_identifier_brand"
+msgid "Brand"
+msgstr "ბრენდი"
+
+msgctxt "Languages::ebay_product_identifiers"
+msgid "Product identifiers"
+msgstr "პროდუქტის იდენტიფიკატორები"
+
+msgctxt "Languages::ebay_product"
+msgid "Product"
+msgstr "პროდუქტი"
+
+msgctxt "Languages::ebay_product_variation"
+msgid "Option combination"
+msgstr "ოპციების კომბინაცია"
+
+msgctxt "Languages::ebay_none"
+msgid "None"
+msgstr "არ არის"
+
+msgctxt "Languages::ebay_does_not_apply"
+msgid "Does not apply"
+msgstr "არ ვრცელდება"
+
+msgctxt "Languages::ebay_product_code"
+msgid "Product code"
+msgstr "პროდუქციის კოდი"
+
+msgctxt "Languages::ebay_product_feature"
+msgid "Product feature"
+msgstr "პროდუქციის მახასიათებელი"
+
+msgctxt "Languages::ebay_combination_code"
+msgid "Combination code"
+msgstr "კოდის კომბინაცია"
+
+msgctxt "Languages::ebay_synchronization_region_details"
+msgid "Synchronizing eBay region details"
+msgstr "eBay-ის რეგიონების დეტალების სინქრონიზაცია"
+
+msgctxt "Languages::ebay_feature_group_product_identifiers"
+msgid "eBay product identifiers"
+msgstr "eBay-ის პროდუქციის იდენტიფიკატორები"
+

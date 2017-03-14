@@ -1,0 +1,430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Slovak\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sk\n"
+"X-Crowdin-File: /addons/newsletters.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::newsletters"
+msgid "Newsletters"
+msgstr "Newslettery"
+
+msgctxt "Addons::description::newsletters"
+msgid "Lets you configure newsletter sending"
+msgstr "Umožňuje nastaviť zasielanie noviniek"
+
+msgctxt "Languages::newsletters_menu_description"
+msgid "Create and send newsletters to your customer."
+msgstr "Vytvárajte a odosielajte newslettery vášmu zákazníkovi."
+
+msgctxt "Languages::news_plain"
+msgid "Plain"
+msgstr "Obyčajný"
+
+msgctxt "Languages::text_signup_for_subscriptions"
+msgid "Sign up for our newsletters!"
+msgstr "Prihláste sa na náš newsletter!"
+
+msgctxt "Languages::tmpl_subscription"
+msgid "Newsletters: subscription form"
+msgstr "Formulár pre odber newslettera"
+
+msgctxt "Languages::unsubscribe_link"
+msgid "Unsubscribe link"
+msgstr "Odkaz pre ukončenie odberu noviniek"
+
+msgctxt "Languages::ne_add_subscribers_from_users"
+msgid "Add subscribers from the list of users"
+msgstr "Pridať odberateľov zo zoznamu užívateľov"
+
+msgctxt "Languages::ne_warning_subscr_email_exists"
+msgid "<b>[email]</b> is already in the subscribers list"
+msgstr "<b>[email]</b> už je v zozname odberateľov"
+
+msgctxt "Languages::warning_subscribers_import"
+msgid "Some mailing lists from the input file could not be found in the database. Certain imported subscribers will be left unassigned."
+msgstr "Niektoré zoznamy adries zo vstupného súboru neboli v našej databáze nájdené. Niektorí odberatelia ostanú nepriradení."
+
+msgctxt "Languages::subscribers_menu_item_text"
+msgid "Subscribers"
+msgstr "Odberatelia"
+
+msgctxt "Languages::block_mailing_lists"
+msgid "Newsletter subscription"
+msgstr "Prihlásenie sa na odber noviniek"
+
+msgctxt "Languages::block_mailing_lists_description"
+msgid "Email field for newsletter subscription"
+msgstr "Pole e-mailu pre prihlásenie sa na newsletter"
+
+msgctxt "Languages::privileges.view_newsletters"
+msgid "View newsletters"
+msgstr "Zobraziť newslettery"
+
+msgctxt "Languages::privileges.manage_newsletters"
+msgid "Manage newsletters"
+msgstr "Spravovať newslettery"
+
+msgctxt "Languages::warning_newsletter_no_recipients"
+msgid "Newsletter hasn't been sent because no recipients were found matching the selected criteria."
+msgstr "Newsletter nebol odoslaný, pretože neboli nájdení žiadni príjemcovia spĺňajúci zadané kritériá."
+
+msgctxt "Languages::text_newsletter_sent"
+msgid "The newsletter(s) have been sent successfully."
+msgstr "Newsletter(y) bol(i) úspešne odoslaný(né)."
+
+msgctxt "Languages::email_cannot_be_empty"
+msgid "E-mail cannot be empty"
+msgstr "Pole e-mail nemôže byť prázdne"
+
+msgctxt "Languages::sending_email_to"
+msgid "Sending email to [email]..."
+msgstr "Posielam e-mail na [email]..."
+
+msgctxt "Languages::text_subscriber_added"
+msgid "Your e-mail has been successfully added to our free e-mail updates list"
+msgstr "Váš e-mail bol úspešne pridaný na náš zoznam pre bezplatné aktualizácie"
+
+msgctxt "Languages::error_email_already_subscribed"
+msgid "Your e-mail is already subscribed."
+msgstr "Váš e-mail už je medzi odberateľmi."
+
+msgctxt "Languages::text_subscriber_removed"
+msgid "Your e-mail has been successfully removed from our free e-mail updates list"
+msgstr "Váš e-mail bol úspešne odstránený z nášho zoznamu pre bezplatné aktualizácie"
+
+msgctxt "Languages::text_subscriber_activated"
+msgid "Your email has been successfully activated"
+msgstr "Váš e-mail bol úspešne aktivovaný"
+
+msgctxt "Languages::link_message_for_test_letter"
+msgid "The link will be displayed in a live newsletter"
+msgstr "Odkaz bude zobrazený v živom newsletteri"
+
+msgctxt "Languages::newsletters"
+msgid "Newsletters"
+msgstr "Newslettery"
+
+msgctxt "Languages::autoresponders"
+msgid "Autoresponders"
+msgstr "Automatické odpovedanie"
+
+msgctxt "Languages::campaigns"
+msgid "Campaigns"
+msgstr "Kampane"
+
+msgctxt "Languages::sent"
+msgid "Sent"
+msgstr "Odoslané"
+
+msgctxt "Languages::subscribers_num"
+msgid "Number of subscribers"
+msgstr "Počet odberateľov"
+
+msgctxt "Languages::editing_mailing_list"
+msgid "Editing mailing list"
+msgstr "Úprava zoznamu adries"
+
+msgctxt "Languages::from_name"
+msgid "From name"
+msgstr "Od mena"
+
+msgctxt "Languages::from_email"
+msgid "From email"
+msgstr "Od e-mailu"
+
+msgctxt "Languages::reply_to"
+msgid "Reply to"
+msgstr "Odpovedať na"
+
+msgctxt "Languages::register_autoresponder"
+msgid "Confirmation email"
+msgstr "Potvrdzujúci e-mail"
+
+msgctxt "Languages::no_autoresponder"
+msgid "No autoresponder"
+msgstr "Bez automatického odpovedania"
+
+msgctxt "Languages::show_on_checkout"
+msgid "Show at checkout"
+msgstr "Zobraziť na pokladni"
+
+msgctxt "Languages::addons.newsletters.show_on_registration_and_profile"
+msgid "Show on the Registration and Profile Details pages"
+msgstr ""
+
+msgctxt "Languages::show_on_separate_page"
+msgid "Show on separate page"
+msgstr "Zobraziť na samostatnej stránke"
+
+msgctxt "Languages::campaign_stats"
+msgid "Campaign statistics"
+msgstr "Štatistika kampane"
+
+msgctxt "Languages::add_campaign"
+msgid "Add campaign"
+msgstr "Pridať kampaň"
+
+msgctxt "Languages::new_campaign"
+msgid "New campaign"
+msgstr "Nová kampaň"
+
+msgctxt "Languages::newsletter_templates"
+msgid "Newsletter templates"
+msgstr "Newsletter - šablóny"
+
+msgctxt "Languages::newsletter_autoresponders"
+msgid "Newsletter autoresponders"
+msgstr "Newsletter - automatické odpovede"
+
+msgctxt "Languages::subject"
+msgid "Subject"
+msgstr "Predmet"
+
+msgctxt "Languages::add_newsletter"
+msgid "Add newsletter"
+msgstr "Pridať newsletter"
+
+msgctxt "Languages::add_template"
+msgid "Add template"
+msgstr "Pridať šablónu"
+
+msgctxt "Languages::add_autoresponder"
+msgid "Add autoresponder"
+msgstr "Pridať automatické odpovedanie"
+
+msgctxt "Languages::more_subjects"
+msgid "Random subjects (one per line)"
+msgstr "Náhodné predmety (jeden na riadok)"
+
+msgctxt "Languages::body_html"
+msgid "HTML body"
+msgstr "HTML telo"
+
+msgctxt "Languages::no_template"
+msgid "No template"
+msgstr "Bez šablóny"
+
+msgctxt "Languages::load"
+msgid "Load"
+msgstr "Nahrať"
+
+msgctxt "Languages::campaign"
+msgid "Campaign"
+msgstr "Kampaň"
+
+msgctxt "Languages::send_to"
+msgid "Send to"
+msgstr "Odoslať"
+
+msgctxt "Languages::add_recipients_from_users"
+msgid "Add recipients from users"
+msgstr "Pridať príjemcov z používateľov"
+
+msgctxt "Languages::customers_with_abandoned"
+msgid "Customers with abandoned"
+msgstr "Zákazníci s opusteným(i)"
+
+msgctxt "Languages::cart_or_wishlist"
+msgid "Cart or Wishlist"
+msgstr "Košík alebo Wishlist"
+
+msgctxt "Languages::which_is"
+msgid "which is"
+msgstr "čo je"
+
+msgctxt "Languages::days_old"
+msgid "days old"
+msgstr "dní staré"
+
+msgctxt "Languages::send_to_test_email"
+msgid "Send to test email"
+msgstr "Poslať testovací e-mail"
+
+msgctxt "Languages::save_and_send"
+msgid "Save and send"
+msgstr "Uložiť a odoslať"
+
+msgctxt "Languages::newsletter"
+msgid "Newsletter"
+msgstr "Newsletter"
+
+msgctxt "Languages::newsletter_template"
+msgid "Newsletter template"
+msgstr "Newsletter - šablóny"
+
+msgctxt "Languages::newsletter_autoresponder"
+msgid "Newsletter autoresponder"
+msgstr "Newsletter - automatické odpovede"
+
+msgctxt "Languages::mailing_list"
+msgid "Mailing list"
+msgstr "Zoznam adries"
+
+msgctxt "Languages::confirmed"
+msgid "Confirmed"
+msgstr "Potvrdené"
+
+msgctxt "Languages::subscribed_to"
+msgid "Subscribed to [num] lists"
+msgstr "Odoberá [num] zoznamov"
+
+msgctxt "Languages::subscribed"
+msgid "Subscribed"
+msgstr "Odoberá"
+
+msgctxt "Languages::text_success_subscription"
+msgid "You have been successfully subscribed to our free e-mail updates and promotions!"
+msgstr "Bol úspešne prihlásení na naše bezplatné e-mailové aktualizácie a ponuky!"
+
+msgctxt "Languages::text_unsubscribe_instructions"
+msgid "We respect your privacy and do not send unsolicited e-mail to users who have not requested correspondence. You have received this e-mail because you requested to receive our free updates and promotions.<br /><br /> If you wish to unsubscribe, please follow the link below:"
+msgstr "Rešpektujeme vaše súkromie a neposielame našim používateľom žiadnu nevyžiadanú poštu. Tento e-mail ste obdržali pretože ste sa prihlásili na odoberanie našich bezplatných aktualizácií a ponúk.<br /><br /> Ak si želáte sa odhlásiť, môžete tak urobiť pomocou nasledujúceho odkazu:"
+
+msgctxt "Languages::updates_subscription"
+msgid "updates and promotions subscription"
+msgstr "odoberanie aktualizácii a ponúk"
+
+msgctxt "Languages::ult_shared_with"
+msgid "Shared with:"
+msgstr "Zdieľané s:"
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_from_email"
+msgid "Email of a sender."
+msgstr "E-mail odosielateľa."
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_from_name"
+msgid "Name of a sender (e.g. company name)."
+msgstr "Meno odosielateľa (napr. názov firmy)."
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_reply_to"
+msgid "Email to send replies to."
+msgstr "E-mail pre odpovede."
+
+msgctxt "Languages::tt_addons_newsletters_views_newsletters_update_more_subjects"
+msgid "If several subjects are specified, email subject is randomly picked from this list."
+msgstr "Ak je zadaných viacero predmetov, predmet e-mailu bude náhodne vybraný z tohto zoznamu."
+
+msgctxt "Languages::tt_addons_newsletters_views_newsletters_update_users"
+msgid "If the message text contains the unsubscribe link, it will be empty for these users."
+msgstr "Ak správa obsahuje odkaz pre zrušenie odoberania, bude prázdna pre týchto používateľov."
+
+msgctxt "Languages::add_mailing_lists"
+msgid "Add mailing list"
+msgstr "Pridať zoznam adries"
+
+msgctxt "Languages::manage_subscribers"
+msgid "Manage subscribers"
+msgstr ""
+
+msgctxt "Languages::new_mailing_lists"
+msgid "New mailing list"
+msgstr "Nový zoznam adries"
+
+msgctxt "Languages::newsletters.new_subscribers"
+msgid "New subscribers"
+msgstr ""
+
+msgctxt "SettingsSections::newsletters::general"
+msgid "General"
+msgstr "Všeobecné"
+
+msgctxt "SettingsOptions::newsletters::newsletters_per_pass"
+msgid "Newsletters sent per step"
+msgstr "Newsletterov odoslaných za jeden krok"
+
+msgctxt "SettingsOptions::newsletters::elm_advanced_mailing_server_options"
+msgid "Advanced mailing server options"
+msgstr "Rozšírené možnosti poštového servera"
+
+msgctxt "SettingsOptions::newsletters::mailer_send_method"
+msgid "Method of sending e-mails"
+msgstr "Spôsob posielania e-mailov"
+
+msgctxt "SettingsOptions::newsletters::elm_smtp_server_settings"
+msgid "SMTP server settings"
+msgstr "Nastavenia servera SMTP"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_host"
+msgid "SMTP host"
+msgstr "Host SMTP"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_username"
+msgid "SMTP username"
+msgstr "SMTP používateľské meno"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_password"
+msgid "SMTP password"
+msgstr "SMTP heslo"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_ecrypted_connection"
+msgid "Use Encrypted Connection"
+msgstr ""
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::none"
+msgid "None"
+msgstr ""
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::tls"
+msgid "TLS"
+msgstr ""
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::ssl"
+msgid "SSL"
+msgstr "SSL"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_auth"
+msgid "Use SMTP authentication"
+msgstr "Použiť autentifikáciu SMTP"
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::smtp"
+msgid "via SMTP server"
+msgstr "cez SMTP server"
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::mail"
+msgid "via php mail function"
+msgstr "cez php mail funkciu"
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::default"
+msgid "use default settings"
+msgstr "použiť predvolené nastavenie"
+
+msgctxt "SettingsSections::newsletters::promotions"
+msgid "Promotions"
+msgstr ""
+
+msgctxt "SettingsOptions::newsletters::coupon"
+msgid "Choose a promotion whose promo code will be given at subscription"
+msgstr ""
+
+msgctxt "Languages::subscribers_promo_subject"
+msgid "Thank you for subscribing! Use the coupon code [coupon] in our special offer \"[promotion]\"."
+msgstr ""
+
+msgctxt "Languages::subscribers_no_promo"
+msgid "No promotion"
+msgstr ""
+
+msgctxt "Languages::promotion_cond_subscribed"
+msgid "Customer is subscribed"
+msgstr ""
+
+msgctxt "Languages::addons.newsletters.email_exists_in_list"
+msgid "<b>[email]</b> is already in the mailing list"
+msgstr ""
+
+msgctxt "Languages::email_template.newsletters_newsletter"
+msgid "Newsletter"
+msgstr ""
+
+msgctxt "Languages::email_template.newsletters_promotion"
+msgid "Newsletters: promotion"
+msgstr ""
+

@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>hybrid_auth</id>
+    <version>1.0</version>
+    <priority>4200</priority>
+    <status>active</status>
+    <auto_install>ULTIMATE,MULTIVENDOR</auto_install>
+    <default_language>en</default_language>
+
+    <dependencies/>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="icons_pack">
+                        <type>selectbox</type>
+                        <default_value>flat_32x32</default_value>
+                    </item>
+                    <item id="autogen_email">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:hybrid_auth_users;</item>
+        <item>DROP TABLE IF EXISTS ?:hybrid_auth_providers;</item>
+        <item>
+            CREATE TABLE `?:hybrid_auth_users` (
+            `user_id` mediumint(8) unsigned NOT NULL auto_increment,
+            `provider_id` mediumint(8) unsigned NOT NULL,
+            `identifier` varchar(128) NOT NULL default '',
+            `timestamp` int(11) unsigned NOT NULL default '0',
+            PRIMARY KEY  (`user_id`, `provider_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:hybrid_auth_providers` (
+            `provider_id` mediumint(8) unsigned NOT NULL auto_increment,
+            `company_id` int(11) unsigned NOT NULL default '0',
+            `provider` varchar(32) NOT NULL,
+            `position` smallint NOT NULL default '0',
+            `app_id` varchar(255) NOT NULL default '',
+            `app_secret_key` varchar(255) default '',
+            `app_public_key` varchar(255) default '',
+            `app_params`  text,
+            `status` char default 'D',
+            PRIMARY KEY  (`provider_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:hybrid_auth_users;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:hybrid_auth_providers;</item>
+        <item>REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_providers', 'Y', 'addons')</item>
+        <item>REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('view_providers', 'Y', 'addons')</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'manage_providers'</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'view_providers'</item>
+    </queries>
+    <email_templates>
+        <templates>
+            <item>
+                <code><![CDATA[hybrid_auth_create_profile]]></code>
+                <area><![CDATA[C]]></area>
+                <status><![CDATA[A]]></status>
+                <default_subject><![CDATA[{{ company_name }}: {{ __("new_profile_notification") }}]]></default_subject>
+                <default_template><![CDATA[{{ snippet("header") }}
+
+{% if user_data.firstname %}
+{{ __("dear") }} {{ user_data.firstname }},
+{% else %}
+{{ __("hello") }},
+{% endif %}
+<br><br>
+{{ __("hybrid_auth.password_generated") }}: {{ user_data.password }}<br> <br />
+{{ __("hybrid_auth.change_password") }}: <br>
+<a href="{{ url }}">{{ url|puny_decode }}</a>
+<br />
+
+{{ snippet("footer") }}]]></default_template>
+                <addon><![CDATA[hybrid_auth]]></addon>
+            </item>
+        </templates>
+    </email_templates>
+</addon>

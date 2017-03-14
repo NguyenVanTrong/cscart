@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/tags.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::tags"
+msgid "Tags"
+msgstr "برچسب ها"
+
+msgctxt "Addons::description::tags"
+msgid "Enables product tags"
+msgstr "فعال کردن برچسب های محصول"
+
+msgctxt "Languages::tags_menu_description"
+msgid "Manage product and content page tags."
+msgstr "مدیریت برچسب های محصول و محتوای صفحه."
+
+msgctxt "Languages::sign_in_to_enter_tags"
+msgid "Sign in to enter tags"
+msgstr "ورود را وارد کنید برچسب ها"
+
+msgctxt "Languages::tag_cloud"
+msgid "Tag cloud"
+msgstr "ابر برچسب"
+
+msgctxt "Languages::tags"
+msgid "Tags"
+msgstr "برچسب ها"
+
+msgctxt "Languages::block_tags"
+msgid "Tags"
+msgstr "برچسب ها"
+
+msgctxt "Languages::block_tags_description"
+msgid "Product tags"
+msgstr "برچسب ها محصول"
+
+msgctxt "Languages::addons.tags.add_a_tag"
+msgid "add a tag"
+msgstr "افزودن برچسب"
+
+msgctxt "Languages::items_marked_by_tag"
+msgid "Items marked by the \"[tag]\" tag:"
+msgstr "موارد مشخص شده با برچسب\"[tag]\":"
+
+msgctxt "Languages::tag"
+msgid "Tag"
+msgstr "برچسب"
+
+msgctxt "Languages::add_tag"
+msgid "Add tag"
+msgstr "افزودن برچسب"
+
+msgctxt "SettingsSections::tags::general"
+msgid "General"
+msgstr "عمومی"
+
+msgctxt "SettingsOptions::tags::tags_for_products"
+msgid "Tags for products"
+msgstr "برچسب ها برای محصولات"
+
+msgctxt "SettingsOptions::tags::tags_for_pages"
+msgid "Tags for pages"
+msgstr "برچسب ها برای صفحات"
+

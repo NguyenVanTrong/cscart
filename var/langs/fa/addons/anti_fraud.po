@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/anti_fraud.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::anti_fraud"
+msgid "Anti fraud"
+msgstr "ضد تقلب"
+
+msgctxt "Addons::description::anti_fraud"
+msgid "Adds configurable security order verification using the Maxmind service to prevent fraud"
+msgstr "تنظیم امنیت و تایید سفارش با استفاده از سرویس Maxmind برای  جلوگیری از تقلب ."
+
+msgctxt "Languages::af_big_order_total"
+msgid "Order total exceeds the allowed maximum"
+msgstr "مجموع سفارش بیشتر از حد مجاز است"
+
+msgctxt "Languages::af_country_doesnt_match"
+msgid "The country does not match the IP address"
+msgstr "ای پی ادرس با کشور مورد نظر مطابقت ندارد."
+
+msgctxt "Languages::af_has_failed_orders"
+msgid "Customer has FAILED orders"
+msgstr "سفارشات انجام نشده مشتریان."
+
+msgctxt "Languages::af_has_successfull_orders"
+msgid "Customer has SUCCESSFUL orders"
+msgstr "سفارشات موفق مشتریان."
+
+msgctxt "Languages::af_high_risk_country"
+msgid "High risk country"
+msgstr "کشور پر خطر \n"
+""
+
+msgctxt "Languages::af_high_risk_factor"
+msgid "Risk factor exceeds the defined value"
+msgstr "عامل خطر بیش از ارزش تعريف شده"
+
+msgctxt "Languages::af_ip_not_found"
+msgid "Failed to identify customer's IP address"
+msgstr " آی پی آدرس  مشتري شناسایی نشد."
+
+msgctxt "Languages::af_long_distance"
+msgid "Customer is outside the safe distance"
+msgstr "مشتری خارج از محدوده امن است."
+
+msgctxt "Languages::af_low_risk_factor"
+msgid "Risk factor is admissible"
+msgstr "عامل مجاز است"
+
+msgctxt "Languages::antifraud_failed_order"
+msgid "Your order was placed in the store. It is undergoing an additional check now. We will contact you as soon as the administrator finishes it"
+msgstr "سفارش شما در فروشگاه ثبت شده است و گزینه های اضافی ان در حال حاضردر حال بررسی هستند.پس از بررس مدیریت سایت با شما تماس حاصل مینماید."
+
+msgctxt "Languages::risk_factor"
+msgid "Risk factor"
+msgstr "عامل خطر"
+
+msgctxt "Languages::not_available"
+msgid "n/a"
+msgstr "ان /ای \n"
+""
+
+msgctxt "Languages::decision"
+msgid "Decision"
+msgstr "تصمیم گیری"
+
+msgctxt "Languages::anti_fraud_order_not_approved"
+msgid "Order has not been approved because risk factor exceeds Maximum risk factor"
+msgstr "سفارش تأیید نشده است زیرا عامل خطر بیش از حداکثر عامل خطر"
+
+msgctxt "Languages::anti_fraud_order_approved"
+msgid "Order has been approved"
+msgstr "سفارش تایید شده است"
+
+msgctxt "Languages::fraud_risk"
+msgid "Fraud risk"
+msgstr "خطر تقلب"
+
+msgctxt "Languages::fraud_checking"
+msgid "Fraud checking"
+msgstr "چک کردن تقلب"
+
+msgctxt "SettingsSections::anti_fraud::general"
+msgid "General"
+msgstr "عمومی"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_key"
+msgid "Maxmind license key"
+msgstr "کلید مجوز Maxmind"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_safe_distance"
+msgid "Safe distance (km)"
+msgstr "فاصله مجاز و امن  (کیلومتر)"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_max_order_total"
+msgid "Max order total"
+msgstr "سفارش حداکثر کل "
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_risk_factor"
+msgid "Maximum risk factor (1..100)"
+msgstr "بیشترین عامل ریسک خطر (1..100)"
+
+msgctxt "SettingsOptions::anti_fraud::antifraud_order_status"
+msgid "Order status"
+msgstr "وضعیت سفارش"
+

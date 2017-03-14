@@ -1,0 +1,430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/newsletters.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::newsletters"
+msgid "Newsletters"
+msgstr "خبرنامه"
+
+msgctxt "Addons::description::newsletters"
+msgid "Lets you configure newsletter sending"
+msgstr "امکان پیکربندی ارسال خبرنامه"
+
+msgctxt "Languages::newsletters_menu_description"
+msgid "Create and send newsletters to your customer."
+msgstr "ایجاد و ارسال خبرنامه به مشتریان خود."
+
+msgctxt "Languages::news_plain"
+msgid "Plain"
+msgstr "ساده"
+
+msgctxt "Languages::text_signup_for_subscriptions"
+msgid "Sign up for our newsletters!"
+msgstr "ثبت نام خبرنامه ما!"
+
+msgctxt "Languages::tmpl_subscription"
+msgid "Newsletters: subscription form"
+msgstr "خبرنامه: فرم اشتراک"
+
+msgctxt "Languages::unsubscribe_link"
+msgid "Unsubscribe link"
+msgstr "لینک لغو اشتراک"
+
+msgctxt "Languages::ne_add_subscribers_from_users"
+msgid "Add subscribers from the list of users"
+msgstr "اضافه کردن مشترکین از لیست کاربران"
+
+msgctxt "Languages::ne_warning_subscr_email_exists"
+msgid "<b>[email]</b> is already in the subscribers list"
+msgstr "<b>[email]</b> در حال حاضر در لیست مشترکین می باشد"
+
+msgctxt "Languages::warning_subscribers_import"
+msgid "Some mailing lists from the input file could not be found in the database. Certain imported subscribers will be left unassigned."
+msgstr "بعضی از لیست های پستی از فایل ورودی در پایگاه داده یافت نشد. برخی مشترکان وارد شده بدون تخصیص خواهند ماند."
+
+msgctxt "Languages::subscribers_menu_item_text"
+msgid "Subscribers"
+msgstr "مشترکین"
+
+msgctxt "Languages::block_mailing_lists"
+msgid "Newsletter subscription"
+msgstr "اشتراک خبرنامه"
+
+msgctxt "Languages::block_mailing_lists_description"
+msgid "Email field for newsletter subscription"
+msgstr "فیلد ایمیل برای اشتراک خبرنامه"
+
+msgctxt "Languages::privileges.view_newsletters"
+msgid "View newsletters"
+msgstr "مشاهده خبرنامه"
+
+msgctxt "Languages::privileges.manage_newsletters"
+msgid "Manage newsletters"
+msgstr "مدیریت خبرنامه"
+
+msgctxt "Languages::warning_newsletter_no_recipients"
+msgid "Newsletter hasn't been sent because no recipients were found matching the selected criteria."
+msgstr "خبرنامه فرستاده نشده است زیرا هیچ گیرنده مطابق معیارهای انتخابی یافت نشد."
+
+msgctxt "Languages::text_newsletter_sent"
+msgid "The newsletter(s) have been sent successfully."
+msgstr "خبرنامه (ها) با موفقیت ارسال شده است."
+
+msgctxt "Languages::email_cannot_be_empty"
+msgid "E-mail cannot be empty"
+msgstr "ایمیل را نمی توان خالی گذاشت"
+
+msgctxt "Languages::sending_email_to"
+msgid "Sending email to [email]..."
+msgstr "ارسال ایمیل به [email]..."
+
+msgctxt "Languages::text_subscriber_added"
+msgid "Your e-mail has been successfully added to our free e-mail updates list"
+msgstr "ایمیل شما با موفقیت به لیست به روز رسانی های ایمیل رایگان ما اضافه شده است"
+
+msgctxt "Languages::error_email_already_subscribed"
+msgid "Your e-mail is already subscribed."
+msgstr "ایمیل شما قبلاً آبونه شده است."
+
+msgctxt "Languages::text_subscriber_removed"
+msgid "Your e-mail has been successfully removed from our free e-mail updates list"
+msgstr "ایمیل شما با موفقیت از لیست به روز رسانی رایگان ایمیل ما حذف شده است"
+
+msgctxt "Languages::text_subscriber_activated"
+msgid "Your email has been successfully activated"
+msgstr "ایمیل شما با موفقیت فعال شده است"
+
+msgctxt "Languages::link_message_for_test_letter"
+msgid "The link will be displayed in a live newsletter"
+msgstr "لینک در خبرنامه زنده نمایش داده خواهد شد"
+
+msgctxt "Languages::newsletters"
+msgid "Newsletters"
+msgstr "خبرنامه"
+
+msgctxt "Languages::autoresponders"
+msgid "Autoresponders"
+msgstr "پاسخ دهی خودکار"
+
+msgctxt "Languages::campaigns"
+msgid "Campaigns"
+msgstr "کمپین"
+
+msgctxt "Languages::sent"
+msgid "Sent"
+msgstr "ارسال شد"
+
+msgctxt "Languages::subscribers_num"
+msgid "Number of subscribers"
+msgstr "تعداد مشترکین"
+
+msgctxt "Languages::editing_mailing_list"
+msgid "Editing mailing list"
+msgstr "ویرایش لیست پستی"
+
+msgctxt "Languages::from_name"
+msgid "From name"
+msgstr "از نام"
+
+msgctxt "Languages::from_email"
+msgid "From email"
+msgstr "از ایمیل"
+
+msgctxt "Languages::reply_to"
+msgid "Reply to"
+msgstr "پاسخ به"
+
+msgctxt "Languages::register_autoresponder"
+msgid "Confirmation email"
+msgstr "ایمیل تایید"
+
+msgctxt "Languages::no_autoresponder"
+msgid "No autoresponder"
+msgstr "هیچ پاسخگوی خودکاری نیست"
+
+msgctxt "Languages::show_on_checkout"
+msgid "Show at checkout"
+msgstr "نمایش در تسویه حساب"
+
+msgctxt "Languages::addons.newsletters.show_on_registration_and_profile"
+msgid "Show on the Registration and Profile Details pages"
+msgstr "نمایش در ثبت نام و صفحات جزییات مشخصات"
+
+msgctxt "Languages::show_on_separate_page"
+msgid "Show on separate page"
+msgstr "نمایش در صفحه جداگانه"
+
+msgctxt "Languages::campaign_stats"
+msgid "Campaign statistics"
+msgstr "آمار کمپین"
+
+msgctxt "Languages::add_campaign"
+msgid "Add campaign"
+msgstr "اضافه کردن کمپین"
+
+msgctxt "Languages::new_campaign"
+msgid "New campaign"
+msgstr "کمپین جدید"
+
+msgctxt "Languages::newsletter_templates"
+msgid "Newsletter templates"
+msgstr "الگوهای خبرنامه"
+
+msgctxt "Languages::newsletter_autoresponders"
+msgid "Newsletter autoresponders"
+msgstr "پاسخ دهی خودکار خبرنامه"
+
+msgctxt "Languages::subject"
+msgid "Subject"
+msgstr "موضوع"
+
+msgctxt "Languages::add_newsletter"
+msgid "Add newsletter"
+msgstr "اضافه کردن خبرنامه"
+
+msgctxt "Languages::add_template"
+msgid "Add template"
+msgstr "افزودن الگو"
+
+msgctxt "Languages::add_autoresponder"
+msgid "Add autoresponder"
+msgstr "اضافه کردن پاسخگوی خودکار"
+
+msgctxt "Languages::more_subjects"
+msgid "Random subjects (one per line)"
+msgstr "مطالب تصادفی (یکی در هر خط)"
+
+msgctxt "Languages::body_html"
+msgid "HTML body"
+msgstr "بدنه html"
+
+msgctxt "Languages::no_template"
+msgid "No template"
+msgstr "بدون الگو"
+
+msgctxt "Languages::load"
+msgid "Load"
+msgstr "بارگذاری"
+
+msgctxt "Languages::campaign"
+msgid "Campaign"
+msgstr "کمپین"
+
+msgctxt "Languages::send_to"
+msgid "Send to"
+msgstr "ارسال به"
+
+msgctxt "Languages::add_recipients_from_users"
+msgid "Add recipients from users"
+msgstr "افزودن گیرندگان از کاربران"
+
+msgctxt "Languages::customers_with_abandoned"
+msgid "Customers with abandoned"
+msgstr "مشتریان رها شده"
+
+msgctxt "Languages::cart_or_wishlist"
+msgid "Cart or Wishlist"
+msgstr "سبد خرید یا فهرست دلخواه"
+
+msgctxt "Languages::which_is"
+msgid "which is"
+msgstr "است که"
+
+msgctxt "Languages::days_old"
+msgid "days old"
+msgstr "روزهای قدیمی"
+
+msgctxt "Languages::send_to_test_email"
+msgid "Send to test email"
+msgstr "به ایمیل تست ارسال شد"
+
+msgctxt "Languages::save_and_send"
+msgid "Save and send"
+msgstr "ذخیره و ارسال شده است"
+
+msgctxt "Languages::newsletter"
+msgid "Newsletter"
+msgstr "خبرنامه"
+
+msgctxt "Languages::newsletter_template"
+msgid "Newsletter template"
+msgstr "الگوهای خبرنامه"
+
+msgctxt "Languages::newsletter_autoresponder"
+msgid "Newsletter autoresponder"
+msgstr "پاسخ دهنده خودکار خبرنامه"
+
+msgctxt "Languages::mailing_list"
+msgid "Mailing list"
+msgstr "لیست پستی"
+
+msgctxt "Languages::confirmed"
+msgid "Confirmed"
+msgstr "تایید شد"
+
+msgctxt "Languages::subscribed_to"
+msgid "Subscribed to [num] lists"
+msgstr "مشترک [num] لیست"
+
+msgctxt "Languages::subscribed"
+msgid "Subscribed"
+msgstr "مشترک شده"
+
+msgctxt "Languages::text_success_subscription"
+msgid "You have been successfully subscribed to our free e-mail updates and promotions!"
+msgstr "شما با موفقیت به بروز رسانی های ایمیل رایگان و تبلیغات ما مشترک شده اید!"
+
+msgctxt "Languages::text_unsubscribe_instructions"
+msgid "We respect your privacy and do not send unsolicited e-mail to users who have not requested correspondence. You have received this e-mail because you requested to receive our free updates and promotions.<br /><br /> If you wish to unsubscribe, please follow the link below:"
+msgstr "ما به حریم خصوصی شما احترام می گذاریم و ایمیل های ناخواسته را به کاربرانی که مکاتباتی را درخواستی نکرده اند، نمی فرستیم. شما این ایمیل را دریافت کرده اید زیرا درخواست شما دریافت به روز رسانی‌ها و تبلیغات رایگان ما بوده است. اگر شما مایل به لغو عضویت می باشید، لطفا لینک زیر را دنبال کنید:"
+
+msgctxt "Languages::updates_subscription"
+msgid "updates and promotions subscription"
+msgstr "اشتراک به روز رسانی ها و تبلیغات"
+
+msgctxt "Languages::ult_shared_with"
+msgid "Shared with:"
+msgstr "به اشتراک گذاشته شده با:"
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_from_email"
+msgid "Email of a sender."
+msgstr "ایمیل فرستنده."
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_from_name"
+msgid "Name of a sender (e.g. company name)."
+msgstr "نام فرستنده (به عنوان مثال نام شرکت)."
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_reply_to"
+msgid "Email to send replies to."
+msgstr "ایمیل برای ارسال پاسخ به."
+
+msgctxt "Languages::tt_addons_newsletters_views_newsletters_update_more_subjects"
+msgid "If several subjects are specified, email subject is randomly picked from this list."
+msgstr "اگر چندین موضوع مشخص شده است، موضوع ایمیل به طور تصادفی از این لیست برداشت می شود."
+
+msgctxt "Languages::tt_addons_newsletters_views_newsletters_update_users"
+msgid "If the message text contains the unsubscribe link, it will be empty for these users."
+msgstr "اگر متن پیام حاوی لینک لغو اشتراک است، برای این کاربران خالی خواهد بود."
+
+msgctxt "Languages::add_mailing_lists"
+msgid "Add mailing list"
+msgstr "اضافه کردن لیست پستی"
+
+msgctxt "Languages::manage_subscribers"
+msgid "Manage subscribers"
+msgstr "مدیریت مشترکین"
+
+msgctxt "Languages::new_mailing_lists"
+msgid "New mailing list"
+msgstr "لیست پستی جدید"
+
+msgctxt "Languages::newsletters.new_subscribers"
+msgid "New subscribers"
+msgstr "مشترکین جدید"
+
+msgctxt "SettingsSections::newsletters::general"
+msgid "General"
+msgstr "عمومی"
+
+msgctxt "SettingsOptions::newsletters::newsletters_per_pass"
+msgid "Newsletters sent per step"
+msgstr "خبرنامه فرستاده شده در هر مرحله"
+
+msgctxt "SettingsOptions::newsletters::elm_advanced_mailing_server_options"
+msgid "Advanced mailing server options"
+msgstr "گزینه های پیشرفته سرور های پستی"
+
+msgctxt "SettingsOptions::newsletters::mailer_send_method"
+msgid "Method of sending e-mails"
+msgstr "روش ارسال ایمیل"
+
+msgctxt "SettingsOptions::newsletters::elm_smtp_server_settings"
+msgid "SMTP server settings"
+msgstr "تنظیمات سرورSMTP"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_host"
+msgid "SMTP host"
+msgstr "میزبانSMTP"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_username"
+msgid "SMTP username"
+msgstr "نام کاربریSMTP"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_password"
+msgid "SMTP password"
+msgstr "رمزعبور SMTP"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_ecrypted_connection"
+msgid "Use Encrypted Connection"
+msgstr "استفاده از اتصال رمزگذاری شده"
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::none"
+msgid "None"
+msgstr "هیچ کدام"
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::tls"
+msgid "TLS"
+msgstr "TLS"
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::ssl"
+msgid "SSL"
+msgstr "SSL"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_auth"
+msgid "Use SMTP authentication"
+msgstr "استفاده از تایید اعتبارSMTP"
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::smtp"
+msgid "via SMTP server"
+msgstr "از طریق سرور SMTP"
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::mail"
+msgid "via php mail function"
+msgstr "از طریق تابع ایمیل php"
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::default"
+msgid "use default settings"
+msgstr "استفاده از تنظیمات پیش فرض"
+
+msgctxt "SettingsSections::newsletters::promotions"
+msgid "Promotions"
+msgstr "تبلیغات"
+
+msgctxt "SettingsOptions::newsletters::coupon"
+msgid "Choose a promotion whose promo code will be given at subscription"
+msgstr "کد تبلیغی که در اشتراک داده شده است را انتخاب کنید"
+
+msgctxt "Languages::subscribers_promo_subject"
+msgid "Thank you for subscribing! Use the coupon code [coupon] in our special offer \"[promotion]\"."
+msgstr "با تشکر از شما به خاطر اشتراک! از کد کوپن [coupon] در پیشنهاد های ویژه ما \"[promotion]\" استفاده نمایید."
+
+msgctxt "Languages::subscribers_no_promo"
+msgid "No promotion"
+msgstr "بدون ترفیع"
+
+msgctxt "Languages::promotion_cond_subscribed"
+msgid "Customer is subscribed"
+msgstr "مشتری مشترک شده است"
+
+msgctxt "Languages::addons.newsletters.email_exists_in_list"
+msgid "<b>[email]</b> is already in the mailing list"
+msgstr "<b>[email]</b> در حال حاضر در لیست مشترکین می باشد"
+
+msgctxt "Languages::email_template.newsletters_newsletter"
+msgid "Newsletter"
+msgstr "خبرنامه"
+
+msgctxt "Languages::email_template.newsletters_promotion"
+msgid "Newsletters: promotion"
+msgstr "خبرنامه: ارتقاء"
+

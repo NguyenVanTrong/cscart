@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/banners.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::banners"
+msgid "Banners management"
+msgstr "مدیریت بنر"
+
+msgctxt "Addons::description::banners"
+msgid "Allows you to create text and visual banners"
+msgstr "به شما دسترسی ایجاد متن و بنر تصویری میدهد"
+
+msgctxt "Languages::banners.new_banner"
+msgid "New banner"
+msgstr "بنر جدید"
+
+msgctxt "Languages::banners.editing_banner"
+msgid "Editing banner"
+msgstr "ویرایش بنر"
+
+msgctxt "Languages::add_banner"
+msgid "Add banner"
+msgstr "اضافه کردن بنر"
+
+msgctxt "Languages::banner"
+msgid "Banner"
+msgstr "بنر"
+
+msgctxt "Languages::banners"
+msgid "Banners"
+msgstr "آگهی ها"
+
+msgctxt "Languages::banners_menu_description"
+msgid "Create graphic and text banners that can then be placed on the storefront."
+msgstr "ایجاد گرافیک و متن آگهی که سپس می تواند در نمای قرار داده شود."
+
+msgctxt "Languages::banner_code"
+msgid "Banner code"
+msgstr "كد بنر"
+
+msgctxt "Languages::banner_code_for_some_products"
+msgid "Banner code for some products"
+msgstr "کد بنر برای برخی از محصولات"
+
+msgctxt "Languages::manage_banners"
+msgid "Manage banners"
+msgstr "مدیریت آگهی ها"
+
+msgctxt "Languages::block_banners"
+msgid "Banners"
+msgstr "آگهی ها"
+
+msgctxt "Languages::block_banners_description"
+msgid "Visual and text banners"
+msgstr "بنرهای تصویری و متنی"
+
+msgctxt "Languages::privileges.view_banners"
+msgid "View banners"
+msgstr "مشاهده آگهی ها"
+
+msgctxt "Languages::privileges.manage_banners"
+msgid "Manage banners"
+msgstr "مدیریت آگهی ها"
+
+msgctxt "Languages::add_banners"
+msgid "Add banners"
+msgstr "اضافه کردن آگهی ها"
+
+msgctxt "Languages::add_banners_and_close"
+msgid "Add banners and close"
+msgstr "اضافه کردن آگهی ها و بستن"
+
+msgctxt "Languages::graphic_banner"
+msgid "Graphic banner"
+msgstr "آگهی گرافیکی"
+
+msgctxt "Languages::text_banner"
+msgid "Text banner"
+msgstr "متن بنر"
+
+msgctxt "Languages::views"
+msgid "Views"
+msgstr "نمایش ها"
+
+msgctxt "Languages::conversion"
+msgid "Conversion"
+msgstr "تبدیل"
+
+msgctxt "Languages::banner_details_notes"
+msgid "After you create a banner here, you should use the <strong>Layout editor</strong> to add it to the storefront.<br /><br />Go to <a href=\"[layouts_href]\" target=\"_blank\">Design → Layouts</a>, switch to the location where you want the banner to appear, and add a new block with type <strong>Banners</strong>.<br /><br />In this block settings, go to the <strong>Content</strong> tab, pick the <strong>Manual</strong> filling, and click on the <strong>Add banners</strong> button.<br /><br />You will see the list of all the banners in your store. Pick the one(s) you need and click on the <strong>Add banners and close</strong> button.<br /><br />Finally, click on the <strong>Create</strong> button to save your changes."
+msgstr "بعد از اینکه شما یک بنر ایجاد کنید، باید از <strong> چیدمان ویرایشگر </ strong> استفاده از بنر در صفحه اینترنتی به جای استفاده کنید. <br /> <br /> به برای انجام این کار در از <a href = \"[layouts_href]\" هدف = \"_ خالی\"> طراحی → کد طرح و رفتن به مکانی که در آن پرچم نشان داده خواهد شد. پس از آن یک بلوک جدید با <strong> بنر </ strong> است. <br /> در <br /> در تنظیمات بلوک، به <strong> محتوا </ strong> اضافه کنید و <strong> دفترچه راهنما </ قوی> اضافه کردن پر کردن و سپس در سایت <strong> را کلیک بنر </ strong> است. <br /> <br /> شما در حال حاضر یک لیست از تمام آگهی ها در فروشگاه خود را ببینید. انتخاب کنید / مورد نیاز و کلیک بر روی دکمه و <strong> بنر اضافه کنید و اتصال </ strong>. <br /> <br /> با نهایت، کلیک بر روی دکمه <strong> ایجاد کنید </ strong> به برای ذخیره تغییرات."
+
+msgctxt "SettingsSections::banners::general"
+msgid "General"
+msgstr "عمومی"
+
+msgctxt "SettingsOptions::banners::banner_multilang"
+msgid "Enable multi-language Images/URLs"
+msgstr "فعال کردن تصاویر چند زبانه / URL ها"
+

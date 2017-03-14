@@ -1,0 +1,50 @@
+.ty-qty-in-stock,
+.ty-qty-out-of-stock{
+    font-weight: normal;
+}
+
+.ty-logo-container {
+    margin-top: 7px;
+}
+
+.ty-search-magnifier {
+    height: 33px;
+    width: 33px;
+    top: 0;
+    right: 0;
+    border-radius: 5px;
+}
+
+.ty-menu__item > .ty-menu__item-link {
+    font-size: 15px;
+}
+
+.ty-tabs__content{
+    border-top: none;
+    padding: 15px 10px;
+}
+
+.content-description {
+    line-height: 1.7;
+}
+
+.ty-discount-label{
+    left: 5px;
+    right: auto;
+    top: 5px;
+}
+
+.ty-horizontal-product-filters {
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .ty-sidebox__title-toggle {
+        top: 6px;
+    }
+}
+@media (min-width: 767px) {
+    .ty-menu-vertical .ty-menu__submenu [class*="menu-level-"].ty-menu__item-active > .ty-menu__submenu-item-header .ty-menu__item-link {
+        color: #fff;
+    }
+}

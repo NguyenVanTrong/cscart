@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Georgian\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ka\n"
+"X-Crowdin-File: /addons/tags.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:46-0500\n"
+
+msgctxt "Addons::name::tags"
+msgid "Tags"
+msgstr "თეგები"
+
+msgctxt "Addons::description::tags"
+msgid "Enables product tags"
+msgstr "პროდუქციის თეგების ჩართვა"
+
+msgctxt "Languages::tags_menu_description"
+msgid "Manage product and content page tags."
+msgstr "პროდუქციის თეგების და გვერდების კონტენტის რედაქტირება."
+
+msgctxt "Languages::sign_in_to_enter_tags"
+msgid "Sign in to enter tags"
+msgstr "შედით იმისათვის რომ დაამატოთ ტეგები"
+
+msgctxt "Languages::tag_cloud"
+msgid "Tag cloud"
+msgstr "თეგების ღრუბელი"
+
+msgctxt "Languages::tags"
+msgid "Tags"
+msgstr "თეგები"
+
+msgctxt "Languages::block_tags"
+msgid "Tags"
+msgstr "თეგები"
+
+msgctxt "Languages::block_tags_description"
+msgid "Product tags"
+msgstr "პროდუქციის თეგები"
+
+msgctxt "Languages::addons.tags.add_a_tag"
+msgid "add a tag"
+msgstr "თეგის დამატება"
+
+msgctxt "Languages::items_marked_by_tag"
+msgid "Items marked by the \"[tag]\" tag:"
+msgstr "ელემენტები მონიშნული თეგით \"[tag]\":"
+
+msgctxt "Languages::tag"
+msgid "Tag"
+msgstr "თეგი"
+
+msgctxt "Languages::add_tag"
+msgid "Add tag"
+msgstr "თეგის დამატება"
+
+msgctxt "SettingsSections::tags::general"
+msgid "General"
+msgstr "ზოგადი"
+
+msgctxt "SettingsOptions::tags::tags_for_products"
+msgid "Tags for products"
+msgstr "თეგები პროდუქტებისთვის"
+
+msgctxt "SettingsOptions::tags::tags_for_pages"
+msgid "Tags for pages"
+msgstr "თეგები გვერდებისთვის"
+

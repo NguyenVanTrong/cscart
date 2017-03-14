@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<documents scheme="1.0">
+    <document>
+        <code><![CDATA[invoice]]></code>
+        <type><![CDATA[supplier_order]]></type>
+        <template/>
+        <default_template><![CDATA[<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+	<td>
+		<div style="width:1px; height: 1px;">
+		</div>
+	</td>
+	<td style="border: #ededed; border-style: solid; border-width: 2px" align="center" width="600">
+		<table border="0" cellpadding="10" cellspacing="0" width="100%">
+		<tbody>
+		<tr>
+			<td>
+				<table style="padding: 20px 0px 24px 0px;" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody>
+				<tr valign="top">
+					<td width="54%" style="font-family: Helvetica, Arial, sans-serif;">
+						{{snippet("ship_to")}}
+					</td>
+					<td width="54%" style="font-family: Helvetica, Arial, sans-serif;">
+						{{snippet("bill_to")}}
+					</td>
+				</tr>
+				</tbody>
+				</table>
+				<br>
+				<br>
+				<div style="font-family: Helvetica, Arial, sans-serif;">
+					{{ snippet("products_table") }}
+				</div>
+				<div style="font-family: Helvetica, Arial, sans-serif;">
+					{{ snippet("supplier_info") }}
+				</div>
+			</td>
+		</tr>
+		</tbody>
+		</table>
+	</td>
+	<td>
+		<div style="width:1px; height: 1px;">
+		</div>
+	</td>
+</tr>
+</tbody>
+</table>]]></default_template>
+        <addon><![CDATA[suppliers]]></addon>
+        <snippets>
+            <item>
+                <code><![CDATA[bill_to]]></code>
+                <template/>
+                <default_template><![CDATA[<h3 style="padding: 0px 0px 10px 1px; font-size: 15px; border-bottom: 1px solid #ededed;">{{ __("bill_to") }}:</h3>
+                        <p style="margin: 2px 0px 3px 0px; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">
+                            {{ u.b_firstname }} {{ u.b_lastname }}
+                        </p>
+                        <p style="margin: 2px 0px 3px 0px; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">
+                            {{ u.b_address }} {{ u.b_address_2 }}
+                        </p>
+                        <p style="margin: 2px 0px 3px 0px; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">
+                            {{ u.b_city }} {{ u.b_state_descr }} {{ u.b_zipcode }}
+                        </p>
+                        <p style="margin: 2px 0px 3px 0px; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">
+                            {{ u.b_country_descr }}
+                        </p>
+                        <p style="margin: 2px 0px 3px 0px; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">
+                            {{ u.b_phone }}
+                        </p>
+                        {% for field in u.b_fields %}
+                        <p style="margin: 2px 0px 3px 0px; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">{{ field.name }}: {{ field.value }}
+                        </p>
+                        {% endfor %}]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Bill to]]></en>
+                    <ru><![CDATA[Плательщик]]></ru>
+                </name>
+                <params/>
+                <addon><![CDATA[suppliers]]></addon>
+                <handler/>
+                <extra/>
+            </item>
+            <item>
+                <code><![CDATA[products_table]]></code>
+                <template/>
+                <default_template><![CDATA[<table width="100%" cellpadding="0" cellspacing="1" style="border-collapse: separate; border-spacing: 1px; background-color: #dddddd; margin-top: 20px;">
+
+<thead>
+    <tr>
+
+        {% for  header in products_table.headers %}
+            <th style="background-color: #eeeeee; padding: 6px 10px; white-space: nowrap; font-size: 12px; font-family: Helvetica, Arial, sans-serif; text-align: center;">{{ header }}</th>
+        {% endfor %}
+    </tr>
+</thead>
+<tbody>
+    {% for  row in products_table.rows %}
+        <tr>
+            {% for  column in row %}
+                <td style="padding: 5px 10px; background-color: #ffffff; font-size: 12px; font-family: Helvetica, Arial, sans-serif; border: 1px solid #ededed;">{{ column }}</td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+</tbody>
+</table>]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Products table]]></en>
+                    <ru><![CDATA[Таблица товаров]]></ru>
+                </name>
+                <params>
+                    <used_table>1</used_table>
+                    <variable_schema><![CDATA[supplier_order_products_table]]></variable_schema>
+                </params>
+                <addon><![CDATA[suppliers]]></addon>
+                <handler><![CDATA[fn_supplier_init_snippet_products_table_variable]]></handler>
+                <extra>
+                    <table_columns>
+                        <item>
+                            <code><![CDATA[code]]></code>
+                            <position>10</position>
+                            <template/>
+                            <addon><![CDATA[suppliers]]></addon>
+                            <default_template><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif;">{{ p.product_code }}</p>]]></default_template>
+                            <status><![CDATA[A]]></status>
+                            <name>
+                                <en><![CDATA[Code]]></en>
+                                <ru><![CDATA[Код]]></ru>
+                            </name>
+                        </item>
+                        <item>
+                            <code><![CDATA[name]]></code>
+                            <position>20</position>
+                            <template/>
+                            <addon><![CDATA[suppliers]]></addon>
+                            <default_template><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif;">{{ p.name }}</p>{% if p.options %}<p style="font-family: Helvetica, Arial, sans-serif;">{{ p.options }}<br></p>{% endif %}]]></default_template>
+                            <status><![CDATA[A]]></status>
+                            <name>
+                                <en><![CDATA[Product]]></en>
+                                <ru><![CDATA[Товар]]></ru>
+                            </name>
+                        </item>
+                        <item>
+                            <code><![CDATA[amount]]></code>
+                            <position>30</position>
+                            <template/>
+                            <addon><![CDATA[suppliers]]></addon>
+                            <default_template><![CDATA[<p style="text-align: center; font-family: Helvetica, Arial, sans-serif;">{{ p.amount }}</p>]]></default_template>
+                            <status><![CDATA[A]]></status>
+                            <name>
+                                <en><![CDATA[Amount]]></en>
+                                <ru><![CDATA[Кол-во]]></ru>
+                            </name>
+                        </item>
+                    </table_columns>
+                </extra>
+            </item>
+            <item>
+                <code><![CDATA[ship_to]]></code>
+                <template/>
+                <default_template><![CDATA[<h3 style="padding: 0px 0px 10px 1px; font-size: 15px; font-family: Helvetica, Arial, sans-serif; border-bottom: 1px solid #ededed;">{{__("ship_to")}}:</h3>
+    <p style="margin: 2px 0px 3px 0px; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">
+                            {{ u.s_firstname }} {{ u.s_lastname }}
+                        </p>
+                        <p style="margin: 2px 0px 3px 0px; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">
+                            {{ u.s_address }} {{ u.s_address_2 }}
+                        </p>
+                        <p style="margin: 2px 0px 3px 0px; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">
+                            {{ u.s_city }} {{ u.s_state_descr }} {{ u.s_zipcode }}
+                        </p>
+                        <p style="margin: 2px 0px 3px 0px; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">
+                            {{ u.s_country_descr }}
+                        </p>
+                        <p style="margin: 2px 0px 3px 0px; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">
+                            {{ u.s_phone }}
+                        </p>
+                        {% for field in u.s_fields %}
+                        <p style="margin: 2px 0px 3px 0px; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">{{ field.name }}: {{ field.value }}
+                        </p>
+                        {% endfor %}]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Ship to]]></en>
+                    <ru><![CDATA[Доставить в]]></ru>
+                </name>
+                <params/>
+                <addon><![CDATA[suppliers]]></addon>
+                <handler/>
+                <extra/>
+            </item>
+            <item>
+                <code><![CDATA[supplier_info]]></code>
+                <template/>
+                <default_template><![CDATA[{% if supplier.shippings %}
+    <div align="right">
+        <table>
+            {% for shipping in supplier.shippings %}
+                <tr>
+                    <td align="right" nowrap="nowrap" style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;"><b>{{ __("shipping_method") }}:</b>&nbsp;</td>
+                    <td align="right" nowrap="nowrap" style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;">{{ shipping.shipping }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+    <div align="right">
+        <table>
+            <tr>
+                <td align="right" nowrap="nowrap" style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;"><b>{{ __("shipping_cost") }}:</b>&nbsp;</td>
+                <td align="right" nowrap="nowrap" style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;">{{ supplier.cost }}</td>
+            </tr>
+        </table><br />
+    </div>
+{% endif %}]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Supplier info]]></en>
+                    <ru><![CDATA[Информация о поставщике]]></ru>
+                </name>
+                <params/>
+                <addon><![CDATA[suppliers]]></addon>
+                <handler/>
+                <extra/>
+            </item>
+        </snippets>
+    </document>
+</documents>

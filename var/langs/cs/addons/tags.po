@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /addons/tags.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:01-0500\n"
+
+msgctxt "Addons::name::tags"
+msgid "Tags"
+msgstr "Štítky"
+
+msgctxt "Addons::description::tags"
+msgid "Enables product tags"
+msgstr "Povolí štítky zboží"
+
+msgctxt "Languages::tags_menu_description"
+msgid "Manage product and content page tags."
+msgstr "Spravovat značky výrobků a štítky."
+
+msgctxt "Languages::sign_in_to_enter_tags"
+msgid "Sign in to enter tags"
+msgstr "Přihlaste se k zadání štítků"
+
+msgctxt "Languages::tag_cloud"
+msgid "Tag cloud"
+msgstr "Tag cloud"
+
+msgctxt "Languages::tags"
+msgid "Tags"
+msgstr "Štítky"
+
+msgctxt "Languages::block_tags"
+msgid "Tags"
+msgstr "Štítky"
+
+msgctxt "Languages::block_tags_description"
+msgid "Product tags"
+msgstr "Štítky produktu"
+
+msgctxt "Languages::addons.tags.add_a_tag"
+msgid "add a tag"
+msgstr "přidat štítek"
+
+msgctxt "Languages::items_marked_by_tag"
+msgid "Items marked by the \"[tag]\" tag:"
+msgstr "Položky označené pomocí \"[tag]\" štítku:"
+
+msgctxt "Languages::tag"
+msgid "Tag"
+msgstr "Štítek"
+
+msgctxt "Languages::add_tag"
+msgid "Add tag"
+msgstr "Přidat štítek"
+
+msgctxt "SettingsSections::tags::general"
+msgid "General"
+msgstr "Obecné"
+
+msgctxt "SettingsOptions::tags::tags_for_products"
+msgid "Tags for products"
+msgstr "Štítek pro produkt"
+
+msgctxt "SettingsOptions::tags::tags_for_pages"
+msgid "Tags for pages"
+msgstr "Štítky pro produkty"
+

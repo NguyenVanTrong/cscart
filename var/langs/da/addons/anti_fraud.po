@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: da\n"
+"X-Crowdin-File: /addons/anti_fraud.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:02-0500\n"
+
+msgctxt "Addons::name::anti_fraud"
+msgid "Anti fraud"
+msgstr "Bedrageribekæmpelse"
+
+msgctxt "Addons::description::anti_fraud"
+msgid "Adds configurable security order verification using the Maxmind service to prevent fraud"
+msgstr "Tilføj konfigurerbare sikkerhedsordre bekræftelse ved hjælp af tjenesten Maxmind til at forhindre svig"
+
+msgctxt "Languages::af_big_order_total"
+msgid "Order total exceeds the allowed maximum"
+msgstr "Den samlede ordrer overstiger den fastsatte maksimum"
+
+msgctxt "Languages::af_country_doesnt_match"
+msgid "The country does not match the IP address"
+msgstr "Landet matcher ikke din IP"
+
+msgctxt "Languages::af_has_failed_orders"
+msgid "Customer has FAILED orders"
+msgstr "Kunder har MISLYKKEDE ordrer"
+
+msgctxt "Languages::af_has_successfull_orders"
+msgid "Customer has SUCCESSFUL orders"
+msgstr "Kunder har SUCCESFULDE ordrer"
+
+msgctxt "Languages::af_high_risk_country"
+msgid "High risk country"
+msgstr "Højrisiko land"
+
+msgctxt "Languages::af_high_risk_factor"
+msgid "Risk factor exceeds the defined value"
+msgstr "Risikofaktor overstiger den fastlagte værdi"
+
+msgctxt "Languages::af_ip_not_found"
+msgid "Failed to identify customer's IP address"
+msgstr "Kunne ikke bestemme kundens IP-adresse"
+
+msgctxt "Languages::af_long_distance"
+msgid "Customer is outside the safe distance"
+msgstr "Kunde er uden for sikkersafstand"
+
+msgctxt "Languages::af_low_risk_factor"
+msgid "Risk factor is admissible"
+msgstr "Risikofaktor er tilladeligt"
+
+msgctxt "Languages::antifraud_failed_order"
+msgid "Your order was placed in the store. It is undergoing an additional check now. We will contact you as soon as the administrator finishes it"
+msgstr "Din ordre blev afgivet til butikken. Det er under en supplerende kontrol nu. Vi vil kontakte dig så snart administratoren afslutter den"
+
+msgctxt "Languages::risk_factor"
+msgid "Risk factor"
+msgstr "Risikofaktor"
+
+msgctxt "Languages::not_available"
+msgid "n/a"
+msgstr "ikke gældende"
+
+msgctxt "Languages::decision"
+msgid "Decision"
+msgstr "Afgørelse"
+
+msgctxt "Languages::anti_fraud_order_not_approved"
+msgid "Order has not been approved because risk factor exceeds Maximum risk factor"
+msgstr "Odrer er ikke blevet godkendt grundet for høj risiko"
+
+msgctxt "Languages::anti_fraud_order_approved"
+msgid "Order has been approved"
+msgstr "Ordren er blevet godkendt"
+
+msgctxt "Languages::fraud_risk"
+msgid "Fraud risk"
+msgstr "Bedrageri risiko"
+
+msgctxt "Languages::fraud_checking"
+msgid "Fraud checking"
+msgstr "Bedrageri kontrol"
+
+msgctxt "SettingsSections::anti_fraud::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_key"
+msgid "Maxmind license key"
+msgstr "Maxmind licensnøgle"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_safe_distance"
+msgid "Safe distance (km)"
+msgstr "Sikker afstand (km)"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_max_order_total"
+msgid "Max order total"
+msgstr "Maksimum ordrer total"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_risk_factor"
+msgid "Maximum risk factor (1..100)"
+msgstr "Maksimale risikofaktor (1..100)"
+
+msgctxt "SettingsOptions::anti_fraud::antifraud_order_status"
+msgid "Order status"
+msgstr "Ordrestatus"
+

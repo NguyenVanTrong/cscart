@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /addons/blog.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:01-0500\n"
+
+msgctxt "Addons::name::blog"
+msgid "Blog"
+msgstr "Blog"
+
+msgctxt "Addons::description::blog"
+msgid "Lets you start your blog easily"
+msgstr "Umožňuje jednoduše spustit svůj blog"
+
+msgctxt "Languages::blog_menu_description"
+msgid "Manage your blog posts."
+msgstr "Spravovat příspěvky na blogu."
+
+msgctxt "Languages::blog.new_post"
+msgid "New blog post"
+msgstr "Nový příspěvek blogu"
+
+msgctxt "Languages::blog.editing_post"
+msgid "Editing blog post"
+msgstr "Úprava příspěvku blogu"
+
+msgctxt "Languages::blog"
+msgid "Blog"
+msgstr "Blog"
+
+msgctxt "Languages::blog.add_post"
+msgid "Add blog post"
+msgstr "Přidat příspěvek blogu"
+
+msgctxt "Languages::blog.recent_posts"
+msgid "Blog: recent posts"
+msgstr "Blog: nejnovější příspěvky"
+
+msgctxt "Languages::blog.recent_posts_scroller"
+msgid "Blog: recent posts scroller"
+msgstr "Blog: Scroller nedávných příspěvků"
+
+msgctxt "Languages::blog.view_post"
+msgid "View post"
+msgstr "Zobrazit příspěvek"
+
+msgctxt "Languages::recent_blog_posts"
+msgid "Recent blog posts"
+msgstr "Nejnovější příspěvky blogu"
+
+msgctxt "Languages::blog.posts"
+msgid "Posts"
+msgstr "Příspěvky"
+
+msgctxt "Languages::blog.post"
+msgid "Post"
+msgstr "Příspěvek"
+
+msgctxt "Languages::block_blog"
+msgid "Recent posts"
+msgstr "Poslední příspěvky"
+
+msgctxt "Languages::blog.text_links"
+msgid "Blog: text links"
+msgstr "Blog: textové odkazy"
+
+msgctxt "Languages::blog.read_more"
+msgid "Read more"
+msgstr "Číst více"
+
+msgctxt "Languages::post_description"
+msgid "Post description"
+msgstr "Popis příspěvku"
+
+msgctxt "Languages::ttc_post_description"
+msgid "Use the &lt;!--CUT--&gt; tag (switch to source code to insert it) to hide part of the post. Only the part above the tag is shown in the list of all posts.<br /><br />Make sure to <strong>close all HTML tags</strong> above the &lt;!--CUT--&gt; tag!"
+msgstr "Použijte tag &lt;!--CUT--&gt; (přepnout do zdrojového kódu a vložit jej), skrýt část sloupku. Jen se zobrazí část tagu nad seznamem všech pracovních míst.<br /><br />Ujistěte se, že <strong>všechny HTML tagy jsou uzavřeny</strong> nahoře nad tagu &lt;!--CUT--&gt;!"
+
+msgctxt "Languages::blog_functionality_notes"
+msgid "<p>Use this page to manage your blog. This is how you should organize your blog posts:</p><ul><li>Blog is a usual post that has the <b>Root level page</b> as the Parent page.</li><li>Choose <b>Blog</b> as the Parent page for your blog posts.</li></ul>"
+msgstr "<p>Tato stránka slouží ke správě vašeho blogu. To je, jak by měl organizovat vaše příspěvky blogu:</p><ul><li>Blog je obvyklý příspěvek, který má <b>stránku kořenové úrovně</b> jako nadřazené stránky.</li><li>Zvolit <b>Blog</b> jako nadřazenou stránku pro váše blog příspěvky.</li></ul>"
+

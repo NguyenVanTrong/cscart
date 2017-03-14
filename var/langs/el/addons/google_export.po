@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /addons/google_export.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-22 04:00-0500\n"
+
+msgctxt "Addons::name::google_export"
+msgid "Google export"
+msgstr "Google export"
+
+msgctxt "Addons::description::google_export"
+msgid "Expands the Data Feeds add-on to work with Google Base and creates an example of such data feed"
+msgstr "Επεκτεινει το προσθετο Data Feeds ωστε να δουλευει με το Google Base και δημιουργει ενα παραδειγμα τετοιου data feed"
+
+msgctxt "Languages::google_export_general_info"
+msgid "<p>Note: toggle this setting if you need multi-language Google categories installed. Supports French, German, Italian, Spanish, and British English. Pay attention that this operation can take a significant amount of time.</p>"
+msgstr "Σημείωση <p>: Εναλλαξτε αυτή τη ρύθμιση εάν χρειάζεται να εγκαταστησετε Πολυ-γλωσσικες Google κατηγορίες . Υποστηρίζει, γαλλικά, γερμανικά, ιταλικά, ισπανικά και βρετανικά αγγλικά. Δώστε προσοχή ότι αυτή η λειτουργία μπορεί να πάρει ένα σημαντικό ποσό χρόνου.</p>"
+
+msgctxt "Languages::google_export_start_import"
+msgid "Start importing"
+msgstr "Εναρξη Εισαγωγης"
+
+msgctxt "SettingsSections::google_export::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::google_export::general_info"
+msgid "General info"
+msgstr "Γενικές πληροφορίες"
+
+msgctxt "SettingsOptions::google_export::additional_langs"
+msgid "Install additional languages for Google categories"
+msgstr "Εγκατάσταση πρόσθετων γλωσσών για το Google κατηγορίες"
+
+msgctxt "Languages::addons.google_export.skip_zero_prices"
+msgid "Don't export items with a price value of 0.00"
+msgstr "Δεν χρειάζεται να εξάγετε στοιχεία με τιμή 0,00"
+
+msgctxt "Languages::addons.google_export.skip_zero_prices_description"
+msgid "You must not include a price value of 0.00 for your Google Products Feed items. Items with zero prices may not appear in the search results."
+msgstr "Δεν πρέπει να περιλαμβάνονται η τιμή 0,00 για τα προιοντα στο Google Products Feed. Αντικείμενα με μηδενικές τιμές ενδέχεται να μην εμφανίζονται στα αποτελέσματα αναζήτησης."
+
+msgctxt "Languages::addons.google_export.notice"
+msgid "Before you export products to Google Product Feed, make sure that the Code of your store's <a href=\"[currency_url]\">primary currency</a> conforms to <a href=\"http://www.currency-iso.org/en/home/tables/table-a1.html\">ISO 4217</a> and used <a href=\"[settings_url]\">Weight symbol</a> is one of the following: lb, oz, g, kg"
+msgstr "Πριν από την εξαγωγή προϊόντων στο Google Product Feed, βεβαιωθείτε ότι ο κώδικας του καταστήματος σας <a href=\"[currency_url]\"> κυριο νόμισμα</a> συμμορφώνεται με <a href=\"http://www.currency-iso.org/en/home/tables/table-a1.html\"> ISO 4217</a> και το <a href=\"[settings_url]\">σύμβολο βαρους</a> που χρησιμοποειτε, είναι ένα από τα ακόλουθα: lb oz, g, kg"
+
+msgctxt "Languages::addons.google_export.google_export"
+msgid "Google export"
+msgstr "Google export"
+
+msgctxt "Languages::google_name_option"
+msgid "Equivalent in Google:"
+msgstr ""
+
+msgctxt "Languages::addons.google_export.tax_notice"
+msgid "For the US, don't include tax in the price. For Canada and India, do not include any value added tax in the price. For all other countries, value added tax (VAT) has to be included in the price."
+msgstr "Για τις ΗΠΑ, δεν περιλαμβάνεται φόρος στην τιμή. Για τον Καναδά και την Ινδία, δεν περιλαμβάνεται ΦΠΑ στην τιμή. Για όλες τις άλλες χώρες, το ΦΠΑ πρέπει να περιλαμβάνεται στην τιμή."
+
+msgctxt "Languages::addons.google_export.info_google_features"
+msgid "<p>Before you export a data feed file for Google Merchant, make sure to edit your products and specify the values of product features that belong to the Google Export group. You can do this via product import and export, or mass editing.</p><p> GTIN is a key identifier of a product. If you didn't specify GTIN as a feature, product's SKU from the CODE field will be used. GTINs for option combinations are always taken from the CODE fields of combinations.</p>"
+msgstr ""
+
+msgctxt "Languages::tt_addons_google_export_hooks_product_options_properties_post_google_name_option"
+msgid "When you export a data feed file, this option will provide data for the selected Google field type."
+msgstr ""
+
+msgctxt "Languages::addons.google_export.text_info_setting_options"
+msgid "Please make sure that you selected this option as \"Equivalent in Google\" for one of the options in your store. Otherwise the data feed file may not be exported properly."
+msgstr ""
+

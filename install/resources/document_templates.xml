@@ -1,0 +1,1017 @@
+<?xml version="1.0"?>
+<documents scheme="1.0">
+    <document>
+        <code><![CDATA[invoice]]></code>
+        <type><![CDATA[order]]></type>
+        <template/>
+        <default_template><![CDATA[<table width="100%;" style="min-width: 800px; font-family: Helvetica, Arial, sans-serif; border-collapse: separate;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr style="vertical-align: top;">
+	<td>
+		<table width="100%;" cellspacing="0" border="0" style="border-collapse: separate; font-family: Helvetica, Arial, sans-serif;">
+		<tbody>
+		<tr>
+			<td width="66%" style="padding-bottom: 40px; vertical-align: top; font-family: Helvetica, Arial, sans-serif;"><img src="{{c.logos.mail.image.image_path}}" alt="{{ company_data.company_name }}">
+			</td>
+			<td width="34%" style="padding-bottom: 40px; -webkit-print-color-adjust: exact; font-family: Helvetica, Arial, sans-serif;">
+				<p style="color: #787878; font-size: 14px; font-family: Helvetica, Arial, sans-serif; padding-bottom: 3px; margin: 0px;">
+					<span style="color: #000000; font-weight: 600; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; line-height: 20px;">{{ o.invoice_id_text }}</span>
+				</p>
+
+				<p style="color: #787878; font-size: 14px; font-family: Helvetica, Arial, sans-serif; padding-bottom: 5px; margin: 0px;">
+					<span style="color: #000000; font-weight: 600; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase;">{{__("order_date")}}</span>  {{o.timestamp}}
+				</p>
+				<p style="color: #787878; font-size: 14px; font-family: Helvetica, Arial, sans-serif; padding-bottom: 5px; margin: 0px;">
+					<span style="color: #000000; font-weight: 600; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase;">{{__("payment")}}</span> {{p.payment}}
+				</p>
+				<p style="color: #787878; font-size: 14px; font-family: Helvetica, Arial, sans-serif; padding-bottom: 5px; margin: 0px;">
+					<span style="color: #000000; font-weight: 600; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase;">{{__("shipping")}}</span> 	{{o.shippings_method}}
+				</p>
+				{% if o.tracking_number %}
+				<p style="color: #787878; font-size: 14px; font-family: Helvetica, Arial, sans-serif; padding-bottom: 5px; margin: 0px;">
+					<span style="color: #000000; font-weight: 600; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase;">{{__("tracking_number")}}</span> 	{{o.tracking_number}}
+				</p>
+				{% endif %}
+			</td>
+		</tr>
+		</tbody>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td colspan="2">
+		<table width="100%;" cellspacing="0" cellpadding="0" border="0" style=" border-collapse: separate; font-family: Helvetica, Arial, sans-serif;">
+		<tbody>
+		<tr>
+			<td style="vertical-align: top; background-color: #f7f7f7; color: #444444; padding: 20px 10px; color: #444444; font-size: 14px; font-family: Helvetica, Arial, sans-serif; -webkit-print-color-adjust: exact;" width="30%">
+				<h1 style="margin: 0px; font-size: 22px; font-family: Helvetica, Arial, sans-serif; color: #444444; text-transform: uppercase; padding-bottom: 20px; border-bottom: 3px solid #444444; margin-bottom: 20px;">{{__("store")}}</h1>
+				<p style="margin: 0px; padding-bottom: 10px;"><strong>{{c.name}}</strong>
+				</p>
+				{{ snippet("company_address") }}
+			</td>
+			<td style="vertical-align: top; padding: 20px 30px; color: #444444; font-size: 14px; font-family: Helvetica, Arial, sans-serif;" width="36%">
+				{{ snippet("bill_to") }}
+			</td>
+			<td style="vertical-align: top; padding: 20px 0px; color: #444444; font-size: 14px; font-family: Helvetica, Arial, sans-serif;" width="34%">
+				{{ snippet("ship_to") }}
+			</td>
+		</tr>
+		</tbody>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td style="font-family: Helvetica, Arial, sans-serif;">
+		{{ snippet("products_table") }}
+	</td>
+</tr>
+<tr>
+	<td style="border-top: 3px solid #444444; padding-top: 10px; font-family: Helvetica, Arial, sans-serif;">
+		<table width="100%" style="border-collapse: separate; font-family: Helvetica, Arial, sans-serif;">
+		<tbody>
+		<tr>
+			<td width="66%" style="font-size: 14px; font-family: Helvetica, Arial, sans-serif; line-height: 21px; color: #444444; padding-right: 30px; vertical-align:top;">
+				{% if o.notes %}
+				<h2 style="margin: 0px; font-size: 22px; font-family: Helvetica, Arial, sans-serif; color: #444444; text-transform: uppercase; padding-bottom: 20px; border-bottom: 3px solid #e8e8e8; margin-bottom: 10px;">{{ __("customer_notes") }}</h2>
+				{{ o.notes }}
+                                {% endif %}
+			</td>
+			<td width="34%" style="vertical-align: top; font-family: Helvetica, Arial, sans-serif;">
+				<table width="100%;" style="font-size: 14px; color: #444; font-family: Helvetica, Arial, sans-serif;">
+				<tbody>
+				<tr style=" vertical-align: top;">
+					<td align="left" style="padding-bottom: 20px; font-family: Helvetica, Arial, sans-serif;">{{ __("subtotal") }}
+					</td>
+					<td align="right" style="font-family: Helvetica, Arial, sans-serif;">{{o.display_subtotal}}
+					</td>
+				</tr>
+				<tr style=" vertical-align: top; font-family: Helvetica, Arial, sans-serif;">
+					<td align="left" style="padding-bottom: 20px; text-transform: uppercase; font-family: Helvetica, Arial, sans-serif;">{{o.tax_name}}
+					</td>
+					<td align="right" style="font-family: Helvetica, Arial, sans-serif;">{{o.tax_total}}
+					</td>
+				</tr>
+				<tr style=" vertical-align: top; font-family: Helvetica, Arial, sans-serif;">
+					<td align="left" style="padding-bottom: 20px; font-family: Helvetica, Arial, sans-serif;">{{ __("shipping") }}
+					</td>
+					<td align="right" style="font-family: Helvetica, Arial, sans-serif;">{{ o.display_shipping_cost }}
+					</td>
+				</tr>
+				<tr style=" vertical-align: top; font-family: Helvetica, Arial, sans-serif;">
+					<td align="left">{% if o.coupon_code %} <div style="padding-bottom: 20px; font-family: Helvetica, Arial, sans-serif;"> {{ __("coupon") }} </div> {% endif %}
+					</td>
+					<td align="right" style="font-family: Helvetica, Arial, sans-serif;">{% if o.coupon_code %} {{o.coupon_code}} {% endif %}
+					</td>
+				</tr>
+				<tr style=" vertical-align: top; font-family: Helvetica, Arial, sans-serif;">
+					<td align="left" style="font-family: Helvetica, Arial, sans-serif;">{% if o.raw.discount %} <div style="padding-bottom: 20px; font-family: Helvetica, Arial, sans-serif;"> {{ __("including_discount") }} </div> {% endif %}
+					</td>
+					<td align="right" style="font-family: Helvetica, Arial, sans-serif;">{% if o.raw.discount %} {{o.discount}} {% endif %}
+					</td>
+				</tr>
+				<tr style=" vertical-align: top; font-family: Helvetica, Arial, sans-serif;">
+					<td align="left" style="font-family: Helvetica, Arial, sans-serif;">{% if o.raw.subtotal_discount %} <div style="padding-bottom: 20px; font-family: Helvetica, Arial, sans-serif;"> {{ __("order_discount") }} </div> {% endif %}
+					</td>
+					<td align="right" style="font-family: Helvetica, Arial, sans-serif;">{% if o.raw.subtotal_discount %} {{o.subtotal_discount}} {% endif %}
+					</td>
+				</tr>
+				<tr style=" vertical-align: top; font-size: 22px; font-family: Helvetica, Arial, sans-serif; font-weight: 600;">
+					<td align="left" style="padding-top: 20px; border-top: 1px solid #e8e8e8; font-size: 22px; font-family: Helvetica, Arial, sans-serif; ">{{ __("total") }}
+					</td>
+					<td align="right" style="padding-top: 20px; border-top: 1px solid #e8e8e8; font-size: 22px; font-family: Helvetica, Arial, sans-serif; ">{{o.total}}
+					</td>
+				</tr>
+				</tbody>
+				</table>
+			</td>
+		</tr>
+		</tbody>
+		</table>
+	</td>
+</tr>
+</tbody>
+</table>]]></default_template>
+        <snippets>
+            <item>
+                <code><![CDATA[bill_to]]></code>
+                <template/>
+                <default_template><![CDATA[<h2 style="margin: 0px; font-size: 22px; font-family: Helvetica, Arial, sans-serif; color: #444444; text-transform: uppercase; padding-bottom: 20px; border-bottom: 3px solid #e8e8e8; margin-bottom: 20px;">{{__("bill_to")}}</h2>
+	<p style="margin: 0px; padding-bottom: 5px; font-family: Helvetica, Arial, sans-serif;">
+		<strong>{{u.b_firstname}} {{u.b_lastname}}</strong>
+	</p>
+	<p style="margin: 0px; padding-bottom: 5px; font-family: Helvetica, Arial, sans-serif;">
+		{{u.b_address}} <br>{{u.b_address_2}}
+	</p>
+	<p style="margin: 0px; padding-bottom: 5px; font-family: Helvetica, Arial, sans-serif;">
+		{{u.b_city}}, {{u.b_state_descr}} {{u.b_zipcode}}
+	</p>
+	<p style="margin: 0px; padding-bottom: 5px; font-family: Helvetica, Arial, sans-serif;">
+		{{u.b_country_descr}}
+	</p>
+	<p style="margin: 0px; padding-bottom: 5px; font-family: Helvetica, Arial, sans-serif;">
+		{{u.b_phone}}
+	</p>
+]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Bill to]]></en>
+                    <ru><![CDATA[Плательщик]]></ru>
+                </name>
+                <params/>
+                <addon/>
+                <handler/>
+                <extra/>
+            </item>
+            <item>
+                <code><![CDATA[company_address]]></code>
+                <template/>
+                <default_template><![CDATA[{% set parts = [c.city] %}
+{% if c.state_descr %}
+	<p style="margin: 0px; padding-bottom: 5px; font-family: Helvetica, Arial, sans-serif;">{% set parts = parts|merge([c.state_descr]) %}</p>
+{% endif %}
+
+<p style="margin: 0px; padding-bottom: 5px; font-family: Helvetica, Arial, sans-serif;">{{ c.address }}</p>
+<p style="margin: 0px; padding-bottom: 5px; font-family: Helvetica, Arial, sans-serif;">{{ parts|join(', ') }} {{ c.zipcode }}</p>
+<p style="margin: 0px; padding-bottom: 5px; font-family: Helvetica, Arial, sans-serif;">{{ c.country_descr }} </p>
+<p style="margin: 0px; padding-bottom: 5px; font-family: Helvetica, Arial, sans-serif;">{{ c.phone }} </p>
+<p style="margin: 0px; padding-bottom: 5px; font-family: Helvetica, Arial, sans-serif;">{{ c.users_department }} </p>
+<p style="margin: 0px; padding-bottom: 5px; font-family: Helvetica, Arial, sans-serif;">{{ c.website }} </p>
+]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Company address]]></en>
+                    <ru><![CDATA[Адрес компании]]></ru>
+                </name>
+                <params/>
+                <addon/>
+                <handler/>
+                <extra/>
+            </item>
+            <item>
+                <code><![CDATA[products_table]]></code>
+                <template/>
+                <default_template><![CDATA[{% if products_table.rows %}
+<table width="100%" cellspacing="0" cellpadding="0" border="0" style="border-top: 3px solid #444; color: #444;  text-transofrm: uppercase; border-collapse: separate; font-family: Helvetica, Arial, sans-serif;">
+    <tbody>
+        <tr style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; font-weight: 600; text-transform: uppercase; text-align: center; vertical-aling: top;">
+            {% for  header in products_table.headers %}
+                <td style="padding:10px; font-family: Helvetica, Arial, sans-serif;">{{ header }}</td>
+            {% endfor %}
+        </tr>
+        {% for  row in products_table.rows %}
+            <tr style="font-size: 14px; font-family: Helvetica, Arial, sans-serif; font-weight: 400; text-transform: uppercase; text-align: center; vertical-aling: middle;">
+                {% for  column in row %}
+                    <td style="padding:10px 0px; border-bottom: 1px solid #ebebeb; font-family: Helvetica, Arial, sans-serif;">{{ column }}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endif %}]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Products table]]></en>
+                    <ru><![CDATA[Таблица товаров]]></ru>
+                </name>
+                <params>
+                    <used_table>1</used_table>
+                    <variable_schema><![CDATA[order_products_table]]></variable_schema>
+                </params>
+                <addon/>
+                <handler><![CDATA[fn_snippet_init_order_product_table_variable]]></handler>
+                <extra>
+                    <table_columns>
+                        <item>
+                            <code><![CDATA[product]]></code>
+                            <position>0</position>
+                            <template/>
+                            <addon/>
+                            <default_template><![CDATA[<table>
+<tbody>
+<tr>
+	<td rowspan="2" style="padding-right: 20px;">{{ p.image }}
+	</td>
+	<td style="vertical-align: middle; text-align: left;"><span style="font-family: Helvetica, Arial, sans-serif; text-transfrom: uppercase; "><strong style="font-weight: 600;">{{ p.name }}</strong></span>
+	</td>
+</tr>
+<tr>
+	<td style="vertical-align: top; text-align: left;"><span style="font-size: 11px; font-weight: 400; font-family: Helvetica, Arial, sans-serif; color: #a8a8a8; ">{% if p.product_code %}{{ p.product_code }}<br> {% endif %}{% if p.options %}{{ p.options }}{%  endif %}</span>
+	</td>
+</tr>
+</tbody>
+</table>]]></default_template>
+                            <status><![CDATA[A]]></status>
+                            <name>
+                                <en><![CDATA[Item description]]></en>
+                                <ru><![CDATA[Описание]]></ru>
+                            </name>
+                        </item>
+                        <item>
+                            <code><![CDATA[amount]]></code>
+                            <position>1</position>
+                            <template/>
+                            <addon/>
+                            <default_template><![CDATA[<p style="text-align: center; font-family: Helvetica, Arial, sans-serif;"><strong style="font-weight:600;">{{ p.amount }}</strong></p>]]></default_template>
+                            <status><![CDATA[A]]></status>
+                            <name>
+                                <en><![CDATA[Qty]]></en>
+                                <ru><![CDATA[Кол-во]]></ru>
+                            </name>
+                        </item>
+                        <item>
+                            <code><![CDATA[original_price]]></code>
+                            <position>2</position>
+                            <template/>
+                            <addon/>
+                            <default_template><![CDATA[<p style="text-align: center; font-family: Helvetica, Arial, sans-serif;"><strong style="font-weight:600;">{{ p.original_price }}</strong></p>]]></default_template>
+                            <status><![CDATA[A]]></status>
+                            <name>
+                                <en><![CDATA[Price]]></en>
+                                <ru><![CDATA[Цена]]></ru>
+                            </name>
+                        </item>
+                        <item>
+                            <code><![CDATA[discount]]></code>
+                            <position>3</position>
+                            <template/>
+                            <addon/>
+                            <default_template><![CDATA[<p style="text-align: center; font-family: Helvetica, Arial, sans-serif;"><strong style="font-weight:600;">{{ p.discount }}</strong></p>]]></default_template>
+                            <status><![CDATA[A]]></status>
+                            <name>
+                                <en><![CDATA[Discount]]></en>
+                                <ru><![CDATA[Скидка]]></ru>
+                            </name>
+                        </item>
+                        <item>
+                            <code><![CDATA[tax]]></code>
+                            <position>4</position>
+                            <template/>
+                            <addon/>
+                            <default_template><![CDATA[<p style="text-align: center; font-family: Helvetica, Arial, sans-serif;"><strong style="font-weight:600;">{{ p.tax }}</strong></p>]]></default_template>
+                            <status><![CDATA[A]]></status>
+                            <name>
+                                <en><![CDATA[Tax]]></en>
+                                <ru><![CDATA[Налог]]></ru>
+                            </name>
+                        </item>
+                        <item>
+                            <code><![CDATA[display_subtotal]]></code>
+                            <position>5</position>
+                            <template/>
+                            <addon/>
+                            <default_template><![CDATA[<p style="text-align: center; font-family: Helvetica, Arial, sans-serif;"><strong style="font-weight:600;">{{ p.display_subtotal }}</strong></p>]]></default_template>
+                            <status><![CDATA[A]]></status>
+                            <name>
+                                <en><![CDATA[Item total]]></en>
+                                <ru><![CDATA[Сумма]]></ru>
+                            </name>
+                        </item>
+                    </table_columns>
+                </extra>
+            </item>
+            <item>
+                <code><![CDATA[ship_to]]></code>
+                <template/>
+                <default_template><![CDATA[<h2 style="margin: 0px; font-size: 22px; font-family: Helvetica, Arial, sans-serif; color: #444444; text-transform: uppercase; padding-bottom: 20px; border-bottom: 3px solid #e8e8e8; margin-bottom: 20px;">{{__("ship_to")}}</h2>
+	<p style="margin: 0px; padding-bottom: 5px; font-family: Helvetica, Arial, sans-serif;">
+		<strong>{{u.s_firstname}} {{u.s_lastname}}</strong>
+	</p>
+	<p style="margin: 0px; padding-bottom: 5px; font-family: Helvetica, Arial, sans-serif;">
+		{{u.s_address}} <br>{{u.s_address_2}}
+	</p>
+	<p style="margin: 0px; padding-bottom: 5px; font-family: Helvetica, Arial, sans-serif;">
+		{{u.s_city}}, {{u.s_state_descr}} {{u.s_zipcode}}
+	</p>
+	<p style="margin: 0px; padding-bottom: 5px; font-family: Helvetica, Arial, sans-serif;">
+		{{u.s_country_descr}}
+	</p>
+	<p style="margin: 0px; padding-bottom: 5px; font-family: Helvetica, Arial, sans-serif;">
+		{{u.s_phone}}
+	</p>
+]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Ship to]]></en>
+                    <ru><![CDATA[Доставить в]]></ru>
+                </name>
+                <params/>
+                <addon/>
+                <handler/>
+                <extra/>
+            </item>
+        </snippets>
+    </document>
+    <document>
+        <code><![CDATA[summary]]></code>
+        <type><![CDATA[order]]></type>
+        <template/>
+        <default_template><![CDATA[<table width="600" style=" font-family: Helvetica, Arial, sans-serif; border-collapse: separate;" rel="min-width: 800px; font-family: Helvetica, Arial, sans-serif; border-collapse: separate;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr style="vertical-align: top;">
+	<td>
+		<table width="100%;" cellspacing="0" border="0" style="border-collapse: separate; font-family: Helvetica, Arial, sans-serif;">
+		<tbody>
+		<tr>
+			<td width="50%" style="padding: 0px; padding-bottom: 10px; padding-right: 40px; vertical-align: top; font-family: Helvetica, Arial, sans-serif;">
+				{{ snippet("ship_to") }}
+			</td>
+			<td width="50%" style="padding: 0px; padding-bottom: 10px; padding-left: 40px; -webkit-print-color-adjust: exact; vertical-align: top; font-family: Helvetica, Arial, sans-serif;">
+				<p style="color: #787878; font-size: 14px; font-family: Helvetica, Arial, sans-serif; padding-bottom: 5px; margin: 0px;">
+					<span style="color: #444444; font-weight: 600; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase;">{{__("order_date")}}</span>  {{o.timestamp}}
+				</p>
+				<p style="color: #787878; font-size: 14px; font-family: Helvetica, Arial, sans-serif; padding-bottom: 5px; margin: 0px;">
+					<span style="color: #444444; font-weight: 600; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase;">{{__("payment")}}</span> {{p.payment}}
+				</p>
+				<p style="color: #787878; font-size: 14px; font-family: Helvetica, Arial, sans-serif; padding-bottom: 5px; margin: 0px;">
+					<span style="color: #444444; font-weight: 600; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase;">{{__("shipping")}}</span> 	{{o.shippings_method}}
+				</p>
+				{% if o.tracking_number %}
+				<p style="color: #787878; font-size: 14px; font-family: Helvetica, Arial, sans-serif; padding-bottom: 5px; margin: 0px;">
+					<span style="color: #444444; font-weight: 600; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase;">{{__("tracking_number")}}</span> 	{{o.tracking_number}}
+				</p>
+				{% endif %}
+			</td>
+		</tr>
+		</tbody>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td style="padding: 0px;">
+		{{ snippet("products_table") }}
+	</td>
+</tr>
+<tr>
+	<td style="padding: 0px; border-top: 2px solid #f5f5f5; padding-top: 10px; font-family: Helvetica, Arial, sans-serif;">
+		<table width="100%" style="border-collapse: separate; font-family: Helvetica, Arial, sans-serif;">
+		<tbody>
+		<tr>
+			<td width="66%" style="font-size: 14px; font-family: Helvetica, Arial, sans-serif; line-height: 21px; color: #444444; padding-right: 30px; vertical-align:top;">
+				{% if o.notes %}
+				<h2 style="margin: 0px; font-size: 22px; font-family: Helvetica, Arial, sans-serif; color: #444444; text-transform: uppercase; padding-bottom: 20px; border-bottom: 3px solid #e8e8e8; margin-bottom: 10px;">{{ __("customer_notes") }}</h2>
+				{{ o.notes }}
+                                {% endif %}
+			</td>
+			<td width="34%" style="vertical-align: top; font-family: Helvetica, Arial, sans-serif;">
+				<table width="100%;" style="font-size: 14px; font-family: Helvetica, Arial, sans-serif; color: #444;">
+				<tbody>
+					<tr style=" vertical-align: top; font-family: Helvetica, Arial, sans-serif;">
+						<td align="left" style="padding-bottom: 20px; font-family: Helvetica, Arial, sans-serif;">{{ __("subtotal") }}
+						</td>
+						<td align="right" style="font-family: Helvetica, Arial, sans-serif;">{{o.display_subtotal}}
+						</td>
+					</tr>
+					<tr style=" vertical-align: top;">
+						<td align="left" style="padding-bottom: 20px; text-transform: uppercase; font-family: Helvetica, Arial, sans-serif;">{{o.tax_name}}
+						</td>
+						<td align="right" style="font-family: Helvetica, Arial, sans-serif;">{{o.tax_total}}
+						</td>
+					</tr>
+					<tr style=" vertical-align: top;">
+						<td align="left" style="padding-bottom: 20px; font-family: Helvetica, Arial, sans-serif;">{{ __("shipping") }}
+						</td>
+						<td align="right" style="font-family: Helvetica, Arial, sans-serif;">{{ o.display_shipping_cost }}
+						</td>
+					</tr>
+					<tr style=" vertical-align: top; font-family: Helvetica, Arial, sans-serif;">
+						<td align="left" style="font-family: Helvetica, Arial, sans-serif;">{% if o.coupon_code %} <div style="padding-bottom: 20px; font-family: Helvetica, Arial, sans-serif;"> {{ __("coupon") }} </div> {% endif %}
+						</td>
+						<td align="right" style="font-family: Helvetica, Arial, sans-serif;">{% if o.coupon_code %} {{o.coupon_code}} {% endif %}
+						</td>
+					</tr>
+					<tr style=" vertical-align: top; font-family: Helvetica, Arial, sans-serif;">
+						<td align="left" style="font-family: Helvetica, Arial, sans-serif;">{% if o.raw.discount %} <div style="padding-bottom: 20px; font-family: Helvetica, Arial, sans-serif;"> {{ __("including_discount") }} </div> {% endif %}
+						</td>
+						<td align="right" style="font-family: Helvetica, Arial, sans-serif;">{% if o.raw.discount %} {{o.discount}} {% endif %}
+						</td>
+					</tr>
+					<tr style=" vertical-align: top; font-family: Helvetica, Arial, sans-serif;">
+						<td align="left" style="font-family: Helvetica, Arial, sans-serif;">{% if o.raw.subtotal_discount %} <div style="padding-bottom: 20px; font-family: Helvetica, Arial, sans-serif;"> {{ __("order_discount") }} </div> {% endif %}
+						</td>
+						<td align="right" style="font-family: Helvetica, Arial, sans-serif;">{% if o.raw.subtotal_discount %} {{o.subtotal_discount}} {% endif %}
+						</td>
+					</tr>
+					<tr style=" vertical-align: top; font-size: 22px; font-weight: 600; font-family: Helvetica, Arial, sans-serif;">
+						<td align="left" style="padding-top: 20px; border-top: 1px solid #e8e8e8; font-size: 22px; font-family: Helvetica, Arial, sans-serif;">{{ __("total") }}
+						</td>
+						<td align="right" style="padding-top: 20px; border-top: 1px solid #e8e8e8; font-size: 22px; font-family: Helvetica, Arial, sans-serif;">{{o.total}}
+						</td>
+					</tr>
+				</tbody>
+				</table>
+			</td>
+		</tr>
+		</tbody>
+		</table>
+	</td>
+</tr>
+</tbody>
+</table>]]></default_template>
+        <snippets>
+            <item>
+                <code><![CDATA[products_table]]></code>
+                <template/>
+                <default_template><![CDATA[{% if products_table.rows %}
+<table width="100%" cellspacing="0" cellpadding="0" border="0" style="border-top: 3px solid #444; color: #444;  text-transofrm: uppercase; border-collapse: separate; font-family: Helvetica, Arial, sans-serif;">
+    <tbody>
+        <tr style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; font-weight: 600; text-transform: uppercase; text-align: center; vertical-aling: top;">
+            {% for  header in products_table.headers %}
+                <td style="padding:10px; font-family: Helvetica, Arial, sans-serif;">{{ header }}</td>
+            {% endfor %}
+        </tr>
+        {% for  row in products_table.rows %}
+            <tr style="font-size: 14px; font-family: Helvetica, Arial, sans-serif; font-weight: 400; text-transform: uppercase; text-align: center; vertical-aling: middle;">
+                {% for  column in row %}
+                    <td style="padding:10px 0px; border-bottom: 1px solid #ebebeb; font-family: Helvetica, Arial, sans-serif;">{{ column }}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endif %}]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Products table]]></en>
+                    <ru><![CDATA[Таблица товаров]]></ru>
+                </name>
+                <params>
+                    <used_table>1</used_table>
+                    <variable_schema><![CDATA[order_products_table]]></variable_schema>
+                </params>
+                <addon/>
+                <handler><![CDATA[fn_snippet_init_order_product_table_variable]]></handler>
+                <extra>
+                    <table_columns>
+                        <item>
+                            <code><![CDATA[product]]></code>
+                            <position>0</position>
+                            <template/>
+                            <addon/>
+                            <default_template><![CDATA[<table>
+<tbody>
+<tr>
+	<td rowspan="2" style="padding-right: 20px; font-family: Helvetica, Arial, sans-serif;">{{ p.image }}
+	</td>
+	<td style="vertical-align: middle; text-align: left;"><span style="font-family: Helvetica, Arial, sans-serif; text-transfrom: uppercase; "><strong style="font-weight: 600;">{{ p.name }}</strong></span>
+	</td>
+</tr>
+<tr>
+	<td style="vertical-align: top; text-align: left; font-family: Helvetica, Arial, sans-serif;"><span style="font-size: 11px; font-weight: 400; font-family: Helvetica, Arial, sans-serif; color: #a8a8a8; ">{% if p.product_code %}{{ p.product_code }}<br> {% endif %}{% if p.options %}{{ p.options }}{%  endif %}</span>
+	</td>
+</tr>
+</tbody>
+</table>]]></default_template>
+                            <status><![CDATA[A]]></status>
+                            <name>
+                                <en><![CDATA[Item description]]></en>
+                                <ru><![CDATA[Описание]]></ru>
+                            </name>
+                        </item>
+                        <item>
+                            <code><![CDATA[amount]]></code>
+                            <position>1</position>
+                            <template/>
+                            <addon/>
+                            <default_template><![CDATA[<p style="text-align: center; font-family: Helvetica, Arial, sans-serif;"><strong style="font-weight:600;">{{ p.amount }}</strong></p>]]></default_template>
+                            <status><![CDATA[A]]></status>
+                            <name>
+                                <en><![CDATA[Qty]]></en>
+                                <ru><![CDATA[Кол-во]]></ru>
+                            </name>
+                        </item>
+                        <item>
+                            <code><![CDATA[original_price]]></code>
+                            <position>2</position>
+                            <template/>
+                            <addon/>
+                            <default_template><![CDATA[<p style="text-align: center; font-family: Helvetica, Arial, sans-serif;"><strong style="font-weight:600;">{{ p.original_price }}</strong></p>]]></default_template>
+                            <status><![CDATA[A]]></status>
+                            <name>
+                                <en><![CDATA[Price]]></en>
+                                <ru><![CDATA[Цена]]></ru>
+                            </name>
+                        </item>
+                        <item>
+                            <code><![CDATA[discount]]></code>
+                            <position>3</position>
+                            <template/>
+                            <addon/>
+                            <default_template><![CDATA[<p style="text-align: center; font-family: Helvetica, Arial, sans-serif;"><strong style="font-weight:600;">{{ p.discount }}</strong></p>]]></default_template>
+                            <status><![CDATA[D]]></status>
+                            <name>
+                                <en><![CDATA[Discount]]></en>
+                                <ru><![CDATA[Скидка]]></ru>
+                            </name>
+                        </item>
+                        <item>
+                            <code><![CDATA[tax]]></code>
+                            <position>4</position>
+                            <template/>
+                            <addon/>
+                            <default_template><![CDATA[<p style="text-align: center; font-family: Helvetica, Arial, sans-serif;"><strong style="font-weight:600;">{{ p.tax }}</strong></p>]]></default_template>
+                            <status><![CDATA[D]]></status>
+                            <name>
+                                <en><![CDATA[Tax]]></en>
+                                <ru><![CDATA[Налог]]></ru>
+                            </name>
+                        </item>
+                        <item>
+                            <code><![CDATA[display_subtotal]]></code>
+                            <position>5</position>
+                            <template/>
+                            <addon/>
+                            <default_template><![CDATA[<p style="text-align: center; font-family: Helvetica, Arial, sans-serif;"><strong style="font-weight:600;">{{ p.display_subtotal }}</strong></p>]]></default_template>
+                            <status><![CDATA[A]]></status>
+                            <name>
+                                <en><![CDATA[Item total]]></en>
+                                <ru><![CDATA[Сумма]]></ru>
+                            </name>
+                        </item>
+                    </table_columns>
+                </extra>
+            </item>
+            <item>
+                <code><![CDATA[ship_to]]></code>
+                <template/>
+                <default_template><![CDATA[<h2 style="margin: 0px; font-size: 22px; font-family: Helvetica, Arial, sans-serif; color: #444444; text-transform: uppercase; margin-bottom: 15px; line-height: 1.5em; ">{{__("ship_to")}}</h2>
+	<p style="margin: 0px; font-size:14px; font-family: Helvetica, Arial, sans-serif; padding-bottom: 5px;">
+		<strong>{{u.s_firstname}} {{u.s_lastname}}</strong>
+	</p>
+	<p style="margin: 0px; font-size:14px; font-family: Helvetica, Arial, sans-serif; padding-bottom: 5px;">
+		{{u.s_address}} <br>{{u.s_address_2}}
+	</p>
+	<p style="margin: 0px; font-size:14px; font-family: Helvetica, Arial, sans-serif; padding-bottom: 5px;">
+		{{u.s_city}}, {{u.s_state_descr}} {{u.s_zipcode}}
+	</p>
+	<p style="margin: 0px; font-size:14px; font-family: Helvetica, Arial, sans-serif; padding-bottom: 5px;">
+		{{u.s_country_descr}}
+	</p>
+	<p style="margin: 0px; font-size:14px; font-family: Helvetica, Arial, sans-serif; padding-bottom: 5px;">
+		{{u.s_phone}}
+	</p>
+]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Ship to]]></en>
+                    <ru><![CDATA[Доставить в]]></ru>
+                </name>
+                <params/>
+                <addon/>
+                <handler/>
+                <extra/>
+            </item>
+        </snippets>
+    </document>
+    <document>
+        <code><![CDATA[default]]></code>
+        <type><![CDATA[packing_slip]]></type>
+        <template/>
+        <default_template><![CDATA[<table class="main-table" style="height: 100%; font-size: 12px; font-family: Helvetica, Arial, sans-serif;" rel="height: 100%; border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+	<td style="width: 100%; height: 100%; padding: 24px 0; font-family: Helvetica, Arial, sans-serif;" align="center">
+		<div style="background-color: #ffffff; margin: 0px auto; padding: 0px 44px 0px 46px; width: 510px; text-align: left; font-family: Helvetica, Arial, sans-serif;">
+			<table style="border-collapse: separate; padding-top: 32px; font-family: Helvetica, Arial, sans-serif;" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody>
+			<tr valign="top">
+				<td style="border-bottom: 1px dashed #000000; padding-bottom: 20px; font-family: Helvetica, Arial, sans-serif;" align="center" width="100%">
+					<h3 style="font-size: 17px; font-weight: bold; font-family: Helvetica, Arial, sans-serif; padding: 0px 0px 3px 1px; margin: 0px;">{{ __("ship_to") }}:</h3>
+					<p style="margin: 2px 0px 3px 0px; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">
+						{{ u.s_firstname }} {{ u.s_lastname }}
+					</p>
+					<p style="margin: 2px 0px 3px 0px; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">
+						{{ u.s_address  }} {{ u.s_address_2 }}
+					</p>
+					<p style="margin: 2px 0px 3px 0px; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">
+						{{ u.s_city }} {{ u.s_state_descr }} {{ u.s_zipcode }}
+					</p>
+					<p style="margin: 2px 0px 3px 0px; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">
+						{{ u.s_country_descr }}
+					</p>
+					{% for field in u.s_fields %}
+					<p style="font-family: Helvetica, Arial, sans-serif;">{{ field.name }}: {{ field.value }}
+					</p>
+					{% endfor %}
+				</td>
+			</tr>
+			<tr class="scissors" valign="top">
+				<td style="padding-left: 20px; font-size: 12px; font-family: Helvetica, Arial, sans-serif;" width="100%">
+					<img style="vertical-align: top;" src="{{ runtime.images_dir }}/scissors.gif" border="0">
+				</td>
+			</tr>
+			</tbody>
+			</table>
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody>
+			<tr>
+				<td style="width: 50%; padding: 14px 0px 0px 2px;">
+					<h2 style="font-size: 12px; font-weight: bold; font-family: Helvetica, Arial, sans-serif; margin: 0px 0px 3px 0px;">{{ c.name }}</h2>
+					<p style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;">{{ snippet("company_address") }}
+					</p>
+					<p style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;">{{ snippet("company_info") }}<br>
+					</p>
+				</td>
+				<td style="padding-top: 14px; font-family: Helvetica, Arial, sans-serif;" valign="top">{{ snippet("order_date") }}
+				</td>
+			</tr>
+			</tbody>
+			</table>
+			<table style="padding: 20px 0px 24px 0px; font-family: Helvetica, Arial, sans-serif;" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody>
+			<tr valign="top">
+				<td style="font-family: Helvetica, Arial, sans-serif;" width="54%">
+					{{snippet("bill_to")}}
+				</td>
+				<td style="font-family: Helvetica, Arial, sans-serif;" width="54%">
+					{{snippet("ship_to")}}
+				</td>
+			</tr>
+			</tbody>
+			</table>
+			<div style="font-family: Helvetica, Arial, sans-serif;">
+				{{ snippet("order_info") }}
+			</div>
+			<div style="font-family: Helvetica, Arial, sans-serif;">
+				{{ snippet("products_table") }}
+				<br>{{ snippet("notes") }}
+			</div>
+		</div>
+	</td>
+</tr>
+</tbody>
+</table>]]></default_template>
+        <snippets>
+            <item>
+                <code><![CDATA[bill_to]]></code>
+                <template/>
+                <default_template><![CDATA[<h3 style=" padding: 0px 0px 10px 1px; font-weight: 600; font-size: 15px; font-family: Helvetica, Arial, sans-serif; border-bottom: 1px solid #ededed;">{{__("bill_to")}}:</h3>
+	<p style="font-family: Helvetica, Arial, sans-serif;">
+		{{u.b_firstname}} {{u.b_lastname}}
+	</p>
+	<p style="font-family: Helvetica, Arial, sans-serif;">
+		{{u.b_address}} <br>{{u.b_address_2}}
+	</p>
+	<p style="font-family: Helvetica, Arial, sans-serif;">
+		{{u.b_city}}, {{u.b_state_descr}} {{u.b_zipcode}}
+	</p>
+	<p style="font-family: Helvetica, Arial, sans-serif;">
+		{{u.b_country_descr}}
+	</p>
+	<p style="font-family: Helvetica, Arial, sans-serif;">
+		{{u.b_phone}}
+	</p>
+]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Bill to]]></en>
+                    <ru><![CDATA[Плательщик]]></ru>
+                </name>
+                <params/>
+                <addon/>
+                <handler/>
+                <extra/>
+            </item>
+            <item>
+                <code><![CDATA[company_address]]></code>
+                <template/>
+                <default_template><![CDATA[{% set parts = [c.city] %}
+{% if c.state_descr %}
+	{% set parts = parts|merge([c.state_descr]) %}
+{% endif %}
+
+{{ c.address }} <br />
+{{ parts|join(', ') }} {{ c.zipcode }}  <br />
+{{ c.country_descr }}]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Company address]]></en>
+                    <ru><![CDATA[Адрес компании]]></ru>
+                </name>
+                <params/>
+                <addon/>
+                <handler/>
+                <extra/>
+            </item>
+            <item>
+                <code><![CDATA[company_info]]></code>
+                <template/>
+                <default_template><![CDATA[<table border="0" cellpadding="0" cellspacing="0">
+	<tbody>
+		{% if c.phone %}
+		<tr valign="top">
+			<td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; color: #000000; padding-right: 10px; white-space: nowrap;">{{ __("phone1_label") }}:</td>
+			<td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;" width="100%">{{ c.phone }}</td>
+		</tr>
+		{% endif %}
+		{% if c.phone_2 %}
+		<tr valign="top">
+			<td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; color: #000000; padding-right: 10px; white-space: nowrap;">{{ __("phone2_label") }}:</td>
+			<td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;" width="100%">{{ c.phone_2 }}</td>
+		</tr>
+		{% endif %}
+		{% if c.fax %}
+		<tr valign="top">
+			<td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; color: #000000; padding-right: 10px; white-space: nowrap;">{{ __("fax") }}:</td>
+			<td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;" width="100%">{{ c.fax }}</td>
+		</tr>
+		{% endif %}
+		{% if c.website %}
+		<tr valign="top">
+			<td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; color: #000000; padding-right: 10px; white-space: nowrap;">{{ __("web_site") }}:</td>
+			<td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;" width="100%">{{ c.website }}</td>
+		</tr>
+		{% endif %}
+		{% if c.orders_department %}
+		<tr valign="top">
+			<td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; color: #000000; padding-right: 10px; white-space: nowrap;">{{ __("email") }}:</td>
+			<td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;" width="100%"><a href="mailto:{{ c.orders_department }}">{{ c.orders_department_display }}</a></td>
+		</tr>
+		{% endif %}
+	</tbody>
+</table>]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Company info]]></en>
+                    <ru><![CDATA[Информация о компании]]></ru>
+                </name>
+                <params/>
+                <addon/>
+                <handler/>
+                <extra/>
+            </item>
+            <item>
+                <code><![CDATA[order_date]]></code>
+                <template/>
+                <default_template><![CDATA[<h2 style="font-size: 17px; font-weight: bold; font-family: Helvetica, Arial, sans-serif; margin: 0px;">{{ __("packing_slip_for_order") }} #{{ o.order_id }}</h2>
+{% if o.shipment %}
+<table border="0" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr valign="top">
+			<td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; color: #000000; padding-right: 10px; white-space: nowrap;">{{ __("order_date") }}:
+			</td>
+			<td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;">{{ o.timestamp }}
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; color: #000000; padding-right: 10px; white-space: nowrap;">{{ __("shipment_date") }}:
+			</td>
+			<td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;">{{ o.shipment.shipment_timestamp }}
+			</td>
+		</tr>
+	</tbody>
+</table>
+{% else %}
+<table border="0" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr valign="top">
+			<td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; color: #000000; padding-right: 10px; white-space: nowrap;">{{ __("date") }}:
+			</td>
+			<td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;">{{ o.timestamp }}
+			</td>
+		</tr>
+	</tbody>
+</table>
+{% endif %}]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Order date]]></en>
+                    <ru><![CDATA[Дата заказа]]></ru>
+                </name>
+                <params/>
+                <addon/>
+                <handler/>
+                <extra/>
+            </item>
+            <item>
+                <code><![CDATA[order_info]]></code>
+                <template/>
+                <default_template><![CDATA[<table border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+    <tr valign="top">
+        <td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; color: #000000; padding-right: 10px; white-space: nowrap;">{{ __("status") }}:
+        </td>
+        <td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;" width="100%">{{ o.status.description }}
+        </td>
+    </tr>
+    <tr valign="top">
+        <td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; color: #000000; padding-right: 10px; white-space: nowrap;">{{ __("payment_method") }}:
+        </td>
+        <td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;" valign="bottom">{{ p.payment|default("-") }}
+        </td>
+    </tr>
+    {% if o.shipment %}
+    	{% if o.shipment.shipping %}
+	    <tr valign="top">
+	        <td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; color: #000000; padding-right: 10px; white-space: nowrap;">{{ __("shipping_method") }}:
+	        </td>
+	        <td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;" valign="bottom">{{ o.shipment.shipping }}
+	        </td>
+	    </tr>
+	    {% endif %}
+	    {% if o.shipment.tracking_number %}
+	    <tr valign="top">
+	        <td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; color: #000000; padding-right: 10px; white-space: nowrap;">{{ __("tracking_number") }}:
+	        </td>
+	        <td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;" valign="bottom">{{ o.shipment.tracking_number }}
+	        </td>
+	    </tr>
+    	{% endif %}
+    {% else %}
+    	{% if o.shippings_method %}
+	    <tr valign="top">
+	        <td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; color: #000000; padding-right: 10px; white-space: nowrap;">{{ __("shipping_method") }}:
+	        </td>
+	        <td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;" valign="bottom">{{ o.shippings_method }}
+	        </td>
+	    </tr>
+	    {% endif %}
+	    {% if o.tracking_number %}
+	    <tr valign="top">
+	        <td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; color: #000000; padding-right: 10px; white-space: nowrap;">{{ __("tracking_number") }}:
+	        </td>
+	        <td style="font-size: 12px; font-family: Helvetica, Arial, sans-serif;" valign="bottom">{{ o.tracking_number }}
+	        </td>
+	    </tr>
+    	{% endif %}
+    {% endif %}
+
+    </tbody>
+</table>]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Order info]]></en>
+                    <ru><![CDATA[Информация о заказе]]></ru>
+                </name>
+                <params/>
+                <addon/>
+                <handler/>
+                <extra/>
+            </item>
+            <item>
+                <code><![CDATA[notes]]></code>
+                <template/>
+                <default_template><![CDATA[{% if o.shipment.comments %}
+<div style="float: left; padding-top: 20px; font-family: Helvetica, Arial, sans-serif;"><strong>{{ __("comments") }}:</strong></div>
+<div style="padding-left: 7px; padding-bottom: 15px; overflow-x: auto; clear: both; width: 505px; height: 100%; padding-bottom: 20px; overflow-y: hidden; font-family: Helvetica, Arial, sans-serif;">{{ o.shipment.comments|wordwrap(90,"\n")|nl2br }}</div>
+{% elseif o.notes %}
+<div style="float: left; padding-top: 20px;"><strong>{{ __("notes") }}:</strong></div>
+<div style="padding-left: 7px; padding-bottom: 15px; overflow-x: auto; clear: both; width: 505px; height: 100%; padding-bottom: 20px; overflow-y: hidden; font-family: Helvetica, Arial, sans-serif;">{{ o.notes|wordwrap(90, "\n")|nl2br }}</div>
+{% endif %}]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Packing slip notes]]></en>
+                    <ru><![CDATA[Примечания]]></ru>
+                </name>
+                <params/>
+                <addon/>
+                <handler/>
+                <extra/>
+            </item>
+            <item>
+                <code><![CDATA[products_table]]></code>
+                <template/>
+                <default_template><![CDATA[<table width="100%" cellpadding="0" cellspacing="1" style="border-collapse: separate; border-spacing: 1px; background-color: #dddddd; margin-top: 20px; font-family: Helvetica, Arial, sans-serif;">
+
+<thead>
+    <tr>
+
+        {% for  header in products_table.headers %}
+            <th style="background-color: #eeeeee; padding: 6px 10px; white-space: nowrap; font-size: 12px; text-align:center; font-family: Helvetica, Arial, sans-serif;">{{ header }}</th>
+        {% endfor %}
+    </tr>
+</thead>
+<tbody>
+    {% for  row in products_table.rows %}
+        <tr>
+            {% for  column in row %}
+                <td style="padding: 5px 10px; background-color: #ffffff; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">{{ column }}</td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+</tbody>
+</table>]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Products table]]></en>
+                    <ru><![CDATA[Таблица товаров]]></ru>
+                </name>
+                <params>
+                    <used_table>1</used_table>
+                    <variable_schema><![CDATA[packing_slip_products_table]]></variable_schema>
+                </params>
+                <addon/>
+                <handler><![CDATA[fn_snippet_init_order_product_table_variable]]></handler>
+                <extra>
+                    <table_columns>
+                        <item>
+                            <code><![CDATA[name]]></code>
+                            <position>100</position>
+                            <template/>
+                            <addon/>
+                            <default_template><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif;">{{ p.name }}</p>]]></default_template>
+                            <status><![CDATA[A]]></status>
+                            <name>
+                                <en><![CDATA[Product]]></en>
+                                <ru><![CDATA[Товар]]></ru>
+                            </name>
+                        </item>
+                        <item>
+                            <code><![CDATA[product_code]]></code>
+                            <position>100</position>
+                            <template/>
+                            <addon/>
+                            <default_template><![CDATA[<p style="text-align: center; font-family: Helvetica, Arial, sans-serif;">{{ p.product_code }}</p>]]></default_template>
+                            <status><![CDATA[A]]></status>
+                            <name>
+                                <en><![CDATA[Code]]></en>
+                                <ru><![CDATA[Код]]></ru>
+                            </name>
+                        </item>
+                        <item>
+                            <code><![CDATA[amount]]></code>
+                            <position>100</position>
+                            <template/>
+                            <addon/>
+                            <default_template><![CDATA[<p style="text-align: center; font-family: Helvetica, Arial, sans-serif;">{{ p.amount }}</p>]]></default_template>
+                            <status><![CDATA[A]]></status>
+                            <name>
+                                <en><![CDATA[Quantity]]></en>
+                                <ru><![CDATA[Кол-во]]></ru>
+                            </name>
+                        </item>
+                    </table_columns>
+                </extra>
+            </item>
+            <item>
+                <code><![CDATA[ship_to]]></code>
+                <template/>
+                <default_template><![CDATA[<h3 style="padding: 0px 0px 10px 1px; font-weight: 600; font-size: 15px; font-family: Helvetica, Arial, sans-serif; border-bottom: 1px solid #ededed;">{{__("ship_to")}}:</h3>
+	<p style="font-family: Helvetica, Arial, sans-serif;">
+		{{u.s_firstname}} {{u.s_lastname}}
+	</p>
+	<p style="font-family: Helvetica, Arial, sans-serif;">
+		{{u.s_address}} <br>{{u.s_address_2}}
+	</p>
+	<p style="font-family: Helvetica, Arial, sans-serif;">
+		{{u.s_city}}, {{u.s_state_descr}} {{u.s_zipcode}}
+	</p>
+	<p style="font-family: Helvetica, Arial, sans-serif;">
+		{{u.s_country_descr}}
+	</p>
+	<p style="font-family: Helvetica, Arial, sans-serif;">
+		{{u.s_phone}}
+	</p>
+]]></default_template>
+                <status><![CDATA[A]]></status>
+                <name>
+                    <en><![CDATA[Ship to]]></en>
+                    <ru><![CDATA[Доставить в]]></ru>
+                </name>
+                <params/>
+                <addon/>
+                <handler/>
+                <extra/>
+            </item>
+        </snippets>
+    </document>
+</documents>

@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ro\n"
+"X-Crowdin-File: /addons/bestsellers.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-02 02:00-0500\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & On-Sale Products"
+msgstr "Cel mai bine vandut & pe-vânzare produse"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "Colectează cele mai bune vânzări & produse la promoție şi adaugă bloc pentru a arăta astfel de produse"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "Sortare după cel mai bine vândut: de la mic la mare"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "Sortare după cel mai bine vândut"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "Sortare după discount : de la mic la mare"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "Sortare după discount : de la mare la mic"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "Suma de vânzări"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "Cele mai vândute"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "Promoție"
+
+msgctxt "Languages::similar"
+msgid "Similar"
+msgstr "Similare"
+
+msgctxt "Languages::percent_range"
+msgid "Price range (in % of the main product's price)"
+msgstr "Gama de preţuri (în % din pretul produsului principal)"
+
+msgctxt "Languages::similar_category"
+msgid "Of the same category"
+msgstr "Din aceeasi categorie"
+
+msgctxt "Languages::similar_subcats"
+msgid "Consider subcategories"
+msgstr "Luaţi în considerare subcategorii"
+
+msgctxt "Languages::similar_in_stock"
+msgid "Only \"in stock\" products"
+msgstr "Produse numai \"in stoc\""
+
+msgctxt "Languages::final_sale"
+msgid "Final sale"
+msgstr "Final de vânzare"
+
+msgctxt "SettingsSections::bestsellers::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsSections::bestsellers::newest"
+msgid "Newest"
+msgstr "Cele mai noi"
+
+msgctxt "SettingsOptions::bestsellers::final_sale_from"
+msgid "Minimum final sale discount (%)"
+msgstr "Reducere de minim de vânzare final (%)"
+
+msgctxt "SettingsOptions::bestsellers::sales_amount_from"
+msgid "Minimum sales amount to define bestsellers"
+msgstr "Suma minimă de vânzări pentru a defini cel mai bine vandut"
+
+msgctxt "SettingsOptions::bestsellers::period"
+msgid "Period"
+msgstr "Perioada"
+
+msgctxt "SettingsOptions::bestsellers::last_days"
+msgid "Last days"
+msgstr "Utilimele zile"
+
+msgctxt "SettingsVariants::bestsellers::period::all"
+msgid "All days"
+msgstr "Toate zilele"
+
+msgctxt "SettingsVariants::bestsellers::period::today"
+msgid "Today"
+msgstr "Astăzi"
+
+msgctxt "SettingsVariants::bestsellers::period::last_days"
+msgid "Last days"
+msgstr "Ultimele zile"
+

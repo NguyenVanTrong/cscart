@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/watermarks.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::watermarks"
+msgid "Watermarks"
+msgstr "Watermarks"
+
+msgctxt "Addons::description::watermarks"
+msgid "Allows you to add watermarks to product and category images"
+msgstr "Cho phép bạn thêm watermarks đến hình ảnh sản phẩm và thể loại"
+
+msgctxt "Languages::wt_watermarks"
+msgid "Watermarks"
+msgstr "Watermarks"
+
+msgctxt "Languages::wt_graphic_watermark"
+msgid "Graphic watermark"
+msgstr "Đồ họa watermark"
+
+msgctxt "Languages::wt_text_watermark"
+msgid "Text watermark"
+msgstr "Văn bản watermark"
+
+msgctxt "Languages::wt_watermark_vertical_position"
+msgid "Watermark vertical position"
+msgstr "Vị trí thẳng đứng Watermark"
+
+msgctxt "Languages::wt_watermark_horizontal_position"
+msgid "Watermark horizontal position"
+msgstr "Vị trí ngang Watermark"
+
+msgctxt "Languages::wt_watermark_position"
+msgid "Watermark position"
+msgstr "Vị trí Watermark"
+
+msgctxt "Languages::wt_watermark_image"
+msgid "Watermark image"
+msgstr "Ảnh watermark"
+
+msgctxt "Languages::wt_watermark_text"
+msgid "Watermark text"
+msgstr "Văn bản watermark"
+
+msgctxt "Languages::wt_font"
+msgid "Font"
+msgstr "Phông chữ"
+
+msgctxt "Languages::wt_font_color"
+msgid "Font color"
+msgstr "Màu sắc phong chữ"
+
+msgctxt "Languages::wt_font_size_icon"
+msgid "Font size (thumbnail)"
+msgstr "Kích thước phông chữ (hình thu nhỏ)"
+
+msgctxt "Languages::wt_font_size_detailed"
+msgid "Font size (larger image)"
+msgstr "Kích thước phông chữ (hình ảnh lớn)"
+
+msgctxt "Languages::wt_watermark_icon"
+msgid "Thumbnail watermark"
+msgstr "Watermark hình thu nhỏ"
+
+msgctxt "Languages::wt_watermark_detailed"
+msgid "Popup larger image watermark"
+msgstr "Watermark popup hình ảnh lớn"
+
+msgctxt "Languages::wt_fail_apply_graphic_watermark"
+msgid "Failed to apply the watermark to [image_type]. The watermark image is not added."
+msgstr "Thất bại trong việc áp dụng watermark vào [image_type]. watermark không được thêm vào."
+
+msgctxt "Languages::wt_icons"
+msgid "thumbnails"
+msgstr "hình thu nhỏ"
+
+msgctxt "Languages::wt_detailed"
+msgid "popup larger images"
+msgstr "popup hình ảnh lớn"
+
+msgctxt "Languages::wt_images_access_description"
+msgid "To deny access to your original images, please add the following instructions to the '.htaccess' file in the 'images' directory of your installation. It will protect your original images. Even if an original image is opened, the corresponding watermarked image will be show instead."
+msgstr "Để từ chối quyền truy cập vào hình ảnh ban đầu của bạn, xin vui lòng thêm các hướng dẫn sau vào tập tin ' .htaccess ' trong thư mục 'images' của thư mục gốc cài đặt cửa hàng của bạn. Nó sẽ bảo vệ của bạn hình ảnh ban đầu. Ngay cả khi một hình ảnh ban đầu được mở ra, hình ảnh watermarked tương ứng sẽ hiển thị để thay thế."
+
+msgctxt "Languages::wt_watermarks_access_description"
+msgid "To generate watermarked images automatically even if they are requested not from your store pages, please add the '.htaccess' file with the following instructions to the 'images/watermarked' directory of your installation."
+msgstr "Để tạo ra hình ảnh watermarked tự động ngay cả khi chúng được yêu cầu không phải từ các cửa hàng trang của bạn, xin vui lòng thêm nội dung sau vào tập tin '.htaccess ' trong thư mục 'images/watermarked' của cài đặt thư mục gốc cửa hàng của bạn."
+
+msgctxt "Languages::wt_access_note"
+msgid "Please note, if you disable or uninstall the 'Watermarks' add-on, you should remove these instructions from '.htaccess' files manually. Otherwise category and product images will be unavailable."
+msgstr "Xin vui lòng lưu ý, nếu bạn vô hiệu hoá hoặc gỡ cài đặt add-on 'Watermarks', bạn nên loại bỏ các nội dung sau từ tập tin '.htaccess' theo cách thủ công. Nếu không thể loại và sản phẩm hình ảnh sẽ không sẵn có."
+
+msgctxt "Languages::wt_access_warning"
+msgid "Watermark creating is disabled. If there are any \"Rewrite watermarks rules\" instructions in the \"images/.htaccess\" file, you should remove them manually. Otherwise category and product images will be unavailable."
+msgstr "Watermark tạo bị vô hiệu hóa. Nếu có bất kỳ hướng dẫn \"Rewrite watermarks rules\" trong tập tin \"images/htaccess\", bạn nên loại bỏ chúng theo cách thủ công. Nếu không hình ảnh danh mục và sản phẩm sẽ không sẵn có."
+
+msgctxt "Languages::wt_images_access_info"
+msgid "Images access"
+msgstr "Truy cập hình ảnh"
+
+msgctxt "SettingsSections::watermarks::general"
+msgid "General"
+msgstr "Tổng quát"
+
+msgctxt "SettingsOptions::watermarks::watermark"
+msgid "Watermark"
+msgstr "Watermark"
+
+msgctxt "SettingsOptions::watermarks::apply_to_product"
+msgid "Product watermarks"
+msgstr "Sản phẩm watermarks"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_icons"
+msgid "Resized images"
+msgstr "Thay đổi kích cỡ hình ảnh"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_detailed"
+msgid "Original size images"
+msgstr "Hình ảnh kích thước ban đầu"
+
+msgctxt "SettingsOptions::watermarks::apply_to_categories"
+msgid "Category watermarks"
+msgstr "Danh mục watermarks"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_icons"
+msgid "Resized images"
+msgstr "Thay đổi kích cỡ hình ảnh"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_detailed"
+msgid "Original size images"
+msgstr "Hình ảnh kích thước ban đầu"
+
+msgctxt "SettingsOptions::watermarks::images_access_info"
+msgid "Images access"
+msgstr "Truy cập hình ảnh"
+

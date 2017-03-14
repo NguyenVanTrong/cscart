@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /addons/form_builder.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Form Oluşturucu"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us)"
+msgstr "Özel formlar oluşturmanıza olanak sağlar (örneğin bize ulaşın)"
+
+msgctxt "Languages::use_for_form_builder"
+msgid "Custom forms"
+msgstr "Özel formlar"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Yeni form"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Form düzenleme"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Form Oluşturucu"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Form sunma metni"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "E-posta kime"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Form güvenlidir (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Form ekle"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Temel"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Birden çok onay kutusu"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Birden fazla seçim kutusu"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Başlık"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Ayraç"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Özel"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Ülkeler listesi"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Eyaletler listesi"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "Referans veren"
+
+msgctxt "Languages::email_template.form_builder_form"
+msgid "Contact form"
+msgstr ""
+
+msgctxt "Languages::addons.form_builder.form_fields"
+msgid "Form fields"
+msgstr ""
+
+msgctxt "Languages::addons.form_builder.form_name"
+msgid "Form name"
+msgstr ""
+
+msgctxt "Languages::addons.form_builder.other_subject"
+msgid "Other subject (specify below)"
+msgstr ""
+
+msgctxt "Languages::addons.form_builder.email_subject_field"
+msgid "E-mail subject field"
+msgstr ""
+
+msgctxt "Languages::ttc_addons.form_builder.email_subject_field"
+msgid "Fields of type \"Select box\" or \"Input field\" can be used"
+msgstr ""
+

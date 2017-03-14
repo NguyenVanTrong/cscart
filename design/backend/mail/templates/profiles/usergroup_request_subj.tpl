@@ -1,0 +1,1 @@
+{$company_data.company_name nofilter}: {__("usergroup_request_by_customer")} "{$user_data.email}"

@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/hybrid_auth.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::hybrid_auth"
+msgid "Social login"
+msgstr "Đăng nhập bằng mạng xã hội"
+
+msgctxt "Addons::description::hybrid_auth"
+msgid "Adds the Social Login feature; allows customers use Facebook, Twitter, etc. to log in on the store"
+msgstr "Cho biết thêm các tính năng đăng nhập sử dụng tài khoản mạng xã hội; cho phép khách hàng sử dụng Facebook, Twitter, vv để đăng nhập vào cửa hàng"
+
+msgctxt "SettingsSections::hybrid_auth::general"
+msgid "General"
+msgstr "Tổng quát"
+
+msgctxt "SettingsOptions::hybrid_auth::icons_pack"
+msgid "Icons pack"
+msgstr "Gói biểu tượng"
+
+msgctxt "SettingsTooltips::hybrid_auth::icons_pack"
+msgid "Directory with the social networks icons. A path to the directory: media/images/addons/addons/hybrid_auth/icons/."
+msgstr "Các thư mục với biểu tượng mạng xã hội. Một đường dẫn đến thư mục: media/images/addons/addons/hybrid_auth/icons/."
+
+msgctxt "SettingsOptions::hybrid_auth::autogen_email"
+msgid "Autogeneration email"
+msgstr "Autogeneration email"
+
+msgctxt "SettingsTooltips::hybrid_auth::autogen_email"
+msgid "Enables the email auto generation in case that a social network does not pass the address."
+msgstr "Cho phép các email tự động thế hệ trong trường hợp một mạng xã hội không vượt qua địa chỉ."
+
+msgctxt "Languages::hybrid_auth"
+msgid "Social login"
+msgstr "Đăng nhập bằng mạng xã hội"
+
+msgctxt "Languages::hybrid_auth.linked_provider"
+msgid "Linked"
+msgstr "Liên kết"
+
+msgctxt "Languages::hybrid_auth.not_linked_provider"
+msgid "Not linked"
+msgstr "Không được liên kết"
+
+msgctxt "Languages::hybrid_auth.providers"
+msgid "Providers"
+msgstr "Nhà cung cấp"
+
+msgctxt "Languages::hybrid_auth.add_provider"
+msgid "Add provider"
+msgstr "Thêm nhà cung cấp"
+
+msgctxt "Languages::hybrid_auth.new_provider"
+msgid "New provider"
+msgstr "Nhà cung cấp mới"
+
+msgctxt "Languages::hybrid_auth.editing_provider"
+msgid "Editing provider"
+msgstr "Chỉnh sửa nhà cung cấp"
+
+msgctxt "Languages::hybrid_auth.callback_url"
+msgid "Callback URL"
+msgstr "URL Gọi lại"
+
+msgctxt "Languages::hybrid_auth.social_login"
+msgid "Or sign-in with another identity provider"
+msgstr "Hoặc đăng nhập với nhận dạng nhà cung cấp khác"
+
+msgctxt "Languages::hybrid_auth.unspecified_error"
+msgid "Unspecified error"
+msgstr "Lỗi không xác định"
+
+msgctxt "Languages::hybrid_auth.configuration_error"
+msgid "Hybriauth configuration error"
+msgstr "Lỗi cấu hình Hybriauth"
+
+msgctxt "Languages::hybrid_auth.provider_error_configuration"
+msgid "Provider not properly configured"
+msgstr "Các nhà cung cấp cấu hình không đúng"
+
+msgctxt "Languages::hybrid_auth.wrong_provider"
+msgid "Unknown or disabled provider"
+msgstr "Nhà cung cấp không rõ hoặc vô hiệu"
+
+msgctxt "Languages::hybrid_auth.missing_credentials"
+msgid "Missing provider application credentials"
+msgstr "Thiếu thông tin đăng nhập ứng dụng nhà cung"
+
+msgctxt "Languages::hybrid_auth.failed_auth"
+msgid "Authentication failed. The user has canceled the authentication or the provider refused the connection"
+msgstr "Xác thực thất bại. Người dùng đã hủy bỏ việc xác thực hoặc các nhà cung cấp từ chối kết nối"
+
+msgctxt "Languages::hybrid_auth.connecting_provider"
+msgid "Contacting <b>[provider]</b>. Please wait..."
+msgstr "Liên hệ với <b>[provider]</b>. Vui lòng chờ..."
+
+msgctxt "Languages::hybrid_auth.cant_create_profile"
+msgid "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+msgstr "Thật không may, chúng tôi không tạo được một khách hàng và đăng nhập vào cửa hàng do một trong những lý do sau: < br / >-Bạn đăng nhập vào cửa hàng của chúng tôi trước đó bằng cách sử dụng một số OpenID nhà cung cấp khác trong đó cùng một thư điện tử được sử dụng. < br / >-Email bạn nhập đã đăng ký trong cửa hàng của chúng tôi. < br / > Xin vui lòng liên hệ với quản trị viên để giải quyết các vấn đề."
+
+msgctxt "Languages::hybrid_auth.password_generated"
+msgid "We are glad to inform you that you have been successfully registered in the store. A password was generated for you"
+msgstr "Chúng tôi rất vui mừng thông báo cho bạn rằng bạn đã đăng ký thành công. Mật khẩu đã được tạo cho bạn"
+
+msgctxt "Languages::hybrid_auth.change_password"
+msgid "You can change your password here"
+msgstr "Bạn có thể thay đổi mật khẩu của bạn tại đây"
+
+msgctxt "Languages::hybrid_auth.link_provider"
+msgid "Social network accounts"
+msgstr "Tài khoản mạng xã hội"
+
+msgctxt "Languages::hybrid_auth.text_link_provider"
+msgid "Assign your social network account to this one and use it to log in"
+msgstr "Chỉ định tài khoản mạng xã hội của bạn và sử dụng nó để đăng nhập"
+
+msgctxt "Languages::hybrid_auth.text_user_is_already_link"
+msgid "This social network account is already being used"
+msgstr "Tài khoản mạng xã hội này đã được sử dụng"
+
+msgctxt "Languages::hybrid_auth.connect_social"
+msgid "Connect social account"
+msgstr "Kết nối tài khoản xã hội"
+
+msgctxt "Languages::hybrid_auth.connect_social_title"
+msgid "Such user already exists"
+msgstr "Người dùng đã tồn tại"
+
+msgctxt "Languages::hybrid_auth.text_connect_social"
+msgid "<p>The user with the e-mail specified during social login already exists.</p><p>If you want to assign a social network account to the registered user, please log in.</p>"
+msgstr "<p>Email người dùng được chỉ định trong đăng nhập mạng xã hội đã tồn tại.</p> <p>Nếu bạn muốn chỉ định một tài khoản mạng xã hội cho người dùng đã đăng ký, xin vui lòng đăng nhập</p>"
+
+msgctxt "Languages::hybrid_auth.specify_email"
+msgid "Specify email"
+msgstr "Chỉ định email"
+
+msgctxt "Languages::hybrid_auth.specify_email_title"
+msgid "The e-mail was not specified."
+msgstr "Email không được chỉ định."
+
+msgctxt "Languages::hybrid_auth.text_specify_email"
+msgid "<p>When logging through the social network the e-mail was not specified.</p><p>Please enter your e-mail and click Continue.</p>"
+msgstr "<p>Khi đăng nhập thông qua các email mạng xã hội không được chỉ định.</p> <p>Xin vui lòng nhập địa chỉ email của bạn và nhấp vào tiếp tục.</p>"
+
+msgctxt "Languages::hybrid_auth_menu_description"
+msgid "Create social provider"
+msgstr "Tạo nhà cung cấp mạng xã hội"
+
+msgctxt "Languages::public_key"
+msgid "Public key"
+msgstr "Khóa công khai"
+
+msgctxt "Languages::paypal_seamless"
+msgid "Use seamless checkout"
+msgstr "Sử dụng thanh toán liền mạch"
+
+msgctxt "Languages::paypal_sandbox"
+msgid "Test mode"
+msgstr "Chế độ kiểm tra"
+
+msgctxt "Languages::privileges.manage_providers"
+msgid "Manage social login providers"
+msgstr "Quản lý nhà cung cấp mạng xã hội đăng nhập"
+
+msgctxt "Languages::privileges.view_providers"
+msgid "View social login providers"
+msgstr "Xem nhà cung cấp mạng xã hội đăng nhập"
+
+msgctxt "Languages::hybrid_auth.instruction_facebook"
+msgid "Use the application ID and Secret key that you've received after creating an application on <a href='https://developers.facebook.com/apps' target='_blank'>Facebook Developers</a>."
+msgstr "Sử dụng ID ứng dụng và Secret key mà bạn đã nhận được sau khi tạo một ứng dụng <a href='https://developers.facebook.com/apps' target='_blank'> Facebook</a> nhà phát triển."
+
+msgctxt "Languages::hybrid_auth.instruction_google"
+msgid "Use ID and Secret key that you've received after creating a project on <a href='https://code.google.com/apis/console/?pli=1' target='_blank'>Google</a>."
+msgstr "Sử dụng ID và Secret key mà bạn đã nhận được sau khi tạo một dự án trên <a href='https://code.google.com/apis/console/?pli=1' target='_blank'> Google</a>."
+
+msgctxt "Languages::hybrid_auth.instruction_paypal"
+msgid "Use the application ID and Secret key that you've received after creating an application on <a href='https://developer.paypal.com/developer/applications' target='_blank'>PayPal Developers</a>."
+msgstr "Sử dụng ID ứng dụng và Secret key mà bạn đã nhận được sau khi tạo một ứng dụng <a href='https://developer.paypal.com/developer/applications' target='_blank'> PayPal Developers</a>."
+
+msgctxt "Languages::hybrid_auth.instruction_twitter"
+msgid "Use ID (Consumer key) and Secret key that you've received after creating an application on <a href='https://apps.twitter.com/' target='_blank'>Twitter</a>."
+msgstr "Sử dụng ID (tConsumer key) và Secret key mà bạn đã nhận được sau khi tạo một ứng dụng trên <a href='https://apps.twitter.com/' target='_blank'> Twitter</a>."
+
+msgctxt "Languages::hybrid_auth.instruction_yahoo"
+msgid "Use ID (Identificator) and Secret key that you've received after creating an application on <a href='https://developer.apps.yahoo.com/dashboard/createKey.html' target='_blank'>Yahoo</a>."
+msgstr "Sử dụng ID (Identificator) và Secret key mà bạn đã nhận được sau khi tạo một ứng dụng trên <a href='https://developer.apps.yahoo.com/dashboard/createKey.html' target='_blank'> Yahoo</a>."
+
+msgctxt "Languages::hybrid_auth.instruction_live"
+msgid "Use the application ID and Secret key that you've received after adding an application on <a href='https://account.live.com/developers/applications/create' target='_blank'>Live</a>."
+msgstr "Sử dụng ID ứng dụng và Secret key mà bạn đã nhận được sau khi thêm một ứng dụng trên <a href='https://account.live.com/developers/applications/create' target='_blank'> Live</a>."
+
+msgctxt "Languages::hybrid_auth.instruction_linkedin"
+msgid "Use ID (Consumer key) and Secret key that you've received after creating an application on <a href='https://www.linkedin.com/developer/apps' target='_blank'>LinkedIn Developers</a>."
+msgstr "Sử dụng ID (Consumer key) và Secret key mà bạn đã nhận được sau khi tạo một ứng dụng trên <a href='https://www.linkedin.com/developer/apps' target='_blank'> LinkedIn nhà phát triển</a>."
+
+msgctxt "Languages::hybrid_auth.instruction_foursquare"
+msgid "Use the application ID and Secret key that you've received after creating an application on <a href='https://foursquare.com/developers/apps' target='_blank'>Fousquare</a>."
+msgstr "Sử dụng ID ứng dụng và Secret key mà bạn đã nhận được sau khi tạo một ứng dụng trên <a href='https://foursquare.com/developers/apps' target='_blank'> Fousquare</a>."
+
+msgctxt "Languages::email_template.hybrid_auth_create_profile"
+msgid "Create user profile via social login"
+msgstr "Tạo hồ sơ người dùng thông qua đăng nhập xã hội"
+

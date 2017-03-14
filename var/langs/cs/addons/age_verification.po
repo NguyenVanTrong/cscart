@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /addons/age_verification.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:01-0500\n"
+
+msgctxt "Addons::name::age_verification"
+msgid "Age verification"
+msgstr "Ověření věku"
+
+msgctxt "Addons::description::age_verification"
+msgid "Toggles age restriction rules for products and categories"
+msgstr "Přepíná pravidla věkového omezení pro produkty a kategorie"
+
+msgctxt "Languages::age_verification"
+msgid "Age verification"
+msgstr "Ověření věku"
+
+msgctxt "Languages::product_need_age_verification"
+msgid "You should verify your age to view this product."
+msgstr "Měli byste ověřit váš věk k zobrazení tohoto produktu."
+
+msgctxt "Languages::your_age"
+msgid "Your age"
+msgstr "Váš věk"
+
+msgctxt "Languages::verify"
+msgid "Verify"
+msgstr "Ověření"
+
+msgctxt "Languages::birthday"
+msgid "Birthday"
+msgstr "Datum narození"
+
+msgctxt "Languages::age_limit"
+msgid "Age limit"
+msgstr "Věková hranice"
+
+msgctxt "Languages::years"
+msgid "years"
+msgstr "let"
+
+msgctxt "Languages::age_warning_message"
+msgid "Warning message"
+msgstr "Upozorňující zpráva"
+
+msgctxt "Languages::promotion_cond_birthday"
+msgid "Birthday"
+msgstr "Narozeniny"
+

@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /addons/anti_fraud.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2016-11-28 04:04-0500\n"
+
+msgctxt "Addons::name::anti_fraud"
+msgid "Anti fraud"
+msgstr "Betrugsprävention"
+
+msgctxt "Addons::description::anti_fraud"
+msgid "Adds configurable security order verification using the Maxmind service to prevent fraud"
+msgstr "fügt konfigurierbare Überprüfung der Sicherheitsordnung mithilfe des Maxmind Service hinzu, um Betrug zu verhindern"
+
+msgctxt "Languages::af_big_order_total"
+msgid "Order total exceeds the allowed maximum"
+msgstr "Auftragssumme überschreitet den zulässigen Maximalwert"
+
+msgctxt "Languages::af_country_doesnt_match"
+msgid "The country does not match the IP address"
+msgstr "Das Land stimmt nicht mit der IP-Adresse überein."
+
+msgctxt "Languages::af_has_failed_orders"
+msgid "Customer has FAILED orders"
+msgstr "Kunde hat FEHLGESCHLAGENE Bestellungen "
+
+msgctxt "Languages::af_has_successfull_orders"
+msgid "Customer has SUCCESSFUL orders"
+msgstr "Kunde hat ERFOLGREICHE Bestellungen"
+
+msgctxt "Languages::af_high_risk_country"
+msgid "High risk country"
+msgstr "Hochrisikoland"
+
+msgctxt "Languages::af_high_risk_factor"
+msgid "Risk factor exceeds the defined value"
+msgstr "Risikofaktor überschreitet den definierten Wert"
+
+msgctxt "Languages::af_ip_not_found"
+msgid "Failed to identify customer's IP address"
+msgstr "Identifizierung der IP-Adresse des Kunden fehlgeschlagen"
+
+msgctxt "Languages::af_long_distance"
+msgid "Customer is outside the safe distance"
+msgstr "Kunde befindet sich außerhalb der sicheren Region"
+
+msgctxt "Languages::af_low_risk_factor"
+msgid "Risk factor is admissible"
+msgstr "Risikofaktor ist zulässig"
+
+msgctxt "Languages::antifraud_failed_order"
+msgid "Your order was placed in the store. It is undergoing an additional check now. We will contact you as soon as the administrator finishes it"
+msgstr "Ihr Auftrag wurde angenommen und durchläuft nun eine zusätzliche Überprüfung. Wir werden Sie kontaktieren, sobald diese beendet ist."
+
+msgctxt "Languages::risk_factor"
+msgid "Risk factor"
+msgstr "Risikofaktor"
+
+msgctxt "Languages::not_available"
+msgid "n/a"
+msgstr "nicht verfügbar"
+
+msgctxt "Languages::decision"
+msgid "Decision"
+msgstr "Entscheidung"
+
+msgctxt "Languages::anti_fraud_order_not_approved"
+msgid "Order has not been approved because risk factor exceeds Maximum risk factor"
+msgstr "Bestellung wurde nicht genehmigt, da der Risikofaktor den zulässigen Maximal-Risikofaktor überschreitet"
+
+msgctxt "Languages::anti_fraud_order_approved"
+msgid "Order has been approved"
+msgstr "Bestellung wurde genehmigt"
+
+msgctxt "Languages::fraud_risk"
+msgid "Fraud risk"
+msgstr "Betrugsrisiko"
+
+msgctxt "Languages::fraud_checking"
+msgid "Fraud checking"
+msgstr "Betrugsprüfung"
+
+msgctxt "SettingsSections::anti_fraud::general"
+msgid "General"
+msgstr "Allgemein"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_key"
+msgid "Maxmind license key"
+msgstr "Maxmind Lizenzschlüssel"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_safe_distance"
+msgid "Safe distance (km)"
+msgstr "Sichere Entfernung (km)"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_max_order_total"
+msgid "Max order total"
+msgstr "Max Auftragssumme"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_risk_factor"
+msgid "Maximum risk factor (1..100)"
+msgstr "Maximaler Risikofaktor (1..100)"
+
+msgctxt "SettingsOptions::anti_fraud::antifraud_order_status"
+msgid "Order status"
+msgstr "Auftragsstatus"
+

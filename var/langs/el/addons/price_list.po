@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /addons/price_list.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:47-0500\n"
+
+msgctxt "Addons::name::price_list"
+msgid "Price list"
+msgstr "Τιμοκατάλογος"
+
+msgctxt "Addons::description::price_list"
+msgid "Generates configurable price list in PDF or XLS"
+msgstr "Δημιουργεί διαμορφώσιμες λίστες τιμών σε PDF ή XLS"
+
+msgctxt "Languages::price_list"
+msgid "Price list"
+msgstr "Τιμοκατάλογος"
+
+msgctxt "Languages::selected_fields"
+msgid "Selected fields"
+msgstr "Επιλεγμένα πεδία"
+
+msgctxt "Languages::generating_pdf"
+msgid "Generating PDF. Please, be patient..."
+msgstr "Δημιουργία PDF. Παρακαλώ, περιμένετε..."
+
+msgctxt "Languages::generating_xls"
+msgid "Generating XLS. Please, be patient..."
+msgstr "Δημιουργία XLS. Παρακαλώ, περιμένετε..."
+
+msgctxt "Languages::price_list_ziparchive_not_installed"
+msgid "Impossible to create XML price list. Please add zip support in PHP on your server. Follow <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+msgstr "Αδύνατο να δημιουργηθεί λίστα τιμών XML. Παρακαλείσθε να προσθέσετε zip υποστήριξη στην PHP του διακομιστή σας. Ακολουθήστε αυτό το σύνδεσμο <a href=\"http://www.php.net/manual/en/zip.installation.php\"> http://www.php.net/manual/en/zip.installation.php</a>."
+
+msgctxt "Languages::price_list.text_select_storefront"
+msgid "To generate a price list, please select storefront first."
+msgstr "Για να δημιουργήσετε μια λίστα τιμών, επιλέξτε πρώτα κατάστημα."
+
+msgctxt "Languages::price_list.text_regenerate"
+msgid "<p>If products, categories or selected fields were added or changed, please regenerate a price list:<br />[buttons]</p><p>Generated price lists are available by these links<br/>[links]</p>"
+msgstr "<p>Αν έχουν προστεθεί  ή τροποποιηθεί, προϊόντα, κατηγορίες  ή Επιλεγμένα πεδία  παρακαλώ να αναδημιουργήσετε τον τιμοκατάλογο: < br / >[buttons]</p> <p>Οι δημιουργημενοι τιμοκαταλόγει είναι διαθέσιμοιες από αυτα τα λινκ<br/>[links]</p>"
+
+msgctxt "SettingsSections::price_list::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::price_list::price_list_fields"
+msgid "Fields"
+msgstr "Πεδία"
+
+msgctxt "SettingsOptions::price_list::price_list_sorting"
+msgid "Sort by"
+msgstr "Ταξινόμηση ως πρός"
+
+msgctxt "SettingsOptions::price_list::group_by_category"
+msgid "Group by category"
+msgstr "Ομαδοποίηση κατά κατηγορία"
+
+msgctxt "SettingsOptions::price_list::include_options"
+msgid "Include product options"
+msgstr "Να περιλαμβάνονται επιλογές του προϊόντος"
+

@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /addons/call_requests.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:03-0500\n"
+
+msgctxt "Addons::name::call_requests"
+msgid "Call requests"
+msgstr "Demandes d'appel"
+
+msgctxt "Addons::description::call_requests"
+msgid "Adds a call-requests system"
+msgstr "Ajoute un système de demandes d'appel"
+
+msgctxt "SettingsSections::call_requests::general"
+msgid "General"
+msgstr "Général"
+
+msgctxt "SettingsOptions::call_requests::general"
+msgid "General"
+msgstr "Général"
+
+msgctxt "SettingsOptions::call_requests::phone"
+msgid "Rewrite phone"
+msgstr "Réécrire le téléphone"
+
+msgctxt "SettingsOptions::call_requests::phone_prefix_length"
+msgid "Highlight first chars"
+msgstr "Mettre en évidence les premiers caractères"
+
+msgctxt "SettingsOptions::call_requests::buy_now_with_one_click"
+msgid "Enable the \"Buy now with one click\" option"
+msgstr "Activez l'option « Achetez maintenant en un seul clic »"
+
+msgctxt "SettingsOptions::call_requests::order_status"
+msgid "Order status"
+msgstr "Statut de commande"
+
+msgctxt "SettingsOptions::call_requests::phone_mask"
+msgid "Phone mask"
+msgstr "Masque téléphonique"
+
+msgctxt "SettingsTooltips::call_requests::phone_mask"
+msgid "Leave empty to use automatic country-based phone pattern, or type in a custom pattern. You can use spaces, commas, +, -, and digits. Note that 9 represents any digit; if you need a 9, type \\\\9. Examples: +9 (999) 999 99 99, 99999999, 999 999 99 or +99-99-9999-9999."
+msgstr "Laisser vide pour utiliser modèle automatique téléphone par pays, ou entrez un motif personnalisé. Vous pouvez utiliser des espaces, des virgules, +, - et les chiffres. Notez que 9 représente un chiffre ; Si vous avez besoin d’un 9, tapez \\\9. Exemples : +9 (999) 999 99 99, 99999999, 999 999 99 ou + 99-99-9999-9999."
+
+msgctxt "SettingsTooltips::call_requests::phone_prefix_length"
+msgid "Including parenthesis, spaces, etc. Use to highlight country code, area code, and phone prefix."
+msgstr "Comprenant des parenthèses, espaces, etc. Utiliser pour mettre en surbrillance le code de pays, indicatif régional et préfixe téléphone."
+
+msgctxt "Languages::privileges.manage_call_requests"
+msgid "Manage Call requests"
+msgstr "Gérer les demandes d'appel"
+
+msgctxt "Languages::privileges.view_call_requests"
+msgid "View Call requests"
+msgstr "Afficher les demandes d'appel"
+
+msgctxt "Languages::call_requests"
+msgid "Call requests"
+msgstr "Demandes d'appel"
+
+msgctxt "Languages::call_requests_menu_description"
+msgid "Manage customer call requests"
+msgstr "Gérer les demandes d'appel client"
+
+msgctxt "Languages::call_requests.request_call"
+msgid "Request call"
+msgstr "Appel de demande"
+
+msgctxt "Languages::call_requests.buy_now_with_one_click"
+msgid "Buy now with 1-click"
+msgstr "Acheter maintenant en un 1-click"
+
+msgctxt "Languages::call_requests.error_validate_call_form"
+msgid "Please enter your email or phone number"
+msgstr "Veuillez entrer votre adresse mail ou votre numéro de téléphone"
+
+msgctxt "Languages::call_requests.request_recieved"
+msgid "We have received your request! Our manager will contact you soon."
+msgstr "Nous avons reçu votre demande ! Notre gestionnaire vous contactera bientôt."
+
+msgctxt "Languages::call_requests.order_placed"
+msgid "We have received your request! The order #[order_id] has been successfully created. Our manager will contact you soon."
+msgstr "Nous avons reçu votre demande ! La commande #[order_id] a été créée avec succès. Notre gestionnaire vous contactera bientôt."
+
+msgctxt "Languages::call_requests.phone_from_settings"
+msgid "Phone from settings"
+msgstr "Téléphone depuis les paramètres"
+
+msgctxt "Languages::call_requests.enter_phone_or_email_text"
+msgid "Please enter your phone number or email (for our manager to contact you)"
+msgstr "Veuillez entrer votre numéro de téléphone ou votre adresse mail (afin que notre gestionnaire puisse vous contacter)"
+
+msgctxt "Languages::call_requests.status.new"
+msgid "New"
+msgstr "Nouveau"
+
+msgctxt "Languages::call_requests.status.in_progress"
+msgid "In progress"
+msgstr "En cours"
+
+msgctxt "Languages::call_requests.status.completed"
+msgid "Completed"
+msgstr "Terminé"
+
+msgctxt "Languages::call_requests.status.no_answer"
+msgid "No answer"
+msgstr "Pas de réponse"
+
+msgctxt "Languages::call_requests.responsible"
+msgid "Responsible"
+msgstr "Responsable"
+
+msgctxt "Languages::call_requests.notes"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "Languages::call_requests.requested_product"
+msgid "Requested product"
+msgstr "Produit demandé"
+
+msgctxt "Languages::call_requests.convenient_time"
+msgid "Convenient time"
+msgstr ""
+
+msgctxt "Languages::call_requests.awaiting_call"
+msgid "Awaiting call"
+msgstr "En attente d'appel"
+
+msgctxt "Languages::call_requests.order_exists"
+msgid "Order exists"
+msgstr "La commande existe"
+
+msgctxt "Languages::call_requests.person_name_and_phone"
+msgid "Name and phone"
+msgstr "Nom et téléphone"
+
+msgctxt "Languages::call_requests.no_name_specified"
+msgid "No name specified"
+msgstr "Aucun nom spécifié"
+
+msgctxt "Languages::call_requests.use_for_call_requests"
+msgid "Call request and buy now with one click form"
+msgstr "Demandez et achetez maintenant d'un seul clic avec le formulaire"
+
+msgctxt "Languages::block_call_request"
+msgid "Call request"
+msgstr "Demandes d'appel"
+
+msgctxt "Languages::block_call_request_description"
+msgid "Store phone number and form for requesting a call"
+msgstr "Stocker le numéro de téléphone et formulaire de demande un appel"
+
+msgctxt "Languages::tmpl_call_request"
+msgid "Call request form"
+msgstr "Demandes d'appel"
+
+msgctxt "Languages::call_requests.text_call_request"
+msgid "Customer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number]."
+msgstr ""
+
+msgctxt "Languages::call_requests.text_call_request_call_time"
+msgid "The convenient call time is between [time_from] and [time_to]."
+msgstr "Le temps de garde pratique est entre [time_from] et [time_to]."
+
+msgctxt "Languages::call_requests.text_buy_with_one_click_request"
+msgid "Сustomer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number], regarding the purchase of the product <a href=\"[product_href]\">[product_name]</a>."
+msgstr "Сustomer [customer] est <a href=\"[href]\"> en attente de votre appel</a> sur [phone_number], au sujet de l’achat de la produit <a href=\"[product_href]\">[product_name]</a>."
+
+msgctxt "Languages::call_requests.error_validator_phone"
+msgid "The phone number in the <b>[field]</b> field is invalid."
+msgstr "Le code couleur dans le champ <b>[field]</b> n'est pas valable."
+
+msgctxt "Languages::email_template.call_requests_buy_with_one_click"
+msgid "Call requests: buy with one click notification"
+msgstr ""
+
+msgctxt "Languages::email_template.call_requests_call_request"
+msgid "Call requests: call request notification"
+msgstr ""
+
+msgctxt "Languages::call_request.work_time"
+msgid "Mon-Fr 9a.m.-6p.m."
+msgstr ""
+

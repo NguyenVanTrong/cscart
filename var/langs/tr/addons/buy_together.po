@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /addons/buy_together.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::buy_together"
+msgid "Buy together"
+msgstr "Birlikte satın al"
+
+msgctxt "Addons::description::buy_together"
+msgid "Allows you to set up share discounts on certain product combinations"
+msgstr "Belirli ürün kombinasyonlarında indirimleri paylaşmanıza imkan verir"
+
+msgctxt "Languages::buy_together"
+msgid "Buy together"
+msgstr "Birlikte satın al"
+
+msgctxt "Languages::specify_options"
+msgid "Specify options"
+msgstr "Seçeneklerini belirtin"
+
+msgctxt "Languages::total_list_price"
+msgid "Total list price"
+msgstr "Toplam Liste Fiyatı"
+
+msgctxt "Languages::price_for_all"
+msgid "Price for all"
+msgstr "Hepsi için fiyat"
+
+msgctxt "Languages::add_all_to_cart"
+msgid "Add all to cart"
+msgstr "Tümünü Sepete Ekle"
+
+msgctxt "Languages::editing_combination"
+msgid "Editing combination"
+msgstr "Kombinasyon düzenleme"
+
+msgctxt "Languages::buy_together_calculation_information"
+msgid "Total price: [total_price], Discount: [discount], Combination price: [combination_price]"
+msgstr "Toplam Fiyat: [total_price], indirim: [discount], kombine fiyat: [combination_price]"
+
+msgctxt "Languages::display_in_promotions"
+msgid "Display in promotions"
+msgstr "Promosyonlarda göster"
+
+msgctxt "Languages::combination_products"
+msgid "Combination products"
+msgstr "Kombinasyon ürünleri"
+
+msgctxt "Languages::share_discount"
+msgid "Share discount"
+msgstr "Pay indirimi"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_configurator"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Product configurator add-on"
+msgstr "[product_name] bu kombinasyona eklenemez. Birlikte al ile Ürün Konfigürasyon Eklentisi uyumlu değil"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_recurring_billing"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Recurring billing add-on"
+msgstr "[product_name] bu kombinasyona eklenemez. Birlikte al ile Tekrarlayan Faturalama Eklentisi uyumlu değil"
+
+msgctxt "Languages::buy_together_combination_cannot_be_added"
+msgid "Combination cannot be added to cart"
+msgstr "Kombinasyon sepete eklenemiyor"
+
+msgctxt "Languages::buy_together_product_was_removed"
+msgid "[product] did not have enough amount ([amount]) and was removed from the cart"
+msgstr "[product] yeterli miktarda  ([amount]) değil ve sepetten çıkartıldı"
+
+msgctxt "Languages::buy_together_fill_the_mandatory_fields"
+msgid "Please specify product options before adding this product combination to the cart."
+msgstr "Lütfen bu ürün kombinasyonu sepete eklemeden önce ürün seçenekleri belirtin."
+

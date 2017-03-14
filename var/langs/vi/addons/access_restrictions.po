@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/access_restrictions.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::access_restrictions"
+msgid "Access restrictions"
+msgstr "Truy cập hạn chế"
+
+msgctxt "Addons::description::access_restrictions"
+msgid "Lets you limit storefront and administrator area access to certain IP-addresses with different options"
+msgstr "Cho phép bạn giới hạn việc truy cập vào trang web và trang quản trị từ những địa chỉ IP nhất định với các tùy chọn khác nhau"
+
+msgctxt "Languages::access_restrictions"
+msgid "Access restrictions"
+msgstr "Truy cập hạn chế"
+
+msgctxt "Languages::add_ips"
+msgid "Add IPs"
+msgstr "Thêm IP"
+
+msgctxt "Languages::new_ips"
+msgid "New IPs"
+msgstr "IP mới"
+
+msgctxt "Languages::add_domains"
+msgid "Add domains"
+msgstr "Thêm tên miền"
+
+msgctxt "Languages::new_domains"
+msgid "New domains"
+msgstr "Tên miền mới"
+
+msgctxt "Languages::add_emails"
+msgid "Add e-mail addresses"
+msgstr "Thêm địa chỉ email"
+
+msgctxt "Languages::new_emails"
+msgid "New e-mail addresses"
+msgstr "Địa chỉ email mới"
+
+msgctxt "Languages::new_credit_card"
+msgid "New credit card"
+msgstr "Thẻ tín dụng mới"
+
+msgctxt "Languages::add_credit_card"
+msgid "Add credit card"
+msgstr "Thêm thẻ tín dụng"
+
+msgctxt "Languages::privileges.manage_access_restrictions"
+msgid "Manage access restrictions"
+msgstr "Quản lý truy cập hạn chế"
+
+msgctxt "Languages::domain"
+msgid "Domain"
+msgstr "Tên miền"
+
+msgctxt "Languages::warning_of_ip_adding"
+msgid "The entered IP address <b>[entered_ip]</b> forbids access to the administration panel from your computer (your IP is <b>[your_ip]</b>)."
+msgstr "Nhập địa chỉ IP <b>[entered_ip]</b> cấm truy cập vào bảng quản trị từ máy tính của bạn (IP của bạn là <b>[your_ip]</b>)."
+
+msgctxt "Languages::text_cc_number_is_blocked"
+msgid "The credit card number <b>[cc_number]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "Số thẻ tín dụng <b>[cc_number]</b> bị chặn bởi quản trị viên. Xin vui lòng liên hệ với người quản lý cửa hàng hoặc thử một số khác."
+
+msgctxt "Languages::text_not_valid_ip"
+msgid "<b>[ip]</b> is not a valid ip address."
+msgstr "<b>[ip]</b> không phải là một địa chỉ ip hợp lệ."
+
+msgctxt "Languages::text_not_valid_domain"
+msgid "<b>[domain]</b> is not a valid domain name."
+msgstr "<b>[domain]</b> không phải là một tên miền hợp lệ."
+
+msgctxt "Languages::text_not_valid_cc_number"
+msgid "<b>[cc_number]</b> is not a valid credit card number."
+msgstr "<b>[cc_number]</b> không phải là một số thẻ tín dụng hợp lệ."
+
+msgctxt "Languages::text_email_is_blocked"
+msgid "The e-mail address <b>[email]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "Địa chỉ email <b>[email]</b> bị chặn bởi quản trị viên. Xin vui lòng liên hệ với người quản lý cửa hàng hoặc thử một email khác."
+
+msgctxt "Languages::text_ips_denied"
+msgid "You are not allowed to access this area"
+msgstr "Bạn không được phép truy cập vào khu vực này"
+
+msgctxt "Languages::text_ip_blocked_failed_login"
+msgid "The IP was blocked after [number] unsuccessful logins"
+msgstr "IP bị chặn sau khi [number] đăng nhập không thành công"
+
+msgctxt "Languages::text_ip_is_blocked"
+msgid "Your IP address is blocked."
+msgstr "Địa chỉ IP của bạn bị chặn."
+
+msgctxt "Languages::store_admin"
+msgid "Store administrator"
+msgstr "Quản trị viên cửa hàng"
+
+msgctxt "Languages::your_ip_added"
+msgid "Your IP address <b>[ip]</b> has been added to the access restrictions table."
+msgstr "Địa chỉ IP của bạn <b>[ip]</b> đã được thêm vào bảng truy cập hạn chế."
+
+msgctxt "Languages::your_ip_enabled"
+msgid "Your IP address <b>[ip]</b> has been enabled in the access restrictions table."
+msgstr "Địa chỉ IP của bạn <b>[ip]</b> đã được cho phép trong bảng truy cập hạn chế."
+
+msgctxt "Languages::your_ip_removed"
+msgid "Your IP address <b>[ip]</b> has been removed from the access restrictions table."
+msgstr "Địa chỉ IP của bạn <b>[ip]</b> đã được gỡ bỏ khỏi bảng truy cập hạn chế."
+
+msgctxt "Languages::ip_from"
+msgid "IP from"
+msgstr "IP từ"
+
+msgctxt "Languages::ip_to"
+msgid "IP to"
+msgstr "IP đến"
+
+msgctxt "Languages::text_access_notice"
+msgid "You can use the wildcards for the \"Domain\", \"E-mail\" and \"Credit Card\" tabs: <br /><b>*</b> - can represent any number of characters, including zero<br /><b>?</b> - can represent any single character."
+msgstr "Bạn có thể sử dụng các ký tự đại diện cho các tab \"Tên miền\", \"Email\" và \"Thẻ tín dụng\": < br / > <b>*</b> - có thể đại diện cho bất kỳ ký tự, bao gồm 0 <br /> <b>?</b> - có thể đại diện cho bất kỳ ký tự đơn giản."
+
+msgctxt "Languages::ips"
+msgid "IPs"
+msgstr "IP"
+
+msgctxt "Languages::make_permanent"
+msgid "Make permanent"
+msgstr "Tạo vĩnh viễn"
+
+msgctxt "Languages::credit_card_number"
+msgid "Credit card number"
+msgstr "Số thẻ tín dụng"
+
+msgctxt "SettingsSections::access_restrictions::general"
+msgid "General"
+msgstr "Tổng quát"
+
+msgctxt "SettingsOptions::access_restrictions::elm_administrator_area_settings"
+msgid "Administrator area settings"
+msgstr "Cài đặt khu vực quản trị"
+
+msgctxt "SettingsOptions::access_restrictions::admin_reverse_ip_access"
+msgid "Allow login to the admin area from specified IPs only"
+msgstr "Chỉ cho phép đăng nhập vào khu vực quản trị từ IP quy định"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "Chặn IP sau khi một số nỗ lực không thành công"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts"
+msgid "Number of unsuccessful attempts"
+msgstr "Số lượng các nỗ lực không thành công"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "Thời gian giữa các lần đăng nhập không thành công (giây)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "Thời gian mà IP bị chặn (giờ)"
+
+msgctxt "SettingsOptions::access_restrictions::elm_customer_and_affiliate_area_settings"
+msgid "Customer area settings"
+msgstr "Cài đặt khu vực khác hàng"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login_customer"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "Chặn IP sau khi một số nỗ lực đăng nhập không thành công"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts_customer"
+msgid "Number of unsuccessful attempts"
+msgstr "Số lần đăng nhập không thành công"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals_customer"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "Thời gian giữa các lần đăng nhập không thành công (giây)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block_customer"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "Thời gian mà IP bị chặn (giờ)"
+

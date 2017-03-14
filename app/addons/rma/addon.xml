@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>rma</id>
+    <version>1.0</version>
+    <priority>1600</priority>
+    <position>220</position>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="display_product_return_period">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="dont_take_weekends_into_account">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="demo" type="file">database/demo.sql</item>
+        <item>DROP TABLE IF EXISTS ?:rma_property_descriptions;</item>
+        <item>DROP TABLE IF EXISTS ?:rma_properties;</item>
+        <item>DROP TABLE IF EXISTS ?:rma_return_products;</item>
+        <item>DROP TABLE IF EXISTS ?:rma_returns;</item>
+        <!--
+        /********************
+        *
+        * field "type" in
+        * R - RMA Reason
+        * A - RMA Action
+        *
+        */
+        -->
+        <item>
+            CREATE TABLE `?:rma_properties` (
+                `property_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `position` smallint(5) unsigned NOT NULL default '0',
+                `status` char(1) NOT NULL default '',
+                `type` char(1) NOT NULL default 'R',
+                `update_totals_and_inventory` char(1) NOT NULL default 'N',
+                PRIMARY KEY  (`property_id`),
+                KEY `c_status` (`property_id`,`status`),
+                KEY `status` (`status`,`type`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:rma_property_descriptions` (
+                `property_id` mediumint(8) unsigned NOT NULL default '0',
+                `lang_code` char(2) NOT NULL default '',
+                `property` varchar(255) NOT NULL default '',
+                PRIMARY KEY  (`property_id`,`lang_code`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <!--
+        /*********************
+        *
+        * field "type" in
+        * A - Accepted product
+        * D - Declined product
+        *
+        */
+        -->
+        <item>
+            CREATE TABLE `?:rma_return_products` (
+                `return_id` mediumint(8) unsigned NOT NULL default '0',
+                `item_id` int(11) unsigned NOT NULL default '0',
+                `product_id` mediumint(8) unsigned NOT NULL default '0',
+                `reason` mediumint(8) unsigned NOT NULL default '0',
+                `amount` mediumint(8) unsigned NOT NULL default '0',
+                `type` char(1) NOT NULL default 'A',
+                `price` decimal(12,2) NOT NULL default '0.00',
+                `product_options` text,
+                `product` varchar(255) NOT NULL default '',
+                PRIMARY KEY  (`return_id`,`item_id`,`type`),
+                KEY `reason` (`reason`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:rma_returns` (
+                `return_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `order_id` mediumint(8) unsigned NOT NULL default '0',
+                `user_id` mediumint(8) unsigned NOT NULL default '0',
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `action` mediumint(8) unsigned NOT NULL default '0',
+                `status` char(1) NOT NULL default 'O',
+                `total_amount` mediumint(8) unsigned NOT NULL default '0',
+                `comment` text,
+                `extra` text,
+                PRIMARY KEY  (`return_id`),
+                KEY `order_id` (`order_id`),
+                KEY `timestamp` (`timestamp`),
+                KEY `user_id` (`user_id`),
+                KEY `status` (`status`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>REPLACE INTO ?:statuses (status, type, is_default) VALUES ('R', 'R', 'Y');</item>
+        <item>REPLACE INTO ?:statuses (status, type, is_default) VALUES ('A', 'R', 'Y');</item>
+        <item>REPLACE INTO ?:statuses (status, type, is_default) VALUES ('D', 'R', 'Y');</item>
+        <item>REPLACE INTO ?:statuses (status, type, is_default) VALUES ('C', 'R', 'Y');</item>
+
+        <item for="uninstall">DELETE FROM ?:status_descriptions WHERE status_id IN (SELECT status_id FROM ?:statuses WHERE type = 'R')</item>
+        <item for="uninstall">DELETE FROM ?:status_data WHERE status_id IN (SELECT status_id FROM ?:statuses WHERE type = 'R')</item>
+        <item for="uninstall">DELETE FROM ?:statuses WHERE type = 'R'</item>
+
+        <item type="file">database/data.sql</item>
+        <item type="file" lang="en" table="rma_property_descriptions">database/lang_en.sql</item>
+        <item type="file" lang="ru" table="rma_property_descriptions">database/lang_ru.sql</item>
+        <item type="file" lang="es" table="rma_property_descriptions">database/lang_es.sql</item>
+        <item type="file" lang="el" table="rma_property_descriptions">database/lang_el.sql</item>
+        <item type="file" lang="da" table="rma_property_descriptions">database/lang_da.sql</item>
+        <item type="file" lang="ro" table="rma_property_descriptions">database/lang_ro.sql</item>
+        <item type="file" lang="sl" table="rma_property_descriptions">database/lang_sl.sql</item>
+
+        <item type="file" lang="en" table="status_descriptions">database/status_descriptions/lang_en.sql</item>
+        <item type="file" lang="ru" table="status_descriptions">database/status_descriptions/lang_ru.sql</item>
+        <item type="file" lang="es" table="status_descriptions">database/status_descriptions/lang_es.sql</item>
+        <item type="file" lang="el" table="status_descriptions">database/status_descriptions/lang_el.sql</item>
+        <item type="file" lang="da" table="status_descriptions">database/status_descriptions/lang_da.sql</item>
+        <item type="file" lang="ro" table="status_descriptions">database/status_descriptions/lang_ro.sql</item>
+        <item type="file" lang="sl" table="status_descriptions">database/status_descriptions/lang_sl.sql</item>
+
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO  ?:privileges (privilege, is_default, section_id) VALUES ('manage_rma', 'Y', 'addons');</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege LIKE 'manage_rma'</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:rma_property_descriptions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:rma_properties;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:rma_return_products;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:rma_returns;</item>
+    </queries>
+    <email_templates type="file">resources/email_templates.xml</email_templates>
+    <document_templates type="file">resources/document_templates.xml</document_templates>
+    <snippet_templates type="file">resources/snippet_templates.xml</snippet_templates>
+</addon>

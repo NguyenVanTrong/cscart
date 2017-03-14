@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/polls.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::polls"
+msgid "Polls"
+msgstr "Thăm dò ý kiến"
+
+msgctxt "Addons::description::polls"
+msgid "Adds a possibility to add customized polls to the site"
+msgstr "Thêm một tùy chỉnh cho cuộc thăm dò ý kiến vào trang web"
+
+msgctxt "Languages::use_for_polls"
+msgid "Polls"
+msgstr "Thăm dò ý kiến"
+
+msgctxt "Languages::tmpl_polls_central"
+msgid "Central"
+msgstr "Chính giữa"
+
+msgctxt "Languages::tmpl_polls_side"
+msgid "Side box"
+msgstr "Bên cạnh"
+
+msgctxt "Languages::polls_answers_with_comments"
+msgid "Answers with comments"
+msgstr "Câu trả lời với bình luận"
+
+msgctxt "Languages::polls_have_completed"
+msgid "You have already completed this poll."
+msgstr "Bạn đã hoàn thành thăm dò ý kiến này."
+
+msgctxt "Languages::polls_total_votes"
+msgid "Total votes"
+msgstr "Tổng số phiếu"
+
+msgctxt "Languages::polls"
+msgid "Polls"
+msgstr "Thăm dò ý kiến"
+
+msgctxt "Languages::new_poll"
+msgid "New poll"
+msgstr "Thăm dò ý kiến mới"
+
+msgctxt "Languages::editing_poll"
+msgid "Editing poll"
+msgstr "Sửa thăm dò ý kiến"
+
+msgctxt "Languages::use_for_polls"
+msgid "Polls"
+msgstr "Thăm dò ý kiến"
+
+msgctxt "Languages::text_you_have_already_filled_this_poll"
+msgid "You have already completed this poll"
+msgstr "Bạn đã hoàn thành thăm dò ý kiến này"
+
+msgctxt "Languages::block_polls"
+msgid "Polls"
+msgstr "Thăm dò ý kiến"
+
+msgctxt "Languages::poll"
+msgid "Poll"
+msgstr "Thăm dò ý kiến"
+
+msgctxt "Languages::questions"
+msgid "Questions"
+msgstr "Câu hỏi"
+
+msgctxt "Languages::poll_statistics"
+msgid "Poll statistics"
+msgstr "Thống kê thăm dò ý kiến"
+
+msgctxt "Languages::add_polls_and_close"
+msgid "Add polls and close"
+msgstr "Thêm cuộc thăm dò và đóng"
+
+msgctxt "Languages::add_polls"
+msgid "Add polls"
+msgstr "Thêm thăm dò ý kiến"
+
+msgctxt "Languages::required_not_answered"
+msgid "You should answer all the mandatory questions"
+msgstr "Bạn nên trả lời tất cả các câu hỏi bắt buộc"
+
+msgctxt "Languages::thanks_for_voting"
+msgid "Thank you for taking time to complete this poll."
+msgstr "Cảm ơn bạn đã dành thời gian để hoàn thành phần thăm dò ý kiến này."
+
+msgctxt "Languages::poll_show_results"
+msgid "Poll results visible to"
+msgstr "Kết quả thăm dò ý kiến có thể nhìn thấy"
+
+msgctxt "Languages::poll_results_nobody"
+msgid "nobody"
+msgstr "không ai"
+
+msgctxt "Languages::poll_results_voted"
+msgid "voted users"
+msgstr "người dùng bình chọn"
+
+msgctxt "Languages::poll_results_everybody"
+msgid "everybody (in a pop-up)"
+msgstr "Tất cả mọi người (trong một cửa sổ pop-up)"
+
+msgctxt "Languages::poll_header"
+msgid "Poll header"
+msgstr "Tiêu đề thăm dò ý kiến"
+
+msgctxt "Languages::poll_footer"
+msgid "Poll footer"
+msgstr "Cuối trang thăm dò ý kiến"
+
+msgctxt "Languages::poll_results"
+msgid "Poll message"
+msgstr "Tin nhắn thăm dò ý kiến"
+
+msgctxt "Languages::new_question"
+msgid "New question"
+msgstr "Câu hỏi mới"
+
+msgctxt "Languages::add_question"
+msgid "Add question"
+msgstr "Thêm câu hỏi"
+
+msgctxt "Languages::editing_question"
+msgid "Editing question"
+msgstr "Sửa câu hỏi"
+
+msgctxt "Languages::add_poll"
+msgid "Add poll"
+msgstr "Thêm thăm dò ý kiến"
+
+msgctxt "Languages::polls_total_submited"
+msgid "Total number of submitted poll forms"
+msgstr "Tổng số gửi biểu mẫu thăm dò ý kiến"
+
+msgctxt "Languages::polls_total_completed"
+msgid "Number of poll forms completed in full"
+msgstr "Số lượng gửi mẫu thăm dò ý kiến hoàn thành đầy đủ"
+
+msgctxt "Languages::polls_first_submited"
+msgid "First poll form submitted"
+msgstr "Hình thức gửi mẫu thăm dò ý kiến đầu tiên"
+
+msgctxt "Languages::polls_last_submited"
+msgid "Last poll form submitted"
+msgstr "Hình thức gửi mẫu thăm dò ý kiến cuối"
+
+msgctxt "Languages::statistics_by_questions"
+msgid "Statistics by questions"
+msgstr "Thống kê theo câu hỏi"
+
+msgctxt "Languages::view_answers"
+msgid "View answers"
+msgstr "Xem câu trả lời"
+
+msgctxt "Languages::polls_votes"
+msgid "Votes"
+msgstr "Lượt bình chọn"
+
+msgctxt "Languages::answers"
+msgid "Answers"
+msgstr "Câu trả lời"
+
+msgctxt "Languages::question_text"
+msgid "Question text"
+msgstr "Nội dung câu hỏi"
+
+msgctxt "Languages::select_single_type"
+msgid "Select single option"
+msgstr "Lựa chọn đơn"
+
+msgctxt "Languages::select_one_or_more_type"
+msgid "Select one or more options"
+msgstr "Chọn một hoặc nhiều tùy chọn"
+
+msgctxt "Languages::text_answer_type"
+msgid "Provide a textual answer"
+msgstr "Cung cấp một nội dung câu trả lời"
+
+msgctxt "Languages::answer_text"
+msgid "Answer text"
+msgstr "Nội dung câu trả lời"
+
+msgctxt "Languages::text_box"
+msgid "Text box"
+msgstr "Hộp văn bản"
+
+msgctxt "Languages::tt_addons_polls_hooks_pages_tabs_content_post_poll_results"
+msgid "Message that is displayed in the storefront after the poll is completed."
+msgstr "Tin nhắn được hiển thị sau khi các cuộc thăm dò hoàn tất."
+
+msgctxt "SettingsSections::polls::general"
+msgid "General"
+msgstr "Tổng quát"
+
+msgctxt "SettingsOptions::polls::polls_votes_on_page"
+msgid "Votes on page"
+msgstr "Bình chọn trên trang"
+
+msgctxt "SettingsOptions::polls::polls_comments_on_page"
+msgid "Answers on page"
+msgstr "Câu trả lời trên trang"
+

@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/call_requests.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::call_requests"
+msgid "Call requests"
+msgstr "Yêu cầu gọi"
+
+msgctxt "Addons::description::call_requests"
+msgid "Adds a call-requests system"
+msgstr "Thêm một hệ thống yêu cầu gọi"
+
+msgctxt "SettingsSections::call_requests::general"
+msgid "General"
+msgstr "Tổng quát"
+
+msgctxt "SettingsOptions::call_requests::general"
+msgid "General"
+msgstr "Tổng quát"
+
+msgctxt "SettingsOptions::call_requests::phone"
+msgid "Rewrite phone"
+msgstr "Viết lại điện thoại"
+
+msgctxt "SettingsOptions::call_requests::phone_prefix_length"
+msgid "Highlight first chars"
+msgstr "Highlight first chars"
+
+msgctxt "SettingsOptions::call_requests::buy_now_with_one_click"
+msgid "Enable the \"Buy now with one click\" option"
+msgstr "Kích hoạt tùy chọn \"Mua ngay với một lần nhấp chuột\""
+
+msgctxt "SettingsOptions::call_requests::order_status"
+msgid "Order status"
+msgstr "Trạng thái đơn hàng"
+
+msgctxt "SettingsOptions::call_requests::phone_mask"
+msgid "Phone mask"
+msgstr "Phone mask"
+
+msgctxt "SettingsTooltips::call_requests::phone_mask"
+msgid "Leave empty to use automatic country-based phone pattern, or type in a custom pattern. You can use spaces, commas, +, -, and digits. Note that 9 represents any digit; if you need a 9, type \\\\9. Examples: +9 (999) 999 99 99, 99999999, 999 999 99 or +99-99-9999-9999."
+msgstr "Để trống để sử dụng điện thoại tự động quốc gia dựa trên mẫu, hoặc nhập vào một mẫu tùy chỉnh. Bạn có thể sử dụng khoảng trống, dấu phẩy, +, -, và chữ số. Lưu ý rằng 9 đại diện cho bất kỳ chữ số; Nếu bạn cần một 9, loại \\\9. Ví dụ: + 9 (999) 999 99 99, 99999999, 999 999 99 hoặc +99-99-9999-9999."
+
+msgctxt "SettingsTooltips::call_requests::phone_prefix_length"
+msgid "Including parenthesis, spaces, etc. Use to highlight country code, area code, and phone prefix."
+msgstr "Bao gồm dấu ngoặc đơn, khoảng trống, vv... Sử dụng để làm nổi bật mã quốc gia, mã vùng và tiền tố điện thoại."
+
+msgctxt "Languages::privileges.manage_call_requests"
+msgid "Manage Call requests"
+msgstr "Quản lý yêu cầu gọi"
+
+msgctxt "Languages::privileges.view_call_requests"
+msgid "View Call requests"
+msgstr "Xem yêu cầu gọi"
+
+msgctxt "Languages::call_requests"
+msgid "Call requests"
+msgstr "Yêu cầu gọi"
+
+msgctxt "Languages::call_requests_menu_description"
+msgid "Manage customer call requests"
+msgstr "Quản lý khách yêu cầu gọi"
+
+msgctxt "Languages::call_requests.request_call"
+msgid "Request call"
+msgstr "Yêu cầu cuộc gọi"
+
+msgctxt "Languages::call_requests.buy_now_with_one_click"
+msgid "Buy now with 1-click"
+msgstr "Mua ngay với 1 nhấp chuột"
+
+msgctxt "Languages::call_requests.error_validate_call_form"
+msgid "Please enter your email or phone number"
+msgstr "Vui lòng nhập email hoặc số điện thoại của bạn"
+
+msgctxt "Languages::call_requests.request_recieved"
+msgid "We have received your request! Our manager will contact you soon."
+msgstr "Chúng tôi đã nhận được yêu cầu của bạn! Bộ phận bán hàng của chúng tôi sẽ liên lạc với bạn sớm."
+
+msgctxt "Languages::call_requests.order_placed"
+msgid "We have received your request! The order #[order_id] has been successfully created. Our manager will contact you soon."
+msgstr "Chúng tôi đã nhận được yêu cầu của bạn! Đơn hàng #[order_id] đã được tạo thành công. Bộ phận bán hàng của chúng tôi sẽ liên lạc với bạn sớm."
+
+msgctxt "Languages::call_requests.phone_from_settings"
+msgid "Phone from settings"
+msgstr "Cài đặt điện thoại gọi đi"
+
+msgctxt "Languages::call_requests.enter_phone_or_email_text"
+msgid "Please enter your phone number or email (for our manager to contact you)"
+msgstr "Vui lòng nhập số điện thoại hoặc email (để chúng tôi có thể liên lạc với bạn) của bạn"
+
+msgctxt "Languages::call_requests.status.new"
+msgid "New"
+msgstr "Mới"
+
+msgctxt "Languages::call_requests.status.in_progress"
+msgid "In progress"
+msgstr "Đang xử lý"
+
+msgctxt "Languages::call_requests.status.completed"
+msgid "Completed"
+msgstr "Hoàn thành"
+
+msgctxt "Languages::call_requests.status.no_answer"
+msgid "No answer"
+msgstr "Không có câu trả lời"
+
+msgctxt "Languages::call_requests.responsible"
+msgid "Responsible"
+msgstr "Phụ trách"
+
+msgctxt "Languages::call_requests.notes"
+msgid "Notes"
+msgstr "Ghi chú"
+
+msgctxt "Languages::call_requests.requested_product"
+msgid "Requested product"
+msgstr "Sản phẩm được yêu cầu"
+
+msgctxt "Languages::call_requests.convenient_time"
+msgid "Convenient time"
+msgstr "Thời gian thuận tiện"
+
+msgctxt "Languages::call_requests.awaiting_call"
+msgid "Awaiting call"
+msgstr "Đang chờ cuộc gọi"
+
+msgctxt "Languages::call_requests.order_exists"
+msgid "Order exists"
+msgstr "Đơn hàng tồn tại"
+
+msgctxt "Languages::call_requests.person_name_and_phone"
+msgid "Name and phone"
+msgstr "Tên và điện thoại"
+
+msgctxt "Languages::call_requests.no_name_specified"
+msgid "No name specified"
+msgstr "Không có tên được chỉ định"
+
+msgctxt "Languages::call_requests.use_for_call_requests"
+msgid "Call request and buy now with one click form"
+msgstr "Yêu cầu gọi và mua ngay với hình thức một lần nhấp chuột"
+
+msgctxt "Languages::block_call_request"
+msgid "Call request"
+msgstr "Yêu cầu gọi"
+
+msgctxt "Languages::block_call_request_description"
+msgid "Store phone number and form for requesting a call"
+msgstr "Số điện thoại cửa hàng và các hình thức cho các yêu cầu một cuộc gọi"
+
+msgctxt "Languages::tmpl_call_request"
+msgid "Call request form"
+msgstr "Mẫu yêu cầu cuộc gọi"
+
+msgctxt "Languages::call_requests.text_call_request"
+msgid "Customer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number]."
+msgstr "Khách hàng [customer] là <a href=\"[href]\"> đang chờ cuộc gọi của bạn</a> vào số [phone_number]."
+
+msgctxt "Languages::call_requests.text_call_request_call_time"
+msgid "The convenient call time is between [time_from] and [time_to]."
+msgstr "Thời gian thuận tiện để gọi là giữa [time_from] và [time_to]."
+
+msgctxt "Languages::call_requests.text_buy_with_one_click_request"
+msgid "Сustomer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number], regarding the purchase of the product <a href=\"[product_href]\">[product_name]</a>."
+msgstr "Khách hàng [customer] là <a href=\"[href]\"> đang chờ cuộc gọi của bạn</a> vào số [phone_number], liên quan đến việc mua sản phẩm <a href=\"[product_href]\">[product_name]</a>."
+
+msgctxt "Languages::call_requests.error_validator_phone"
+msgid "The phone number in the <b>[field]</b> field is invalid."
+msgstr "The phone number in the <b>[field]</b> field is invalid."
+
+msgctxt "Languages::email_template.call_requests_buy_with_one_click"
+msgid "Call requests: buy with one click notification"
+msgstr "Yêu cầu gọi: mua với một cú nhấp chuột thông báo"
+
+msgctxt "Languages::email_template.call_requests_call_request"
+msgid "Call requests: call request notification"
+msgstr "Yêu cầu gọi: thông báo yêu cầu gọi điện"
+
+msgctxt "Languages::call_request.work_time"
+msgid "Mon-Fr 9a.m.-6p.m."
+msgstr "Thứ hai - 09:00 - 18:00"
+

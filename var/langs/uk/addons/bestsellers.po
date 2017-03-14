@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /addons/bestsellers.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & On-Sale Products"
+msgstr "Хіти продажу і товари зі знижкою"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "Відображення товарів зі знижкою і найбільш продаваних товарів в блоці на вітрині"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "Сортувати по купівельному показнику: ті що купуються менше на початку"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "Сортувати по топу продажів"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "Сортувати за розміром знижки: Найбільші знижки на початку"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "Сортувати за розміром знижки: найбільші знижки в кінці"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "Об'єм продажів"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "Хіти продаж"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "Зі знижкою"
+
+msgctxt "Languages::similar"
+msgid "Similar"
+msgstr "Подібні"
+
+msgctxt "Languages::percent_range"
+msgid "Price range (in % of the main product's price)"
+msgstr "Ціновий діапазон (у % від вартості основного продукта)"
+
+msgctxt "Languages::similar_category"
+msgid "Of the same category"
+msgstr "З подібної категорії"
+
+msgctxt "Languages::similar_subcats"
+msgid "Consider subcategories"
+msgstr "Враховувати підкатегорії"
+
+msgctxt "Languages::similar_in_stock"
+msgid "Only \"in stock\" products"
+msgstr "Тільки продукти \"в наявності\""
+
+msgctxt "Languages::final_sale"
+msgid "Final sale"
+msgstr "Остаточний розпродаж"
+
+msgctxt "SettingsSections::bestsellers::general"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "SettingsSections::bestsellers::newest"
+msgid "Newest"
+msgstr "Найновіші"
+
+msgctxt "SettingsOptions::bestsellers::final_sale_from"
+msgid "Minimum final sale discount (%)"
+msgstr "Мінімальна фінальна знижку продажу (%)"
+
+msgctxt "SettingsOptions::bestsellers::sales_amount_from"
+msgid "Minimum sales amount to define bestsellers"
+msgstr "Мінімальна сума продажів для визначення бестселерів"
+
+msgctxt "SettingsOptions::bestsellers::period"
+msgid "Period"
+msgstr "Період"
+
+msgctxt "SettingsOptions::bestsellers::last_days"
+msgid "Last days"
+msgstr "Останні дні"
+
+msgctxt "SettingsVariants::bestsellers::period::all"
+msgid "All days"
+msgstr "Всі дні"
+
+msgctxt "SettingsVariants::bestsellers::period::today"
+msgid "Today"
+msgstr "Сьогодні"
+
+msgctxt "SettingsVariants::bestsellers::period::last_days"
+msgid "Last days"
+msgstr "Останні дні"
+

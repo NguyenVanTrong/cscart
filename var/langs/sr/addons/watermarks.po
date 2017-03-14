@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Serbian (Cyrillic)\n"
+"Language: sr_SP\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: /addons/watermarks.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::watermarks"
+msgid "Watermarks"
+msgstr "Vodeni žigovi"
+
+msgctxt "Addons::description::watermarks"
+msgid "Allows you to add watermarks to product and category images"
+msgstr "Omogućuje dodavanje vodenih žigova na slike proizvoda i kategorija"
+
+msgctxt "Languages::wt_watermarks"
+msgid "Watermarks"
+msgstr "Vodeni žigovi"
+
+msgctxt "Languages::wt_graphic_watermark"
+msgid "Graphic watermark"
+msgstr "Grafički vodeni žig"
+
+msgctxt "Languages::wt_text_watermark"
+msgid "Text watermark"
+msgstr "Tekstualni vodeni žig"
+
+msgctxt "Languages::wt_watermark_vertical_position"
+msgid "Watermark vertical position"
+msgstr "Vertikalna pozicija vodenog žiga"
+
+msgctxt "Languages::wt_watermark_horizontal_position"
+msgid "Watermark horizontal position"
+msgstr "Horizontalna pozicija vodenog žiga"
+
+msgctxt "Languages::wt_watermark_position"
+msgid "Watermark position"
+msgstr "Pozicija vodenog žiga"
+
+msgctxt "Languages::wt_watermark_image"
+msgid "Watermark image"
+msgstr "Slika vodenog žiga"
+
+msgctxt "Languages::wt_watermark_text"
+msgid "Watermark text"
+msgstr "Tekst vodenog žiga"
+
+msgctxt "Languages::wt_font"
+msgid "Font"
+msgstr "Font"
+
+msgctxt "Languages::wt_font_color"
+msgid "Font color"
+msgstr "Boja fonta"
+
+msgctxt "Languages::wt_font_size_icon"
+msgid "Font size (thumbnail)"
+msgstr "Veličina fonta (male slike)"
+
+msgctxt "Languages::wt_font_size_detailed"
+msgid "Font size (larger image)"
+msgstr "Veličina fonta (veće slike)"
+
+msgctxt "Languages::wt_watermark_icon"
+msgid "Thumbnail watermark"
+msgstr "Vodeni žig na maloj slici"
+
+msgctxt "Languages::wt_watermark_detailed"
+msgid "Popup larger image watermark"
+msgstr "Iskakanje velike slike sa vodenim žigom"
+
+msgctxt "Languages::wt_fail_apply_graphic_watermark"
+msgid "Failed to apply the watermark to [image_type]. The watermark image is not added."
+msgstr "Neuspešno postavljanje vodenog žiga na [image_type]. Slika sa vodenim žigom nije dodata."
+
+msgctxt "Languages::wt_icons"
+msgid "thumbnails"
+msgstr "male slike"
+
+msgctxt "Languages::wt_detailed"
+msgid "popup larger images"
+msgstr "iskakanje velikih slika"
+
+msgctxt "Languages::wt_images_access_description"
+msgid "To deny access to your original images, please add the following instructions to the '.htaccess' file in the 'images' directory of your installation. It will protect your original images. Even if an original image is opened, the corresponding watermarked image will be show instead."
+msgstr "Za onemogućavanje pristupa originalnim slikama, dodajte sledeće instrukcije u fajl '.htaccess' u direktorijumu 'images' Vašeg sajta. To će zaštiti Vaše originalne slike. Čak i ako je otvorena originalna slika, odgovarajuća slika sa vodenim žigom će biti prikazana umesto nje."
+
+msgctxt "Languages::wt_watermarks_access_description"
+msgid "To generate watermarked images automatically even if they are requested not from your store pages, please add the '.htaccess' file with the following instructions to the 'images/watermarked' directory of your installation."
+msgstr "Za automatsko kreiranje slika sa vodenim žigovima iako nisu zahtevane od strane prodavnice, dodajte '.htaccess' fajl sa sledećim instrukcijama do direktorijuma 'images/watermarked' unutar Vaše instalacije."
+
+msgctxt "Languages::wt_access_note"
+msgid "Please note, if you disable or uninstall the 'Watermarks' add-on, you should remove these instructions from '.htaccess' files manually. Otherwise category and product images will be unavailable."
+msgstr "Napominjemo da, ako isključite ili uklonite dodatak 'Vodeni žigovi', treba ručno da uklonite ove instrukcije iz '.htaccess' fajlova. U suprotnom slike kategorija i proizvoda neće biti dostupne."
+
+msgctxt "Languages::wt_access_warning"
+msgid "Watermark creating is disabled. If there are any \"Rewrite watermarks rules\" instructions in the \"images/.htaccess\" file, you should remove them manually. Otherwise category and product images will be unavailable."
+msgstr "Kreiranje vodenih žigova je onemogućeno. Ako postoje bilo kakve instrukcije za \"Pravila prepisivanja vodenih žigova\" u \"images/.htaccess\" fajlu, trebate ih ručno ukloniti. U suprotnom, slike kategorija i proizvoda neće biti dostupne."
+
+msgctxt "Languages::wt_images_access_info"
+msgid "Images access"
+msgstr "Pristup slikama"
+
+msgctxt "SettingsSections::watermarks::general"
+msgid "General"
+msgstr "Opšte"
+
+msgctxt "SettingsOptions::watermarks::watermark"
+msgid "Watermark"
+msgstr "Vodeni žig"
+
+msgctxt "SettingsOptions::watermarks::apply_to_product"
+msgid "Product watermarks"
+msgstr "Vodeni žigovi proizvoda"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_icons"
+msgid "Resized images"
+msgstr "Slike prilagođenih veličina"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_detailed"
+msgid "Original size images"
+msgstr "Slike originalne veličine"
+
+msgctxt "SettingsOptions::watermarks::apply_to_categories"
+msgid "Category watermarks"
+msgstr "Vodeni žigovi kategorija"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_icons"
+msgid "Resized images"
+msgstr "Slike prilagođenih veličina"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_detailed"
+msgid "Original size images"
+msgstr "Slike originalne veličine"
+
+msgctxt "SettingsOptions::watermarks::images_access_info"
+msgid "Images access"
+msgstr "Pristup slikama"
+

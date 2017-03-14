@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Georgian\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ka\n"
+"X-Crowdin-File: /addons/price_list.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:46-0500\n"
+
+msgctxt "Addons::name::price_list"
+msgid "Price list"
+msgstr "ფასების სია"
+
+msgctxt "Addons::description::price_list"
+msgid "Generates configurable price list in PDF or XLS"
+msgstr "ფასების-სიები ფორმატებში PDF და XLS (Microsoft Excel)"
+
+msgctxt "Languages::price_list"
+msgid "Price list"
+msgstr "ფასების სია"
+
+msgctxt "Languages::selected_fields"
+msgid "Selected fields"
+msgstr "ამორჩეული ველები"
+
+msgctxt "Languages::generating_pdf"
+msgid "Generating PDF. Please, be patient..."
+msgstr "მიმდინარეობს PDF_ის დამუშავება, გთხოვთ მოითმინოთ..."
+
+msgctxt "Languages::generating_xls"
+msgid "Generating XLS. Please, be patient..."
+msgstr "მიმდინარეობს XLS-ის დამუშავება, გთხოვთ მოითმინოთ..."
+
+msgctxt "Languages::price_list_ziparchive_not_installed"
+msgid "Impossible to create XML price list. Please add zip support in PHP on your server. Follow <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+msgstr "შეუძლებელია ფასთა ნუსხის შექმნა XML-ში. გთხოვთ გააქტიუროთ zip-ის მხარდაჭერა თქვენს PHP სერვერზე. მიჰყევით ბმულს <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+
+msgctxt "Languages::price_list.text_select_storefront"
+msgid "To generate a price list, please select storefront first."
+msgstr "იმისათვის რომ მიიღოთ ფასების სია, გთხოვთ აირჩიოთ მაღაზია."
+
+msgctxt "Languages::price_list.text_regenerate"
+msgid "<p>If products, categories or selected fields were added or changed, please regenerate a price list:<br />[buttons]</p><p>Generated price lists are available by these links<br/>[links]</p>"
+msgstr "<p>თუ კატეგორია ან პროდუქცია ან შერჩეული ველები იქნებიან დამატებული ან შეცვლილი, გთხოვთ აღადგინოთ ფასების სია:<br />[buttons]</p><p>შექმნილი ფასების სია ხელმისაწვდომია შემდეგი ბმულებით <br/>[links]</p>"
+
+msgctxt "SettingsSections::price_list::general"
+msgid "General"
+msgstr "ზოგადი"
+
+msgctxt "SettingsOptions::price_list::price_list_fields"
+msgid "Fields"
+msgstr "ველები"
+
+msgctxt "SettingsOptions::price_list::price_list_sorting"
+msgid "Sort by"
+msgstr "სორტირება"
+
+msgctxt "SettingsOptions::price_list::group_by_category"
+msgid "Group by category"
+msgstr "შეჯგუფება კატეგორიების მიხედვით"
+
+msgctxt "SettingsOptions::price_list::include_options"
+msgid "Include product options"
+msgstr "მოიცავდეს პროდუქტის პარამეტრებს"
+

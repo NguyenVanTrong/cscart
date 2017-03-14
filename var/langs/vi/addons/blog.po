@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/blog.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::blog"
+msgid "Blog"
+msgstr "Blog"
+
+msgctxt "Addons::description::blog"
+msgid "Lets you start your blog easily"
+msgstr "Cho phép bắt đầu trang blog của bạn một cách dễ dàng"
+
+msgctxt "Languages::blog_menu_description"
+msgid "Manage your blog posts."
+msgstr "Quản lý bài viết blog của bạn."
+
+msgctxt "Languages::blog.new_post"
+msgid "New blog post"
+msgstr "Bài viết mới"
+
+msgctxt "Languages::blog.editing_post"
+msgid "Editing blog post"
+msgstr "Chỉnh sửa bài đăng"
+
+msgctxt "Languages::blog"
+msgid "Blog"
+msgstr "Blog"
+
+msgctxt "Languages::blog.add_post"
+msgid "Add blog post"
+msgstr "Thêm bài đăng"
+
+msgctxt "Languages::blog.recent_posts"
+msgid "Blog: recent posts"
+msgstr "Blog: bài viết mới nhất"
+
+msgctxt "Languages::blog.recent_posts_scroller"
+msgid "Blog: recent posts scroller"
+msgstr "Blog: cuộn bài viết mới"
+
+msgctxt "Languages::blog.view_post"
+msgid "View post"
+msgstr "Xem bài"
+
+msgctxt "Languages::recent_blog_posts"
+msgid "Recent blog posts"
+msgstr "Bài viết gần đây"
+
+msgctxt "Languages::blog.posts"
+msgid "Posts"
+msgstr "Bài viết"
+
+msgctxt "Languages::blog.post"
+msgid "Post"
+msgstr "Bài viết"
+
+msgctxt "Languages::block_blog"
+msgid "Recent posts"
+msgstr "Bài viết mới nhất"
+
+msgctxt "Languages::blog.text_links"
+msgid "Blog: text links"
+msgstr "Blog: văn bản liên kết"
+
+msgctxt "Languages::blog.read_more"
+msgid "Read more"
+msgstr "Đọc thêm"
+
+msgctxt "Languages::post_description"
+msgid "Post description"
+msgstr "Mô tả bài viết"
+
+msgctxt "Languages::ttc_post_description"
+msgid "Use the &lt;!--CUT--&gt; tag (switch to source code to insert it) to hide part of the post. Only the part above the tag is shown in the list of all posts.<br /><br />Make sure to <strong>close all HTML tags</strong> above the &lt;!--CUT--&gt; tag!"
+msgstr "Sử dụng các thẻ &lt;!-CUT--&gt; (chuyển sang mã nguồn để chèn nó) để ẩn một phần của bài viết. Chỉ một phần giới thiệu sẽ được hiển thị trong trang danh sách các bài viết. <br /> <br /> Sử dụng để <strong>đóng tất cả các thẻ HTML</strong> trên các thẻ &lt;!-CUT--&gt;"
+
+msgctxt "Languages::blog_functionality_notes"
+msgid "<p>Use this page to manage your blog. This is how you should organize your blog posts:</p><ul><li>Blog is a usual post that has the <b>Root level page</b> as the Parent page.</li><li>Choose <b>Blog</b> as the Parent page for your blog posts.</li></ul>"
+msgstr "<p>Sử dụng trang này để quản lý trang blog của bạn. Đây là cách bạn nên sắp xếp bài viết blog của bạn:</p> <ul><li>Blog là một bài đăng thông thường có <b>Cấp độ trang gốc</b> như là trang chính.</li> <li>Chọn <b>Blog</b> như trang chính cho bài viết blog của bạn.</li></ul>"
+

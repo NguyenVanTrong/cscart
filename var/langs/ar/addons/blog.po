@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /addons/blog.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:00-0500\n"
+
+msgctxt "Addons::name::blog"
+msgid "Blog"
+msgstr "مدونه"
+
+msgctxt "Addons::description::blog"
+msgid "Lets you start your blog easily"
+msgstr "يتيح لك بدء المدونه الخاصه بك بسهولة"
+
+msgctxt "Languages::blog_menu_description"
+msgid "Manage your blog posts."
+msgstr "اداره مدونتك والتعليقات."
+
+msgctxt "Languages::blog.new_post"
+msgid "New blog post"
+msgstr "اضافه جديده للمدونه"
+
+msgctxt "Languages::blog.editing_post"
+msgid "Editing blog post"
+msgstr "تحرير مشاركه فى المدونه"
+
+msgctxt "Languages::blog"
+msgid "Blog"
+msgstr "المدونه"
+
+msgctxt "Languages::blog.add_post"
+msgid "Add blog post"
+msgstr "اضافه مشاركه للمدونه"
+
+msgctxt "Languages::blog.recent_posts"
+msgid "Blog: recent posts"
+msgstr "المدونه: اعاده ارسال المشاركات"
+
+msgctxt "Languages::blog.recent_posts_scroller"
+msgid "Blog: recent posts scroller"
+msgstr "المدونة: شريط تمرير المشاركات الأخيرة"
+
+msgctxt "Languages::blog.view_post"
+msgid "View post"
+msgstr "عرض مشاركة"
+
+msgctxt "Languages::recent_blog_posts"
+msgid "Recent blog posts"
+msgstr "مشاركات المدونة الأخيرة"
+
+msgctxt "Languages::blog.posts"
+msgid "Posts"
+msgstr "مشاركات"
+
+msgctxt "Languages::blog.post"
+msgid "Post"
+msgstr "مشاركة"
+
+msgctxt "Languages::block_blog"
+msgid "Recent posts"
+msgstr "المشاركات الأخيرة"
+
+msgctxt "Languages::blog.text_links"
+msgid "Blog: text links"
+msgstr "المدونة: روابط نصية"
+
+msgctxt "Languages::blog.read_more"
+msgid "Read more"
+msgstr "اقرأ المزيد"
+
+msgctxt "Languages::post_description"
+msgid "Post description"
+msgstr "ضع وصف"
+
+msgctxt "Languages::ttc_post_description"
+msgid "Use the &lt;!--CUT--&gt; tag (switch to source code to insert it) to hide part of the post. Only the part above the tag is shown in the list of all posts.<br /><br />Make sure to <strong>close all HTML tags</strong> above the &lt;!--CUT--&gt; tag!"
+msgstr "استخدام &lt;!-قص--&gt; العلامة (التبديل إلى التعليمات البرمجية المصدر لإدراجه) لإخفاء جزء من الوظيفة. يظهر فقط الجزء أعلاه العلامة في قائمة جميع الوظائف. <br /><br /> تأكد من <strong> إغلاق كافة علامات HTML</strong> أعلاه &lt;!-قص--&gt; العلامة!"
+
+msgctxt "Languages::blog_functionality_notes"
+msgid "<p>Use this page to manage your blog. This is how you should organize your blog posts:</p><ul><li>Blog is a usual post that has the <b>Root level page</b> as the Parent page.</li><li>Choose <b>Blog</b> as the Parent page for your blog posts.</li></ul>"
+msgstr "<p>استخدام هذه الصفحة لإدارة المدونة الخاصة بك. هكذا ينبغي عليك تنظيم مشاركات مدونتك:</p> <ul><li>يحتوي على الوظيفة المعتادة للمدونة <b>الجذر مستوى الصفحة</b> كالصفحة الأصل.</li> <li>اختر <b>مدونة</b> كالصفحة الأصل لنشر المدونة الخاصة بك.</li></ul>"
+

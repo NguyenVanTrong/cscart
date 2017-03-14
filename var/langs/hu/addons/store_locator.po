@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: /addons/store_locator.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:47-0500\n"
+
+msgctxt "Addons::name::store_locator"
+msgid "Store locator"
+msgstr "Boltkereső"
+
+msgctxt "Addons::description::store_locator"
+msgid "Lets you place local stores on map and inform customers about their nearest stores"
+msgstr "Helyi üzletek elhelyezése térképen, valamint vásárlók értesítése a legközelebbi üzletekről"
+
+msgctxt "Languages::view_on_map"
+msgid "View on map"
+msgstr "Megtekintés térképen"
+
+msgctxt "Languages::get_api_key"
+msgid "Obtaining an API Key"
+msgstr "API-kulcs beszerzése"
+
+msgctxt "Languages::block_store_locator"
+msgid "Store locator"
+msgstr "Üzletkereső"
+
+msgctxt "Languages::block_store_locator_description"
+msgid "Store locator block"
+msgstr "Üzletkereső blokk"
+
+msgctxt "Languages::text_address_not_found"
+msgid "Address not found"
+msgstr "A megadott cím nem található"
+
+msgctxt "Languages::select_coordinates"
+msgid "Select coordinates"
+msgstr "Kooridnáták kiválasztása"
+
+msgctxt "Languages::set"
+msgid "Set"
+msgstr "Beállít"
+
+msgctxt "Languages::editing_store_location"
+msgid "Editing store location"
+msgstr "Üzlet helyadatainak szerkesztése"
+
+msgctxt "Languages::new_store_location"
+msgid "New store location"
+msgstr "Új üzlet helyadat"
+
+msgctxt "Languages::add_store_location"
+msgid "Add store location"
+msgstr "Üzlet helyadatainak hozzáadása"
+
+msgctxt "Languages::coordinates"
+msgid "Coordinates"
+msgstr "Koordináták"
+
+msgctxt "Languages::latitude_short"
+msgid "lat"
+msgstr "szélességi koordináta"
+
+msgctxt "Languages::longitude_short"
+msgid "long"
+msgstr "hosszúsági koordináta"
+
+msgctxt "Languages::all_stores"
+msgid "All stores"
+msgstr "Minden áruház"
+
+msgctxt "Languages::zoom"
+msgid "Map zoom"
+msgstr "Térkép zoom"
+
+msgctxt "Languages::map_type_control"
+msgid "MapType control"
+msgstr "MapType vezérlő"
+
+msgctxt "Languages::zoom_control"
+msgid "Zoom control"
+msgstr "Zoom vezérlő"
+
+msgctxt "Languages::scale_control"
+msgid "Scale control"
+msgstr "Scale vezérlő"
+
+msgctxt "SettingsSections::store_locator::general"
+msgid "General"
+msgstr "Általános"
+
+msgctxt "SettingsOptions::store_locator::provider"
+msgid "Map provider"
+msgstr "Térkép szolgáltató"
+
+msgctxt "SettingsOptions::store_locator::map_provider"
+msgid "Map"
+msgstr "Térkép"
+
+msgctxt "SettingsOptions::store_locator::settings"
+msgid "Settings"
+msgstr "Beállítások"
+
+msgctxt "SettingsVariants::store_locator::map_provider::google"
+msgid "Google"
+msgstr "Google"
+
+msgctxt "SettingsVariants::store_locator::map_provider::yandex"
+msgid "Yandex"
+msgstr ""
+
+msgctxt "Languages::privileges.manage_store_locator"
+msgid "Manage store locator"
+msgstr "Üzletkereső kezelése"
+
+msgctxt "Languages::privileges.view_store_locator"
+msgid "View store locator"
+msgstr "Üzletkereső megtekintése"
+

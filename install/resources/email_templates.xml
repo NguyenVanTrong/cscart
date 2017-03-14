@@ -1,0 +1,1329 @@
+<?xml version="1.0"?>
+<email_templates scheme="1.0">
+    <templates>
+        <item>
+            <code><![CDATA[activate_profile]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{__("new_user_profile")}}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("new_user_profile")} ) }}
+
+    {{ __("hello") }},
+    <br />
+    <br /> {{ __("text_new_user_activation", {"[user_login]": user_data.email, "[url]": url, "[url_text]": url|puny_decode}) }}
+
+{{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[back_in_stock_notification]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ product.name|striptags }} {{ __("is_back_in_stock") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": product.name  } ) }}
+    {{ __("hello") }},
+    <br />
+    <br />
+    {{ __("back_in_stock_notification_header") }}
+    <br />
+    <br />
+    <b><a href="{{ url }}">{{ product.name }}</a></b>
+    <br />
+    <br /> {{ __("back_in_stock_notification_footer") }}
+    <br />
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[create_profile]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("new_profile_notification") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("new_profile_notification")} ) }}
+    {% if user_data.firstname %} {{ __("dear") }} {{ user_data.firstname }}, {% else %} {{ __("hello") }}, {% endif %}
+    <br>
+    <br>
+    {{ __("create_profile_notification_header") }}
+    <br>
+    <br>
+    <table border="0" class="info">
+      <tr>
+        <td align="right"><b>{{ __("login_url") }}:</b></td>
+        <td><a href="{{ login_url }}">{{ login_url|puny_decode }}</a></td>
+      </tr>
+      <tr>
+        <td align="right"><b>{{ __("email") }}:</b></td>
+        <td><a>{{ user_data.email }}</a></td>
+      </tr>
+      <tr>
+        <td align="right"><b>{{ __("password") }}:</b></td>
+        <td>
+{% if password %}
+    {{ password }}
+{% else %}
+    *********** (<a href="{{ forgot_pass_url }}">{{ __("forgot_password_question") }}</a>)
+{% endif %}</td>
+      </tr>
+    </table>
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[create_profile]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("new_profile_notification") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("new_profile_notification")} ) }}
+    {% if user_data.firstname %} {{ __("dear") }} {{ user_data.firstname }}, {% else %} {{ __("hello") }}, {% endif %}
+    <br>
+    {{ __("update_profile_notification_header") }}
+    <br>
+    <br>
+    <h4 class="with-subline">{{ __("user_account_information") }}</h4>
+    <table border="0" width="100%" class="info">
+      <tr>
+        <td><b>{{ __("login_url") }}:</b></td>
+        <td><a href="{{ login_url }}">{{ login_url|puny_decode }}</a></td>
+      </tr>
+      <tr>
+        <td><b>{{ __("email") }}:</b></td>
+        <td><a>{{ user_data.email }}</a></td>
+      </tr>
+      <tr>
+        <td><b>{{ __("password") }}:</b></td>
+        <td> *********** (<a href="{{ forgot_pass_url }}">{{ __("forgot_password_question") }}</a>)</td>
+      </tr>
+    </table>
+
+
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[edp_access]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("order") }} #{{ order_info.order_id }} {{ __("edp_access_subj") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header") }}
+    {{ __("dear") }} {{ order_info.firstname }},
+    <br />
+    <br /> {{ __("edp_access_granted") }}
+    <br />
+    <br /> {% for product in edp_data %}
+    <a href="{{ product.url }}"><b>{{ product.product }}</b></a>
+    <br />
+    <p></p>
+    {% for file in product.files %}
+    <a href="{{ file.url }}">{{ file.file_name }} ({{ file.file_size|filesize }}&nbsp;{{ __("bytes") }})</a>
+    <br />
+    <br /> {% endfor %} {% endfor %}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[give_coupon]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("give_coupon_subj") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("give_coupon_subj") } ) }}
+    {{ __("hello") }} {{ order_info.firstname }}
+    <br /> {{ __("text_applied_promotions") }}
+    <br />
+    <br /> {{ promotion_data.name }}
+    <br />
+    <br /> {{ promotion_data.detailed_description }}
+    <br />
+    <b>{{ bonus_data.coupon_code }}</b>
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[low_stock]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("low_stock_subj", {"[product]": "#{product} ##{product_id}"}) }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title":__("low_stock_subj", {"[product]": "#{product} ##{product_id}"}) } ) }}
+
+    <table class="info">
+      <tr>
+        <td>{{ __("product") }}:</td>
+        <td>{{ product }}</td>
+      </tr>
+      <tr>
+        <td>{{ __("id") }}:</td>
+        <td>{{ product_id }}</td>
+      </tr>
+      <tr>
+        <td>{{ __("sku") }}:</td>
+        <td>{{ product_code }}</td>
+      </tr>
+      <tr>
+        <td>{{ __("qty") }}:</td>
+        <td><b>{{ new_qty }}</b></td>
+      </tr>
+      {% if product_options %}
+      <tr>
+        <td colspan="2">{{ __("product_options") }}:
+          <br>
+          <hr>
+        </td>
+      </tr>
+      {% for option in product_options %}
+      <tr>
+        <td>{{ option.option_name }}:</td>
+        <td>{{ option.variant_name }}</td>
+      </tr>
+      {% endfor %} {% endif %}
+    </table>
+
+{{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[order_notification.b]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("change_order_status_b_subj", {"[order]": order_info.order_id}) }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("change_order_status_b_subj", {"[order]": order_info.order_id}) } ) }}
+    {{ __("dear") }} {% if order_info.firstname %}{{ order_info.firstname }} {% else %} {{ __("customer") }} {% endif %},
+    <br />
+    {{ __("change_order_status_default_text", {"[status]": order_status.description}) }}
+    <br />
+    <br /> {{ include_doc("order.summary", order_info.order_id) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema>
+                <attach_order_document>
+                    <type><![CDATA[selectbox]]></type>
+                    <title><![CDATA[email_template.params.attach_order_document]]></title>
+                    <func><![CDATA[fn_emails_get_order_document_variants]]></func>
+                </attach_order_document>
+            </params_schema>
+            <params>
+                <attach_order_document/>
+            </params>
+        </item>
+        <item>
+            <code><![CDATA[order_notification.b]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("change_order_status_b_subj", {"[order]": order_info.order_id}) }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("change_order_status_b_subj", {"[order]": order_info.order_id}) } ) }}
+    {{ __("dear") }} {% if order_info.firstname %}{{ order_info.firstname }} {% else %} {{ __("customer") }} {% endif %},
+    <br />
+    {{ __("change_order_status_default_text", {"[status]": order_status.description}) }}
+    <br />
+    <br /> {{ include_doc("order.summary", order_info.order_id) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema>
+                <attach_order_document>
+                    <type><![CDATA[selectbox]]></type>
+                    <title><![CDATA[email_template.params.attach_order_document]]></title>
+                    <func><![CDATA[fn_emails_get_order_document_variants]]></func>
+                </attach_order_document>
+            </params_schema>
+            <params>
+                <attach_order_document/>
+            </params>
+        </item>
+        <item>
+            <code><![CDATA[order_notification.c]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("change_order_status_c_subj", {"[order]": order_info.order_id}) }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("change_order_status_c_subj", {"[order]": order_info.order_id}) } ) }}
+    {{ __("dear") }} {% if order_info.firstname %}{{ order_info.firstname }} {% else %} {{ __("customer") }} {% endif %},
+    <br />
+    {{ __("change_order_status_default_text", {"[status]": order_status.description}) }}
+    <br />
+    <br /> {{ include_doc("order.summary", order_info.order_id) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema>
+                <attach_order_document>
+                    <type><![CDATA[selectbox]]></type>
+                    <title><![CDATA[email_template.params.attach_order_document]]></title>
+                    <func><![CDATA[fn_emails_get_order_document_variants]]></func>
+                </attach_order_document>
+            </params_schema>
+            <params>
+                <attach_order_document><![CDATA[invoice]]></attach_order_document>
+            </params>
+        </item>
+        <item>
+            <code><![CDATA[order_notification.c]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("change_order_status_c_subj", {"[order]": order_info.order_id}) }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("change_order_status_c_subj", {"[order]": order_info.order_id}) } ) }}
+    {{ __("dear") }} {% if order_info.firstname %}{{ order_info.firstname }} {% else %} {{ __("customer") }} {% endif %},
+    <br />
+    {{ __("change_order_status_default_text", {"[status]": order_status.description}) }}
+    <br />
+    <br /> {{ include_doc("order.summary", order_info.order_id) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema>
+                <attach_order_document>
+                    <type><![CDATA[selectbox]]></type>
+                    <title><![CDATA[email_template.params.attach_order_document]]></title>
+                    <func><![CDATA[fn_emails_get_order_document_variants]]></func>
+                </attach_order_document>
+            </params_schema>
+            <params>
+                <attach_order_document><![CDATA[invoice]]></attach_order_document>
+            </params>
+        </item>
+        <item>
+            <code><![CDATA[order_notification.d]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("change_order_status_d_subj", {"[order]": order_info.order_id}) }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("change_order_status_d_subj", {"[order]": order_info.order_id}) } ) }}
+    {{ __("dear") }} {% if order_info.firstname %}{{ order_info.firstname }} {% else %} {{ __("customer") }} {% endif %},
+    <br />
+    {{ __("change_order_status_default_text", {"[status]": order_status.description}) }}
+    <br />
+    <br /> {{ include_doc("order.summary", order_info.order_id) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema>
+                <attach_order_document>
+                    <type><![CDATA[selectbox]]></type>
+                    <title><![CDATA[email_template.params.attach_order_document]]></title>
+                    <func><![CDATA[fn_emails_get_order_document_variants]]></func>
+                </attach_order_document>
+            </params_schema>
+            <params>
+                <attach_order_document/>
+            </params>
+        </item>
+        <item>
+            <code><![CDATA[order_notification.d]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("change_order_status_d_subj", {"[order]": order_info.order_id}) }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("change_order_status_d_subj", {"[order]": order_info.order_id}) } ) }}
+    {{ __("dear") }} {% if order_info.firstname %}{{ order_info.firstname }} {% else %} {{ __("customer") }} {% endif %},
+    <br />
+    {{ __("change_order_status_default_text", {"[status]": order_status.description}) }}
+    <br />
+    <br /> {{ include_doc("order.summary", order_info.order_id) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema>
+                <attach_order_document>
+                    <type><![CDATA[selectbox]]></type>
+                    <title><![CDATA[email_template.params.attach_order_document]]></title>
+                    <func><![CDATA[fn_emails_get_order_document_variants]]></func>
+                </attach_order_document>
+            </params_schema>
+            <params>
+                <attach_order_document/>
+            </params>
+        </item>
+        <item>
+            <code><![CDATA[order_notification.f]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("change_order_status_f_subj", {"[order]": order_info.order_id}) }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("change_order_status_f_subj", {"[order]": order_info.order_id}) } ) }}
+    {{ __("dear") }} {% if order_info.firstname %}{{ order_info.firstname }} {% else %} {{ __("customer") }} {% endif %},
+    <br />
+    {{ __("change_order_status_default_text", {"[status]": order_status.description}) }}
+    <br />
+    <br /> {{ include_doc("order.summary", order_info.order_id) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema>
+                <attach_order_document>
+                    <type><![CDATA[selectbox]]></type>
+                    <title><![CDATA[email_template.params.attach_order_document]]></title>
+                    <func><![CDATA[fn_emails_get_order_document_variants]]></func>
+                </attach_order_document>
+            </params_schema>
+            <params>
+                <attach_order_document/>
+            </params>
+        </item>
+        <item>
+            <code><![CDATA[order_notification.f]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("change_order_status_f_subj", {"[order]": order_info.order_id}) }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("change_order_status_f_subj", {"[order]": order_info.order_id}) } ) }}
+    {{ __("dear") }} {% if order_info.firstname %}{{ order_info.firstname }} {% else %} {{ __("customer") }} {% endif %},
+    <br />
+    {{ __("change_order_status_default_text", {"[status]": order_status.description}) }}
+    <br />
+    <br /> {{ include_doc("order.summary", order_info.order_id) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema>
+                <attach_order_document>
+                    <type><![CDATA[selectbox]]></type>
+                    <title><![CDATA[email_template.params.attach_order_document]]></title>
+                    <func><![CDATA[fn_emails_get_order_document_variants]]></func>
+                </attach_order_document>
+            </params_schema>
+            <params>
+                <attach_order_document/>
+            </params>
+        </item>
+        <item>
+            <code><![CDATA[order_notification.i]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("change_order_status_i_subj", {"[order]": order_info.order_id}) }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("change_order_status_i_subj", {"[order]": order_info.order_id}) } ) }}
+    {{ __("dear") }} {% if order_info.firstname %}{{ order_info.firstname }} {% else %} {{ __("customer") }} {% endif %},
+    <br />
+    {{ __("change_order_status_default_text", {"[status]": order_status.description}) }}
+    <br />
+    <br /> {{ include_doc("order.summary", order_info.order_id) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema>
+                <attach_order_document>
+                    <type><![CDATA[selectbox]]></type>
+                    <title><![CDATA[email_template.params.attach_order_document]]></title>
+                    <func><![CDATA[fn_emails_get_order_document_variants]]></func>
+                </attach_order_document>
+            </params_schema>
+            <params>
+                <attach_order_document/>
+            </params>
+        </item>
+        <item>
+            <code><![CDATA[order_notification.i]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("change_order_status_i_subj", {"[order]": order_info.order_id}) }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("change_order_status_i_subj", {"[order]": order_info.order_id}) } ) }}
+    {{ __("dear") }} {% if order_info.firstname %}{{ order_info.firstname }} {% else %} {{ __("customer") }} {% endif %},
+    <br />
+    {{ __("change_order_status_default_text", {"[status]": order_status.description}) }}
+    <br />
+    <br /> {{ include_doc("order.summary", order_info.order_id) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema>
+                <attach_order_document>
+                    <type><![CDATA[selectbox]]></type>
+                    <title><![CDATA[email_template.params.attach_order_document]]></title>
+                    <func><![CDATA[fn_emails_get_order_document_variants]]></func>
+                </attach_order_document>
+            </params_schema>
+            <params>
+                <attach_order_document/>
+            </params>
+        </item>
+        <item>
+            <code><![CDATA[order_notification.o]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("change_order_status_o_subj", {"[order]": order_info.order_id}) }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("change_order_status_o_subj", {"[order]": order_info.order_id}) } ) }}
+    {{ __("dear") }} {% if order_info.firstname %}{{ order_info.firstname }} {% else %} {{ __("customer") }} {% endif %},
+    <br />
+    {{ __("change_order_status_default_text", {"[status]": order_status.description}) }}
+    <br />
+    <br /> {{ include_doc("order.summary", order_info.order_id) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema>
+                <attach_order_document>
+                    <type><![CDATA[selectbox]]></type>
+                    <title><![CDATA[email_template.params.attach_order_document]]></title>
+                    <func><![CDATA[fn_emails_get_order_document_variants]]></func>
+                </attach_order_document>
+            </params_schema>
+            <params>
+                <attach_order_document/>
+            </params>
+        </item>
+        <item>
+            <code><![CDATA[order_notification.o]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("change_order_status_o_subj", {"[order]": order_info.order_id}) }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("change_order_status_o_subj", {"[order]": order_info.order_id}) } ) }}
+    {{ __("dear") }} {% if order_info.firstname %}{{ order_info.firstname }} {% else %} {{ __("customer") }} {% endif %},
+    <br />
+    {{ __("change_order_status_default_text", {"[status]": order_status.description}) }}
+    <br />
+    <br /> {{ include_doc("order.summary", order_info.order_id) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema>
+                <attach_order_document>
+                    <type><![CDATA[selectbox]]></type>
+                    <title><![CDATA[email_template.params.attach_order_document]]></title>
+                    <func><![CDATA[fn_emails_get_order_document_variants]]></func>
+                </attach_order_document>
+            </params_schema>
+            <params>
+                <attach_order_document/>
+            </params>
+        </item>
+        <item>
+            <code><![CDATA[order_notification.p]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("change_order_status_p_subj", {"[order]": order_info.order_id}) }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("change_order_status_p_subj", {"[order]": order_info.order_id}) } ) }}
+    {{ __("dear") }} {% if order_info.firstname %}{{ order_info.firstname }} {% else %} {{ __("customer") }} {% endif %},
+    <br />
+    {{ __("change_order_status_default_text", {"[status]": order_status.description}) }}
+    <br />
+    <br /> {{ include_doc("order.summary", order_info.order_id) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema>
+                <attach_order_document>
+                    <type><![CDATA[selectbox]]></type>
+                    <title><![CDATA[email_template.params.attach_order_document]]></title>
+                    <func><![CDATA[fn_emails_get_order_document_variants]]></func>
+                </attach_order_document>
+            </params_schema>
+            <params>
+                <attach_order_document/>
+            </params>
+        </item>
+        <item>
+            <code><![CDATA[order_notification.p]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("change_order_status_p_subj", {"[order]": order_info.order_id}) }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("change_order_status_p_subj", {"[order]": order_info.order_id}) } ) }}
+    {{ __("dear") }} {% if order_info.firstname %}{{ order_info.firstname }} {% else %} {{ __("customer") }} {% endif %},
+    <br />
+    {{ __("change_order_status_default_text", {"[status]": order_status.description}) }}
+    <br />
+    <br /> {{ include_doc("order.summary", order_info.order_id) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema>
+                <attach_order_document>
+                    <type><![CDATA[selectbox]]></type>
+                    <title><![CDATA[email_template.params.attach_order_document]]></title>
+                    <func><![CDATA[fn_emails_get_order_document_variants]]></func>
+                </attach_order_document>
+            </params_schema>
+            <params>
+                <attach_order_document><![CDATA[invoice]]></attach_order_document>
+            </params>
+        </item>
+        <item>
+            <code><![CDATA[order_notification_default]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("change_order_status_default_subj", {"[order]": order_info.order_id, "[status]": order_status.description}) }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("change_order_status_default_subj", {"[order]": order_info.order_id, "[status]": order_status.description}) } ) }}
+    {{ __("dear") }} {% if order_info.firstname %}{{ order_info.firstname }} {% else %} {{ __("customer") }} {% endif %},
+    <br />
+    {{ __("change_order_status_default_text", {"[status]": order_status.description}) }}
+    <br />
+    <br /> {{ include_doc("order.summary", order_info.order_id) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema>
+                <attach_order_document>
+                    <type><![CDATA[selectbox]]></type>
+                    <title><![CDATA[email_template.params.attach_order_document]]></title>
+                    <func><![CDATA[fn_emails_get_order_document_variants]]></func>
+                </attach_order_document>
+            </params_schema>
+            <params>
+                <attach_order_document/>
+            </params>
+        </item>
+        <item>
+            <code><![CDATA[order_notification_default]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("change_order_status_default_subj", {"[order]": order_info.order_id, "[status]": order_status.description}) }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("change_order_status_default_subj", {"[order]": order_info.order_id, "[status]": order_status.description}) } ) }}
+    {{ __("dear") }} {% if order_info.firstname %}{{ order_info.firstname }} {% else %} {{ __("customer") }} {% endif %},
+    <br />
+    {{ __("change_order_status_default_text", {"[status]": order_status.description}) }}
+    <br />
+    <br /> {{ include_doc("order.summary", order_info.order_id) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema>
+                <attach_order_document>
+                    <type><![CDATA[selectbox]]></type>
+                    <title><![CDATA[email_template.params.attach_order_document]]></title>
+                    <func><![CDATA[fn_emails_get_order_document_variants]]></func>
+                </attach_order_document>
+            </params_schema>
+            <params>
+                <attach_order_document/>
+            </params>
+        </item>
+        <item>
+            <code><![CDATA[profile_activated]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("profile_activated") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("profile_activated")} ) }}
+
+    {{ __("hello") }}&nbsp;{{ firstname }},
+    <br />
+    <br /> {{ __("text_profile_activated") }}
+
+{{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[profile_activated]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("profile_activated") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("profile_activated")} ) }}
+    {% if user_data.firstname %} {{ __("dear") }} {{ user_data.firstname }}, {% else %} {{ __("hello") }}, {% endif %}
+    <br /> {{ __("text_profile_activated") }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[profile_deactivated]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("profile_deactivated") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("profile_deactivated")} ) }}
+
+    {{ __("hello") }}&nbsp;{{ firstname }},
+    <br />
+    <br /> {{ __("text_profile_deactivated") }}
+
+{{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[profile_deactivated]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("profile_deactivated") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("profile_deactivated")} ) }}
+    {% if user_data.firstname %} {{ __("dear") }} {{ user_data.firstname }}, {% else %} {{ __("hello") }}, {% endif %}
+    <br /> {{ __("text_profile_deactivated") }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[recover_password]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("recover_password_subj") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("recover_password_subj") } ) }}
+
+    {{ __("text_confirm_passwd_recovery") }}:
+    <br />
+    <br />
+
+    <a href="{{ url }}">{{ url|puny_decode }}</a>
+
+{{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[recover_password]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("recover_password_subj") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", { "title" : __("recover_password_subj") }) }}
+        {{ __("text_confirm_passwd_recovery") }}:<br /><br />
+        <a href="{{ url }}">{{ url|puny_decode }}</a>
+    {{ snippet("footer") }}
+]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[reminder]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("change_password_notification") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("change_password_notification") } ) }}
+
+    {{ __("dear") }} {{ firstname }},
+    <br>
+    <br> {{ __("change_password_notification_body", {"[days]": days, "[store]": store_url}) }}
+    <br>
+    <br>
+
+    <a href="{{ url }}">{{ url|puny_decode }}</a>
+    <br>
+    <br>
+
+{{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[shipment_products]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("order") }} #{{ order_info.order_id }} {{ __("new_shipment_was_created") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", { "title" : __("new_shipment_was_created") }) }}
+    {{ __("dear") }} {{ order_info.firstname }},
+    <br />
+    <br /> {{ __("products_were_sent") }}
+    <br />
+    <br />
+
+    <b>{{ __("order_id") }}</b>:&nbsp;#{{ order_info.order_id }}
+    <br />
+    <b>{{ __("shipping_method") }}</b>:&nbsp;{{ shipment.shipping }}
+    <br />
+    <b>{{ __("shipment_date") }}</b>:&nbsp;{{ shipment.timestamp|date("#{settings.Appearance.date_format}, #{settings.Appearance.time_format}") }}
+    <br /> {% if shipment.carrier_info %}
+    <b>{{ __("carrier") }}</b>:&nbsp;{{ shipment.carrier_info.name }}
+    <br /> {% endif %} {% if shipment.tracking_number %}
+    <b>{{ __("tracking_number") }}</b>:&nbsp; {% if shipment.carrier_info.tracking_url %}
+    <a href="{{ shipment.carrier_info.tracking_url }}">{{ shipment.tracking_number }}</a> {% else %} {{ shipment.tracking_number }} {% endif %}
+    <br />
+    <br /> {% endif %} {{ shipment.carrier_info.info }}
+
+    <b>{{ __("products") }}:</b>
+    <p>
+      {% for hash, amount in shipment.products %} {% if amount > 0 %} {{ amount }}&nbsp;x&nbsp;{{ order_info.products[hash].product }}
+      <br /> {% if order_info.products[hash].product_options %} {% for option in order_info.products[hash].product_options %} {{ option.option_name }}:&nbsp;{{ option.variant_name }}{% if not loop.last%}, {% endif %} {% endfor %}
+      <br /> {% endif %}
+      <br /> {% endif %} {% endfor %}
+    </p>
+
+    {% if shipment.comments %}
+    <br />
+    <br />
+    <b>{{ __("comments") }}</b>: {{ shipment.comments }} {% endif %}
+
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[track]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("track_request_subj") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", { "title" : __("track_request_subj") }) }}
+    {{ __("hello") }},
+    <br />
+    <br /> {{ __("text_track_request") }}
+    <br />
+    <br /> {% if order_id %} {{ __("text_track_view_order", {"[order]": order_id}) }}
+    <br />
+    <a href="{{ url }}">{{ url|puny_decode }}</a>
+    <br />
+    <br /> {% endif %} {{ __("text_track_view_all_orders") }}
+    <br />
+    <a href="{{ track_all_url }}">{{ track_all_url|puny_decode }}</a>
+    <br />
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[update_profile]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("update_profile_notification") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("update_profile_notification")} ) }}
+    {% if user_data.firstname %} {{ __("dear") }} {{ user_data.firstname }}, {% else %} {{ __("hello") }}, {% endif %}
+    <br>
+    {{ __("update_profile_notification_header") }}
+    <br>
+    <strong>
+      {% if api_access_status == "enabled" %}
+        <br>{{ __("api_access_has_been_enabled") }}<br>
+      {% elseif api_access_status == "disabled" %}
+        <br>{{ __("api_access_has_been_disabled") }}<br>
+      {% endif %}
+    </strong>
+    <br>
+    <h4 class="with-subline">{{ __("user_account_information") }}</h4>
+    <table border="0" width="100%" class="info">
+      <tr>
+        <td><b>{{ __("login_url") }}:</b></td>
+        <td><a href="{{ login_url }}">{{ login_url|puny_decode }}</a></td>
+      </tr>
+      <tr>
+        <td><b>{{ __("email") }}:</b></td>
+        <td><a>{{ user_data.email }}</a></td>
+      </tr>
+      <tr>
+        <td><b>{{ __("password") }}:</b></td>
+        <td> *********** (<a href="{{ forgot_pass_url }}">{{ __("forgot_password_question") }}</a>)</td>
+      </tr>
+    </table>
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[update_profile]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("update_profile_notification") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("update_profile_notification_header")} ) }}
+    {% if user_data.firstname %} {{ __("dear") }} {{ user_data.firstname }}, {% else %} {{ __("hello") }}, {% endif %}
+    <br>
+    {{ __("update_profile_notification_header") }}
+    <br>
+    <br>
+    <h4 class="with-subline">{{ __("user_account_information") }}</h4>
+    <table border="0" width="100%" class="info">
+      <tr>
+        <td><b>{{ __("login_url") }}:</b></td>
+        <td><a href="{{ login_url }}">{{ login_url|puny_decode }}</a></td>
+      </tr>
+      <tr>
+        <td><b>{{ __("email") }}:</b></td>
+        <td><a>{{ user_data.email }}</a></td>
+      </tr>
+      <tr>
+        <td><b>{{ __("password") }}:</b></td>
+        <td> *********** (<a href="{{ forgot_pass_url }}">{{ __("forgot_password_question") }}</a>)</td>
+      </tr>
+    </table>
+    <br>
+    <table class="info" width="269" align="left">
+      <tr>
+        <td>
+          <h4 class="with-subline">{{ __("billing_address") }}</h4>
+          <strong>{{ user_data.b_firstname }} {{ user_data.b_lastname }}</strong><br>
+          {{ user_data.b_address_2 }} {{ user_data.b_address }}<br>
+          {{ user_data.b_city }} {{ user_data.b_country }} <br>
+          {{ user_data.b_phone }} <br>
+        </td>
+      </tr>
+    </table>
+
+    <table class="info" width="269" align="left">
+      <tr>
+        <td>
+          <h4 class="with-subline">{{ __("shipping") }} {{ __("address") }}</h4>
+          <strong>{{ user_data.s_firstname }} {{ user_data.s_lastname }}</strong><br>
+          {{ user_data.s_address_2 }} {{ user_data.s_address }}<br>
+          {{ user_data.s_city }} {{ user_data.s_country }} <br>
+          {{ user_data.s_phone }} <br>
+        </td>
+      </tr>
+    </table>
+
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[upgrade_backup_info]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ __("uc_backup_info_subj") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("uc_backup_info_subj") } ) }}
+
+{{ __("uc_restore_email_body", {"[backup_file]": backup_file, "[settings_section]": settings_section_url}) }}
+    <p>
+      {{restore_link}}
+    </p>
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[usergroup_activation]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("usergroup_activated") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("usergroup_activated") } ) }}
+    {{ __("text_usergroup_activated", {"[usergroups]": usergroups}) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[usergroup_activation]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("usergroup_activated") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("usergroup_activated") } ) }}
+    {{ __("text_usergroup_activated", {"[usergroups]": usergroups}) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[usergroup_disactivation]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("usergroup_disactivated") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("usergroup_disactivated") } ) }}
+    {{ __("text_usergroup_disactivated", {"[usergroups]": usergroups}) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[usergroup_disactivation]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("usergroup_disactivated") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("usergroup_disactivated") } ) }}
+    {{ __("text_usergroup_disactivated", {"[usergroups]": usergroups}) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+        <item>
+            <code><![CDATA[usergroup_request]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("usergroup_request_by_customer") }} "{{ user_data.email }}"]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("usergroup_request_by_customer") } ) }}
+    {{ __("text_usergroup_requested_by", {"[usergroup]": usergroup, "[name]": "#{user_data.firstname} #{user_data.lastname}" , "[email]": user_data.email}) }}
+  {{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+        </item>
+    </templates>
+    <snippets>
+        <item>
+            <code><![CDATA[footer]]></code>
+            <template/>
+            <default_template><![CDATA[</td>
+
+</tr>
+
+<tr class="message-footer">
+  <td>
+    <table class="info" width="250" align="left">
+      <tr>
+        <th class="footer-contact__title">
+          {{ __("contact_information") }}
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <address>{{ company_data.company_address }}, {{ company_data.company_city }}</address>
+        </td>
+      </tr>
+    </table>
+
+    <table class="info" width="250" align="left">
+      <tr>
+        <th class="footer-social__title">
+          {{ __("get_social") }}
+        </th>
+      </tr>
+      <tr>
+        <td class="footer-social">
+          <table cellspacing="0" cellpadding="0" align="left">
+            <tr>
+              <td>
+                <a href="http://www.facebook.com"><img width="30" height="30" src="design/themes/responsive/mail/media/images/social/facebook.png"></a>
+              </td>
+              <td>
+                <a href="https://twitter.com"><img width="30" height="30" src="design/themes/responsive/mail/media/images/social/twitter.png"></a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+{% if company_data.company_name %}
+<tr class="message-copyright">
+  <td>
+  <table class="copyright" width="100%">
+    <tr>
+      <td>
+        &copy;&nbsp;{{ company_data.company_name }}
+      </td>
+      <td align="right">
+        {{ __("customer_text_letter_footer") }}
+      </td>
+    </tr>
+  </table>
+  </td>
+</tr>
+{% endif %}
+</table>
+<!-- content-wrapper -->
+</td>
+</tr>
+</table>
+<!-- main-wrapper -->
+</body>
+</html>]]></default_template>
+            <status><![CDATA[A]]></status>
+            <name>
+                <en><![CDATA[Footer]]></en>
+            </name>
+            <params/>
+            
+            <handler/>
+            <extra/>
+        </item>
+        <item>
+            <code><![CDATA[header]]></code>
+            <template/>
+            <default_template><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ company_name }}: Message title</title>
+  <style type="text/css">
+    #outlook a {
+      padding: 0;
+    }
+
+    body {
+      width: 100% !important;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    img {
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+    }
+
+    a {
+      outline: none;
+    }
+
+    a img {
+      border: none;
+    }
+
+    .image_fix {
+      display: block;
+    }
+
+    .message-header > td {
+      padding: 10px 30px 20px 30px;
+    }
+
+    .message-header__title {
+      background-color: {% if styles.links %}{{styles.links}}{% else %}#999{% endif %}
+    }
+
+    .message-header__title > td {
+      padding: 20px 30px;
+    }
+
+    .message-header__title h1 {
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: 400;
+      color: #Fff;
+    }
+
+    .message-title > td,
+    .message-body > td {
+      padding: 30px;
+    }
+
+    .message-footer > td {
+      padding: 20px 30px;
+      background-color: #757f83;
+    }
+
+    .message-copyright > td {
+      padding: 0px 30px 10px;
+    }
+
+    .message-header td,
+    .message-title td,
+    .message-body th, .message-body td,
+    .message-footer th, .message-footer td,
+    .message-copyright th, .message-copyright td {
+      color: {{styles.font}};
+      font-size: {{styles.body_font_size}};
+      font-family: {{styles.body_font}},Helvetica,Arial,sans-serif;
+    }
+
+    .message-footer {
+      border-top: 1px solid {{styles.base}}
+    }
+
+    .message-body table th,
+    .message-footer table th {
+      text-transform: uppercase;
+      border-bottom: 1px solid {{styles.base}};
+      text-align: left;
+    }
+
+    .message-body table td,
+    .message-footer table td {
+      padding: 5px;
+    }
+
+    .message-footer table th{
+       border: none;
+    }
+
+    .message-footer td {
+      color: #fff;
+    }
+
+    .footer-contact__title {
+      margin: 0px;
+      text-transform: uppercase;
+      font-size: 16px !important;
+      font-weight: 600;
+      color: #fff !important;
+    }
+
+    .footer-social__title {
+      margin: 0px;
+      text-transform: uppercase;
+      font-size: 16px !important;
+      font-weight: 600;
+      color: #fff !important;
+    }
+
+    .message-footer table td.footer-social td {
+      padding: 0px;
+      padding-right: 10px;
+    }
+
+    .email-preview{
+      display:none;
+      font-size:1px;
+      color:#333333;
+      line-height:1px;
+      max-height:0px;
+      max-width:0px;
+      opacity:0;
+      overflow:hidden;
+    }
+
+    .with-subline {
+      color: {{styles.font}};
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1em;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #D4D4D4;
+    }
+
+    p {
+      margin: 1em 0;
+    }
+
+    h1,h2,h3,h4,h5,h6 {
+      color: {{styles.font}};
+    }
+
+    h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
+      color: {{styles.links}};
+    }
+
+    h1 a:active,h2 a:active,h3 a:active,h4 a:active,h5 a:active,h6 a:active {
+      color: red;
+    }
+
+    h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited {
+      color: purple;
+    }
+
+    table td,
+    table th {
+      border-collapse: collapse;
+    }
+
+    table {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    address {
+      margin: 0px;
+    }
+
+    .content-wrapper {
+      border: 1px solid {{ styles.base    }}
+    }
+
+    .copyright td {
+      padding: 10px 0 0 0;
+      padding-bottom: 0 !important;
+    }
+
+    a {
+      color: {{styles.links}};
+    }
+ </style>
+</head>
+
+<body>
+   <style>
+      @media only screen and (max-device-width: 480px){
+        .content-wrapper{width: 100% !important;border: 3px solid #ccc !important; }
+
+        table[width]{
+          width: 100%! important;
+        }
+
+        .message-header > td,
+        .message-title > td,
+        .message-body > td,
+        .message-footer > td,
+        .message-copyright > td {
+          padding: 10px !important;
+        }
+
+        .message-header td,
+        .message-title td,
+        .message-body th, .message-body td,
+        .message-footer th, .message-footer td,
+        .message-copyright th, .message-copyright td {
+          font-size: 16px !important;
+        }
+     }
+
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+
+      @media only screen and (-webkit-min-device-pixel-ratio: 2) {}
+
+      @media only screen and (-webkit-device-pixel-ratio:.75) {}
+
+      @media only screen and (-webkit-device-pixel-ratio:1) {}
+
+      @media only screen and (-webkit-device-pixel-ratio:1.5) {}
+    </style>
+  <!-- Targeting Windows Mobile -->
+ <!--[if IEMobile 7]>
+  <style type="text/css">
+
+  </style>
+  <![endif]-->
+
+  <!--[if gte mso 9]>
+   <style>
+       /* Target Outlook 2007 and 2010 */
+    </style>
+  <![endif]-->
+  <table class="main-wrapper" cellpadding="0" cellspacing="0" width="100%" bgcolor="{{ styles.base }}" style="    background-color: {{ styles.base }}">
+    <tr>
+      <td style="padding: 40px 10px 40px 10px;">
+        <table class="content-wrapper" cellpadding="0" cellspacing="0" align="center" width="600" style="background-color:#fff;" >
+          <tr class="message-header">
+            <td>
+              <table cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td><a href="{{ company_data.company_website }}"><img src="{{logos.mail.image.image_path}}" alt="{{ company_data.company_name }}" /></a></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          {% if title %}
+          <tr class="message-header__title">
+            <td>
+              <h1>{{title}}</h1>
+            </td>
+          </tr>
+          {% endif %}
+
+          <tr class="message-body">
+
+<td>]]></default_template>
+            <status><![CDATA[A]]></status>
+            <name>
+                <en><![CDATA[Header]]></en>
+            </name>
+            <params/>
+            
+            <handler/>
+            <extra/>
+        </item>
+    </snippets>
+</email_templates>

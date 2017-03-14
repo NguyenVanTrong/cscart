@@ -1,0 +1,176 @@
+/* ==========================================================================
+Blog
+========================================================================== */
+.ty-blog__item {
+    border-bottom: 1px solid @base;
+    padding-bottom: 30px;
+    margin: -1px;
+    margin-bottom: 50px;
+    &:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+.ty-blog,
+.ty-blog-grid {
+    * {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 23px;
+    }
+    h3 {
+        font-size: 21px;
+    }
+    h4 {
+        font-size: 19px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    h6 {
+        font-size: 14px;
+    }
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    img {
+        width: auto;
+        max-width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    h2.ty-blog__post-title {
+        margin-bottom: 4px;
+    }
+    .ty-blog__post-title {
+        margin-bottom: 0;
+        padding: 0 0 6px;
+        font-size: 27px;
+    }
+    .ty-blog__img-block {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        img {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+    .ty-blog__description {
+        margin-bottom: 30px;
+    }
+    .ty-blog__date {
+        display: inline-block;
+        margin-bottom: 15px;
+        margin-right: 10px;
+        color: #adadad;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    .ty-blog__author {
+        display: inline-block;
+        margin-bottom: 15px;
+        padding-left: 12px;
+        border-left: 1px solid #adadad;
+        color: #adadad;
+        font-weight: normal;
+        font-size: 12px;
+    }
+}
+
+/* Template: templates/addons/blog/blocks/recent_posts.tpl */
+.ty-blog-sidebox {
+    margin: 0 0 10px;
+}
+.ty-blog-sidebox__item {
+    border-bottom: 1px solid @base;
+    padding-bottom: 10px;
+    margin-bottom: 7px;
+    word-wrap: break-word;
+    &:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+/* Template: templates/addons/blog/blocks/text_links.tpl */
+.ty-blog-text-links {
+    margin: 20px 0 40px;
+}
+
+.ty-blog-text-links__item {
+    margin-bottom: 20px;
+}
+
+.ty-blog-text-links__item:last-child {
+    margin-bottom: 25px;
+}
+
+.ty-blog-text-links__date {
+    color: #adadad;
+    border: 1px solid @base;
+    padding: 3px 8px;
+    margin-right: 9px;
+    float: left;
+    font-size: 12px;
+}
+
+.ty-blog-text-links__a {
+    display: block;
+    padding-top: 3px;
+    word-wrap: break-word;
+}
+
+/* Recent Posts Scroller */
+.ty-blog-recent-posts-scroller {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.ty-blog-recent-posts-scroller__item {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    word-wrap: break-word;
+    .ty-blog__date {
+        display: block;
+        margin-bottom: 0;
+        margin-top: 5px;
+        color: #adadad;
+        font-size: 12px;
+    }
+}
+
+.ty-blog-recent-posts-scroller__img-block {
+    margin-bottom: 10px;
+    max-height: 150px;
+    min-height: 150px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    img {
+        display: block;
+        bottom: -100%;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: -100%;
+        vertical-align: middle;
+    }
+    .ty-no-image {
+        height: 150px;
+        min-height: initial !important;
+        min-width: initial !important;
+    }
+}
+
+/* /Blog */

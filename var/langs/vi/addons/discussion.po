@@ -1,0 +1,462 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/discussion.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::discussion"
+msgid "Comments and reviews"
+msgstr "Bình luận và đánh giá"
+
+msgctxt "Addons::description::discussion"
+msgid "Lets customers leave comments to products, categories, orders, etc., review products and write testimonials"
+msgstr "Cho phép khách hàng để lại ý kiến về sản phẩm, danh mục, đơn đặt hàng, vv.., đánh giá sản phẩm và viết lời bình"
+
+msgctxt "Languages::use_for_discussion"
+msgid "Comments and reviews forms"
+msgstr "Mẫu bình luận và đánh giá"
+
+msgctxt "Languages::comments_and_reviews_menu_description"
+msgid "Customer comments and reviews on products, categories, orders, etc."
+msgstr "Ý kiến khách hàng và nhận xét về sản phẩm, danh mục, đơn đặt hàng, vv."
+
+msgctxt "Languages::discussion_title_category"
+msgid "Reviews"
+msgstr "Đánh giá"
+
+msgctxt "Languages::discussion_title_giftreg"
+msgid "Guestbook"
+msgstr "Lưu bút"
+
+msgctxt "Languages::discussion_title_home_page_menu_description"
+msgid "Manage the testimonials from your store visitors."
+msgstr "Quản lý những lời bình luận từ các khách truy cập cửa hàng của bạn."
+
+msgctxt "Languages::discussion_title_order"
+msgid "Communication"
+msgstr "Trao đổi thông tin"
+
+msgctxt "Languages::discussion_title_page"
+msgid "Comments"
+msgstr "Bình luận"
+
+msgctxt "Languages::discussion_title_product"
+msgid "Reviews"
+msgstr "Đánh giá"
+
+msgctxt "Languages::discussion_title_return"
+msgid "Communication"
+msgstr "Trao đổi thông tin"
+
+msgctxt "Languages::no_posts_found"
+msgid "No posts found"
+msgstr "Không tìm thấy bài viết"
+
+msgctxt "Languages::your_rating"
+msgid "Your rating"
+msgstr "Đánh giá của bạn"
+
+msgctxt "Languages::comments_and_reviews"
+msgid "Comments and reviews"
+msgstr "Bình luận và đánh giá"
+
+msgctxt "Languages::discussion_title_home_page"
+msgid "Testimonials"
+msgstr "Ý kiến đánh giá"
+
+msgctxt "Languages::text_enabled_testimonials_notice"
+msgid "Testimonials are disabled. To enable, please go to <a href=\"[link]\">Comments and reviews: options</a> and select the \"Communication\", \"Rating\" or \"Communication and Rating\" value in \"Testimonials\" field."
+msgstr "Ý kiến đánh giá bị vô hiệu hoá. Để kích hoạt, vui lòng đi đến <a href=\"[link]\"> bình luận và đánh giá: tùy chọn</a> và chọn \"Trao đổi thông tin\", \"Đánh giá\" hay \"Trao đổi thông tin và Đánh giá\" chọn giá trị trong mục \"Ý kiến đánh giá\"."
+
+msgctxt "Languages::discussion_title_company"
+msgid "Reviews"
+msgstr "Đánh giá"
+
+msgctxt "Languages::communication"
+msgid "Communication"
+msgstr "Trao đổi thông tin"
+
+msgctxt "Languages::rating"
+msgid "Rating"
+msgstr "Đánh giá"
+
+msgctxt "Languages::cant_find_thread"
+msgid "Thread can not be found."
+msgstr "Chủ đề không được tìm thấy."
+
+msgctxt "Languages::error_already_posted"
+msgid "You have posted in this discussion already"
+msgstr "Bạn đã gửi bài viết trong cuộc thảo luận này rồi"
+
+msgctxt "Languages::text_thank_you_for_post"
+msgid "Thank you for your post"
+msgstr "Cảm ơn bạn đã viết bài bình luận"
+
+msgctxt "Languages::text_post_pended"
+msgid "Your post will be checked before it gets published."
+msgstr "Bài viết của bạn sẽ được kiểm tra trước khi nó được xuất bản."
+
+msgctxt "Languages::discussion"
+msgid "Comments and reviews"
+msgstr "Bình luận và đánh giá"
+
+msgctxt "Languages::text_new_post_notification"
+msgid "This is a notification of a new post to"
+msgstr "Đây là một thông báo về một bài đăng mới từ"
+
+msgctxt "Languages::text_approval_notice"
+msgid "This post needs approving"
+msgstr "Bài đăng này cần phê duyệt"
+
+msgctxt "Languages::latest_reviews"
+msgid "Latest comments & reviews"
+msgstr "Bình luận & đánh giá mới nhất"
+
+msgctxt "Languages::comment_by"
+msgid "Comment by"
+msgstr "Bình luận của"
+
+msgctxt "Languages::and"
+msgid "and"
+msgstr "và"
+
+msgctxt "Languages::add_post"
+msgid "Add post"
+msgstr "Thêm bài"
+
+msgctxt "Languages::not_approved"
+msgid "Not approved"
+msgstr "Không chấp thuận"
+
+msgctxt "Languages::discussion_manager"
+msgid "Comments and reviews"
+msgstr "Bình luận và đánh giá"
+
+msgctxt "Languages::testimonials"
+msgid "Testimonials"
+msgstr "Ý kiến đánh giá"
+
+msgctxt "Languages::privileges.view_discussions"
+msgid "View comments and reviews"
+msgstr "Xem bình luận và đánh giá"
+
+msgctxt "Languages::privileges.manage_discussions"
+msgid "Manage comments and reviews"
+msgstr "Quản lý các bình luận và đánh giá"
+
+msgctxt "Languages::block_testimonials"
+msgid "Testimonials"
+msgstr "Ý kiến đánh giá"
+
+msgctxt "Languages::block_testimonials_description"
+msgid "User testimonials"
+msgstr "Ý kiến đánh giá người dùng"
+
+msgctxt "Languages::sort_by_rating_asc"
+msgid "Sort by rating: Low to High"
+msgstr "Xếp theo đánh giá: Thấp đến Cao"
+
+msgctxt "Languages::sort_by_rating_desc"
+msgid "Sort by rating"
+msgstr "Xếp theo đánh giá"
+
+msgctxt "Languages::reviews"
+msgid "review|reviews"
+msgstr "đánh giá|các đánh giá"
+
+msgctxt "Languages::write_review"
+msgid "Write a review"
+msgstr "Viết bình luận"
+
+msgctxt "SettingsSections::discussion::products"
+msgid "Products"
+msgstr "Sản phẩm"
+
+msgctxt "SettingsSections::discussion::categories"
+msgid "Categories"
+msgstr "Danh mục"
+
+msgctxt "SettingsSections::discussion::orders"
+msgid "Orders"
+msgstr "Đơn hàng"
+
+msgctxt "SettingsSections::discussion::gift_registry"
+msgid "Gift registry"
+msgstr "Đăng ký quà tặng"
+
+msgctxt "SettingsSections::discussion::pages"
+msgid "Pages"
+msgstr "Trang"
+
+msgctxt "SettingsSections::discussion::testimonials"
+msgid "Testimonials"
+msgstr "Ý kiến đánh giá"
+
+msgctxt "SettingsSections::discussion::companies"
+msgid "Vendors"
+msgstr "Nhà cung cấp"
+
+msgctxt "SettingsOptions::discussion::product_posts_per_page"
+msgid "Posts per page"
+msgstr "Bài viết trên mỗi trang"
+
+msgctxt "SettingsOptions::discussion::product_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Quản trị viên phải phê duyệt các bài viết gửi bởi"
+
+msgctxt "SettingsOptions::discussion::product_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Một địa chỉ IP chỉ được gửi một bài viết"
+
+msgctxt "SettingsOptions::discussion::product_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Gửi thông báo đến email này"
+
+msgctxt "SettingsOptions::discussion::product_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Gửi thông báo cho nhà cung cấp"
+
+msgctxt "SettingsOptions::discussion::product_share_discussion"
+msgid "Share discussion with product"
+msgstr "Chia sẻ cuộc thảo luận với sản phẩm"
+
+msgctxt "SettingsOptions::discussion::category_posts_per_page"
+msgid "Posts per page"
+msgstr "Bài viết trên mỗi trang"
+
+msgctxt "SettingsOptions::discussion::category_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Quản trị viên phải phê duyệt các bài viết gửi bởi"
+
+msgctxt "SettingsOptions::discussion::category_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Một địa chỉ IP chỉ được gửi một bài viết"
+
+msgctxt "SettingsOptions::discussion::category_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Gửi thông báo đến email này"
+
+msgctxt "SettingsOptions::discussion::order_posts_per_page"
+msgid "Posts per page"
+msgstr "Bài viết trên mỗi trang"
+
+msgctxt "SettingsOptions::discussion::order_initiate"
+msgid "Allow customer to initiate discussion"
+msgstr "Cho phép khách hàng để bắt đầu thảo luận"
+
+msgctxt "SettingsOptions::discussion::order_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Gửi thông báo cho nhà cung cấp"
+
+msgctxt "SettingsOptions::discussion::giftreg_posts_per_page"
+msgid "Posts per page"
+msgstr "Bài viết trên mỗi trang"
+
+msgctxt "SettingsOptions::discussion::giftreg_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Một địa chỉ IP chỉ được gửi một bài viết"
+
+msgctxt "SettingsOptions::discussion::page_posts_per_page"
+msgid "Posts per page"
+msgstr "Bài viết trên mỗi trang"
+
+msgctxt "SettingsOptions::discussion::page_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Quản trị viên phải phê duyệt các bài viết gửi bởi"
+
+msgctxt "SettingsOptions::discussion::page_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Một địa chỉ IP chỉ được gửi một bài viết"
+
+msgctxt "SettingsOptions::discussion::page_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Gửi thông báo đến email này"
+
+msgctxt "SettingsOptions::discussion::page_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Gửi thông báo cho nhà cung cấp"
+
+msgctxt "SettingsOptions::discussion::page_share_discussion"
+msgid "Share discussion with page"
+msgstr "Chia sẻ cuộc thảo luận với trang"
+
+msgctxt "SettingsOptions::discussion::home_page_posts_per_page"
+msgid "Posts per page"
+msgstr "Bài viết trên mỗi trang"
+
+msgctxt "SettingsOptions::discussion::home_page_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Quản trị viên phải phê duyệt các bài viết gửi bởi"
+
+msgctxt "SettingsOptions::discussion::home_page_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Một địa chỉ IP chỉ được gửi một bài viết"
+
+msgctxt "SettingsOptions::discussion::home_page_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Gửi thông báo đến email này"
+
+msgctxt "SettingsOptions::discussion::home_page_testimonials"
+msgid "Testimonials"
+msgstr "Ý kiến đánh giá"
+
+msgctxt "SettingsOptions::discussion::testimonials_from_all_stores"
+msgid "Show testimonials from all stores"
+msgstr "Hiển thị lời chứng thực từ tất cả các cửa hàng"
+
+msgctxt "SettingsOptions::discussion::company_discussion_type"
+msgid "Reviews"
+msgstr "Đánh giá"
+
+msgctxt "SettingsOptions::discussion::company_only_buyers"
+msgid "Allow to post only for the customers who has bought somethins from the vendor"
+msgstr "Chỉ cho phép để gửi bài đăng của các khách hàng đã mua từ các nhà cung cấp"
+
+msgctxt "SettingsOptions::discussion::company_posts_per_page"
+msgid "Posts per page"
+msgstr "Bài viết trên mỗi trang"
+
+msgctxt "SettingsOptions::discussion::company_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Quản trị viên phải phê duyệt các bài viết gửi bởi"
+
+msgctxt "SettingsOptions::discussion::company_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Một địa chỉ IP chỉ được gửi một bài viết"
+
+msgctxt "SettingsOptions::discussion::company_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Gửi thông báo đến email này"
+
+msgctxt "SettingsOptions::discussion::company_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Gửi thông báo cho nhà cung cấp"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::any"
+msgid "Any customer"
+msgstr "Bất kỳ khách hàng"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Chỉ khách hàng vô danh"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Không cần sự chấp thuận"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::B"
+msgid "Communication and Rating"
+msgstr "Bình luận và đánh giá"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::C"
+msgid "Communication"
+msgstr "Trao đổi thông tin"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::R"
+msgid "Rating"
+msgstr "Đánh giá"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::D"
+msgid "Disabled"
+msgstr "Vô hiệu"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::any"
+msgid "Any customer"
+msgstr "Khách hàng bất kỳ"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Chỉ khách hàng vô danh"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Không cần sự chấp thuận"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::any"
+msgid "Any customer"
+msgstr "Khách hàng bất kỳ"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Chỉ khách hàng vô danh"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Không cần sự chấp thuận"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::any"
+msgid "Any customer"
+msgstr "Khách hàng bất kỳ"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Chỉ khách hàng vô danh"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Không cần sự chấp thuận"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::any"
+msgid "Any customer"
+msgstr "Khách hàng bất kỳ"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Chỉ khách hàng vô danh"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Không cần sự chấp thuận"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::B"
+msgid "Communication and Rating"
+msgstr "Bình luận và đánh giá"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::C"
+msgid "Communication"
+msgstr "Trao đổi thông tin"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::R"
+msgid "Rating"
+msgstr "Đánh giá"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::D"
+msgid "Disabled"
+msgstr "Vô hiệu"
+
+msgctxt "Languages::discussion_tab_products"
+msgid "Product Reviews"
+msgstr "Đánh giá Sản phẩm"
+
+msgctxt "Languages::discussion_tab_categories"
+msgid "Category Reviews"
+msgstr "Đánh giá Danh mục"
+
+msgctxt "Languages::discussion_tab_pages"
+msgid "Page Comments"
+msgstr "Trang bình luận"
+
+msgctxt "Languages::discussion_tab_orders"
+msgid "Order Communication"
+msgstr "Thảo luận đơn hàng"
+
+msgctxt "Languages::discussion_tab_home_page"
+msgid "Testimonials"
+msgstr "Ý kiến đánh giá"
+
+msgctxt "Languages::discussion_tab_companies"
+msgid "Company Reviews"
+msgstr "Đánh giá Công ty"
+
+msgctxt "Languages::email_template.discussion_notification"
+msgid "Comments and reviews notification"
+msgstr "Thông báo bình luận và đánh giá"
+

@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>newsletters</id>
+    <version>1.0</version>
+    <priority>500</priority>
+    <position>110</position>
+    <status>active</status>
+    <compatibility>
+        <conflicts>email_marketing</conflicts>
+    </compatibility>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="newsletters_per_pass">
+                        <type>input</type>
+                        <default_value>10</default_value>
+                        <variants/>
+                    </item>
+                    <item id="elm_advanced_mailing_server_options">
+                        <type>header</type>
+                        <handler/>
+                        <variants/>
+                    </item>
+                    <item id="mailer_send_method">
+                        <type>selectbox</type>
+                        <default_value>default</default_value>
+                        <variants>
+                            <item id="smtp">
+                            </item>
+                            <item id="mail">
+                            </item>
+                            <item id="default">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="elm_smtp_server_settings">
+                        <type>header</type>
+                        <handler/>
+                        <variants/>
+                    </item>
+                    <item id="mailer_smtp_host">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="mailer_smtp_username">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="mailer_smtp_password">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="mailer_smtp_ecrypted_connection">
+                        <type>selectbox</type>
+                        <default_value>none</default_value>
+                        <variants>
+                            <item id="none">
+                            </item>
+                            <item id="tls">
+                            </item>
+                            <item id="ssl">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="mailer_smtp_auth">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+            <section id="promotions">
+                <items>
+                    <item id="coupon">
+                        <type>selectbox</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:newsletters;</item>
+        <item>DROP TABLE IF EXISTS ?:newsletter_links;</item>
+        <item>DROP TABLE IF EXISTS ?:newsletter_descriptions;</item>
+        <item>DROP TABLE IF EXISTS ?:subscribers;</item>
+        <item>DROP TABLE IF EXISTS ?:newsletter_campaigns;</item>
+        <item>DROP TABLE IF EXISTS ?:mailing_lists;</item>
+        <item>DROP TABLE IF EXISTS ?:user_mailing_lists;</item>
+        <item>
+            CREATE TABLE `?:newsletters` (
+                `newsletter_id` mediumint(8) unsigned unsigned NOT NULL auto_increment,
+                `campaign_id` mediumint(8) unsigned NOT NULL default '0',
+                `sent_date` int(11) unsigned NOT NULL default '0',
+                `status` char(1) NOT NULL default 'A',
+                `type` char(1) NOT NULL default 'N',
+                `mailing_lists` varchar(255) NOT NULL default '',
+                `users` text,
+                `abandoned_type` varchar(10) NOT NULL DEFAULT 'both',
+                `abandoned_days` int(11) NOT NULL DEFAULT 0,
+                PRIMARY KEY  (`newsletter_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:newsletter_links` (
+                `link_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `campaign_id` mediumint(8) unsigned NOT NULL DEFAULT 0,
+                `newsletter_id` mediumint(8) unsigned NOT NULL DEFAULT 0,
+                `url` varchar(255) NOT NULL default '',
+                `clicks` mediumint(8) unsigned,
+                PRIMARY KEY  (`link_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:newsletter_descriptions` (
+                `newsletter_id` mediumint(8) unsigned NOT NULL default '0',
+                `newsletter` varchar(255) NOT NULL default '',
+                `newsletter_multiple` text,
+                `body_html` mediumtext,
+                `lang_code` char(2) NOT NULL default '',
+                PRIMARY KEY  (`newsletter_id`,`lang_code`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:subscribers` (
+                `subscriber_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `email` varchar(128) NOT NULL default '',
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                UNIQUE KEY  (`email`) ,
+                PRIMARY KEY  (`subscriber_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;</item>
+        <item>
+            CREATE TABLE `?:newsletter_campaigns` (
+                `campaign_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `status` char(1) NOT NULL default 'D',
+                PRIMARY KEY  (`campaign_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:mailing_lists` (
+                `list_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `from_email` varchar(64) NOT NULL default '',
+                `from_name` varchar(128) NOT NULL default '',
+                `reply_to` varchar(64) NOT NULL default '',
+                `show_on_checkout` tinyint(3) unsigned NOT NULL default '0',
+                `show_on_registration` tinyint(3) unsigned NOT NULL default '0',
+                `status` char(1) NOT NULL default 'D',
+                `register_autoresponder` mediumint(8) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`list_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:user_mailing_lists` (
+                `subscriber_id` mediumint(8) unsigned NOT NULL,
+                `list_id` mediumint(8) unsigned NOT NULL,
+                `activation_key` varchar(32) NOT NULL default '',
+                `unsubscribe_key` varchar(32) NOT NULL default '',
+                `confirmed` tinyint(3) unsigned NOT NULL default '0',
+                `timestamp` int(11) unsigned NOT NULL default '0',
+                `lang_code` char(2) NOT NULL default '',
+                KEY `subscriber_id` (`subscriber_id`),
+                KEY `list_id` (`list_id`),
+                UNIQUE KEY `subscriber_list` (`list_id`, `subscriber_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="demo" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:usergroup_privileges (usergroup_id, privilege) VALUES ('4', 'view_newsletters');</item>
+        <item for="demo" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:usergroup_privileges (usergroup_id, privilege) VALUES ('4', 'manage_newsletters');</item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('view_newsletters', 'Y', 'cms');</item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_newsletters', 'Y', 'cms');</item>
+
+        <item for="uninstall">DROP TABLE IF EXISTS ?:newsletters;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:newsletter_links;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:newsletter_descriptions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:subscribers;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:newsletter_campaigns;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:mailing_lists;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:user_mailing_lists;</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'view_newsletters'</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:usergroup_privileges WHERE privilege = 'view_newsletters'</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'manage_newsletters'</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:usergroup_privileges WHERE privilege = 'manage_newsletters'</item>
+
+        <item for="demo" type="file">database/demo.sql</item>
+        <item for="demo" type="file" editions="ULTIMATE">database/demo_ultimate.sql</item>
+        <item for="demo" type="file" table="common_descriptions" lang="en">database/demo_common_en.sql</item>
+        <item for="demo" type="file" table="newsletter_descriptions" lang="en">database/demo_newsletters_en.sql</item>
+        <item for="demo" type="file" table="common_descriptions" lang="ru">database/demo_common_ru.sql</item>
+        <item for="demo" type="file" table="newsletter_descriptions" lang="ru">database/demo_newsletters_ru.sql</item>
+    </queries>
+    <email_templates>
+        <templates>
+            <item>
+                <code><![CDATA[newsletters_newsletter]]></code>
+                <area><![CDATA[C]]></area>
+                <status><![CDATA[A]]></status>
+                <default_subject><![CDATA[{{ subject }}]]></default_subject>
+                <default_template><![CDATA[{{ snippet("header") }}
+
+{{ body }}
+
+{{ snippet("footer") }}]]></default_template>
+                <addon><![CDATA[newsletters]]></addon>
+            </item>
+            <item>
+                <code><![CDATA[newsletters_promotion]]></code>
+                <area><![CDATA[C]]></area>
+                <status><![CDATA[A]]></status>
+                <default_subject><![CDATA[{{ company_name }}: {{ subject }}]]></default_subject>
+                <default_template><![CDATA[{{ snippet("header") }}
+
+ <h1>{{ promotion.name }}</h1> {{ __("discount_coupon_code") }}: <b>{{ coupon }}</b> {{ promotion.short_description }}<br/> {{ __("more_info") }}: <a href="{{ url }}">{{ url|puny_decode }}</a>
+{{ snippet("footer") }}]]></default_template>
+                <addon><![CDATA[newsletters]]></addon>
+            </item>
+        </templates>
+    </email_templates>
+</addon>

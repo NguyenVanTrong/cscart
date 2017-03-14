@@ -1,0 +1,2 @@
+<button title="{$alt}" class="ty-btn-go" type="submit">{if $but_text}{$but_text}{else}<i class="ty-btn-go__icon ty-icon-right-dir"></i>{/if}</button>
+<input type="hidden" name="dispatch" value="{$but_name}" />

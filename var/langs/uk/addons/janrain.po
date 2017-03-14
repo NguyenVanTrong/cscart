@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /addons/janrain.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::janrain"
+msgid "Janrain"
+msgstr "Janrain"
+
+msgctxt "Addons::description::janrain"
+msgid "Adds the Social Login feature; allows customers use Facebook, Twitter, etc. to log in on the store"
+msgstr "Авторизації в магазині через соціальні мережі (Facebook, Twitter і т.д.)"
+
+msgctxt "Languages::janrain_general_info"
+msgid "<p>Get these values and configure social login at <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+msgstr "<p>Використовуйте ці дані і налаштуйте обліковий запис на <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+
+msgctxt "Languages::janrain_social_login"
+msgid "Social login"
+msgstr "Вхід через соціальні мережі"
+
+msgctxt "Languages::janrain_need_update_profile"
+msgid "The \"Password\" field and some other mandatory fields are empty at the moment. Please update your profile."
+msgstr "Поле «Пароль» і деякі інші обов'язкові поля порожні. Будь ласка, поновіть свій профіль."
+
+msgctxt "Languages::janrain_cant_create_profile"
+msgid "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+msgstr "На жаль, увійти в магазин не вийшло. Можливі причини:<br />- Ви раніше авторизувалися в магазині, використовуючи інший сервіс OpenID, але з тією ж адресою ел. пошти.<br />- Ви вже зареєстровані в нашому магазині з використанням цієї адреси ел. пошти.<br />Будь ласка, зв'яжіться з адміністрацією магазину для вирішення цієї проблеми."
+
+msgctxt "SettingsSections::janrain::general"
+msgid "General"
+msgstr "Основні"
+
+msgctxt "SettingsOptions::janrain::general_info"
+msgid "General info"
+msgstr "Загальна інформація"
+
+msgctxt "SettingsOptions::janrain::apikey"
+msgid "API Key"
+msgstr "Ключ API"
+
+msgctxt "SettingsOptions::janrain::appdomain"
+msgid "Application Domain"
+msgstr "Домен додатку (application domain)"
+

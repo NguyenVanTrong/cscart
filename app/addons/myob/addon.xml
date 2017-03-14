@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>myob</id>
+    <version>1.0</version>
+    <priority>1</priority>
+    <position>150</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="sales_account">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="currency">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="tax_gst_code">
+                        <type>input</type>
+                        <default_value>GST</default_value>
+                    </item>
+                    <item id="freight_tax_gst_code">
+                        <type>input</type>
+                        <default_value>GST</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <functions>
+        <item for="install">fn_myob_set_default_settings</item>
+    </functions>
+</addon>

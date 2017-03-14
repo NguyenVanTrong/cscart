@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Georgian\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ka\n"
+"X-Crowdin-File: /addons/blog.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:46-0500\n"
+
+msgctxt "Addons::name::blog"
+msgid "Blog"
+msgstr "ბლოგი"
+
+msgctxt "Addons::description::blog"
+msgid "Lets you start your blog easily"
+msgstr "შექმენი შენი ბლოგი მარტივად"
+
+msgctxt "Languages::blog_menu_description"
+msgid "Manage your blog posts."
+msgstr "შექმენი ბლოგის შეტყობინება."
+
+msgctxt "Languages::blog.new_post"
+msgid "New blog post"
+msgstr "ახალი ბლოგი"
+
+msgctxt "Languages::blog.editing_post"
+msgid "Editing blog post"
+msgstr "ბლოგის რედაქტირება"
+
+msgctxt "Languages::blog"
+msgid "Blog"
+msgstr "ბლოგი"
+
+msgctxt "Languages::blog.add_post"
+msgid "Add blog post"
+msgstr "დაამატე ბლოგი"
+
+msgctxt "Languages::blog.recent_posts"
+msgid "Blog: recent posts"
+msgstr "ბლოგი: ახალი"
+
+msgctxt "Languages::blog.recent_posts_scroller"
+msgid "Blog: recent posts scroller"
+msgstr "ბლოგი: ბოლოს დამატებულის ნახვა"
+
+msgctxt "Languages::blog.view_post"
+msgid "View post"
+msgstr "ბლოგის ნახვა"
+
+msgctxt "Languages::recent_blog_posts"
+msgid "Recent blog posts"
+msgstr "ბოლოს დამატებული ბლოგი"
+
+msgctxt "Languages::blog.posts"
+msgid "Posts"
+msgstr "პოსტები"
+
+msgctxt "Languages::blog.post"
+msgid "Post"
+msgstr "პოსტი"
+
+msgctxt "Languages::block_blog"
+msgid "Recent posts"
+msgstr "ბოლო პოსტები"
+
+msgctxt "Languages::blog.text_links"
+msgid "Blog: text links"
+msgstr "ბლოგი: ტექსტური ბმულები"
+
+msgctxt "Languages::blog.read_more"
+msgid "Read more"
+msgstr "წაიკითხე მეტი"
+
+msgctxt "Languages::post_description"
+msgid "Post description"
+msgstr "აღწერა"
+
+msgctxt "Languages::ttc_post_description"
+msgid "Use the &lt;!--CUT--&gt; tag (switch to source code to insert it) to hide part of the post. Only the part above the tag is shown in the list of all posts.<br /><br />Make sure to <strong>close all HTML tags</strong> above the &lt;!--CUT--&gt; tag!"
+msgstr "გამოყენება ტეგი &lt;!--CUT--&gt;  (თქვენ უნდა გადახვიდედ კოდის რედაქტორში, რომ ჩადოთ ის) რომ დამალოთ პოსტის ნაწელი. პოსტის სიაში ნაჩვენები იქნება მხოლოდ ტექსტის ნაწილი(რომელიც ტეგის ზემოთ იქნება). < br /><br /> დარწმუნდით, რომ <strong>ყველა HTML-ტეგი დახურულია</strong> ამის ზემოთ &lt;!--CUT--&gt;!"
+
+msgctxt "Languages::blog_functionality_notes"
+msgid "<p>Use this page to manage your blog. This is how you should organize your blog posts:</p><ul><li>Blog is a usual post that has the <b>Root level page</b> as the Parent page.</li><li>Choose <b>Blog</b> as the Parent page for your blog posts.</li></ul>"
+msgstr "<p>მარტეთ ბლოგით ამ გვერდზე. აი როგორ უნდა პოსტების ორგანიზება:</p><ul><li>ბლოგი - არის ჩვეულებრივი პოსტი, რომლის მთავარი გვერდით ამოისახება — <b>საფუძვლიანი გვერდი</b>.</li><li>როცა ქმნით პოსტს, მისი მთავარი ვვერდის სახით აირჩიეთ  — <b>ბლოგი</b>.</li></ul>"
+

@@ -1,0 +1,794 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ro\n"
+"X-Crowdin-File: /addons/ebay.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-02 02:00-0500\n"
+
+msgctxt "Addons::name::ebay"
+msgid "eBay synchronization"
+msgstr "Sincronizare eBay"
+
+msgctxt "Addons::description::ebay"
+msgid "Synchronizes products and orders with an eBay account."
+msgstr "Sincronizează produse și comenzi cu un cont de eBay."
+
+msgctxt "Languages::paypal_required_and_selected"
+msgid "For the selected eBay category PayPal payment method is required. It is selected automatically."
+msgstr "Pentru categoria eBay selectată o metoda de plată PayPal este necesară. Acesta este selectată automat."
+
+msgctxt "Languages::wait_for_shippings_cached"
+msgid "Wait for shippings cached. Mean time to 3 minutes"
+msgstr "Aşteptaţi pentru a fi încarcat in memoria temporară. Durata medie 3 minute"
+
+msgctxt "Languages::ebay_duration"
+msgid "Listing duration"
+msgstr "Listează durata"
+
+msgctxt "Languages::list_products_on"
+msgid "List products on"
+msgstr "Produse liste pe"
+
+msgctxt "Languages::private_listing"
+msgid "Private listing"
+msgstr "Listare privată"
+
+msgctxt "Languages::use_as_default"
+msgid "Use as default"
+msgstr "Utilizaţi ca implicit"
+
+msgctxt "Languages::ebay_root_category"
+msgid "eBay Root category"
+msgstr "Categoria de rădăcină eBay"
+
+msgctxt "Languages::ebay_root_sec_category"
+msgid "eBay Secondary root category"
+msgstr "Categorie secundară de rădăcină eBay"
+
+msgctxt "Languages::ebay_sec_category"
+msgid "eBay Secondary category"
+msgstr "Categorie secundara eBay"
+
+msgctxt "Languages::quantity_to_sell"
+msgid "Quantity to sell"
+msgstr "Cantitatea de vânzare"
+
+msgctxt "Languages::just_one"
+msgid "Just one"
+msgstr "Doar unul"
+
+msgctxt "Languages::more_than_one"
+msgid "More than one"
+msgstr "Mai multe"
+
+msgctxt "Languages::use_main_image"
+msgid "Export product images"
+msgstr "Imagini produs pentru export"
+
+msgctxt "Languages::selling_method"
+msgid "Selling method"
+msgstr "Metoda de vânzare"
+
+msgctxt "Languages::online_auction"
+msgid "Online auction"
+msgstr "Licitaţii online"
+
+msgctxt "Languages::buy_it_now"
+msgid "Buy it now"
+msgstr "Cumpără-l acum"
+
+msgctxt "Languages::ebay_requests"
+msgid "eBay requests"
+msgstr "Cereri eBay"
+
+msgctxt "Languages::log_type_ebay_requests"
+msgid "eBay requests"
+msgstr "Cereri eBay"
+
+msgctxt "Languages::errors"
+msgid "Errors"
+msgstr "Erori"
+
+msgctxt "Languages::log_action_all"
+msgid "All"
+msgstr "Toate"
+
+msgctxt "Languages::error_code"
+msgid "Error code"
+msgstr "Cod de eroare"
+
+msgctxt "Languages::editing_ebay_template"
+msgid "Editing eBay template"
+msgstr "Editare şablon eBay"
+
+msgctxt "Languages::new_ebay_template"
+msgid "New eBay template"
+msgstr "Șablon nou pentru eBay"
+
+msgctxt "Languages::ebay_templates"
+msgid "eBay templates"
+msgstr "Șabloane eBay"
+
+msgctxt "Languages::ebay_registration_notice"
+msgid "In order to get this information you need first to register your Developer account <a href=\"https://developer.ebay.com/join/\">here</a>.<br /><br />After you registered, you will receive the \"DevID\", \"AppID\" and \"CertID\" keys. So you have to generate the special \"Token\" in order to use this API. In order to generate the \"Token\", please click the \"Get a User Token\" link at the bottom of \"My account\" page (tools box) or follow <a href=\"https://developer.ebay.com/DevZone/account/tokens/default.aspx\">this link</a>.<br /><br />Please complete this form with the given credentials."
+msgstr "Pentru a obţine aceste informaţii în primul rând trebuie să vă înregistraţi contul de Dezvoltator<a href=\"https://developer.ebay.com/join/\"> aici</a>. < br / > < br / > după ce v-aţi înregistrat, veţi primi cheile \"DevID\", \"AppID\" şi \"CertID\". Deci va trebui să generați special \"Token\" pentru a utiliza acest API. Pentru a genera \"Token\", vă rugăm să faceţi clic pe linkul \"Obţine un utilizator Token\" din josul paginii \"My account\" (caseta de instrumente) sau urmaţi <a href=\"https://developer.ebay.com/DevZone/account/tokens/default.aspx\"> acest link</a>. < br / > < br / > vă rugăm să completaţi acest formular cu acreditările date."
+
+msgctxt "Languages::add_ebay_template"
+msgid "Add eBay template"
+msgstr "Adaugă şablon eBay"
+
+msgctxt "Languages::shipping_type"
+msgid "Shipping type"
+msgstr "Tipul de expediere"
+
+msgctxt "Languages::flat"
+msgid "Flat"
+msgstr "Plat"
+
+msgctxt "Languages::calculated"
+msgid "Calculated"
+msgstr "Calculat"
+
+msgctxt "Languages::domestic_shipping_service"
+msgid "Domestic shipping service"
+msgstr "Serviciu de transport intern"
+
+msgctxt "Languages::international_shipping_service"
+msgid "International shipping service"
+msgstr "Serviciu internaţional de transport"
+
+msgctxt "Languages::dispatch_days"
+msgid "Dispatch days"
+msgstr "Zile de expediere"
+
+msgctxt "Languages::ebay_payment_methods"
+msgid "eBay payment methods"
+msgstr "Metode de plată eBay"
+
+msgctxt "Languages::paypal_email"
+msgid "PayPal email"
+msgstr "E-mail PayPal"
+
+msgctxt "Languages::ebay_category_condition"
+msgid "eBay category condition"
+msgstr "Starea categoriei eBay"
+
+msgctxt "Languages::ebay_associated_category"
+msgid "Associated eBay category"
+msgstr "Categorie asociată eBay"
+
+msgctxt "Languages::ebay_category_preferences"
+msgid "eBay Category <br> Preferences"
+msgstr "Categorie eBay <br> Preferințe"
+
+msgctxt "Languages::ebay_category_preferences_tooltip"
+msgid "Use the eBay category of the template, or assign a different eBay category to the products that fall under this category of your store"
+msgstr "Folosește șablonul categoriei eBay, sau atribuie o categorie eBay diferită produselor care intră în această categorie a magazinului"
+
+msgctxt "Languages::ebay_template"
+msgid "eBay template"
+msgstr "Șabloane eBay"
+
+msgctxt "Languages::ebay_orders"
+msgid "eBay orders"
+msgstr "Comenzi eBay"
+
+msgctxt "Languages::get_ebay_orders"
+msgid "Get eBay orders"
+msgstr "Obţine comenzi eBay"
+
+msgctxt "Languages::ebay"
+msgid "eBay"
+msgstr "eBay"
+
+msgctxt "Languages::wait_for_categories_cached"
+msgid "Please wait for the categories to cache, it will take about 3 minutes. Before that, the Shippings, Payments, and Return Policy tabs will remain empty."
+msgstr "Vă rugăm să aşteptaţi pentru cache-ul categoriilor, va dura aproximativ 3 minute. Înainte de asta, Livrările, plăţile şi politica de returnare vor rămâne libere."
+
+msgctxt "Languages::Some_parameters_is_missing"
+msgid "Some parameters is missing. Please check ebay add-on settings"
+msgstr "Unii parametri lipsesc. Vă rugăm să verificați setările addon eBay"
+
+msgctxt "Languages::ebay_success_products_notice"
+msgid "Products have been successfully exported."
+msgstr "Produsele au fost exportate cu succes."
+
+msgctxt "Languages::ebay_success_orders_notice"
+msgid "Orders have been successfully imported."
+msgstr "Comenzile au fost importate cu succes."
+
+msgctxt "Languages::ebay_failed_orders_notice"
+msgid "An error occurred during order import."
+msgstr "Eroare în timpul importului de comenzi."
+
+msgctxt "Languages::exporting_products_to_ebay"
+msgid "Exporting products to eBay."
+msgstr "Exportă produsele la eBay."
+
+msgctxt "Languages::ebay_default_template_not_found"
+msgid "Default template for the [company_name] was not found."
+msgstr "Şablon implicit pentru [company_name] nu a fost găsit."
+
+msgctxt "Languages::delete_this_template"
+msgid "Delete this template"
+msgstr "Ştergeţi acest şablon"
+
+msgctxt "Languages::test_version"
+msgid "You're using a test version of this module, the validity of which ended on December 7th, 2013. After the end of the test period, the functions of the module will not be available. You can purchase the full version via a <a href=\"http://www.cs-cart.com/ebay-synchronization.html\">HelpDesk</a>"
+msgstr "Utilizaţi o versiune de test a acestui modul, a căror valabilitate s-a încheiat pe data de 7 decembrie 2013. La sfârșitul perioadei de testare, funcţiile modulului nu vor fi disponibile. Puteţi achiziţiona versiunea completă prin intermediul un <a href=\"http://www.cs-cart.com/ebay-synchronization.html\"> HelpDesk</a>"
+
+msgctxt "Languages::ttc_list_products_on"
+msgid "Choose the region of the eBay auction for which your site will work"
+msgstr "Alege regiunea licitației eBay pentru care site-ul tău va funcționa"
+
+msgctxt "Languages::ttc_use_as_default"
+msgid "Use this template for products with no template defined"
+msgstr "Utilizaţi acest şablon pentru produsele cu nici un şablon definit"
+
+msgctxt "Languages::ttc_ebay_root_category"
+msgid "The product root category at eBay"
+msgstr "Categoria de produse rădăcină la eBay"
+
+msgctxt "Languages::ttc_ebay_root_sec_category"
+msgid "The additional product root category at eBay"
+msgstr "Categoria de rădăcină de produs suplimentar la eBay"
+
+msgctxt "Languages::ebay_second_category_tooltip"
+msgid "The additional product subcategory at eBay"
+msgstr "Subcategoria de produs suplimentar la eBay"
+
+msgctxt "Languages::ttc_shipping_type"
+msgid "Choose whether to use calculated or flat shipping type. Calculated - shipping will be calculated according to the customers ZIP address, the weight of the package, and the type of shipping services you offer; Flat - shipping rate will be fixed"
+msgstr "Alegeţi dacă utilizaţi tipul de transport calculate sau plat. Calculează - transportul va fi calculat în funcţie de adresa postala a clienţiilor, greutatea pachetului, şi tipul de servicii de curierat oferi; Plat - rata de transport vor fi stabilite"
+
+msgctxt "Languages::ttc_domestic_shipping_service"
+msgid "Choose the shipping service that will be used for delivering products in the domestic region"
+msgstr "Alege serviciul de livrare care va fi folosit pentru livrarea de produse în regiunea interne"
+
+msgctxt "Languages::ttc_international_shipping_service"
+msgid "Choose the shipping service that will be used for delivering products worldwide"
+msgstr "Alege serviciul de livrare care va fi folosit pentru livrarea de produse la nivel mondial"
+
+msgctxt "Languages::ttc_dispatch_days"
+msgid "The period of product delivery to a customer  (in days)"
+msgstr "Perioada de livrare a unui produs catre client (în zile)"
+
+msgctxt "Languages::ttc_ebay_payment_methods"
+msgid "Payment method(s), available for a template"
+msgstr "Metoda(ele) de plată, disponibile pentru un şablon"
+
+msgctxt "Languages::ttc_paypal_email"
+msgid "Define login of the PayPal account"
+msgstr "Setari login-contul PayPal"
+
+msgctxt "Languages::eBay_category_condition_tooltip"
+msgid "Define login of the PayPal account"
+msgstr "Setari login-contul PayPal"
+
+msgctxt "Languages::ttc_free_shipping"
+msgid "Choose, if you want free shipping to be applied to products in a template"
+msgstr "Alege, dacă doriţi transport gratuit aplicat produselor într-un şablon"
+
+msgctxt "Languages::ttc_shipping_cost"
+msgid "Fixed shipping fee for one item if the shipping type is Flat (the Shipping and handling setting on eBay)."
+msgstr "Pret transport fix pentru un singur articol, în cazul în care tipul de expediere este plat. Serviciile de transport şi manipulare setate la eBay( in contul de eBay)."
+
+msgctxt "Languages::ttc_shipping_cost_additional"
+msgid "Shipping fee for each additional item in the order (the Each additional item setting on eBay)"
+msgstr "Pret pentru fiecare element suplimentare de transport într-o comandă (fiecare element suplimentare setat din eBay)"
+
+msgctxt "Languages::shipping_cost_additional"
+msgid "Additional shipping fee"
+msgstr "Taxa de transport suplimentar"
+
+msgctxt "Languages::text_ult_ebay_template_store_field_tooltip"
+msgid "The storefront, for which a template will be created"
+msgstr "Magazinului, pentru care va fi creat un şablon"
+
+msgctxt "Languages::shipping_cost_cannot_be_null"
+msgid "Shipping cost must be non-zero"
+msgstr "Costul de expediere trebuie să fie non-zero"
+
+msgctxt "Languages::ebay_title"
+msgid "eBay product title"
+msgstr "titlul de produs eBay"
+
+msgctxt "Languages::ebay_title_tooltip"
+msgid "eBay title the title of the product to be used at eBay"
+msgstr "eBay titlul de produs pentru a fi utilizate la eBay"
+
+msgctxt "Languages::ebay_description"
+msgid "eBay product description"
+msgstr "Descriere de produs eBay"
+
+msgctxt "Languages::ebay_description_tooltip"
+msgid "eBay description the description of the product to be used at eBay"
+msgstr "eBay Descriere descriere a produsului pentru a fi utilizate la eBay"
+
+msgctxt "Languages::override"
+msgid "Redefinition of the product name and description on eBay"
+msgstr "Redefinire nume produs si descriere pe eBay"
+
+msgctxt "Languages::override_tooltip"
+msgid "Choose, if you want the original product name and description to be replaced with that, specified in the eBay product title and the eBay product description fields"
+msgstr "Alege, dacă doriţi numele şi descrierea produsului original va fi înlocuit cu acesta, specificate în titlul de produs eBay şi câmpurile descriere produs eBay"
+
+msgctxt "Languages::return_policy"
+msgid "Return Policy"
+msgstr "Politica de returnare"
+
+msgctxt "Languages::ttc_return_policy"
+msgid "Choose whether returns are allowed or not for products grouped under this template"
+msgstr "Alege dacă retururile sunt permise sau nu pentru produse grupate sub acest şablon"
+
+msgctxt "Languages::returns_accepted"
+msgid "Returns Accepted"
+msgstr "Returnări acceptate"
+
+msgctxt "Languages::no_returns_accepted"
+msgid "No returns accepted"
+msgstr "Returnările nu sunt acceptate"
+
+msgctxt "Languages::contact_time"
+msgid "After receiving the item, your buyer should contact you within"
+msgstr "După primirea articolului, cumpărătorul dumneavoastră ar trebui să contactaţi în termen de"
+
+msgctxt "Languages::ttc_contact_time"
+msgid "Choose the period within which a buyer must contact you to confirm that he/she received the product"
+msgstr "Alegeţi perioada în care un cumpărător trebuie să contacteze pentru a confirma că el/ea a primit produsul"
+
+msgctxt "Languages::refund_method"
+msgid "Refund will be given as"
+msgstr "Restituirea se va acorda ca"
+
+msgctxt "Languages::ttc_refund_method"
+msgid "Choose the action that will replace the return, if it is not allowed"
+msgstr "Alegeţi acţiunea care va înlocui întoarcerea, dacă nu este permis"
+
+msgctxt "Languages::money_back"
+msgid "Money Back"
+msgstr "Banii înapoi"
+
+msgctxt "Languages::money_back_or_replace"
+msgid "Money back or replacement (buyer's choice)"
+msgstr "Bani înapoi sau înlocuire (alegerea Cumparatorului)"
+
+msgctxt "Languages::money_back_or_exchange"
+msgid "Money back or exchange (buyer's choice)"
+msgstr "Bani înapoi sau schimb (alegerea Cumparatorului)"
+
+msgctxt "Languages::cost_paid_by"
+msgid "Return shipping will be paid by"
+msgstr "Livrare retur vor fi plătite de"
+
+msgctxt "Languages::ttc_cost_paid_by"
+msgid "Choose, who will pay for the shipping of the return purchase — the seller or the buyer"
+msgstr "Alege, cine va plăti pentru transportul de retur cumpărare - vânzătorul sau cumpărătorul"
+
+msgctxt "Languages::seller"
+msgid "Seller"
+msgstr "Vânzător"
+
+msgctxt "Languages::buyer"
+msgid "Buyer"
+msgstr "Cumpărător"
+
+msgctxt "Languages::return_policy_descr"
+msgid "Policy description"
+msgstr "Descriere politică"
+
+msgctxt "Languages::ttc_return_policy_descr"
+msgid "Write the detailed description of your return policy here"
+msgstr "Scrie descrierea detaliată a politicii de returnare aici"
+
+msgctxt "Languages::large_envelope"
+msgid "Large envelope"
+msgstr "Plic mare"
+
+msgctxt "Languages::large_package"
+msgid "Large package"
+msgstr "Pachet mare"
+
+msgctxt "Languages::package_type_tooltip"
+msgid "If you don't know your package type, select the \"Large package\" option. To ensure the most accurate cost, you will be asked to enter exact package dimensions."
+msgstr "Dacă nu ştiţi tipul de pachet, selectaţi opţiunea \"Pachet mare\". Pentru a asigura cele mai precise costul, vi se va cere să introduceţi dimensiunile exacte pachet."
+
+msgctxt "Languages::product_out_of_weight"
+msgid "Products with the [ids] id were not exported because their weight equals zero."
+msgstr "Produsele cu ID-ul [ids] nu erau exportate, deoarece greutatea lor este egală cu zero."
+
+msgctxt "Languages::exported_to_ebay"
+msgid "Exported to eBay"
+msgstr "Exportate de la eBay"
+
+msgctxt "Languages::revised_after_the_latest_export"
+msgid "Revised after the latest export"
+msgstr "Revizuit după ultimul export"
+
+msgctxt "Languages::exporting_images_to_ebay"
+msgid "Exporting product \"[product]\" images to eBay"
+msgstr "Exportul de imagini produs \"[produs]\" pe eBay"
+
+msgctxt "Languages::ebay_package"
+msgid "Package/thick envelope"
+msgstr "Pachet/grosime plic"
+
+msgctxt "Languages::ebay_cant_remove_template"
+msgid "You don't have permissions to remove some of the templates as they belong to another owner."
+msgstr "Nu aveţi permisiunea de a elimina o parte din template-uri, din care face parte un alt proprietar."
+
+msgctxt "Languages::ebay_commercial_using_title"
+msgid "Activate add-on"
+msgstr "Activază suplimente"
+
+msgctxt "Languages::ebay_templates_not_found"
+msgid "eBay templates not found"
+msgstr ""
+
+msgctxt "SettingsSections::ebay::general"
+msgid "General"
+msgstr "Implicit"
+
+msgctxt "SettingsOptions::ebay::notice"
+msgid "Notice"
+msgstr "Notificare"
+
+msgctxt "SettingsOptions::ebay::dev_id"
+msgid "eBay DevID"
+msgstr "eBay DevID"
+
+msgctxt "SettingsOptions::ebay::app_id"
+msgid "eBay AppID"
+msgstr "eBay AppID"
+
+msgctxt "SettingsOptions::ebay::cert_id"
+msgid "eBay CertID"
+msgstr "eBay CertID"
+
+msgctxt "SettingsOptions::ebay::token"
+msgid "eBay User Token"
+msgstr "eBay User Token"
+
+msgctxt "SettingsOptions::ebay::listing_mode"
+msgid "Sandbox / Production"
+msgstr "Sandbox / Production"
+
+msgctxt "SettingsOptions::ebay::site_id"
+msgid "Default site"
+msgstr "Site implicit"
+
+msgctxt "SettingsOptions::ebay::ebay_timestamp"
+msgid "eBay timestamp"
+msgstr "eBay timestamp"
+
+msgctxt "SettingsVariants::ebay::listing_mode::S"
+msgid "Sandbox"
+msgstr "Sandbox"
+
+msgctxt "SettingsVariants::ebay::listing_mode::P"
+msgid "Production"
+msgstr "Producţie"
+
+msgctxt "Languages::wait_for_shippings_cached"
+msgid "Please wait, shipping information is loaded."
+msgstr "Vă rugăm să aşteptaţi, informaţiile de transport sunt încărcate."
+
+msgctxt "Languages::privileges.view_ebay_templates"
+msgid "View eBay templates"
+msgstr "Vezi  şabloane eBay"
+
+msgctxt "Languages::privileges.manage_ebay_templates"
+msgid "Manage eBay templates"
+msgstr "Gestionază şabloane eBay"
+
+msgctxt "Languages::ebay_price"
+msgid "eBay product price"
+msgstr ""
+
+msgctxt "Languages::override_price"
+msgid "Redefine price on eBay"
+msgstr ""
+
+msgctxt "Languages::ebay_product_status"
+msgid "eBay product status"
+msgstr ""
+
+msgctxt "Languages::ebay_product_status_not_exported"
+msgid "Not exported"
+msgstr ""
+
+msgctxt "Languages::ebay_product_status_active"
+msgid "Active"
+msgstr ""
+
+msgctxt "Languages::ebay_product_status_closed"
+msgid "Ended"
+msgstr ""
+
+msgctxt "Languages::ebay_success_exported_product_notice"
+msgid "Product was successfully exported to eBay"
+msgstr ""
+
+msgctxt "Languages::ebay_success_close_product_notice"
+msgid "Product successfully ended on eBay"
+msgstr ""
+
+msgctxt "Languages::ebay_export_failed"
+msgid "Product export failed"
+msgstr ""
+
+msgctxt "Languages::ebay_export_success"
+msgid "Product export successful"
+msgstr ""
+
+msgctxt "Languages::ebay_export_failed_msg"
+msgid "Some of the products have not been exported to eBay.<br> Check the logs to see what products weren't exported and the reason why it happened."
+msgstr ""
+
+msgctxt "Languages::ebay_export_success_msg"
+msgid "All the selected products have been exported to eBay without errors."
+msgstr ""
+
+msgctxt "Languages::ebay_end_summary_title"
+msgid "Product ending summary"
+msgstr ""
+
+msgctxt "Languages::ebay_export_product"
+msgid "Exporting product \"[product]\" to eBay"
+msgstr ""
+
+msgctxt "Languages::ebay_export_products"
+msgid "Exporting products \"[product]\" to eBay"
+msgstr ""
+
+msgctxt "Languages::ebay_override"
+msgid "Redefinition of the product name and description on eBay"
+msgstr ""
+
+msgctxt "Languages::ebay_end_products"
+msgid "Ending products \"[product]\" on eBay"
+msgstr ""
+
+msgctxt "Languages::ebay_count_product_successfully_exported"
+msgid "Products successfully exported:"
+msgstr ""
+
+msgctxt "Languages::ebay_count_product_fail_exported"
+msgid "Products export failed:"
+msgstr ""
+
+msgctxt "Languages::ebay_count_product_successfully_ended"
+msgid "Successfully ended products:"
+msgstr ""
+
+msgctxt "Languages::ebay_count_product_fail_ended"
+msgid "Products ending failed:"
+msgstr ""
+
+msgctxt "Languages::ebay_end_products_on_ebay"
+msgid "End eBay sales"
+msgstr ""
+
+msgctxt "Languages::products_assigned"
+msgid "Products assigned"
+msgstr ""
+
+msgctxt "Languages::ttc_products_assigned"
+msgid "You can also apply an eBay template to multiple products at once. Go to Products → Products, tick the checkboxes of the products you want to apply a template to, then press the gear button and choose Edit selected. In the pop-up window leave only the eBay Templates checkbox ticked and click Modify selected."
+msgstr ""
+
+msgctxt "Languages::ebay_template_category_product"
+msgid "Use eBay template's category"
+msgstr ""
+
+msgctxt "Languages::ebay_set_manualy"
+msgid "Assign a different eBay category"
+msgstr ""
+
+msgctxt "Languages::ebay_end_template_on_ebay"
+msgid "End eBay sales"
+msgstr ""
+
+msgctxt "Languages::ebay_action_export_product"
+msgid "Export product"
+msgstr ""
+
+msgctxt "Languages::ebay_action_update_product"
+msgid "Update product"
+msgstr ""
+
+msgctxt "Languages::ebay_action_upload_image_product"
+msgid "Upload the product image"
+msgstr ""
+
+msgctxt "Languages::ebay_action_get_status_product"
+msgid "Get product status"
+msgstr ""
+
+msgctxt "Languages::ebay_action_end_product"
+msgid "Ending sale on eBay"
+msgstr ""
+
+msgctxt "Languages::ebay_show_logs"
+msgid "Show logs"
+msgstr ""
+
+msgctxt "Languages::ebay_international_shipping_cost"
+msgid "International shipping fee"
+msgstr ""
+
+msgctxt "Languages::ebay_international_shipping_cost_tooltip"
+msgid "Fixed shipping fee for one item if the shipping type is Flat (the Shipping and handling setting on eBay)."
+msgstr ""
+
+msgctxt "Languages::ebay_international_shipping_cost_additional_tooltip"
+msgid "International shipping fee for each additional item in the order (the Each additional item setting on eBay)"
+msgstr ""
+
+msgctxt "Languages::ebay_international_shipping_cost_additional"
+msgid "Additional international shipping fee"
+msgstr ""
+
+msgctxt "Languages::ebay_logs"
+msgid "eBay logs"
+msgstr ""
+
+msgctxt "Languages::ebay_products"
+msgid "eBay products"
+msgstr ""
+
+msgctxt "Languages::ebay_sync_products_status"
+msgid "Get product status from eBay"
+msgstr ""
+
+msgctxt "Languages::ebay_get_product_status"
+msgid "Getting product \"[product]\" status from eBay"
+msgstr ""
+
+msgctxt "Languages::ebay_update_status_summary_title"
+msgid "Summary: Product status retrieval from eBay"
+msgstr ""
+
+msgctxt "Languages::ebay_count_product_successfully_status_updated"
+msgid "Products with updated statuses:"
+msgstr ""
+
+msgctxt "Languages::ebay_count_product_fail_status_updated"
+msgid "Products with status update errors:"
+msgstr ""
+
+msgctxt "Languages::ebay_count_product_skip"
+msgid "Products skipped:"
+msgstr ""
+
+msgctxt "Languages::ebay_product_not_exported"
+msgid "Product \"[product]\" was not exported on eBay"
+msgstr ""
+
+msgctxt "Languages::ebay_product_already_sales_closed"
+msgid "Sales of product \"[product]\" were already completed on eBay"
+msgstr ""
+
+msgctxt "Languages::ebay_failed_request"
+msgid "Failed request to [url]. Http status code: [code]"
+msgstr ""
+
+msgctxt "Languages::ebay_package_type"
+msgid "eBay package type"
+msgstr ""
+
+msgctxt "Languages::ebay_category"
+msgid "eBay Category"
+msgstr "Categorie eBay"
+
+msgctxt "Languages::ebay_region"
+msgid "eBay region"
+msgstr ""
+
+msgctxt "Languages::ebay_synchronization_title"
+msgid "Synchronizing eBay data"
+msgstr ""
+
+msgctxt "Languages::ebay_synchronization_regions"
+msgid "Synchronizing eBay regions"
+msgstr ""
+
+msgctxt "Languages::ebay_synchronization_categories"
+msgid "Synchronizing eBay categories (it may take around 3 minutes)"
+msgstr ""
+
+msgctxt "Languages::ebay_synchronization_shipping_services"
+msgid "Synchronizing eBay shipping services"
+msgstr ""
+
+msgctxt "Languages::ebay_synchronization_category_features"
+msgid "Synchronizing eBay category features"
+msgstr ""
+
+msgctxt "Languages::ebay_changed_region_message"
+msgid "After you change eBay region, please check other settings.<br>If your template's Shipping type is set to Calculated, change your primary currency (Administration → Currencies), company address (Settings → Company) and weight measurement units (Settings → General) accordingly.<br>If your template's Shipping type is set to Flat, change your primary currency (Administration → Currencies)."
+msgstr ""
+
+msgctxt "Languages::ebay_upgrade_notification_need_sync_title"
+msgid "eBay Synchronization add-on has been updated"
+msgstr ""
+
+msgctxt "Languages::ebay_upgrade_notification_need_sync_text_for_active"
+msgid "Retrieve the statuses of your products from eBay before you continue to use the eBay Synchronization add-on.<br>Go to Marketing → eBay → eBay templates, hover over a template, click the gear button, and select Get product status from eBay.<br>Do this for all your eBay templates."
+msgstr ""
+
+msgctxt "Languages::ebay_upgrade_notification_need_sync_text_for_disable"
+msgid "You used and disabled eBay Synchronization add-on. If you decide to use the add-on again, complete the following steps:<br><ul><li>Go to Add-ons → Manage add-ons</li><li>Find eBay synchronization add-on and set its status to active</li><li>Go to Marketing → eBay → eBay templates, hover over a template, click the gear button, and select Get product status from eBay</li><li>Repeat the previous step for all your eBay templates</li></ul>"
+msgstr ""
+
+msgctxt "Languages::export_products_to_ebay"
+msgid "Export/Revise products on eBay"
+msgstr ""
+
+msgctxt "Languages::ebay_product_identifier_upc"
+msgid "UPC"
+msgstr ""
+
+msgctxt "Languages::ebay_product_identifier_ean"
+msgid "EAN"
+msgstr ""
+
+msgctxt "Languages::ebay_product_identifier_isbn"
+msgid "ISBN"
+msgstr ""
+
+msgctxt "Languages::ebay_product_identifier_mpn"
+msgid "MPN"
+msgstr ""
+
+msgctxt "Languages::ebay_product_identifier_brand"
+msgid "Brand"
+msgstr ""
+
+msgctxt "Languages::ebay_product_identifiers"
+msgid "Product identifiers"
+msgstr ""
+
+msgctxt "Languages::ebay_product"
+msgid "Product"
+msgstr ""
+
+msgctxt "Languages::ebay_product_variation"
+msgid "Option combination"
+msgstr ""
+
+msgctxt "Languages::ebay_none"
+msgid "None"
+msgstr ""
+
+msgctxt "Languages::ebay_does_not_apply"
+msgid "Does not apply"
+msgstr ""
+
+msgctxt "Languages::ebay_product_code"
+msgid "Product code"
+msgstr ""
+
+msgctxt "Languages::ebay_product_feature"
+msgid "Product feature"
+msgstr ""
+
+msgctxt "Languages::ebay_combination_code"
+msgid "Combination code"
+msgstr ""
+
+msgctxt "Languages::ebay_synchronization_region_details"
+msgid "Synchronizing eBay region details"
+msgstr ""
+
+msgctxt "Languages::ebay_feature_group_product_identifiers"
+msgid "eBay product identifiers"
+msgstr ""
+

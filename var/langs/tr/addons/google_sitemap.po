@@ -1,0 +1,174 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /addons/google_sitemap.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::google_sitemap"
+msgid "Google sitemap"
+msgstr "Google Site Haritası"
+
+msgctxt "Addons::description::google_sitemap"
+msgid "Creates a sitemap.xml for Google"
+msgstr "Google için bir sitemap.xml oluşturur"
+
+msgctxt "Languages::google_sitemap.text_regenerate"
+msgid "If products, categories, etc. were added or changed, please <a class=\"cm-ajax cm-comet btn btn-primary\" href=\"[regenerate_url]\">Regenerate a sitemap</a><br /><br /> [sitemap_available_in_customer]"
+msgstr "Eğer ürünler, kategoriler, vs eklenmiş veya değiştirilmişse, lütfen <a class=\"cm-ajax cm-comet btn btn-primary\" href=\"[regenerate_url]\">Bir site haritası oluşturun</a><br /><br /> [sitemap_available_in_customer]"
+
+msgctxt "Languages::google_sitemap.text_select_storefront"
+msgid "To generate a sitemap, please select storefront first."
+msgstr "Bir site haritası oluşturmak için, lütfen öncelikle vitrin seçin."
+
+msgctxt "Languages::sitemap_available_in_customer"
+msgid "Sitemap is available by this link: <a href=\"[sitemap_url]\">[sitemap_url]</a><br /><br />Sitemap can be reached by the URL <a href=\"[http_location]/sitemap.xml\">[http_location]/sitemap.xml</a>"
+msgstr "Site haritası bu linkte bulunmaktadır: <a href=\"[sitemap_url]\">[sitemap_url]</a><br /><br />Site haritasına şu URL'den ulaşılabilir<a href=\"[http_location]/sitemap.xml\">[http_location]/sitemap.xml</a>"
+
+msgctxt "Languages::always"
+msgid "Always"
+msgstr "Her zaman"
+
+msgctxt "Languages::hourly"
+msgid "Hourly"
+msgstr "Saatlik"
+
+msgctxt "Languages::daily"
+msgid "Daily"
+msgstr "Günlük"
+
+msgctxt "Languages::weekly"
+msgid "Weekly"
+msgstr "Haftalık"
+
+msgctxt "Languages::monthly"
+msgid "Monthly"
+msgstr "Aylık"
+
+msgctxt "Languages::yearly"
+msgid "Yearly"
+msgstr "Yıllık"
+
+msgctxt "Languages::never"
+msgid "Never"
+msgstr "Hiçbir zaman"
+
+msgctxt "Languages::google_sitemap.generate_map"
+msgid "The sitemap is not generated yet. Please go to add-on settings and press \"Regenerate a sitemap\" button"
+msgstr "Site haritası henüz oluşturulmadı. Lütfen eklenti ayarlarına gidin ve \"Bir site haritası oluştur\" butonuna tıklayın"
+
+msgctxt "Languages::google_sitemap.map_generated"
+msgid "The sitemap was generated successfully"
+msgstr "Site haritası başarıyla oluşturuldu"
+
+msgctxt "SettingsSections::google_sitemap::general"
+msgid "General"
+msgstr "Genel"
+
+msgctxt "SettingsOptions::google_sitemap::information"
+msgid "Information"
+msgstr "Bilgi"
+
+msgctxt "SettingsOptions::google_sitemap::clear_url"
+msgid "Clear cache"
+msgstr "Önbelleği temizle"
+
+msgctxt "SettingsOptions::google_sitemap::site_setting"
+msgid "Homepage settings"
+msgstr "Ana Sayfa ayarları"
+
+msgctxt "SettingsOptions::google_sitemap::site_change"
+msgid "Update frequency"
+msgstr "Güncelleştirme sıklığı"
+
+msgctxt "SettingsOptions::google_sitemap::site_priority"
+msgid "Priority"
+msgstr "Öncelik"
+
+msgctxt "SettingsOptions::google_sitemap::products_setting"
+msgid "Products settings"
+msgstr "Ürün ayarları"
+
+msgctxt "SettingsOptions::google_sitemap::include_products"
+msgid "Include in sitemap"
+msgstr "Site Haritasına ekleyin"
+
+msgctxt "SettingsOptions::google_sitemap::products_change"
+msgid "Update frequency"
+msgstr "GÜncelleştirme sıklığı"
+
+msgctxt "SettingsOptions::google_sitemap::products_priority"
+msgid "Priority"
+msgstr "Öncelik"
+
+msgctxt "SettingsOptions::google_sitemap::categories_setting"
+msgid "Categories settings"
+msgstr "Kategoriler ayarları"
+
+msgctxt "SettingsOptions::google_sitemap::include_categories"
+msgid "Include in sitemap"
+msgstr "Site Haritasına ekleyin"
+
+msgctxt "SettingsOptions::google_sitemap::categories_change"
+msgid "Update frequency"
+msgstr "Güncelleştirme sıklığı"
+
+msgctxt "SettingsOptions::google_sitemap::categories_priority"
+msgid "Priority"
+msgstr "Öncelik"
+
+msgctxt "SettingsOptions::google_sitemap::pages_setting"
+msgid "Pages settings"
+msgstr "Sayfa ayarları"
+
+msgctxt "SettingsOptions::google_sitemap::include_pages"
+msgid "Include in sitemap"
+msgstr "Site Haritasına ekleyin"
+
+msgctxt "SettingsOptions::google_sitemap::pages_change"
+msgid "Update frequency"
+msgstr "Güncelleştirme sıklığı"
+
+msgctxt "SettingsOptions::google_sitemap::pages_priority"
+msgid "Priority"
+msgstr "Öncelik"
+
+msgctxt "SettingsOptions::google_sitemap::extended_setting"
+msgid "Brand/Manufacturer feature pages settings"
+msgstr "Marka/Üretici özellikler sayfası ayarları"
+
+msgctxt "SettingsOptions::google_sitemap::include_extended"
+msgid "Include in sitemap"
+msgstr "Site Haritasına ekleyin"
+
+msgctxt "SettingsOptions::google_sitemap::extended_change"
+msgid "Update frequency"
+msgstr "Güncelleştirme sıklığı"
+
+msgctxt "SettingsOptions::google_sitemap::extended_priority"
+msgid "Priority"
+msgstr "Öncelik"
+
+msgctxt "SettingsOptions::google_sitemap::companies_setting"
+msgid "Companies settings"
+msgstr "Şirket ayarları"
+
+msgctxt "SettingsOptions::google_sitemap::include_companies"
+msgid "Include in sitemap"
+msgstr "Site Haritasına ekleyin"
+
+msgctxt "SettingsOptions::google_sitemap::companies_change"
+msgid "Update frequency"
+msgstr "Güncelleştirme sıklığı"
+
+msgctxt "SettingsOptions::google_sitemap::companies_priority"
+msgid "Priority"
+msgstr "Öncelik"
+

@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /addons/blog.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:03-0500\n"
+
+msgctxt "Addons::name::blog"
+msgid "Blog"
+msgstr "Blog"
+
+msgctxt "Addons::description::blog"
+msgid "Lets you start your blog easily"
+msgstr "Vous permet de démarrer votre blog facilement"
+
+msgctxt "Languages::blog_menu_description"
+msgid "Manage your blog posts."
+msgstr "Gérer les articles de votre blog."
+
+msgctxt "Languages::blog.new_post"
+msgid "New blog post"
+msgstr "Nouvel article de blog"
+
+msgctxt "Languages::blog.editing_post"
+msgid "Editing blog post"
+msgstr "Modifier un article du blog"
+
+msgctxt "Languages::blog"
+msgid "Blog"
+msgstr "Blog"
+
+msgctxt "Languages::blog.add_post"
+msgid "Add blog post"
+msgstr "Nouvel article de blog"
+
+msgctxt "Languages::blog.recent_posts"
+msgid "Blog: recent posts"
+msgstr "Blog : articles récents"
+
+msgctxt "Languages::blog.recent_posts_scroller"
+msgid "Blog: recent posts scroller"
+msgstr "Blog: navigateur d'articles récents"
+
+msgctxt "Languages::blog.view_post"
+msgid "View post"
+msgstr "Voir l'article"
+
+msgctxt "Languages::recent_blog_posts"
+msgid "Recent blog posts"
+msgstr "Derniers articles du blog"
+
+msgctxt "Languages::blog.posts"
+msgid "Posts"
+msgstr "Articles"
+
+msgctxt "Languages::blog.post"
+msgid "Post"
+msgstr "Article"
+
+msgctxt "Languages::block_blog"
+msgid "Recent posts"
+msgstr "Derniers articles du blog"
+
+msgctxt "Languages::blog.text_links"
+msgid "Blog: text links"
+msgstr "Blog : liens textes"
+
+msgctxt "Languages::blog.read_more"
+msgid "Read more"
+msgstr "Lire la suite"
+
+msgctxt "Languages::post_description"
+msgid "Post description"
+msgstr "Description de l'article"
+
+msgctxt "Languages::ttc_post_description"
+msgid "Use the &lt;!--CUT--&gt; tag (switch to source code to insert it) to hide part of the post. Only the part above the tag is shown in the list of all posts.<br /><br />Make sure to <strong>close all HTML tags</strong> above the &lt;!--CUT--&gt; tag!"
+msgstr "Utilisation du &lt;!--coupe--&gt; balise (commutateur de code source à insérer) pour cacher une partie du post. Seule la partie au-dessus de la balise est affichée dans la liste de tous les postes. < br / > < br / > Assurez-vous de <strong>Fermer toutes les balises HTML</strong> ci-dessus le &lt;!--coupe--&gt; balise !"
+
+msgctxt "Languages::blog_functionality_notes"
+msgid "<p>Use this page to manage your blog. This is how you should organize your blog posts:</p><ul><li>Blog is a usual post that has the <b>Root level page</b> as the Parent page.</li><li>Choose <b>Blog</b> as the Parent page for your blog posts.</li></ul>"
+msgstr "<p>Utilisez cette page pour gérer votre blog. C’est comment vous devriez organiser vos messages de blog :</p> <ul><li>Blog est un poste habituel qui a la <b>page de niveau racine</b>, comme la page parente.</li> <li>Choisir <b>Blog</b> comme la page parente pour vos messages blog.</li></ul>"
+

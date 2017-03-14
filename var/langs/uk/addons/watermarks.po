@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /addons/watermarks.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::watermarks"
+msgid "Watermarks"
+msgstr "Водяні знаки"
+
+msgctxt "Addons::description::watermarks"
+msgid "Allows you to add watermarks to product and category images"
+msgstr "Дозволяє додавати водяні знаки на зображення товарів та категорій"
+
+msgctxt "Languages::wt_watermarks"
+msgid "Watermarks"
+msgstr "Водяні знаки"
+
+msgctxt "Languages::wt_graphic_watermark"
+msgid "Graphic watermark"
+msgstr "Графічний знак"
+
+msgctxt "Languages::wt_text_watermark"
+msgid "Text watermark"
+msgstr "Текстовий знак"
+
+msgctxt "Languages::wt_watermark_vertical_position"
+msgid "Watermark vertical position"
+msgstr "Позиція по вертикалі"
+
+msgctxt "Languages::wt_watermark_horizontal_position"
+msgid "Watermark horizontal position"
+msgstr "Позиція по горизонталі"
+
+msgctxt "Languages::wt_watermark_position"
+msgid "Watermark position"
+msgstr "Позиція водяного знаку"
+
+msgctxt "Languages::wt_watermark_image"
+msgid "Watermark image"
+msgstr "Зображення водяного знаку"
+
+msgctxt "Languages::wt_watermark_text"
+msgid "Watermark text"
+msgstr "Текст на водяному знаку"
+
+msgctxt "Languages::wt_font"
+msgid "Font"
+msgstr "Шрифт"
+
+msgctxt "Languages::wt_font_color"
+msgid "Font color"
+msgstr "Колір шрифту"
+
+msgctxt "Languages::wt_font_size_icon"
+msgid "Font size (thumbnail)"
+msgstr "Розмір шрифту (мініатюра)"
+
+msgctxt "Languages::wt_font_size_detailed"
+msgid "Font size (larger image)"
+msgstr "Розмір шрифту (велике зображення)"
+
+msgctxt "Languages::wt_watermark_icon"
+msgid "Thumbnail watermark"
+msgstr "Мініатюра водяного знаку"
+
+msgctxt "Languages::wt_watermark_detailed"
+msgid "Popup larger image watermark"
+msgstr "Водяний знак для детального зображення"
+
+msgctxt "Languages::wt_fail_apply_graphic_watermark"
+msgid "Failed to apply the watermark to [image_type]. The watermark image is not added."
+msgstr "Не вдалось застосувати водяний знак до [image_type]. Зображення водяного знаку не додано."
+
+msgctxt "Languages::wt_icons"
+msgid "thumbnails"
+msgstr "мініатюри"
+
+msgctxt "Languages::wt_detailed"
+msgid "popup larger images"
+msgstr "детальні зображення"
+
+msgctxt "Languages::wt_images_access_description"
+msgid "To deny access to your original images, please add the following instructions to the '.htaccess' file in the 'images' directory of your installation. It will protect your original images. Even if an original image is opened, the corresponding watermarked image will be show instead."
+msgstr "Щоб закрити доступ до своїх вихідних зображень, будь ласка, додайте наступній код у файл .htaccess в директорії images у вашій установці. Це захистить ваші вихідні зображення. Навіть якщо відкрито вихідне зображення, відповідне зображення з водяним знаком буде відображатися замість нього."
+
+msgctxt "Languages::wt_watermarks_access_description"
+msgid "To generate watermarked images automatically even if they are requested not from your store pages, please add the '.htaccess' file with the following instructions to the 'images/watermarked' directory of your installation."
+msgstr "Для того, щоб автоматично генерувати зображення з водяними знаками, навіть якщо вони не запитуються зі сторінок магазину, додайте файл .htaccess з наступним вмістом в директорію images/watermarked в своїй установці."
+
+msgctxt "Languages::wt_access_note"
+msgid "Please note, if you disable or uninstall the 'Watermarks' add-on, you should remove these instructions from '.htaccess' files manually. Otherwise category and product images will be unavailable."
+msgstr "Будь ласка, врахуйте, що при відключенні модуля «Водяні знаки» слід вручну видалити ці рядки з файлу .htaccess. В іншому випадку зображення товарів і категорій будуть недоступні."
+
+msgctxt "Languages::wt_access_warning"
+msgid "Watermark creating is disabled. If there are any \"Rewrite watermarks rules\" instructions in the \"images/.htaccess\" file, you should remove them manually. Otherwise category and product images will be unavailable."
+msgstr "Створення водяних знаків відключено. Якщо у файлі images/.htaccess прописані правила для створення водяних знаків, видаліть їх вручну. В іншому випадку зображення товарів і категорій будуть недоступні."
+
+msgctxt "Languages::wt_images_access_info"
+msgid "Images access"
+msgstr "Доступ до зображень"
+
+msgctxt "SettingsSections::watermarks::general"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "SettingsOptions::watermarks::watermark"
+msgid "Watermark"
+msgstr "Водяний знак"
+
+msgctxt "SettingsOptions::watermarks::apply_to_product"
+msgid "Product watermarks"
+msgstr "Водяні знаки товарів"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_icons"
+msgid "Resized images"
+msgstr "Зображення зі зміненими розмірами"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_detailed"
+msgid "Original size images"
+msgstr "Оригінальний розмір зображення"
+
+msgctxt "SettingsOptions::watermarks::apply_to_categories"
+msgid "Category watermarks"
+msgstr "Водяні знаки категорій"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_icons"
+msgid "Resized images"
+msgstr "Зображення зі зміненими розмірами"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_detailed"
+msgid "Original size images"
+msgstr "Оригінальний розмір зображення"
+
+msgctxt "SettingsOptions::watermarks::images_access_info"
+msgid "Images access"
+msgstr "Доступ до зображень"
+

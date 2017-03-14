@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>form_builder</id>
+    <version>1.0</version>
+    <priority>2400</priority>
+    <position>0</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <queries>
+        <item for="demo" type="file">database/demo.sql</item>
+        <item for="demo" type="file" editions="ULTIMATE">database/demo_ultimate.sql</item>
+        <item for="demo" type="file" table="form_descriptions" lang="en">database/demo_en.sql</item>
+        <item for="demo" type="file" table="page_descriptions" lang="en">database/demo_pages_en.sql</item>
+        <item for="demo" type="file" table="form_descriptions" lang="ru">database/demo_ru.sql</item>
+        <item for="demo" type="file" table="page_descriptions" lang="ru">database/demo_pages_ru.sql</item>
+        <item>DROP TABLE IF EXISTS ?:form_descriptions;</item>
+        <item>DROP TABLE IF EXISTS ?:form_options;</item>
+        <item>
+            CREATE TABLE `?:form_descriptions` (
+                `object_id` mediumint(8) unsigned NOT NULL default '0',
+                `description` text,
+                `lang_code` char(2) NOT NULL default '',
+                PRIMARY KEY  (`object_id`,`lang_code`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:form_options` (
+                `element_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `page_id` mediumint(8) unsigned NOT NULL default '0',
+                `parent_id` mediumint(8) unsigned NOT NULL default '0',
+                `element_type` char(1) NOT NULL default 'I',
+                `value` varchar(255) NOT NULL default '',
+                `position` smallint(5) unsigned NOT NULL default '0',
+                `required` char(1) NOT NULL default 'N',
+                `status` char(1) NOT NULL default 'A',
+                PRIMARY KEY  (`element_id`),  KEY `page_id` (`page_id`,`status`),  KEY `position` (`position`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+
+        <item for="uninstall">DROP TABLE IF EXISTS ?:form_descriptions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:form_options;</item>
+    </queries>
+    <functions>
+        <item for="uninstall">fn_form_builder_remove_pages</item>
+        <item for="demo">fn_form_builder_demo_install</item>
+    </functions>
+    <email_templates>
+        <templates>
+            <item>
+                <code><![CDATA[form_builder_form]]></code>
+                <area><![CDATA[A]]></area>
+                <status><![CDATA[A]]></status>
+                <default_subject><![CDATA[{{ form_title }}]]></default_subject>
+                <default_template><![CDATA[{{ snippet("header") }}
+
+  <table>
+{% for element_id, element in elements %}
+{% if element.element_type == constant("FORM_SEPARATOR") %}
+<tr>
+    <td colspan="2"><hr width="100%" /></td>
+</tr>
+{% elseif element.element_type == constant("FORM_HEADER") %}
+<tr>
+    <td colspan="2"><b>{{ element.description }}</b></td>
+</tr>
+{% elseif element.element_type != constant("FORM_FILE") %}
+<tr>
+    <td>{{ element.description }}:&nbsp;</td>
+    <td>
+        {% set value=form_values[element_id] %}
+
+        {% if element.element_type == constant("FORM_SELECT") or element.element_type == constant("FORM_RADIO") %}
+            {{ element.variants[value].description }}
+        {% elseif element.element_type == constant("FORM_CHECKBOX") %}
+            {% if value == 'Y' %}{{ __("yes") }}{% else %}{{ __("no") }}{% endif %}
+        {% elseif element.element_type == constant("FORM_TEXTAREA") %}
+            {{ value|nl2br }}
+        {% elseif element.element_type == constant("FORM_DATE") %}
+            {{ value|date(settings.Appearance.date_format) }}
+        {% else %}
+            {{ value }}
+        {% endif %}
+    </td>
+</tr>
+{% endif %}
+{% endfor %}
+</table>
+
+{{ snippet("footer") }}]]></default_template>
+                <addon><![CDATA[form_builder]]></addon>
+            </item>
+        </templates>
+    </email_templates>
+</addon>

@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Georgian\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ka\n"
+"X-Crowdin-File: /addons/call_requests.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:46-0500\n"
+
+msgctxt "Addons::name::call_requests"
+msgid "Call requests"
+msgstr "უკუკავშირი ტელეფონით"
+
+msgctxt "Addons::description::call_requests"
+msgid "Adds a call-requests system"
+msgstr "ზარით შეკვეთების მიღების სისტემის დამატება"
+
+msgctxt "SettingsSections::call_requests::general"
+msgid "General"
+msgstr "ზოგადი"
+
+msgctxt "SettingsOptions::call_requests::general"
+msgid "General"
+msgstr "ზოგადი"
+
+msgctxt "SettingsOptions::call_requests::phone"
+msgid "Rewrite phone"
+msgstr "სხვა ტელეფონის ასახვა"
+
+msgctxt "SettingsOptions::call_requests::phone_prefix_length"
+msgid "Highlight first chars"
+msgstr "პირველი სიმბოლოების გამუქება"
+
+msgctxt "SettingsOptions::call_requests::buy_now_with_one_click"
+msgid "Enable the \"Buy now with one click\" option"
+msgstr "\"შეძენა ერთი წკაპით\" ოფციის ჩართვა"
+
+msgctxt "SettingsOptions::call_requests::order_status"
+msgid "Order status"
+msgstr "შეკვეთის სტატუსი"
+
+msgctxt "SettingsOptions::call_requests::phone_mask"
+msgid "Phone mask"
+msgstr "ტელეფონის ნომერის ფორმატი"
+
+msgctxt "SettingsTooltips::call_requests::phone_mask"
+msgid "Leave empty to use automatic country-based phone pattern, or type in a custom pattern. You can use spaces, commas, +, -, and digits. Note that 9 represents any digit; if you need a 9, type \\\\9. Examples: +9 (999) 999 99 99, 99999999, 999 999 99 or +99-99-9999-9999."
+msgstr "დატოვეთ ცარიელი ქვეყნის თარგის ავტომატურად აირჩევისათვის. საკუთარ თარგში, შეგიძლიათ გამოიყენოთ ფართები, მძიმეები, +, - და ციფრები. 9 აღნიშნავს ნებისმიერ ციფრს. გამოიყენეთ \\ 9 ცხრისთვის. მაგალითები: 9 (999) 999 99 99 99999999, 99 999 999 ან + 99-99-9999-9999."
+
+msgctxt "SettingsTooltips::call_requests::phone_prefix_length"
+msgid "Including parenthesis, spaces, etc. Use to highlight country code, area code, and phone prefix."
+msgstr "მათ შორის ფრჩხილები, ფართები და სხვა სიმბოლოები. გამოიყენება ქვეყნის კოდის და ქალაქის კოდის ან მობილური ოპერატორის კოდის გამოსაჩენლად."
+
+msgctxt "Languages::privileges.manage_call_requests"
+msgid "Manage Call requests"
+msgstr "უკუკავშირის ზარების მართვა"
+
+msgctxt "Languages::privileges.view_call_requests"
+msgid "View Call requests"
+msgstr "უკუკავშირით განხორციელებული ზარების ნახვა"
+
+msgctxt "Languages::call_requests"
+msgid "Call requests"
+msgstr "უკუკავშირი ტელეფონით"
+
+msgctxt "Languages::call_requests_menu_description"
+msgid "Manage customer call requests"
+msgstr "მომხარებლის უკუკავშირის ზარის მოთხოვნების მართვა"
+
+msgctxt "Languages::call_requests.request_call"
+msgid "Request call"
+msgstr "უკუკავშირის მოთხოვნა"
+
+msgctxt "Languages::call_requests.buy_now_with_one_click"
+msgid "Buy now with 1-click"
+msgstr "შეძენა 1 წკაპის დაჭერით"
+
+msgctxt "Languages::call_requests.error_validate_call_form"
+msgid "Please enter your email or phone number"
+msgstr "გთხოვთ, შეიყვანოთ თქვენი ელ.ფოსტა ან ტელეფონის ნომერი"
+
+msgctxt "Languages::call_requests.request_recieved"
+msgid "We have received your request! Our manager will contact you soon."
+msgstr "თქვენი მოთხოვნა მიღებულია! ჩვენი მენეჯერი დაგიკავშირდებათ მალე."
+
+msgctxt "Languages::call_requests.order_placed"
+msgid "We have received your request! The order #[order_id] has been successfully created. Our manager will contact you soon."
+msgstr "თქვენი მოთხოვნა მიღებულია! შეკვეთა #[order_id] წარმატებით შეიქმნა.  ჩვენი მენეჯერი შეძლებისდაგავრად სწრაფად დაგიკავშირდებათ."
+
+msgctxt "Languages::call_requests.phone_from_settings"
+msgid "Phone from settings"
+msgstr "ტელეფონი პარამეტრებიდან"
+
+msgctxt "Languages::call_requests.enter_phone_or_email_text"
+msgid "Please enter your phone number or email (for our manager to contact you)"
+msgstr "გთხოვთ შეიყვანოთ თქვენი ელ-ფოსტა ან ტელეფონის ნომერი (რათა ჩვენმა მენეჯერმა შეძლოს თქვენთან დაკავშირება)"
+
+msgctxt "Languages::call_requests.status.new"
+msgid "New"
+msgstr "ახალი"
+
+msgctxt "Languages::call_requests.status.in_progress"
+msgid "In progress"
+msgstr "პროცესში"
+
+msgctxt "Languages::call_requests.status.completed"
+msgid "Completed"
+msgstr "დასრულებული"
+
+msgctxt "Languages::call_requests.status.no_answer"
+msgid "No answer"
+msgstr "უპასუხო"
+
+msgctxt "Languages::call_requests.responsible"
+msgid "Responsible"
+msgstr "პასუხისმგებელი"
+
+msgctxt "Languages::call_requests.notes"
+msgid "Notes"
+msgstr "შენიშვნები"
+
+msgctxt "Languages::call_requests.requested_product"
+msgid "Requested product"
+msgstr "მოთხოვნილი პროდუქტი"
+
+msgctxt "Languages::call_requests.convenient_time"
+msgid "Convenient time"
+msgstr ""
+
+msgctxt "Languages::call_requests.awaiting_call"
+msgid "Awaiting call"
+msgstr "ზარის მოლოდინში"
+
+msgctxt "Languages::call_requests.order_exists"
+msgid "Order exists"
+msgstr "არსებული შეკვეთა"
+
+msgctxt "Languages::call_requests.person_name_and_phone"
+msgid "Name and phone"
+msgstr "სახელი და ტელეფონი"
+
+msgctxt "Languages::call_requests.no_name_specified"
+msgid "No name specified"
+msgstr "სახელი არ არის მითითებული"
+
+msgctxt "Languages::call_requests.use_for_call_requests"
+msgid "Call request and buy now with one click form"
+msgstr "უკუკავშირის მოთხოვნის და \"შეიძინე ახლა\" ერთი კლიკის ფორმა"
+
+msgctxt "Languages::block_call_request"
+msgid "Call request"
+msgstr "უკუკავშირი ტელეფონით"
+
+msgctxt "Languages::block_call_request_description"
+msgid "Store phone number and form for requesting a call"
+msgstr "მაღაზიის ტელეფონი და უკუკავშირის მოთხოვნის ფორმა"
+
+msgctxt "Languages::tmpl_call_request"
+msgid "Call request form"
+msgstr "უკუკავშირის მოთხოვნის ფორმა"
+
+msgctxt "Languages::call_requests.text_call_request"
+msgid "Customer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number]."
+msgstr ""
+
+msgctxt "Languages::call_requests.text_call_request_call_time"
+msgid "The convenient call time is between [time_from] and [time_to]."
+msgstr "მისაღები ზარის განხორციელების დრო არის[time_from]-დან[time_to]-მდე."
+
+msgctxt "Languages::call_requests.text_buy_with_one_click_request"
+msgid "Сustomer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number], regarding the purchase of the product <a href=\"[product_href]\">[product_name]</a>."
+msgstr "მომხმარებელი[customer] ელის<a href=\"[href]\">თვენს ზარს</a>ნომერზე[phone_number], შემდეგი პროდუქტის <a href=\"[product_href]\">[product_name]</a>შეძენასთან დაკავშირებით."
+
+msgctxt "Languages::call_requests.error_validator_phone"
+msgid "The phone number in the <b>[field]</b> field is invalid."
+msgstr "თქვენს მიერ შეყვანილი ნომერი  <b>[field]</b> არასწორია."
+
+msgctxt "Languages::email_template.call_requests_buy_with_one_click"
+msgid "Call requests: buy with one click notification"
+msgstr ""
+
+msgctxt "Languages::email_template.call_requests_call_request"
+msgid "Call requests: call request notification"
+msgstr ""
+
+msgctxt "Languages::call_request.work_time"
+msgid "Mon-Fr 9a.m.-6p.m."
+msgstr ""
+

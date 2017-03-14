@@ -1,0 +1,266 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/reward_points.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::reward_points"
+msgid "Reward points"
+msgstr "امتیاز پاداش"
+
+msgctxt "Addons::description::reward_points"
+msgid "Lets customers earn and spend points for purchases"
+msgstr "اجازه به مشتریان برای کسب و خرج امتیاز برای خرید ها"
+
+msgctxt "Languages::reward_points"
+msgid "Reward points"
+msgstr "امتیاز پاداش"
+
+msgctxt "Languages::reward_points_log"
+msgid "Reward points log"
+msgstr "گزارش امتیاز پاداش"
+
+msgctxt "Languages::reward_points_menu_description"
+msgid "Assign global reward points in your store."
+msgstr "اختصاص امتیاز جایزه سراسری در فروشگاه شما."
+
+msgctxt "Languages::promotion_cond_reward_points"
+msgid "Points on user account"
+msgstr "امتیاز حساب کاربری"
+
+msgctxt "Languages::points"
+msgid "Points"
+msgstr "امتیاز"
+
+msgctxt "Languages::points_in_use"
+msgid "Points in use"
+msgstr "امتیاز های در حال استفاده"
+
+msgctxt "Languages::points_in_use_lower"
+msgid "points in use"
+msgstr "امتیاز های در حال استفاده"
+
+msgctxt "Languages::points_lower"
+msgid "points"
+msgstr "امتیاز"
+
+msgctxt "Languages::points_in_use_lowercase"
+msgid "[n] point in use|[n] points in use"
+msgstr "امتیاز در حال استفاده [n]"
+
+msgctxt "Languages::points_lowercase"
+msgid "[n] point|[n] points"
+msgstr "امتیاز [n]"
+
+msgctxt "Languages::points_to_use"
+msgid "Points to use"
+msgstr "امتیاز برای استفاده"
+
+msgctxt "Languages::point_payment"
+msgid "Point payment"
+msgstr "پرداخت امتیازی"
+
+msgctxt "Languages::point_price"
+msgid "Price in points"
+msgstr "قیمت امتیازی"
+
+msgctxt "Languages::text_increase_points_in_use"
+msgid "The points used in the order were added to user account."
+msgstr "امتیاز در جهت استفاده به حساب کاربری افزوده شد."
+
+msgctxt "Languages::text_points_used_in_order"
+msgid "Points were used in order"
+msgstr "امتیاز در سفارش مورد استفاده قرار گرفت"
+
+msgctxt "Languages::text_point_in_account"
+msgid "You have"
+msgstr "شما دارای"
+
+msgctxt "Languages::pay_by_points"
+msgid "Allow payment by points"
+msgstr "اجازه پرداخت با امتیاز"
+
+msgctxt "Languages::override_per"
+msgid "Override global PER"
+msgstr "نادیده گرفتن PER جهانی"
+
+msgctxt "Languages::override_gc_points_brief"
+msgid "Override global/category points"
+msgstr "نادیده گرفتن امتیاز جهانی/رده"
+
+msgctxt "Languages::text_points_exceed_points_on_account"
+msgid "The number of the points entered by you exceeds the number of points at your account."
+msgstr "تعداد امتیاز وارد شده شما بیش از مقدار امتیاز حساب شما می باشد."
+
+msgctxt "Languages::text_points_exceed_points_that_can_be_applied"
+msgid "The number of points entered by you exceeds the number of points that can be applied to this order."
+msgstr "تعداد امتیاز وارد شده توسط شما بیش از تعداد امتیازی است که می توان برای این منظور استفاده شود."
+
+msgctxt "Languages::text_points_cannot_applied_because_subtotal_redeemed"
+msgid "Points cannot be applied because the subtotal is completely redeemed."
+msgstr "امتیاز ها قابل اعمال نمی باشد زیرا جمع کل کاملا بخشوده شده است."
+
+msgctxt "Languages::text_cannot_apply_points_to_this_order_because_total"
+msgid "Unfortunately, you cannot apply points to this order, because the total cost is zero."
+msgstr "از آنجا که کل هزینه صفر است متاسفانه، شما نمی توانید امتیاز را برای این سفارش به کار برید."
+
+msgctxt "Languages::text_cannot_apply_points_to_this_order_because_user"
+msgid "Unfortunately, you cannot apply points to this order, because you do not have enough points at the account."
+msgstr "از آنجا که شما امتیاز کافی در حساب را ندارید متاسفانه، شما نمی توانید امتیاز را برای این سفارش به کار برید."
+
+msgctxt "Languages::text_order_status_has_not_been_changed"
+msgid "The order status has not been changed, because the user did not have enough points."
+msgstr "از آنجا که کاربر امتیاز کافی نداشته وضعیت سفارش، تغییر نکرده است."
+
+msgctxt "Languages::price_in_points_increased"
+msgid "Price in points has been increased by"
+msgstr "افزایش قیمت امتیازی با"
+
+msgctxt "Languages::price_in_points_decreased"
+msgid "Price in points has been decreased by"
+msgstr "کاهش قیمت امتیازی با"
+
+msgctxt "Languages::earned_points"
+msgid "Points earned per product"
+msgstr "امتیاز به دست امده در هر محصول"
+
+msgctxt "Languages::override_g_points"
+msgid "Override global point value for all products in this category"
+msgstr "نادیده گرفتن مقدار سراسری امتیاز برای تمام محصولات این دسته"
+
+msgctxt "Languages::amount_type"
+msgid "Amount type"
+msgstr "نوع مقدار"
+
+msgctxt "Languages::maximum"
+msgid "Maximum"
+msgstr "حداکثر"
+
+msgctxt "Languages::earned_point_modifier"
+msgid "Earned point modifier"
+msgstr "اصلاح امتیاز به دست آمده"
+
+msgctxt "Languages::override_gc_points"
+msgid "Override global/category point value for this product"
+msgstr "نادیده گرفتن امتیاز سراسری/دسته برای این محصول"
+
+msgctxt "Languages::view_user_points"
+msgid "View user points"
+msgstr "نمایش امتیاز کاربر"
+
+msgctxt "Languages::log"
+msgid "Log"
+msgstr "گزارش"
+
+msgctxt "Languages::subtract"
+msgid "Subtract"
+msgstr "کم کردن"
+
+msgctxt "Languages::change_points"
+msgid "Change points"
+msgstr "تغییر امتیاز"
+
+msgctxt "Languages::add_subtract_points"
+msgid "Add & subtract points"
+msgstr "اضافه کردن و کم کردن امتیاز"
+
+msgctxt "Languages::cleanup_log"
+msgid "Cleanup log"
+msgstr "پاکسازی گزارش"
+
+msgctxt "Languages::we_would_like_to_inform"
+msgid "We would like to inform you that"
+msgstr "ما می خواهم به اطلاع شما برسانیم که"
+
+msgctxt "Languages::reward_points_subj_added_to"
+msgid "[n] point have been added to your account.|[n] points have been added to your account."
+msgstr ""
+
+msgctxt "Languages::reward_points_subj_subtracted_from"
+msgid "[n] point have been subtracted from your account.|[n] points have been subtracted from your account."
+msgstr ""
+
+msgctxt "Languages::privileges.manage_reward_points"
+msgid "Manage reward points system"
+msgstr "مدیریت سیستم امتیاز پاداش"
+
+msgctxt "SettingsSections::reward_points::general"
+msgid "General"
+msgstr "عمومی"
+
+msgctxt "SettingsOptions::reward_points::point_rate"
+msgid "Points Exchange Rate (PER - the number of points equal to 1 conventional unit)"
+msgstr "نرخ ارز (PER - تعداد امتیازات برابر با 1 واحد متعارف) امتیاز"
+
+msgctxt "SettingsOptions::reward_points::auto_price_in_points"
+msgid "\"Price in points\" is calculated automatically on PER basis"
+msgstr "\"قیمت امتیازی\" به طور خودکار در هر صورت محاسبه می شود"
+
+msgctxt "SettingsOptions::reward_points::price_in_points_with_discounts"
+msgid "\"Price in points\" is recalculated taking into account discounts"
+msgstr "\"قیمت به امتیاز\" برای اعمال تخفیفات سفارش حساب مجدداً محاسبه شده است"
+
+msgctxt "SettingsOptions::reward_points::points_with_discounts"
+msgid "\"Points\" is recalculated taking into account discounts"
+msgstr "\"امتیاز\" مجددا با توجه به تخفیفات حساب محاسبه می شود"
+
+msgctxt "SettingsOptions::reward_points::price_in_points_order_discount"
+msgid "\"Price in points\" is recalculated taking into account order discounts"
+msgstr "\"قیمت به امتیاز\" برای اعمال تخفیفات سفارش حساب مجدداً محاسبه شده است"
+
+msgctxt "SettingsOptions::reward_points::reward_points_order_discount"
+msgid "\"Points\" is recalculated taking into account order discounts"
+msgstr "\"امتیاز\" مجددا با توجه به تخفیفات حساب محاسبه می شود"
+
+msgctxt "SettingsOptions::reward_points::higher_level_extract"
+msgid "If the product and the product category do not have defined reward points but the higher level category has such reward points, extract data from it"
+msgstr "گر محصول و دسته بندی محصولات انجام امتیاز پاداش تعریف نشده اند اما دسته سطح بالاتر است از جمله نقاط پاداش، استخراج اطلاعات از آن"
+
+msgctxt "SettingsOptions::reward_points::several_points_action"
+msgid "If several reward points can be applied, set"
+msgstr "اگر چند امتیاز پاداش را می توان استفاده کرد،"
+
+msgctxt "SettingsOptions::reward_points::consider_zero_values"
+msgid "Apply zero reward point values"
+msgstr "درخواست صفر برای ارزش نقطه پاداش"
+
+msgctxt "SettingsOptions::reward_points::log_per_page"
+msgid "Log lines per page"
+msgstr "ورودی خطوط در هر صفحه"
+
+msgctxt "SettingsTooltips::reward_points::consider_zero_values"
+msgid "The reward points rules with the zero values should be considered"
+msgstr "قوانین امتیاز جایزه با ارزش صفر در نظر گرفته است"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::minimal_absolute"
+msgid "Absolute minimal value"
+msgstr "مقدار حداقل مطلق"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::minimal_percentage"
+msgid "Minimal percentage value"
+msgstr "حداقل درصد ارزش"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::maximal_absolute"
+msgid "Absolute maximal value"
+msgstr "مقدار حداکثر مطلق"
+
+msgctxt "SettingsVariants::reward_points::several_points_action::maximal_percentage"
+msgid "Maximal percentage value"
+msgstr "حداکثر درصد ارزش"
+
+msgctxt "Languages::email_template.reward_points_notification"
+msgid "Reward points"
+msgstr "امتیاز پاداش"
+
+msgctxt "Languages::grant_point"
+msgid "Grant reward points"
+msgstr "اعطای امتیاز پاداش"
+

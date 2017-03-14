@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/bestsellers.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & On-Sale Products"
+msgstr "بهترین فروشندگان و محصولات در حال فروش"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "بهترین فروش و داده های محصول در حال فروش را جمع آوری می کند و بلوکی پر کردنی برای نشان دادن چنین محصولاتی را اضافه می نماید"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "مرتب کردن بر اساس پرفروشترین: کم به زیاد"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "مرتب کردن بر اساس پرفروشترین"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "مرتب کردن بر اساس تخفیف: کم به زیاد"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "مرتب کردن بر اساس تخفیف: زیاد به کم"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "مقدار فروش"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "پرفروشترین"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "حراج"
+
+msgctxt "Languages::similar"
+msgid "Similar"
+msgstr "مشابه"
+
+msgctxt "Languages::percent_range"
+msgid "Price range (in % of the main product's price)"
+msgstr "حدود قیمت (به % قيمت اصلی محصول)"
+
+msgctxt "Languages::similar_category"
+msgid "Of the same category"
+msgstr "از گروه مشابه"
+
+msgctxt "Languages::similar_subcats"
+msgid "Consider subcategories"
+msgstr "در نظر گرفتن زیر گروه"
+
+msgctxt "Languages::similar_in_stock"
+msgid "Only \"in stock\" products"
+msgstr "فقط محصولات \"موجود\""
+
+msgctxt "Languages::final_sale"
+msgid "Final sale"
+msgstr "فروش نهایی"
+
+msgctxt "SettingsSections::bestsellers::general"
+msgid "General"
+msgstr "عمومی"
+
+msgctxt "SettingsSections::bestsellers::newest"
+msgid "Newest"
+msgstr "جدیدترین"
+
+msgctxt "SettingsOptions::bestsellers::final_sale_from"
+msgid "Minimum final sale discount (%)"
+msgstr "حداقل تخفیف فروش نهایی (%)"
+
+msgctxt "SettingsOptions::bestsellers::sales_amount_from"
+msgid "Minimum sales amount to define bestsellers"
+msgstr "حداقل مقدار فروش برای تعیین بهترین فروشندگان"
+
+msgctxt "SettingsOptions::bestsellers::period"
+msgid "Period"
+msgstr "دوره"
+
+msgctxt "SettingsOptions::bestsellers::last_days"
+msgid "Last days"
+msgstr "روز گذشته"
+
+msgctxt "SettingsVariants::bestsellers::period::all"
+msgid "All days"
+msgstr "همه‌ی روزها"
+
+msgctxt "SettingsVariants::bestsellers::period::today"
+msgid "Today"
+msgstr "امروز"
+
+msgctxt "SettingsVariants::bestsellers::period::last_days"
+msgid "Last days"
+msgstr "روز گذشته"
+

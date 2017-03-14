@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /addons/bestsellers.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:47-0500\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & On-Sale Products"
+msgstr "ベストセラーとセール中商品"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "ベストセラー商品とセール中の商品を抽出してブロックに表示します"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "売上の低い順"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "売上の高い順"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "割引率の低い順"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "割引率の高い順"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "販売個数"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "ベストセラー"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "セール中"
+
+msgctxt "Languages::similar"
+msgid "Similar"
+msgstr "類似商品"
+
+msgctxt "Languages::percent_range"
+msgid "Price range (in % of the main product's price)"
+msgstr "商品詳細ページに表示中の商品に対する価格差(%)"
+
+msgctxt "Languages::similar_category"
+msgid "Of the same category"
+msgstr "同一カテゴリーの商品のみ表示"
+
+msgctxt "Languages::similar_subcats"
+msgid "Consider subcategories"
+msgstr "サブカテゴリー内の商品を含める"
+
+msgctxt "Languages::similar_in_stock"
+msgid "Only \"in stock\" products"
+msgstr "在庫がある商品のみ表示"
+
+msgctxt "Languages::final_sale"
+msgid "Final sale"
+msgstr "最終セール"
+
+msgctxt "SettingsSections::bestsellers::general"
+msgid "General"
+msgstr "全般"
+
+msgctxt "SettingsSections::bestsellers::newest"
+msgid "Newest"
+msgstr "新着商品"
+
+msgctxt "SettingsOptions::bestsellers::final_sale_from"
+msgid "Minimum final sale discount (%)"
+msgstr "最終セールとして取り扱う商品の最低割引率 (%)"
+
+msgctxt "SettingsOptions::bestsellers::sales_amount_from"
+msgid "Minimum sales amount to define bestsellers"
+msgstr "ベストセラーとして取り扱う商品の最低販売点数"
+
+msgctxt "SettingsOptions::bestsellers::period"
+msgid "Period"
+msgstr "対象期間"
+
+msgctxt "SettingsOptions::bestsellers::last_days"
+msgid "Last days"
+msgstr "新着商品として取り扱う日数"
+
+msgctxt "SettingsVariants::bestsellers::period::all"
+msgid "All days"
+msgstr "すべて"
+
+msgctxt "SettingsVariants::bestsellers::period::today"
+msgid "Today"
+msgstr "本日"
+
+msgctxt "SettingsVariants::bestsellers::period::last_days"
+msgid "Last days"
+msgstr "日数を指定"
+

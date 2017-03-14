@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/bestsellers.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & On-Sale Products"
+msgstr "Sản phẩm bán chạy & Sản phẩm đang khuyến mãi"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "Thu thập dữ liệu sản phẩm bán chạy nhất & sản phẩm khuyến mãi và cho biết thêm cách hiển thị trong khối để hiển thị các sản phẩm"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "Xếp theo Bán chạy nhất: Thấp đến Cao"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "Xếp theo Bán chạy nhất"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "Xếp theo giảm giá: Thấp đến Cao"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "Xếp theo giảm giá: Cao đến Thấp"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "Số lượng bán"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "Bán chạy nhất"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "Đang bán khuyến mãi"
+
+msgctxt "Languages::similar"
+msgid "Similar"
+msgstr "Tương tự như"
+
+msgctxt "Languages::percent_range"
+msgid "Price range (in % of the main product's price)"
+msgstr "Phạm vi giá (trong % giá của sản phẩm)"
+
+msgctxt "Languages::similar_category"
+msgid "Of the same category"
+msgstr "Cùng danh mục"
+
+msgctxt "Languages::similar_subcats"
+msgid "Consider subcategories"
+msgstr "Xem xét danh mục con"
+
+msgctxt "Languages::similar_in_stock"
+msgid "Only \"in stock\" products"
+msgstr "Chỉ sản phẩm \"còn hàng\""
+
+msgctxt "Languages::final_sale"
+msgid "Final sale"
+msgstr "Kết thúc bán hàng"
+
+msgctxt "SettingsSections::bestsellers::general"
+msgid "General"
+msgstr "Tổng quát"
+
+msgctxt "SettingsSections::bestsellers::newest"
+msgid "Newest"
+msgstr "Mới nhất"
+
+msgctxt "SettingsOptions::bestsellers::final_sale_from"
+msgid "Minimum final sale discount (%)"
+msgstr "Tối thiểu giảm giá cuối cùng (%)"
+
+msgctxt "SettingsOptions::bestsellers::sales_amount_from"
+msgid "Minimum sales amount to define bestsellers"
+msgstr "Số tiền bán hàng tối thiểu để xác định sản phẩm bán chạy nhất"
+
+msgctxt "SettingsOptions::bestsellers::period"
+msgid "Period"
+msgstr "Thời hạn"
+
+msgctxt "SettingsOptions::bestsellers::last_days"
+msgid "Last days"
+msgstr "Ngày trước"
+
+msgctxt "SettingsVariants::bestsellers::period::all"
+msgid "All days"
+msgstr "Tất cả các ngày"
+
+msgctxt "SettingsVariants::bestsellers::period::today"
+msgid "Today"
+msgstr "Hôm nay"
+
+msgctxt "SettingsVariants::bestsellers::period::last_days"
+msgid "Last days"
+msgstr "Ngày trước"
+

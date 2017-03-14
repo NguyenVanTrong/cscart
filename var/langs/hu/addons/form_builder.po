@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: /addons/form_builder.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:47-0500\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Űrlapkezelő"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us)"
+msgstr "Lehetővé teszi egyedi űrlapok létrehozását (pl. Kapcsolat)"
+
+msgctxt "Languages::use_for_form_builder"
+msgid "Custom forms"
+msgstr "Egyedi űrlapok"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Új űrlap"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Űrlap szerkesztése"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Űrlapkezelő"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Űrlap elküldése szöveg"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "E-mail címzettje"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Biztonságos űrlap (SSL használata)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Űrlap hozzáadása"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Alap"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Többszörös jelölőnégyzet"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Többszörös választómező"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Fejléc"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Elválasztó"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Speciális"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Országlista"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Megyelista"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "Hivatkozó oldal"
+
+msgctxt "Languages::email_template.form_builder_form"
+msgid "Contact form"
+msgstr ""
+
+msgctxt "Languages::addons.form_builder.form_fields"
+msgid "Form fields"
+msgstr "Űrlapmezők"
+
+msgctxt "Languages::addons.form_builder.form_name"
+msgid "Form name"
+msgstr "Űrlap neve"
+
+msgctxt "Languages::addons.form_builder.other_subject"
+msgid "Other subject (specify below)"
+msgstr "Más tárgy (meghatározás lentebb)"
+
+msgctxt "Languages::addons.form_builder.email_subject_field"
+msgid "E-mail subject field"
+msgstr "E-mail tárgy"
+
+msgctxt "Languages::ttc_addons.form_builder.email_subject_field"
+msgid "Fields of type \"Select box\" or \"Input field\" can be used"
+msgstr "\"Legördülő lista\" vagy \"Szöveges beviteli mező\" típusok használhatóak"
+

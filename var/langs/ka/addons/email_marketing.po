@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Georgian\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ka\n"
+"X-Crowdin-File: /addons/email_marketing.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:46-0500\n"
+
+msgctxt "Addons::name::email_marketing"
+msgid "E-mail marketing"
+msgstr "E-mail მარკეტინგი"
+
+msgctxt "Addons::description::email_marketing"
+msgid "Synchronizes your newsletter subscriber lists with MailChimp and Mad Mimi"
+msgstr "აბონენტების სიის სინქრონიზაცია MailChimp-თან და Mad Mimi-სთან"
+
+msgctxt "Languages::subscribers_menu_description"
+msgid "Manage newsletter subscribers and settings."
+msgstr "აბონენტების სია და სიახლეების პარამეტრები."
+
+msgctxt "Languages::email_marketing.subscription_confirmed"
+msgid "Thank you for subscribing to our newsletter"
+msgstr "დიდი მადლობა ჩვენი სიახლეების გამოწერისათვის"
+
+msgctxt "Languages::email_marketing.text_subscription_confirmed"
+msgid "Your subscription has been confirmed. No extra actions is required."
+msgstr "თქვენი სიახლეებზე გამოწერა დაადასტურებულია. არანაირი დამატებითი ქმედება არ სჭირდება."
+
+msgctxt "Languages::email_marketing.subscription_pending"
+msgid "Email confirmation is required!"
+msgstr "ელ-ფოსტის დამოწმება სავალდებულია!"
+
+msgctxt "Languages::email_marketing.text_subscription_pending"
+msgid "Thank you for subscribing to our newsletter.<p>A confirmation email has been sent to you. Please use the link in the email to confirm your subscription</p>"
+msgstr "დიდი მადლობა ჩვენი სიახლეების გამოწერისათვის.<p>თქვენ მიიღებთ ელეკტრონულ წერილს, რომ დაადასტუროთ გამოწერა. გთხოვთ დააჭირეთ ბმულს ამ წერილში, იმისათვის რომ დაადასტუროთ გამოწერა</p>"
+
+msgctxt "Languages::email_marketing.confirm_subscription"
+msgid "Please confirm subscription"
+msgstr "გთხოვთб დაადასტუროთ გამოწერა"
+
+msgctxt "Languages::email_marketing.text_confirm_subscription"
+msgid "We received a subscription request from you. Please confirm it:<p><a href=\"[href]\">Click here to confirm your subscription to our newsletter</a></p>If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link above."
+msgstr "ჩვენ მივიღეთ თქვენგან თხოვნა გამოწერაზე. გთხოვთ დაადასტუროთ ის:<p><a href=\"[href]\">დააჭირეთ აქ, რომ დაადასტუროთ გამოწერა ჩვენს საინფორმაციო სიახლეებზე.</a></p>თუ თქვენ ეს წერილი შეცდომით მიიღეტ, უბრალოდ წაშალეთ ის. თქვენ გამოწერა არ იქნება დადასტურებული, სანამ არ გადახვალთ ზემოთ მითითებულ ბმულით."
+
+msgctxt "Languages::email_marketing.subscription_confirmed_2"
+msgid "Subscription confirmed"
+msgstr "გამოწერა დადასტურებულია"
+
+msgctxt "Languages::email_marketing.text_subscription_confirmed_2"
+msgid "Your subscription to our newsletter has been confirmed. Thank you for subscribing!"
+msgstr "თქვენი გამოწერა ჩვენს სიახლეებზე დადასტურებულია. გმადლობთ!"
+
+msgctxt "Languages::email_marketing.email_subscribed"
+msgid "You were subscribed to our newsletter"
+msgstr "თქვენ გამოწერილი ხართ ჩვენს სიახლეებზე"
+
+msgctxt "Languages::email_marketing.text_email_subscribed"
+msgid "Thank you for subscribing to our newsletter. <p>If at any time you wish to stop receiving our emails, <a href=\"[href]\">click on this link to unsubscribe</a>.</p>"
+msgstr "დიდი მადლობა ჩვენი სიახლეების გამოწერისათვის<p>\n"
+"თუ აღარ გსურთ ჩვენი წერილების მიღება, <a href=\"[href]\"> დააჭირეთ აქ, რომ გააუქმოთ გამოწერა</a>.</p>"
+
+msgctxt "Languages::email_marketing.email_subscribed_2optin"
+msgid "Subscription confirmed"
+msgstr "გამოწერა დადასტურებულია"
+
+msgctxt "Languages::email_marketing.text_email_subscribed_2optin"
+msgid "Your subscription to our newsletter has been confirmed.<p>If at any time you wish to stop receiving our emails, <a href=\"[href]\">click on this link to unsubscribe</a>.</p>"
+msgstr "თქვენი გამოწერა ჩვენს სიახლეებზე დადასტურებულია. <p>თუ აღარ გსურთ ჩვენი წერილების მიღება, <a href=\"[href]\"> დააჭირეთ აქ, რომ გააუქმოთ გამოწერა</a>.</p>"
+
+msgctxt "Languages::email_marketing.unsubscribe_successful"
+msgid "Unsubscribe successful"
+msgstr "გამოწერა გაუქმებულია"
+
+msgctxt "Languages::email_marketing.text_unsubscribe_successful"
+msgid "Your email has been removed from our list."
+msgstr "თქვენი ელ. ფოსტის მისამართი ამოღებულია ჩვენი სიიდან."
+
+msgctxt "Languages::email_marketing.export_all"
+msgid "Export all"
+msgstr "ყველას დაექსპორტება"
+
+msgctxt "Languages::email_marketing.enter_api_key_and_save"
+msgid "Enter API key and save first"
+msgstr "გთხოვთ შეიყვანოთ თქვენი API-გასაღები და შეინახოთ ცვლილებები"
+
+msgctxt "Languages::email_marketing.warning_email_exists"
+msgid "[email] is already subscribed"
+msgstr "[email] უკვე გამოწერილია"
+
+msgctxt "Languages::email_marketing.new_subscriber"
+msgid "New subscriber"
+msgstr "ახალი გამომწერი"
+
+msgctxt "Languages::email_marketing.sync"
+msgid "Sync"
+msgstr "სინქრონიზაცია"
+
+msgctxt "Languages::email_marketing.text_subscribe"
+msgid "Subscribe to our newsletter"
+msgstr "ჩვენი საინფორმაციო სიახლეებზე გამოწერა"
+
+msgctxt "Languages::email_marketing.tmpl_subscription"
+msgid "Email marketing: Newsletter subscription form"
+msgstr "Email-მარკეტინგი: გამოწერის ფორმა"
+
+msgctxt "Languages::privileges.manage_email_marketing"
+msgid "Manage email marketing add-on"
+msgstr "\"Email-მარკეტინგის\" მოდულით მართვა"
+
+msgctxt "Languages::privileges.view_email_marketing"
+msgid "View email marketing add-on"
+msgstr "\"Email-მარკეტინგის\" მოდულის ნახვა"
+
+msgctxt "Languages::email_marketing.error_no_list"
+msgid "Please select mailing list in add-on settings to start import"
+msgstr "იმისათვის, რომ დაიწყოთ კონტაკტების იმპორტი, აიირჩიეტ გამოწერის სია მოდულის პარამეტრებში"
+
+msgctxt "SettingsSections::email_marketing::general"
+msgid "General"
+msgstr "ზოგადი"
+
+msgctxt "SettingsSections::email_marketing::mailchimp"
+msgid "MailChimp"
+msgstr "MailChimp"
+
+msgctxt "SettingsSections::email_marketing::madmimi"
+msgid "MadMimi"
+msgstr "MadMimi"
+
+msgctxt "SettingsOptions::email_marketing::em_show_on_checkout"
+msgid "Newsletter checkbox on checkout"
+msgstr "მოსანიშნის შემოწმება გამოწერაში"
+
+msgctxt "SettingsOptions::email_marketing::em_checkout_enabled"
+msgid "Tick off by default"
+msgstr "ამოღებულია ნაგულისხმევად"
+
+msgctxt "SettingsOptions::email_marketing::em_double_opt_in"
+msgid "Double opt-in"
+msgstr "ორმაგი opt-in-ი"
+
+msgctxt "SettingsOptions::email_marketing::em_welcome_letter"
+msgid "Send a welcome letter with the unsubscribe link"
+msgstr "მისასალმებელი წერილის გაგზავნა, გამოწერის გაუქმების ბმულთან ერთად"
+
+msgctxt "SettingsOptions::email_marketing::em_service"
+msgid "Email integration provider"
+msgstr "ელ-ფოსტით წერილების დაგზავნის სერვისი"
+
+msgctxt "SettingsOptions::email_marketing::em_mailchimp_api_key"
+msgid "API key"
+msgstr "API გასაღები"
+
+msgctxt "SettingsOptions::email_marketing::em_mailchimp_list"
+msgid "List"
+msgstr "სია"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_username"
+msgid "E-mail"
+msgstr "ელ-ფოსტა"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_api_key"
+msgid "API key"
+msgstr "API გასაღები"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_list"
+msgid "List"
+msgstr "სია"
+
+msgctxt "SettingsVariants::email_marketing::em_service::dummy"
+msgid "--"
+msgstr "--"
+
+msgctxt "SettingsVariants::email_marketing::em_service::mailchimp"
+msgid "MailChimp"
+msgstr "MailChimp"
+
+msgctxt "SettingsVariants::email_marketing::em_service::madmimi"
+msgid "MadMimi"
+msgstr "MadMimi"
+
+msgctxt "Languages::email_template.email_marketing_confirmation"
+msgid "Email marketing: subscription confirmation"
+msgstr ""
+
+msgctxt "Languages::email_template.email_marketing_welcome"
+msgid "Email marketing: welcome letter"
+msgstr ""
+
+msgctxt "Languages::email_template.email_marketing_welcome_2optin"
+msgid "Email marketing: welcome letter (2optin)"
+msgstr ""
+

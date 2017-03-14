@@ -1,0 +1,239 @@
+/* ==========================================================================
+Blog
+========================================================================== */
+.homepage-blog-posts .mainbox-title span {
+    color: #404040;
+    font-size: 150%;
+}
+.ty-blog__item {
+    padding-bottom: 30px;
+    margin: -1px;
+    margin-bottom: 50px;
+}
+
+.ty-blog__item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.ty-blog *,
+.ty-blog-grid * {
+    font-size: 14px;
+}
+
+.ty-blog h1,
+.ty-blog-grid h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.ty-blog h1.mainbox-title,
+.ty-blog-grid h1.mainbox-title {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.ty-blog h2,
+.ty-blog-grid h2 {
+    font-size: 23px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.ty-blog h3,
+.ty-blog-grid h3 {
+    font-size: 21px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.ty-blog h4,
+.ty-blog-grid h4 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.ty-blog h5,
+.ty-blog-grid h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.ty-blog h6,
+.ty-blog-grid h6 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.ty-blog p,
+.ty-blog-grid p,
+.ty-blog li,
+.ty-blog-grid li,
+.ty-blog ol,
+.ty-blog-grid ol {
+    padding: 6px 0;
+}
+
+.ty-blog hr,
+.ty-blog-grid hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ty-blog img,
+.ty-blog-grid img {
+    width: auto;
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ty-blog h2.ty-blog__post-title,
+.ty-blog-grid h2.ty-blog__post-title {
+    margin-bottom: 4px;
+    padding-top: 2px;
+}
+
+.ty-blog .ty-blog__post-title,
+.ty-blog-grid .ty-blog__post-title {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0 0 6px;
+    font-size: 27px;
+}
+
+.ty-blog .ty-blog__img-block,
+.ty-blog-grid .ty-blog__img-block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ty-blog .ty-blog__img-block img,
+.ty-blog-grid .ty-blog__img-block img {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: auto;
+}
+
+.ty-blog .ty-blog__description,
+.ty-blog-grid .ty-blog__description {
+    margin-bottom: 30px;
+}
+
+.ty-blog .ty-blog__date,
+.ty-blog-grid .ty-blog__date {
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    color: #adadad;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.ty-blog .ty-blog__author,
+.ty-blog-grid .ty-blog__author {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding-left: 12px;
+    border-left: 1px solid #adadad;
+    color: #adadad;
+    fon-weight: normal;
+        font-size: 12px;
+}
+
+.ty-blog__read-more {
+    margin-top: 20px;
+}
+
+/* Template: templates/addons/blog/blocks/recent_posts.tpl */
+.ty-blog-sidebox {
+    margin: 0 0 10px;
+}
+.ty-blog-sidebox__item {
+    padding-bottom: 10px;
+    margin-bottom: 7px;
+}
+
+.ty-blog-sidebox__item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* Template: templates/addons/blog/blocks/text_links.tpl */
+.ty-blog-text-links {
+    margin: 20px 0 40px;
+}
+
+.ty-blog-text-links__item {
+    margin-bottom: 20px;
+}
+
+.ty-blog-text-links__item:last-child {
+    margin-bottom: 25px;
+}
+
+.ty-blog-text-links__date {
+    color: #adadad;
+    padding: 3px 8px;
+    margin-right: 9px;
+    float: left;
+    font-size: 12px;
+}
+
+.ty-blog-text-links__a {
+    padding-top: 3px;
+    display: block;
+}
+
+/* Recent Posts Scroller */
+.ty-blog-recent-posts-scroller {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.ty-blog-recent-posts-scroller__item {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ty-blog-recent-posts-scroller__item .ty-blog__date {
+    display: block;
+    margin-bottom: 0;
+    margin-top: 5px;
+    color: #adadad;
+    font-size: 12px;
+}
+
+.ty-blog-recent-posts-scroller__img-block {
+    margin-bottom: 10px;
+    max-height: 150px;
+    min-height: 150px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.ty-blog-recent-posts-scroller__img-block img {
+    bottom: -100%;
+    display: block;
+    height: auto;
+    left: 0;
+    margin: auto;
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    top: -100%;
+    vertical-align: middle;
+}
+
+.ty-blog-recent-posts-scroller__img-block .no-image {
+    height: 148px !important;
+    width: auto !important;
+}
+
+/* /Blog */

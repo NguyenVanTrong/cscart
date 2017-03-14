@@ -1,0 +1,1 @@
+{"products.view?product_id=`$product.product_id`"}{if $product.combination}{"&combination=`$product.combination`"}{/if}

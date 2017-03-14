@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /addons/bestsellers.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:01-0500\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & On-Sale Products"
+msgstr "Nejprodávanější, v akci a související produkty"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "Shromažďuje údaje o nejprodávanějších a výprodejových produktech a přidá blok se zobrazením těchto produktů"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "Seřadit dle prodejnosti: od nejnižší po nejvyšší"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "Seřadit podle prodejnosti"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "Seřadit podle slevy: od nejnižší po nejvyšší"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "Seřadit podle slevy: od nejvyšší po nejnižší"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "Částka prodeje"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "Nejprodávanější"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "Výprodej"
+
+msgctxt "Languages::similar"
+msgid "Similar"
+msgstr "Podobné"
+
+msgctxt "Languages::percent_range"
+msgid "Price range (in % of the main product's price)"
+msgstr "Cenové rozpětí (v % z ceny hlavního výrobku)"
+
+msgctxt "Languages::similar_category"
+msgid "Of the same category"
+msgstr "Ze stejné kategorie"
+
+msgctxt "Languages::similar_subcats"
+msgid "Consider subcategories"
+msgstr "Zvažte podkategorie"
+
+msgctxt "Languages::similar_in_stock"
+msgid "Only \"in stock\" products"
+msgstr "Pouze výrobky skladem"
+
+msgctxt "Languages::final_sale"
+msgid "Final sale"
+msgstr "Totální výprodej"
+
+msgctxt "SettingsSections::bestsellers::general"
+msgid "General"
+msgstr "Obecné"
+
+msgctxt "SettingsSections::bestsellers::newest"
+msgid "Newest"
+msgstr "Nejnovější"
+
+msgctxt "SettingsOptions::bestsellers::final_sale_from"
+msgid "Minimum final sale discount (%)"
+msgstr "Minimální sleva pro zahrnutí mezi produkty \"v akci\" (%)"
+
+msgctxt "SettingsOptions::bestsellers::sales_amount_from"
+msgid "Minimum sales amount to define bestsellers"
+msgstr "Minimální počet prodejů pro zahrnutí mezi \"nejprodávanější\""
+
+msgctxt "SettingsOptions::bestsellers::period"
+msgid "Period"
+msgstr "Období"
+
+msgctxt "SettingsOptions::bestsellers::last_days"
+msgid "Last days"
+msgstr "Poslední dny"
+
+msgctxt "SettingsVariants::bestsellers::period::all"
+msgid "All days"
+msgstr "Všechny dny"
+
+msgctxt "SettingsVariants::bestsellers::period::today"
+msgid "Today"
+msgstr "Dnes"
+
+msgctxt "SettingsVariants::bestsellers::period::last_days"
+msgid "Last days"
+msgstr "Poslední dny"
+

@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Serbian (Cyrillic)\n"
+"Language: sr_SP\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: /addons/suppliers.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::suppliers"
+msgid "Suppliers"
+msgstr "Dobavljači"
+
+msgctxt "Addons::description::suppliers"
+msgid "Adds supplier assignment support to products"
+msgstr "Dodaj dobavljačevu obavezu podrške proizvodima"
+
+msgctxt "Languages::search_by_supplier"
+msgid "Search by supplier"
+msgstr "Ptretraži po dobavljaču"
+
+msgctxt "Languages::notify_supplier"
+msgid "Notify supplier"
+msgstr "Obavesti dobavljača"
+
+msgctxt "Languages::view_supplier_products"
+msgid "View supplier products"
+msgstr "Pregledaj dobavljačeve proizvode"
+
+msgctxt "Languages::supplier"
+msgid "Supplier"
+msgstr "Dobavljač"
+
+msgctxt "Languages::supplier_email_header"
+msgid "The following products have been purchased in our store and need to be shipped."
+msgstr "Sledeći proizvodi su kupljeni u našoj elektronskoj prodavnici i trebaju biti isporučeni."
+
+msgctxt "Languages::suppliers_menu_description"
+msgid "List of supplier accounts registered in the store."
+msgstr "Lista naloga dobavljača registrovanih u elektronskoj prodavnici."
+
+msgctxt "Languages::dear_sirs"
+msgid "Dear Sirs"
+msgstr "Poštovani"
+
+msgctxt "Languages::add_supplier"
+msgid "Add supplier"
+msgstr "Dodaj dobavljača"
+
+msgctxt "Languages::available_for_supplier"
+msgid "Available for supplier"
+msgstr "Dostupno za dobavljača"
+
+msgctxt "Languages::editing_supplier"
+msgid "Editing supplier"
+msgstr "Izmena dobavljača"
+
+msgctxt "Languages::supplier_deleted"
+msgid "Supplier has been deleted successfully."
+msgstr "Dobavljač je uspešno obrisan."
+
+msgctxt "Languages::privileges.manage_suppliers"
+msgid "Manage suppliers"
+msgstr "Uređivanje dobavljača"
+
+msgctxt "SettingsSections::suppliers::general"
+msgid "General"
+msgstr "Opšte"
+
+msgctxt "SettingsOptions::suppliers::display_supplier"
+msgid "Display product supplier company"
+msgstr "Prikaži preduzeće dobavljača proizvoda"
+
+msgctxt "SettingsOptions::suppliers::display_shipping_methods_separately"
+msgid "Display shipping methods to each supplier separately"
+msgstr "Prikaži načine isporuke za svakog dobavljača posebno"
+
+msgctxt "Languages::email_template.suppliers_notification"
+msgid "Supplier notification"
+msgstr ""
+
+msgctxt "Languages::template_document_supplier_order_invoice"
+msgid "Suppliers: invoice"
+msgstr ""
+
+msgctxt "Languages::document_preview_suppliers_not_found"
+msgid "Couldn't find a supplier. Preview only works with existing data. Please create a supplier and use Preview again."
+msgstr ""
+

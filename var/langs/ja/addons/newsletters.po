@@ -1,0 +1,430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /addons/newsletters.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:47-0500\n"
+
+msgctxt "Addons::name::newsletters"
+msgid "Newsletters"
+msgstr "メールマガジン"
+
+msgctxt "Addons::description::newsletters"
+msgid "Lets you configure newsletter sending"
+msgstr "メールマガジンを配信できます"
+
+msgctxt "Languages::newsletters_menu_description"
+msgid "Create and send newsletters to your customer."
+msgstr "メールマガジンを配信します。"
+
+msgctxt "Languages::news_plain"
+msgid "Plain"
+msgstr "通常"
+
+msgctxt "Languages::text_signup_for_subscriptions"
+msgid "Sign up for our newsletters!"
+msgstr "メールマガジンの購読"
+
+msgctxt "Languages::tmpl_subscription"
+msgid "Newsletters: subscription form"
+msgstr "メルマガ購読申込フォーム"
+
+msgctxt "Languages::unsubscribe_link"
+msgid "Unsubscribe link"
+msgstr "購読停止リンク"
+
+msgctxt "Languages::ne_add_subscribers_from_users"
+msgid "Add subscribers from the list of users"
+msgstr "お客様リストより購読者を追加"
+
+msgctxt "Languages::ne_warning_subscr_email_exists"
+msgid "<b>[email]</b> is already in the subscribers list"
+msgstr "<b>[email]</b> は購読者リストに登録済みです。"
+
+msgctxt "Languages::warning_subscribers_import"
+msgid "Some mailing lists from the input file could not be found in the database. Certain imported subscribers will be left unassigned."
+msgstr "存在しないメルマガがインポートデータに含まれていました。これらのメルマガの購読者は購読するメルマガの指定がない状態でインポートされました。"
+
+msgctxt "Languages::subscribers_menu_item_text"
+msgid "Subscribers"
+msgstr "購読者"
+
+msgctxt "Languages::block_mailing_lists"
+msgid "Newsletter subscription"
+msgstr "メルマガの購読"
+
+msgctxt "Languages::block_mailing_lists_description"
+msgid "Email field for newsletter subscription"
+msgstr "メルマガ購読用Eメールアドレス"
+
+msgctxt "Languages::privileges.view_newsletters"
+msgid "View newsletters"
+msgstr "メルマガの閲覧"
+
+msgctxt "Languages::privileges.manage_newsletters"
+msgid "Manage newsletters"
+msgstr "メルマガの管理"
+
+msgctxt "Languages::warning_newsletter_no_recipients"
+msgid "Newsletter hasn't been sent because no recipients were found matching the selected criteria."
+msgstr "指定した条件に合致する購読者が見つからなかったためメールマガジンは送信されませんでした。"
+
+msgctxt "Languages::text_newsletter_sent"
+msgid "The newsletter(s) have been sent successfully."
+msgstr "メールマガジンが配信されました。"
+
+msgctxt "Languages::email_cannot_be_empty"
+msgid "E-mail cannot be empty"
+msgstr "Eメールアドレスを入力してください"
+
+msgctxt "Languages::sending_email_to"
+msgid "Sending email to [email]..."
+msgstr "[email] にメール送信中..."
+
+msgctxt "Languages::text_subscriber_added"
+msgid "Your e-mail has been successfully added to our free e-mail updates list"
+msgstr "メールマガジンの購読手続きが完了しました"
+
+msgctxt "Languages::error_email_already_subscribed"
+msgid "Your e-mail is already subscribed."
+msgstr "ご指定のEメールアドレスですでにメールマガジンを購読済みです。"
+
+msgctxt "Languages::text_subscriber_removed"
+msgid "Your e-mail has been successfully removed from our free e-mail updates list"
+msgstr "メールマガジンの購読を解除しました"
+
+msgctxt "Languages::text_subscriber_activated"
+msgid "Your email has been successfully activated"
+msgstr "お客様のEメールが有効化されました。"
+
+msgctxt "Languages::link_message_for_test_letter"
+msgid "The link will be displayed in a live newsletter"
+msgstr "このリンクは実際にお客様に配信するメルマガに表示されます"
+
+msgctxt "Languages::newsletters"
+msgid "Newsletters"
+msgstr "メルマガ配信"
+
+msgctxt "Languages::autoresponders"
+msgid "Autoresponders"
+msgstr "オートレスポンダー"
+
+msgctxt "Languages::campaigns"
+msgid "Campaigns"
+msgstr "トラッキング"
+
+msgctxt "Languages::sent"
+msgid "Sent"
+msgstr "配信済"
+
+msgctxt "Languages::subscribers_num"
+msgid "Number of subscribers"
+msgstr "購読者数"
+
+msgctxt "Languages::editing_mailing_list"
+msgid "Editing mailing list"
+msgstr "メールマガジンの編集"
+
+msgctxt "Languages::from_name"
+msgid "From name"
+msgstr "差出人"
+
+msgctxt "Languages::from_email"
+msgid "From email"
+msgstr "送信元Eメール"
+
+msgctxt "Languages::reply_to"
+msgid "Reply to"
+msgstr "返信先Eメール"
+
+msgctxt "Languages::register_autoresponder"
+msgid "Confirmation email"
+msgstr "確認用Eメール"
+
+msgctxt "Languages::no_autoresponder"
+msgid "No autoresponder"
+msgstr "オートレスポンダーなし"
+
+msgctxt "Languages::show_on_checkout"
+msgid "Show at checkout"
+msgstr "購入手続き時に表示"
+
+msgctxt "Languages::addons.newsletters.show_on_registration_and_profile"
+msgid "Show on the Registration and Profile Details pages"
+msgstr ""
+
+msgctxt "Languages::show_on_separate_page"
+msgid "Show on separate page"
+msgstr "別ページに表示"
+
+msgctxt "Languages::campaign_stats"
+msgid "Campaign statistics"
+msgstr "統計情報"
+
+msgctxt "Languages::add_campaign"
+msgid "Add campaign"
+msgstr "トラッキングの追加"
+
+msgctxt "Languages::new_campaign"
+msgid "New campaign"
+msgstr "トラッキングの追加"
+
+msgctxt "Languages::newsletter_templates"
+msgid "Newsletter templates"
+msgstr "メールマガジンテンプレート"
+
+msgctxt "Languages::newsletter_autoresponders"
+msgid "Newsletter autoresponders"
+msgstr "メールマガジン オートレスポンダー"
+
+msgctxt "Languages::subject"
+msgid "Subject"
+msgstr "件名"
+
+msgctxt "Languages::add_newsletter"
+msgid "Add newsletter"
+msgstr "メルマガの新規配信"
+
+msgctxt "Languages::add_template"
+msgid "Add template"
+msgstr "テンプレートの追加"
+
+msgctxt "Languages::add_autoresponder"
+msgid "Add autoresponder"
+msgstr "オートレスポンダーの追加"
+
+msgctxt "Languages::more_subjects"
+msgid "Random subjects (one per line)"
+msgstr "件名 (改行して複数入力すると1件をランダムにセット)"
+
+msgctxt "Languages::body_html"
+msgid "HTML body"
+msgstr "本文（HTML形式）"
+
+msgctxt "Languages::no_template"
+msgid "No template"
+msgstr "なし"
+
+msgctxt "Languages::load"
+msgid "Load"
+msgstr "ロード"
+
+msgctxt "Languages::campaign"
+msgid "Campaign"
+msgstr "トラッキング"
+
+msgctxt "Languages::send_to"
+msgid "Send to"
+msgstr "配信先"
+
+msgctxt "Languages::add_recipients_from_users"
+msgid "Add recipients from users"
+msgstr "会員リストから配信先を追加"
+
+msgctxt "Languages::customers_with_abandoned"
+msgid "Customers with abandoned"
+msgstr "カゴ落ち顧客"
+
+msgctxt "Languages::cart_or_wishlist"
+msgid "Cart or Wishlist"
+msgstr "カートまたはほしい物リスト"
+
+msgctxt "Languages::which_is"
+msgid "which is"
+msgstr "（過去"
+
+msgctxt "Languages::days_old"
+msgid "days old"
+msgstr "日以前のデータ"
+
+msgctxt "Languages::send_to_test_email"
+msgid "Send to test email"
+msgstr "テストメール送信先"
+
+msgctxt "Languages::save_and_send"
+msgid "Save and send"
+msgstr "保存して送信"
+
+msgctxt "Languages::newsletter"
+msgid "Newsletter"
+msgstr "メルマガ配信"
+
+msgctxt "Languages::newsletter_template"
+msgid "Newsletter template"
+msgstr "メールマガジンテンプレート"
+
+msgctxt "Languages::newsletter_autoresponder"
+msgid "Newsletter autoresponder"
+msgstr "メールマガジン オートレスポンダー"
+
+msgctxt "Languages::mailing_list"
+msgid "Mailing list"
+msgstr "メールマガジン"
+
+msgctxt "Languages::confirmed"
+msgid "Confirmed"
+msgstr "承認済"
+
+msgctxt "Languages::subscribed_to"
+msgid "Subscribed to [num] lists"
+msgstr "[num] 件購読中"
+
+msgctxt "Languages::subscribed"
+msgid "Subscribed"
+msgstr "購読"
+
+msgctxt "Languages::text_success_subscription"
+msgid "You have been successfully subscribed to our free e-mail updates and promotions!"
+msgstr "メールマガジンの購読手続きが完了しました。"
+
+msgctxt "Languages::text_unsubscribe_instructions"
+msgid "We respect your privacy and do not send unsolicited e-mail to users who have not requested correspondence. You have received this e-mail because you requested to receive our free updates and promotions.<br /><br /> If you wish to unsubscribe, please follow the link below:"
+msgstr "このEメールは当ショップのメールマガジンをお申し込みいただいたお客様にお届けしています。<br /><br /> 購読解除をご希望の場合は以下のリンクをクリックしてください:"
+
+msgctxt "Languages::updates_subscription"
+msgid "updates and promotions subscription"
+msgstr "メールマガジンの購読"
+
+msgctxt "Languages::ult_shared_with"
+msgid "Shared with:"
+msgstr "次のショップと共有:"
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_from_email"
+msgid "Email of a sender."
+msgstr "送信元Eメールアドレス"
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_from_name"
+msgid "Name of a sender (e.g. company name)."
+msgstr "送信者名 (例 : 会社名)"
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_reply_to"
+msgid "Email to send replies to."
+msgstr "返信先Eメールアドレス"
+
+msgctxt "Languages::tt_addons_newsletters_views_newsletters_update_more_subjects"
+msgid "If several subjects are specified, email subject is randomly picked from this list."
+msgstr "複数の件名が指定された場合、件名としてそのうちの1件がランダムにセットされます。"
+
+msgctxt "Languages::tt_addons_newsletters_views_newsletters_update_users"
+msgid "If the message text contains the unsubscribe link, it will be empty for these users."
+msgstr "メッセージに購読解除URLが含まれる場合、こちらで指定したお客様へのメールについては当該箇所が削除されます。"
+
+msgctxt "Languages::add_mailing_lists"
+msgid "Add mailing list"
+msgstr "メルマガの追加"
+
+msgctxt "Languages::manage_subscribers"
+msgid "Manage subscribers"
+msgstr "購読者の管理"
+
+msgctxt "Languages::new_mailing_lists"
+msgid "New mailing list"
+msgstr "メルマガの追加"
+
+msgctxt "Languages::newsletters.new_subscribers"
+msgid "New subscribers"
+msgstr ""
+
+msgctxt "SettingsSections::newsletters::general"
+msgid "General"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::newsletters::newsletters_per_pass"
+msgid "Newsletters sent per step"
+msgstr "メールマガジンの1ステップあたりの送信件数"
+
+msgctxt "SettingsOptions::newsletters::elm_advanced_mailing_server_options"
+msgid "Advanced mailing server options"
+msgstr "メーリングサーバーの拡張設定"
+
+msgctxt "SettingsOptions::newsletters::mailer_send_method"
+msgid "Method of sending e-mails"
+msgstr "Eメールの送信方法"
+
+msgctxt "SettingsOptions::newsletters::elm_smtp_server_settings"
+msgid "SMTP server settings"
+msgstr "SMTPサーバー設定"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_host"
+msgid "SMTP host"
+msgstr "SMTPホスト"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_username"
+msgid "SMTP username"
+msgstr "SMTPユーザー名"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_password"
+msgid "SMTP password"
+msgstr "SMTPパスワード"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_ecrypted_connection"
+msgid "Use Encrypted Connection"
+msgstr "通信の暗号化方法"
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::none"
+msgid "None"
+msgstr "なし"
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::tls"
+msgid "TLS"
+msgstr "TLS"
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::ssl"
+msgid "SSL"
+msgstr "SSL"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_auth"
+msgid "Use SMTP authentication"
+msgstr "SMTP認証の使用"
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::smtp"
+msgid "via SMTP server"
+msgstr "SMTPサーバー経由"
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::mail"
+msgid "via php mail function"
+msgstr "PHPのmail関数経由"
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::default"
+msgid "use default settings"
+msgstr "デフォルト設定を使用"
+
+msgctxt "SettingsSections::newsletters::promotions"
+msgid "Promotions"
+msgstr "キャンペーン"
+
+msgctxt "SettingsOptions::newsletters::coupon"
+msgid "Choose a promotion whose promo code will be given at subscription"
+msgstr "購読申込時に適用されるキャンペーンのコードを指定してください"
+
+msgctxt "Languages::subscribers_promo_subject"
+msgid "Thank you for subscribing! Use the coupon code [coupon] in our special offer \"[promotion]\"."
+msgstr "メルマガの購読ありがとうございます！特別キャンペーン \"[promotion]\" で利用いただけるクーポンコードは [coupon] となります。"
+
+msgctxt "Languages::subscribers_no_promo"
+msgid "No promotion"
+msgstr "指定しない"
+
+msgctxt "Languages::promotion_cond_subscribed"
+msgid "Customer is subscribed"
+msgstr "メルマガ未購読のお客様"
+
+msgctxt "Languages::addons.newsletters.email_exists_in_list"
+msgid "<b>[email]</b> is already in the mailing list"
+msgstr ""
+
+msgctxt "Languages::email_template.newsletters_newsletter"
+msgid "Newsletter"
+msgstr ""
+
+msgctxt "Languages::email_template.newsletters_promotion"
+msgid "Newsletters: promotion"
+msgstr ""
+

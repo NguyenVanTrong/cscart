@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /addons/janrain.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2016-11-28 04:04-0500\n"
+
+msgctxt "Addons::name::janrain"
+msgid "Janrain"
+msgstr "JanRain"
+
+msgctxt "Addons::description::janrain"
+msgid "Adds the Social Login feature; allows customers use Facebook, Twitter, etc. to log in on the store"
+msgstr "Fügt eine Social Login-Funktion hinzu und ermöglicht es damit Kunden Facebook, Twitter, etc. zu verwenden um sich im Store einloggen"
+
+msgctxt "Languages::janrain_general_info"
+msgid "<p>Get these values and configure social login at <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+msgstr "<p>Benutzen Sie diese Daten um die Anmeldeoption über soziale Netzwerke per <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a> zu konfigurieren.</p>"
+
+msgctxt "Languages::janrain_social_login"
+msgid "Social login"
+msgstr "Anmeldung über soziale Netzwerke"
+
+msgctxt "Languages::janrain_need_update_profile"
+msgid "The \"Password\" field and some other mandatory fields are empty at the moment. Please update your profile."
+msgstr "Das Feld \"Passwort\" und einige andere Pflichtfelder sind im Moment leer. Bitte aktualisieren Sie Ihr Profil."
+
+msgctxt "Languages::janrain_cant_create_profile"
+msgid "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+msgstr "Leider konnten wir konnten wir kein Benutzerkonto und Login für den Shop aus folgenden Gründen erstellen: <br />- Sie haben sich vorher schonmal mit einem anderen OpenID-Provider angemeldet, bei dem dieselbe E-Mail-Adresse verwendet wird.<br />- Sie haben sich schon mit dieser E-Mail-Adresse in unserem Shop registriert.<br />Bitte kontaktieren Sie den Shopbesitzer, um das Problem zu beheben."
+
+msgctxt "SettingsSections::janrain::general"
+msgid "General"
+msgstr "Allgemein"
+
+msgctxt "SettingsOptions::janrain::general_info"
+msgid "General info"
+msgstr "Allgemeine Info"
+
+msgctxt "SettingsOptions::janrain::apikey"
+msgid "API Key"
+msgstr "API Schlüssel"
+
+msgctxt "SettingsOptions::janrain::appdomain"
+msgid "Application Domain"
+msgstr "Domain der Anwendung"
+

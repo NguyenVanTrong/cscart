@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/divido.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::divido"
+msgid "Divido payments"
+msgstr "Thanh toán Divido"
+
+msgctxt "Addons::description::divido"
+msgid "Lets customers spread the cost of any purchase over a period of time while the merchant gets paid in full right away."
+msgstr "Cho phép khách trải chi phí mua bất kỳ trong một khoảng thời gian trong khi các thương gia được trả đầy đủ ngay lập tức."
+
+msgctxt "Languages::addons.divido.select_currency_undefined"
+msgid "The [currency] currency is not set up in store"
+msgstr "Loại tiền [currency] không được thiết lập trong cửa hàng"
+
+msgctxt "Languages::addons.divido.order_status"
+msgid "Divido status"
+msgstr "Trạng thái Divido"
+
+msgctxt "Languages::addons.divido"
+msgid "Divido"
+msgstr "Divido"
+
+msgctxt "Languages::addons.divido.pay_in_instalments"
+msgid "Pay in instalments"
+msgstr "Thanh toán trong đợt"
+
+msgctxt "Languages::addons.divido.choose_your_plan"
+msgid "Choose your plan"
+msgstr "Chọn kế hoạch của bạn"
+
+msgctxt "Languages::addons.divido.choose_your_deposit"
+msgid "Choose your deposit"
+msgstr "Lựa chọn tiền gửi của bạn"
+
+msgctxt "Languages::addons.divido.monthly_payments_of"
+msgid "monthly payments of"
+msgstr "các khoản thanh toán hàng tháng của"
+
+msgctxt "Languages::addons.divido.term"
+msgid "Term"
+msgstr "Điều khoản"
+
+msgctxt "Languages::addons.divido.deposit"
+msgid "Deposit"
+msgstr "Tiền gửi"
+
+msgctxt "Languages::addons.divido.cost_of_credit"
+msgid "Cost of credit"
+msgstr "Chi phí tín dụng"
+
+msgctxt "Languages::addons.divido.total_payable"
+msgid "Total payable"
+msgstr "Tổng số nợ phải trả"
+
+msgctxt "Languages::addons.divido.total_interest_apr"
+msgid "Total interest APR"
+msgstr "Tổng quan APR"
+
+msgctxt "Languages::addons.divido.text_redirected"
+msgid "You will be redirected to Divido to complete this finance application when you place your order"
+msgstr "Bạn sẽ được chuyển hướng đến Divido để hoàn thành ứng dụng tài chính này khi bạn đặt hàng"
+
+msgctxt "Languages::addons.divido.cart_amount_limit"
+msgid "Minimum order total"
+msgstr "Số lượng đặt hàng tối thiểu"
+
+msgctxt "Languages::addons.divido.monthly_instalment"
+msgid "Monthly instalment"
+msgstr "Khoản trả góp hàng tháng"
+
+msgctxt "Languages::ttc_addons.divido.cart_amount_limit"
+msgid "The order total has to be equal or greater than this sum, or the payment method won't be available at checkout. Leave empty if you don't want to impose this restriction."
+msgstr "Tổng đơn đặt hàng đã bằng hoặc lớn hơn số tiền này, hoặc phương thức thanh toán sẽ không có sẵn tại thanh toán. Để trống nếu bạn không muốn áp đặt các hạn chế này."
+
+msgctxt "Languages::addons.divido.show_product_page_calculator"
+msgid "Show monthly payment rate on the product page"
+msgstr "Hiển thị tỷ lệ thanh toán hàng tháng trên trang sản phẩm"
+
+msgctxt "Languages::addons.divido.product_price_limit"
+msgid "Minimum product price"
+msgstr "Giá sản phẩm tối thiểu"
+
+msgctxt "Languages::ttc_addons.divido.product_price_limit"
+msgid "The product price has to be equal or greater than this sum, or the monthly payment rate won't appear on the product page. Leave empty if you don't want to impose this restriction."
+msgstr "Giá sản phẩm đã bằng hoặc lớn hơn số tiền này, hoặc tỷ lệ thanh toán hàng tháng sẽ không xuất hiện trên các trang sản phẩm. Để trống nếu bạn không muốn áp đặt các hạn chế này."
+
+msgctxt "Languages::finance_code"
+msgid "Finance code"
+msgstr "Mã tài chính"
+
+msgctxt "Languages::addons.divido.availability_notice"
+msgid "<b>Note:</b> Payments via Divido are only available to the residents of the United Kingdom and can only be made in pounds sterling (GBP)."
+msgstr "<b>Lưu ý:</b> Thanh toán qua Divido chỉ có sẵn cho các cư dân của Vương Quốc Anh và chỉ có thể được thực hiện trong bảng Anh (GBP)."
+

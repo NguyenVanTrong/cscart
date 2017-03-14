@@ -1,0 +1,186 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Serbian (Cyrillic)\n"
+"Language: sr_SP\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: /addons/searchanise.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::searchanise"
+msgid "Searchanise"
+msgstr "Pretraživo"
+
+msgctxt "Addons::description::searchanise"
+msgid "Turns on the <a target=\"_blank\" href=\"http://searchanise.com/\">Searchanise</a> fast search service"
+msgstr "Aktivira <a target=\"_blank\" href=\"http://searchanise.com/\">Pretraživo</a> brzi servis pretrage"
+
+msgctxt "Languages::searchanise"
+msgid "Searchanise"
+msgstr "Pretraživo"
+
+msgctxt "Languages::text_se_import_status_queued"
+msgid "The product catalog is queued for syncing with Searchanise."
+msgstr "Katalog proizvoda je na redu za sinhronizaciju sa servisom Pretraživo."
+
+msgctxt "Languages::text_se_re_indexation_required"
+msgid "Searchanise: Re-indexation required (click the <strong>Force re-indexation</strong> button in the <a href=\"[link]\">Searchanise admin panel</a>)."
+msgstr "Pretraživo: Reindeksiranje je potrebno (kliknite na dugme <strong>Pokreni reindeksiranje</strong> u <a href=\"[link]\">Pretraživo administratorskom panelu</a>)."
+
+msgctxt "Languages::text_se_new_engine_store"
+msgid "Searchanise: New search engine for [store] created. Catalog import started."
+msgstr "Pretraživo: Nova mašina za pretragu za [store] je kreirana. Započeo uvoz kataloga."
+
+msgctxt "Languages::text_se_seo_settings_notice"
+msgid "If you have modified any SEO add-on settings, please <a href=\"[link]\">Re-indexation</a> product catalog with Searchanise to update product URLs."
+msgstr "Ukoliko ste izmenili bilo kakvo podešavanje SEO dodataka, molimo koristite <a href=\"[link]\">Reindeksiranje</a> kataloga proizvoda sa servisom Pretraživo za osvežavanje URL adresa proizvoda."
+
+msgctxt "Languages::text_se_connect_error"
+msgid "An error occurred during Searchanise registration. Please try later."
+msgstr "Nastupila greška tokom registracije servisa Pretraživo. Pokušajte ponovo kasnije."
+
+msgctxt "Languages::text_se_import_status_processing"
+msgid "The product catalog syncing is in progress."
+msgstr "Sinhronizacija kataloga proizvoda je u toku."
+
+msgctxt "Languages::text_se_import_status_done"
+msgid "The product catalog was synced successfully with Searchanise."
+msgstr "Katalog proizvoda je uspešno sinhronizovan sa servisom Pretraživo."
+
+msgctxt "Languages::text_se_import_status_none"
+msgid "The product catalog is not synced with Searchanise yet. Please press \"Sync\" button to start."
+msgstr "Katalog proizvoda još uvek nije sinhronizovan sa servisom Pretraživo. Molimo, kliknite dugme \"Sinhronizacija\" za početak."
+
+msgctxt "Languages::text_se_data_update"
+msgid "Please note that the data on Searchanise server is updated with a 2-3 minute delay after you make changes in your store."
+msgstr "Obratite pažnju na to da se podaci na serveru servisa Pretraživo osvežavaju sa 2-3 minuta zakašnjenja nakon izmena u prodavnici."
+
+msgctxt "Languages::text_se_signup"
+msgid "Click the button below to connect to Searchanise."
+msgstr "Kliknite na dugme ispod za povezivanje na servis Pretraživo."
+
+msgctxt "Languages::text_se_just_connected"
+msgid "Congratulations, you've just connected to Searchanise."
+msgstr "Čestitamo, upravo ste se uspešno povezali na servis Pretraživo."
+
+msgctxt "Languages::text_se_connected"
+msgid "You've connected to Searchanise."
+msgstr "Povezani ste na servis Pretraživo."
+
+msgctxt "Languages::text_se_database_restore_notice"
+msgid "You've just restored your data from the database dump file. If this dump contains product data, please <a href=\"[link]\">Re-indexation</a> it with Searchanise."
+msgstr "Upravo ste vratili podatke iz baze podataka u odbačenom fajlu. Ako ovaj odbačeni fajl sadrži podatke o proizvodima, koristite <a href=\"[link]\">Reindeksiranje</a> sa servisom Pretraživo."
+
+msgctxt "Languages::text_se_only_root_can_register"
+msgid "Only the root admin has the permission to connect to Searchanise"
+msgstr "Samo root administrator ima dozvolu povezivanja sa servisom Pretraživo"
+
+msgctxt "Languages::se_did_you_mean"
+msgid "Did you mean"
+msgstr "Da li ste mislili"
+
+msgctxt "Languages::se_product_id"
+msgid "Product Id"
+msgstr "ID proizvoda"
+
+msgctxt "Languages::se_title"
+msgid "Title"
+msgstr "Naziv"
+
+msgctxt "Languages::se_summary"
+msgid "Description"
+msgstr "Opis"
+
+msgctxt "Languages::se_link"
+msgid "Product Url"
+msgstr "URL adresa proizvoda"
+
+msgctxt "Languages::se_price"
+msgid "Price"
+msgstr "Cena"
+
+msgctxt "Languages::se_list_price"
+msgid "List Price"
+msgstr ""
+
+msgctxt "Languages::se_quantity"
+msgid "Quantity"
+msgstr "Količina"
+
+msgctxt "Languages::se_product_code"
+msgid "Product Code"
+msgstr "Kod proizvoda"
+
+msgctxt "Languages::se_image_link"
+msgid "Image Url"
+msgstr "URL adresa slike"
+
+msgctxt "Languages::se_category_Id"
+msgid "Category Id"
+msgstr "ID kategorije"
+
+msgctxt "Languages::se_category_usergroup_ids"
+msgid "Category Usergroup Ids"
+msgstr "ID-ji kategorija korisničkih grupa"
+
+msgctxt "Languages::se_usergroup_ids"
+msgid "Usergroup Ids"
+msgstr "ID-ji korisničkih grupa"
+
+msgctxt "Languages::se_company_id"
+msgid "Company Id"
+msgstr "ID preduzeća"
+
+msgctxt "Languages::se_empty_categories"
+msgid "Without Categories"
+msgstr "Bez kategorija"
+
+msgctxt "Languages::se_active_companies"
+msgid "Company is active"
+msgstr ""
+
+msgctxt "Languages::se_price_for_usergroup_id"
+msgid "Price for usergroup Id ([id])"
+msgstr "Cena za ID korisničke grupe ([id])"
+
+msgctxt "Languages::se_for_feature_id"
+msgid "Feature \"[id]\" Id"
+msgstr "ID funkcije \"[id]\""
+
+msgctxt "Languages::se_relevance"
+msgid "Relevance"
+msgstr "Relevantnost"
+
+msgctxt "Languages::se_products"
+msgid "Products"
+msgstr "Proizvodi"
+
+msgctxt "Languages::se_popular_suggestions"
+msgid "Popular suggestions"
+msgstr "Popularni predlozi"
+
+msgctxt "Languages::sort_by_relevance_asc"
+msgid "Sort by Relevance"
+msgstr "Sortiraj po relevantnosti"
+
+msgctxt "Languages::se_api_key"
+msgid "API key"
+msgstr "API ključ"
+
+msgctxt "Languages::se_private_key"
+msgid "Private key"
+msgstr "Privatni ključ"
+
+msgctxt "Languages::se_options_combinations_codes"
+msgid "Options combinations codes"
+msgstr ""
+
+msgctxt "SettingsSections::searchanise::configuration"
+msgid "Configuration"
+msgstr "Konfiguracija"
+

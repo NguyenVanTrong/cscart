@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Serbian (Cyrillic)\n"
+"Language: sr_SP\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: /addons/data_feeds.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 11:08-0500\n"
+
+msgctxt "Addons::name::data_feeds"
+msgid "Data feeds"
+msgstr "Izvori podataka"
+
+msgctxt "Addons::description::data_feeds"
+msgid "Makes it possible to create product data feeds in CSV"
+msgstr "Omogućuje kreiranje izvora podataka o proizvodima u CSV"
+
+msgctxt "Languages::data_feeds"
+msgid "Data feeds"
+msgstr "Izvori podataka"
+
+msgctxt "Languages::data_feed"
+msgid "Data feed"
+msgstr "Izvor podataka"
+
+msgctxt "Languages::export_by_cron"
+msgid "Export by cron"
+msgstr "Izvezi preko cron"
+
+msgctxt "Languages::export_by_cron_to"
+msgid "Export by cron to"
+msgstr "Izvezi preko cron to"
+
+msgctxt "Languages::add_new_datafeed"
+msgid "New data feed"
+msgstr "Novi izvor podataka"
+
+msgctxt "Languages::add_datafeed"
+msgid "Add data feed"
+msgstr "Dodaj izvor podataka"
+
+msgctxt "Languages::datafeed_name"
+msgid "Data feed name"
+msgstr "Naziv izvora podataka"
+
+msgctxt "Languages::save_directory"
+msgid "Server directory"
+msgstr "Direktorijum servera"
+
+msgctxt "Languages::ftp_url"
+msgid "FTP server"
+msgstr "FTP server"
+
+msgctxt "Languages::ftp_url_hint"
+msgid "The format is: FTPHOST[:PORT][/DIRECTORY]. Example: ftp.yourhost.com:21/home/username/folder"
+msgstr "Format je: FTPHOST[:PORT][/DIRECTORY]. Naprimer: ftp.yourhost.com:21/home/username/folder"
+
+msgctxt "Languages::ftp_user"
+msgid "FTP username"
+msgstr "Korisničko ime za FTP"
+
+msgctxt "Languages::ftp_pass"
+msgid "FTP password"
+msgstr "Lozinka za FTP"
+
+msgctxt "Languages::fields"
+msgid "Fields"
+msgstr "Polja"
+
+msgctxt "Languages::field_name"
+msgid "Field name"
+msgstr "Naziv polja"
+
+msgctxt "Languages::field_type"
+msgid "Field type"
+msgstr "Tip polja"
+
+msgctxt "Languages::map_fields"
+msgid "Fields mapping"
+msgstr "Mapiranje polja"
+
+msgctxt "Languages::update_datafeed"
+msgid "Editing data feed"
+msgstr "Izmena izvora podataka"
+
+msgctxt "Languages::export_cron_hint"
+msgid "Use the following line to run the script according to schedule"
+msgstr "Koristi sledeću liniju za pokretanje skripte u skladu sa rasporedom"
+
+msgctxt "Languages::exported_items"
+msgid "Exported items"
+msgstr "Izvezeni objekti"
+
+msgctxt "Languages::ftp_connection_problem"
+msgid "Unable connect to FTP server. Please, check FTP connection information"
+msgstr "Nemoguće povezivanje na FTP server. Molimo, proverite podatke o FTP nalogu"
+
+msgctxt "Languages::categories_products"
+msgid "Products from categories"
+msgstr "Proizvodi iz kategorija"
+
+msgctxt "Languages::local_export"
+msgid "Download"
+msgstr "Preuzimanje"
+
+msgctxt "Languages::upload_to_ftp"
+msgid "Upload to FTP server"
+msgstr "Pošalji na FTP server"
+
+msgctxt "Languages::cron_export"
+msgid "Cron export settings"
+msgstr "Podešavanja Cron export"
+
+msgctxt "Languages::export_to_server"
+msgid "Export to server"
+msgstr "Izvezi na server"
+
+msgctxt "Languages::export_to_ftp"
+msgid "FTP server options"
+msgstr "Opcije FTP servera"
+
+msgctxt "Languages::ftp"
+msgid "FTP"
+msgstr "FTP"
+
+msgctxt "Languages::check_server_export_settings"
+msgid "Check server export settings"
+msgstr "Proveri podešavanja izvoza sa servera"
+
+msgctxt "Languages::exclude_disabled_products"
+msgid "Exclude disabled products"
+msgstr "Izuzmi onemogućene proizvode"
+
+msgctxt "Languages::general_settings"
+msgid "General settings"
+msgstr "Opšta podešavanja"
+
+msgctxt "Languages::enclosure"
+msgid "Enclosure"
+msgstr "Prilog"
+
+msgctxt "SettingsSections::data_feeds::general"
+msgid "General"
+msgstr "Opšte"
+
+msgctxt "SettingsOptions::data_feeds::cron_password"
+msgid "Cron password"
+msgstr "Cron lozinka"
+
+msgctxt "Languages::data_feed.error_exim_no_data_exported"
+msgid "No data exported"
+msgstr "Podaci nisu izvezeni"
+
+msgctxt "Languages::data_feeds.text_tooltip_field_name"
+msgid "The name of the column in the data feed file."
+msgstr ""
+
+msgctxt "Languages::data_feeds.text_tooltip_field_type"
+msgid "The type of data from your store which will be exported to this column of the data feed file."
+msgstr ""
+

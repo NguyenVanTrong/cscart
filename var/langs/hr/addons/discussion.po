@@ -1,0 +1,462 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Croatian\n"
+"Language: hr_HR\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: hr\n"
+"X-Crowdin-File: /addons/discussion.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:01-0500\n"
+
+msgctxt "Addons::name::discussion"
+msgid "Comments and reviews"
+msgstr "Komentari i recenzije"
+
+msgctxt "Addons::description::discussion"
+msgid "Lets customers leave comments to products, categories, orders, etc., review products and write testimonials"
+msgstr "Omogućuje korisnicima da napišu komentare na proizvode, kategorije, narudžbe, itd., pregled proizvoda i napiši svjedočanstva"
+
+msgctxt "Languages::use_for_discussion"
+msgid "Comments and reviews forms"
+msgstr "Komentari i recenzije"
+
+msgctxt "Languages::comments_and_reviews_menu_description"
+msgid "Customer comments and reviews on products, categories, orders, etc."
+msgstr "Pročitaj recenzije kupaca proizvoda, kategorije, narudžbi, itd."
+
+msgctxt "Languages::discussion_title_category"
+msgid "Reviews"
+msgstr "Recenzije"
+
+msgctxt "Languages::discussion_title_giftreg"
+msgid "Guestbook"
+msgstr "Knjiga gostiju"
+
+msgctxt "Languages::discussion_title_home_page_menu_description"
+msgid "Manage the testimonials from your store visitors."
+msgstr "Upravljanje svjedočanstvima posjetitelja iz vaše trgovine."
+
+msgctxt "Languages::discussion_title_order"
+msgid "Communication"
+msgstr "Komunikacija"
+
+msgctxt "Languages::discussion_title_page"
+msgid "Comments"
+msgstr "Komentari"
+
+msgctxt "Languages::discussion_title_product"
+msgid "Reviews"
+msgstr "Recenzije"
+
+msgctxt "Languages::discussion_title_return"
+msgid "Communication"
+msgstr "Komunikacija"
+
+msgctxt "Languages::no_posts_found"
+msgid "No posts found"
+msgstr "Nema postova"
+
+msgctxt "Languages::your_rating"
+msgid "Your rating"
+msgstr "Vaša Ocjena"
+
+msgctxt "Languages::comments_and_reviews"
+msgid "Comments and reviews"
+msgstr "Komentari i recenzije"
+
+msgctxt "Languages::discussion_title_home_page"
+msgid "Testimonials"
+msgstr "Svjedočanstva"
+
+msgctxt "Languages::text_enabled_testimonials_notice"
+msgid "Testimonials are disabled. To enable, please go to <a href=\"[link]\">Comments and reviews: options</a> and select the \"Communication\", \"Rating\" or \"Communication and Rating\" value in \"Testimonials\" field."
+msgstr "Svjedočanstva su onemogućena. Da biste omogućili, molimo idite na <a href=\"[link]\"> Komentari i recenzije: mogućnosti</a> i odaberite \"Komunikacija\", \"Ocjena\" ili \"Komunikacija i Ocjena\" vrijednost u polju \"Svjedočanstva\"."
+
+msgctxt "Languages::discussion_title_company"
+msgid "Reviews"
+msgstr "Recenzije"
+
+msgctxt "Languages::communication"
+msgid "Communication"
+msgstr "Komunikacija"
+
+msgctxt "Languages::rating"
+msgid "Rating"
+msgstr "Ocjena"
+
+msgctxt "Languages::cant_find_thread"
+msgid "Thread can not be found."
+msgstr "Temu nije moguće pronaći."
+
+msgctxt "Languages::error_already_posted"
+msgid "You have posted in this discussion already"
+msgstr "Sudjelovali ste u ovoj raspravi već"
+
+msgctxt "Languages::text_thank_you_for_post"
+msgid "Thank you for your post"
+msgstr "Hvala vam za vaš post"
+
+msgctxt "Languages::text_post_pended"
+msgid "Your post will be checked before it gets published."
+msgstr "Tvoj post će biti provjeren  prije nego što bude objavljen."
+
+msgctxt "Languages::discussion"
+msgid "Comments and reviews"
+msgstr "Komentari i recenzije"
+
+msgctxt "Languages::text_new_post_notification"
+msgid "This is a notification of a new post to"
+msgstr "Ovo je obavijest o novom postu na"
+
+msgctxt "Languages::text_approval_notice"
+msgid "This post needs approving"
+msgstr "Ovaj post treba odobrenje"
+
+msgctxt "Languages::latest_reviews"
+msgid "Latest comments & reviews"
+msgstr "Najnoviji komentari & recenzije"
+
+msgctxt "Languages::comment_by"
+msgid "Comment by"
+msgstr "Komentar od"
+
+msgctxt "Languages::and"
+msgid "and"
+msgstr "i"
+
+msgctxt "Languages::add_post"
+msgid "Add post"
+msgstr "Dodaj post"
+
+msgctxt "Languages::not_approved"
+msgid "Not approved"
+msgstr "Nije odobren"
+
+msgctxt "Languages::discussion_manager"
+msgid "Comments and reviews"
+msgstr "Komentari i recenzije"
+
+msgctxt "Languages::testimonials"
+msgid "Testimonials"
+msgstr "Svjedočanstva"
+
+msgctxt "Languages::privileges.view_discussions"
+msgid "View comments and reviews"
+msgstr "Prikaz Komentari i recenzije"
+
+msgctxt "Languages::privileges.manage_discussions"
+msgid "Manage comments and reviews"
+msgstr "Upravljanje Komentari i recenzije"
+
+msgctxt "Languages::block_testimonials"
+msgid "Testimonials"
+msgstr "Svjedočanstva"
+
+msgctxt "Languages::block_testimonials_description"
+msgid "User testimonials"
+msgstr "Izjave korisnika"
+
+msgctxt "Languages::sort_by_rating_asc"
+msgid "Sort by rating: Low to High"
+msgstr "Sortiraj po ocjeni: od niskih prema visokima"
+
+msgctxt "Languages::sort_by_rating_desc"
+msgid "Sort by rating"
+msgstr "Sortiraj po ocjeni"
+
+msgctxt "Languages::reviews"
+msgid "review|reviews"
+msgstr "Review|Reviews"
+
+msgctxt "Languages::write_review"
+msgid "Write a review"
+msgstr "Napiši recenziju"
+
+msgctxt "SettingsSections::discussion::products"
+msgid "Products"
+msgstr "Proizvodi"
+
+msgctxt "SettingsSections::discussion::categories"
+msgid "Categories"
+msgstr "Kategorije"
+
+msgctxt "SettingsSections::discussion::orders"
+msgid "Orders"
+msgstr "Narudžbe"
+
+msgctxt "SettingsSections::discussion::gift_registry"
+msgid "Gift registry"
+msgstr "Popis darova"
+
+msgctxt "SettingsSections::discussion::pages"
+msgid "Pages"
+msgstr "Stranice"
+
+msgctxt "SettingsSections::discussion::testimonials"
+msgid "Testimonials"
+msgstr "Svjedočanstva"
+
+msgctxt "SettingsSections::discussion::companies"
+msgid "Vendors"
+msgstr "Dobavljači"
+
+msgctxt "SettingsOptions::discussion::product_posts_per_page"
+msgid "Posts per page"
+msgstr "Postova po stranici"
+
+msgctxt "SettingsOptions::discussion::product_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Administrator mora odobriti postove koje podnose"
+
+msgctxt "SettingsOptions::discussion::product_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Dopušten je samo jedan post od jedne IP"
+
+msgctxt "SettingsOptions::discussion::product_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Pošalji obavijesti na e-mail"
+
+msgctxt "SettingsOptions::discussion::product_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Slanje obavijesti prodavatelju"
+
+msgctxt "SettingsOptions::discussion::product_share_discussion"
+msgid "Share discussion with product"
+msgstr "Podijelite razgovor s proizvodom"
+
+msgctxt "SettingsOptions::discussion::category_posts_per_page"
+msgid "Posts per page"
+msgstr "Postova po stranici"
+
+msgctxt "SettingsOptions::discussion::category_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Administrator mora odobriti postove koje podnose"
+
+msgctxt "SettingsOptions::discussion::category_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Dopušten je samo jedan post od jedne IP"
+
+msgctxt "SettingsOptions::discussion::category_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Pošalji obavijesti na e-mail"
+
+msgctxt "SettingsOptions::discussion::order_posts_per_page"
+msgid "Posts per page"
+msgstr "Postova po stranici"
+
+msgctxt "SettingsOptions::discussion::order_initiate"
+msgid "Allow customer to initiate discussion"
+msgstr "Dopustite kupcu da pokrene raspravu"
+
+msgctxt "SettingsOptions::discussion::order_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Slanje obavijesti prodavatelju"
+
+msgctxt "SettingsOptions::discussion::giftreg_posts_per_page"
+msgid "Posts per page"
+msgstr "Postova po stranici"
+
+msgctxt "SettingsOptions::discussion::giftreg_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Dopušten je samo jedan post od jedne IP"
+
+msgctxt "SettingsOptions::discussion::page_posts_per_page"
+msgid "Posts per page"
+msgstr "Postova po stranici"
+
+msgctxt "SettingsOptions::discussion::page_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Administrator mora odobriti postove koje podnose"
+
+msgctxt "SettingsOptions::discussion::page_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Dopušten je samo jedan post od jedne IP"
+
+msgctxt "SettingsOptions::discussion::page_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Pošalji obavijesti na e-mail"
+
+msgctxt "SettingsOptions::discussion::page_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Slanje obavijesti prodavatelju"
+
+msgctxt "SettingsOptions::discussion::page_share_discussion"
+msgid "Share discussion with page"
+msgstr "Podijeli rasprave s stranicom"
+
+msgctxt "SettingsOptions::discussion::home_page_posts_per_page"
+msgid "Posts per page"
+msgstr "Postova po stranici"
+
+msgctxt "SettingsOptions::discussion::home_page_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Administrator mora odobriti postove koje podnose"
+
+msgctxt "SettingsOptions::discussion::home_page_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Dopušten je samo jedan post od jedne IP"
+
+msgctxt "SettingsOptions::discussion::home_page_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Pošalji obavijesti na e-mail"
+
+msgctxt "SettingsOptions::discussion::home_page_testimonials"
+msgid "Testimonials"
+msgstr "Svjedočanstva"
+
+msgctxt "SettingsOptions::discussion::testimonials_from_all_stores"
+msgid "Show testimonials from all stores"
+msgstr "Pokaži izjave od svih dućana"
+
+msgctxt "SettingsOptions::discussion::company_discussion_type"
+msgid "Reviews"
+msgstr "Recenzije"
+
+msgctxt "SettingsOptions::discussion::company_only_buyers"
+msgid "Allow to post only for the customers who has bought somethins from the vendor"
+msgstr "Dopustite da objavite samo za kupce koji su kupili nešto od dobavljača"
+
+msgctxt "SettingsOptions::discussion::company_posts_per_page"
+msgid "Posts per page"
+msgstr "Postova po stranici"
+
+msgctxt "SettingsOptions::discussion::company_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Administrator mora odobriti postove koje podnose"
+
+msgctxt "SettingsOptions::discussion::company_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Dopušten je samo jedan post od jedne IP"
+
+msgctxt "SettingsOptions::discussion::company_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Pošalji obavijesti na e-mail"
+
+msgctxt "SettingsOptions::discussion::company_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Slanje obavijesti prodavatelju"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::any"
+msgid "Any customer"
+msgstr "Svaki kupac"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Samo anonimni kupci"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Nije potrebno odobrenje"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::B"
+msgid "Communication and Rating"
+msgstr "Komunikacija i Ocjena"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::C"
+msgid "Communication"
+msgstr "Komunikacija"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::R"
+msgid "Rating"
+msgstr "Ocjena"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::D"
+msgid "Disabled"
+msgstr "Isključen"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::any"
+msgid "Any customer"
+msgstr "Svaki kupac"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Samo anonimni kupci"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Nije potrebno odobrenje"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::any"
+msgid "Any customer"
+msgstr "Svaki kupac"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Samo anonimni kupci"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Nije potrebno odobrenje"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::any"
+msgid "Any customer"
+msgstr "Svaki kupac"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Samo anonimni kupci"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Nije potrebno odobrenje"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::any"
+msgid "Any customer"
+msgstr "Svaki kupac"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Samo anonimni kupci"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Nije potrebno odobrenje"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::B"
+msgid "Communication and Rating"
+msgstr "Komunikacija i Ocjena"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::C"
+msgid "Communication"
+msgstr "Komunikacija"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::R"
+msgid "Rating"
+msgstr "Ocjena"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::D"
+msgid "Disabled"
+msgstr "Isključen"
+
+msgctxt "Languages::discussion_tab_products"
+msgid "Product Reviews"
+msgstr ""
+
+msgctxt "Languages::discussion_tab_categories"
+msgid "Category Reviews"
+msgstr ""
+
+msgctxt "Languages::discussion_tab_pages"
+msgid "Page Comments"
+msgstr ""
+
+msgctxt "Languages::discussion_tab_orders"
+msgid "Order Communication"
+msgstr ""
+
+msgctxt "Languages::discussion_tab_home_page"
+msgid "Testimonials"
+msgstr ""
+
+msgctxt "Languages::discussion_tab_companies"
+msgid "Company Reviews"
+msgstr ""
+
+msgctxt "Languages::email_template.discussion_notification"
+msgid "Comments and reviews notification"
+msgstr ""
+

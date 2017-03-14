@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /addons/attachments.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2016-11-28 04:04-0500\n"
+
+msgctxt "Addons::name::attachments"
+msgid "Attachments"
+msgstr "Anhänge"
+
+msgctxt "Addons::description::attachments"
+msgid "Makes it possible to attach files to products"
+msgstr "Ermöglicht das Anhängen von Dateien an Artikel"
+
+msgctxt "Languages::attachments"
+msgid "Attachments"
+msgstr "Anhänge"
+
+msgctxt "Languages::new_attachment"
+msgid "New attachment"
+msgstr "Neuer Anhang"
+
+msgctxt "Languages::add_attachment"
+msgid "Add attachment"
+msgstr "Anhang hinzufügen"
+
+msgctxt "Languages::editing_attachment"
+msgid "Editing attachment"
+msgstr "Anhang bearbeiten"
+

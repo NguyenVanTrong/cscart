@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /addons/data_feeds.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 11:09-0500\n"
+
+msgctxt "Addons::name::data_feeds"
+msgid "Data feeds"
+msgstr "Поля даних"
+
+msgctxt "Addons::description::data_feeds"
+msgid "Makes it possible to create product data feeds in CSV"
+msgstr "Експорт каталогу товарів у вигляді CSV-файлу; автоматичний експорт за розкладом"
+
+msgctxt "Languages::data_feeds"
+msgid "Data feeds"
+msgstr "Прайс-листи"
+
+msgctxt "Languages::data_feed"
+msgid "Data feed"
+msgstr "Поля даних"
+
+msgctxt "Languages::export_by_cron"
+msgid "Export by cron"
+msgstr "Експортувати, використовуючи cron"
+
+msgctxt "Languages::export_by_cron_to"
+msgid "Export by cron to"
+msgstr "Експортувати cron до"
+
+msgctxt "Languages::add_new_datafeed"
+msgid "New data feed"
+msgstr "Новий прайс-лист"
+
+msgctxt "Languages::add_datafeed"
+msgid "Add data feed"
+msgstr "Додати прайс-лист"
+
+msgctxt "Languages::datafeed_name"
+msgid "Data feed name"
+msgstr "Назва прайс-листа"
+
+msgctxt "Languages::save_directory"
+msgid "Server directory"
+msgstr "Каталог сервера"
+
+msgctxt "Languages::ftp_url"
+msgid "FTP server"
+msgstr "FTP-сервер"
+
+msgctxt "Languages::ftp_url_hint"
+msgid "The format is: FTPHOST[:PORT][/DIRECTORY]. Example: ftp.yourhost.com:21/home/username/folder"
+msgstr "Формат: FTPHOST[:PORT][/DIRECTORY]. Приклад: ftp.yourhost.com:21/home/username/folder"
+
+msgctxt "Languages::ftp_user"
+msgid "FTP username"
+msgstr "Ім'я користувача FTP"
+
+msgctxt "Languages::ftp_pass"
+msgid "FTP password"
+msgstr "FTP пароль"
+
+msgctxt "Languages::fields"
+msgid "Fields"
+msgstr "Поля"
+
+msgctxt "Languages::field_name"
+msgid "Field name"
+msgstr "Ім'я поля"
+
+msgctxt "Languages::field_type"
+msgid "Field type"
+msgstr "Тип поля"
+
+msgctxt "Languages::map_fields"
+msgid "Fields mapping"
+msgstr "Таблиця відповідності полів"
+
+msgctxt "Languages::update_datafeed"
+msgid "Editing data feed"
+msgstr "Редагування прайс-листа"
+
+msgctxt "Languages::export_cron_hint"
+msgid "Use the following line to run the script according to schedule"
+msgstr "Використовуйте наступну команду для запуску скрипта за розкладом"
+
+msgctxt "Languages::exported_items"
+msgid "Exported items"
+msgstr "Експортовані елементи"
+
+msgctxt "Languages::ftp_connection_problem"
+msgid "Unable connect to FTP server. Please, check FTP connection information"
+msgstr "Не вдається підключитися до FTP-сервера. Перевірте відомості про підключення FTP"
+
+msgctxt "Languages::categories_products"
+msgid "Products from categories"
+msgstr "Вироби з категорії"
+
+msgctxt "Languages::local_export"
+msgid "Download"
+msgstr "Завантажити"
+
+msgctxt "Languages::upload_to_ftp"
+msgid "Upload to FTP server"
+msgstr "Завантажити на FTP-сервер"
+
+msgctxt "Languages::cron_export"
+msgid "Cron export settings"
+msgstr "Параметри експорту cron"
+
+msgctxt "Languages::export_to_server"
+msgid "Export to server"
+msgstr "Експорт до сервера"
+
+msgctxt "Languages::export_to_ftp"
+msgid "FTP server options"
+msgstr "Параметри FTP-сервера"
+
+msgctxt "Languages::ftp"
+msgid "FTP"
+msgstr "FTP"
+
+msgctxt "Languages::check_server_export_settings"
+msgid "Check server export settings"
+msgstr "Перевірте параметри експорту сервер"
+
+msgctxt "Languages::exclude_disabled_products"
+msgid "Exclude disabled products"
+msgstr "Виключити неактивні товари"
+
+msgctxt "Languages::general_settings"
+msgid "General settings"
+msgstr "Загальні параметри"
+
+msgctxt "Languages::enclosure"
+msgid "Enclosure"
+msgstr "Обрамляючий символ"
+
+msgctxt "SettingsSections::data_feeds::general"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "SettingsOptions::data_feeds::cron_password"
+msgid "Cron password"
+msgstr "Cron пароль"
+
+msgctxt "Languages::data_feed.error_exim_no_data_exported"
+msgid "No data exported"
+msgstr ""
+
+msgctxt "Languages::data_feeds.text_tooltip_field_name"
+msgid "The name of the column in the data feed file."
+msgstr ""
+
+msgctxt "Languages::data_feeds.text_tooltip_field_type"
+msgid "The type of data from your store which will be exported to this column of the data feed file."
+msgstr ""
+

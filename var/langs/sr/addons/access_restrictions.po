@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Serbian (Cyrillic)\n"
+"Language: sr_SP\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: /addons/access_restrictions.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::access_restrictions"
+msgid "Access restrictions"
+msgstr "Ograničenja pristupa"
+
+msgctxt "Addons::description::access_restrictions"
+msgid "Lets you limit storefront and administrator area access to certain IP-addresses with different options"
+msgstr "Omogućuje ograničenje pristupa korisničkom i administratorskom delu određenim IP adresama uz korišćenje različitih opcija"
+
+msgctxt "Languages::access_restrictions"
+msgid "Access restrictions"
+msgstr "Ograničenja pristupa"
+
+msgctxt "Languages::add_ips"
+msgid "Add IPs"
+msgstr "Dodaj IP adrese"
+
+msgctxt "Languages::new_ips"
+msgid "New IPs"
+msgstr "Nove IP adrese"
+
+msgctxt "Languages::add_domains"
+msgid "Add domains"
+msgstr "Dodaj domene"
+
+msgctxt "Languages::new_domains"
+msgid "New domains"
+msgstr "Novi domeni"
+
+msgctxt "Languages::add_emails"
+msgid "Add e-mail addresses"
+msgstr "Dodaj e-mail adrese"
+
+msgctxt "Languages::new_emails"
+msgid "New e-mail addresses"
+msgstr "Nove e-mail adrese"
+
+msgctxt "Languages::new_credit_card"
+msgid "New credit card"
+msgstr "Nova platna kartica"
+
+msgctxt "Languages::add_credit_card"
+msgid "Add credit card"
+msgstr "Dodaj platnu karticu"
+
+msgctxt "Languages::privileges.manage_access_restrictions"
+msgid "Manage access restrictions"
+msgstr "Upravljaj ograničenjima pristupa"
+
+msgctxt "Languages::domain"
+msgid "Domain"
+msgstr "Domen"
+
+msgctxt "Languages::warning_of_ip_adding"
+msgid "The entered IP address <b>[entered_ip]</b> forbids access to the administration panel from your computer (your IP is <b>[your_ip]</b>)."
+msgstr "Uneta IP adresa <b>[entered_ip]</b> zabranjuje pristup administratorskom panelu sa Vašeg računara (Vaša IP adresa je <b>[your_ip]</b>)."
+
+msgctxt "Languages::text_cc_number_is_blocked"
+msgid "The credit card number <b>[cc_number]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "Broj platne kartice <b>[cc_number]</b> je blokiran od strane administratora. Molimo, kontaktirajte administratora prodavnice ili pokušajte sa drugom karticom."
+
+msgctxt "Languages::text_not_valid_ip"
+msgid "<b>[ip]</b> is not a valid ip address."
+msgstr "<b>[ip]</b> nije ispravna IP adresa."
+
+msgctxt "Languages::text_not_valid_domain"
+msgid "<b>[domain]</b> is not a valid domain name."
+msgstr "<b>[domain]</b> nije ispravno ime domena."
+
+msgctxt "Languages::text_not_valid_cc_number"
+msgid "<b>[cc_number]</b> is not a valid credit card number."
+msgstr "<b>[cc_number]</b> nije ispravan broj platne kartice."
+
+msgctxt "Languages::text_email_is_blocked"
+msgid "The e-mail address <b>[email]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "E-mail adresa <b>[email]</b> je blokirana od strane administratora. Molimo, kontaktirajte administratora prodavnice ili pokušajte drugom e-mail adresom."
+
+msgctxt "Languages::text_ips_denied"
+msgid "You are not allowed to access this area"
+msgstr "Nije Vam dozvoljen pristup ovom delu"
+
+msgctxt "Languages::text_ip_blocked_failed_login"
+msgid "The IP was blocked after [number] unsuccessful logins"
+msgstr "IP adresa blokirana nakon [number] neuspešnih prijavljivanja"
+
+msgctxt "Languages::text_ip_is_blocked"
+msgid "Your IP address is blocked."
+msgstr "Vaša IP adresa je blokirana."
+
+msgctxt "Languages::store_admin"
+msgid "Store administrator"
+msgstr "Administrator prodavnice"
+
+msgctxt "Languages::your_ip_added"
+msgid "Your IP address <b>[ip]</b> has been added to the access restrictions table."
+msgstr "Vaša IP adresa <b>[ip]</b> je dodata u tabelu ograničenja pristupa."
+
+msgctxt "Languages::your_ip_enabled"
+msgid "Your IP address <b>[ip]</b> has been enabled in the access restrictions table."
+msgstr "Vaša IP adresa <b>[ip]</b> je omogućena u tabeli ograničenja pristupa."
+
+msgctxt "Languages::your_ip_removed"
+msgid "Your IP address <b>[ip]</b> has been removed from the access restrictions table."
+msgstr "Vaša IP adresa <b>[ip]</b> je uklonjena iz tabele ogranjčenja pristupa."
+
+msgctxt "Languages::ip_from"
+msgid "IP from"
+msgstr "IP opseg od"
+
+msgctxt "Languages::ip_to"
+msgid "IP to"
+msgstr "IP opseg do"
+
+msgctxt "Languages::text_access_notice"
+msgid "You can use the wildcards for the \"Domain\", \"E-mail\" and \"Credit Card\" tabs: <br /><b>*</b> - can represent any number of characters, including zero<br /><b>?</b> - can represent any single character."
+msgstr "Možete koristiti džokere za \"Domen\", \"E-mail\" i \"Platna kartica\" jezičke: <br /><b>*</b> - može zamenjivati bilo koliki broj karaktera, uključujući i nulu<br /><b>?</b> - može zamenjivati bilo koji pojedinačni karakter."
+
+msgctxt "Languages::ips"
+msgid "IPs"
+msgstr "IP adrese"
+
+msgctxt "Languages::make_permanent"
+msgid "Make permanent"
+msgstr "Postavi trajno"
+
+msgctxt "Languages::credit_card_number"
+msgid "Credit card number"
+msgstr "Broj platne kartice"
+
+msgctxt "SettingsSections::access_restrictions::general"
+msgid "General"
+msgstr "Opšte"
+
+msgctxt "SettingsOptions::access_restrictions::elm_administrator_area_settings"
+msgid "Administrator area settings"
+msgstr "Podešavanja administratorske sekcije"
+
+msgctxt "SettingsOptions::access_restrictions::admin_reverse_ip_access"
+msgid "Allow login to the admin area from specified IPs only"
+msgstr "Dozvoljava prijavu u administratorsku sekciju samo sa određenih IP adresa"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "Blokiranje IP adrese nakon više neuspešnih prijava"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts"
+msgid "Number of unsuccessful attempts"
+msgstr "Broj neuspešnih prijava"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "Vreme između neuspešnih prijava (u sekundama)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "Vreme koje će IP adresa biti blokirana (u časovima)"
+
+msgctxt "SettingsOptions::access_restrictions::elm_customer_and_affiliate_area_settings"
+msgid "Customer area settings"
+msgstr "Podešavanja korisničke sekcije"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login_customer"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "Blokiranje IP adrese nakon više neuspešnih prijava"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts_customer"
+msgid "Number of unsuccessful attempts"
+msgstr "Broj neuspešnih prijava"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals_customer"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "Vreme između neuspešnih prijava (u sekundama)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block_customer"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "Vreme koje će IP adresa biti blokirana (u časovima)"
+

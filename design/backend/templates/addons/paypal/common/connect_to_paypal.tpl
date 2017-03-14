@@ -1,0 +1,1 @@
+<a href="#" class="btn btn-primary hidden btn-connect-to-paypal">{__("addons.paypal.connect_to_paypal")}</a>

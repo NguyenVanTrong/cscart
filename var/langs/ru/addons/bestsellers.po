@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/bestsellers.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-27 03:41-0500\n"
+
+msgctxt "Addons::name::bestsellers"
+msgid "Bestsellers & On-Sale Products"
+msgstr "Хиты продаж и товары со скидкой"
+
+msgctxt "Addons::description::bestsellers"
+msgid "Collects best selling & on sale product data and adds block fillings to show such products"
+msgstr "Отображение товаров со скидкой и самых продаваемых товаров в блоке на витрине"
+
+msgctxt "Languages::sort_by_bestsellers_asc"
+msgid "Sort by Bestselling: Low to High"
+msgstr "Сортировать по покупаемости: Наименее покупаемые в начале"
+
+msgctxt "Languages::sort_by_bestsellers_desc"
+msgid "Sort by Bestselling"
+msgstr "Сортировать по покупаемости"
+
+msgctxt "Languages::sort_by_on_sale_asc"
+msgid "Sort by discount: Low to High"
+msgstr "Сортировать по размеру скидки: высокие скидки в конце"
+
+msgctxt "Languages::sort_by_on_sale_desc"
+msgid "Sort by discount: High to Low"
+msgstr "Сортировать по размеру скидки: высокие скидки в начале"
+
+msgctxt "Languages::sales_amount"
+msgid "Sales amount"
+msgstr "Количество продаж"
+
+msgctxt "Languages::bestselling"
+msgid "Bestselling"
+msgstr "Хиты продаж"
+
+msgctxt "Languages::on_sale"
+msgid "On sale"
+msgstr "Товары со скидкой"
+
+msgctxt "Languages::similar"
+msgid "Similar"
+msgstr "Аналогичные товары"
+
+msgctxt "Languages::percent_range"
+msgid "Price range (in % of the main product's price)"
+msgstr "Ценовой диапазон (в % от цены основного товара)"
+
+msgctxt "Languages::similar_category"
+msgid "Of the same category"
+msgstr "Из той же категории"
+
+msgctxt "Languages::similar_subcats"
+msgid "Consider subcategories"
+msgstr "Учитывать подкатегории"
+
+msgctxt "Languages::similar_in_stock"
+msgid "Only \"in stock\" products"
+msgstr "Показывать только товары в наличии"
+
+msgctxt "Languages::final_sale"
+msgid "Final sale"
+msgstr "Финальная распродажа"
+
+msgctxt "SettingsSections::bestsellers::general"
+msgid "General"
+msgstr "Общие настройки"
+
+msgctxt "SettingsSections::bestsellers::newest"
+msgid "Newest"
+msgstr "Новые поступления"
+
+msgctxt "SettingsOptions::bestsellers::final_sale_from"
+msgid "Minimum final sale discount (%)"
+msgstr "Минимальная скидка для финальной распродажи (%)"
+
+msgctxt "SettingsOptions::bestsellers::sales_amount_from"
+msgid "Minimum sales amount to define bestsellers"
+msgstr "Минимальное количество продаж, определяющее хиты продаж"
+
+msgctxt "SettingsOptions::bestsellers::period"
+msgid "Period"
+msgstr "Период"
+
+msgctxt "SettingsOptions::bestsellers::last_days"
+msgid "Last days"
+msgstr "Количество последних дней"
+
+msgctxt "SettingsVariants::bestsellers::period::all"
+msgid "All days"
+msgstr "За все время"
+
+msgctxt "SettingsVariants::bestsellers::period::today"
+msgid "Today"
+msgstr "За сегодня"
+
+msgctxt "SettingsVariants::bestsellers::period::last_days"
+msgid "Last days"
+msgstr "За последние дни"
+

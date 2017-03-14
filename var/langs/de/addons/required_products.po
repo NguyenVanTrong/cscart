@@ -1,0 +1,34 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /addons/required_products.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2016-11-28 04:04-0500\n"
+
+msgctxt "Addons::name::required_products"
+msgid "Required products"
+msgstr "Benötigte Artikel"
+
+msgctxt "Addons::description::required_products"
+msgid "Makes it possible to specify products required for purchase"
+msgstr "Ermöglicht es, für den Einkauf benötigte Artikel festzulegen"
+
+msgctxt "Languages::required_products"
+msgid "Required products"
+msgstr "Benötigte Artikel "
+
+msgctxt "Languages::required_products_added"
+msgid "The following required product(s) were added to your cart"
+msgstr "Die folgenden benötigten Artikel wurden Ihrem Warenkorb hinzugefügt."
+
+msgctxt "Languages::required_products_out_of_stock"
+msgid "This product cannot be added to your cart, because following required product(s) are out of stock:"
+msgstr "Dieser Artikel kann dem Warenkorb nicht hinzugefügt werden, da folgende benötigte Artikel nicht auf Lager sind:"
+

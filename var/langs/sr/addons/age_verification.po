@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Serbian (Cyrillic)\n"
+"Language: sr_SP\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: /addons/age_verification.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::age_verification"
+msgid "Age verification"
+msgstr "Provera starosti"
+
+msgctxt "Addons::description::age_verification"
+msgid "Toggles age restriction rules for products and categories"
+msgstr "Postavka pristupa kategorijama i proizvodima ograničenjem starosti"
+
+msgctxt "Languages::age_verification"
+msgid "Age verification"
+msgstr "Provera starosti"
+
+msgctxt "Languages::product_need_age_verification"
+msgid "You should verify your age to view this product."
+msgstr "Treba da potvrdite svoje godine kako biste pristupili ovom proizvodu."
+
+msgctxt "Languages::your_age"
+msgid "Your age"
+msgstr "Vaša starost"
+
+msgctxt "Languages::verify"
+msgid "Verify"
+msgstr "Potvrdi"
+
+msgctxt "Languages::birthday"
+msgid "Birthday"
+msgstr "Datum rođenja"
+
+msgctxt "Languages::age_limit"
+msgid "Age limit"
+msgstr "Ograničenje starosti"
+
+msgctxt "Languages::years"
+msgid "years"
+msgstr "godina"
+
+msgctxt "Languages::age_warning_message"
+msgid "Warning message"
+msgstr "Upozorenje"
+
+msgctxt "Languages::promotion_cond_birthday"
+msgid "Birthday"
+msgstr "Rođendan"
+

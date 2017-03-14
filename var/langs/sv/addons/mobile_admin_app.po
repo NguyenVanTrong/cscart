@@ -1,0 +1,786 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Swedish\n"
+"Language: sv_SE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sv-SE\n"
+"X-Crowdin-File: /addons/mobile_admin_app.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2016-12-13 13:10-0500\n"
+
+msgctxt "Addons::name::mobile_admin_app"
+msgid "Mobile Admin App (ex Twigmo)"
+msgstr ""
+
+msgctxt "Addons::description::mobile_admin_app"
+msgid "Connect your store to the <a href=\"http://www.twigmo.com/\" target=\"_blank\">Twigmo service</a> to get mobile admin application. Some features are only available in paid plans."
+msgstr ""
+
+msgctxt "SettingsSections::mobile_admin_app::service"
+msgid "Account"
+msgstr ""
+
+msgctxt "SettingsSections::mobile_admin_app::admin_app"
+msgid "Admin app"
+msgstr ""
+
+msgctxt "SettingsSections::mobile_admin_app::addon"
+msgid "Upgrade"
+msgstr ""
+
+msgctxt "Languages::twgadmin_access_id"
+msgid "Access ID"
+msgstr ""
+
+msgctxt "Languages::twgadmin_more_than_year"
+msgid "More than a year"
+msgstr ""
+
+msgctxt "Languages::twgadmin_error_cannot_connect_store"
+msgid "Cannot connect to Twigmo service at this time. Please try again later. If the problem is still there, please visit <a href=\"http://support.twigmo.com\" target=\"_blank\">Twigmo Support Portal</a> for assistance."
+msgstr ""
+
+msgctxt "Languages::twgadmin_text_store_connected"
+msgid "Your store was connected to Twigmo service successfully!"
+msgstr ""
+
+msgctxt "Languages::twgadmin_connect"
+msgid "Connect"
+msgstr ""
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_settings_twgadmin_home_page_content"
+msgid "If 'Desktop home page blocks' is selected, there are all the supported types of the desktop home page blocks displayed on the Mobile Storefront home page. If 'Twigmo home page blocks' is selected, Twigmo home page blocks are displayed (configured in 'Design'->'Blocks'->'Twigmo home page'). If a category is selected, only its products are displayed on the Mobile Storefront home page."
+msgstr ""
+
+msgctxt "Languages::twgadmin_manage_storefront_settings"
+msgid "Mobile Storefront settings"
+msgstr ""
+
+msgctxt "Languages::twgadmin_wrong_api_object_data"
+msgid "Wrong [object] data"
+msgstr ""
+
+msgctxt "Languages::twgadmin_wrong_api_data"
+msgid "Wrong API data"
+msgstr ""
+
+msgctxt "Languages::twgadmin_wrong_shipping_info"
+msgid "Failed to place order: wrong shipping data"
+msgstr ""
+
+msgctxt "Languages::twgadmin_wrong_payment_info"
+msgid "Failed to place order: wrong payment data"
+msgstr ""
+
+msgctxt "Languages::twgadmin_object_was_not_found"
+msgid "The [object] data were not found"
+msgstr ""
+
+msgctxt "Languages::twgadmin_fail_create_user"
+msgid "Failed to create user"
+msgstr ""
+
+msgctxt "Languages::twgadmin_fail_post_order"
+msgid "Failed to place order"
+msgstr ""
+
+msgctxt "Languages::twg_post_request_fail"
+msgid "Failed to post request"
+msgstr ""
+
+msgctxt "Languages::twgadmin_error_validator_required"
+msgid "The '[field]' field is mandatory"
+msgstr ""
+
+msgctxt "Languages::twgadmin_mobile_version"
+msgid "Mobile version"
+msgstr ""
+
+msgctxt "Languages::twgadmin_home_page_content"
+msgid "Home page content"
+msgstr ""
+
+msgctxt "Languages::twgadmin_use_mobile_frontend_for"
+msgid "Show mobile version for"
+msgstr ""
+
+msgctxt "Languages::twgadmin_phones"
+msgid "Phones"
+msgstr ""
+
+msgctxt "Languages::twgadmin_tablets"
+msgid "Tablets"
+msgstr ""
+
+msgctxt "Languages::twgadmin_home_page_blocks"
+msgid "Desktop home page blocks"
+msgstr ""
+
+msgctxt "Languages::twgadmin_tw_home_page_blocks"
+msgid "Twigmo home page blocks"
+msgstr ""
+
+msgctxt "Languages::twgadmin_homepage"
+msgid "Twigmo home page"
+msgstr ""
+
+msgctxt "Languages::twgadmin_edit_these_blocks"
+msgid "Edit these blocks"
+msgstr ""
+
+msgctxt "Languages::twgadmin_select_skin"
+msgid "Skin"
+msgstr ""
+
+msgctxt "Languages::twgadmin_hide_header"
+msgid "Hide header"
+msgstr ""
+
+msgctxt "Languages::twg_btn_load_more_items"
+msgid "Load More"
+msgstr ""
+
+msgctxt "Languages::twg_btn_log_in_to_checkout"
+msgid "Sign in to checkout"
+msgstr ""
+
+msgctxt "Languages::twg_lbl_copy_from_billing"
+msgid "Ship to the same address"
+msgstr ""
+
+msgctxt "Languages::twg_msg_date_invalid"
+msgid "Please enter a valid date."
+msgstr ""
+
+msgctxt "Languages::twg_msg_dateiso_invalid"
+msgid "Please enter a valid date (YYYY-MM-DD)."
+msgstr ""
+
+msgctxt "Languages::twg_msg_digits_required"
+msgid "Please enter only digits."
+msgstr ""
+
+msgctxt "Languages::twg_msg_email_invalid"
+msgid "Please enter a valid email address."
+msgstr ""
+
+msgctxt "Languages::twg_msg_extension_invalid"
+msgid "Please enter a value with a valid extension."
+msgstr ""
+
+msgctxt "Languages::twg_msg_field_required"
+msgid "This field is required."
+msgstr ""
+
+msgctxt "Languages::twg_msg_fill_required_fields"
+msgid "Please fill in all the required fields."
+msgstr ""
+
+msgctxt "Languages::twg_msg_field_invalid"
+msgid "Please fix this field."
+msgstr ""
+
+msgctxt "Languages::twg_msg_max_length"
+msgid "Please enter no more than {0} characters."
+msgstr ""
+
+msgctxt "Languages::twg_msg_max_value"
+msgid "Please enter a value less than or equal to {0}."
+msgstr ""
+
+msgctxt "Languages::twg_msg_min_length"
+msgid "Please enter at least {0} characters."
+msgstr ""
+
+msgctxt "Languages::twg_msg_min_value"
+msgid "Please enter a value greater than or equal to {0}."
+msgstr ""
+
+msgctxt "Languages::twg_msg_number_invalid"
+msgid "Please enter a valid number."
+msgstr ""
+
+msgctxt "Languages::twg_msg_order_was_placed"
+msgid "Your order has been placed!<br />The order ID is "
+msgstr ""
+
+msgctxt "Languages::twg_msg_orders_were_placed"
+msgid "Your orders have been placed!<br />The order IDs are "
+msgstr ""
+
+msgctxt "Languages::twg_msg_cc_invalid"
+msgid "Please enter a valid credit card number."
+msgstr ""
+
+msgctxt "Languages::twg_msg_range_length"
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr ""
+
+msgctxt "Languages::twg_msg_range_value"
+msgid "Please enter a value between {0} and {1}."
+msgstr ""
+
+msgctxt "Languages::twg_msg_same_value_required"
+msgid "Please enter the same value again."
+msgstr ""
+
+msgctxt "Languages::twg_msg_url_invalid"
+msgid "Please enter a valid URL."
+msgstr ""
+
+msgctxt "Languages::twg_cart_info"
+msgid "[amount] ([total])"
+msgstr ""
+
+msgctxt "Languages::twg_share"
+msgid "Share"
+msgstr ""
+
+msgctxt "Languages::twg_facebook"
+msgid "Facebook"
+msgstr ""
+
+msgctxt "Languages::twg_twitter"
+msgid "Twitter"
+msgstr ""
+
+msgctxt "Languages::twg_desktop_site"
+msgid "Desktop site"
+msgstr ""
+
+msgctxt "Languages::twgadmin_connect_to_first_ult"
+msgid "Your store is not connected to the Twigmo service yet. Please ask the root store administrator to do it."
+msgstr ""
+
+msgctxt "Languages::twgadmin_mobile_logo"
+msgid "Mobile Storefront logo"
+msgstr ""
+
+msgctxt "Languages::twgadmin_mobile_favicon"
+msgid "iOS device home screen icon"
+msgstr ""
+
+msgctxt "Languages::twgadmin_url_for_facebook"
+msgid "URL of your Facebook page"
+msgstr ""
+
+msgctxt "Languages::twgadmin_url_for_twitter"
+msgid "URL of your Twitter page"
+msgstr ""
+
+msgctxt "Languages::twgadmin_only_req_profile_fields"
+msgid "Show only user profile fields marked as required"
+msgstr ""
+
+msgctxt "Languages::twgadmin_reinstall"
+msgid "The version of Twigmo add-on files does not match the one in the database, so the mobile version of your store has been disabled. Please re-install Twigmo add-on (click Uninstall, then Install on the add-ons list) to enable it."
+msgstr ""
+
+msgctxt "Languages::twg_view_cart_checkout"
+msgid "View cart & checkout"
+msgstr ""
+
+msgctxt "Languages::twg_sign_in_to_checkout"
+msgid "Sign in to checkout"
+msgstr ""
+
+msgctxt "Languages::twg_only_via_desktop"
+msgid "This product can be added to cart only via the [linkOpen]desktop website[linkClose]."
+msgstr ""
+
+msgctxt "Languages::twg_share_on_social"
+msgid "Share on social networks"
+msgstr ""
+
+msgctxt "Languages::twgadmin_order_via_twigmo"
+msgid "[This order was placed via Twigmo Mobile Storefront]"
+msgstr ""
+
+msgctxt "Languages::twg_contact_twigmo_support"
+msgid "Contact Twigmo support"
+msgstr ""
+
+msgctxt "Languages::twgadmin_enable_geolocation"
+msgid "Enable geolocation"
+msgstr ""
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_settings_twgadmin_enable_geolocation"
+msgid "If enabled, shipping and billing address fields will be populated with the address determined by a geolocation service on the registration and checkout pages."
+msgstr ""
+
+msgctxt "Languages::twg_billing_is_the_same"
+msgid "Billing address is the same"
+msgstr ""
+
+msgctxt "Languages::twgadmin_upgrade_addon"
+msgid "Twigmo add-on upgrade has started."
+msgstr ""
+
+msgctxt "Languages::twgadmin_download_twigmo"
+msgid "Downloading Twigmo upgrade package. Please wait..."
+msgstr ""
+
+msgctxt "Languages::twgadmin_checking_permissions"
+msgid "Done.</br>Checking file permissions..."
+msgstr ""
+
+msgctxt "Languages::twgadmin_no_files_permissions"
+msgid "Error: Cannot overwrite the existing Twigmo add-on files. Please check and correct the file permissions manually or [link]provide your FTP access details[/link] (if they are provided, please make sure this FTP user has enough permissions to modify files on the server)."
+msgstr ""
+
+msgctxt "Languages::twgadmin_backup_files"
+msgid "Backing up Twigmo files..."
+msgstr ""
+
+msgctxt "Languages::twgadmin_backup_settings"
+msgid "Backing up Twigmo add-on settings..."
+msgstr ""
+
+msgctxt "Languages::twgadmin_uninstall_addon"
+msgid "Uninstalling Twigmo add-on..."
+msgstr ""
+
+msgctxt "Languages::twgadmin_restore_settings"
+msgid "Restoring Twigmo add-on settings..."
+msgstr ""
+
+msgctxt "Languages::twg_min_product_quantity"
+msgid "Minimum order quantity"
+msgstr ""
+
+msgctxt "Languages::twg_checkout_terms_n_conditions"
+msgid "I accept Terms and Conditions"
+msgstr ""
+
+msgctxt "Languages::twgadmin_cant_create_file"
+msgid "Cannot create a file [file]. Please create it manually in [path] (only in case you need to customize the selected Twigmo mobile skin)."
+msgstr ""
+
+msgctxt "Languages::twg_visit_our_mobile_store"
+msgid "Visit our mobile site"
+msgstr ""
+
+msgctxt "Languages::twg_app_for_android"
+msgid "App for Android"
+msgstr ""
+
+msgctxt "Languages::twg_app_for_ipad"
+msgid "App for iPad"
+msgstr ""
+
+msgctxt "Languages::twgadmin_url_on_appstore"
+msgid "URL of your app on iTunes App Store"
+msgstr ""
+
+msgctxt "Languages::twgadmin_url_on_googleplay"
+msgid "URL of your app on Google Play"
+msgstr ""
+
+msgctxt "Languages::twg_product_added_to_cart"
+msgid "Product Added to Cart"
+msgstr ""
+
+msgctxt "Languages::twg_configurable_via_desktop"
+msgid "This is a configurable product. It can be configured only via [linkOpen]the desktop website[linkClose]."
+msgstr ""
+
+msgctxt "Languages::twg_requrring_via_desktop"
+msgid "This is a subscription product. Its subscription plan can be selected only via [linkOpen]the desktop website[linkClose]."
+msgstr ""
+
+msgctxt "Languages::twgadmin_basic_skin"
+msgid "Basic skin"
+msgstr ""
+
+msgctxt "Languages::twgadmin_connect_notification"
+msgid "The <a href=\"[addon_link]\">Twigmo add-on</a> is not connected to the <a href=\"http://www.twigmo.com\" target=\"_blank\">Twigmo service</a>. Set it up to enable a mobile version of your store for iOS and Android."
+msgstr ""
+
+msgctxt "Languages::twgadmin_phpmod_required"
+msgid "PHP extension module [php_module_name] is required for proper operation of the Twigmo add-on. Please install it."
+msgstr ""
+
+msgctxt "Languages::twgadmin_select_store"
+msgid "Please select a store first"
+msgstr ""
+
+msgctxt "Languages::twg_is_logged_in"
+msgid "logged in."
+msgstr ""
+
+msgctxt "Languages::twg_review_and_place_order"
+msgid "Review and place order"
+msgstr ""
+
+msgctxt "Languages::twg_login_to_add_to_cart"
+msgid "This product cannot be added to the cart because you are not logged in."
+msgstr ""
+
+msgctxt "Languages::twgadmin_disconnected"
+msgid "Disconnected"
+msgstr ""
+
+msgctxt "Languages::twgadmin_connected"
+msgid "Connected"
+msgstr ""
+
+msgctxt "Languages::twgadmin_terms"
+msgid "Terms and conditions"
+msgstr ""
+
+msgctxt "Languages::twgadmin_accept_terms_n_conditions"
+msgid "I accept the <a href=\"//www.twigmo.com/terms/\" target=\"_blank\">Terms and Conditions</a>."
+msgstr ""
+
+msgctxt "Languages::twgadmin_stores"
+msgid "Stores"
+msgstr ""
+
+msgctxt "Languages::twgadmin_open_te"
+msgid "Visual Editor"
+msgstr ""
+
+msgctxt "Languages::twgadmin_open_cp"
+msgid "Twigmo Control Panel"
+msgstr ""
+
+msgctxt "Languages::twgadmin_no_token_recieved"
+msgid "Twigmo failed to retrieve authentication token. [linkOpen]Go back[linkClose]"
+msgstr ""
+
+msgctxt "Languages::twg_buy_only_via_desktop"
+msgid "This product can be purchased via [linkOpen]the desktop website[linkClose]."
+msgstr ""
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_connect_email"
+msgid "Enter your Twigmo account email address. If you have no Twigmo account, it will be created for you automatically (your email address will be verified)."
+msgstr ""
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_connect_password"
+msgid "Enter your Twigmo account password. If you have no Twigmo account, please enter a secure password and we will create a new Twigmo account for you."
+msgstr ""
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_connect_twgadmin_stores"
+msgid "Select stores that are to be connected to the Twigmo service."
+msgstr ""
+
+msgctxt "Languages::twg_cannot_redirect_to_desktop"
+msgid "The desktop site cannot be displayed in this mode, but the link will work fine on a real mobile device."
+msgstr ""
+
+msgctxt "Languages::twgadmin_disconnect"
+msgid "Disconnect"
+msgstr ""
+
+msgctxt "Languages::twgadmin_disconnect_whole"
+msgid "Disconnect whole addon"
+msgstr ""
+
+msgctxt "Languages::plan"
+msgid "Plan"
+msgstr ""
+
+msgctxt "Languages::twgadmin_failed_to_decompress_files"
+msgid "Failed to extract files from the archive"
+msgstr ""
+
+msgctxt "Languages::twgadmin_upgrade_completed"
+msgid "Upgrade completed"
+msgstr ""
+
+msgctxt "Languages::twapp_stats"
+msgid "Statistics"
+msgstr ""
+
+msgctxt "Languages::twapp_timeline"
+msgid "Timeline"
+msgstr ""
+
+msgctxt "Languages::twapp_manage_accounts"
+msgid "Manage accounts"
+msgstr ""
+
+msgctxt "Languages::twapp_low_stock"
+msgid "Low stock"
+msgstr ""
+
+msgctxt "Languages::twapp_low_stock_products"
+msgid "Low stock products"
+msgstr ""
+
+msgctxt "Languages::twapp_all_low_stock_products"
+msgid "All low stock products"
+msgstr ""
+
+msgctxt "Languages::twapp_delete_account"
+msgid "Delete account"
+msgstr ""
+
+msgctxt "Languages::twapp_app_account_info"
+msgid "Fill in the fields below to sign in."
+msgstr ""
+
+msgctxt "Languages::twapp_login_or_email"
+msgid "Login/Email"
+msgstr ""
+
+msgctxt "Languages::twapp_latest_orders"
+msgid "Latest orders"
+msgstr ""
+
+msgctxt "Languages::twapp_back"
+msgid "Back"
+msgstr ""
+
+msgctxt "Languages::twapp_users_statistics"
+msgid "Users statistics"
+msgstr ""
+
+msgctxt "Languages::twapp_configurable"
+msgid "Configurable"
+msgstr ""
+
+msgctxt "Languages::twg_lbl_out_of_stock"
+msgid "Out of stock"
+msgstr ""
+
+msgctxt "Languages::twapp_signing_in"
+msgid "Signing in..."
+msgstr ""
+
+msgctxt "Languages::twapp_two_days_sales"
+msgid "Sales for the last 2 days"
+msgstr ""
+
+msgctxt "Languages::twapp_two_weeks_sales"
+msgid "Sales for the last 2 weeks"
+msgstr ""
+
+msgctxt "Languages::twapp_two_month_sales"
+msgid "Sales for the last 2 months"
+msgstr ""
+
+msgctxt "Languages::twapp_stat_day_1"
+msgid "12am"
+msgstr ""
+
+msgctxt "Languages::twapp_stat_day_2"
+msgid "4am"
+msgstr ""
+
+msgctxt "Languages::twapp_stat_day_3"
+msgid "8am"
+msgstr ""
+
+msgctxt "Languages::twapp_stat_day_4"
+msgid "12pm"
+msgstr ""
+
+msgctxt "Languages::twapp_stat_day_5"
+msgid "4pm"
+msgstr ""
+
+msgctxt "Languages::twapp_stat_day_6"
+msgid "8pm"
+msgstr ""
+
+msgctxt "Languages::twapp_stat_week_1"
+msgid "Mo"
+msgstr ""
+
+msgctxt "Languages::twapp_stat_week_2"
+msgid "Tu"
+msgstr ""
+
+msgctxt "Languages::twapp_stat_week_3"
+msgid "We"
+msgstr ""
+
+msgctxt "Languages::twapp_stat_week_4"
+msgid "Th"
+msgstr ""
+
+msgctxt "Languages::twapp_stat_week_5"
+msgid "Fr"
+msgstr ""
+
+msgctxt "Languages::twapp_stat_week_6"
+msgid "Sa"
+msgstr ""
+
+msgctxt "Languages::twapp_stat_week_7"
+msgid "Su"
+msgstr ""
+
+msgctxt "Languages::twapp_stat_month_1"
+msgid "w1"
+msgstr ""
+
+msgctxt "Languages::twapp_stat_month_2"
+msgid "w2"
+msgstr ""
+
+msgctxt "Languages::twapp_stat_month_3"
+msgid "w3"
+msgstr ""
+
+msgctxt "Languages::twapp_stat_month_4"
+msgid "w4"
+msgstr ""
+
+msgctxt "Languages::twapp_stat_month_5"
+msgid "w5"
+msgstr ""
+
+msgctxt "Languages::twapp_net_error_title"
+msgid "No network connection"
+msgstr ""
+
+msgctxt "Languages::twapp_net_error_message"
+msgid "Cannot load data. Please check your network connection."
+msgstr ""
+
+msgctxt "Languages::twapp_in_stock_lowercase"
+msgid "in stock"
+msgstr ""
+
+msgctxt "Languages::twapp_receive_push"
+msgid "Push notifications"
+msgstr ""
+
+msgctxt "Languages::twapp_will_affect_all_stores"
+msgid "Updating this field will affect all stores"
+msgstr ""
+
+msgctxt "Languages::twapp_data_lang"
+msgid "Data lang."
+msgstr ""
+
+msgctxt "Languages::twg_placed"
+msgid "Placed"
+msgstr ""
+
+msgctxt "Languages::twgadmin_mobile_admin_application"
+msgid "Twigmo Mobile Admin application"
+msgstr ""
+
+msgctxt "Languages::twgadmin_download_app"
+msgid "Download the app"
+msgstr ""
+
+msgctxt "Languages::twgadmin_download_app_hint"
+msgid "This app is available on the <a href=\"http://www.twigmo.com/pricing/\" target=\"_blank\">selected Twigmo plans</a> only."
+msgstr ""
+
+msgctxt "Languages::twgadmin_saved"
+msgid "Saved"
+msgstr ""
+
+msgctxt "Languages::twapp_admin_url"
+msgid "Admin URL"
+msgstr ""
+
+msgctxt "Languages::twgadmin_auth_fail_access_id"
+msgid "You have no permissions to log in to the store with this Access ID."
+msgstr ""
+
+msgctxt "Languages::twgadmin_mobile_app"
+msgid "Mobile app"
+msgstr ""
+
+msgctxt "Languages::twgadmin_qr_for_admin"
+msgid "QR code for the app<br>login page"
+msgstr ""
+
+msgctxt "Languages::twgadmin_qr_for_admin_comment"
+msgid "Please install the Twigmo admin application first. Then use it to scan the QR code. This code contains the Twigmo Access ID [access_id], this admin panel URL and your admin panel login (email or username). You will only need to enter your admin panel password manually."
+msgstr ""
+
+msgctxt "Languages::twapp_wrong_api_login_data"
+msgid "No data is received from this admin URL. Please, check it. Also, make sure that the Twigmo add-on is enabled and connected to the service in your store"
+msgstr ""
+
+msgctxt "Languages::twapp_scan_qr"
+msgid "Scan the QR code in your store admin panel"
+msgstr ""
+
+msgctxt "Languages::twapp_tap_to_scan"
+msgid "Tap to scan"
+msgstr ""
+
+msgctxt "Languages::twapp_fill_manually"
+msgid "Fill in the fields manually"
+msgstr ""
+
+msgctxt "Languages::twapp_fill_to_sign_in"
+msgid "Fill in the fields below to sign in."
+msgstr ""
+
+msgctxt "Languages::twgadmin_show_product_code"
+msgid "Show product code on product details page"
+msgstr ""
+
+msgctxt "Languages::twapp_add_account"
+msgid "Add account"
+msgstr ""
+
+msgctxt "Languages::twapp_pull_to_refresh"
+msgid "Pull to refresh"
+msgstr ""
+
+msgctxt "Languages::twapp_release_to_refresh"
+msgid "Release to refresh"
+msgstr ""
+
+msgctxt "Languages::twapp_could_not_connect"
+msgid "Could not connect to the Twigmo add-on at [URL]."
+msgstr ""
+
+msgctxt "Languages::twgadmin_push_notifications"
+msgid "Push notifications"
+msgstr ""
+
+msgctxt "Languages::twgadmin_send_push_notifications"
+msgid "Send push notifications to your mobile store app users"
+msgstr ""
+
+msgctxt "Languages::twgadmin_select_store_short"
+msgid "Select a store"
+msgstr ""
+
+msgctxt "Languages::twgadmin_push_notification_text"
+msgid "Push notification text"
+msgstr ""
+
+msgctxt "Languages::twgadmin_push_notification_comment"
+msgid "Please refer to the policies of <a href=\"https://developer.apple.com/app-store/review/guidelines/#push-notifications\" target=\"_blank\">Apple</a> and <a href=\"https://play.google.com/intl/en/about/developer-content-policy.html\" target=\"_blank\">Google</a> regarding sending ads in push notifications. Your mobile app can be banned for violating these policies."
+msgstr ""
+
+msgctxt "Languages::twgadmin_push_will_send_to"
+msgid "This message will be sent to <b>[ios_amount]</b> iOS and <b>[android_amount]</b> Android users of your store app."
+msgstr ""
+
+msgctxt "Languages::twgadmin_push_has_uploaded"
+msgid "Your message has been uploaded to the server and it has started sending the message to your mobile app users (it may take up to an hour depending on the number of users)."
+msgstr ""
+
+msgctxt "Languages::twgadmin_send_push"
+msgid "Send push notifications about order status update to the mobile store app users"
+msgstr ""
+
+msgctxt "Languages::twgadmin_send_push_error"
+msgid "Oops, something went wrong. We cannot confirm your message was sent. Please <a href=\"http://support.twigmo.com\" target=\"_blank\">contact Twigmo support team</a> to resolve this issue."
+msgstr ""
+
+msgctxt "Languages::twgadmin_order_via_twigmo_app_android"
+msgid "[This order was placed via Twigmo Mobile Application for Android]"
+msgstr ""
+
+msgctxt "Languages::twgadmin_order_via_twigmo_app_ios"
+msgid "[This order was placed via Twigmo Mobile Application for iOS]"
+msgstr ""
+

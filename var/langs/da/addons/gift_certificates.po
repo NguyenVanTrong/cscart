@@ -1,0 +1,278 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: da\n"
+"X-Crowdin-File: /addons/gift_certificates.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:02-0500\n"
+
+msgctxt "Addons::name::gift_certificates"
+msgid "Gift certificates"
+msgstr "Gavekort"
+
+msgctxt "Addons::description::gift_certificates"
+msgid "Adds a built-in gift certificate system"
+msgstr "Tilføjer en indbygget gavekortsystem"
+
+msgctxt "Languages::gift_certificate"
+msgid "Gift certificate"
+msgstr "Gavekort"
+
+msgctxt "Languages::gift_certificates"
+msgid "Gift certificates"
+msgstr "Gavekort"
+
+msgctxt "Languages::gift_certificates_menu_description"
+msgid "View and manage the gift certificates that customers have purchased."
+msgstr "Få vist og administrere de gavekort, som kunder har købt."
+
+msgctxt "Languages::gift_certificate_info"
+msgid "Gift certificate info"
+msgstr "Gavekort info"
+
+msgctxt "Languages::gift_certificate_verification"
+msgid "Gift certificate verification"
+msgstr "Gavekort verifikation"
+
+msgctxt "Languages::gift_cert_code"
+msgid "Gift certificate code"
+msgstr "Gavekort-kode"
+
+msgctxt "Languages::gift_cert_debit"
+msgid "Debit balance"
+msgstr "gælds balance"
+
+msgctxt "Languages::gift_cert_from"
+msgid "From"
+msgstr "Fra"
+
+msgctxt "Languages::gift_cert_to"
+msgid "To"
+msgstr "Til"
+
+msgctxt "Languages::promotion_bonus_gift_certificate"
+msgid "Gift certificate"
+msgstr "Gavekort"
+
+msgctxt "Languages::purchase_gift_certificate"
+msgid "Purchase Gift Certificate"
+msgstr "Indkøb Gavekort"
+
+msgctxt "Languages::text_gift_certificate_logo"
+msgid "Logo for <b>gift certificates</b>"
+msgstr "Logo for <b> gavekort </b>"
+
+msgctxt "Languages::text_gift_cert_amount_alert"
+msgid "Amount should be between [min] and [max]"
+msgstr "Beløbet skal være mellem [min] og [max]"
+
+msgctxt "Languages::text_gift_cert_has_been_deleted"
+msgid "Gift certificate has been deleted successfully."
+msgstr "Gavekort er blevet slettet."
+
+msgctxt "Languages::error_gift_cert_code"
+msgid "The gift certificate code you entered is invalid. Please try again."
+msgstr "Gavekortet kode er ugyldig. Prøv igen"
+
+msgctxt "Languages::gift_add_products"
+msgid "Add products for a gift"
+msgstr "Føj produkter til en gave"
+
+msgctxt "Languages::gift_comment"
+msgid "Message"
+msgstr "Besked"
+
+msgctxt "Languages::certificate_verification"
+msgid "Validate/Redeem gift certificate"
+msgstr "validere/indløse gavekortet"
+
+msgctxt "Languages::detailed_info"
+msgid "Detailed information"
+msgstr "Detaljeret information"
+
+msgctxt "Languages::history"
+msgid "History"
+msgstr "historie"
+
+msgctxt "Languages::gift_certificate_statuses"
+msgid "Gift certificate statuses"
+msgstr "Gavekort status"
+
+msgctxt "Languages::text_gift_cert_applied"
+msgid "Gift certificate has been applied"
+msgstr "Gavekort er blevet anvendt"
+
+msgctxt "Languages::certificate_already_used"
+msgid "This gift certificate is already in use"
+msgstr "Dette gavekort er allerede blevet brugt"
+
+msgctxt "Languages::certificate_code_not_available"
+msgid "Gift certificate cannot be applied. Please contact the store administration."
+msgstr "Gavekortet kan ikke blive anvendt. Kontakt os for mere information."
+
+msgctxt "Languages::certificate_code_not_valid"
+msgid "Gift certificate code is not valid"
+msgstr "Gavekort koden er ikke gyldig"
+
+msgctxt "Languages::warning_gift_cert_deny"
+msgid "The following gift certificates have been deleted or cancelled by administrator and have been removed from your cart: [codes]. Please contact the store administrator or try another one."
+msgstr "De følgende gavekort er blevet slettet eller annulleret af administratoren og er blevet fjernet fra din kurv: [codes]. Kontakt butiksadministratoren, eller prøv en anden en."
+
+msgctxt "Languages::text_gift_cert_cannot_delete"
+msgid "Gift certificate [code] cannot be deleted because it is used in order(s) [ids]."
+msgstr "Gavekort [code] kan ikke slettes, da det anvendes i orden (s) [ids]."
+
+msgctxt "Languages::gift_cert_amount_changed"
+msgid "Gift certificate amount has been changed."
+msgstr "Gavekort beløb er blevet ændret."
+
+msgctxt "Languages::purchased"
+msgid "Purchased"
+msgstr "købt"
+
+msgctxt "Languages::used"
+msgid "Used"
+msgstr "Brugt"
+
+msgctxt "Languages::create_gift_certificate_for_customer"
+msgid "Create Gift Certificate for this customer"
+msgstr "Opret gavekort til kunde"
+
+msgctxt "Languages::gift_certificate_created"
+msgid "Gift Certificate has been created"
+msgstr "Gavekort er blevet oprettet"
+
+msgctxt "Languages::related_gift_cert"
+msgid "Related gift certificates"
+msgstr "Related gavekort"
+
+msgctxt "Languages::add_gift_certificate"
+msgid "Add gift certificate"
+msgstr "Tilføj gavekort"
+
+msgctxt "Languages::gift_certificate_status"
+msgid "Gift certificate status"
+msgstr "Gavekort info"
+
+msgctxt "Languages::current_amount"
+msgid "Current amount"
+msgstr "Nuværende beløb"
+
+msgctxt "Languages::mail"
+msgid "Mail"
+msgstr "Mail"
+
+msgctxt "Languages::statuses"
+msgid "statuses"
+msgstr "status"
+
+msgctxt "Languages::new_certificate"
+msgid "New certificate"
+msgstr "Nyt certifikat"
+
+msgctxt "Languages::editing_certificate"
+msgid "Editing certificate"
+msgstr "redigere certificate"
+
+msgctxt "Languages::shop_now"
+msgid "Shop now"
+msgstr "Køb nu"
+
+msgctxt "Languages::theme_editor.gift_cert"
+msgid "Gift Certificate"
+msgstr "Gavekort"
+
+msgctxt "Languages::promo_code_or_certificate"
+msgid "Gift certificate or promo code"
+msgstr "Gavekort eller rabatkode"
+
+msgctxt "Languages::gift_certificate_added_to_cart"
+msgid "Gift certificate was added to your cart"
+msgstr "Gavekort blev tilføjet til din indkøbskurv"
+
+msgctxt "Languages::gift_certificates_verify"
+msgid "Gift certificate verification"
+msgstr "Gavekort verifikation"
+
+msgctxt "Languages::block_gift_certificates_verify"
+msgid "Gift certificate verification"
+msgstr "Gavekort verifikation"
+
+msgctxt "Languages::block_gift_certificates_verify_description"
+msgid "Gift certificate input and validation"
+msgstr "Gavekort input og validering"
+
+msgctxt "Languages::recipients_name"
+msgid "To"
+msgstr "Til"
+
+msgctxt "Languages::purchasers_name"
+msgid "From"
+msgstr "Fra"
+
+msgctxt "Languages::gift_cert_error_amount"
+msgid "Amount should not be higher than [max] and less than [min]"
+msgstr "Beløbet bør ikke være højere end [max] og mindre end [min]"
+
+msgctxt "Languages::privileges.manage_gift_certificates"
+msgid "Manage gift certificate system"
+msgstr "Administrere gavekort system"
+
+msgctxt "Languages::change_gift_certificate_status"
+msgid "Change gift certificate status to"
+msgstr "Skift gavekort status"
+
+msgctxt "Languages::gift_cert_with_products"
+msgid "Purchasing products and gift certificates together is impossible. Please, place the current order and repeat your attempt."
+msgstr "Det er umuligt at købe produkter og gavekort sammen. Venligst, placere den aktuelle ordre og gentag dit forsøg."
+
+msgctxt "SettingsSections::gift_certificates::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsOptions::gift_certificates::min_amount"
+msgid "Minimal amount"
+msgstr "Minimal beløb"
+
+msgctxt "SettingsOptions::gift_certificates::max_amount"
+msgid "Maximal amount"
+msgstr "Maksimal størrelse"
+
+msgctxt "SettingsOptions::gift_certificates::code_prefix"
+msgid "GC Code prefix"
+msgstr "GC kodepræfiks"
+
+msgctxt "SettingsOptions::gift_certificates::cert_per_page"
+msgid "Gift certificates per page"
+msgstr "Gavekort per side"
+
+msgctxt "SettingsOptions::gift_certificates::free_products_allow"
+msgid "Allow to use free products"
+msgstr "Tillad at bruge gratis produkter"
+
+msgctxt "SettingsOptions::gift_certificates::redeem_shipping_cost"
+msgid "Allow to redeem shipping cost with gift certificate"
+msgstr "Giver mulighed for at indløse forsendelsesomkostninger med gavekort"
+
+msgctxt "Languages::gc_redeem_and_add_free_products"
+msgid "Redeem & add free products to cart"
+msgstr "Indløs & tilføj gratis produkter til indkøbskurven"
+
+msgctxt "Languages::email_template.gift_certificates_notification"
+msgid "Gift certificate"
+msgstr "Gavekort"
+
+msgctxt "Languages::template_document_gift_certificate_default"
+msgid "Gift certificates: default"
+msgstr "Gavekort: standard"
+
+msgctxt "Languages::document_preview_gift_certificate_not_found"
+msgid "Couldn't find a gift certificate. Preview only works with existing data. Please create a gift certificate and use Preview again."
+msgstr "Kunne ikke finde et gavekort. Preview virker kun med eksisterende data. Opret et gavekort og bruge Vis udskrift igen."
+

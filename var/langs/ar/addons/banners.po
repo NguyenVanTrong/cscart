@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /addons/banners.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:00-0500\n"
+
+msgctxt "Addons::name::banners"
+msgid "Banners management"
+msgstr "إدارة البانرات"
+
+msgctxt "Addons::description::banners"
+msgid "Allows you to create text and visual banners"
+msgstr "يسمح لك بإنشاء النص ولافتات البصرية"
+
+msgctxt "Languages::banners.new_banner"
+msgid "New banner"
+msgstr "بانر جديد"
+
+msgctxt "Languages::banners.editing_banner"
+msgid "Editing banner"
+msgstr "تحرير بانر"
+
+msgctxt "Languages::add_banner"
+msgid "Add banner"
+msgstr "إضافة بانر"
+
+msgctxt "Languages::banner"
+msgid "Banner"
+msgstr "بانر"
+
+msgctxt "Languages::banners"
+msgid "Banners"
+msgstr "بانرات"
+
+msgctxt "Languages::banners_menu_description"
+msgid "Create graphic and text banners that can then be placed on the storefront."
+msgstr "إنشاء لافتات نصية وصورية التي يمكن ثم وضعها في الواجهة."
+
+msgctxt "Languages::banner_code"
+msgid "Banner code"
+msgstr "رمز البانر"
+
+msgctxt "Languages::banner_code_for_some_products"
+msgid "Banner code for some products"
+msgstr "رمز بانر لبعض المنتجات"
+
+msgctxt "Languages::manage_banners"
+msgid "Manage banners"
+msgstr "إدارة البانرات"
+
+msgctxt "Languages::block_banners"
+msgid "Banners"
+msgstr "بانرات"
+
+msgctxt "Languages::block_banners_description"
+msgid "Visual and text banners"
+msgstr "بانرات بصرية ونصية"
+
+msgctxt "Languages::privileges.view_banners"
+msgid "View banners"
+msgstr "عرض البانرات"
+
+msgctxt "Languages::privileges.manage_banners"
+msgid "Manage banners"
+msgstr "إدارة البانرات"
+
+msgctxt "Languages::add_banners"
+msgid "Add banners"
+msgstr "إضافة بانرات"
+
+msgctxt "Languages::add_banners_and_close"
+msgid "Add banners and close"
+msgstr "إضافة بانرات وإغلاق"
+
+msgctxt "Languages::graphic_banner"
+msgid "Graphic banner"
+msgstr "بانر صوري"
+
+msgctxt "Languages::text_banner"
+msgid "Text banner"
+msgstr "بانر نصي"
+
+msgctxt "Languages::views"
+msgid "Views"
+msgstr "المشاهدات"
+
+msgctxt "Languages::conversion"
+msgid "Conversion"
+msgstr "التحويل"
+
+msgctxt "Languages::banner_details_notes"
+msgid "After you create a banner here, you should use the <strong>Layout editor</strong> to add it to the storefront.<br /><br />Go to <a href=\"[layouts_href]\" target=\"_blank\">Design → Layouts</a>, switch to the location where you want the banner to appear, and add a new block with type <strong>Banners</strong>.<br /><br />In this block settings, go to the <strong>Content</strong> tab, pick the <strong>Manual</strong> filling, and click on the <strong>Add banners</strong> button.<br /><br />You will see the list of all the banners in your store. Pick the one(s) you need and click on the <strong>Add banners and close</strong> button.<br /><br />Finally, click on the <strong>Create</strong> button to save your changes."
+msgstr "بعد قيامك بإنشاء بانر هنا، يجب استخدام <strong>محرر تخطيط</strong> لإضافته إلى الواجهة. <br/> <br/> الذهاب إلى <a href=\"[layouts_href]\" target=\"_blank\"> تخطيطات ← التصميم</a>، قم بالتبديل إلى الموقع حيث تريد الراية تظهر، وإضافة كتلة جديدة مع نوع <strong>لافتات</strong>. <br/> <br/> في هذا إعدادات كتلة، انتقل إلى علامة التبويب <strong>محتوى</strong>، اختيار شغل <strong>يدوي</strong>، وانقر فوق الزر <strong>إضافة لافتات</strong>. <br/> <br/> سوف تشاهد قائمة جميع لافتات في المخزن الخاص بك. اختر منها التي تحتاج إليها، وانقر فوق الزر <strong>إضافة لافتات وإغلاق</strong>. <br/> <br/> أخيرا، انقر على الزر \"<strong>إنشاء</strong>\" لحفظ التغييرات الخاصة بك."
+
+msgctxt "SettingsSections::banners::general"
+msgid "General"
+msgstr "عام"
+
+msgctxt "SettingsOptions::banners::banner_multilang"
+msgid "Enable multi-language Images/URLs"
+msgstr "تمكين تعدد اللغات للصور/الروابط"
+

@@ -1,0 +1,26 @@
+Legend:
+[+] - new feature/improvement
+[*] - functionality changes
+[!] - bugfix
+
+Version 2.1.1, April 05 2016
+
+[+] eBay product identifiers was implemented
+[*] Compatibility of eBay client api version increased up to 957
+[*] Classes \Ebay\Product, \Ebay\ProductOption, \Ebay\ProductOptionVariant, \Ebay\ProductVariation, \Ebay\Template, \Ebay\requests\ItemRequest, \Ebay\responses\GetCategoryFeaturesResponse, \Ebay\responses\GetItemResponse, \Ebay\responses\Response refactored and improved.
+[+] Classes \Ebay\ProductFeature, \Ebay\ProductFeatureVariant, \Ebay\ProductIdentifier, \Ebay\ProductPicture added.
+
+Version 2.1.0, December 15 2015
+
+[*] The add-on was refactored and greatly improved.
+
+Version 2.0, March 18 2014
+
+[+] The RelistItem method added.
+[+] New option for duration of product availability for sale on eBay was added.
+[+] Ability to export option images added.
+[+] Ability to upload additional images added.
+[*] The 'Package' package type was renamed to 'Package/thick envelope'.
+[!] Product weight was calculated incorrectly. Fixed.
+[!] Variant images were not uploaded to eBay. Fixed.
+[!] SQL error occurred on product export to eBay performed by a store admin. Fixed.

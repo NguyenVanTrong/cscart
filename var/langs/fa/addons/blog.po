@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/blog.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::blog"
+msgid "Blog"
+msgstr "وبلاگ"
+
+msgctxt "Addons::description::blog"
+msgid "Lets you start your blog easily"
+msgstr "امکان شروع راحت وبلاگ شخصی"
+
+msgctxt "Languages::blog_menu_description"
+msgid "Manage your blog posts."
+msgstr "مدیریت پست های وبلاگ  شما"
+
+msgctxt "Languages::blog.new_post"
+msgid "New blog post"
+msgstr "پست جدید وبلاگ"
+
+msgctxt "Languages::blog.editing_post"
+msgid "Editing blog post"
+msgstr "ویرایش پست های وبلاگ"
+
+msgctxt "Languages::blog"
+msgid "Blog"
+msgstr "وبلاگ"
+
+msgctxt "Languages::blog.add_post"
+msgid "Add blog post"
+msgstr "اضافه کردن پست وبلاگ"
+
+msgctxt "Languages::blog.recent_posts"
+msgid "Blog: recent posts"
+msgstr "وبلاگ: پست های اخیر"
+
+msgctxt "Languages::blog.recent_posts_scroller"
+msgid "Blog: recent posts scroller"
+msgstr "وبلاگ: اخیر پست پیشین"
+
+msgctxt "Languages::blog.view_post"
+msgid "View post"
+msgstr "مشاهده پست"
+
+msgctxt "Languages::recent_blog_posts"
+msgid "Recent blog posts"
+msgstr "آخرین پست های وبلاگ"
+
+msgctxt "Languages::blog.posts"
+msgid "Posts"
+msgstr "پست ها"
+
+msgctxt "Languages::blog.post"
+msgid "Post"
+msgstr "پست"
+
+msgctxt "Languages::block_blog"
+msgid "Recent posts"
+msgstr "پست های اخیر"
+
+msgctxt "Languages::blog.text_links"
+msgid "Blog: text links"
+msgstr "وبلاگ: لینک های متنی"
+
+msgctxt "Languages::blog.read_more"
+msgid "Read more"
+msgstr "ادامه مطلب"
+
+msgctxt "Languages::post_description"
+msgid "Post description"
+msgstr "شرح پست"
+
+msgctxt "Languages::ttc_post_description"
+msgid "Use the &lt;!--CUT--&gt; tag (switch to source code to insert it) to hide part of the post. Only the part above the tag is shown in the list of all posts.<br /><br />Make sure to <strong>close all HTML tags</strong> above the &lt;!--CUT--&gt; tag!"
+msgstr "با استفاده از به & lt؛ - CUT - & gt؛ به برچسب (تبدیل به کد منبع آن را درج) برای مخفی کردن بخشی از پست. فقط قسمت بالا که تگ در لیست نشان داده شده است همه پست /> <br /> <br اطمینان حاصل کنید که <strong> بستن همه دستورات HTML </ strong> در بالای دکمه & lt؛! - CUT - & gt؛ به برچسب!"
+
+msgctxt "Languages::blog_functionality_notes"
+msgid "<p>Use this page to manage your blog. This is how you should organize your blog posts:</p><ul><li>Blog is a usual post that has the <b>Root level page</b> as the Parent page.</li><li>Choose <b>Blog</b> as the Parent page for your blog posts.</li></ul>"
+msgstr "p> استفاده از این صفحه برای مدیریت وبلاگ شما. این است که چگونه شما باید پست های وبلاگ خود را سازماندهی: </ P> <Ul> <li> در وبلاگ یک پست به طور معمول است که در <b> صفحه سطح ابتدایی </ b> به عنوان پایه </ Li> <li> انتخاب <B> وبلاگ </ b> به عنوان صفحه پایه برای پست های وبلاگ خود. </ Li> </ Ul>"
+

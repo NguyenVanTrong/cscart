@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<email_templates scheme="1.0">
+    <templates>
+        <item>
+            <code><![CDATA[suppliers_notification]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ supplier.data.name }}: {{ __("order") }} #{{ order_info.order_id }} {{ order_status.email_subj }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header") }}
+
+  {{ __("dear_sirs") }},<br /><br />
+
+{% if status_inventory == 'D' %}
+{{ __("supplier_email_header") }}<br /><br />
+{% endif %}
+
+<b>{{ __("invoice") }}:</b><br>
+
+{{ include_doc("supplier_order.invoice", order_info.order_id, supplier) }}
+
+<br />
+{{ __("contact_information") }}:<br />
+<span style="margin-left:20px;">&nbsp;</span>{{ supplier.data.name }}<br />
+<span style="margin-left:20px;">&nbsp;</span>{% if supplier.data.address %}{{ supplier.data.address }}, {% endif %}
+                  {% if supplier.data.zipcode %}{{ supplier.data.zipcode }}, {% endif %}
+                  {% if supplier.data.city %}{{ supplier.data.city }}, {% endif %}
+                  {% if supplier.data.state and supplier.data.country %}{{ supplier.data.state_descr }}, {% endif %}
+                  {{ supplier.data.country_descr }}<br />
+<span style="margin-left:20px;">&nbsp;</span>{% if supplier.data.phone %}{{ __("phone") }}:&nbsp;{{ supplier.data.phone }}{%if supplier.data.fax %}, {% endif %}{% endif %}{% if supplier.data.fax %}{{ __("fax") }}:&nbsp;{{ supplier.data.fax }}{% endif %}.<br />
+<span style="margin-left:20px;">&nbsp;</span>{{ __("email") }}:&nbsp;{{ supplier.data.email }}
+
+{{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+            <addon><![CDATA[suppliers]]></addon>
+        </item>
+    </templates>
+    <snippets/>
+</email_templates>

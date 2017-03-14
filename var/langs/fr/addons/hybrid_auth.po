@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /addons/hybrid_auth.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:03-0500\n"
+
+msgctxt "Addons::name::hybrid_auth"
+msgid "Social login"
+msgstr "Connexion aux réseaux sociaux"
+
+msgctxt "Addons::description::hybrid_auth"
+msgid "Adds the Social Login feature; allows customers use Facebook, Twitter, etc. to log in on the store"
+msgstr "Ajoute la fonctionnalité du login des réseaux sociaux; permet aux clients d'utiliser Facebook, Twitter, etc. pour se connecter au magasin"
+
+msgctxt "SettingsSections::hybrid_auth::general"
+msgid "General"
+msgstr "Général"
+
+msgctxt "SettingsOptions::hybrid_auth::icons_pack"
+msgid "Icons pack"
+msgstr "Pack d’icones"
+
+msgctxt "SettingsTooltips::hybrid_auth::icons_pack"
+msgid "Directory with the social networks icons. A path to the directory: media/images/addons/addons/hybrid_auth/icons/."
+msgstr "Répertoire avec les icônes des réseaux sociaux. Chemin vers le répertoire: / media/images/addons/addons/hybrid_auth/icons/."
+
+msgctxt "SettingsOptions::hybrid_auth::autogen_email"
+msgid "Autogeneration email"
+msgstr "Autogeneration email"
+
+msgctxt "SettingsTooltips::hybrid_auth::autogen_email"
+msgid "Enables the email auto generation in case that a social network does not pass the address."
+msgstr "Permet la génération automatique de courriel en cas qu’un réseau social ne passe pas l’adresse."
+
+msgctxt "Languages::hybrid_auth"
+msgid "Social login"
+msgstr "Connexion aux réseaux sociaux"
+
+msgctxt "Languages::hybrid_auth.linked_provider"
+msgid "Linked"
+msgstr "Lié"
+
+msgctxt "Languages::hybrid_auth.not_linked_provider"
+msgid "Not linked"
+msgstr "Sans lien"
+
+msgctxt "Languages::hybrid_auth.providers"
+msgid "Providers"
+msgstr "Fournisseur"
+
+msgctxt "Languages::hybrid_auth.add_provider"
+msgid "Add provider"
+msgstr "Ajouter un fournisseur"
+
+msgctxt "Languages::hybrid_auth.new_provider"
+msgid "New provider"
+msgstr "Nouveau fournisseur"
+
+msgctxt "Languages::hybrid_auth.editing_provider"
+msgid "Editing provider"
+msgstr "Modifier les fournisseurs"
+
+msgctxt "Languages::hybrid_auth.callback_url"
+msgid "Callback URL"
+msgstr "URL de callback"
+
+msgctxt "Languages::hybrid_auth.social_login"
+msgid "Or sign-in with another identity provider"
+msgstr "Ou connectez-vous avec un autre fournisseur d'identité"
+
+msgctxt "Languages::hybrid_auth.unspecified_error"
+msgid "Unspecified error"
+msgstr "Erreur non spécifiée"
+
+msgctxt "Languages::hybrid_auth.configuration_error"
+msgid "Hybriauth configuration error"
+msgstr "Erreur de configuration Hybriauth"
+
+msgctxt "Languages::hybrid_auth.provider_error_configuration"
+msgid "Provider not properly configured"
+msgstr "Fournisseur pas correctement configuré"
+
+msgctxt "Languages::hybrid_auth.wrong_provider"
+msgid "Unknown or disabled provider"
+msgstr "Fournisseur inconnu ou handicapé"
+
+msgctxt "Languages::hybrid_auth.missing_credentials"
+msgid "Missing provider application credentials"
+msgstr "Informations d’identification manquant de fournisseur demande"
+
+msgctxt "Languages::hybrid_auth.failed_auth"
+msgid "Authentication failed. The user has canceled the authentication or the provider refused the connection"
+msgstr "L'authentification a échoué. L'utilisateur a annulé l'authentification ou le fournisseur a refusé la connexion"
+
+msgctxt "Languages::hybrid_auth.connecting_provider"
+msgid "Contacting <b>[provider]</b>. Please wait..."
+msgstr "Contact de <b>[provider]</b>. Veuillez patienter..."
+
+msgctxt "Languages::hybrid_auth.cant_create_profile"
+msgid "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+msgstr "Malheureusement, nous n’avons pas à créer un client et vous connecter à la Banque en raison de l’une des raisons suivantes: < br / >-vous connecté à notre magasin précédemment en utilisant un autre fournisseur OpenID dans lequel est utilisé le même courriel. < br / >-vous êtes déjà enregistré dans notre magasin à l’aide de votre email. < br / > Contactez le propriétaire du magasin pour résoudre les problèmes."
+
+msgctxt "Languages::hybrid_auth.password_generated"
+msgid "We are glad to inform you that you have been successfully registered in the store. A password was generated for you"
+msgstr "Nous sommes heureux de vous informer que vous avez été avec succès enregistré dans le magasin. Un mot de passe a été généré pour vous"
+
+msgctxt "Languages::hybrid_auth.change_password"
+msgid "You can change your password here"
+msgstr "Vous pouvez modifier votre mot de passe ici"
+
+msgctxt "Languages::hybrid_auth.link_provider"
+msgid "Social network accounts"
+msgstr "Comptes de réseau social"
+
+msgctxt "Languages::hybrid_auth.text_link_provider"
+msgid "Assign your social network account to this one and use it to log in"
+msgstr "Attribuer votre compte de réseau social à celui-ci et utilisez-le pour ouvrir une session"
+
+msgctxt "Languages::hybrid_auth.text_user_is_already_link"
+msgid "This social network account is already being used"
+msgstr "Ce compte de réseau social est déjà utilisé"
+
+msgctxt "Languages::hybrid_auth.connect_social"
+msgid "Connect social account"
+msgstr "Connecter compte social"
+
+msgctxt "Languages::hybrid_auth.connect_social_title"
+msgid "Such user already exists"
+msgstr "Tel utilisateur existe déjà"
+
+msgctxt "Languages::hybrid_auth.text_connect_social"
+msgid "<p>The user with the e-mail specified during social login already exists.</p><p>If you want to assign a social network account to the registered user, please log in.</p>"
+msgstr "<p>L’utilisateur avec l’adresse e-mail indiquée lors de la connexion sociale déjà existe.</p> <p>Si vous souhaitez affecter un compte de réseau social à l’utilisateur inscrit, veuillez ouvrir une session po</p>"
+
+msgctxt "Languages::hybrid_auth.specify_email"
+msgid "Specify email"
+msgstr "Indiquez l’email"
+
+msgctxt "Languages::hybrid_auth.specify_email_title"
+msgid "The e-mail was not specified."
+msgstr "L’e-mail n’a pas été spécifiée."
+
+msgctxt "Languages::hybrid_auth.text_specify_email"
+msgid "<p>When logging through the social network the e-mail was not specified.</p><p>Please enter your e-mail and click Continue.</p>"
+msgstr "<p>Quand vous connectant via le réseau social le courriel n’a été spécifié.</p> <p>S’il vous plaît entrer votre adresse e-mail et cliquez sur continuer.</p>"
+
+msgctxt "Languages::hybrid_auth_menu_description"
+msgid "Create social provider"
+msgstr "Créer le fournisseur social"
+
+msgctxt "Languages::public_key"
+msgid "Public key"
+msgstr "Clé publique"
+
+msgctxt "Languages::paypal_seamless"
+msgid "Use seamless checkout"
+msgstr "Caisse sans soudure d’utilisation"
+
+msgctxt "Languages::paypal_sandbox"
+msgid "Test mode"
+msgstr "Mode test"
+
+msgctxt "Languages::privileges.manage_providers"
+msgid "Manage social login providers"
+msgstr "Gérer les fournisseurs de connexion sociale"
+
+msgctxt "Languages::privileges.view_providers"
+msgid "View social login providers"
+msgstr "Gérer les fournisseurs de connexion sociale"
+
+msgctxt "Languages::hybrid_auth.instruction_facebook"
+msgid "Use the application ID and Secret key that you've received after creating an application on <a href='https://developers.facebook.com/apps' target='_blank'>Facebook Developers</a>."
+msgstr "Utiliser l’ID d’application et de la clé secrète que vous avez reçu après avoir créé une application sur <a href='https://developers.facebook.com/apps' target='_blank'> Les développeurs de Facebook</a>."
+
+msgctxt "Languages::hybrid_auth.instruction_google"
+msgid "Use ID and Secret key that you've received after creating a project on <a href='https://code.google.com/apis/console/?pli=1' target='_blank'>Google</a>."
+msgstr "Utilisez l’ID et la clé secrète que vous avez reçu après avoir créé un projet sur <a href='https://code.google.com/apis/console/?pli=1' target='_blank'> Google</a>."
+
+msgctxt "Languages::hybrid_auth.instruction_paypal"
+msgid "Use the application ID and Secret key that you've received after creating an application on <a href='https://developer.paypal.com/developer/applications' target='_blank'>PayPal Developers</a>."
+msgstr "Utiliser l’ID d’application et de la clé secrète que vous avez reçu après avoir créé une application sur <a href='https://developers.facebook.com/apps' target='_blank'> Les développeurs de Facebook</a>."
+
+msgctxt "Languages::hybrid_auth.instruction_twitter"
+msgid "Use ID (Consumer key) and Secret key that you've received after creating an application on <a href='https://apps.twitter.com/' target='_blank'>Twitter</a>."
+msgstr "Utiliser des ID (clé de consommateurs) et la clé secrète que vous avez reçu après avoir créé une application sur <a href='https://apps.twitter.com/' target='_blank'> Twitter</a>."
+
+msgctxt "Languages::hybrid_auth.instruction_yahoo"
+msgid "Use ID (Identificator) and Secret key that you've received after creating an application on <a href='https://developer.apps.yahoo.com/dashboard/createKey.html' target='_blank'>Yahoo</a>."
+msgstr "Utilisez l’ID (identifiant) et la clé secrète que vous avez reçu après avoir créé une application sur <a href='https://developer.apps.yahoo.com/dashboard/createKey.html' target='_blank'> Yahoo</a>."
+
+msgctxt "Languages::hybrid_auth.instruction_live"
+msgid "Use the application ID and Secret key that you've received after adding an application on <a href='https://account.live.com/developers/applications/create' target='_blank'>Live</a>."
+msgstr "Utiliser l’ID d’application et de la clé secrète que vous avez reçu après avoir créé une application sur <a href='https://developers.facebook.com/apps' target='_blank'> Les développeurs de Facebook</a>."
+
+msgctxt "Languages::hybrid_auth.instruction_linkedin"
+msgid "Use ID (Consumer key) and Secret key that you've received after creating an application on <a href='https://www.linkedin.com/developer/apps' target='_blank'>LinkedIn Developers</a>."
+msgstr "Utiliser des ID (clé de consommateurs) et la clé secrète que vous avez reçu après avoir créé une application sur <a href='https://apps.twitter.com/' target='_blank'> Twitter</a>."
+
+msgctxt "Languages::hybrid_auth.instruction_foursquare"
+msgid "Use the application ID and Secret key that you've received after creating an application on <a href='https://foursquare.com/developers/apps' target='_blank'>Fousquare</a>."
+msgstr "Utiliser l’ID d’application et de la clé secrète que vous avez reçu après avoir créé une application sur <a href='https://developers.facebook.com/apps' target='_blank'> Les développeurs de Facebook</a>."
+
+msgctxt "Languages::email_template.hybrid_auth_create_profile"
+msgid "Create user profile via social login"
+msgstr ""
+

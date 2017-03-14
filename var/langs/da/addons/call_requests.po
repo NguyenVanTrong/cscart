@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: da\n"
+"X-Crowdin-File: /addons/call_requests.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:02-0500\n"
+
+msgctxt "Addons::name::call_requests"
+msgid "Call requests"
+msgstr "Opkaldsanmodninger"
+
+msgctxt "Addons::description::call_requests"
+msgid "Adds a call-requests system"
+msgstr "Tilføj et opkaldsanmodningssystem"
+
+msgctxt "SettingsSections::call_requests::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsOptions::call_requests::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsOptions::call_requests::phone"
+msgid "Rewrite phone"
+msgstr "Omskriv telefon"
+
+msgctxt "SettingsOptions::call_requests::phone_prefix_length"
+msgid "Highlight first chars"
+msgstr "Fremhæv første tegn"
+
+msgctxt "SettingsOptions::call_requests::buy_now_with_one_click"
+msgid "Enable the \"Buy now with one click\" option"
+msgstr "Aktivere indstillingen \"Køb nu med et klik\""
+
+msgctxt "SettingsOptions::call_requests::order_status"
+msgid "Order status"
+msgstr "Ordrestatus"
+
+msgctxt "SettingsOptions::call_requests::phone_mask"
+msgid "Phone mask"
+msgstr "Telefon maske"
+
+msgctxt "SettingsTooltips::call_requests::phone_mask"
+msgid "Leave empty to use automatic country-based phone pattern, or type in a custom pattern. You can use spaces, commas, +, -, and digits. Note that 9 represents any digit; if you need a 9, type \\\\9. Examples: +9 (999) 999 99 99, 99999999, 999 999 99 or +99-99-9999-9999."
+msgstr "Efterlad tom for at bruge automatisk land-baserede telefon mønster, eller skriv et brugerdefineret mønster. Du kan bruge mellemrum, kommaer, +, -, og cifre. Bemærk at 9 repræsenterer ethvert ciffer; Hvis du har brug for 9, type \\\9. Eksempler: 9 procentpoint (999) 999 99 99, 99999999, 999 999 99 eller + 99-99-9999-9999."
+
+msgctxt "SettingsTooltips::call_requests::phone_prefix_length"
+msgid "Including parenthesis, spaces, etc. Use to highlight country code, area code, and phone prefix."
+msgstr "Herunder parentes, mellemrum, osv. Brug til at fremhæve landekode, områdenummer og telefon præfiks."
+
+msgctxt "Languages::privileges.manage_call_requests"
+msgid "Manage Call requests"
+msgstr "Administrer opkaldsanmodninger"
+
+msgctxt "Languages::privileges.view_call_requests"
+msgid "View Call requests"
+msgstr "Se opkaldsanmodninger"
+
+msgctxt "Languages::call_requests"
+msgid "Call requests"
+msgstr "Opkaldsanmodninger"
+
+msgctxt "Languages::call_requests_menu_description"
+msgid "Manage customer call requests"
+msgstr "Administrere opkaldskundeforespørgsler"
+
+msgctxt "Languages::call_requests.request_call"
+msgid "Request call"
+msgstr "Anmodning opkald"
+
+msgctxt "Languages::call_requests.buy_now_with_one_click"
+msgid "Buy now with 1-click"
+msgstr "Køb nu med 1-click"
+
+msgctxt "Languages::call_requests.error_validate_call_form"
+msgid "Please enter your email or phone number"
+msgstr "Indtast venligst din e-mail eller telefonnummer"
+
+msgctxt "Languages::call_requests.request_recieved"
+msgid "We have received your request! Our manager will contact you soon."
+msgstr "Vi har modtaget din anmodning! Vores manager vil kontakte dig snarest."
+
+msgctxt "Languages::call_requests.order_placed"
+msgid "We have received your request! The order #[order_id] has been successfully created. Our manager will contact you soon."
+msgstr "Vi har modtaget din anmodning! Bestil #[order_id] er blevet oprettet. Vores manager vil kontakte dig snarest."
+
+msgctxt "Languages::call_requests.phone_from_settings"
+msgid "Phone from settings"
+msgstr "Telefon fra indstillinger"
+
+msgctxt "Languages::call_requests.enter_phone_or_email_text"
+msgid "Please enter your phone number or email (for our manager to contact you)"
+msgstr "Angiv venligst dit telefonnummer eller e-mail (til vores manager til at kontakte dig)"
+
+msgctxt "Languages::call_requests.status.new"
+msgid "New"
+msgstr "Ny"
+
+msgctxt "Languages::call_requests.status.in_progress"
+msgid "In progress"
+msgstr "Under udførelse"
+
+msgctxt "Languages::call_requests.status.completed"
+msgid "Completed"
+msgstr "Afsluttet"
+
+msgctxt "Languages::call_requests.status.no_answer"
+msgid "No answer"
+msgstr "Intet svar"
+
+msgctxt "Languages::call_requests.responsible"
+msgid "Responsible"
+msgstr "Ansvarlig"
+
+msgctxt "Languages::call_requests.notes"
+msgid "Notes"
+msgstr "Noter"
+
+msgctxt "Languages::call_requests.requested_product"
+msgid "Requested product"
+msgstr "Ønskede produkt"
+
+msgctxt "Languages::call_requests.convenient_time"
+msgid "Convenient time"
+msgstr "Belejligt tidspunkt"
+
+msgctxt "Languages::call_requests.awaiting_call"
+msgid "Awaiting call"
+msgstr "Afventer opkald"
+
+msgctxt "Languages::call_requests.order_exists"
+msgid "Order exists"
+msgstr "Orden eksisterer"
+
+msgctxt "Languages::call_requests.person_name_and_phone"
+msgid "Name and phone"
+msgstr "Navn og telefonnummer"
+
+msgctxt "Languages::call_requests.no_name_specified"
+msgid "No name specified"
+msgstr "Intet navn angivet"
+
+msgctxt "Languages::call_requests.use_for_call_requests"
+msgid "Call request and buy now with one click form"
+msgstr "Opkaldsanmodning og køb nu med et enkelt klik form"
+
+msgctxt "Languages::block_call_request"
+msgid "Call request"
+msgstr "Opkaldsanmodninger"
+
+msgctxt "Languages::block_call_request_description"
+msgid "Store phone number and form for requesting a call"
+msgstr "Butiks telefonnummer og form for at anmode om et opkald"
+
+msgctxt "Languages::tmpl_call_request"
+msgid "Call request form"
+msgstr "Forespørgsel om opkald form"
+
+msgctxt "Languages::call_requests.text_call_request"
+msgid "Customer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number]."
+msgstr "Kunde [customer] er <a href=\"[href]\"> venter på dit opkald</a> på [phone_number]."
+
+msgctxt "Languages::call_requests.text_call_request_call_time"
+msgid "The convenient call time is between [time_from] and [time_to]."
+msgstr "Den bekvemme opkaldstid er mellem [time_from] og [time_to]."
+
+msgctxt "Languages::call_requests.text_buy_with_one_click_request"
+msgid "Сustomer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number], regarding the purchase of the product <a href=\"[product_href]\">[product_name]</a>."
+msgstr "Kunde [customer] er <a href=\"[href]\"> venter på dit opkald</a> på [phone_number], med hensyn til køb af produktet <a href=\"[product_href]\">[product_name]</a>."
+
+msgctxt "Languages::call_requests.error_validator_phone"
+msgid "The phone number in the <b>[field]</b> field is invalid."
+msgstr "Telefonnummer i feltet <b>[field]</b> er ugyldig."
+
+msgctxt "Languages::email_template.call_requests_buy_with_one_click"
+msgid "Call requests: buy with one click notification"
+msgstr "Opkaldsanmodninger: Køb med ét klik underretning"
+
+msgctxt "Languages::email_template.call_requests_call_request"
+msgid "Call requests: call request notification"
+msgstr "Opkaldsanmodninger: underretning om opkaldsanmodning"
+
+msgctxt "Languages::call_request.work_time"
+msgid "Mon-Fr 9a.m.-6p.m."
+msgstr "Man-Fre 9-18."
+

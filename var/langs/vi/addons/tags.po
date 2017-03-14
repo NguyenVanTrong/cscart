@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/tags.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::tags"
+msgid "Tags"
+msgstr "Gắn thẻ"
+
+msgctxt "Addons::description::tags"
+msgid "Enables product tags"
+msgstr "Cho phép gắn thẻ sản phẩm"
+
+msgctxt "Languages::tags_menu_description"
+msgid "Manage product and content page tags."
+msgstr "Quản lý thẻ sản phẩm và nội dung trang."
+
+msgctxt "Languages::sign_in_to_enter_tags"
+msgid "Sign in to enter tags"
+msgstr "Đăng nhập để thêm thẻ"
+
+msgctxt "Languages::tag_cloud"
+msgid "Tag cloud"
+msgstr "Thẻ phổ biến"
+
+msgctxt "Languages::tags"
+msgid "Tags"
+msgstr "Gắn thẻ"
+
+msgctxt "Languages::block_tags"
+msgid "Tags"
+msgstr "Gắn thẻ"
+
+msgctxt "Languages::block_tags_description"
+msgid "Product tags"
+msgstr "Gắn thẻ sản phẩm"
+
+msgctxt "Languages::addons.tags.add_a_tag"
+msgid "add a tag"
+msgstr "thêm thẻ"
+
+msgctxt "Languages::items_marked_by_tag"
+msgid "Items marked by the \"[tag]\" tag:"
+msgstr "Mục được đánh dấu với thẻ \"[tag]\":"
+
+msgctxt "Languages::tag"
+msgid "Tag"
+msgstr "Thẻ"
+
+msgctxt "Languages::add_tag"
+msgid "Add tag"
+msgstr "Thêm thẻ"
+
+msgctxt "SettingsSections::tags::general"
+msgid "General"
+msgstr "Tổng quát"
+
+msgctxt "SettingsOptions::tags::tags_for_products"
+msgid "Tags for products"
+msgstr "Gắn thẻ cho sản phẩm"
+
+msgctxt "SettingsOptions::tags::tags_for_pages"
+msgid "Tags for pages"
+msgstr "Gắn thẻ cho trang"
+

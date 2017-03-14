@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Georgian\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ka\n"
+"X-Crowdin-File: /addons/form_builder.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:46-0500\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "ფორმების კონსტრუქტორი"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us)"
+msgstr "ეს გაძლევთ საშუალებას შექმნათ კონფიგურირებადი ფორმები (მაგალითად, \"დაკონტაქტება ჩვენთან\")"
+
+msgctxt "Languages::use_for_form_builder"
+msgid "Custom forms"
+msgstr "სამომხმარებლო ფორმები"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "ახალი ფორმა"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "ფორმის რედაქტირება"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "ფორმების კონსტრუქტორი"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "ფორმის გაგზავნის შემდგომი ტექსტი"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "E-mail -ზე გაგზავნა"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "ფორმა დაცულია (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "ფორმის დამატება"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "ძირითადი"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "ჩექბოქსების ჯგუფი"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "სხვადასხვა არჩევანის შესაძლებლობის სია"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "სათაური"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "გამყოფი"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "სპეციალური"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "ქვეყნების სია"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "რეგიონების სია"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "რეფერალი"
+
+msgctxt "Languages::email_template.form_builder_form"
+msgid "Contact form"
+msgstr ""
+
+msgctxt "Languages::addons.form_builder.form_fields"
+msgid "Form fields"
+msgstr "ფორმის ველები"
+
+msgctxt "Languages::addons.form_builder.form_name"
+msgid "Form name"
+msgstr "ფორმის სახელი"
+
+msgctxt "Languages::addons.form_builder.other_subject"
+msgid "Other subject (specify below)"
+msgstr "სხვა დასახელება(მიუთითე ქვემოთ)"
+
+msgctxt "Languages::addons.form_builder.email_subject_field"
+msgid "E-mail subject field"
+msgstr "ელ.ფოსტის დასახელების ველი"
+
+msgctxt "Languages::ttc_addons.form_builder.email_subject_field"
+msgid "Fields of type \"Select box\" or \"Input field\" can be used"
+msgstr "შესაძლებელია \"Select box\" ან \"Input field\" ტიპის ველის გამოყენება"
+

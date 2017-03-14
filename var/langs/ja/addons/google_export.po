@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /addons/google_export.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-22 04:00-0500\n"
+
+msgctxt "Addons::name::google_export"
+msgid "Google export"
+msgstr "Googleエクスポート"
+
+msgctxt "Addons::description::google_export"
+msgid "Expands the Data Feeds add-on to work with Google Base and creates an example of such data feed"
+msgstr "データフィードアドオンの機能を拡張してGoogleショッピングに対応させます"
+
+msgctxt "Languages::google_export_general_info"
+msgid "<p>Note: toggle this setting if you need multi-language Google categories installed. Supports French, German, Italian, Spanish, and British English. Pay attention that this operation can take a significant amount of time.</p>"
+msgstr "<p>注意: 複数言語でGoogle商品カテゴリを登録する場合にのみ下記の設定をチェックして「保存」ボタンをクリックしてください。<br />対応言語はアメリカ英語、イギリス英語、フランス語、ドイツ語、イタリア語、スペイン語となります。<br />（設定の有効化に時間がかかる場合があります）</p>"
+
+msgctxt "Languages::google_export_start_import"
+msgid "Start importing"
+msgstr "インポート中"
+
+msgctxt "SettingsSections::google_export::general"
+msgid "General"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::google_export::general_info"
+msgid "General info"
+msgstr "全般"
+
+msgctxt "SettingsOptions::google_export::additional_langs"
+msgid "Install additional languages for Google categories"
+msgstr "複数言語のGoogle商品カテゴリを設定する"
+
+msgctxt "Languages::addons.google_export.skip_zero_prices"
+msgid "Don't export items with a price value of 0.00"
+msgstr "価格が0の商品をエクスポートしないでください"
+
+msgctxt "Languages::addons.google_export.skip_zero_prices_description"
+msgid "You must not include a price value of 0.00 for your Google Products Feed items. Items with zero prices may not appear in the search results."
+msgstr "Google Product Feedに価格が0の商品を含めないでください。価格が0の商品は検索結果に表示されません。"
+
+msgctxt "Languages::addons.google_export.notice"
+msgid "Before you export products to Google Product Feed, make sure that the Code of your store's <a href=\"[currency_url]\">primary currency</a> conforms to <a href=\"http://www.currency-iso.org/en/home/tables/table-a1.html\">ISO 4217</a> and used <a href=\"[settings_url]\">Weight symbol</a> is one of the following: lb, oz, g, kg"
+msgstr "Google Product Feedに商品をエクスポートする前に、<a href=\"[currency_url]\">ベース通貨</a> の通貨コードが<a href=\"http://www.currency-iso.org/en/home/tables/table-a1.html\">ISO 4217</a>に準拠したものであることと、<a href=\"[settings_url]\">重量を表す記号</a> が lb, oz, g, kg のいずれかであることを確認してください。"
+
+msgctxt "Languages::addons.google_export.google_export"
+msgid "Google export"
+msgstr "Googleエクスポート"
+
+msgctxt "Languages::google_name_option"
+msgid "Equivalent in Google:"
+msgstr ""
+
+msgctxt "Languages::addons.google_export.tax_notice"
+msgid "For the US, don't include tax in the price. For Canada and India, do not include any value added tax in the price. For all other countries, value added tax (VAT) has to be included in the price."
+msgstr "アメリカ合衆国向けのデータについては、税金を商品価格に含めないでください。カナダおよびインド向けのデータについては、いかなる種類の付加価値税（消費税）も商品価格に含めないでください。他の国ついては、付加価値税（消費税）を商品価格に含めてください。"
+
+msgctxt "Languages::addons.google_export.info_google_features"
+msgid "<p>Before you export a data feed file for Google Merchant, make sure to edit your products and specify the values of product features that belong to the Google Export group. You can do this via product import and export, or mass editing.</p><p> GTIN is a key identifier of a product. If you didn't specify GTIN as a feature, product's SKU from the CODE field will be used. GTINs for option combinations are always taken from the CODE fields of combinations.</p>"
+msgstr ""
+
+msgctxt "Languages::tt_addons_google_export_hooks_product_options_properties_post_google_name_option"
+msgid "When you export a data feed file, this option will provide data for the selected Google field type."
+msgstr ""
+
+msgctxt "Languages::addons.google_export.text_info_setting_options"
+msgid "Please make sure that you selected this option as \"Equivalent in Google\" for one of the options in your store. Otherwise the data feed file may not be exported properly."
+msgstr ""
+

@@ -1,0 +1,186 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /addons/searchanise.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:01-0500\n"
+
+msgctxt "Addons::name::searchanise"
+msgid "Searchanise"
+msgstr "Searchanise"
+
+msgctxt "Addons::description::searchanise"
+msgid "Turns on the <a target=\"_blank\" href=\"http://searchanise.com/\">Searchanise</a> fast search service"
+msgstr "Zapne službu rychlého vyhledávání <a target=\"_blank\" href=\"http://searchanise.com/\">Searchanise</a>"
+
+msgctxt "Languages::searchanise"
+msgid "Searchanise"
+msgstr "Searchanise"
+
+msgctxt "Languages::text_se_import_status_queued"
+msgid "The product catalog is queued for syncing with Searchanise."
+msgstr "Katalog produktů bude synchronizován s Searchanise."
+
+msgctxt "Languages::text_se_re_indexation_required"
+msgid "Searchanise: Re-indexation required (click the <strong>Force re-indexation</strong> button in the <a href=\"[link]\">Searchanise admin panel</a>)."
+msgstr "Searchanise: Vyžadována reindexace (klikněte na <strong>Force re-indexation</strong> na administračním panelu <a href=\"[link]\">Searchanise</a>)."
+
+msgctxt "Languages::text_se_new_engine_store"
+msgid "Searchanise: New search engine for [store] created. Catalog import started."
+msgstr "Searchanise: Nový vyhledávač pro [store] byl vytvořen. Import katalogu začal."
+
+msgctxt "Languages::text_se_seo_settings_notice"
+msgid "If you have modified any SEO add-on settings, please <a href=\"[link]\">Re-indexation</a> product catalog with Searchanise to update product URLs."
+msgstr "Pokud jste modifikovali jakékoliv nastavení modulu SEO, prosím, <a href=\"[link]\">reindexujte</a> katalog produktů v Searchanise pro aktualizaci URL adres produktů."
+
+msgctxt "Languages::text_se_connect_error"
+msgid "An error occurred during Searchanise registration. Please try later."
+msgstr "Vyskytla se chyba během registrace na Searchanise. Zkuste to, prosím, později."
+
+msgctxt "Languages::text_se_import_status_processing"
+msgid "The product catalog syncing is in progress."
+msgstr "Probíhá synchronizace katalogu produktů."
+
+msgctxt "Languages::text_se_import_status_done"
+msgid "The product catalog was synced successfully with Searchanise."
+msgstr "Synchronizace katalogu produktů se Searchanise proběhla úspěšně."
+
+msgctxt "Languages::text_se_import_status_none"
+msgid "The product catalog is not synced with Searchanise yet. Please press \"Sync\" button to start."
+msgstr "Katalog produktů ještě není synchronizován s Searchanise. Pro spuštění synchronizace stiskněte, prosím, tlačítko \"Sync\"."
+
+msgctxt "Languages::text_se_data_update"
+msgid "Please note that the data on Searchanise server is updated with a 2-3 minute delay after you make changes in your store."
+msgstr "Upozorňujeme, že na údaje na Searchanise serveru jsou aktualizovány s 2-3 minutovým zpožděním vůči změnám provedeným ve vašem obchodě."
+
+msgctxt "Languages::text_se_signup"
+msgid "Click the button below to connect to Searchanise."
+msgstr "Klikněte na tlačítko níže, abyste se připojili k Searchanise."
+
+msgctxt "Languages::text_se_just_connected"
+msgid "Congratulations, you've just connected to Searchanise."
+msgstr "Gratulujeme, právě jste se připojili k Searchanise."
+
+msgctxt "Languages::text_se_connected"
+msgid "You've connected to Searchanise."
+msgstr "Připojili jste se k Searchanise."
+
+msgctxt "Languages::text_se_database_restore_notice"
+msgid "You've just restored your data from the database dump file. If this dump contains product data, please <a href=\"[link]\">Re-indexation</a> it with Searchanise."
+msgstr "Právě jste obnovili vaše data z dump souboru databáze. Pokud tento dump soubor obsahuje údaje o produktech, prosím <a href=\"[link]\">reindexujte</a> ho s Searchanise."
+
+msgctxt "Languages::text_se_only_root_can_register"
+msgid "Only the root admin has the permission to connect to Searchanise"
+msgstr "Pouze hlavní administrátor se může připojit k Searchanise"
+
+msgctxt "Languages::se_did_you_mean"
+msgid "Did you mean"
+msgstr "Měli jste na mysli"
+
+msgctxt "Languages::se_product_id"
+msgid "Product Id"
+msgstr "ID produktu"
+
+msgctxt "Languages::se_title"
+msgid "Title"
+msgstr "Název"
+
+msgctxt "Languages::se_summary"
+msgid "Description"
+msgstr "Popis"
+
+msgctxt "Languages::se_link"
+msgid "Product Url"
+msgstr "URL produktu"
+
+msgctxt "Languages::se_price"
+msgid "Price"
+msgstr "Cena"
+
+msgctxt "Languages::se_list_price"
+msgid "List Price"
+msgstr ""
+
+msgctxt "Languages::se_quantity"
+msgid "Quantity"
+msgstr "Množství"
+
+msgctxt "Languages::se_product_code"
+msgid "Product Code"
+msgstr "Kód produktu"
+
+msgctxt "Languages::se_image_link"
+msgid "Image Url"
+msgstr "Adresa URL obrázku"
+
+msgctxt "Languages::se_category_Id"
+msgid "Category Id"
+msgstr "ID kategorie"
+
+msgctxt "Languages::se_category_usergroup_ids"
+msgid "Category Usergroup Ids"
+msgstr "ID kategorií uživatelské skupiny"
+
+msgctxt "Languages::se_usergroup_ids"
+msgid "Usergroup Ids"
+msgstr "ID uživatelské skupiny"
+
+msgctxt "Languages::se_company_id"
+msgid "Company Id"
+msgstr "ID společnosti"
+
+msgctxt "Languages::se_empty_categories"
+msgid "Without Categories"
+msgstr "Bez kategorie"
+
+msgctxt "Languages::se_active_companies"
+msgid "Company is active"
+msgstr ""
+
+msgctxt "Languages::se_price_for_usergroup_id"
+msgid "Price for usergroup Id ([id])"
+msgstr "Cena pro uživatelskou skupinu ID ([id])"
+
+msgctxt "Languages::se_for_feature_id"
+msgid "Feature \"[id]\" Id"
+msgstr "ID funkce \"[id]\""
+
+msgctxt "Languages::se_relevance"
+msgid "Relevance"
+msgstr "Relevance"
+
+msgctxt "Languages::se_products"
+msgid "Products"
+msgstr "Produkty"
+
+msgctxt "Languages::se_popular_suggestions"
+msgid "Popular suggestions"
+msgstr "Oblíbené návrhy"
+
+msgctxt "Languages::sort_by_relevance_asc"
+msgid "Sort by Relevance"
+msgstr "Seřadit podle relevance"
+
+msgctxt "Languages::se_api_key"
+msgid "API key"
+msgstr "API klíč"
+
+msgctxt "Languages::se_private_key"
+msgid "Private key"
+msgstr "Soukromý klíč"
+
+msgctxt "Languages::se_options_combinations_codes"
+msgid "Options combinations codes"
+msgstr "Možnosti kombinace kódů"
+
+msgctxt "SettingsSections::searchanise::configuration"
+msgid "Configuration"
+msgstr "Konfigurace"
+

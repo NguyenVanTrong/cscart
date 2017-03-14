@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/google_sitemap.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::google_sitemap"
+msgid "Google sitemap"
+msgstr "نقشه سایت گوگل"
+
+msgctxt "Addons::description::google_sitemap"
+msgid "Creates a sitemap.xml for Google"
+msgstr "ایجاد sitemap.xml برای گوگل"
+
+msgctxt "Languages::google_sitemap.text_regenerate"
+msgid "If products, categories, etc. were added or changed, please <a class=\"cm-ajax cm-comet btn btn-primary\" href=\"[regenerate_url]\">Regenerate a sitemap</a><br /><br /> [sitemap_available_in_customer]"
+msgstr "اگر محصولات، دسته ها، و غیره اضافه تغییر یافت ، لطفا <a class=\"cm-ajax cm-comet btn btn-primary\" href=\"[regenerate_url]\"> نقشه سایت بازسازی</a> ی برزیلی / >-برزیلی / > [sitemap_available_in_customer]"
+
+msgctxt "Languages::google_sitemap.text_select_storefront"
+msgid "To generate a sitemap, please select storefront first."
+msgstr "برای تولید نقشه سایت لطفا نمای اول را انتخاب کنید."
+
+msgctxt "Languages::sitemap_available_in_customer"
+msgid "Sitemap is available by this link: <a href=\"[sitemap_url]\">[sitemap_url]</a><br /><br />Sitemap can be reached by the URL <a href=\"[http_location]/sitemap.xml\">[http_location]/sitemap.xml</a>"
+msgstr "نقشه سایت توسط این لینک در دسترس است: <a href=\"[sitemap_url]\"> [sitemap_url]</a> / >-br / > برای دسترسی به نقشه سایت می توانید با آدرس <a href=\"[http_location]/sitemap.xml\"> [http_location]/sitemap.xml</a> ارتباط برقرار نمایید."
+
+msgctxt "Languages::always"
+msgid "Always"
+msgstr "همیشه"
+
+msgctxt "Languages::hourly"
+msgid "Hourly"
+msgstr "ساعتی "
+
+msgctxt "Languages::daily"
+msgid "Daily"
+msgstr "روزانه"
+
+msgctxt "Languages::weekly"
+msgid "Weekly"
+msgstr "هفتگی "
+
+msgctxt "Languages::monthly"
+msgid "Monthly"
+msgstr "ماهانه"
+
+msgctxt "Languages::yearly"
+msgid "Yearly"
+msgstr "سالانه"
+
+msgctxt "Languages::never"
+msgid "Never"
+msgstr "هرگز"
+
+msgctxt "Languages::google_sitemap.generate_map"
+msgid "The sitemap is not generated yet. Please go to add-on settings and press \"Regenerate a sitemap\" button"
+msgstr "نقشه سایت  هنوز تولید نشده است. لطفا به  افزودنی تنظیمات بروید و دکمه \"بازسازی نقشه سایت\" را فشار دهید"
+
+msgctxt "Languages::google_sitemap.map_generated"
+msgid "The sitemap was generated successfully"
+msgstr "نقشه سایت با موفقیت ایجاد شد"
+
+msgctxt "SettingsSections::google_sitemap::general"
+msgid "General"
+msgstr "عمومی"
+
+msgctxt "SettingsOptions::google_sitemap::information"
+msgid "Information"
+msgstr "اطلاعات"
+
+msgctxt "SettingsOptions::google_sitemap::clear_url"
+msgid "Clear cache"
+msgstr "پاک کردن کش"
+
+msgctxt "SettingsOptions::google_sitemap::site_setting"
+msgid "Homepage settings"
+msgstr "تنظیمات صفحه اصلی"
+
+msgctxt "SettingsOptions::google_sitemap::site_change"
+msgid "Update frequency"
+msgstr "بروز رسانی  فرکانس "
+
+msgctxt "SettingsOptions::google_sitemap::site_priority"
+msgid "Priority"
+msgstr "اولویت"
+
+msgctxt "SettingsOptions::google_sitemap::products_setting"
+msgid "Products settings"
+msgstr "تنظیمات محصولات"
+
+msgctxt "SettingsOptions::google_sitemap::include_products"
+msgid "Include in sitemap"
+msgstr "در نقشه سایت قرار دارد"
+
+msgctxt "SettingsOptions::google_sitemap::products_change"
+msgid "Update frequency"
+msgstr "بروز رسانی  فرکانس"
+
+msgctxt "SettingsOptions::google_sitemap::products_priority"
+msgid "Priority"
+msgstr "اولویت"
+
+msgctxt "SettingsOptions::google_sitemap::categories_setting"
+msgid "Categories settings"
+msgstr "رده بندی صفحه تنظیمات"
+
+msgctxt "SettingsOptions::google_sitemap::include_categories"
+msgid "Include in sitemap"
+msgstr "در نقشه سایت قراردارد\n"
+""
+
+msgctxt "SettingsOptions::google_sitemap::categories_change"
+msgid "Update frequency"
+msgstr "بروز رسانی  فرکانس"
+
+msgctxt "SettingsOptions::google_sitemap::categories_priority"
+msgid "Priority"
+msgstr "اولویت"
+
+msgctxt "SettingsOptions::google_sitemap::pages_setting"
+msgid "Pages settings"
+msgstr "تنظیمات صفحه"
+
+msgctxt "SettingsOptions::google_sitemap::include_pages"
+msgid "Include in sitemap"
+msgstr "در نقشه سایت قرار دارد"
+
+msgctxt "SettingsOptions::google_sitemap::pages_change"
+msgid "Update frequency"
+msgstr "بروز رسانی  فرکانس"
+
+msgctxt "SettingsOptions::google_sitemap::pages_priority"
+msgid "Priority"
+msgstr "اولویت"
+
+msgctxt "SettingsOptions::google_sitemap::extended_setting"
+msgid "Brand/Manufacturer feature pages settings"
+msgstr "ویژگی نام تجاری/تولید کننده صفحات تنظیمات"
+
+msgctxt "SettingsOptions::google_sitemap::include_extended"
+msgid "Include in sitemap"
+msgstr "در نقشه سایت قرار دارد"
+
+msgctxt "SettingsOptions::google_sitemap::extended_change"
+msgid "Update frequency"
+msgstr "بروز رسانی  فرکانس"
+
+msgctxt "SettingsOptions::google_sitemap::extended_priority"
+msgid "Priority"
+msgstr "اولویت"
+
+msgctxt "SettingsOptions::google_sitemap::companies_setting"
+msgid "Companies settings"
+msgstr "شرکت های تنظیمات"
+
+msgctxt "SettingsOptions::google_sitemap::include_companies"
+msgid "Include in sitemap"
+msgstr "در نقشه سایت قراردارد"
+
+msgctxt "SettingsOptions::google_sitemap::companies_change"
+msgid "Update frequency"
+msgstr "بروز رسانی  فرکانس"
+
+msgctxt "SettingsOptions::google_sitemap::companies_priority"
+msgid "Priority"
+msgstr "اولویت"
+

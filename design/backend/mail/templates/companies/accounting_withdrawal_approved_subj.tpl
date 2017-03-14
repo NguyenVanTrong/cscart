@@ -1,0 +1,1 @@
+{$payment.vendor}: {__("vendor_payouts.withdrawal_approved")}

@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/age_verification.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::age_verification"
+msgid "Age verification"
+msgstr "Xác minh tuổi"
+
+msgctxt "Addons::description::age_verification"
+msgid "Toggles age restriction rules for products and categories"
+msgstr "Chuyển quy tắc giới hạn tuổi cho các sản phẩm và danh mục"
+
+msgctxt "Languages::age_verification"
+msgid "Age verification"
+msgstr "Xác minh tuổi"
+
+msgctxt "Languages::product_need_age_verification"
+msgid "You should verify your age to view this product."
+msgstr "Bạn cần xác minh tuổi của bạn để xem sản phẩm này."
+
+msgctxt "Languages::your_age"
+msgid "Your age"
+msgstr "Tuổi của bạn"
+
+msgctxt "Languages::verify"
+msgid "Verify"
+msgstr "Xác minh"
+
+msgctxt "Languages::birthday"
+msgid "Birthday"
+msgstr "Sinh Nhật"
+
+msgctxt "Languages::age_limit"
+msgid "Age limit"
+msgstr "Giới hạn tuổi"
+
+msgctxt "Languages::years"
+msgid "years"
+msgstr "năm"
+
+msgctxt "Languages::age_warning_message"
+msgid "Warning message"
+msgstr "Tin nhắn cảnh báo"
+
+msgctxt "Languages::promotion_cond_birthday"
+msgid "Birthday"
+msgstr "Sinh nhật"
+

@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /addons/form_builder.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Construtor de formulários"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us)"
+msgstr "Permite criar formulários personalizados (como por exemplo Fale Conosco)"
+
+msgctxt "Languages::use_for_form_builder"
+msgid "Custom forms"
+msgstr "Formulários personalizados"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Novo formulário"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Editando formulário"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Construtor de formulários"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Mensagem do formulário enviado"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "Destinatário"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Formulário seguro (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Adicionar formulário"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Base"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Caixas de seleção múltiplas"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Campos de seleção múltiplos"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Cabeçalho"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Separador"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Especial"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Lista de países"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Lista de estados"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "URL de origem"
+
+msgctxt "Languages::email_template.form_builder_form"
+msgid "Contact form"
+msgstr ""
+
+msgctxt "Languages::addons.form_builder.form_fields"
+msgid "Form fields"
+msgstr ""
+
+msgctxt "Languages::addons.form_builder.form_name"
+msgid "Form name"
+msgstr ""
+
+msgctxt "Languages::addons.form_builder.other_subject"
+msgid "Other subject (specify below)"
+msgstr ""
+
+msgctxt "Languages::addons.form_builder.email_subject_field"
+msgid "E-mail subject field"
+msgstr ""
+
+msgctxt "Languages::ttc_addons.form_builder.email_subject_field"
+msgid "Fields of type \"Select box\" or \"Input field\" can be used"
+msgstr ""
+

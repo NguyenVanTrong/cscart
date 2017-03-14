@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/store_locator.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::store_locator"
+msgid "Store locator"
+msgstr "Địa điểm cửa hàng"
+
+msgctxt "Addons::description::store_locator"
+msgid "Lets you place local stores on map and inform customers about their nearest stores"
+msgstr "Cho phép bạn đặt địa chỉ cửa hàng trên bản đồ và thông báo cho khách về các cửa hàng gần nhất"
+
+msgctxt "Languages::view_on_map"
+msgid "View on map"
+msgstr "Xem trên bản đồ"
+
+msgctxt "Languages::get_api_key"
+msgid "Obtaining an API Key"
+msgstr "Lấy một API key"
+
+msgctxt "Languages::block_store_locator"
+msgid "Store locator"
+msgstr "Địa điểm cửa hàng"
+
+msgctxt "Languages::block_store_locator_description"
+msgid "Store locator block"
+msgstr "Khối địa điểm cửa hàng"
+
+msgctxt "Languages::text_address_not_found"
+msgid "Address not found"
+msgstr "Địa chỉ không tìm thấy"
+
+msgctxt "Languages::select_coordinates"
+msgid "Select coordinates"
+msgstr "Chọn tọa độ"
+
+msgctxt "Languages::set"
+msgid "Set"
+msgstr "Thiết lập"
+
+msgctxt "Languages::editing_store_location"
+msgid "Editing store location"
+msgstr "Chỉnh sửa vị trí cửa hàng"
+
+msgctxt "Languages::new_store_location"
+msgid "New store location"
+msgstr "Vị trí cửa hàng mới"
+
+msgctxt "Languages::add_store_location"
+msgid "Add store location"
+msgstr "Thêm vị trí cửa hàng"
+
+msgctxt "Languages::coordinates"
+msgid "Coordinates"
+msgstr "Tọa độ"
+
+msgctxt "Languages::latitude_short"
+msgid "lat"
+msgstr "vĩ độ"
+
+msgctxt "Languages::longitude_short"
+msgid "long"
+msgstr "dài"
+
+msgctxt "Languages::all_stores"
+msgid "All stores"
+msgstr "Tất cả các cửa hàng"
+
+msgctxt "Languages::zoom"
+msgid "Map zoom"
+msgstr "Phóng to bản đồ"
+
+msgctxt "Languages::map_type_control"
+msgid "MapType control"
+msgstr "Điều khiển MapType"
+
+msgctxt "Languages::zoom_control"
+msgid "Zoom control"
+msgstr "Điều khiển phóng to"
+
+msgctxt "Languages::scale_control"
+msgid "Scale control"
+msgstr "Kiểm soát quy mô"
+
+msgctxt "SettingsSections::store_locator::general"
+msgid "General"
+msgstr "Tổng quát"
+
+msgctxt "SettingsOptions::store_locator::provider"
+msgid "Map provider"
+msgstr "Nhà cung cấp bản đồ"
+
+msgctxt "SettingsOptions::store_locator::map_provider"
+msgid "Map"
+msgstr "Bản đồ"
+
+msgctxt "SettingsOptions::store_locator::settings"
+msgid "Settings"
+msgstr "Cài đặt"
+
+msgctxt "SettingsVariants::store_locator::map_provider::google"
+msgid "Google"
+msgstr "Google"
+
+msgctxt "SettingsVariants::store_locator::map_provider::yandex"
+msgid "Yandex"
+msgstr "Yandex"
+
+msgctxt "Languages::privileges.manage_store_locator"
+msgid "Manage store locator"
+msgstr "Quản lý địa điểm cửa hàng"
+
+msgctxt "Languages::privileges.view_store_locator"
+msgid "View store locator"
+msgstr "Xem địa điểm cửa hàng"
+

@@ -1,0 +1,186 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/searchanise.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::searchanise"
+msgid "Searchanise"
+msgstr "جستجو بر اساس Searchanise"
+
+msgctxt "Addons::description::searchanise"
+msgid "Turns on the <a target=\"_blank\" href=\"http://searchanise.com/\">Searchanise</a> fast search service"
+msgstr "چرخش در <a target=\"_blank\" href=\"http://searchanise.com/\"> Searchanise</a> جستجو سریع سرویس"
+
+msgctxt "Languages::searchanise"
+msgid "Searchanise"
+msgstr "جستجو بر اساس Searchanise"
+
+msgctxt "Languages::text_se_import_status_queued"
+msgid "The product catalog is queued for syncing with Searchanise."
+msgstr "کاتالوگ محصولات برای همگام سازی با Searchanise صف ایجاد شد."
+
+msgctxt "Languages::text_se_re_indexation_required"
+msgid "Searchanise: Re-indexation required (click the <strong>Force re-indexation</strong> button in the <a href=\"[link]\">Searchanise admin panel</a>)."
+msgstr "Searchanise: دوباره شاخص بندی مورد نیاز (روی <strong> نیروی دوباره شاخص بندی </ strong> را در <a href=\"[link]\"> Searchanise پنل مدیریت </a> را)."
+
+msgctxt "Languages::text_se_new_engine_store"
+msgid "Searchanise: New search engine for [store] created. Catalog import started."
+msgstr "Searchanise: موتور جستجوی جدید برای [store] ایجاد شده است. کاتالوگ واردات آغاز شده است."
+
+msgctxt "Languages::text_se_seo_settings_notice"
+msgid "If you have modified any SEO add-on settings, please <a href=\"[link]\">Re-indexation</a> product catalog with Searchanise to update product URLs."
+msgstr "لطفا <a href=\"[link]\"> مجدد تشخيص</a> كاتالوگ با Searchanise به روز رسانی محصول آدرس ها اگر هر جستجوگرها افزودنی تنظیمات را تغییر داده اید."
+
+msgctxt "Languages::text_se_connect_error"
+msgid "An error occurred during Searchanise registration. Please try later."
+msgstr "خطایی در هنگام ثبت نام Searchanise. لطفا بعدا امتحان کنید."
+
+msgctxt "Languages::text_se_import_status_processing"
+msgid "The product catalog syncing is in progress."
+msgstr "محصول فروشگاه همگام سازی در جریان است."
+
+msgctxt "Languages::text_se_import_status_done"
+msgid "The product catalog was synced successfully with Searchanise."
+msgstr "کاتالوگ محصولات با موفقیت با Searchanise همزمان بود."
+
+msgctxt "Languages::text_se_import_status_none"
+msgid "The product catalog is not synced with Searchanise yet. Please press \"Sync\" button to start."
+msgstr "کاتالوگ محصولات با Searchanise هنوز همگام سازی است. \"همگام سازی\" را فشار دهید برای شروع را فشار دهید."
+
+msgctxt "Languages::text_se_data_update"
+msgid "Please note that the data on Searchanise server is updated with a 2-3 minute delay after you make changes in your store."
+msgstr "توجه داشته باشید که داده ها بر روی سرور Searchanise است با تاخیر 2-3 دقیقه روز پس از ایجاد تغییرات در فروشگاه شما."
+
+msgctxt "Languages::text_se_signup"
+msgid "Click the button below to connect to Searchanise."
+msgstr "با کلیک روی دکمه زیر برای اتصال به Searchanise."
+
+msgctxt "Languages::text_se_just_connected"
+msgid "Congratulations, you've just connected to Searchanise."
+msgstr "تبریک, شما به Searchanise متصل هستید."
+
+msgctxt "Languages::text_se_connected"
+msgid "You've connected to Searchanise."
+msgstr "به Searchanise متصل شده اید."
+
+msgctxt "Languages::text_se_database_restore_notice"
+msgid "You've just restored your data from the database dump file. If this dump contains product data, please <a href=\"[link]\">Re-indexation</a> it with Searchanise."
+msgstr "شما فقط اطلاعات خود را از فایل پایگاه داده کمپرسی دوباره بازسازی شد. اگر این کمپرسی شامل داده های محصول، لطفا <a href=\"[link]\"> دوباره شاخص بندی </a> را با Searchanise."
+
+msgctxt "Languages::text_se_only_root_can_register"
+msgid "Only the root admin has the permission to connect to Searchanise"
+msgstr " اجازه اتصال به Searchaniseفقط  با مدیر اصلی است"
+
+msgctxt "Languages::se_did_you_mean"
+msgid "Did you mean"
+msgstr "منظور شما چیست"
+
+msgctxt "Languages::se_product_id"
+msgid "Product Id"
+msgstr "شناسه محصول"
+
+msgctxt "Languages::se_title"
+msgid "Title"
+msgstr "عنوان"
+
+msgctxt "Languages::se_summary"
+msgid "Description"
+msgstr "شرح"
+
+msgctxt "Languages::se_link"
+msgid "Product Url"
+msgstr "نشانی اینترنتی محصول"
+
+msgctxt "Languages::se_price"
+msgid "Price"
+msgstr "قیمت"
+
+msgctxt "Languages::se_list_price"
+msgid "List Price"
+msgstr "لیست قیمت"
+
+msgctxt "Languages::se_quantity"
+msgid "Quantity"
+msgstr "مقدار"
+
+msgctxt "Languages::se_product_code"
+msgid "Product Code"
+msgstr "کد محصول"
+
+msgctxt "Languages::se_image_link"
+msgid "Image Url"
+msgstr "Url تصویر"
+
+msgctxt "Languages::se_category_Id"
+msgid "Category Id"
+msgstr "شناسه رده"
+
+msgctxt "Languages::se_category_usergroup_ids"
+msgid "Category Usergroup Ids"
+msgstr "رده شناسه "
+
+msgctxt "Languages::se_usergroup_ids"
+msgid "Usergroup Ids"
+msgstr "شناسه ميتوانم"
+
+msgctxt "Languages::se_company_id"
+msgid "Company Id"
+msgstr "شناسه شرکت"
+
+msgctxt "Languages::se_empty_categories"
+msgid "Without Categories"
+msgstr "بدون دسته بندی"
+
+msgctxt "Languages::se_active_companies"
+msgid "Company is active"
+msgstr "شرکت فعال است"
+
+msgctxt "Languages::se_price_for_usergroup_id"
+msgid "Price for usergroup Id ([id])"
+msgstr "قیمت برای شناسه گروه کاربری([id])"
+
+msgctxt "Languages::se_for_feature_id"
+msgid "Feature \"[id]\" Id"
+msgstr "ویژگی Id \"[id]\""
+
+msgctxt "Languages::se_relevance"
+msgid "Relevance"
+msgstr "ارتباط"
+
+msgctxt "Languages::se_products"
+msgid "Products"
+msgstr "محصولات"
+
+msgctxt "Languages::se_popular_suggestions"
+msgid "Popular suggestions"
+msgstr "پیشنهادات محبوب"
+
+msgctxt "Languages::sort_by_relevance_asc"
+msgid "Sort by Relevance"
+msgstr "مرتب کردن بر اساس ارتباط"
+
+msgctxt "Languages::se_api_key"
+msgid "API key"
+msgstr "کلید API"
+
+msgctxt "Languages::se_private_key"
+msgid "Private key"
+msgstr "کلید خصوصی"
+
+msgctxt "Languages::se_options_combinations_codes"
+msgid "Options combinations codes"
+msgstr "گزینه های ترکیب کدهای"
+
+msgctxt "SettingsSections::searchanise::configuration"
+msgid "Configuration"
+msgstr "پیکربندی"
+

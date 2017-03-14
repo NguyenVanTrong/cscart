@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Croatian\n"
+"Language: hr_HR\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: hr\n"
+"X-Crowdin-File: /addons/banners.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:01-0500\n"
+
+msgctxt "Addons::name::banners"
+msgid "Banners management"
+msgstr "Upravljanje bannera"
+
+msgctxt "Addons::description::banners"
+msgid "Allows you to create text and visual banners"
+msgstr "Omogućuje vam da napravite tekstualne i vizualne transparente"
+
+msgctxt "Languages::banners.new_banner"
+msgid "New banner"
+msgstr "Novi banner"
+
+msgctxt "Languages::banners.editing_banner"
+msgid "Editing banner"
+msgstr "Uređivanje bannera"
+
+msgctxt "Languages::add_banner"
+msgid "Add banner"
+msgstr "Dodavanje bannera"
+
+msgctxt "Languages::banner"
+msgid "Banner"
+msgstr "Banner"
+
+msgctxt "Languages::banners"
+msgid "Banners"
+msgstr "Banneri"
+
+msgctxt "Languages::banners_menu_description"
+msgid "Create graphic and text banners that can then be placed on the storefront."
+msgstr "Stvaranje grafičkih i tekstualnih transparente koji onda može biti stavljen na storefront."
+
+msgctxt "Languages::banner_code"
+msgid "Banner code"
+msgstr "Banner kod"
+
+msgctxt "Languages::banner_code_for_some_products"
+msgid "Banner code for some products"
+msgstr "Banner kod za neke proizvode"
+
+msgctxt "Languages::manage_banners"
+msgid "Manage banners"
+msgstr "Uređivanje bannera"
+
+msgctxt "Languages::block_banners"
+msgid "Banners"
+msgstr "Banneri"
+
+msgctxt "Languages::block_banners_description"
+msgid "Visual and text banners"
+msgstr "Vizualni i tekstualni banneri"
+
+msgctxt "Languages::privileges.view_banners"
+msgid "View banners"
+msgstr "Prikaz bannera"
+
+msgctxt "Languages::privileges.manage_banners"
+msgid "Manage banners"
+msgstr "Uređivanje bannera"
+
+msgctxt "Languages::add_banners"
+msgid "Add banners"
+msgstr "Dodavanje bannera"
+
+msgctxt "Languages::add_banners_and_close"
+msgid "Add banners and close"
+msgstr "Dodaj banner i zatvori"
+
+msgctxt "Languages::graphic_banner"
+msgid "Graphic banner"
+msgstr "Grafički banner"
+
+msgctxt "Languages::text_banner"
+msgid "Text banner"
+msgstr "Tekstualni banner"
+
+msgctxt "Languages::views"
+msgid "Views"
+msgstr "Pregleda"
+
+msgctxt "Languages::conversion"
+msgid "Conversion"
+msgstr "Konverzije"
+
+msgctxt "Languages::banner_details_notes"
+msgid "After you create a banner here, you should use the <strong>Layout editor</strong> to add it to the storefront.<br /><br />Go to <a href=\"[layouts_href]\" target=\"_blank\">Design → Layouts</a>, switch to the location where you want the banner to appear, and add a new block with type <strong>Banners</strong>.<br /><br />In this block settings, go to the <strong>Content</strong> tab, pick the <strong>Manual</strong> filling, and click on the <strong>Add banners</strong> button.<br /><br />You will see the list of all the banners in your store. Pick the one(s) you need and click on the <strong>Add banners and close</strong> button.<br /><br />Finally, click on the <strong>Create</strong> button to save your changes."
+msgstr "Nakon što stvorite banner ovdje, koristite <strong>uređivač izgleda</strong> da biste ga dodali u izlogu. < br / > < br / > za <a href=\"[layouts_href]\" target=\"_blank\"> dizajn → izgleda</a>, prijeđete na mjesto gdje želite da se pojavi banner, i dodajte novi blok vrsta <strong>bannera</strong>. < br / > < br / > u ovoj blok postavci, idite na karticu <strong>sadržaj</strong>, odaberite <strong>ručno</strong> punjenje, i kliknite na gumb <strong>Dodaj bannere</strong>. < br / > < br / > vidjet ćete popis svih bannera u vašoj trgovini. Odabrite i kliknite na <strong>dodati bannera i zatvori</strong> gumb. < br / > < br / > nakon toga, kliknite na gumb <strong>Stvori</strong> kako biste spremili promjene."
+
+msgctxt "SettingsSections::banners::general"
+msgid "General"
+msgstr "Općenito"
+
+msgctxt "SettingsOptions::banners::banner_multilang"
+msgid "Enable multi-language Images/URLs"
+msgstr "Omogućite višejezinost slike/URL-ova"
+

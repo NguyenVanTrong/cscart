@@ -1,0 +1,75 @@
+DirectoryIndex index.html index.php
+
+<IfModule mod_deflate.c>
+	# Compress HTML, CSS, JavaScript, Text, XML, fonts
+	AddOutputFilterByType DEFLATE application/javascript application/x-javascript text/javascript application/json
+	AddOutputFilterByType DEFLATE application/x-font application/x-font-opentype application/x-font-otf application/x-font-truetype application/x-font-ttf font/opentype font/otf font/ttf application/x-woff application/x-font-woff
+	AddOutputFilterByType DEFLATE text/css text/html text/plain
+
+	<IfModule mod_headers.c>
+		# Remove browser bugs (only needed for really old browsers)
+		BrowserMatch ^Mozilla/4 gzip-only-text/html
+		BrowserMatch ^Mozilla/4\.0[678] no-gzip
+		BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+		Header append Vary User-Agent
+	</IfModule>
+</IfModule>
+
+<IfModule mod_headers.c>
+	<FilesMatch "\.(ttf|ttc|otf|eot|woff|css|png|gif|ico|jpe?g)$">
+		Header set Access-Control-Allow-Origin "*"
+	</FilesMatch>
+</IfModule>
+
+# Cache all images for 2 weeks
+<IfModule mod_expires.c>
+	<FilesMatch "\.(jpg|jpeg|png|gif|tiff|bmp|js|css)$">
+	    ExpiresActive on
+	    ExpiresDefault "access plus 2 weeks"
+	</FilesMatch>
+</IfModule>
+
+<IfModule mod_headers.c>
+	<filesMatch "\.(gif|png|jpg|jpeg|ico|js|css)$">
+		Header set Cache-Control "max-age=1209600"
+	</filesMatch>
+</IfModule>
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+# Please note that RewriteBase setting is obsolete use it only in case you experience  some problems with SEO addon.
+# Some hostings require RewriteBase to be uncommented
+# Example:
+# Your store url is http://www.yourcompany.com/store/cart
+# So "RewriteBase" should be:
+# RewriteBase /store/cart
+# RewriteBase /
+Options -MultiViews
+
+RewriteRule ^init.php$ - [F,L,NC]
+
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+RewriteCond %{REQUEST_URI} ^api/(.*)$ [or]
+RewriteCond %{REQUEST_URI} .*/api/(.*)$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .*api/(.*)$ api.php?_d=$1 [L,QSA]
+
+RewriteCond %{REQUEST_URI} \.(png|gif|ico|swf|jpe?g|js|css|ttf|svg|eot|woff|yml|xml)$ [NC,or]
+RewriteCond %{REQUEST_URI} store_closed.html$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*?)\/(.*)$ $2 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L,QSA]
+
+</IfModule>
+
+# This prevents possible problems when downloading files
+<IfModule mod_php5.c>
+    php_flag zlib.output_compression Off
+</IfModule>

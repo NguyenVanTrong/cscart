@@ -1,0 +1,462 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /addons/discussion.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:01-0500\n"
+
+msgctxt "Addons::name::discussion"
+msgid "Comments and reviews"
+msgstr "Komentáře a recenze"
+
+msgctxt "Addons::description::discussion"
+msgid "Lets customers leave comments to products, categories, orders, etc., review products and write testimonials"
+msgstr "Umožňuje zákazníkům hodnotit a zanechat komentář u produktů, kategorií, objednávek, atd."
+
+msgctxt "Languages::use_for_discussion"
+msgid "Comments and reviews forms"
+msgstr "Formuláře připomínek a hodnocení"
+
+msgctxt "Languages::comments_and_reviews_menu_description"
+msgid "Customer comments and reviews on products, categories, orders, etc."
+msgstr "Zákaznické Komentáře a recenze na produkty, kategorie, objednávky, atd."
+
+msgctxt "Languages::discussion_title_category"
+msgid "Reviews"
+msgstr "Recenze"
+
+msgctxt "Languages::discussion_title_giftreg"
+msgid "Guestbook"
+msgstr "Návštěvní kniha"
+
+msgctxt "Languages::discussion_title_home_page_menu_description"
+msgid "Manage the testimonials from your store visitors."
+msgstr "Správa referencí od návštěvníků vašeho obchodu."
+
+msgctxt "Languages::discussion_title_order"
+msgid "Communication"
+msgstr "Komunikace"
+
+msgctxt "Languages::discussion_title_page"
+msgid "Comments"
+msgstr "Komentáře"
+
+msgctxt "Languages::discussion_title_product"
+msgid "Reviews"
+msgstr "Recenze"
+
+msgctxt "Languages::discussion_title_return"
+msgid "Communication"
+msgstr "Komunikace"
+
+msgctxt "Languages::no_posts_found"
+msgid "No posts found"
+msgstr "Nalezeny žádné příspěvky"
+
+msgctxt "Languages::your_rating"
+msgid "Your rating"
+msgstr "Vaše hodnocení"
+
+msgctxt "Languages::comments_and_reviews"
+msgid "Comments and reviews"
+msgstr "Komentáře a recenze"
+
+msgctxt "Languages::discussion_title_home_page"
+msgid "Testimonials"
+msgstr "Reference"
+
+msgctxt "Languages::text_enabled_testimonials_notice"
+msgid "Testimonials are disabled. To enable, please go to <a href=\"[link]\">Comments and reviews: options</a> and select the \"Communication\", \"Rating\" or \"Communication and Rating\" value in \"Testimonials\" field."
+msgstr "Reference jsou zakázány. Chcete-li je povolit, přejděte na <a href=\"[link]\"> Komentáře a recenze: možnosti</a> a zaškrtněte hodnotu \"Komunikace\", \"Hodnocení\" nebo \"Komunikace a hodnocení\" v poli \"Reference\"."
+
+msgctxt "Languages::discussion_title_company"
+msgid "Reviews"
+msgstr "Recenze"
+
+msgctxt "Languages::communication"
+msgid "Communication"
+msgstr "Komunikace"
+
+msgctxt "Languages::rating"
+msgid "Rating"
+msgstr "Hodnocení"
+
+msgctxt "Languages::cant_find_thread"
+msgid "Thread can not be found."
+msgstr "Téma nebylo nalezeno."
+
+msgctxt "Languages::error_already_posted"
+msgid "You have posted in this discussion already"
+msgstr "Už jste přispěli v této diskusi"
+
+msgctxt "Languages::text_thank_you_for_post"
+msgid "Thank you for your post"
+msgstr "Děkujeme vám za váš příspěvek"
+
+msgctxt "Languages::text_post_pended"
+msgid "Your post will be checked before it gets published."
+msgstr "Váš příspěvek byl zkontrolován před zveřejněním."
+
+msgctxt "Languages::discussion"
+msgid "Comments and reviews"
+msgstr "Komentáře a recenze"
+
+msgctxt "Languages::text_new_post_notification"
+msgid "This is a notification of a new post to"
+msgstr "Toto je oznámení o novém příspěvku k"
+
+msgctxt "Languages::text_approval_notice"
+msgid "This post needs approving"
+msgstr "Tento příspěvek potřebuje schválení"
+
+msgctxt "Languages::latest_reviews"
+msgid "Latest comments & reviews"
+msgstr "Poslední komentáře & recenze"
+
+msgctxt "Languages::comment_by"
+msgid "Comment by"
+msgstr "Komentář od"
+
+msgctxt "Languages::and"
+msgid "and"
+msgstr "a"
+
+msgctxt "Languages::add_post"
+msgid "Add post"
+msgstr "Přidat příspěvek"
+
+msgctxt "Languages::not_approved"
+msgid "Not approved"
+msgstr "Není schválena"
+
+msgctxt "Languages::discussion_manager"
+msgid "Comments and reviews"
+msgstr "Komentáře a recenze"
+
+msgctxt "Languages::testimonials"
+msgid "Testimonials"
+msgstr "Reference"
+
+msgctxt "Languages::privileges.view_discussions"
+msgid "View comments and reviews"
+msgstr "Zobrazit komentáře a recenze"
+
+msgctxt "Languages::privileges.manage_discussions"
+msgid "Manage comments and reviews"
+msgstr "Spravovat komentáře a recenze"
+
+msgctxt "Languages::block_testimonials"
+msgid "Testimonials"
+msgstr "Reference"
+
+msgctxt "Languages::block_testimonials_description"
+msgid "User testimonials"
+msgstr "Uživatelské posudky"
+
+msgctxt "Languages::sort_by_rating_asc"
+msgid "Sort by rating: Low to High"
+msgstr "Řadit podle hodnocení: nízké, vysoké"
+
+msgctxt "Languages::sort_by_rating_desc"
+msgid "Sort by rating"
+msgstr "Řadit podle hodnocení"
+
+msgctxt "Languages::reviews"
+msgid "review|reviews"
+msgstr "recenze|recenze"
+
+msgctxt "Languages::write_review"
+msgid "Write a review"
+msgstr "Napsat recenzi"
+
+msgctxt "SettingsSections::discussion::products"
+msgid "Products"
+msgstr "Produkty"
+
+msgctxt "SettingsSections::discussion::categories"
+msgid "Categories"
+msgstr "Kategorie"
+
+msgctxt "SettingsSections::discussion::orders"
+msgid "Orders"
+msgstr "Objednávky"
+
+msgctxt "SettingsSections::discussion::gift_registry"
+msgid "Gift registry"
+msgstr "Seznam dárků"
+
+msgctxt "SettingsSections::discussion::pages"
+msgid "Pages"
+msgstr "Stránky"
+
+msgctxt "SettingsSections::discussion::testimonials"
+msgid "Testimonials"
+msgstr "Reference"
+
+msgctxt "SettingsSections::discussion::companies"
+msgid "Vendors"
+msgstr "Dodavatelé"
+
+msgctxt "SettingsOptions::discussion::product_posts_per_page"
+msgid "Posts per page"
+msgstr "Počet příspěvků na stránce"
+
+msgctxt "SettingsOptions::discussion::product_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Správce musí zkontrolovat zaslaný příspěvek"
+
+msgctxt "SettingsOptions::discussion::product_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Je povolen pouze jeden příspěvek z jedné IP adresy"
+
+msgctxt "SettingsOptions::discussion::product_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Poslat oznámení na tento E-mail"
+
+msgctxt "SettingsOptions::discussion::product_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Poslat oznámení dodavateli"
+
+msgctxt "SettingsOptions::discussion::product_share_discussion"
+msgid "Share discussion with product"
+msgstr "Sdílet diskuse s produktem"
+
+msgctxt "SettingsOptions::discussion::category_posts_per_page"
+msgid "Posts per page"
+msgstr "Počet příspěvků na stránce"
+
+msgctxt "SettingsOptions::discussion::category_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Správce musí zkontrolovat zaslaný příspěvek"
+
+msgctxt "SettingsOptions::discussion::category_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Je povolen pouze jeden příspěvek z jedné IP adresy"
+
+msgctxt "SettingsOptions::discussion::category_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Poslat oznámení na tento E-mail"
+
+msgctxt "SettingsOptions::discussion::order_posts_per_page"
+msgid "Posts per page"
+msgstr "Počet příspěvků na stránce"
+
+msgctxt "SettingsOptions::discussion::order_initiate"
+msgid "Allow customer to initiate discussion"
+msgstr "Umožnit zákazníkům iniciovat diskusi"
+
+msgctxt "SettingsOptions::discussion::order_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Poslat oznámení dodavateli"
+
+msgctxt "SettingsOptions::discussion::giftreg_posts_per_page"
+msgid "Posts per page"
+msgstr "Počet příspěvků na stránce"
+
+msgctxt "SettingsOptions::discussion::giftreg_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Je povolen pouze jeden příspěvek z jedné IP adresy"
+
+msgctxt "SettingsOptions::discussion::page_posts_per_page"
+msgid "Posts per page"
+msgstr "Počet příspěvků na stránce"
+
+msgctxt "SettingsOptions::discussion::page_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Správce musí zkontrolovat zaslaný příspěvek"
+
+msgctxt "SettingsOptions::discussion::page_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Je povolen pouze jeden příspěvek z jedné IP adresy"
+
+msgctxt "SettingsOptions::discussion::page_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Poslat oznámení na tento E-mail"
+
+msgctxt "SettingsOptions::discussion::page_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Poslat oznámení dodavateli"
+
+msgctxt "SettingsOptions::discussion::page_share_discussion"
+msgid "Share discussion with page"
+msgstr "Sdílet diskusi se stránkamy"
+
+msgctxt "SettingsOptions::discussion::home_page_posts_per_page"
+msgid "Posts per page"
+msgstr "Počet příspěvků na stránce"
+
+msgctxt "SettingsOptions::discussion::home_page_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Správce musí schválit odeslání příspěvků"
+
+msgctxt "SettingsOptions::discussion::home_page_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Je povolen pouze jeden příspěvek z jedné IP adresy"
+
+msgctxt "SettingsOptions::discussion::home_page_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Poslat oznámení na tento E-mail"
+
+msgctxt "SettingsOptions::discussion::home_page_testimonials"
+msgid "Testimonials"
+msgstr "Reference"
+
+msgctxt "SettingsOptions::discussion::testimonials_from_all_stores"
+msgid "Show testimonials from all stores"
+msgstr "Zobrazit reference od všech obchodů"
+
+msgctxt "SettingsOptions::discussion::company_discussion_type"
+msgid "Reviews"
+msgstr "Recenze"
+
+msgctxt "SettingsOptions::discussion::company_only_buyers"
+msgid "Allow to post only for the customers who has bought somethins from the vendor"
+msgstr "Dovolit přispět pouze zákazníkům, kteří již něco nakoupili u prodejce"
+
+msgctxt "SettingsOptions::discussion::company_posts_per_page"
+msgid "Posts per page"
+msgstr "Počet příspěvků na stránce"
+
+msgctxt "SettingsOptions::discussion::company_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "Správce musí zkontrolovat zaslaný příspěvek"
+
+msgctxt "SettingsOptions::discussion::company_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "Je povolen pouze jeden příspěvek z jedné IP adresy"
+
+msgctxt "SettingsOptions::discussion::company_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "Poslat oznámení na tento E-mail"
+
+msgctxt "SettingsOptions::discussion::company_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "Poslat oznámení dodavateli"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::any"
+msgid "Any customer"
+msgstr "Každý zákazník"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Pouze anonymní zákazníci"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Schválení není třeba"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::B"
+msgid "Communication and Rating"
+msgstr "Komunikace a hodnocení"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::C"
+msgid "Communication"
+msgstr "Komunikace"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::R"
+msgid "Rating"
+msgstr "Hodnocení"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::D"
+msgid "Disabled"
+msgstr "Zakázáno"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::any"
+msgid "Any customer"
+msgstr "Každý zákazník"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Pouze anonymní zákazníci"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Žádné schválení není potřeba"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::any"
+msgid "Any customer"
+msgstr "Každý zákazník"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Pouze anonymní zákazníci"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Žádné schválení není potřeba"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::any"
+msgid "Any customer"
+msgstr "Každý zákazník"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Pouze anonymní zákazníci"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Žádné schválení není potřeba"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::any"
+msgid "Any customer"
+msgstr "Každý zákazník"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "Pouze anonymní zákazníci"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::disabled"
+msgid "No approval needed"
+msgstr "Žádné schválení není potřeba"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::B"
+msgid "Communication and Rating"
+msgstr "Komunikace a hodnocení"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::C"
+msgid "Communication"
+msgstr "Komunikace"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::R"
+msgid "Rating"
+msgstr "Hodnocení"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::D"
+msgid "Disabled"
+msgstr "Zakázáno"
+
+msgctxt "Languages::discussion_tab_products"
+msgid "Product Reviews"
+msgstr "Hodnocení produktu"
+
+msgctxt "Languages::discussion_tab_categories"
+msgid "Category Reviews"
+msgstr "Kategorie Recenze"
+
+msgctxt "Languages::discussion_tab_pages"
+msgid "Page Comments"
+msgstr "Strana Komentáře"
+
+msgctxt "Languages::discussion_tab_orders"
+msgid "Order Communication"
+msgstr "Objednávky komunikace"
+
+msgctxt "Languages::discussion_tab_home_page"
+msgid "Testimonials"
+msgstr "Reference"
+
+msgctxt "Languages::discussion_tab_companies"
+msgid "Company Reviews"
+msgstr "Firemní Recenze"
+
+msgctxt "Languages::email_template.discussion_notification"
+msgid "Comments and reviews notification"
+msgstr ""
+

@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/banners.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::banners"
+msgid "Banners management"
+msgstr "Quản lý biểu ngữ quảng cáo"
+
+msgctxt "Addons::description::banners"
+msgid "Allows you to create text and visual banners"
+msgstr "Cho phép bạn tạo văn bản và hình ảnh biểu ngữ"
+
+msgctxt "Languages::banners.new_banner"
+msgid "New banner"
+msgstr "Bảng quảng cáo mới"
+
+msgctxt "Languages::banners.editing_banner"
+msgid "Editing banner"
+msgstr "Chỉnh sửa banner quảng cáo"
+
+msgctxt "Languages::add_banner"
+msgid "Add banner"
+msgstr "Thêm bảng quảng cáo"
+
+msgctxt "Languages::banner"
+msgid "Banner"
+msgstr "Bảng quảng cáo"
+
+msgctxt "Languages::banners"
+msgid "Banners"
+msgstr "Bảng quảng cáo"
+
+msgctxt "Languages::banners_menu_description"
+msgid "Create graphic and text banners that can then be placed on the storefront."
+msgstr "Tạo bảng quảng cáo đồ họa và văn bản sau đó có thể được đặt trên cửa hàng."
+
+msgctxt "Languages::banner_code"
+msgid "Banner code"
+msgstr "Mã bảng quảng cáo"
+
+msgctxt "Languages::banner_code_for_some_products"
+msgid "Banner code for some products"
+msgstr "Mã bảng quảng cáo cho một số sản phẩm"
+
+msgctxt "Languages::manage_banners"
+msgid "Manage banners"
+msgstr "Quản lý bảng quảng cáo"
+
+msgctxt "Languages::block_banners"
+msgid "Banners"
+msgstr "Bảng quảng cáo"
+
+msgctxt "Languages::block_banners_description"
+msgid "Visual and text banners"
+msgstr "Bảng quảng cáo trực quan và văn bản"
+
+msgctxt "Languages::privileges.view_banners"
+msgid "View banners"
+msgstr "Xem bảng quảng cáo"
+
+msgctxt "Languages::privileges.manage_banners"
+msgid "Manage banners"
+msgstr "Quản lý bảng quảng cáo"
+
+msgctxt "Languages::add_banners"
+msgid "Add banners"
+msgstr "Thêm bảng quảng cáo"
+
+msgctxt "Languages::add_banners_and_close"
+msgid "Add banners and close"
+msgstr "Thêm bảng quảng cáo và đóng"
+
+msgctxt "Languages::graphic_banner"
+msgid "Graphic banner"
+msgstr "Bảng quảng cáo đồ họa"
+
+msgctxt "Languages::text_banner"
+msgid "Text banner"
+msgstr "Bảng quảng cáo văn bản"
+
+msgctxt "Languages::views"
+msgid "Views"
+msgstr "Số lần xem"
+
+msgctxt "Languages::conversion"
+msgid "Conversion"
+msgstr "Chuyển đổi"
+
+msgctxt "Languages::banner_details_notes"
+msgid "After you create a banner here, you should use the <strong>Layout editor</strong> to add it to the storefront.<br /><br />Go to <a href=\"[layouts_href]\" target=\"_blank\">Design → Layouts</a>, switch to the location where you want the banner to appear, and add a new block with type <strong>Banners</strong>.<br /><br />In this block settings, go to the <strong>Content</strong> tab, pick the <strong>Manual</strong> filling, and click on the <strong>Add banners</strong> button.<br /><br />You will see the list of all the banners in your store. Pick the one(s) you need and click on the <strong>Add banners and close</strong> button.<br /><br />Finally, click on the <strong>Create</strong> button to save your changes."
+msgstr "Sau khi bạn tạo một bảng quảng cáo ở đây, bạn nên sử dụng <strong>công cụ chỉnh sửa bố cục</strong> để thêm nó vào trang chính. <br /> <br /> Làm theo <a href=\"[layouts_href]\" target=\"_blank\"> thiết kế → bố cục</a>, chuyển sang vị trí nơi bạn muốn các biểu ngữ xuất hiện, và thêm một loại block mới <strong>banner quảng cáo</strong>. <br /> <br /> trong cài đặt block, đi đến tab <strong>nội dung</strong>, chọn đầy đủ <strong>hướng dẫn sử dụng</strong>, và nhấp vào nút <strong>Thêm banner quảng cáo</strong>. <br /> <br /> bạn sẽ thấy danh sách tất cả các banner quảng cáo trong cửa hàng của bạn. Chọn một mục bạn cần và bấm vào nút <strong>Thêm banner và đóng</strong>. <br /> <br /> cuối cùng, bấm vào nút <strong>tạo</strong> để lưu thay đổi của bạn."
+
+msgctxt "SettingsSections::banners::general"
+msgid "General"
+msgstr "Tổng quát"
+
+msgctxt "SettingsOptions::banners::banner_multilang"
+msgid "Enable multi-language Images/URLs"
+msgstr "Sử dụng đa ngôn ngữ Hình ảnh/URL"
+

@@ -1,0 +1,794 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/ebay.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::ebay"
+msgid "eBay synchronization"
+msgstr "eBay همگام سازی"
+
+msgctxt "Addons::description::ebay"
+msgid "Synchronizes products and orders with an eBay account."
+msgstr "محصولات و سفارش را با یک حساب کاربری بی همگام می کند."
+
+msgctxt "Languages::paypal_required_and_selected"
+msgid "For the selected eBay category PayPal payment method is required. It is selected automatically."
+msgstr "برای انتخاب شده ای بی دسته روش پرداخت پی پال مورد نیاز است. به طور خودکار انتخاب شده است."
+
+msgctxt "Languages::wait_for_shippings_cached"
+msgid "Wait for shippings cached. Mean time to 3 minutes"
+msgstr "منتظر خرید های ذخیره شدهی. متوسط زمان 3 دقیقه"
+
+msgctxt "Languages::ebay_duration"
+msgid "Listing duration"
+msgstr "فهرست مدت زمان"
+
+msgctxt "Languages::list_products_on"
+msgid "List products on"
+msgstr "لیست محصولات در"
+
+msgctxt "Languages::private_listing"
+msgid "Private listing"
+msgstr "لیست های خصوصی"
+
+msgctxt "Languages::use_as_default"
+msgid "Use as default"
+msgstr "به عنوان پیش فرض استفاده کنید"
+
+msgctxt "Languages::ebay_root_category"
+msgid "eBay Root category"
+msgstr "بی ریشه شاخه ها"
+
+msgctxt "Languages::ebay_root_sec_category"
+msgid "eBay Secondary root category"
+msgstr "دسته دوم ریشه ای بی"
+
+msgctxt "Languages::ebay_sec_category"
+msgid "eBay Secondary category"
+msgstr "دسته دوم eBay"
+
+msgctxt "Languages::quantity_to_sell"
+msgid "Quantity to sell"
+msgstr "مقدار فروش"
+
+msgctxt "Languages::just_one"
+msgid "Just one"
+msgstr "فقط یکی"
+
+msgctxt "Languages::more_than_one"
+msgid "More than one"
+msgstr "بیش از یک"
+
+msgctxt "Languages::use_main_image"
+msgid "Export product images"
+msgstr "خروجی عکس محصولات "
+
+msgctxt "Languages::selling_method"
+msgid "Selling method"
+msgstr "روش فروش"
+
+msgctxt "Languages::online_auction"
+msgid "Online auction"
+msgstr "حراج آنلاین"
+
+msgctxt "Languages::buy_it_now"
+msgid "Buy it now"
+msgstr "خرید در حال حاضر"
+
+msgctxt "Languages::ebay_requests"
+msgid "eBay requests"
+msgstr "درخواست eBay"
+
+msgctxt "Languages::log_type_ebay_requests"
+msgid "eBay requests"
+msgstr "درخواست eBay"
+
+msgctxt "Languages::errors"
+msgid "Errors"
+msgstr "خطاها "
+
+msgctxt "Languages::log_action_all"
+msgid "All"
+msgstr "همه"
+
+msgctxt "Languages::error_code"
+msgid "Error code"
+msgstr "کد خطا"
+
+msgctxt "Languages::editing_ebay_template"
+msgid "Editing eBay template"
+msgstr "ویرایش قالب eBay"
+
+msgctxt "Languages::new_ebay_template"
+msgid "New eBay template"
+msgstr "قالب جدید eBay"
+
+msgctxt "Languages::ebay_templates"
+msgid "eBay templates"
+msgstr "قالب های eBay"
+
+msgctxt "Languages::ebay_registration_notice"
+msgid "In order to get this information you need first to register your Developer account <a href=\"https://developer.ebay.com/join/\">here</a>.<br /><br />After you registered, you will receive the \"DevID\", \"AppID\" and \"CertID\" keys. So you have to generate the special \"Token\" in order to use this API. In order to generate the \"Token\", please click the \"Get a User Token\" link at the bottom of \"My account\" page (tools box) or follow <a href=\"https://developer.ebay.com/DevZone/account/tokens/default.aspx\">this link</a>.<br /><br />Please complete this form with the given credentials."
+msgstr "به منظور دریافت این اطلاعات شما باید اول ثبت نام حساب پاسخ <a href=\"https://developer.ebay.com/join/\"> اینجا</a>.-برزیلی / >-برزیلی / > پس از ثبت نام ،شما کلید را دریافت خواهید کرد \"DevID\"، \"AppID\" و \"CertID\" بنابراین شما باید برای استفاده از این API ویژه \"رمز\". به منظور تولید \"نشانه\" کلیک کنید \"گرفتن کاربر رمز\" لینک در پایین صفحه \"حساب\" (جعبه ابزار) یا <a href=\"https://developer.ebay.com/DevZone/account/tokens/default.aspx\"> این لینک</a> را دنبال کنید.-برزیلی / >-برزیلی / > لطفا این فرم را با اعتبار داده شده پر کنید."
+
+msgctxt "Languages::add_ebay_template"
+msgid "Add eBay template"
+msgstr "افزودن  الگوی ای بی "
+
+msgctxt "Languages::shipping_type"
+msgid "Shipping type"
+msgstr "نوع حمل و نقل"
+
+msgctxt "Languages::flat"
+msgid "Flat"
+msgstr "تخت"
+
+msgctxt "Languages::calculated"
+msgid "Calculated"
+msgstr "محاسبه"
+
+msgctxt "Languages::domestic_shipping_service"
+msgid "Domestic shipping service"
+msgstr "خدمات حمل و نقل داخلی"
+
+msgctxt "Languages::international_shipping_service"
+msgid "International shipping service"
+msgstr "خدمات حمل و نقل بین المللی"
+
+msgctxt "Languages::dispatch_days"
+msgid "Dispatch days"
+msgstr "روز اعزام"
+
+msgctxt "Languages::ebay_payment_methods"
+msgid "eBay payment methods"
+msgstr "روش های پرداخت eBay"
+
+msgctxt "Languages::paypal_email"
+msgid "PayPal email"
+msgstr "اینترنت ایمیل paypal"
+
+msgctxt "Languages::ebay_category_condition"
+msgid "eBay category condition"
+msgstr "شرایط دسته بندی eBay"
+
+msgctxt "Languages::ebay_associated_category"
+msgid "Associated eBay category"
+msgstr "دسته ای بی همراه"
+
+msgctxt "Languages::ebay_category_preferences"
+msgid "eBay Category <br> Preferences"
+msgstr "بدون دسته بندی <br>تنظیمات"
+
+msgctxt "Languages::ebay_category_preferences_tooltip"
+msgid "Use the eBay category of the template, or assign a different eBay category to the products that fall under this category of your store"
+msgstr "استفاده از مقوله بی الگو یا رده مختلف eBay  مربوط به محصولات است که تحت این دسته، فروشگاه خود را اختصاص دهید"
+
+msgctxt "Languages::ebay_template"
+msgid "eBay template"
+msgstr "قالب های eBay"
+
+msgctxt "Languages::ebay_orders"
+msgid "eBay orders"
+msgstr "سفارشات eBay"
+
+msgctxt "Languages::get_ebay_orders"
+msgid "Get eBay orders"
+msgstr "دریافت سفارشات eBay"
+
+msgctxt "Languages::ebay"
+msgid "eBay"
+msgstr "eBay"
+
+msgctxt "Languages::wait_for_categories_cached"
+msgid "Please wait for the categories to cache, it will take about 3 minutes. Before that, the Shippings, Payments, and Return Policy tabs will remain empty."
+msgstr "لطفا سه دقیقه برای بازگشت به کش صبر کنید قبل از ان پست و نوع پرداخت بدون گزینه باقی میماند."
+
+msgctxt "Languages::Some_parameters_is_missing"
+msgid "Some parameters is missing. Please check ebay add-on settings"
+msgstr "برخی از پارامترهای گم شده است. لطفا بی افزودنی تنظیمات را بررسی کنید"
+
+msgctxt "Languages::ebay_success_products_notice"
+msgid "Products have been successfully exported."
+msgstr "محصولات با موفقیت صادر شده است."
+
+msgctxt "Languages::ebay_success_orders_notice"
+msgid "Orders have been successfully imported."
+msgstr "سفارش ها با موفقیت وارد شدند."
+
+msgctxt "Languages::ebay_failed_orders_notice"
+msgid "An error occurred during order import."
+msgstr "خطایی هنگام وارد نمودن سفارشات رخ داد."
+
+msgctxt "Languages::exporting_products_to_ebay"
+msgid "Exporting products to eBay."
+msgstr "صادرات محصولات به eBay."
+
+msgctxt "Languages::ebay_default_template_not_found"
+msgid "Default template for the [company_name] was not found."
+msgstr "الگوی پیش فرض [company_name] یافت نشد."
+
+msgctxt "Languages::delete_this_template"
+msgid "Delete this template"
+msgstr "حذف این الگو"
+
+msgctxt "Languages::test_version"
+msgid "You're using a test version of this module, the validity of which ended on December 7th, 2013. After the end of the test period, the functions of the module will not be available. You can purchase the full version via a <a href=\"http://www.cs-cart.com/ebay-synchronization.html\">HelpDesk</a>"
+msgstr "شما با استفاده از نسخه آزمایشی از این ماژول که اعتبار آن از 7 دسامبر تا سال 2013 به پایان میرسید. پس از پایان دوره تست عملکرد ماژول در دسترس نخواهد بود. شما می توانید نسخه کامل از طریق <a href=\"http://www.cs-cart.com/ebay-synchronization.html\"> بخش پشتیبانی</a> خرید کنید."
+
+msgctxt "Languages::ttc_list_products_on"
+msgid "Choose the region of the eBay auction for which your site will work"
+msgstr "انتخاب منطقه حراج eBay که سایت شما کار می کنند"
+
+msgctxt "Languages::ttc_use_as_default"
+msgid "Use this template for products with no template defined"
+msgstr "استفاده از این الگو برای محصولات با هیچ قالبی تعریف نشده است"
+
+msgctxt "Languages::ttc_ebay_root_category"
+msgid "The product root category at eBay"
+msgstr "رده محصول ریشه در eBay"
+
+msgctxt "Languages::ttc_ebay_root_sec_category"
+msgid "The additional product root category at eBay"
+msgstr "رده محصول اضافی ریشه در eBay"
+
+msgctxt "Languages::ebay_second_category_tooltip"
+msgid "The additional product subcategory at eBay"
+msgstr "زیرشاخه محصول اضافی در eBay"
+
+msgctxt "Languages::ttc_shipping_type"
+msgid "Choose whether to use calculated or flat shipping type. Calculated - shipping will be calculated according to the customers ZIP address, the weight of the package, and the type of shipping services you offer; Flat - shipping rate will be fixed"
+msgstr "نوع استفاده از محاسبه و یا سطح حمل و نقل را انتخاب کنید. محاسبه - حمل و نقل با توجه به آدرس ZIP مشتریان وزن بسته و نوع خدمات حمل و نقل شما محاسبه خواهد شد; نرخ حمل و نقل ثابت خواهد شد."
+
+msgctxt "Languages::ttc_domestic_shipping_service"
+msgid "Choose the shipping service that will be used for delivering products in the domestic region"
+msgstr "سرویس حمل و نقل را برای ارائه محصولات در منطقه داخلی مورد استفاده قرار گیرد را انتخاب کنید"
+
+msgctxt "Languages::ttc_international_shipping_service"
+msgid "Choose the shipping service that will be used for delivering products worldwide"
+msgstr "انتخاب خدمات حمل و نقل است که برای ارائه محصولات در سراسر جهان به کار خواهد رفت"
+
+msgctxt "Languages::ttc_dispatch_days"
+msgid "The period of product delivery to a customer  (in days)"
+msgstr "مدت تحویل محصول به مشتری (در روز)"
+
+msgctxt "Languages::ttc_ebay_payment_methods"
+msgid "Payment method(s), available for a template"
+msgstr "روش(های) پرداخت، موجود برای الگو"
+
+msgctxt "Languages::ttc_paypal_email"
+msgid "Define login of the PayPal account"
+msgstr "تعریف ورود حساب پی پال"
+
+msgctxt "Languages::eBay_category_condition_tooltip"
+msgid "Define login of the PayPal account"
+msgstr "تعریف ورود حساب پی پال"
+
+msgctxt "Languages::ttc_free_shipping"
+msgid "Choose, if you want free shipping to be applied to products in a template"
+msgstr "انتخاب کنید ،اگر می خواهید از حمل و نقل رایگان به محصولات در قالب این محصولات استفاده کنید"
+
+msgctxt "Languages::ttc_shipping_cost"
+msgid "Fixed shipping fee for one item if the shipping type is Flat (the Shipping and handling setting on eBay)."
+msgstr "هزینه حمل و نقل ثابت برای یک مورد اگر نوع حمل و نقل تخت (حمل و نقل و ست کردن به تنظیم در eBay) است."
+
+msgctxt "Languages::ttc_shipping_cost_additional"
+msgid "Shipping fee for each additional item in the order (the Each additional item setting on eBay)"
+msgstr "هزینه برای هر یک از آیتم های اضافی حمل و نقل سفارش (هر مورد اضافی تنظیمات در eBay)"
+
+msgctxt "Languages::shipping_cost_additional"
+msgid "Additional shipping fee"
+msgstr "هزینه حمل و نقل اضافی"
+
+msgctxt "Languages::text_ult_ebay_template_store_field_tooltip"
+msgid "The storefront, for which a template will be created"
+msgstr "نمای که الگو ایجاد خواهد شد"
+
+msgctxt "Languages::shipping_cost_cannot_be_null"
+msgid "Shipping cost must be non-zero"
+msgstr "هزینه حمل باید غیر صفر باشد"
+
+msgctxt "Languages::ebay_title"
+msgid "eBay product title"
+msgstr "بی عنوان محصول"
+
+msgctxt "Languages::ebay_title_tooltip"
+msgid "eBay title the title of the product to be used at eBay"
+msgstr "بی عنوان عنوان محصول در بی مورد استفاده قرار گیرد"
+
+msgctxt "Languages::ebay_description"
+msgid "eBay product description"
+msgstr "توضیحات محصول eBay"
+
+msgctxt "Languages::ebay_description_tooltip"
+msgid "eBay description the description of the product to be used at eBay"
+msgstr "بی شرح شرح محصول در بی مورد استفاده قرار گیرد"
+
+msgctxt "Languages::override"
+msgid "Redefinition of the product name and description on eBay"
+msgstr "مفهوم کردن نام محصول و توضیحات در eBay"
+
+msgctxt "Languages::override_tooltip"
+msgid "Choose, if you want the original product name and description to be replaced with that, specified in the eBay product title and the eBay product description fields"
+msgstr "اگر شما می خواهید نام اصلی محصول و توضیحات را جایگزین کنید که مشخص شده در eBay لطفا عنوان محصول و زمینه توضیحات محصول را انتخاب کنید."
+
+msgctxt "Languages::return_policy"
+msgid "Return Policy"
+msgstr "سیاست بازگشت"
+
+msgctxt "Languages::ttc_return_policy"
+msgid "Choose whether returns are allowed or not for products grouped under this template"
+msgstr "انتخاب کنید که برای محصولات تحت این قالب گروهبندی آیا بازده مجاز دارد یا نه ؟"
+
+msgctxt "Languages::returns_accepted"
+msgid "Returns Accepted"
+msgstr "بازده قابل قبول"
+
+msgctxt "Languages::no_returns_accepted"
+msgid "No returns accepted"
+msgstr "برگشت پذیرفته نیست"
+
+msgctxt "Languages::contact_time"
+msgid "After receiving the item, your buyer should contact you within"
+msgstr "پس از دریافت مورد خریدار خود باید با شما در تماس باشد."
+
+msgctxt "Languages::ttc_contact_time"
+msgid "Choose the period within which a buyer must contact you to confirm that he/she received the product"
+msgstr "دوره که در آن خریدار باید با شما در تماس باشد برای تایید که او محصول را دریافت نموده زا انتخاب کنید."
+
+msgctxt "Languages::refund_method"
+msgid "Refund will be given as"
+msgstr "به عنوان بازپرداخت داده می شود"
+
+msgctxt "Languages::ttc_refund_method"
+msgid "Choose the action that will replace the return, if it is not allowed"
+msgstr "اگر اجازه انتخاب عملی نیست گزینه بازگشت، جایگزین خواهد شد"
+
+msgctxt "Languages::money_back"
+msgid "Money Back"
+msgstr "بازگشت پول"
+
+msgctxt "Languages::money_back_or_replace"
+msgid "Money back or replacement (buyer's choice)"
+msgstr "پول و یا جایگزینی (انتخاب خریدار)"
+
+msgctxt "Languages::money_back_or_exchange"
+msgid "Money back or exchange (buyer's choice)"
+msgstr "پول و یا تبادل (انتخاب خریدار)"
+
+msgctxt "Languages::cost_paid_by"
+msgid "Return shipping will be paid by"
+msgstr "حمل و نقل بازپرداخت می شود"
+
+msgctxt "Languages::ttc_cost_paid_by"
+msgid "Choose, who will pay for the shipping of the return purchase — the seller or the buyer"
+msgstr "انتخاب کنید که برای حمل و نقل فروشنده یا خریدار باز پرداخت خرید را انجام میدهد"
+
+msgctxt "Languages::seller"
+msgid "Seller"
+msgstr "فروشنده"
+
+msgctxt "Languages::buyer"
+msgid "Buyer"
+msgstr "خریدار"
+
+msgctxt "Languages::return_policy_descr"
+msgid "Policy description"
+msgstr "شرح قوانین"
+
+msgctxt "Languages::ttc_return_policy_descr"
+msgid "Write the detailed description of your return policy here"
+msgstr "تشریح سیاست های مروبط به پس دادن کالا را اینجا بنویسید"
+
+msgctxt "Languages::large_envelope"
+msgid "Large envelope"
+msgstr "پاکت بزرگ"
+
+msgctxt "Languages::large_package"
+msgid "Large package"
+msgstr "بسته بزرگ"
+
+msgctxt "Languages::package_type_tooltip"
+msgid "If you don't know your package type, select the \"Large package\" option. To ensure the most accurate cost, you will be asked to enter exact package dimensions."
+msgstr "اگر شما بسته نرم افزاري را نمی دانید، گزینه \"بسته بزرگ \" را انتخاب کنید. برای اطمینان از دقیق ترین محاسبه هزینه، از شما وارد کردن ابعاد دقیق بسته خواسته خواهد شد."
+
+msgctxt "Languages::product_out_of_weight"
+msgid "Products with the [ids] id were not exported because their weight equals zero."
+msgstr "وزن  برابر با صفر محصولات با شناسه [ids] صادر شد."
+
+msgctxt "Languages::exported_to_ebay"
+msgid "Exported to eBay"
+msgstr "صادرات محصولات به eBay."
+
+msgctxt "Languages::revised_after_the_latest_export"
+msgid "Revised after the latest export"
+msgstr "پس از صدور آخرین تجدید نظر شده"
+
+msgctxt "Languages::exporting_images_to_ebay"
+msgid "Exporting product \"[product]\" images to eBay"
+msgstr "صادرات محصول عکس \"[product]\" به eBay"
+
+msgctxt "Languages::ebay_package"
+msgid "Package/thick envelope"
+msgstr "پاکت بسته/ضخامت"
+
+msgctxt "Languages::ebay_cant_remove_template"
+msgid "You don't have permissions to remove some of the templates as they belong to another owner."
+msgstr "شما مجاز به حذف برخی از قالب های آن متعلق به مالک دیگراست، نیستید."
+
+msgctxt "Languages::ebay_commercial_using_title"
+msgid "Activate add-on"
+msgstr "فعال کردن افزودنی"
+
+msgctxt "Languages::ebay_templates_not_found"
+msgid "eBay templates not found"
+msgstr "قالب های Ebay یافت نشد"
+
+msgctxt "SettingsSections::ebay::general"
+msgid "General"
+msgstr "عمومی"
+
+msgctxt "SettingsOptions::ebay::notice"
+msgid "Notice"
+msgstr "توجه"
+
+msgctxt "SettingsOptions::ebay::dev_id"
+msgid "eBay DevID"
+msgstr "ای بی DevID"
+
+msgctxt "SettingsOptions::ebay::app_id"
+msgid "eBay AppID"
+msgstr "eBay AppID"
+
+msgctxt "SettingsOptions::ebay::cert_id"
+msgid "eBay CertID"
+msgstr "ای بی CertID"
+
+msgctxt "SettingsOptions::ebay::token"
+msgid "eBay User Token"
+msgstr "eBay رمز کاربر دریافت شد "
+
+msgctxt "SettingsOptions::ebay::listing_mode"
+msgid "Sandbox / Production"
+msgstr "گودال ماسه بازی / تولید"
+
+msgctxt "SettingsOptions::ebay::site_id"
+msgid "Default site"
+msgstr "پیش فرض سایت"
+
+msgctxt "SettingsOptions::ebay::ebay_timestamp"
+msgid "eBay timestamp"
+msgstr "ای بی مهر زمان"
+
+msgctxt "SettingsVariants::ebay::listing_mode::S"
+msgid "Sandbox"
+msgstr "گودال ماسهبازی"
+
+msgctxt "SettingsVariants::ebay::listing_mode::P"
+msgid "Production"
+msgstr "تولید"
+
+msgctxt "Languages::wait_for_shippings_cached"
+msgid "Please wait, shipping information is loaded."
+msgstr "لطفاً صبرکنید، اطلاعات ارسال بارگذاری شده است."
+
+msgctxt "Languages::privileges.view_ebay_templates"
+msgid "View eBay templates"
+msgstr "مشاهده قالب های eBay"
+
+msgctxt "Languages::privileges.manage_ebay_templates"
+msgid "Manage eBay templates"
+msgstr "مدیریت قالب های eBay"
+
+msgctxt "Languages::ebay_price"
+msgid "eBay product price"
+msgstr "قیمت محصول ای بی"
+
+msgctxt "Languages::override_price"
+msgid "Redefine price on eBay"
+msgstr "تعریف دوباره قیمت در ای بی"
+
+msgctxt "Languages::ebay_product_status"
+msgid "eBay product status"
+msgstr "وضعیت محصول ای بی"
+
+msgctxt "Languages::ebay_product_status_not_exported"
+msgid "Not exported"
+msgstr "صادر نشده"
+
+msgctxt "Languages::ebay_product_status_active"
+msgid "Active"
+msgstr "فعال"
+
+msgctxt "Languages::ebay_product_status_closed"
+msgid "Ended"
+msgstr "به پایان رسید"
+
+msgctxt "Languages::ebay_success_exported_product_notice"
+msgid "Product was successfully exported to eBay"
+msgstr "محصول با موفقیت به eBay صادر شد"
+
+msgctxt "Languages::ebay_success_close_product_notice"
+msgid "Product successfully ended on eBay"
+msgstr "محصول با موفقیت در eBay به پایان رسید"
+
+msgctxt "Languages::ebay_export_failed"
+msgid "Product export failed"
+msgstr "صادرات محصول با شکست مواجه شد"
+
+msgctxt "Languages::ebay_export_success"
+msgid "Product export successful"
+msgstr "صادرات محصول با موفقیت انجام شد"
+
+msgctxt "Languages::ebay_export_failed_msg"
+msgid "Some of the products have not been exported to eBay.<br> Check the logs to see what products weren't exported and the reason why it happened."
+msgstr "برخی از محصولات به eBay صادرنشده اند. <br>گزارش ها را بررسی کنید تا کالاهای صادر نشده و دلیل صادر نشدن آن ها را بیابید."
+
+msgctxt "Languages::ebay_export_success_msg"
+msgid "All the selected products have been exported to eBay without errors."
+msgstr "تمام محصولات انتخاب شده به eBay بدون خطا صادر شدند."
+
+msgctxt "Languages::ebay_end_summary_title"
+msgid "Product ending summary"
+msgstr "خلاصه پایان محصول"
+
+msgctxt "Languages::ebay_export_product"
+msgid "Exporting product \"[product]\" to eBay"
+msgstr "صادرات محصول \"[product]\" به eBay"
+
+msgctxt "Languages::ebay_export_products"
+msgid "Exporting products \"[product]\" to eBay"
+msgstr "صادرات محصول \"[product]\" به eBay"
+
+msgctxt "Languages::ebay_override"
+msgid "Redefinition of the product name and description on eBay"
+msgstr "مفهوم کردن نام محصول و توضیحات در eBay"
+
+msgctxt "Languages::ebay_end_products"
+msgid "Ending products \"[product]\" on eBay"
+msgstr "پایان دادن به محصولات \"[product]\" در eBay"
+
+msgctxt "Languages::ebay_count_product_successfully_exported"
+msgid "Products successfully exported:"
+msgstr "محصولات با موفقیت صادر شدند:"
+
+msgctxt "Languages::ebay_count_product_fail_exported"
+msgid "Products export failed:"
+msgstr "صادرات محصول با شکست مواجه شد:"
+
+msgctxt "Languages::ebay_count_product_successfully_ended"
+msgid "Successfully ended products:"
+msgstr "محصولات با موفقیت به پایان رسید:"
+
+msgctxt "Languages::ebay_count_product_fail_ended"
+msgid "Products ending failed:"
+msgstr "پایان دادن به محصولات ناموفق بود:"
+
+msgctxt "Languages::ebay_end_products_on_ebay"
+msgid "End eBay sales"
+msgstr "پایان دادن به فروش های eBay"
+
+msgctxt "Languages::products_assigned"
+msgid "Products assigned"
+msgstr "محصولات اختصاص داده شده"
+
+msgctxt "Languages::ttc_products_assigned"
+msgid "You can also apply an eBay template to multiple products at once. Go to Products → Products, tick the checkboxes of the products you want to apply a template to, then press the gear button and choose Edit selected. In the pop-up window leave only the eBay Templates checkbox ticked and click Modify selected."
+msgstr "شما نیز میتوانید بکار بگیرید الگوی eBay برو به محصولات متعدد را که یک بار اعمال می شود. برو به به محصولات محصولات →، انتخاب چک باکس ها محصولات به اعمال الگو به سپس دکمه را فشار دهید و موجودی و مواد را انتخاب کنید. در پنجره پاپ آپ بی قالب گزینه ticked ترک و اصلاح انتخاب و کلیک کنید."
+
+msgctxt "Languages::ebay_template_category_product"
+msgid "Use eBay template's category"
+msgstr "استفاده از دسته الگوی eBay"
+
+msgctxt "Languages::ebay_set_manualy"
+msgid "Assign a different eBay category"
+msgstr "اختصاص دادن دسته مختلف eBay"
+
+msgctxt "Languages::ebay_end_template_on_ebay"
+msgid "End eBay sales"
+msgstr "پایان دادن به فروش های eBay"
+
+msgctxt "Languages::ebay_action_export_product"
+msgid "Export product"
+msgstr "صادرات محصول"
+
+msgctxt "Languages::ebay_action_update_product"
+msgid "Update product"
+msgstr "بروزرسانی محصول"
+
+msgctxt "Languages::ebay_action_upload_image_product"
+msgid "Upload the product image"
+msgstr "آپلود تصویر محصول"
+
+msgctxt "Languages::ebay_action_get_status_product"
+msgid "Get product status"
+msgstr "دریافت وضعیت محصول"
+
+msgctxt "Languages::ebay_action_end_product"
+msgid "Ending sale on eBay"
+msgstr "پایان دادن به فروش در eBay"
+
+msgctxt "Languages::ebay_show_logs"
+msgid "Show logs"
+msgstr "نمایش گزارشات"
+
+msgctxt "Languages::ebay_international_shipping_cost"
+msgid "International shipping fee"
+msgstr "هزینه حمل و نقل بین المللی"
+
+msgctxt "Languages::ebay_international_shipping_cost_tooltip"
+msgid "Fixed shipping fee for one item if the shipping type is Flat (the Shipping and handling setting on eBay)."
+msgstr "هزینه حمل و نقل ثابت برای یک مورد اگر نوع حمل و نقل تخت (حمل و نقل و ست کردن به تنظیم در eBay) است."
+
+msgctxt "Languages::ebay_international_shipping_cost_additional_tooltip"
+msgid "International shipping fee for each additional item in the order (the Each additional item setting on eBay)"
+msgstr "هزینه حمل و نقل بین المللی برای هر مورد اضافی به منظور (هر مورد اضافی تنظیمات در eBay)"
+
+msgctxt "Languages::ebay_international_shipping_cost_additional"
+msgid "Additional international shipping fee"
+msgstr "هزینه اضافی حمل و نقل بین المللی"
+
+msgctxt "Languages::ebay_logs"
+msgid "eBay logs"
+msgstr "گزارشات مربوط به eBay"
+
+msgctxt "Languages::ebay_products"
+msgid "eBay products"
+msgstr "محصولات eBay"
+
+msgctxt "Languages::ebay_sync_products_status"
+msgid "Get product status from eBay"
+msgstr "دریافت وضعیت محصول از eBay"
+
+msgctxt "Languages::ebay_get_product_status"
+msgid "Getting product \"[product]\" status from eBay"
+msgstr "گرفتن وضعیت محصول \"[product]\" از eBay"
+
+msgctxt "Languages::ebay_update_status_summary_title"
+msgid "Summary: Product status retrieval from eBay"
+msgstr "شرح مختصر: بازیاب وضعیت یمحصول از eBay"
+
+msgctxt "Languages::ebay_count_product_successfully_status_updated"
+msgid "Products with updated statuses:"
+msgstr "محصولات با وضعیت به روز شده:"
+
+msgctxt "Languages::ebay_count_product_fail_status_updated"
+msgid "Products with status update errors:"
+msgstr "محصولات دارای خطا دروضعیت به روز رسانی:"
+
+msgctxt "Languages::ebay_count_product_skip"
+msgid "Products skipped:"
+msgstr "محصولات رد شده:"
+
+msgctxt "Languages::ebay_product_not_exported"
+msgid "Product \"[product]\" was not exported on eBay"
+msgstr "محصول \"[product]\" در eBay صادر نشد"
+
+msgctxt "Languages::ebay_product_already_sales_closed"
+msgid "Sales of product \"[product]\" were already completed on eBay"
+msgstr "فروش محصول \"[product]\" در حال حاضر در eBay تکمیل شد"
+
+msgctxt "Languages::ebay_failed_request"
+msgid "Failed request to [url]. Http status code: [code]"
+msgstr "عدم موفقیت درخواست به [url]. کد وضعیت http: [code]"
+
+msgctxt "Languages::ebay_package_type"
+msgid "eBay package type"
+msgstr "eBay بسته نرم افزاري"
+
+msgctxt "Languages::ebay_category"
+msgid "eBay Category"
+msgstr "دسته بندی "
+
+msgctxt "Languages::ebay_region"
+msgid "eBay region"
+msgstr "منطقه ای بی"
+
+msgctxt "Languages::ebay_synchronization_title"
+msgid "Synchronizing eBay data"
+msgstr "همگام سازی داده ای بی"
+
+msgctxt "Languages::ebay_synchronization_regions"
+msgid "Synchronizing eBay regions"
+msgstr "همگام سازی مناطق eBay"
+
+msgctxt "Languages::ebay_synchronization_categories"
+msgid "Synchronizing eBay categories (it may take around 3 minutes)"
+msgstr "همگام سازی بی دسته بندی (تقریبا حدود 3 دقیقه ممکن است طول بکشد)"
+
+msgctxt "Languages::ebay_synchronization_shipping_services"
+msgid "Synchronizing eBay shipping services"
+msgstr "همگام سازی خدمات حمل و نقل ای بی"
+
+msgctxt "Languages::ebay_synchronization_category_features"
+msgid "Synchronizing eBay category features"
+msgstr "بی دسته ویژگی های هماهنگ"
+
+msgctxt "Languages::ebay_changed_region_message"
+msgid "After you change eBay region, please check other settings.<br>If your template's Shipping type is set to Calculated, change your primary currency (Administration → Currencies), company address (Settings → Company) and weight measurement units (Settings → General) accordingly.<br>If your template's Shipping type is set to Flat, change your primary currency (Administration → Currencies)."
+msgstr "لطفا تنظیمات دیگر بعد از تغییر بی منطقه. <br>اطفا تنظیمات دیگر را بررسی کنید. <br> اگر نوع حمل و نقل قالب خود را به محاسبه تعیین می کنند، تغییر ارز خود را اولیه (اداره → ارز)، آدرس شرکت (→ شرکت تنظیمات) و واحد اندازه گیری وزن (→ تنظیمات) بر این اساس. <br> اگر نوع حمل و نقل قالب خود را به تخت قرار دهید، تغییر ارز اصلی خود بر مینای (دولت → ارز) تنظیم شده است."
+
+msgctxt "Languages::ebay_upgrade_notification_need_sync_title"
+msgid "eBay Synchronization add-on has been updated"
+msgstr "همگام سازی افزودنی eBay به روز شده است"
+
+msgctxt "Languages::ebay_upgrade_notification_need_sync_text_for_active"
+msgid "Retrieve the statuses of your products from eBay before you continue to use the eBay Synchronization add-on.<br>Go to Marketing → eBay → eBay templates, hover over a template, click the gear button, and select Get product status from eBay.<br>Do this for all your eBay templates."
+msgstr "بازیابی وضعیت از محصولات خود را از eBay قبل از ادامه به استفاده از بی همگام سازی اضافه کنید. <Br> برو به بازاریابی → → بی بی قالب، نشانگر را روی یک قالب، کلیک بر روی دکمه چرخ دنده، و مطلع از وضعیت محصولات از eBay را انتخاب کنید. <br> این برای همه قالب بی خود را انجام دهید."
+
+msgctxt "Languages::ebay_upgrade_notification_need_sync_text_for_disable"
+msgid "You used and disabled eBay Synchronization add-on. If you decide to use the add-on again, complete the following steps:<br><ul><li>Go to Add-ons → Manage add-ons</li><li>Find eBay synchronization add-on and set its status to active</li><li>Go to Marketing → eBay → eBay templates, hover over a template, click the gear button, and select Get product status from eBay</li><li>Repeat the previous step for all your eBay templates</li></ul>"
+msgstr "</ul>شما استفاده می شود و ای بی از کار افتاده همگام سازی اضافه کنید. اگر شما تصمیم به استفاده از افزودنی دوباره، را دارید مراحل زیر را تکمیل کنید: <Br> <Ul> <li> به افزودنیهای فایرفاکس → مدیریت افزودنی </ li> در <Li> مشاهده بی هماهنگ سازی اضافه کردن در و تنظیم وضعیت خود را فعال کنید </ li> <li> به بازاریابی → قالب ایبی →ای بی، شناور بیش از یک قالب، کلیک بر روی دکمه چرخ دنده، و را انتخاب کنید دریافت وضعیت کالا از eBay کنید </ li> <li> در تکرار مرحله قبل برای همه قالب بی خود کنید </ li> </ ul> از"
+
+msgctxt "Languages::export_products_to_ebay"
+msgid "Export/Revise products on eBay"
+msgstr "صادرات/محصولات در eBay اصلاح"
+
+msgctxt "Languages::ebay_product_identifier_upc"
+msgid "UPC"
+msgstr "UPC"
+
+msgctxt "Languages::ebay_product_identifier_ean"
+msgid "EAN"
+msgstr "EAN"
+
+msgctxt "Languages::ebay_product_identifier_isbn"
+msgid "ISBN"
+msgstr "شابک"
+
+msgctxt "Languages::ebay_product_identifier_mpn"
+msgid "MPN"
+msgstr "MPN"
+
+msgctxt "Languages::ebay_product_identifier_brand"
+msgid "Brand"
+msgstr "نام تجاری"
+
+msgctxt "Languages::ebay_product_identifiers"
+msgid "Product identifiers"
+msgstr "شناسه های محصول"
+
+msgctxt "Languages::ebay_product"
+msgid "Product"
+msgstr "محصول"
+
+msgctxt "Languages::ebay_product_variation"
+msgid "Option combination"
+msgstr "گزینه ترکیبی"
+
+msgctxt "Languages::ebay_none"
+msgid "None"
+msgstr "هیچ کدام"
+
+msgctxt "Languages::ebay_does_not_apply"
+msgid "Does not apply"
+msgstr "به کار برده نمی شود"
+
+msgctxt "Languages::ebay_product_code"
+msgid "Product code"
+msgstr "کد محصول"
+
+msgctxt "Languages::ebay_product_feature"
+msgid "Product feature"
+msgstr "ویژگی محصول"
+
+msgctxt "Languages::ebay_combination_code"
+msgid "Combination code"
+msgstr "ترکیب کد"
+
+msgctxt "Languages::ebay_synchronization_region_details"
+msgid "Synchronizing eBay region details"
+msgstr "همگام سازی اطلاعات منطقه ای بی"
+
+msgctxt "Languages::ebay_feature_group_product_identifiers"
+msgid "eBay product identifiers"
+msgstr "eBay شناسه محصول"
+

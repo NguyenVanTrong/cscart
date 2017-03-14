@@ -1,0 +1,1 @@
+REPLACE INTO ?:page_descriptions (page_id, lang_code, page, description) VALUES ('30', 'ru', 'Обратная связь', 'Вы можете отправить нам сообщение, используя форму ниже');

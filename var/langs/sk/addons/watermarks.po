@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Slovak\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sk\n"
+"X-Crowdin-File: /addons/watermarks.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::watermarks"
+msgid "Watermarks"
+msgstr "Vodoznaky"
+
+msgctxt "Addons::description::watermarks"
+msgid "Allows you to add watermarks to product and category images"
+msgstr "Umožňuje pridávať vodoznaky na obrázky produktov a kategórií"
+
+msgctxt "Languages::wt_watermarks"
+msgid "Watermarks"
+msgstr "Vodoznaky"
+
+msgctxt "Languages::wt_graphic_watermark"
+msgid "Graphic watermark"
+msgstr "Grafický vodoznak"
+
+msgctxt "Languages::wt_text_watermark"
+msgid "Text watermark"
+msgstr "Textový vodoznak"
+
+msgctxt "Languages::wt_watermark_vertical_position"
+msgid "Watermark vertical position"
+msgstr "Vertikálna poloha vodoznaku"
+
+msgctxt "Languages::wt_watermark_horizontal_position"
+msgid "Watermark horizontal position"
+msgstr "Horizontálna poloha vodoznaku"
+
+msgctxt "Languages::wt_watermark_position"
+msgid "Watermark position"
+msgstr "Poloha vodoznaku"
+
+msgctxt "Languages::wt_watermark_image"
+msgid "Watermark image"
+msgstr "Obrázok vodoznaku"
+
+msgctxt "Languages::wt_watermark_text"
+msgid "Watermark text"
+msgstr "Text vodoznaku"
+
+msgctxt "Languages::wt_font"
+msgid "Font"
+msgstr "Písmo"
+
+msgctxt "Languages::wt_font_color"
+msgid "Font color"
+msgstr "Farba písma"
+
+msgctxt "Languages::wt_font_size_icon"
+msgid "Font size (thumbnail)"
+msgstr "Veľkosť písma (náhľad)"
+
+msgctxt "Languages::wt_font_size_detailed"
+msgid "Font size (larger image)"
+msgstr "Veľkosť písma (väčší obrázok)"
+
+msgctxt "Languages::wt_watermark_icon"
+msgid "Thumbnail watermark"
+msgstr "Vodoznak pri náhľade"
+
+msgctxt "Languages::wt_watermark_detailed"
+msgid "Popup larger image watermark"
+msgstr "Vodoznak pri väčšom obrázku"
+
+msgctxt "Languages::wt_fail_apply_graphic_watermark"
+msgid "Failed to apply the watermark to [image_type]. The watermark image is not added."
+msgstr "Nepodarilo sa aplikovať vodoznak na [image_type]. Obrázok vodoznaku nebol pridaný."
+
+msgctxt "Languages::wt_icons"
+msgid "thumbnails"
+msgstr "Náhľady"
+
+msgctxt "Languages::wt_detailed"
+msgid "popup larger images"
+msgstr "Väčšie vyskakovacie obrázky"
+
+msgctxt "Languages::wt_images_access_description"
+msgid "To deny access to your original images, please add the following instructions to the '.htaccess' file in the 'images' directory of your installation. It will protect your original images. Even if an original image is opened, the corresponding watermarked image will be show instead."
+msgstr "Aby ste zamedzili prístup k vašim pôvodným obrázkom, prosím pridajte nasledujúce inštrukcie do súboru \".htaccess\" v adresári \"images\" vašej inštalácie. Ochráni to vaše pôvodné obrázky. Aj keby bolo otvorený pôvodný obrázok, zobrazený bude príslušný obrázok opatrený vodoznakom."
+
+msgctxt "Languages::wt_watermarks_access_description"
+msgid "To generate watermarked images automatically even if they are requested not from your store pages, please add the '.htaccess' file with the following instructions to the 'images/watermarked' directory of your installation."
+msgstr "Pre automatickú generáciu obrázkov s vodoznakom, aj keď budú vyžiadané z umiestnenia iného ako vaša stránka, pridajte prosím nasledujúce inštrukcie do súboru \".htaccess\" v adresári \"images/watermarked\" vašej inštalácie."
+
+msgctxt "Languages::wt_access_note"
+msgid "Please note, if you disable or uninstall the 'Watermarks' add-on, you should remove these instructions from '.htaccess' files manually. Otherwise category and product images will be unavailable."
+msgstr "Upozorňujeme, že pokiaľ vypnete alebo odinštalujete doplnok \"Vodoznaky\", musíte tieto inštrukcie ručne vymazať zo súboru \".htaccess\". V opačnom prípade nebudú obrázky produktov a kategórií dostupné."
+
+msgctxt "Languages::wt_access_warning"
+msgid "Watermark creating is disabled. If there are any \"Rewrite watermarks rules\" instructions in the \"images/.htaccess\" file, you should remove them manually. Otherwise category and product images will be unavailable."
+msgstr "Vytváranie vodoznakov je vypnuté. Ak sú vo vašom \"images/.htaccess\" súbore nejaké inštrukcie obsahujúce príkaz \"Rewrite watermark rules\", musíte ich ručne zmazať. V opačnom prípade nebudú obrázky produktov a kategórií dostupné."
+
+msgctxt "Languages::wt_images_access_info"
+msgid "Images access"
+msgstr "Prístup k obrázkom"
+
+msgctxt "SettingsSections::watermarks::general"
+msgid "General"
+msgstr "Všeobecné"
+
+msgctxt "SettingsOptions::watermarks::watermark"
+msgid "Watermark"
+msgstr "Vodoznak"
+
+msgctxt "SettingsOptions::watermarks::apply_to_product"
+msgid "Product watermarks"
+msgstr "Vodoznaky produktov"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_icons"
+msgid "Resized images"
+msgstr "Zmenšené/zväčšené obrázky"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_detailed"
+msgid "Original size images"
+msgstr "Obrázky pôvodnej veľkosti"
+
+msgctxt "SettingsOptions::watermarks::apply_to_categories"
+msgid "Category watermarks"
+msgstr "Vodoznaky kategórií"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_icons"
+msgid "Resized images"
+msgstr "Zmenšené/zväčšené obrázky"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_detailed"
+msgid "Original size images"
+msgstr "Obrázky pôvodnej veľkosti"
+
+msgctxt "SettingsOptions::watermarks::images_access_info"
+msgid "Images access"
+msgstr "Prístup k obrázkom"
+

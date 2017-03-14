@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: no\n"
+"X-Crowdin-File: /addons/blog.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::blog"
+msgid "Blog"
+msgstr "Blogg"
+
+msgctxt "Addons::description::blog"
+msgid "Lets you start your blog easily"
+msgstr "Lar deg enkelt starte din blogg"
+
+msgctxt "Languages::blog_menu_description"
+msgid "Manage your blog posts."
+msgstr "Administrerer blogginnleggene dine."
+
+msgctxt "Languages::blog.new_post"
+msgid "New blog post"
+msgstr "Nye blogginnlegg"
+
+msgctxt "Languages::blog.editing_post"
+msgid "Editing blog post"
+msgstr "Redigerer blogginnlegg"
+
+msgctxt "Languages::blog"
+msgid "Blog"
+msgstr "Blogg"
+
+msgctxt "Languages::blog.add_post"
+msgid "Add blog post"
+msgstr "Legge til blogginnlegg"
+
+msgctxt "Languages::blog.recent_posts"
+msgid "Blog: recent posts"
+msgstr "Blogg: siste innlegg"
+
+msgctxt "Languages::blog.recent_posts_scroller"
+msgid "Blog: recent posts scroller"
+msgstr "Blogg: siste innlegg rullgardinmeny"
+
+msgctxt "Languages::blog.view_post"
+msgid "View post"
+msgstr "Vis innlegg"
+
+msgctxt "Languages::recent_blog_posts"
+msgid "Recent blog posts"
+msgstr "Nye blogginnlegg"
+
+msgctxt "Languages::blog.posts"
+msgid "Posts"
+msgstr "Innlegg"
+
+msgctxt "Languages::blog.post"
+msgid "Post"
+msgstr "Innlegg"
+
+msgctxt "Languages::block_blog"
+msgid "Recent posts"
+msgstr "Siste innlegg"
+
+msgctxt "Languages::blog.text_links"
+msgid "Blog: text links"
+msgstr "Blogg: tekstkoblinger"
+
+msgctxt "Languages::blog.read_more"
+msgid "Read more"
+msgstr "Les mer"
+
+msgctxt "Languages::post_description"
+msgid "Post description"
+msgstr "Legg til en beskrivelse"
+
+msgctxt "Languages::ttc_post_description"
+msgid "Use the &lt;!--CUT--&gt; tag (switch to source code to insert it) to hide part of the post. Only the part above the tag is shown in the list of all posts.<br /><br />Make sure to <strong>close all HTML tags</strong> above the &lt;!--CUT--&gt; tag!"
+msgstr "Bruk &lt;!--CUT--&gt; taggen (bytt til visning med kildekode for å legge den til) for å skjule deler av innlegget. Bare delen over taggen vises i listen med alle innlegg.<br /><br />Husk å <strong>lukke alle HTML-tagger</strong> over &lt;!--CUT--&gt; taggen!"
+
+msgctxt "Languages::blog_functionality_notes"
+msgid "<p>Use this page to manage your blog. This is how you should organize your blog posts:</p><ul><li>Blog is a usual post that has the <b>Root level page</b> as the Parent page.</li><li>Choose <b>Blog</b> as the Parent page for your blog posts.</li></ul>"
+msgstr "<p>Bruk denne siden til å administrere bloggen din. Dette er hvordan du bør organisere blogginnleggene dine:</p><ul><li>Blogg er en vanlig post som er <b>rotnivåside</b> som overordnet side.</li><li>Velg <b>Blogg</b> som den overordnede siden for dine blogginnlegg.</li></ul>"
+

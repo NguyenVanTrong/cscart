@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: /addons/call_requests.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:47-0500\n"
+
+msgctxt "Addons::name::call_requests"
+msgid "Call requests"
+msgstr "Visszahívás-kérések"
+
+msgctxt "Addons::description::call_requests"
+msgid "Adds a call-requests system"
+msgstr "Visszahívás-kérések kezelése a webáruházban"
+
+msgctxt "SettingsSections::call_requests::general"
+msgid "General"
+msgstr "Általános"
+
+msgctxt "SettingsOptions::call_requests::general"
+msgid "General"
+msgstr "Általános"
+
+msgctxt "SettingsOptions::call_requests::phone"
+msgid "Rewrite phone"
+msgstr "Telefonszám átírása"
+
+msgctxt "SettingsOptions::call_requests::phone_prefix_length"
+msgid "Highlight first chars"
+msgstr "Az első karakterek kiemelése"
+
+msgctxt "SettingsOptions::call_requests::buy_now_with_one_click"
+msgid "Enable the \"Buy now with one click\" option"
+msgstr "\"Vásárlás egy kattintással\" lehetőség engedélyezése"
+
+msgctxt "SettingsOptions::call_requests::order_status"
+msgid "Order status"
+msgstr "Rendelés státusza"
+
+msgctxt "SettingsOptions::call_requests::phone_mask"
+msgid "Phone mask"
+msgstr "Telefonszám formátuma"
+
+msgctxt "SettingsTooltips::call_requests::phone_mask"
+msgid "Leave empty to use automatic country-based phone pattern, or type in a custom pattern. You can use spaces, commas, +, -, and digits. Note that 9 represents any digit; if you need a 9, type \\\\9. Examples: +9 (999) 999 99 99, 99999999, 999 999 99 or +99-99-9999-9999."
+msgstr "Az országra jellemző telefonszámminta automatikus használatához üresen kell hagyni, de egyedi mintát is meg lehet adni. Megengedett karakterek: szóköz, vessző, +, - karakterek és számjegyek. Fontos, hogy a 9 bármilyen számjegyet jelenthet! Ha szükség van a 9-re, mint számjegy, akkor így lehet megadni: \\\\9. Például: +99 (99) 999 99 99, 99999999, 999 999 99 vagy +99-99-9999-9999."
+
+msgctxt "SettingsTooltips::call_requests::phone_prefix_length"
+msgid "Including parenthesis, spaces, etc. Use to highlight country code, area code, and phone prefix."
+msgstr "Tartalmazza a zárójeleket, szóközöket, stb. Használja az országhívószám, a körzetszám és a telefonszám kiemelésére."
+
+msgctxt "Languages::privileges.manage_call_requests"
+msgid "Manage Call requests"
+msgstr "Visszahívás-kérések kezelése"
+
+msgctxt "Languages::privileges.view_call_requests"
+msgid "View Call requests"
+msgstr "Visszahívás-kérések megtekintése"
+
+msgctxt "Languages::call_requests"
+msgid "Call requests"
+msgstr "Visszahívás-kérések"
+
+msgctxt "Languages::call_requests_menu_description"
+msgid "Manage customer call requests"
+msgstr "Vásárlói visszahívás-kérések kezelése"
+
+msgctxt "Languages::call_requests.request_call"
+msgid "Request call"
+msgstr "Visszahívás kérése"
+
+msgctxt "Languages::call_requests.buy_now_with_one_click"
+msgid "Buy now with 1-click"
+msgstr "Vásárlás egy kattintással"
+
+msgctxt "Languages::call_requests.error_validate_call_form"
+msgid "Please enter your email or phone number"
+msgstr "Kérjük, hogy adja meg e-mail címét vagy telefonszámát"
+
+msgctxt "Languages::call_requests.request_recieved"
+msgid "We have received your request! Our manager will contact you soon."
+msgstr "Kérését megkaptuk! Hamarosan jelentkezünk!"
+
+msgctxt "Languages::call_requests.order_placed"
+msgid "We have received your request! The order #[order_id] has been successfully created. Our manager will contact you soon."
+msgstr "Kérését megkaptuk! Rendelését #[order_id] számon regisztráltuk. Hamarosan jelentkezünk!"
+
+msgctxt "Languages::call_requests.phone_from_settings"
+msgid "Phone from settings"
+msgstr "A beállításokban megadott telefonszám"
+
+msgctxt "Languages::call_requests.enter_phone_or_email_text"
+msgid "Please enter your phone number or email (for our manager to contact you)"
+msgstr "Kérjük, hogy adja meg e-mail címét vagy telefonszámát (hogy munkatársunk fel tudja venni a kapcsolatot)"
+
+msgctxt "Languages::call_requests.status.new"
+msgid "New"
+msgstr "Új"
+
+msgctxt "Languages::call_requests.status.in_progress"
+msgid "In progress"
+msgstr "Folyamatban"
+
+msgctxt "Languages::call_requests.status.completed"
+msgid "Completed"
+msgstr "Befejeződött"
+
+msgctxt "Languages::call_requests.status.no_answer"
+msgid "No answer"
+msgstr "Nincs válasz"
+
+msgctxt "Languages::call_requests.responsible"
+msgid "Responsible"
+msgstr "Felelős"
+
+msgctxt "Languages::call_requests.notes"
+msgid "Notes"
+msgstr "Megjegyzések"
+
+msgctxt "Languages::call_requests.requested_product"
+msgid "Requested product"
+msgstr "A kiválasztott termék"
+
+msgctxt "Languages::call_requests.convenient_time"
+msgid "Convenient time"
+msgstr ""
+
+msgctxt "Languages::call_requests.awaiting_call"
+msgid "Awaiting call"
+msgstr "Egyeztetés szükséges"
+
+msgctxt "Languages::call_requests.order_exists"
+msgid "Order exists"
+msgstr "Rendelés létezik"
+
+msgctxt "Languages::call_requests.person_name_and_phone"
+msgid "Name and phone"
+msgstr "Név és telefonszám"
+
+msgctxt "Languages::call_requests.no_name_specified"
+msgid "No name specified"
+msgstr "Nincs név megadva"
+
+msgctxt "Languages::call_requests.use_for_call_requests"
+msgid "Call request and buy now with one click form"
+msgstr "Visszahívás kérés és vásárlás egy kattintással űrlap"
+
+msgctxt "Languages::block_call_request"
+msgid "Call request"
+msgstr "Visszahívás kérése"
+
+msgctxt "Languages::block_call_request_description"
+msgid "Store phone number and form for requesting a call"
+msgstr "Telefonszám és adatlap tárolása visszahívás kéréséhez"
+
+msgctxt "Languages::tmpl_call_request"
+msgid "Call request form"
+msgstr "Visszahívás kérése űrlap"
+
+msgctxt "Languages::call_requests.text_call_request"
+msgid "Customer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number]."
+msgstr ""
+
+msgctxt "Languages::call_requests.text_call_request_call_time"
+msgid "The convenient call time is between [time_from] and [time_to]."
+msgstr "Az alkalmas visszahívási idő: [time_from] - [time_to]."
+
+msgctxt "Languages::call_requests.text_buy_with_one_click_request"
+msgid "Сustomer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number], regarding the purchase of the product <a href=\"[product_href]\">[product_name]</a>."
+msgstr "[customer] vásárló <a href=\"[href]\"> visszahívást kért</a> a(z) [phone_number] telefonszámon, az alábbi termék vásárlásával kapcsolatban: <a href=\"[product_href]\">[product_name]</a>."
+
+msgctxt "Languages::call_requests.error_validator_phone"
+msgid "The phone number in the <b>[field]</b> field is invalid."
+msgstr "A <b>[field]</b> mezőben megadott telefonszám érvénytelen."
+
+msgctxt "Languages::email_template.call_requests_buy_with_one_click"
+msgid "Call requests: buy with one click notification"
+msgstr ""
+
+msgctxt "Languages::email_template.call_requests_call_request"
+msgid "Call requests: call request notification"
+msgstr ""
+
+msgctxt "Languages::call_request.work_time"
+msgid "Mon-Fr 9a.m.-6p.m."
+msgstr ""
+

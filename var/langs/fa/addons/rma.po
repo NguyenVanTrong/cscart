@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /addons/rma.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:48-0500\n"
+
+msgctxt "Addons::name::rma"
+msgid "RMA"
+msgstr "RMA"
+
+msgctxt "Addons::description::rma"
+msgid "Adds a return management system"
+msgstr "افزودن سیستم مدیریت عودت"
+
+msgctxt "Languages::returned_products"
+msgid "Returned products"
+msgstr "کالا مرجوعی"
+
+msgctxt "Languages::rma_return"
+msgid "Return"
+msgstr "بازگشت"
+
+msgctxt "Languages::no_return_requests_found"
+msgid "No return requests found"
+msgstr "هیچ درخواست بازگشتی یافت نشد"
+
+msgctxt "Languages::returned_product"
+msgid "Returned product"
+msgstr "کالا مرجوعی"
+
+msgctxt "Languages::returns"
+msgid "Returns"
+msgstr "عودتی ها"
+
+msgctxt "Languages::returns_info"
+msgid "Returns info"
+msgstr "اطلاعات عودتی ها"
+
+msgctxt "Languages::return_info"
+msgid "Return information"
+msgstr "اطلاعات بازگشتی"
+
+msgctxt "Languages::order_returns"
+msgid "Order returns"
+msgstr "عودتی های سفارش"
+
+msgctxt "Languages::return_registration"
+msgid "Request a replacement or a refund"
+msgstr "درخواست تعویض یا برگشت هزینه"
+
+msgctxt "Languages::return_requests"
+msgid "Return requests"
+msgstr "درخواست های عودت"
+
+msgctxt "Languages::return_requests_menu_description"
+msgid "View and process return requests from orders placed on your web site."
+msgstr "نمایش و پردازش درخواست های عودت از سفارشات ثبت شده وب سایت شما."
+
+msgctxt "Languages::return_status"
+msgid "Return status"
+msgstr "وضعیت عودتی"
+
+msgctxt "Languages::return_period"
+msgid "Return period"
+msgstr "زمان عودت"
+
+msgctxt "Languages::what_you_would_like_to_do"
+msgid "What would you like to do"
+msgstr "تمایل دارید چه کاری انجام دهید"
+
+msgctxt "Languages::rma_notify_supplier"
+msgid "Notify supplier"
+msgstr "اطلاع تامین کننده"
+
+msgctxt "Languages::add_reason"
+msgid "Add reason"
+msgstr "اضافه کردن دلیل"
+
+msgctxt "Languages::new_reason"
+msgid "New reason"
+msgstr "دلیل جدید"
+
+msgctxt "Languages::type_comment"
+msgid "Type comments here"
+msgstr "نظرات را اینجا وارد نمایید"
+
+msgctxt "Languages::return_requests_note"
+msgid "Go to the list of your return requests"
+msgstr "رفتن به فهرست درخواست های عودت"
+
+msgctxt "Languages::privileges.manage_rma"
+msgid "Manage RMA system"
+msgstr "سیستم مدیریت RMA"
+
+msgctxt "Languages::text_return_change_warning"
+msgid "The status of return #[return_id] will be changed"
+msgstr "وضعيت بازگشت #[return_id] تغییر خواهد کرد"
+
+msgctxt "Languages::returnable"
+msgid "Returnable"
+msgstr "قابل برگشت"
+
+msgctxt "Languages::returnable_product"
+msgid "Returnable product"
+msgstr "محصول قابل عودت"
+
+msgctxt "Languages::rma_request_statuses"
+msgid "RMA request statuses"
+msgstr "وضعیت درخواست RMA"
+
+msgctxt "Languages::return_products_information"
+msgid "Return products information"
+msgstr "اطلاعات محصولات بازگشتی"
+
+msgctxt "Languages::declined_products_information"
+msgid "Declined products information"
+msgstr "اطلاعات محصولات رد شده"
+
+msgctxt "Languages::rma_reasons"
+msgid "RMA reasons"
+msgstr "دلایل RMA"
+
+msgctxt "Languages::rma_actions"
+msgid "RMA actions"
+msgstr "اقدامات RMA"
+
+msgctxt "Languages::rma"
+msgid "RMA"
+msgstr "RMA"
+
+msgctxt "Languages::return_period_days"
+msgid "Return period (days)"
+msgstr "دوره بازگشت (روز)"
+
+msgctxt "Languages::all_actions"
+msgid "All actions"
+msgstr "تمام اقدامات"
+
+msgctxt "Languages::order_total_will_changed"
+msgid "The order total will be changed by"
+msgstr "تغییر مجموع سفارش به میزان"
+
+msgctxt "Languages::shipping_costs_will_changed"
+msgid "Shipping costs will be changed by"
+msgstr "تغییر هزینه های ارسال به میزان"
+
+msgctxt "Languages::decline_products"
+msgid "Decline products"
+msgstr "کاهش محصولات"
+
+msgctxt "Languages::create_gift_certificate"
+msgid "Create gift certificate"
+msgstr "ایجاد گواهی هدیه"
+
+msgctxt "Languages::accept_products"
+msgid "Accept products"
+msgstr "پذیرش محصولات"
+
+msgctxt "Languages::recalculate_order"
+msgid "Recalculate order"
+msgstr "بازمحاسبه سفارش"
+
+msgctxt "Languages::manually_recalculate_order"
+msgid "Recalculate the order manually"
+msgstr "بازمحاسبه دستی سفارش"
+
+msgctxt "Languages::dont_recalculate_order"
+msgid "Do not recalculate order"
+msgstr "بازمحاسبه سفارش انجام نشود"
+
+msgctxt "Languages::delete_this_return"
+msgid "Delete this return"
+msgstr "این بازگشت را حذف کنید"
+
+msgctxt "Languages::update_totals_and_inventory"
+msgid "Update totals and inventory"
+msgstr "موجودی و مجموع های به روز رسانی"
+
+msgctxt "Languages::request_statuses"
+msgid "request statuses"
+msgstr "وضعیت های درخواست"
+
+msgctxt "SettingsSections::rma::general"
+msgid "General"
+msgstr "عمومی"
+
+msgctxt "SettingsOptions::rma::display_product_return_period"
+msgid "Display product return period"
+msgstr "نمایش دوره بازگشت محصول"
+
+msgctxt "SettingsOptions::rma::dont_take_weekends_into_account"
+msgid "Do not take weekends into account when calculating product return period"
+msgstr "تعطیلات آخر هفته به حساب هنگام محاسبه دوره بازگشت محصول را ندارد"
+
+msgctxt "Languages::email_template.rma_slip_notification"
+msgid "RMA slip"
+msgstr "لغزش RMA"
+
+msgctxt "Languages::template_document_rma_packing_slip_default"
+msgid "Return request: packing slip"
+msgstr "درخواست بازگشت: بسته بندی رسید"
+
+msgctxt "Languages::document_preview_return_request_not_found"
+msgid "Couldn't find a return request. Preview only works with existing data. Please create a return request and use Preview again."
+msgstr "می تواند یک درخواست بازگشت را پیدا کند. پیش نمایش تنها با داده های موجود کار می کند. لطفا یک درخواست بازگشت ایجاد و استفاده از پیش نمایش است."
+

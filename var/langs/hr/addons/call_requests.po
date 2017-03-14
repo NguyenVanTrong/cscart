@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Croatian\n"
+"Language: hr_HR\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: hr\n"
+"X-Crowdin-File: /addons/call_requests.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:01-0500\n"
+
+msgctxt "Addons::name::call_requests"
+msgid "Call requests"
+msgstr "Zahtjev za poziv"
+
+msgctxt "Addons::description::call_requests"
+msgid "Adds a call-requests system"
+msgstr "Dodaj u sustav Zahtjeva za poziv "
+
+msgctxt "SettingsSections::call_requests::general"
+msgid "General"
+msgstr "Općenito"
+
+msgctxt "SettingsOptions::call_requests::general"
+msgid "General"
+msgstr "Općenito"
+
+msgctxt "SettingsOptions::call_requests::phone"
+msgid "Rewrite phone"
+msgstr "Izmjeniti telefon"
+
+msgctxt "SettingsOptions::call_requests::phone_prefix_length"
+msgid "Highlight first chars"
+msgstr "Označite prva slova u"
+
+msgctxt "SettingsOptions::call_requests::buy_now_with_one_click"
+msgid "Enable the \"Buy now with one click\" option"
+msgstr "Omogućite opciju \"Kupi sada sa jednim klikom\""
+
+msgctxt "SettingsOptions::call_requests::order_status"
+msgid "Order status"
+msgstr "Status narudžbe"
+
+msgctxt "SettingsOptions::call_requests::phone_mask"
+msgid "Phone mask"
+msgstr "Telefon maska"
+
+msgctxt "SettingsTooltips::call_requests::phone_mask"
+msgid "Leave empty to use automatic country-based phone pattern, or type in a custom pattern. You can use spaces, commas, +, -, and digits. Note that 9 represents any digit; if you need a 9, type \\\\9. Examples: +9 (999) 999 99 99, 99999999, 999 999 99 or +99-99-9999-9999."
+msgstr "Ostavite prazno za korištenje automatskog telefonskog uzoraka zemlje ili upišite prilagođeni uzorak. Možete koristiti razmake, zareze, +, -, i znamenke. Imajte na umu da 9 predstavlja nikakvu brojku; ako vam je potrebna 9, tip \\\\ 9. Primjeri: +9 (999) 999 99 99, 99999999, 999 999 99 ili + 99-99-9999-9999."
+
+msgctxt "SettingsTooltips::call_requests::phone_prefix_length"
+msgid "Including parenthesis, spaces, etc. Use to highlight country code, area code, and phone prefix."
+msgstr "Uključujući zagrade, prostor, itd Koristite za označavanje pozivni broj zemlje, predbroj i telefonski predbroj."
+
+msgctxt "Languages::privileges.manage_call_requests"
+msgid "Manage Call requests"
+msgstr "Upravljanje zahtjevima za poziv"
+
+msgctxt "Languages::privileges.view_call_requests"
+msgid "View Call requests"
+msgstr "Pogledaj pozive"
+
+msgctxt "Languages::call_requests"
+msgid "Call requests"
+msgstr "Poziv zahtjeva"
+
+msgctxt "Languages::call_requests_menu_description"
+msgid "Manage customer call requests"
+msgstr "Upravljanje zahtjevima poziva korisnika"
+
+msgctxt "Languages::call_requests.request_call"
+msgid "Request call"
+msgstr "Zatražite poziv"
+
+msgctxt "Languages::call_requests.buy_now_with_one_click"
+msgid "Buy now with 1-click"
+msgstr "Kupi odmah sa 1-klik"
+
+msgctxt "Languages::call_requests.error_validate_call_form"
+msgid "Please enter your email or phone number"
+msgstr "Molimo upišite vaš e-mail ili telefonski broj"
+
+msgctxt "Languages::call_requests.request_recieved"
+msgid "We have received your request! Our manager will contact you soon."
+msgstr "Primili smo vaš upit! Rukovoditelj će vas uskoro kontaktirati."
+
+msgctxt "Languages::call_requests.order_placed"
+msgid "We have received your request! The order #[order_id] has been successfully created. Our manager will contact you soon."
+msgstr "Primili smo vaš upit! Redoslijed #[order_id] uspješno je stvorena. Rukovoditelj će vas uskoro kontaktirati."
+
+msgctxt "Languages::call_requests.phone_from_settings"
+msgid "Phone from settings"
+msgstr "Postavke poziva"
+
+msgctxt "Languages::call_requests.enter_phone_or_email_text"
+msgid "Please enter your phone number or email (for our manager to contact you)"
+msgstr "Molimo unesite telefonski broj ili e-mail (da Vam se može javiti naš menadžer)"
+
+msgctxt "Languages::call_requests.status.new"
+msgid "New"
+msgstr "Novi"
+
+msgctxt "Languages::call_requests.status.in_progress"
+msgid "In progress"
+msgstr "U tijeku"
+
+msgctxt "Languages::call_requests.status.completed"
+msgid "Completed"
+msgstr "Završen"
+
+msgctxt "Languages::call_requests.status.no_answer"
+msgid "No answer"
+msgstr "Nema odgovora"
+
+msgctxt "Languages::call_requests.responsible"
+msgid "Responsible"
+msgstr "Odgovoran"
+
+msgctxt "Languages::call_requests.notes"
+msgid "Notes"
+msgstr "Bilješke"
+
+msgctxt "Languages::call_requests.requested_product"
+msgid "Requested product"
+msgstr "Traženi proizvod"
+
+msgctxt "Languages::call_requests.convenient_time"
+msgid "Convenient time"
+msgstr ""
+
+msgctxt "Languages::call_requests.awaiting_call"
+msgid "Awaiting call"
+msgstr "Očekujem poziv"
+
+msgctxt "Languages::call_requests.order_exists"
+msgid "Order exists"
+msgstr "Narudžba postoji"
+
+msgctxt "Languages::call_requests.person_name_and_phone"
+msgid "Name and phone"
+msgstr "Ime i telefon"
+
+msgctxt "Languages::call_requests.no_name_specified"
+msgid "No name specified"
+msgstr "Nije naveden naziv"
+
+msgctxt "Languages::call_requests.use_for_call_requests"
+msgid "Call request and buy now with one click form"
+msgstr "Poziv na zahtjev i kupi sada u obliku jednim klikom"
+
+msgctxt "Languages::block_call_request"
+msgid "Call request"
+msgstr "Poziv zahtjeva"
+
+msgctxt "Languages::block_call_request_description"
+msgid "Store phone number and form for requesting a call"
+msgstr "Broj telefona trgovine i obrazac za zahtjev poziva"
+
+msgctxt "Languages::tmpl_call_request"
+msgid "Call request form"
+msgstr "Obrazac zahtjeva za poziv"
+
+msgctxt "Languages::call_requests.text_call_request"
+msgid "Customer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number]."
+msgstr ""
+
+msgctxt "Languages::call_requests.text_call_request_call_time"
+msgid "The convenient call time is between [time_from] and [time_to]."
+msgstr "Povoljno je vrijeme poziva između [time_from] i [time_to]."
+
+msgctxt "Languages::call_requests.text_buy_with_one_click_request"
+msgid "Сustomer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number], regarding the purchase of the product <a href=\"[product_href]\">[product_name]</a>."
+msgstr "Kupac [customer] <a href=\"[href]\"> čeka tvoj poziv</a> na [phone_number], o kupovini proizvoda <a href=\"[product_href]\">[product_name]</a>."
+
+msgctxt "Languages::call_requests.error_validator_phone"
+msgid "The phone number in the <b>[field]</b> field is invalid."
+msgstr ""
+
+msgctxt "Languages::email_template.call_requests_buy_with_one_click"
+msgid "Call requests: buy with one click notification"
+msgstr ""
+
+msgctxt "Languages::email_template.call_requests_call_request"
+msgid "Call requests: call request notification"
+msgstr ""
+
+msgctxt "Languages::call_request.work_time"
+msgid "Mon-Fr 9a.m.-6p.m."
+msgstr ""
+

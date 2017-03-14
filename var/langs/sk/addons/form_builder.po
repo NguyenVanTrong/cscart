@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Slovak\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sk\n"
+"X-Crowdin-File: /addons/form_builder.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Konštruktér formulárov"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us)"
+msgstr "Umožňuje vytvárať vlastné formuláre (napríklad \"Kontaktujte nás\")"
+
+msgctxt "Languages::use_for_form_builder"
+msgid "Custom forms"
+msgstr "Vlastné formuláre"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Nový formulár"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Editácia formulára"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Konštruktér formulárov"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Odoslanie textu formulára"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "E-mailom na"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "Formulár je zabezpečený (SSL)"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Pridať formulár"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Základ"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Viac začiarkavacích políčok"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Viaceré selectbox-y"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Hlavička"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Oddeľovač"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Špeciálne"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Zoznam krajín"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Zoznam štátov"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "Referujúci"
+
+msgctxt "Languages::email_template.form_builder_form"
+msgid "Contact form"
+msgstr ""
+
+msgctxt "Languages::addons.form_builder.form_fields"
+msgid "Form fields"
+msgstr ""
+
+msgctxt "Languages::addons.form_builder.form_name"
+msgid "Form name"
+msgstr ""
+
+msgctxt "Languages::addons.form_builder.other_subject"
+msgid "Other subject (specify below)"
+msgstr ""
+
+msgctxt "Languages::addons.form_builder.email_subject_field"
+msgid "E-mail subject field"
+msgstr ""
+
+msgctxt "Languages::ttc_addons.form_builder.email_subject_field"
+msgid "Fields of type \"Select box\" or \"Input field\" can be used"
+msgstr ""
+

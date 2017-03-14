@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Slovak\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: sk\n"
+"X-Crowdin-File: /addons/buy_together.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:49-0500\n"
+
+msgctxt "Addons::name::buy_together"
+msgid "Buy together"
+msgstr "Kúpiť spolu"
+
+msgctxt "Addons::description::buy_together"
+msgid "Allows you to set up share discounts on certain product combinations"
+msgstr "Umožňuje nastaviť podiel zľavy na určité kombinácie produktov"
+
+msgctxt "Languages::buy_together"
+msgid "Buy together"
+msgstr "Kúpiť spolu"
+
+msgctxt "Languages::specify_options"
+msgid "Specify options"
+msgstr "Určenie možností"
+
+msgctxt "Languages::total_list_price"
+msgid "Total list price"
+msgstr "Celková cena"
+
+msgctxt "Languages::price_for_all"
+msgid "Price for all"
+msgstr "Cena pre všetkých"
+
+msgctxt "Languages::add_all_to_cart"
+msgid "Add all to cart"
+msgstr "Pridať všetko do košíka"
+
+msgctxt "Languages::editing_combination"
+msgid "Editing combination"
+msgstr "Upraviť kombináciu"
+
+msgctxt "Languages::buy_together_calculation_information"
+msgid "Total price: [total_price], Discount: [discount], Combination price: [combination_price]"
+msgstr "Celková cena: [total_price], zľava: [discount], kombinovaná cena: [combination_price]"
+
+msgctxt "Languages::display_in_promotions"
+msgid "Display in promotions"
+msgstr "Zobraziť v akciách"
+
+msgctxt "Languages::combination_products"
+msgid "Combination products"
+msgstr "Kombinácia produktov"
+
+msgctxt "Languages::share_discount"
+msgid "Share discount"
+msgstr "Podiel zľavy"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_configurator"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Product configurator add-on"
+msgstr "[product_name] sa nedá pridať do kombinácie. Kúpiť spolu nie je kompatibilné s doplnkom Konfigurátor produktov"
+
+msgctxt "Languages::buy_together_is_not_compatible_with_recurring_billing"
+msgid "[product_name] cannot be added to combination. Buy together is not compatible with the Recurring billing add-on"
+msgstr "[product_name] sa nedá pridať do kombinácie. Kúpiť spolu nie je kompatibilné s doplnkom Opakovaná fakturácia"
+
+msgctxt "Languages::buy_together_combination_cannot_be_added"
+msgid "Combination cannot be added to cart"
+msgstr "Kombináciu nie je možné pridať do košíka"
+
+msgctxt "Languages::buy_together_product_was_removed"
+msgid "[product] did not have enough amount ([amount]) and was removed from the cart"
+msgstr "[product] nemá dostatočné množstvo ([amount]) na odstránenie z košíka"
+
+msgctxt "Languages::buy_together_fill_the_mandatory_fields"
+msgid "Please specify product options before adding this product combination to the cart."
+msgstr "Prosím zadajte možnosti produktu pred pridaním tejto kombinácie produktu do košíka."
+

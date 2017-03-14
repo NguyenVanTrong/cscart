@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<email_templates scheme="1.0">
+    <templates>
+        <item>
+            <code><![CDATA[gift_certificates_notification]]></code>
+            <area><![CDATA[C]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("gift_certificate") }} {{ certificate_info.gift_cert_code }} {{ certificate_status.email_subj }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{% set title %}
+{{__("gift_certificate")}} {{ certificate_info.gift_cert_code }} {{ certificate_status.email_subj }}
+{% endset %}
+{{ snippet("header", {"title": title }  ) }}
+
+<p>
+                     {{__("hello")}} {{gift_cert_data.recipient}},<br/>
+                      {{ certificate_status.email_header }}<br />
+                     {{__("gift_cert_from")}}: {{gift_cert_data.sender}}    {{__("gift_cert_to")}}: {{gift_cert_data.recipient}}<br />
+                     </p>
+                </td>
+           </tr>
+
+           <tr>
+                <td width="600px" valign="top" align="center" >
+                  {{ include_doc("gift_certificate.default", gift_cert_data.gift_cert_id) }}{{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+            <addon><![CDATA[gift_certificates]]></addon>
+        </item>
+    </templates>
+</email_templates>

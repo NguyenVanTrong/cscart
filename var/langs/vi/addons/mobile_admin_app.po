@@ -1,0 +1,786 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /addons/mobile_admin_app.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::mobile_admin_app"
+msgid "Mobile Admin App (ex Twigmo)"
+msgstr "Ứng dụng Quản trị Di động (ex Twigmo)"
+
+msgctxt "Addons::description::mobile_admin_app"
+msgid "Connect your store to the <a href=\"http://www.twigmo.com/\" target=\"_blank\">Twigmo service</a> to get mobile admin application. Some features are only available in paid plans."
+msgstr "Kết nối cửa hàng của bạn với <a href=\"http://www.twigmo.com/\" target=\"_blank\">Dịch vụ Twigmo</a> để có được ứng dụng quản trị qua di động. Một số tính năng chỉ có sẵn trong các gói trả phí."
+
+msgctxt "SettingsSections::mobile_admin_app::service"
+msgid "Account"
+msgstr "Tài khoản"
+
+msgctxt "SettingsSections::mobile_admin_app::admin_app"
+msgid "Admin app"
+msgstr "Ứng dụng quản trị"
+
+msgctxt "SettingsSections::mobile_admin_app::addon"
+msgid "Upgrade"
+msgstr "Nâng cấp"
+
+msgctxt "Languages::twgadmin_access_id"
+msgid "Access ID"
+msgstr "ID Truy cập"
+
+msgctxt "Languages::twgadmin_more_than_year"
+msgid "More than a year"
+msgstr "Hơn một năm"
+
+msgctxt "Languages::twgadmin_error_cannot_connect_store"
+msgid "Cannot connect to Twigmo service at this time. Please try again later. If the problem is still there, please visit <a href=\"http://support.twigmo.com\" target=\"_blank\">Twigmo Support Portal</a> for assistance."
+msgstr "Không thể kết nối với dịch vụ Twigmo tại thời điểm này. Xin vui lòng thử lại sau. Nếu vấn đề vẫn còn, vui lòng truy cập <a href=\"http://support.twigmo.com\" target=\"_blank\"> Cổng thông tin hỗ trợ Twigmo</a> để được hỗ trợ."
+
+msgctxt "Languages::twgadmin_text_store_connected"
+msgid "Your store was connected to Twigmo service successfully!"
+msgstr "Cửa hàng của bạn được kết nối với dịch vụ Twigmo thành công!"
+
+msgctxt "Languages::twgadmin_connect"
+msgid "Connect"
+msgstr "Kết nối"
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_settings_twgadmin_home_page_content"
+msgid "If 'Desktop home page blocks' is selected, there are all the supported types of the desktop home page blocks displayed on the Mobile Storefront home page. If 'Twigmo home page blocks' is selected, Twigmo home page blocks are displayed (configured in 'Design'->'Blocks'->'Twigmo home page'). If a category is selected, only its products are displayed on the Mobile Storefront home page."
+msgstr "Nếu 'Khối phiên bản cho máy tính' được chọn, có tất cả các loại hỗ trợ của các khối trang chủ máy tính để bàn được hiển thị trên trang chủ điện thoại di động. Nếu 'Khối trang chủ Twigmo' được chọn, Trang chủ Twigmo được hiển thị (cấu hình trong 'Thiết kế '->' Khối'-> 'Trang chủ Twigmo'). Nếu một danh mục được chọn, chỉ sản phẩm của danh mục đó được hiển thị trên trang chủ điện thoại di động."
+
+msgctxt "Languages::twgadmin_manage_storefront_settings"
+msgid "Mobile Storefront settings"
+msgstr "Cài đặt giao diện điện thoại di động"
+
+msgctxt "Languages::twgadmin_wrong_api_object_data"
+msgid "Wrong [object] data"
+msgstr "Sai dữ liệu [object]"
+
+msgctxt "Languages::twgadmin_wrong_api_data"
+msgid "Wrong API data"
+msgstr "Sai dữ liệu API"
+
+msgctxt "Languages::twgadmin_wrong_shipping_info"
+msgid "Failed to place order: wrong shipping data"
+msgstr "Thất bại trong việc đặt hàng: sai dữ liệu vận chuyển"
+
+msgctxt "Languages::twgadmin_wrong_payment_info"
+msgid "Failed to place order: wrong payment data"
+msgstr "Thất bại trong việc đặt hàng: sai dữ liệu thanh toán"
+
+msgctxt "Languages::twgadmin_object_was_not_found"
+msgid "The [object] data were not found"
+msgstr "Dữ liệu [object] không tìm thấy"
+
+msgctxt "Languages::twgadmin_fail_create_user"
+msgid "Failed to create user"
+msgstr "Thất bại khi tạo người dùng"
+
+msgctxt "Languages::twgadmin_fail_post_order"
+msgid "Failed to place order"
+msgstr "Thất bại trong khi đặt hàng"
+
+msgctxt "Languages::twg_post_request_fail"
+msgid "Failed to post request"
+msgstr "Không thể gửi yêu cầu"
+
+msgctxt "Languages::twgadmin_error_validator_required"
+msgid "The '[field]' field is mandatory"
+msgstr "Mục '[field]' là bắt buộc"
+
+msgctxt "Languages::twgadmin_mobile_version"
+msgid "Mobile version"
+msgstr "Phiên bản di động"
+
+msgctxt "Languages::twgadmin_home_page_content"
+msgid "Home page content"
+msgstr "Nội dung trang chủ"
+
+msgctxt "Languages::twgadmin_use_mobile_frontend_for"
+msgid "Show mobile version for"
+msgstr "Hiển thị phiên bản di động cho"
+
+msgctxt "Languages::twgadmin_phones"
+msgid "Phones"
+msgstr "Điện thoại"
+
+msgctxt "Languages::twgadmin_tablets"
+msgid "Tablets"
+msgstr "Máy tính bảng"
+
+msgctxt "Languages::twgadmin_home_page_blocks"
+msgid "Desktop home page blocks"
+msgstr "Khối trang chủ máy tính để bàn"
+
+msgctxt "Languages::twgadmin_tw_home_page_blocks"
+msgid "Twigmo home page blocks"
+msgstr "Khối trang chủ Twigmo"
+
+msgctxt "Languages::twgadmin_homepage"
+msgid "Twigmo home page"
+msgstr "Trang chủ Twigmo"
+
+msgctxt "Languages::twgadmin_edit_these_blocks"
+msgid "Edit these blocks"
+msgstr "Chỉnh sửa các khối"
+
+msgctxt "Languages::twgadmin_select_skin"
+msgid "Skin"
+msgstr "Giao diện"
+
+msgctxt "Languages::twgadmin_hide_header"
+msgid "Hide header"
+msgstr "Ẩn tiêu đề"
+
+msgctxt "Languages::twg_btn_load_more_items"
+msgid "Load More"
+msgstr "Tải thêm"
+
+msgctxt "Languages::twg_btn_log_in_to_checkout"
+msgid "Sign in to checkout"
+msgstr "Đăng nhập để thanh toán"
+
+msgctxt "Languages::twg_lbl_copy_from_billing"
+msgid "Ship to the same address"
+msgstr "Gửi đến cùng một địa chỉ"
+
+msgctxt "Languages::twg_msg_date_invalid"
+msgid "Please enter a valid date."
+msgstr "Vui lòng nhập một ngày hợp lệ."
+
+msgctxt "Languages::twg_msg_dateiso_invalid"
+msgid "Please enter a valid date (YYYY-MM-DD)."
+msgstr "Vui lòng nhập một ngày hợp lệ (năm-tháng-ngày)."
+
+msgctxt "Languages::twg_msg_digits_required"
+msgid "Please enter only digits."
+msgstr "Vui lòng chỉ nhập số."
+
+msgctxt "Languages::twg_msg_email_invalid"
+msgid "Please enter a valid email address."
+msgstr "Vui lòng nhập một địa chỉ email hợp lệ."
+
+msgctxt "Languages::twg_msg_extension_invalid"
+msgid "Please enter a value with a valid extension."
+msgstr "Vui lòng nhập một giá trị với một phần mở rộng hợp lệ."
+
+msgctxt "Languages::twg_msg_field_required"
+msgid "This field is required."
+msgstr "Mục này là bắt buộc."
+
+msgctxt "Languages::twg_msg_fill_required_fields"
+msgid "Please fill in all the required fields."
+msgstr "Xin vui lòng điền vào tất cả các mục bắt buộc."
+
+msgctxt "Languages::twg_msg_field_invalid"
+msgid "Please fix this field."
+msgstr "Xin vui lòng sửa mục này."
+
+msgctxt "Languages::twg_msg_max_length"
+msgid "Please enter no more than {0} characters."
+msgstr "Vui lòng không nhập nhiều hơn {0} ký tự."
+
+msgctxt "Languages::twg_msg_max_value"
+msgid "Please enter a value less than or equal to {0}."
+msgstr "Vui lòng nhập một giá trị ít hơn hoặc bằng với {0}."
+
+msgctxt "Languages::twg_msg_min_length"
+msgid "Please enter at least {0} characters."
+msgstr "Vui lòng nhập tối thiểu {0} ký tự."
+
+msgctxt "Languages::twg_msg_min_value"
+msgid "Please enter a value greater than or equal to {0}."
+msgstr "Vui lòng nhập một giá trị lớn hơn hoặc bằng {0}."
+
+msgctxt "Languages::twg_msg_number_invalid"
+msgid "Please enter a valid number."
+msgstr "Vui lòng nhập một số hợp lệ."
+
+msgctxt "Languages::twg_msg_order_was_placed"
+msgid "Your order has been placed!<br />The order ID is "
+msgstr "Đơn hàng của bạn đã được đặt! <br />ID đơn hàng là "
+
+msgctxt "Languages::twg_msg_orders_were_placed"
+msgid "Your orders have been placed!<br />The order IDs are "
+msgstr "Đơn của bạn đã được đặt! <br /> ID đơn hàng "
+
+msgctxt "Languages::twg_msg_cc_invalid"
+msgid "Please enter a valid credit card number."
+msgstr "Vui lòng nhập một số thẻ tín dụng hợp lệ."
+
+msgctxt "Languages::twg_msg_range_length"
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr "Vui lòng nhập một giá trị dài từ {0} đến {1} ký tự."
+
+msgctxt "Languages::twg_msg_range_value"
+msgid "Please enter a value between {0} and {1}."
+msgstr "Vui lòng nhập một giá trị giữa {0} và {1}."
+
+msgctxt "Languages::twg_msg_same_value_required"
+msgid "Please enter the same value again."
+msgstr "Vui lòng nhập giá trị tương tự một lần nữa."
+
+msgctxt "Languages::twg_msg_url_invalid"
+msgid "Please enter a valid URL."
+msgstr "Vui lòng nhập một URL hợp lệ."
+
+msgctxt "Languages::twg_cart_info"
+msgid "[amount] ([total])"
+msgstr "[amount] ([total])"
+
+msgctxt "Languages::twg_share"
+msgid "Share"
+msgstr "Chia sẻ"
+
+msgctxt "Languages::twg_facebook"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "Languages::twg_twitter"
+msgid "Twitter"
+msgstr "Twitter"
+
+msgctxt "Languages::twg_desktop_site"
+msgid "Desktop site"
+msgstr "Phiên bản web máy tính"
+
+msgctxt "Languages::twgadmin_connect_to_first_ult"
+msgid "Your store is not connected to the Twigmo service yet. Please ask the root store administrator to do it."
+msgstr "Cửa hàng của bạn không được kết nối với dịch vụ Twigmo. Hãy yêu cầu quản trị viên cửa hàng để làm điều đó."
+
+msgctxt "Languages::twgadmin_mobile_logo"
+msgid "Mobile Storefront logo"
+msgstr "Logo trang web cho di động"
+
+msgctxt "Languages::twgadmin_mobile_favicon"
+msgid "iOS device home screen icon"
+msgstr "Biểu tượng màn hình thiết bị iOS"
+
+msgctxt "Languages::twgadmin_url_for_facebook"
+msgid "URL of your Facebook page"
+msgstr "URL trang Facebook của bạn"
+
+msgctxt "Languages::twgadmin_url_for_twitter"
+msgid "URL of your Twitter page"
+msgstr "URL trang Twitter của bạn"
+
+msgctxt "Languages::twgadmin_only_req_profile_fields"
+msgid "Show only user profile fields marked as required"
+msgstr "Chỉ hiển thị mục hồ sơ người dùng được đánh dấu theo yêu cầu"
+
+msgctxt "Languages::twgadmin_reinstall"
+msgid "The version of Twigmo add-on files does not match the one in the database, so the mobile version of your store has been disabled. Please re-install Twigmo add-on (click Uninstall, then Install on the add-ons list) to enable it."
+msgstr "Phiên bản add-on Twigmo tập tin không khớp với một trong cơ sở dữ liệu, do đó, các phiên bản điện thoại di động của cửa hàng của bạn đã bị vô hiệu. Xin vui lòng cài đặt lại add-on Twigmo (nhấp vào gỡ cài đặt, sau đó cài đặt trên danh sách Tiện ích) để kích hoạt nó."
+
+msgctxt "Languages::twg_view_cart_checkout"
+msgid "View cart & checkout"
+msgstr "Xem giỏ hàng & thanh toán"
+
+msgctxt "Languages::twg_sign_in_to_checkout"
+msgid "Sign in to checkout"
+msgstr "Đăng nhập để thanh toán"
+
+msgctxt "Languages::twg_only_via_desktop"
+msgid "This product can be added to cart only via the [linkOpen]desktop website[linkClose]."
+msgstr "Sản phẩm này chỉ có thể được thêm vào giỏ hàng qua [linkOpen]web phiên bản máy tính[linkClose]."
+
+msgctxt "Languages::twg_share_on_social"
+msgid "Share on social networks"
+msgstr "Chia sẻ trên mạng xã hội"
+
+msgctxt "Languages::twgadmin_order_via_twigmo"
+msgid "[This order was placed via Twigmo Mobile Storefront]"
+msgstr "[Đơn hàng này được đặt thông qua Twigmo điện thoại di động]"
+
+msgctxt "Languages::twg_contact_twigmo_support"
+msgid "Contact Twigmo support"
+msgstr "Liên hệ với hỗ trợ Twigmo"
+
+msgctxt "Languages::twgadmin_enable_geolocation"
+msgid "Enable geolocation"
+msgstr "Kích hoạt geolocation"
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_settings_twgadmin_enable_geolocation"
+msgid "If enabled, shipping and billing address fields will be populated with the address determined by a geolocation service on the registration and checkout pages."
+msgstr "Nếu kích hoạt, địa chỉ vận chuyển và thanh toán sẽ được xác định bởi một dịch vụ vị trí trên các trang đăng ký và thanh toán."
+
+msgctxt "Languages::twg_billing_is_the_same"
+msgid "Billing address is the same"
+msgstr "Địa chỉ thanh toán là giống nhau"
+
+msgctxt "Languages::twgadmin_upgrade_addon"
+msgid "Twigmo add-on upgrade has started."
+msgstr "Nâng cấp add-on Twigmo đã bắt đầu."
+
+msgctxt "Languages::twgadmin_download_twigmo"
+msgid "Downloading Twigmo upgrade package. Please wait..."
+msgstr "Đang tải về gói nâng cấp Twigmo. Vui lòng chờ..."
+
+msgctxt "Languages::twgadmin_checking_permissions"
+msgid "Done.</br>Checking file permissions..."
+msgstr "Xong.</br> Kiểm tra các thiết lập quyền truy cập tập tin..."
+
+msgctxt "Languages::twgadmin_no_files_permissions"
+msgid "Error: Cannot overwrite the existing Twigmo add-on files. Please check and correct the file permissions manually or [link]provide your FTP access details[/link] (if they are provided, please make sure this FTP user has enough permissions to modify files on the server)."
+msgstr "Lỗi: Không thể ghi đè lên tập tin hiện có của add-on Twigmo. Hãy kiểm tra và khắc phục các thiết lập quyền truy cập tập tin theo cách thủ công hoặc [link]cung cấp thông tin chi tiết truy cập FTP của bạn[/link] (nếu họ được cung cấp, xin vui lòng chắc chắn rằng người dùng FTP này có đủ quyền để sửa đổi các tập tin trên máy chủ)."
+
+msgctxt "Languages::twgadmin_backup_files"
+msgid "Backing up Twigmo files..."
+msgstr "Đang sao lưu tập tin Twigmo..."
+
+msgctxt "Languages::twgadmin_backup_settings"
+msgid "Backing up Twigmo add-on settings..."
+msgstr "Đang sao lưu cài đặt add-on Twigmo..."
+
+msgctxt "Languages::twgadmin_uninstall_addon"
+msgid "Uninstalling Twigmo add-on..."
+msgstr "Đang gỡ cài đặt add-on Twigmo..."
+
+msgctxt "Languages::twgadmin_restore_settings"
+msgid "Restoring Twigmo add-on settings..."
+msgstr "Đang khôi phục cài đặt add-on Twigmo..."
+
+msgctxt "Languages::twg_min_product_quantity"
+msgid "Minimum order quantity"
+msgstr "Số lượng đặt hàng tối thiểu"
+
+msgctxt "Languages::twg_checkout_terms_n_conditions"
+msgid "I accept Terms and Conditions"
+msgstr "Tôi chấp nhận Điều khoản và Điều kiện"
+
+msgctxt "Languages::twgadmin_cant_create_file"
+msgid "Cannot create a file [file]. Please create it manually in [path] (only in case you need to customize the selected Twigmo mobile skin)."
+msgstr "Không thể tạo một tập tin [file]. Hãy tạo ra nó bằng tay tại [path] (chỉ trong trường hợp bạn cần để tuỳ chỉnh giao diện đã chọn Twigmo điện thoại di động)."
+
+msgctxt "Languages::twg_visit_our_mobile_store"
+msgid "Visit our mobile site"
+msgstr "Truy cập trang web phiên bản điện thoại di động"
+
+msgctxt "Languages::twg_app_for_android"
+msgid "App for Android"
+msgstr "Ứng dụng cho Android"
+
+msgctxt "Languages::twg_app_for_ipad"
+msgid "App for iPad"
+msgstr "Ứng dụng cho iPad"
+
+msgctxt "Languages::twgadmin_url_on_appstore"
+msgid "URL of your app on iTunes App Store"
+msgstr "URL ứng dụng của bạn trên iTunes App Store"
+
+msgctxt "Languages::twgadmin_url_on_googleplay"
+msgid "URL of your app on Google Play"
+msgstr "URL ứng dụng của bạn trên Google Play"
+
+msgctxt "Languages::twg_product_added_to_cart"
+msgid "Product Added to Cart"
+msgstr "Sản phẩm được thêm vào giỏ hàng"
+
+msgctxt "Languages::twg_configurable_via_desktop"
+msgid "This is a configurable product. It can be configured only via [linkOpen]the desktop website[linkClose]."
+msgstr "Đây là một cấu hình sản phẩm. Nó có thể chỉ được cấu hình qua [linkOpen]trang web[linkClose] cho máy tính để bàn."
+
+msgctxt "Languages::twg_requrring_via_desktop"
+msgid "This is a subscription product. Its subscription plan can be selected only via [linkOpen]the desktop website[linkClose]."
+msgstr "Đây là một đăng ký nhận tin sản phẩm. Nó có thể chỉ được chọn qua [linkOpen]trang web[linkClose] cho máy tính để bàn."
+
+msgctxt "Languages::twgadmin_basic_skin"
+msgid "Basic skin"
+msgstr "Giao diện cơ bản"
+
+msgctxt "Languages::twgadmin_connect_notification"
+msgid "The <a href=\"[addon_link]\">Twigmo add-on</a> is not connected to the <a href=\"http://www.twigmo.com\" target=\"_blank\">Twigmo service</a>. Set it up to enable a mobile version of your store for iOS and Android."
+msgstr "<a href=\"[addon_link]\"> Add-on Twigmo</a> không được kết nối với <a href=\"http://www.twigmo.com\" target=\"_blank\"> Dịch vụ Twigmo</a>. Thiết lập nó để kích hoạt tính năng phiên bản điện thoại cho cửa hàng của bạn với iOS và Android."
+
+msgctxt "Languages::twgadmin_phpmod_required"
+msgid "PHP extension module [php_module_name] is required for proper operation of the Twigmo add-on. Please install it."
+msgstr "Mô-đun PHP mở rộng [php_module_name] là cần thiết cho các hoạt động chính xác của trình add-on Twigmo. Xin vui lòng cài đặt nó."
+
+msgctxt "Languages::twgadmin_select_store"
+msgid "Please select a store first"
+msgstr "Xin vui lòng chọn một cửa hàng trước"
+
+msgctxt "Languages::twg_is_logged_in"
+msgid "logged in."
+msgstr "đăng nhập."
+
+msgctxt "Languages::twg_review_and_place_order"
+msgid "Review and place order"
+msgstr "Xem lại và đặt hàng"
+
+msgctxt "Languages::twg_login_to_add_to_cart"
+msgid "This product cannot be added to the cart because you are not logged in."
+msgstr "Sản phẩm này không thể thêm vào giỏ hàng bởi vì bạn không đăng nhập."
+
+msgctxt "Languages::twgadmin_disconnected"
+msgid "Disconnected"
+msgstr "Ngắt kết nối"
+
+msgctxt "Languages::twgadmin_connected"
+msgid "Connected"
+msgstr "Đã kết nối"
+
+msgctxt "Languages::twgadmin_terms"
+msgid "Terms and conditions"
+msgstr "Điều khoản và điều kiện"
+
+msgctxt "Languages::twgadmin_accept_terms_n_conditions"
+msgid "I accept the <a href=\"//www.twigmo.com/terms/\" target=\"_blank\">Terms and Conditions</a>."
+msgstr "Tôi chấp nhận <a href=\"//www.twigmo.com/terms/\" target=\"_blank\"> Điều khoản và Điều kiện</a>."
+
+msgctxt "Languages::twgadmin_stores"
+msgid "Stores"
+msgstr "Cửa hàng"
+
+msgctxt "Languages::twgadmin_open_te"
+msgid "Visual Editor"
+msgstr "Trình biên tập"
+
+msgctxt "Languages::twgadmin_open_cp"
+msgid "Twigmo Control Panel"
+msgstr "Bảng điều khiển Twigmo"
+
+msgctxt "Languages::twgadmin_no_token_recieved"
+msgid "Twigmo failed to retrieve authentication token. [linkOpen]Go back[linkClose]"
+msgstr "Twigmo không thể lấy mã thông báo xác thực lại. [linkOpen]Trở lại[linkClose]"
+
+msgctxt "Languages::twg_buy_only_via_desktop"
+msgid "This product can be purchased via [linkOpen]the desktop website[linkClose]."
+msgstr "Sản phẩm này có thể được mua thông qua [linkOpen]trang web cho máy tính[linkClose]."
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_connect_email"
+msgid "Enter your Twigmo account email address. If you have no Twigmo account, it will be created for you automatically (your email address will be verified)."
+msgstr "Nhập địa chỉ email tài khoản Twigmo. Nếu bạn không có tài khoản Twigmo, nó sẽ được tự động tạo ra cho bạn (địa chỉ email của bạn sẽ được xác nhận)."
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_connect_password"
+msgid "Enter your Twigmo account password. If you have no Twigmo account, please enter a secure password and we will create a new Twigmo account for you."
+msgstr "Nhập mật khẩu tài khoản Twigmo của bạn. Nếu bạn không có tài khoản Twigmo, vui lòng nhập một mật khẩu an toàn và chúng tôi sẽ tạo một tài khoản Twigmo mới cho bạn."
+
+msgctxt "Languages::tt_addons_mobile_admin_app_settings_connect_twgadmin_stores"
+msgid "Select stores that are to be connected to the Twigmo service."
+msgstr "Chọn cửa hàng đã được kết nối với dịch vụ Twigmo."
+
+msgctxt "Languages::twg_cannot_redirect_to_desktop"
+msgid "The desktop site cannot be displayed in this mode, but the link will work fine on a real mobile device."
+msgstr "Trang web cho máy tính để bàn không thể hiển thị ở chế độ này, nhưng các liên kết sẽ làm việc tốt trên một thiết bị điện thoại di động thực sự."
+
+msgctxt "Languages::twgadmin_disconnect"
+msgid "Disconnect"
+msgstr "Ngắt kết nối"
+
+msgctxt "Languages::twgadmin_disconnect_whole"
+msgid "Disconnect whole addon"
+msgstr "Ngắt kết nối toàn bộ add-on"
+
+msgctxt "Languages::plan"
+msgid "Plan"
+msgstr "Gói dịch vụ"
+
+msgctxt "Languages::twgadmin_failed_to_decompress_files"
+msgid "Failed to extract files from the archive"
+msgstr "Thất bại trong việc giải nén tập tin từ kho lưu trữ"
+
+msgctxt "Languages::twgadmin_upgrade_completed"
+msgid "Upgrade completed"
+msgstr "Nâng cấp hoàn thành"
+
+msgctxt "Languages::twapp_stats"
+msgid "Statistics"
+msgstr "Thống kê"
+
+msgctxt "Languages::twapp_timeline"
+msgid "Timeline"
+msgstr "Thời gian biểu"
+
+msgctxt "Languages::twapp_manage_accounts"
+msgid "Manage accounts"
+msgstr "Quản lý tài khoản"
+
+msgctxt "Languages::twapp_low_stock"
+msgid "Low stock"
+msgstr "Sắp hết hàng"
+
+msgctxt "Languages::twapp_low_stock_products"
+msgid "Low stock products"
+msgstr "Sản phẩm trong kho còn ít"
+
+msgctxt "Languages::twapp_all_low_stock_products"
+msgid "All low stock products"
+msgstr "Tất cả sản phẩm còn ít hàng"
+
+msgctxt "Languages::twapp_delete_account"
+msgid "Delete account"
+msgstr "Xoá tài khoản"
+
+msgctxt "Languages::twapp_app_account_info"
+msgid "Fill in the fields below to sign in."
+msgstr "Điền vào các trường dưới đây để đăng nhập."
+
+msgctxt "Languages::twapp_login_or_email"
+msgid "Login/Email"
+msgstr "Đăng nhập/Email"
+
+msgctxt "Languages::twapp_latest_orders"
+msgid "Latest orders"
+msgstr "Đặt đơn hàng mới nhất"
+
+msgctxt "Languages::twapp_back"
+msgid "Back"
+msgstr "Trở lại"
+
+msgctxt "Languages::twapp_users_statistics"
+msgid "Users statistics"
+msgstr "Thống kê người dùng"
+
+msgctxt "Languages::twapp_configurable"
+msgid "Configurable"
+msgstr "Cấu hình"
+
+msgctxt "Languages::twg_lbl_out_of_stock"
+msgid "Out of stock"
+msgstr "Hết hàng"
+
+msgctxt "Languages::twapp_signing_in"
+msgid "Signing in..."
+msgstr "Đăng nhập..."
+
+msgctxt "Languages::twapp_two_days_sales"
+msgid "Sales for the last 2 days"
+msgstr "Bán hàng trong 2 ngày gần đây"
+
+msgctxt "Languages::twapp_two_weeks_sales"
+msgid "Sales for the last 2 weeks"
+msgstr "Bán hàng cho 2 tuần qua"
+
+msgctxt "Languages::twapp_two_month_sales"
+msgid "Sales for the last 2 months"
+msgstr "Bán hàng cho 2 tháng qua"
+
+msgctxt "Languages::twapp_stat_day_1"
+msgid "12am"
+msgstr "12giờ SA"
+
+msgctxt "Languages::twapp_stat_day_2"
+msgid "4am"
+msgstr "4giờ SA"
+
+msgctxt "Languages::twapp_stat_day_3"
+msgid "8am"
+msgstr "8 giờ SA"
+
+msgctxt "Languages::twapp_stat_day_4"
+msgid "12pm"
+msgstr "12giờ CH"
+
+msgctxt "Languages::twapp_stat_day_5"
+msgid "4pm"
+msgstr "16 giờ"
+
+msgctxt "Languages::twapp_stat_day_6"
+msgid "8pm"
+msgstr "20 giờ"
+
+msgctxt "Languages::twapp_stat_week_1"
+msgid "Mo"
+msgstr "T2"
+
+msgctxt "Languages::twapp_stat_week_2"
+msgid "Tu"
+msgstr "T3"
+
+msgctxt "Languages::twapp_stat_week_3"
+msgid "We"
+msgstr "T4"
+
+msgctxt "Languages::twapp_stat_week_4"
+msgid "Th"
+msgstr "T5"
+
+msgctxt "Languages::twapp_stat_week_5"
+msgid "Fr"
+msgstr "T6"
+
+msgctxt "Languages::twapp_stat_week_6"
+msgid "Sa"
+msgstr "T7"
+
+msgctxt "Languages::twapp_stat_week_7"
+msgid "Su"
+msgstr "CN"
+
+msgctxt "Languages::twapp_stat_month_1"
+msgid "w1"
+msgstr "w1"
+
+msgctxt "Languages::twapp_stat_month_2"
+msgid "w2"
+msgstr "w2"
+
+msgctxt "Languages::twapp_stat_month_3"
+msgid "w3"
+msgstr "w3"
+
+msgctxt "Languages::twapp_stat_month_4"
+msgid "w4"
+msgstr "w4"
+
+msgctxt "Languages::twapp_stat_month_5"
+msgid "w5"
+msgstr "w5"
+
+msgctxt "Languages::twapp_net_error_title"
+msgid "No network connection"
+msgstr "Không có kết nối mạng"
+
+msgctxt "Languages::twapp_net_error_message"
+msgid "Cannot load data. Please check your network connection."
+msgstr "Không thể nạp dữ liệu. Xin vui lòng kiểm tra kết nối mạng của bạn."
+
+msgctxt "Languages::twapp_in_stock_lowercase"
+msgid "in stock"
+msgstr "còn hàng"
+
+msgctxt "Languages::twapp_receive_push"
+msgid "Push notifications"
+msgstr "Đẩy các thông báo"
+
+msgctxt "Languages::twapp_will_affect_all_stores"
+msgid "Updating this field will affect all stores"
+msgstr "Cập nhật các mục này sẽ ảnh hưởng đến tất cả các cửa hàng"
+
+msgctxt "Languages::twapp_data_lang"
+msgid "Data lang."
+msgstr "Dữ liệu lang."
+
+msgctxt "Languages::twg_placed"
+msgid "Placed"
+msgstr "Đã đặt"
+
+msgctxt "Languages::twgadmin_mobile_admin_application"
+msgid "Twigmo Mobile Admin application"
+msgstr "Ứng dụng Twigmo di động cho quản trị"
+
+msgctxt "Languages::twgadmin_download_app"
+msgid "Download the app"
+msgstr "Tải về ứng dụng"
+
+msgctxt "Languages::twgadmin_download_app_hint"
+msgid "This app is available on the <a href=\"http://www.twigmo.com/pricing/\" target=\"_blank\">selected Twigmo plans</a> only."
+msgstr "Ứng dụng này có sẵn trên <a href=\"http://www.twigmo.com/pricing/\" target=\"_blank\"> Twigmo đã chọn</a> chỉ."
+
+msgctxt "Languages::twgadmin_saved"
+msgid "Saved"
+msgstr "Lưu"
+
+msgctxt "Languages::twapp_admin_url"
+msgid "Admin URL"
+msgstr "URL quản trị"
+
+msgctxt "Languages::twgadmin_auth_fail_access_id"
+msgid "You have no permissions to log in to the store with this Access ID."
+msgstr "Bạn có không có quyền để đăng nhập vào các cửa hàng với ID truy cập này."
+
+msgctxt "Languages::twgadmin_mobile_app"
+msgid "Mobile app"
+msgstr "Ứng dụng di động"
+
+msgctxt "Languages::twgadmin_qr_for_admin"
+msgid "QR code for the app<br>login page"
+msgstr "Mã QR cho các ứng dụng <br>trang đăng nhập"
+
+msgctxt "Languages::twgadmin_qr_for_admin_comment"
+msgid "Please install the Twigmo admin application first. Then use it to scan the QR code. This code contains the Twigmo Access ID [access_id], this admin panel URL and your admin panel login (email or username). You will only need to enter your admin panel password manually."
+msgstr "Xin vui lòng cài đặt ứng dụng admin Twigmo đầu tiên. Sau đó sử dụng nó để quét mã QR. Mã này có chứa [access_id] Twigmo truy cập ID, URL này bảng điều khiển admin và admin bảng đăng nhập của bạn (email hoặc tên đăng nhập). Bạn chỉ cần nhập mật khẩu admin bảng điều khiển bằng tay."
+
+msgctxt "Languages::twapp_wrong_api_login_data"
+msgid "No data is received from this admin URL. Please, check it. Also, make sure that the Twigmo add-on is enabled and connected to the service in your store"
+msgstr "Không có dữ liệu nhận được từ URL quản trị này. Xin vui lòng kiểm tra nó. Ngoài ra, hãy chắc chắn rằng add-on Twigmo kích hoạt và kết nối với các dịch vụ trong cửa hàng của bạn"
+
+msgctxt "Languages::twapp_scan_qr"
+msgid "Scan the QR code in your store admin panel"
+msgstr "Quét mã QR trong bảng quản trị cửa hàng của bạn"
+
+msgctxt "Languages::twapp_tap_to_scan"
+msgid "Tap to scan"
+msgstr "Bấm vào để quét"
+
+msgctxt "Languages::twapp_fill_manually"
+msgid "Fill in the fields manually"
+msgstr "Điền vào các trường theo cách thủ công"
+
+msgctxt "Languages::twapp_fill_to_sign_in"
+msgid "Fill in the fields below to sign in."
+msgstr "Điền vào các trường dưới đây để đăng nhập."
+
+msgctxt "Languages::twgadmin_show_product_code"
+msgid "Show product code on product details page"
+msgstr "Hiển thị mã sản phẩm trên trang chi tiết sản phẩm"
+
+msgctxt "Languages::twapp_add_account"
+msgid "Add account"
+msgstr "Thêm tài khoản"
+
+msgctxt "Languages::twapp_pull_to_refresh"
+msgid "Pull to refresh"
+msgstr "Kéo để làm mới"
+
+msgctxt "Languages::twapp_release_to_refresh"
+msgid "Release to refresh"
+msgstr "Thả ra để làm mới"
+
+msgctxt "Languages::twapp_could_not_connect"
+msgid "Could not connect to the Twigmo add-on at [URL]."
+msgstr "Không thể kết nối đến add-on Twigmo tại [URL]."
+
+msgctxt "Languages::twgadmin_push_notifications"
+msgid "Push notifications"
+msgstr "Đẩy các thông báo"
+
+msgctxt "Languages::twgadmin_send_push_notifications"
+msgid "Send push notifications to your mobile store app users"
+msgstr "Gửi thông báo đẩy cho người dùng ứng dụng cửa hàng điện thoại di động của bạn"
+
+msgctxt "Languages::twgadmin_select_store_short"
+msgid "Select a store"
+msgstr "Chọn một cửa hàng"
+
+msgctxt "Languages::twgadmin_push_notification_text"
+msgid "Push notification text"
+msgstr "Đẩy văn bản thông báo"
+
+msgctxt "Languages::twgadmin_push_notification_comment"
+msgid "Please refer to the policies of <a href=\"https://developer.apple.com/app-store/review/guidelines/#push-notifications\" target=\"_blank\">Apple</a> and <a href=\"https://play.google.com/intl/en/about/developer-content-policy.html\" target=\"_blank\">Google</a> regarding sending ads in push notifications. Your mobile app can be banned for violating these policies."
+msgstr "Xin vui lòng tham khảo các chính sách của <a href=\"https://developer.apple.com/app-store/review/guidelines/#push-notifications\" target=\"_blank\"> Apple</a> và <a href=\"https://play.google.com/intl/en/about/developer-content-policy.html\" target=\"_blank\"> Google</a> liên quan đến quảng cáo gửi trong thông báo đẩy. Ứng dụng điện thoại di động của bạn có thể bị cấm vì vi phạm các chính sách này."
+
+msgctxt "Languages::twgadmin_push_will_send_to"
+msgid "This message will be sent to <b>[ios_amount]</b> iOS and <b>[android_amount]</b> Android users of your store app."
+msgstr "Tin nhắn này sẽ được gửi đến <b>[ios_amount]</b> iOS và <b>[android_amount]</b> các người dùng Android trên ứng dụng cửa hàng của bạn."
+
+msgctxt "Languages::twgadmin_push_has_uploaded"
+msgid "Your message has been uploaded to the server and it has started sending the message to your mobile app users (it may take up to an hour depending on the number of users)."
+msgstr "Tin nhắn của bạn đã được tải lên máy chủ và nó đã bắt đầu gửi cho người dùng ứng dụng cửa hàng di động của bạn (nó có thể mất đến một giờ tùy thuộc vào số lượng người sử dụng)."
+
+msgctxt "Languages::twgadmin_send_push"
+msgid "Send push notifications about order status update to the mobile store app users"
+msgstr "Gửi các thông báo đẩy về bản cập nhật trạng thái đơn đặt hàng cho người dùng ứng dụng cửa hàng di động"
+
+msgctxt "Languages::twgadmin_send_push_error"
+msgid "Oops, something went wrong. We cannot confirm your message was sent. Please <a href=\"http://support.twigmo.com\" target=\"_blank\">contact Twigmo support team</a> to resolve this issue."
+msgstr "Rất tiếc, một cái gì đó đã đi sai. Chúng tôi không thể xác nhận thư của bạn đã được gửi. Xin vui lòng <a href=\"http://support.twigmo.com\" target=\"_blank\"> liên hệ với nhóm hỗ trợ Twigmo</a> để giải quyết vấn đề này."
+
+msgctxt "Languages::twgadmin_order_via_twigmo_app_android"
+msgid "[This order was placed via Twigmo Mobile Application for Android]"
+msgstr "[Đơn hàng này được đặt thông qua ứng dụng Twigmo di động cho Android]"
+
+msgctxt "Languages::twgadmin_order_via_twigmo_app_ios"
+msgid "[This order was placed via Twigmo Mobile Application for iOS]"
+msgstr "[Đơn hàng này được đặt thông qua ứng dụng Twigmo di động cho iOS]"
+

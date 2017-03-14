@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /addons/polls.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2016-11-28 04:04-0500\n"
+
+msgctxt "Addons::name::polls"
+msgid "Polls"
+msgstr "Umfragen"
+
+msgctxt "Addons::description::polls"
+msgid "Adds a possibility to add customized polls to the site"
+msgstr "Fügt die Möglichkeit individueller Umfragen zur Website hinzu"
+
+msgctxt "Languages::use_for_polls"
+msgid "Polls"
+msgstr "Umfragen"
+
+msgctxt "Languages::tmpl_polls_central"
+msgid "Central"
+msgstr "Zentrale"
+
+msgctxt "Languages::tmpl_polls_side"
+msgid "Side box"
+msgstr "Seitenfeld"
+
+msgctxt "Languages::polls_answers_with_comments"
+msgid "Answers with comments"
+msgstr "Antworten mit Kommentaren"
+
+msgctxt "Languages::polls_have_completed"
+msgid "You have already completed this poll."
+msgstr "Sie haben bereits an dieser Umfrage teilgenommen."
+
+msgctxt "Languages::polls_total_votes"
+msgid "Total votes"
+msgstr "Stimmen insgesamt"
+
+msgctxt "Languages::polls"
+msgid "Polls"
+msgstr "Umfragen "
+
+msgctxt "Languages::new_poll"
+msgid "New poll"
+msgstr "Neue Umfrage"
+
+msgctxt "Languages::editing_poll"
+msgid "Editing poll"
+msgstr "Umfrage bearbeiten"
+
+msgctxt "Languages::use_for_polls"
+msgid "Polls"
+msgstr "Umfragen"
+
+msgctxt "Languages::text_you_have_already_filled_this_poll"
+msgid "You have already completed this poll"
+msgstr "Sie haben bereits an dieser Umfrage teilgenommen."
+
+msgctxt "Languages::block_polls"
+msgid "Polls"
+msgstr "Umfragen "
+
+msgctxt "Languages::poll"
+msgid "Poll"
+msgstr "Umfrage"
+
+msgctxt "Languages::questions"
+msgid "Questions"
+msgstr "Fragen"
+
+msgctxt "Languages::poll_statistics"
+msgid "Poll statistics"
+msgstr "Umfragestatistiken "
+
+msgctxt "Languages::add_polls_and_close"
+msgid "Add polls and close"
+msgstr "Umfragen hinzufügen und schließen"
+
+msgctxt "Languages::add_polls"
+msgid "Add polls"
+msgstr "Umfragen hinzufügen"
+
+msgctxt "Languages::required_not_answered"
+msgid "You should answer all the mandatory questions"
+msgstr "Sie sollten alle Pflichtfragen beantworten."
+
+msgctxt "Languages::thanks_for_voting"
+msgid "Thank you for taking time to complete this poll."
+msgstr "Danke, dass Sie sich Zeit für diese Umfrage genommen haben."
+
+msgctxt "Languages::poll_show_results"
+msgid "Poll results visible to"
+msgstr "Umfrageergebnisse sichtbar für"
+
+msgctxt "Languages::poll_results_nobody"
+msgid "nobody"
+msgstr "Niemand"
+
+msgctxt "Languages::poll_results_voted"
+msgid "voted users"
+msgstr "gewählte Benutzer"
+
+msgctxt "Languages::poll_results_everybody"
+msgid "everybody (in a pop-up)"
+msgstr "jeder (in einem Pop-up-Fenster)"
+
+msgctxt "Languages::poll_header"
+msgid "Poll header"
+msgstr "Umfrage-Überschrift"
+
+msgctxt "Languages::poll_footer"
+msgid "Poll footer"
+msgstr "Fußzeile in der Umfrage"
+
+msgctxt "Languages::poll_results"
+msgid "Poll message"
+msgstr "Nachricht der Umfrage"
+
+msgctxt "Languages::new_question"
+msgid "New question"
+msgstr "Neue Frage"
+
+msgctxt "Languages::add_question"
+msgid "Add question"
+msgstr "Frage hinzufügen"
+
+msgctxt "Languages::editing_question"
+msgid "Editing question"
+msgstr "Bearbeitung der Frage"
+
+msgctxt "Languages::add_poll"
+msgid "Add poll"
+msgstr "Umfrage hinzufügen"
+
+msgctxt "Languages::polls_total_submited"
+msgid "Total number of submitted poll forms"
+msgstr "Gesamtanzahl der eingereichten Umfrageformulare"
+
+msgctxt "Languages::polls_total_completed"
+msgid "Number of poll forms completed in full"
+msgstr "Anzahl der vollständig ausgefüllten Umfrageformulare"
+
+msgctxt "Languages::polls_first_submited"
+msgid "First poll form submitted"
+msgstr "Erstes Umfragenformular eingereicht"
+
+msgctxt "Languages::polls_last_submited"
+msgid "Last poll form submitted"
+msgstr "Letztes Umfragenformular eingereicht"
+
+msgctxt "Languages::statistics_by_questions"
+msgid "Statistics by questions"
+msgstr "Statistik nach Fragen"
+
+msgctxt "Languages::view_answers"
+msgid "View answers"
+msgstr "Antworten anzeigen"
+
+msgctxt "Languages::polls_votes"
+msgid "Votes"
+msgstr "Abstimmungen"
+
+msgctxt "Languages::answers"
+msgid "Answers"
+msgstr "Antworten"
+
+msgctxt "Languages::question_text"
+msgid "Question text"
+msgstr "Fragetext"
+
+msgctxt "Languages::select_single_type"
+msgid "Select single option"
+msgstr "Wählen Sie eine einzelne Option"
+
+msgctxt "Languages::select_one_or_more_type"
+msgid "Select one or more options"
+msgstr "Eine oder mehrere Optionen auswählen"
+
+msgctxt "Languages::text_answer_type"
+msgid "Provide a textual answer"
+msgstr "Eine Textnachricht bereitstellen"
+
+msgctxt "Languages::answer_text"
+msgid "Answer text"
+msgstr "Antworttext"
+
+msgctxt "Languages::text_box"
+msgid "Text box"
+msgstr "Textfeld"
+
+msgctxt "Languages::tt_addons_polls_hooks_pages_tabs_content_post_poll_results"
+msgid "Message that is displayed in the storefront after the poll is completed."
+msgstr "Diese Nachricht wird im Shop angezeigt, wenn die Umfrage abgeschlossen ist."
+
+msgctxt "SettingsSections::polls::general"
+msgid "General"
+msgstr "Allgemein"
+
+msgctxt "SettingsOptions::polls::polls_votes_on_page"
+msgid "Votes on page"
+msgstr "Abstimmungen auf der Seite"
+
+msgctxt "SettingsOptions::polls::polls_comments_on_page"
+msgid "Answers on page"
+msgstr "Antworten auf der Seite"
+

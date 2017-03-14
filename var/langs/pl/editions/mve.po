@@ -1,0 +1,646 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: pl\n"
+"X-Crowdin-File: /editions/mve.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-26 10:00-0500\n"
+
+msgctxt "Languages::add_companies"
+msgid "Add vendors"
+msgstr "Dodaj sprzedawcę"
+
+msgctxt "Languages::add_companies_and_close"
+msgid "Add vendors and close"
+msgstr "Dodaj sklep i zamknij"
+
+msgctxt "Languages::add_vendor"
+msgid "Add vendor"
+msgstr "Dodaj sprzedawcę"
+
+msgctxt "Languages::add_vendor_administrator"
+msgid "Add vendor's administrator"
+msgstr "Dodaj administratora sprzedawcy"
+
+msgctxt "Languages::vendor_administrator"
+msgid "Vendor's administrator"
+msgstr "Administrator sprzedawcy"
+
+msgctxt "Languages::vendor_administrators"
+msgid "Vendor's administrators"
+msgstr "Administratorzy sprzedawcy"
+
+msgctxt "Languages::vendor_administrators_menu_description"
+msgid "List of vendor's administrators, registered users with a vendor account."
+msgstr "Lista administratorów sprzedawcy, zarejestrowanych użytkowników jako konta sprzedawcy."
+
+msgctxt "Languages::vendor_candidate_notification"
+msgid "Hello,<br/><br/>You have a new vendor candidate in your store. This vendor account is pending until you approve it. Follow <a href=\"[href]\">this URL</a> to view the account details</a>."
+msgstr "Witaj,<br/><br/>Masz nowego kandydata na sprzedawcę. To konto sprzedawcy czeka, dopóki go nie zatwierdzisz. Kliknij w <a href=\"[href]\">ten adres URL</a>, aby wyświetlić informacje o koncie."
+
+msgctxt "Languages::demo_panel.go_vendor_panel"
+msgid "Go to Vendor panel"
+msgstr "Przejdź do panelu sprzedawcy"
+
+msgctxt "Languages::vendor_account_balance_menu_description"
+msgid "Income and expenditure statistics (total, per vendor, per period)."
+msgstr "Statystyki przychodów i rozchodów (w sumie, na sprzedawcę, za okres)."
+
+msgctxt "Languages::merge_vendor"
+msgid "Merge vendor"
+msgstr "Połącz sprzedawców"
+
+msgctxt "Languages::select_new_owner_company"
+msgid "Select a new owner of this company's profile data:"
+msgstr "Wybierz nowego właściciela profilu tej firmy:"
+
+msgctxt "Languages::warning_merging_companies"
+msgid "Merging two company accounts will remove [company_name] from the database, and all the profile data (products, orders, shipping methods, users, promotions, etc.) will be transferred to this company's account"
+msgstr "Łączenie dwóch kont sprzedawców usunie [company_name] z bazy danych, a wszystkie dane profilu (produkty, zamówienia, metody wysyłki, użytkownicy, promocje, itd.) zostaną przeniesione"
+
+msgctxt "Languages::all_vendors"
+msgid "All vendors"
+msgstr "Wszyscy sprzedawcy"
+
+msgctxt "Languages::apply_for_vendor_account"
+msgid "Apply for a vendor account"
+msgstr "Aplikuj o konto sprzedawcy"
+
+msgctxt "Languages::available_for_vendor"
+msgid "Available for vendor"
+msgstr "Dostępne dla sprzedawcy"
+
+msgctxt "Languages::balance_carried_forward"
+msgid "Balance carried forward"
+msgstr "Saldo do przeniesienia"
+
+msgctxt "Languages::block_vendors"
+msgid "Vendors"
+msgstr "Sprzedawcy"
+
+msgctxt "Languages::charge_to_vendor_account"
+msgid "Charge to vendor account"
+msgstr "Koszt do konta dostawcy"
+
+msgctxt "Languages::companies"
+msgid "Vendors"
+msgstr "Sprzedawcy"
+
+msgctxt "Languages::create_administrator_account"
+msgid "Create administrator account"
+msgstr "Stwórz konto administratora"
+
+msgctxt "Languages::displayed_vendors"
+msgid "Displayed vendors"
+msgstr "Wyświetlani sprzedawcy"
+
+msgctxt "Languages::editing_vendor"
+msgid "Editing vendor"
+msgstr "Edycja witryny sklepowej"
+
+msgctxt "Languages::error_admin_not_created_email_already_used"
+msgid "Administrator account was not created. The email address belongs to another user. You can add the administrator for this vendor manually."
+msgstr "Konto administratora nie zostało stworzone. Adres e-mail należy do innego użytkownika. Możesz dodać administratora dla tej firmy ręcznie."
+
+msgctxt "Languages::error_admin_not_created_name_already_used"
+msgid "Administrator account was not created. The user name belongs to another user. You should change the administrator account's name."
+msgstr "Konto administratora nie zostało stworzone. Nazwa użytkownika należy do innego użytkownika. Należy zmienić nazwę konta administratora."
+
+msgctxt "Languages::error_vendor_exists"
+msgid "The vendor with e-mail you have chosen already exists, please try another."
+msgstr "The company with e-mail you have chosen already exists, please try another."
+
+msgctxt "Languages::expenditure"
+msgid "Expenditure"
+msgstr "Rozchód"
+
+msgctxt "Languages::income"
+msgid "Income"
+msgstr "Przychód"
+
+msgctxt "Languages::manage_vendors"
+msgid "Manage vendors"
+msgstr "Zarządzanie sprzedawcami"
+
+msgctxt "Languages::new_administrator_account_created"
+msgid "New administrator account has been successfully created."
+msgstr "Nowe konto administratora zostało poprawnie stworzone."
+
+msgctxt "Languages::new_vendor"
+msgid "New vendor"
+msgstr "Nowy sprzedawca"
+
+msgctxt "Languages::notify_vendor"
+msgid "Notify vendor"
+msgstr "Powiadom sprzedawcę"
+
+msgctxt "Languages::notify_vendors_by_email"
+msgid "Notify vendors by e-mail"
+msgstr "Powiadom sprzedawcę przez e-mail"
+
+msgctxt "Languages::privileges.manage_payouts"
+msgid "Manage payouts"
+msgstr "Zarządzanie wypłatami"
+
+msgctxt "Languages::privileges.manage_vendors"
+msgid "Manage vendors"
+msgstr "Zarządzanie sprzedawcami"
+
+msgctxt "Languages::privileges.view_payouts"
+msgid "View payouts"
+msgstr "Zobacz wypłaty"
+
+msgctxt "Languages::privileges.view_vendors"
+msgid "View vendors"
+msgstr "Zobacz sprzedawców"
+
+msgctxt "Languages::privilege_sections.vendors"
+msgid "Vendors"
+msgstr "Sprzedawcy"
+
+msgctxt "Languages::sales_period"
+msgid "Sales period"
+msgstr "Okres sprzedaży"
+
+msgctxt "Languages::sales_period_total"
+msgid "Sales period total"
+msgstr "Suma za okres sprzedaży"
+
+msgctxt "Languages::search_by_vendor"
+msgid "Search by vendor"
+msgstr "Szukaj w sklepie"
+
+msgctxt "Languages::sort_by_company_asc"
+msgid "Sort by alphabetical: A to Z"
+msgstr "Sortowanie alfabetyczne: od A do Z"
+
+msgctxt "Languages::sort_by_company_desc"
+msgid "Sort by alphabetical: Z to A"
+msgstr "Sortowanie alfabetyczne: od Z do A"
+
+msgctxt "Languages::text_company_status_active_to_pending"
+msgid "Your vendor status has been changed from Active to Pending."
+msgstr "Twój status sprzedawcy został zmieniona z Aktywny na Oczekujący."
+
+msgctxt "Languages::text_company_status_disabled_to_pending"
+msgid "Your vendor status has been changed from Disabled to Pending."
+msgstr "Twój status sprzedawcy został zmieniony z Zablokowany do Oczekujący."
+
+msgctxt "Languages::text_company_status_pending"
+msgid "The Pending status allows you to log in to you admin panel, change your company information, and fill your store with products."
+msgstr "Status Oczekujący pozwala zalogować się do panelu administratora, zmienić informacje o swojej firmie i dodać do sklepu produkty."
+
+msgctxt "Languages::text_company_status_new_to_active"
+msgid "Your request for vendor [company] was approved."
+msgstr "Twoja aplikacja na sprzedawcę [company] została zatwierdzona."
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_created"
+msgid "New administrator was created. You can access to the administrator area: <a href=\"[link]\">[link_text]</a> by using the following credentials:<br />Login: [login]<br />Password: [password]"
+msgstr "Nowy administrator został stworzony. Możesz przejść do panelu administracyjnego: <a href=\"[link]\">[link_text]</a>używając danych logowania:<br />Nazwa użytkownika: [login]<br />Hasło: [password]"
+
+msgctxt "Languages::text_company_status_new_to_active_administrator_updated"
+msgid "Type of your account [login] changed to administrator. You may login into the administrator area: <a href=\"[link]\">[link_text]</a>"
+msgstr "Typ twojego konta [login] został zmieniony na administratora. Możesz się zalogować do strefy administratorskiej: <a href=\"[link]\">[link_text]</a>"
+
+msgctxt "Languages::text_company_status_new_to_active_subj"
+msgid "Your request for vendor was approved."
+msgstr "Twoje aplikacja na sprzedawcę została zatwierdzona."
+
+msgctxt "Languages::text_company_status_new_to_disable"
+msgid "Your request for vendor [company] was rejected."
+msgstr "Twoja aplikacja na sprzedawcę [company] została odrzucona."
+
+msgctxt "Languages::text_company_status_new_to_disable_subj"
+msgid "Your request for vendor was rejected."
+msgstr "Twoja aplikacja na sprzedawcę została odrzucona."
+
+msgctxt "Languages::text_company_status_new_to_pending"
+msgid "Congratulations, your application for getting a vendor account has been approved. Once we review you accont information, we will publish it on our website."
+msgstr "Gratulacje, wniosek o uzyskanie konta sprzedawcy został zatwierdzony. Po weryfikacji danych informacje zostaną opublikowane na naszej stronie internetowej."
+
+msgctxt "Languages::text_company_status_pending_subj"
+msgid "Your company is waiting for approval."
+msgstr "Twoja firma czeka na zatwierdzenie."
+
+msgctxt "Languages::text_company_status_pending_to_active"
+msgid "Your profile changes for vendor [company] were approved."
+msgstr "Twoje zmiany profilu dla sprzedawcy [company] zostały zatwierdzone."
+
+msgctxt "Languages::text_error_adding_request"
+msgid "Error while adding the request."
+msgstr "Wystąpił błąd podczas dodawania zgłoszenia."
+
+msgctxt "Languages::text_new_payment_was_created"
+msgid "New payment was created"
+msgstr "Nowa płatność została stworzona."
+
+msgctxt "Languages::text_not_approved_vendors"
+msgid "You have vendors that require your approval. Please <a href=\"[link]\">follow this link</a> to review these vendors."
+msgstr "Masz sprzedawców, którzy wymagają zatwierdzenia. Proszę kliknij <a href=\"[link]\">w ten link</a> żeby przejrzeć sprzedawców."
+
+msgctxt "Languages::text_successful_request"
+msgid "Your request was successfully added. You will receive the email with the answer later."
+msgstr "Twoje zgłoszenie zostało dodane. Później otrzymasz emaila z odpowiedzią na nie."
+
+msgctxt "Languages::total_amount_due"
+msgid "Total amount due"
+msgstr "Suma oczekujących wypłat"
+
+msgctxt "Languages::total_period_payout"
+msgid "Total sales period payout"
+msgstr "Suma wypłat za okres sprzedaży"
+
+msgctxt "Languages::total_unpaid_balance"
+msgid "Total unpaid balance"
+msgstr "Suma należności"
+
+msgctxt "Languages::tt_views_payments_update_taxes"
+msgid "If payment surcharge is taken from vendors, taxes are not calculated"
+msgstr "Jeśli dopłata do płatności jest pobierana od dostawców, podatki nie są obliczane"
+
+msgctxt "Languages::unable_delete_vendor_orders_exists"
+msgid "Unable to delete this vendor account because there are orders containing the products of this vendor in the store database. To delete the account, please delete all such orders first."
+msgstr "Unable to delete this store because there are orders containing the products of this company in the store database. To delete the account, please delete all such orders first."
+
+msgctxt "Languages::vendor"
+msgid "Vendor"
+msgstr "Sklep"
+
+msgctxt "Languages::vendors"
+msgid "Vendors"
+msgstr "Sprzedawcy"
+
+msgctxt "Languages::vendors_menu_description"
+msgid "Sorted list of vendor accounts registered in the store."
+msgstr "Posortowana lista sklepów, zarejestrowanych w systemie."
+
+msgctxt "Languages::vendor_account_balance"
+msgid "Account balance"
+msgstr "Stan konta"
+
+msgctxt "Languages::vendor_approval_pending"
+msgid "New vendor account application"
+msgstr "Nowa aplikacja o konto sprzedawcy."
+
+msgctxt "Languages::vendor_id"
+msgid "Vendor ID"
+msgstr "ID Sklepu"
+
+msgctxt "Languages::vendor_name"
+msgid "Vendor name"
+msgstr "Nazwa sprzedawcy"
+
+msgctxt "Languages::vendor_pages"
+msgid "Vendor pages"
+msgstr "Store pages"
+
+msgctxt "Languages::vendor_panel"
+msgid "Vendor panel"
+msgstr "Panel sprzedawcy"
+
+msgctxt "Languages::view_vendor_orders"
+msgid "View vendor orders"
+msgstr "Pokaż zamówienia w sklepie"
+
+msgctxt "Languages::view_vendor_products"
+msgid "View vendor products"
+msgstr "Pokaż produkty w sklepie"
+
+msgctxt "Languages::view_vendor_users"
+msgid "View vendor users"
+msgstr "Pokaż klientów w sklepie"
+
+msgctxt "Languages::you_can_edit_account_details"
+msgid "You can edit the account details now."
+msgstr "Teraz możesz edytować dane konta."
+
+msgctxt "SettingsSections::Vendors"
+msgid "Vendors"
+msgstr "Sprzedawcy"
+
+msgctxt "SettingsOptions::vendors_per_page"
+msgid "Vendors per page"
+msgstr "Ilość sprzedawców na stronę"
+
+msgctxt "SettingsOptions::apply_for_vendor"
+msgid "Allow users to apply for vendor account"
+msgstr "Aplikuj o konto sprzedawcy"
+
+msgctxt "SettingsOptions::create_vendor_administrator_account"
+msgid "Automatically create the administrator account for the new approved vendor. (If the \"Allow users to apply for vendor account\" setting is enabled)"
+msgstr "Automatycznie stwórz konto administratora dla nowo dodanego sprzedawcy (jeżeli włączona jest opcja “Zezwól użytkownikom na aplikowanie o konto sprzedawcy”)"
+
+msgctxt "SettingsOptions::display_vendor"
+msgid "Display product vendor"
+msgstr "Wyświetlaj sprzedawcę produktu"
+
+msgctxt "SettingsOptions::need_agree_with_terms_n_conditions"
+msgid "Applying vendors must agree to the terms & conditions"
+msgstr "Aplikując na sprzedawcę należy zgodzić się z warunkami sprzedaży"
+
+msgctxt "SettingsTooltips::need_agree_with_terms_n_conditions"
+msgid "The text of terms & conditions will be retrieved from the \"vendor_terms_n_conditions_content\" language variable."
+msgstr "Tekst regulaminu będzie pobierany ze zmiennej językowej \"terms_and_conditions_content\"."
+
+msgctxt "Languages::use_for_apply_for_vendor_account"
+msgid "Apply for a vendor account form"
+msgstr "Formularz aplikacji o konto sprzedawcy"
+
+msgctxt "Languages::block_vendor_categories"
+msgid "Vendor categories"
+msgstr "Kategorie sprzedawcy"
+
+msgctxt "Languages::block_vendor_categories_description"
+msgid "Product categories available to a particular vendor"
+msgstr "Kategorie produktów dostępnych dla danego sprzedawcy"
+
+msgctxt "Languages::block_vendor_information"
+msgid "Vendor information"
+msgstr "Informacje o sprzedawcy"
+
+msgctxt "Languages::block_vendor_logo"
+msgid "Vendor logo"
+msgstr "Logo sprzedawcy"
+
+msgctxt "Languages::block_vendor_search"
+msgid "Search by vendor products"
+msgstr "Szukaj według produktów sprzedawcy"
+
+msgctxt "Languages::vendor_filters"
+msgid "Vendor Product filters"
+msgstr "Filtry produktów sprzedawcy"
+
+msgctxt "Languages::vendor_products"
+msgid "Vendor products"
+msgstr "Produkty sprzedawcy"
+
+msgctxt "Languages::apply_shipping_for_all_vendors"
+msgid "Allow shipping for all vendors"
+msgstr "Zastosuj metody wysyłki dla wszystkich dostawców"
+
+msgctxt "Languages::apply_shipping_for_all_vendors_confirm"
+msgid "The shipping method will be applied to all the vendors. Are you sure you want to proceed?"
+msgstr "Metody wysyłki zostaną zastosowane do wszystkich dostawców. Czy na pewno chcesz kontynuować?"
+
+msgctxt "Languages::shipping_applied_to_vendors"
+msgid "The shipping method was applied to [vendors] vendors"
+msgstr "Zastosowano metodę wysyłki do [vendors] sprzedawów"
+
+msgctxt "Languages::block_vendor_filters"
+msgid "Vendor filters"
+msgstr "Filtry sprzedawcy"
+
+msgctxt "Languages::email_template.apply_for_vendor_notification"
+msgid "Apply for vendor"
+msgstr "Zastosuj dla dostawcy"
+
+msgctxt "Languages::email_template.company_status_notification"
+msgid "Company status change"
+msgstr "Zmiana statusu firmy"
+
+msgctxt "Languages::email_template.company_payment_notification"
+msgid "Company payment"
+msgstr "Płatności firmy"
+
+msgctxt "Languages::vendor_terms_n_conditions"
+msgid "I accept the [terms_href]"
+msgstr "Akceptuję [terms_href]"
+
+msgctxt "Languages::vendor_terms_n_conditions_name"
+msgid "Terms and Conditions"
+msgstr "Ogólne warunki handlowe"
+
+msgctxt "Languages::vendor_terms_n_conditions_alert"
+msgid "In order to proceed, you need to accept our Terms and Conditions."
+msgstr "Aby kontynuować, musisz zaakceptować regulamin."
+
+msgctxt "Languages::vendor_terms_n_conditions_content"
+msgid "<p>Please read these Terms and Conditions (\"Terms\", \"Terms and Conditions\") carefully before using the <a href=\"http://www.mywebsite.com\">http://www.mywebsite.com</a> website and the My Mobile App mobile application (the \"Service\") operated by My Company (\"us\", \"we\", or \"our\").</p><p><strong>By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the Terms then you may not access the Service.</strong></p><p><strong>Purchases</strong></p><p>If you wish to purchase any product or service made available through the Service (\"Purchase\"), you may be asked to supply certain information relevant to your Purchase including, without limitation, your ...</p><p><strong>Content</strong></p><p>Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material (\"Content\"). You are responsible for the ...</p><p><strong>Changes</strong></p><p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p><p><strong>Contact Us</strong></p><p>If you have any questions about these Terms, please contact us.</p>"
+msgstr "<p>Prosimy o uważne przeczytanie Warunków i Postanowień (\"Warunki\", \"Ogólne warunki handlowe\") przed rozpoczęciem korzystania ze sklepu <a href=\"http://www.mywebsite.com\"> http://www.mywebsite.com</a> aplikacji mobilnej (\"Usługa\") obsługiwane przez firmę (\"nas\", \"my\" lub \"nasz\").</p> <p><strong>Przez dostęp lub korzystanie z usługi użytkownik zgadza się przestrzegać niniejszych warunków. Jeśli nie zgadzasz się z jakąkolwiek częścią warunków, zamknij przeglądarkę i nie korzystaj z serwisu.</strong></p> <p><strong>Zakupy</strong></p> <p>Jeśli chcesz zakupić jakiegokolwiek produkty lub usługi dostępne za pośrednictwem usługi (\"zakup\"), możesz zostać poproszony do dostarczania niektórych informacji istotnych dla swojego zakupu w tym, bez ograniczeń, swoje...</p> <p><strong>Treści</strong></p> <p>Nasz serwis pozwala na post, linki, przechowywania, dzielenie się i inny sposób udostępniania pewnych informacji, tekstu, grafiki, filmów oraz innych materiałów (\"zawartość\"). Jesteś odpowiedzialny za...</p> <p><strong>Zmiany</strong></p> <p>Zastrzegamy sobie prawo, wedle własnego uznania, aby zmodyfikować lub zastąpić niniejsze warunki w dowolnym momencie. Jeśli dokonamy zmiany postaramy się to zrobić z co najmniej 30-dniowym wyprzedzeniem przed wejściem w życie nowych warunków. Niemniej istotne zmiany będą ustalane według naszego uznania.</p> <p><strong>Skontaktuj się z nami</strong></p> <p>Jeśli masz jakiekolwiek pytania dotyczące niniejszych warunków, prosimy o kontakt z nami.</p>"
+
+msgctxt "Languages::product_state_description.mve.new"
+msgid "<p>Full unrestricted access to all features. Enter a valid license number to activate.</p><p>This mode can be activated at any time.</p><br />"
+msgstr "<p>Pełny nieograniczony dostęp do wszystkich funkcji. Wprowadź poprawny numer licencji programu.</p> <p>Ten tryb można włączyć w każdej chwili.</p><br />"
+
+msgctxt "Languages::product_state_description.mve.full"
+msgid "<p>Full unrestricted access to all features. Enter a valid license number to activate.</p><p>This mode can be activated at any time.</p><br />"
+msgstr "<p>Pełny nieograniczony dostęp do wszystkich funkcji. Wprowadź poprawny numer licencji programu.</p> <p>Ten tryb można włączyć w każdej chwili.</p><br />"
+
+msgctxt "Languages::text_store_mode_changed_to_mve.full"
+msgid "<strong>Full mode</strong> has been activated. In this mode, all the advanced eCommerce features are available."
+msgstr "Tryb <strong>Full mode</strong> został aktywowany. W tym trybie, są dostępne wszystkie zaawansowane funkcje oprogramowania CS-Cart."
+
+msgctxt "Languages::vendor_payouts.type"
+msgid "Type"
+msgstr "Typ"
+
+msgctxt "Languages::vendor_payouts.type.other"
+msgid "Other"
+msgstr "Inne"
+
+msgctxt "Languages::vendor_payouts.type.other.description"
+msgid "Other"
+msgstr "Inne"
+
+msgctxt "Languages::vendor_payouts.type.order_placed"
+msgid "Order placed"
+msgstr "Zamówienie zostało złożone"
+
+msgctxt "Languages::vendor_payouts.type.order_placed.description"
+msgid "Order <a href=\"[order_url]\">#[order_id]</a> placed"
+msgstr "Zamówienie numer <a href=\"[order_url]\"> #[order_id]</a> zostało złożone"
+
+msgctxt "Languages::vendor_payouts.type.order_changed"
+msgid "Order changed"
+msgstr "Zamówienie zostało zmienione"
+
+msgctxt "Languages::vendor_payouts.type.order_changed.description"
+msgid "Order <a href=\"[order_url]\">#[order_id]</a> changed"
+msgstr "Zamówienie numer <a href=\"[order_url]\"> #[order_id]</a> zostało zmienione"
+
+msgctxt "Languages::vendor_payouts.type.order_refunded"
+msgid "Order refunded"
+msgstr "Zamówienie zostało zwrócone"
+
+msgctxt "Languages::vendor_payouts.type.order_refunded.description"
+msgid "Order <a href=\"[order_url]\">#[order_id]</a> refunded"
+msgstr "Zamówienie numer <a href=\"[order_url]\"> #[order_id]</a> zostało zwrócone"
+
+msgctxt "Languages::vendor_payouts.type.withdrawal"
+msgid "Withdrawal"
+msgstr "Wycofanie"
+
+msgctxt "Languages::vendor_payouts.type.withdrawal.description"
+msgid "Withdrawal"
+msgstr "Wycofanie"
+
+msgctxt "Languages::vendor_payouts.type.payout"
+msgid "Payout"
+msgstr "Wypłata"
+
+msgctxt "Languages::vendor_payouts.type.payout.description"
+msgid "Payout"
+msgstr "Wypłata"
+
+msgctxt "Languages::vendor_payouts.transactions"
+msgid "Transactions"
+msgstr "Transakcje"
+
+msgctxt "Languages::vendor_payouts.withdrawals"
+msgid "Balance withdrawals"
+msgstr "Wypłaty salda"
+
+msgctxt "Languages::vendor_payouts.transaction_value"
+msgid "Transaction value"
+msgstr "Wartość transakcji"
+
+msgctxt "Languages::vendor_payouts.income"
+msgid "Income"
+msgstr "Przychód"
+
+msgctxt "Languages::vendor_payouts.income_carried_forward"
+msgid "Income carried forward"
+msgstr "Saldo do przeniesienia"
+
+msgctxt "Languages::vendor_payouts.balance"
+msgid "Balance"
+msgstr "Saldo"
+
+msgctxt "Languages::vendor_payouts.balance_carried_forward"
+msgid "Balance carried forward"
+msgstr "Saldo do przeniesienia"
+
+msgctxt "Languages::add_withdrawal"
+msgid "Request withdrawal"
+msgstr "Żądanie wypłaty"
+
+msgctxt "Languages::new_withdrawal"
+msgid "New withdrawal"
+msgstr "Nowa wypłata"
+
+msgctxt "Languages::vendor_accounting"
+msgid "Accounting"
+msgstr "Księgowość"
+
+msgctxt "Languages::vendor_accounting_menu_description"
+msgid "Income and expenditure statistics (total income, vendor balance, vendor withdrawals)."
+msgstr "Statystyki dochodów i wydatków (całkowity dochód, saldo dostawcy, wypłaty dostawcy)."
+
+msgctxt "Languages::vendor_payouts.current_balance"
+msgid "Current balance: [balance]"
+msgstr "Aktualne saldo: [balance]"
+
+msgctxt "Languages::vendor_payouts.current_balance_text"
+msgid "Current balance"
+msgstr "Aktualne saldo"
+
+msgctxt "Languages::vendor_payouts.approval_status"
+msgid "Approval status"
+msgstr "Stan zatwierdzenia"
+
+msgctxt "Languages::vendor_payouts.approval_status.P"
+msgid "Pending"
+msgstr "Oczekująca"
+
+msgctxt "Languages::vendor_payouts.approval_status.C"
+msgid "Completed"
+msgstr "Kompletne"
+
+msgctxt "Languages::vendor_payouts.approval_status.D"
+msgid "Declined"
+msgstr "Odrzucona"
+
+msgctxt "Languages::email_template.accounting_new_payout"
+msgid "Accounting: Payout has been issued"
+msgstr "Księgowość: Wypłaty została stworzona"
+
+msgctxt "Languages::vendor_payouts.new_payout_issued"
+msgid "New payout has been issued"
+msgstr "Nowe wypłata została wykonana"
+
+msgctxt "Languages::vendor_payouts.new_payout_issued_text"
+msgid "A new payout of [amount] has been issued by [issuer]"
+msgstr "Wykonano nową wypłatę [amount] przez [issuer]"
+
+msgctxt "Languages::vendor_payouts.view_details"
+msgid "You can view the details here"
+msgstr "Można wyświetlić szczegóły w tym miejscu"
+
+msgctxt "Languages::vendor_payouts.payout_comments"
+msgid "Payout comments"
+msgstr "Komentarz do wypłaty"
+
+msgctxt "Languages::email_template.accounting_new_withdrawal"
+msgid "Accounting: Withdrawal has been requested"
+msgstr "Księgowość: Wycofanie zostało złożone"
+
+msgctxt "Languages::vendor_payouts.new_withdrawal_requested"
+msgid "New withdrawal has been requested"
+msgstr "Nowe żądanie wycofania"
+
+msgctxt "Languages::vendor_payouts.new_withdrawal_requested_text"
+msgid "A new withdrawal of [amount] has been requested by [requester]"
+msgstr "Nowe wycofanie o wartości [amount] zostało złożone przez [requester]"
+
+msgctxt "Languages::vendor_payouts.withdrawal_comments"
+msgid "Withdrawal comments"
+msgstr "Komentarz do wycofania"
+
+msgctxt "Languages::email_template.accounting_payout_approved"
+msgid "Accounting: Payout has been completed"
+msgstr "Księgowość: Wypłata została zakończona"
+
+msgctxt "Languages::vendor_payouts.payout_approved"
+msgid "Payout has been completed"
+msgstr "Wypłata została zakończona"
+
+msgctxt "Languages::vendor_payouts.payout_approved_text"
+msgid "The payout of [amount] issued on [date] has been marked as <b>Completed</b>"
+msgstr "Wypłaty w [amount] wydane w [date] zostały oznaczone jako <b>ukończone</b>"
+
+msgctxt "Languages::email_template.accounting_payout_declined"
+msgid "Accounting: Payout hasn't been completed"
+msgstr "Księgowość: Wypłata nie została zakończona"
+
+msgctxt "Languages::vendor_payouts.payout_declined"
+msgid "Payout hasn't been completed"
+msgstr "Wypłata nie została zakończona"
+
+msgctxt "Languages::vendor_payouts.payout_declined_text"
+msgid "The payout of [amount] issued on [date] has been marked as <b>Not completed</b>"
+msgstr "Wypłaty w [amount] wydane w [date] zostały oznaczone jako <b>nie zakończone</b>"
+
+msgctxt "Languages::email_template.accounting_withdrawal_approved"
+msgid "Accounting: Withdrawal has been completed"
+msgstr "Księgowość: Wycofanie zostało zakończone"
+
+msgctxt "Languages::vendor_payouts.withdrawal_approved"
+msgid "Withdrawal has been completed"
+msgstr "Przeniesienie zostało zakończone"
+
+msgctxt "Languages::vendor_payouts.withdrawal_approved_text"
+msgid "The withdrawal of [amount] requested on [date] has been marked as <b>Completed</b>"
+msgstr "Wycofanie [amount] zgłoszone dnia [date] zostało oznaczone jako <b>ukończone</b>"
+
+msgctxt "Languages::email_template.accounting_withdrawal_declined"
+msgid "Accounting: Withdrawal has been declined"
+msgstr "Księgowość: Wycofanie zostało odrzucone"
+
+msgctxt "Languages::vendor_payouts.withdrawal_declined"
+msgid "Withdrawal has been declined"
+msgstr "Przeniesienie zostało odrzucone"
+
+msgctxt "Languages::vendor_payouts.withdrawal_declined_text"
+msgid "The withdrawal of [amount] requested on [date] has been marked as <b>Declined</b>"
+msgstr "Wycofanie [amount] zgłoszony na [date] zostało oznaczone jako <b>odrzucone</b>"
+
+msgctxt "Languages::top_sellers"
+msgid "Top sellers"
+msgstr "Najlepsi sprzedawcy"
+

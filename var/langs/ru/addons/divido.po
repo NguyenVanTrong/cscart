@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/divido.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-27 03:41-0500\n"
+
+msgctxt "Addons::name::divido"
+msgid "Divido payments"
+msgstr "Платежи через Divido"
+
+msgctxt "Addons::description::divido"
+msgid "Lets customers spread the cost of any purchase over a period of time while the merchant gets paid in full right away."
+msgstr "Divido позволяет своим клиентам не оплачивать всю сумму покупки сразу, а распределить её на определённый период времени, при этом продавец получает оплату сразу после приобретения товара в полном объёме."
+
+msgctxt "Languages::addons.divido.select_currency_undefined"
+msgid "The [currency] currency is not set up in store"
+msgstr "Валюта [currency] не установлена в магазине"
+
+msgctxt "Languages::addons.divido.order_status"
+msgid "Divido status"
+msgstr "Статус заказа Divido"
+
+msgctxt "Languages::addons.divido"
+msgid "Divido"
+msgstr "Divido"
+
+msgctxt "Languages::addons.divido.pay_in_instalments"
+msgid "Pay in instalments"
+msgstr "Платить в рассрочку"
+
+msgctxt "Languages::addons.divido.choose_your_plan"
+msgid "Choose your plan"
+msgstr "Выберите Ваш план"
+
+msgctxt "Languages::addons.divido.choose_your_deposit"
+msgid "Choose your deposit"
+msgstr "Выберите Ваш депозит"
+
+msgctxt "Languages::addons.divido.monthly_payments_of"
+msgid "monthly payments of"
+msgstr "ежемесячные платежи"
+
+msgctxt "Languages::addons.divido.term"
+msgid "Term"
+msgstr "Срок"
+
+msgctxt "Languages::addons.divido.deposit"
+msgid "Deposit"
+msgstr "Депозит"
+
+msgctxt "Languages::addons.divido.cost_of_credit"
+msgid "Cost of credit"
+msgstr "Расходы по кредиту"
+
+msgctxt "Languages::addons.divido.total_payable"
+msgid "Total payable"
+msgstr "Итого к оплате"
+
+msgctxt "Languages::addons.divido.total_interest_apr"
+msgid "Total interest APR"
+msgstr "Общая годовая процентная ставка"
+
+msgctxt "Languages::addons.divido.text_redirected"
+msgid "You will be redirected to Divido to complete this finance application when you place your order"
+msgstr "После оформления заказа Вы будете перенаправлены на сайт Divido для заполнения финансового обращения"
+
+msgctxt "Languages::addons.divido.cart_amount_limit"
+msgid "Minimum order total"
+msgstr "Минимальная сумма заказа"
+
+msgctxt "Languages::addons.divido.monthly_instalment"
+msgid "Monthly instalment"
+msgstr "Ежемесячный платёж"
+
+msgctxt "Languages::ttc_addons.divido.cart_amount_limit"
+msgid "The order total has to be equal or greater than this sum, or the payment method won't be available at checkout. Leave empty if you don't want to impose this restriction."
+msgstr "Чтобы способ оплаты был доступен при оформлении заказа, сумма заказа должна равняться или превышать указанную сумму. Оставьте поле пустым для отмены данного ограничения."
+
+msgctxt "Languages::addons.divido.show_product_page_calculator"
+msgid "Show monthly payment rate on the product page"
+msgstr "Отображать размер ежемесячного платежа на странице товара"
+
+msgctxt "Languages::addons.divido.product_price_limit"
+msgid "Minimum product price"
+msgstr "Минимальная цена"
+
+msgctxt "Languages::ttc_addons.divido.product_price_limit"
+msgid "The product price has to be equal or greater than this sum, or the monthly payment rate won't appear on the product page. Leave empty if you don't want to impose this restriction."
+msgstr "Чтобы размер ежемесячного платежа отображался на странице заказа, цена товара должна равняться или превышать указанную сумму. Оставьте поле пустым для отмены данного ограничения."
+
+msgctxt "Languages::finance_code"
+msgid "Finance code"
+msgstr "Финансовый код"
+
+msgctxt "Languages::addons.divido.availability_notice"
+msgid "<b>Note:</b> Payments via Divido are only available to the residents of the United Kingdom and can only be made in pounds sterling (GBP)."
+msgstr "<b>Примечание:</b> Divido доступен только для лиц, постоянно проживающих на территории Великобритании. Платежи осуществляются только в фунтах стерлингов (GBP)."
+

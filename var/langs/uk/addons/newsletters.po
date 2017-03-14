@@ -1,0 +1,430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /addons/newsletters.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2017-02-20 09:50-0500\n"
+
+msgctxt "Addons::name::newsletters"
+msgid "Newsletters"
+msgstr "Розсилки"
+
+msgctxt "Addons::description::newsletters"
+msgid "Lets you configure newsletter sending"
+msgstr "Дозволяє створювати новини на сайті і налаштовувати новинні розсилки"
+
+msgctxt "Languages::newsletters_menu_description"
+msgid "Create and send newsletters to your customer."
+msgstr "Створення та надсилання розсилок покупцям."
+
+msgctxt "Languages::news_plain"
+msgid "Plain"
+msgstr "Звичайний"
+
+msgctxt "Languages::text_signup_for_subscriptions"
+msgid "Sign up for our newsletters!"
+msgstr "Підпишіться на наші розсилки!"
+
+msgctxt "Languages::tmpl_subscription"
+msgid "Newsletters: subscription form"
+msgstr "Поштові розсилки: форма підписки"
+
+msgctxt "Languages::unsubscribe_link"
+msgid "Unsubscribe link"
+msgstr "Посилання для скасування підписки"
+
+msgctxt "Languages::ne_add_subscribers_from_users"
+msgid "Add subscribers from the list of users"
+msgstr "Додати передплатників зі списку користувачів"
+
+msgctxt "Languages::ne_warning_subscr_email_exists"
+msgid "<b>[email]</b> is already in the subscribers list"
+msgstr "<b>[email]</b> вже є в списку розсилки"
+
+msgctxt "Languages::warning_subscribers_import"
+msgid "Some mailing lists from the input file could not be found in the database. Certain imported subscribers will be left unassigned."
+msgstr "Деякі списки розсилок, зазначені у файлі, не знайдені в базі даних. Деякі імпортовані підписники залишаться не назначеними для списків розсилок."
+
+msgctxt "Languages::subscribers_menu_item_text"
+msgid "Subscribers"
+msgstr "Підписники"
+
+msgctxt "Languages::block_mailing_lists"
+msgid "Newsletter subscription"
+msgstr "Підписка на розсилку"
+
+msgctxt "Languages::block_mailing_lists_description"
+msgid "Email field for newsletter subscription"
+msgstr "Поле для введення email для підписки на розсилку"
+
+msgctxt "Languages::privileges.view_newsletters"
+msgid "View newsletters"
+msgstr "Перегляд розсилок"
+
+msgctxt "Languages::privileges.manage_newsletters"
+msgid "Manage newsletters"
+msgstr "Керування розсилками"
+
+msgctxt "Languages::warning_newsletter_no_recipients"
+msgid "Newsletter hasn't been sent because no recipients were found matching the selected criteria."
+msgstr "Розсилка НЕ відправлена. Немає одержувачів , що задовольняють заданим критеріям."
+
+msgctxt "Languages::text_newsletter_sent"
+msgid "The newsletter(s) have been sent successfully."
+msgstr "Розсилки відправлені."
+
+msgctxt "Languages::email_cannot_be_empty"
+msgid "E-mail cannot be empty"
+msgstr "Введіть email"
+
+msgctxt "Languages::sending_email_to"
+msgid "Sending email to [email]..."
+msgstr "Відправка email на [email]..."
+
+msgctxt "Languages::text_subscriber_added"
+msgid "Your e-mail has been successfully added to our free e-mail updates list"
+msgstr "Ваш email додано до списку розсилки"
+
+msgctxt "Languages::error_email_already_subscribed"
+msgid "Your e-mail is already subscribed."
+msgstr "Ваш email вже є в списку розсилки."
+
+msgctxt "Languages::text_subscriber_removed"
+msgid "Your e-mail has been successfully removed from our free e-mail updates list"
+msgstr "Ваш email видалений зі списку розсилки"
+
+msgctxt "Languages::text_subscriber_activated"
+msgid "Your email has been successfully activated"
+msgstr "Ваш email активований"
+
+msgctxt "Languages::link_message_for_test_letter"
+msgid "The link will be displayed in a live newsletter"
+msgstr "Це посилання буде відображатися в реальній розсилці"
+
+msgctxt "Languages::newsletters"
+msgid "Newsletters"
+msgstr "Розсилки"
+
+msgctxt "Languages::autoresponders"
+msgid "Autoresponders"
+msgstr "Автовідповідачі"
+
+msgctxt "Languages::campaigns"
+msgid "Campaigns"
+msgstr "Кампаній"
+
+msgctxt "Languages::sent"
+msgid "Sent"
+msgstr "Відправлено"
+
+msgctxt "Languages::subscribers_num"
+msgid "Number of subscribers"
+msgstr "кількість підписників"
+
+msgctxt "Languages::editing_mailing_list"
+msgid "Editing mailing list"
+msgstr "Редагування списку розсилки"
+
+msgctxt "Languages::from_name"
+msgid "From name"
+msgstr "Від кого"
+
+msgctxt "Languages::from_email"
+msgid "From email"
+msgstr "Email відправника"
+
+msgctxt "Languages::reply_to"
+msgid "Reply to"
+msgstr "Email для відповіді"
+
+msgctxt "Languages::register_autoresponder"
+msgid "Confirmation email"
+msgstr "Email підтвердження"
+
+msgctxt "Languages::no_autoresponder"
+msgid "No autoresponder"
+msgstr "Без автовідповідача"
+
+msgctxt "Languages::show_on_checkout"
+msgid "Show at checkout"
+msgstr "Показувати на сторінці оформлення замовлення"
+
+msgctxt "Languages::addons.newsletters.show_on_registration_and_profile"
+msgid "Show on the Registration and Profile Details pages"
+msgstr ""
+
+msgctxt "Languages::show_on_separate_page"
+msgid "Show on separate page"
+msgstr "Показати на окремій сторінці"
+
+msgctxt "Languages::campaign_stats"
+msgid "Campaign statistics"
+msgstr "Статистика кампанії"
+
+msgctxt "Languages::add_campaign"
+msgid "Add campaign"
+msgstr "Додати кампанії"
+
+msgctxt "Languages::new_campaign"
+msgid "New campaign"
+msgstr "Нова кампанія"
+
+msgctxt "Languages::newsletter_templates"
+msgid "Newsletter templates"
+msgstr "Шаблон розсилки"
+
+msgctxt "Languages::newsletter_autoresponders"
+msgid "Newsletter autoresponders"
+msgstr "Автовідповідачі"
+
+msgctxt "Languages::subject"
+msgid "Subject"
+msgstr "Тема"
+
+msgctxt "Languages::add_newsletter"
+msgid "Add newsletter"
+msgstr "Додати розсилку"
+
+msgctxt "Languages::add_template"
+msgid "Add template"
+msgstr "Додати шаблон"
+
+msgctxt "Languages::add_autoresponder"
+msgid "Add autoresponder"
+msgstr "Додати автовідповідач"
+
+msgctxt "Languages::more_subjects"
+msgid "Random subjects (one per line)"
+msgstr "Більше тем (тема для кожного повідомлення буде обрана випадково з цього списку)"
+
+msgctxt "Languages::body_html"
+msgid "HTML body"
+msgstr "Текст листа (HTML)"
+
+msgctxt "Languages::no_template"
+msgid "No template"
+msgstr "Немає шаблону"
+
+msgctxt "Languages::load"
+msgid "Load"
+msgstr "Завантажити"
+
+msgctxt "Languages::campaign"
+msgid "Campaign"
+msgstr "Кампанії"
+
+msgctxt "Languages::send_to"
+msgid "Send to"
+msgstr "Надіслати"
+
+msgctxt "Languages::add_recipients_from_users"
+msgid "Add recipients from users"
+msgstr "Додати одержувачів зі списку користувачів"
+
+msgctxt "Languages::customers_with_abandoned"
+msgid "Customers with abandoned"
+msgstr "Покупці з незавершеними покупками"
+
+msgctxt "Languages::cart_or_wishlist"
+msgid "Cart or Wishlist"
+msgstr "Кошик або список побажань"
+
+msgctxt "Languages::which_is"
+msgid "which is"
+msgstr "протягом"
+
+msgctxt "Languages::days_old"
+msgid "days old"
+msgstr "днів"
+
+msgctxt "Languages::send_to_test_email"
+msgid "Send to test email"
+msgstr "Відправити тестове повідомлення"
+
+msgctxt "Languages::save_and_send"
+msgid "Save and send"
+msgstr "Зберети та надіслати"
+
+msgctxt "Languages::newsletter"
+msgid "Newsletter"
+msgstr "Розсилка"
+
+msgctxt "Languages::newsletter_template"
+msgid "Newsletter template"
+msgstr "Шаблон розсилки"
+
+msgctxt "Languages::newsletter_autoresponder"
+msgid "Newsletter autoresponder"
+msgstr "Автовідповідач"
+
+msgctxt "Languages::mailing_list"
+msgid "Mailing list"
+msgstr "Списки розсилок"
+
+msgctxt "Languages::confirmed"
+msgid "Confirmed"
+msgstr "Підтверджено"
+
+msgctxt "Languages::subscribed_to"
+msgid "Subscribed to [num] lists"
+msgstr "Підписаний на [num] розсилок"
+
+msgctxt "Languages::subscribed"
+msgid "Subscribed"
+msgstr "Підписаний"
+
+msgctxt "Languages::text_success_subscription"
+msgid "You have been successfully subscribed to our free e-mail updates and promotions!"
+msgstr "Ви підписані на безкоштовну розсилку про оновлення та акції!"
+
+msgctxt "Languages::text_unsubscribe_instructions"
+msgid "We respect your privacy and do not send unsolicited e-mail to users who have not requested correspondence. You have received this e-mail because you requested to receive our free updates and promotions.<br /><br /> If you wish to unsubscribe, please follow the link below:"
+msgstr "Ми поважаємо вашу приватне життя. Ми не розсилаємо email-повідомлення користувачам, які цього не просили. Ви отримали це повідомлення, тому що підписалися на нашу розсилку.<br /><br /> Щоб відписатися, пройдіть за посиланням:"
+
+msgctxt "Languages::updates_subscription"
+msgid "updates and promotions subscription"
+msgstr "Підписка на оновлення та акції"
+
+msgctxt "Languages::ult_shared_with"
+msgid "Shared with:"
+msgstr "Загальне для вітрин:"
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_from_email"
+msgid "Email of a sender."
+msgstr "Email відправника."
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_from_name"
+msgid "Name of a sender (e.g. company name)."
+msgstr "Ім'я відправника (наприклад, назва компанії)."
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_reply_to"
+msgid "Email to send replies to."
+msgstr "Email, на який відправляються відповіді."
+
+msgctxt "Languages::tt_addons_newsletters_views_newsletters_update_more_subjects"
+msgid "If several subjects are specified, email subject is randomly picked from this list."
+msgstr "Якщо задано кілька тем, тема листа випадково вибирається з цього списку."
+
+msgctxt "Languages::tt_addons_newsletters_views_newsletters_update_users"
+msgid "If the message text contains the unsubscribe link, it will be empty for these users."
+msgstr "Якщо повідомлення містить посилання для скасування підписки, воно буде порожнім для цих користувачів."
+
+msgctxt "Languages::add_mailing_lists"
+msgid "Add mailing list"
+msgstr "Додати список розсилки"
+
+msgctxt "Languages::manage_subscribers"
+msgid "Manage subscribers"
+msgstr "Керування підписниками"
+
+msgctxt "Languages::new_mailing_lists"
+msgid "New mailing list"
+msgstr "Новий список розсилки"
+
+msgctxt "Languages::newsletters.new_subscribers"
+msgid "New subscribers"
+msgstr ""
+
+msgctxt "SettingsSections::newsletters::general"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "SettingsOptions::newsletters::newsletters_per_pass"
+msgid "Newsletters sent per step"
+msgstr "Відправляти розсилок за один крок"
+
+msgctxt "SettingsOptions::newsletters::elm_advanced_mailing_server_options"
+msgid "Advanced mailing server options"
+msgstr "Розширені налаштування поштового сервера"
+
+msgctxt "SettingsOptions::newsletters::mailer_send_method"
+msgid "Method of sending e-mails"
+msgstr "Спосіб відправки пошти"
+
+msgctxt "SettingsOptions::newsletters::elm_smtp_server_settings"
+msgid "SMTP server settings"
+msgstr "Налаштування SMTP сервера"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_host"
+msgid "SMTP host"
+msgstr "SMTP-хост"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_username"
+msgid "SMTP username"
+msgstr "Ім'я користувача SMTP"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_password"
+msgid "SMTP password"
+msgstr "Пароль SMTP"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_ecrypted_connection"
+msgid "Use Encrypted Connection"
+msgstr "використовувати безпечне з'єднання"
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::none"
+msgid "None"
+msgstr "Не використовувати"
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::tls"
+msgid "TLS"
+msgstr "TLS"
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::ssl"
+msgid "SSL"
+msgstr "SSL"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_auth"
+msgid "Use SMTP authentication"
+msgstr "Використовувати SMTP автентифікацію"
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::smtp"
+msgid "via SMTP server"
+msgstr "через сервер SMTP"
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::mail"
+msgid "via php mail function"
+msgstr "за допомогою php mail функції"
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::default"
+msgid "use default settings"
+msgstr "використовувати параметри за промовчанням"
+
+msgctxt "SettingsSections::newsletters::promotions"
+msgid "Promotions"
+msgstr "Промо-акції"
+
+msgctxt "SettingsOptions::newsletters::coupon"
+msgid "Choose a promotion whose promo code will be given at subscription"
+msgstr "Вибрати промо-акцію, яка буде використовуватися при підписці"
+
+msgctxt "Languages::subscribers_promo_subject"
+msgid "Thank you for subscribing! Use the coupon code [coupon] in our special offer \"[promotion]\"."
+msgstr "Дякуємо за підписку! Використовуйте код купона [coupon] для отримання нашої спеціальної пропозиції \"[promotion]\"."
+
+msgctxt "Languages::subscribers_no_promo"
+msgid "No promotion"
+msgstr "Без промо-акції"
+
+msgctxt "Languages::promotion_cond_subscribed"
+msgid "Customer is subscribed"
+msgstr "Покупець підписаний"
+
+msgctxt "Languages::addons.newsletters.email_exists_in_list"
+msgid "<b>[email]</b> is already in the mailing list"
+msgstr ""
+
+msgctxt "Languages::email_template.newsletters_newsletter"
+msgid "Newsletter"
+msgstr ""
+
+msgctxt "Languages::email_template.newsletters_promotion"
+msgid "Newsletters: promotion"
+msgstr ""
+

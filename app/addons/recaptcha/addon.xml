@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>recaptcha</id>
+    <version>1.0</version>
+    <priority>1500</priority>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="notice" edition_type="ROOT">
+                        <type>info</type>
+                        <handler>fn_recaptcha_settings_notice_handler</handler>
+                    </item>
+                    <item id="recaptcha_site_key" edition_type="ROOT">
+                        <type>input</type>
+                    </item>
+                    <item id="recaptcha_secret" edition_type="ROOT">
+                        <type>input</type>
+                    </item>
+                    <item id="recaptcha_theme">
+                        <type>selectbox</type>
+                        <default_value>light</default_value>
+                        <variants>
+                            <item id="light">
+                            </item>
+                            <item id="dark">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="recaptcha_size">
+                        <type>selectbox</type>
+                        <default_value>normal</default_value>
+                        <variants>
+                            <item id="normal">
+                            </item>
+                            <item id="compact">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="recaptcha_type">
+                        <type>selectbox</type>
+                        <default_value>image</default_value>
+                        <variants>
+                            <item id="image">
+                            </item>
+                            <item id="audio">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="settings_proxy">
+                        <type>info</type>
+                        <handler>fn_recaptcha_image_verification_settings_proxy</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

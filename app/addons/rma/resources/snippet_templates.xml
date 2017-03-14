@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<snippets scheme="1.0">
+    <item>
+        <type>order_invoice</type>
+        <code><![CDATA[returned_products_table]]></code>
+        <template/>
+        <default_template><![CDATA[{% if products_table.rows %}<table width="100%" cellpadding="0" cellspacing="1" style="border-collapse: separate; border-spacing: 1px; background-color: #dddddd; margin-top: 20px;">
+
+<thead>
+    <tr>
+
+        {% for  header in products_table.headers %}
+            <th style="background-color: #eeeeee; padding: 6px 10px; white-space: nowrap; font-size: 12px; font-family: Arial;">{{ header }}</th>
+        {% endfor %}
+    </tr>
+</thead>
+<tbody>
+    {% for  row in products_table.rows %}
+        <tr>
+            {% for  column in row %}
+                <td style="padding: 5px 10px; background-color: #ffffff; font-size: 12px; font-family: Arial;">{{ column }}</td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+</tbody>
+</table>
+{% endif %}]]></default_template>
+        <status><![CDATA[D]]></status>
+        <name>
+            <en><![CDATA[Returned products table]]></en>
+            <ru><![CDATA[Таблица товаров на возврат]]></ru>
+        </name>
+        <params>
+            <used_table>1</used_table>
+            <variable_schema><![CDATA[order_returned_products_table]]></variable_schema>
+        </params>
+        <addon><![CDATA[rma]]></addon>
+        <handler><![CDATA[fn_rma_init_snippet_returned_products_table_variable]]></handler>
+        <extra>
+            <table_columns>
+                <item>
+                    <code><![CDATA[code]]></code>
+                    <position>10</position>
+                    <template/>
+                    <addon><![CDATA[rma]]></addon>
+                    <default_template><![CDATA[<p>{{ p.product_code }}</p>]]></default_template>
+                    <status><![CDATA[A]]></status>
+                    <name>
+                        <en><![CDATA[Code]]></en>
+                        <ru><![CDATA[Код]]></ru>
+                    </name>
+                </item>
+                <item>
+                    <code><![CDATA[name]]></code>
+                    <position>20</position>
+                    <template/>
+                    <addon><![CDATA[rma]]></addon>
+                    <default_template><![CDATA[<div style="float:left;">{{ p.image }}</div><div><p>{{ p.name }}</p><p>{{ p.options }}</p></div>]]></default_template>
+                    <status><![CDATA[A]]></status>
+                    <name>
+                        <en><![CDATA[Returned product]]></en>
+                        <ru><![CDATA[Возвращаемый товар]]></ru>
+                    </name>
+                </item>
+                <item>
+                    <code><![CDATA[amount]]></code>
+                    <position>30</position>
+                    <template/>
+                    <addon><![CDATA[rma]]></addon>
+                    <default_template><![CDATA[<p>{{ p.amount }}</p>]]></default_template>
+                    <status><![CDATA[A]]></status>
+                    <name>
+                        <en><![CDATA[Quantity]]></en>
+                        <ru><![CDATA[Кол-во]]></ru>
+                    </name>
+                </item>
+                <item>
+                    <code><![CDATA[subtotal]]></code>
+                    <position>40</position>
+                    <template/>
+                    <addon><![CDATA[rma]]></addon>
+                    <default_template><![CDATA[<p>{{ p.display_subtotal }}</p>]]></default_template>
+                    <status><![CDATA[A]]></status>
+                    <name>
+                        <en><![CDATA[Subtotal]]></en>
+                        <ru><![CDATA[Подытог]]></ru>
+                    </name>
+                </item>
+            </table_columns>
+        </extra>
+    </item>
+    <item>
+        <type>order_summary</type>
+        <code><![CDATA[returned_products_table]]></code>
+        <template/>
+        <default_template><![CDATA[{% if products_table.rows %}<table width="100%" cellpadding="0" cellspacing="1" style="border-collapse: separate; border-spacing: 1px; background-color: #dddddd; margin-top: 20px;">
+
+<thead>
+    <tr>
+
+        {% for  header in products_table.headers %}
+            <th style="background-color: #eeeeee; padding: 6px 10px; white-space: nowrap; font-size: 12px; font-family: Arial;">{{ header }}</th>
+        {% endfor %}
+    </tr>
+</thead>
+<tbody>
+    {% for  row in products_table.rows %}
+        <tr>
+            {% for  column in row %}
+                <td style="padding: 5px 10px; background-color: #ffffff; font-size: 12px; font-family: Arial;">{{ column }}</td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+</tbody>
+</table>
+{% endif %}]]></default_template>
+        <status><![CDATA[D]]></status>
+        <name>
+            <en><![CDATA[Returned products table]]></en>
+            <ru><![CDATA[Таблица товаров на возврат]]></ru>
+        </name>
+        <params>
+            <used_table>1</used_table>
+            <variable_schema><![CDATA[order_returned_products_table]]></variable_schema>
+        </params>
+        <addon><![CDATA[rma]]></addon>
+        <handler><![CDATA[fn_rma_init_snippet_returned_products_table_variable]]></handler>
+        <extra>
+            <table_columns>
+                <item>
+                    <code><![CDATA[code]]></code>
+                    <position>10</position>
+                    <template/>
+                    <addon><![CDATA[rma]]></addon>
+                    <default_template><![CDATA[<p>{{ p.product_code }}</p>]]></default_template>
+                    <status><![CDATA[A]]></status>
+                    <name>
+                        <en><![CDATA[Code]]></en>
+                        <ru><![CDATA[Код]]></ru>
+                    </name>
+                </item>
+                <item>
+                    <code><![CDATA[name]]></code>
+                    <position>20</position>
+                    <template/>
+                    <addon><![CDATA[rma]]></addon>
+                    <default_template><![CDATA[<div style="float:left;">{{ p.image }}</div><div><p>{{ p.name }}</p><p>{{ p.options }}</p></div>]]></default_template>
+                    <status><![CDATA[A]]></status>
+                    <name>
+                        <en><![CDATA[Returned product]]></en>
+                        <ru><![CDATA[Возвращаемый товар]]></ru>
+                    </name>
+                </item>
+                <item>
+                    <code><![CDATA[amount]]></code>
+                    <position>30</position>
+                    <template/>
+                    <addon><![CDATA[rma]]></addon>
+                    <default_template><![CDATA[<p>{{ p.amount }}</p>]]></default_template>
+                    <status><![CDATA[A]]></status>
+                    <name>
+                        <en><![CDATA[Quantity]]></en>
+                        <ru><![CDATA[Кол-во]]></ru>
+                    </name>
+                </item>
+                <item>
+                    <code><![CDATA[subtotal]]></code>
+                    <position>40</position>
+                    <template/>
+                    <addon><![CDATA[rma]]></addon>
+                    <default_template><![CDATA[<p>{{ p.display_subtotal }}</p>]]></default_template>
+                    <status><![CDATA[A]]></status>
+                    <name>
+                        <en><![CDATA[Subtotal]]></en>
+                        <ru><![CDATA[Подытог]]></ru>
+                    </name>
+                </item>
+            </table_columns>
+        </extra>
+    </item>
+</snippets>
